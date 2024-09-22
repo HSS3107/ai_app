@@ -1,0 +1,81 @@
+name: Docker Build and Push
+
+# Trigger the workflow on push to the main branch
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: github.repository == 'HSS3107/ai_app'
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the code from the repository
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      # Log in to Docker Hub using secrets
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      # Build the Docker image
+      - name: Build the Docker image
+        working-directory: ai_project
+        run: |
+          docker build -t transcript-analyzer -f docker/prod/Dockerfile .
+
+      # Tag the Docker image
+      - name: Tag the Docker image
+        run: |
+          docker tag transcript-analyzer:latest ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
+
+      # Push the Docker image to Docker Hub
+      - name: Push the Docker image
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      # Check out the repository
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      # Set up SSH access to the remote server
+      - name: Install SSH key
+        uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      # Deploy to the remote server
+      - name: Deploy the Docker container
+        run: |
+          ssh -o StrictHostKeyChecking=no drolkrad@82.180.146.7 << 'EOF'
+            docker pull ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
+            docker stop transcript-analyzer || true
+            docker rm transcript-analyzer || true
+            docker run -d --restart unless-stopped --name transcript-analyzer -p 8001:8000 \
+              -e OPENAI_API_KEY='${{ secrets.OPENAI_API_KEY }}' \
+              -e OPENAI_API_KEY01='${{ secrets.OPENAI_API_KEY01 }}' \
+              -e PINECONE_API_KEY_1='${{ secrets.PINECONE_API_KEY_1 }}' \
+              -e PINECONE_API_ENV='${{ secrets.PINECONE_API_ENV }}' \
+              -e PINECONE_INDEX_NAME='${{ secrets.PINECONE_INDEX_NAME }}' \
+              -e IKANOON_API_TOKEN='${{ secrets.IKANOON_API_TOKEN }}' \
+              -e GOOGLE_APPLICATION_CREDENTIALS='${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}' \
+              -e YOUTUBE_API_KEY='${{ secrets.YOUTUBE_API_KEY }}' \
+              -e DATABASE_NAME='${{ secrets.DATABASE_NAME }}' \
+              -e DATABASE_USER='${{ secrets.DATABASE_USER }}' \
+              -e DATABASE_PASSWORD='${{ secrets.DATABASE_PASSWORD }}' \
+              -e DATABASE_HOST='${{ secrets.DATABASE_HOST }}' \
+              -e DATABASE_PORT='${{ secrets.DATABASE_PORT }}' \
+              ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
+          EOF
+          

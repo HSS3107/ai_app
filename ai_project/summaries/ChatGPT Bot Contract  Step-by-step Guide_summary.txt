@@ -1,0 +1,27 @@
+This video transcript titled "ChatGPT Bot Contract | Step-by-step Guide" is published on the Web3 Solutions channel. The video provides detailed instructions on how to create and operate an Ethereum sniping bot using AI-powered ChatGPT. The overall tone of the video is informative and instructive.
+
+The main points discussed in the video are as follows:
+
+1. Download MetaMask Extension: The first step is to download the MetaMask extension, which is a web3 wallet and gateway to blockchain applications.
+
+2. Access Remix: Users are instructed to access Remix, a web3 application that allows the development, compilation, deployment, and launch of smart contracts coded in Solidity.
+
+3. Create a New File: In Remix, users are advised to create a new file in the 'Contracts' folder and rename it with a .sol extension, which is the Ethereum programming language.
+
+4. Paste the Code: The video provides a link to a code snippet from ChatGPT, which is then pasted into Remix.
+
+5. Compile and Deploy the Bot: Users are guided to compile the bot in the Solidity compiler tab in Remix. After compilation, they can deploy the bot by selecting 'Injected Provider' as the environment and clicking 'Deploy'. This requires approving the MetaMask contract creation fee.
+
+6. Fund the Bot: Users are instructed to fund their bot with more than 0.5 ETH to be able to frontrun transactions.
+
+7. Start and Stop the Bot: After the transaction is confirmed, users can click the 'Start' button to run the bot and monitor the blockchain for sniping opportunities. To stop the bot and withdraw funds, they can click the 'Withdraw' button.
+
+The video also addresses a common question about restoring the old contract. Users can restore access to the contract by entering its address in the 'At Address' field in Remix.
+
+The key quote from the video is "Enjoy your viewing, alright, let's start." This quote sets the tone for the instructional nature of the video.
+
+The overall sentiment of the video is informative and helpful, as it provides step-by-step guidance on creating and operating an Ethereum sniping bot.
+
+The main takeaway from the video is that users can leverage AI-powered ChatGPT to create a sniping bot that monitors the blockchain for trading opportunities. By following the provided instructions, users can set up their own bot and potentially generate passive income through trading.
+
+The video concludes by inviting viewers to like and subscribe to the channel and to message the creator on Telegram for more information on making money with Web3 tools.
