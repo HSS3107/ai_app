@@ -1,0 +1,21 @@
+In the video titled "Is Your Job AI-safe? Which Jobs Will Be Affected By AI?" on the Firstpost channel, host Palki Sharma discusses the impact of artificial intelligence (AI) on jobs. The video starts by addressing the fear among engineers that AI will make them lose their jobs, but questions the validity of this concern. According to an IMF report, AI could affect 40% of all jobs worldwide by 2025. Sharma explores which jobs are safe from AI and how individuals can AI-proof their careers.
+
+The video highlights several key points and quotes:
+
+1. Concern about the lack of AI skills among engineers: Sharma mentions that India produces 1.5 million engineers annually, but only around 2,000 of them have the ability to build a core AI product. This emphasizes the need for more AI talent.
+
+2. The significant impact of AI on jobs: The IMF report states that AI will affect 40% of all jobs in the future, highlighting the transformative potential of this technology.
+
+3. Engineers' concern and upskilling: 67% of India's engineers fear that AI will take their jobs, and 87% are considering upskilling to stay relevant in the job market. This shows the awareness among engineers about the potential impact of AI and their proactive approach to acquiring new skills.
+
+4. Scarcity of AI talent: Despite the increasing demand for AI products and innovations, there is a limited number of people who possess the necessary AI skills. This scarcity of AI talent creates opportunities for those who can acquire these skills.
+
+5. Potential automation of engineering jobs: Estimates suggest that nearly 40% of all engineering jobs could be automated in the next decade. This validates the concerns expressed by engineers about the negative impact of AI on their careers.
+
+6. Upskilling as a solution: Upskilling is seen as a way to secure careers in the face of AI automation. Engineers believe that acquiring hard skills and knowledge of generative AI can help them stay relevant in the job market.
+
+7. AI's impact on various industries: AI not only threatens engineering jobs but also technical writing, legal assistance, market research, and more. This highlights the broad range of jobs that could be affected by AI automation.
+
+8. Disproportionate impact on certain groups: Women, young workers, and low-paid individuals are likely to be the most affected by AI automation, raising concerns about potential inequalities in the job market.
+
+The overall tone of the video is neutral and informative. It presents the potential risks and opportunities associated with AI in a balanced manner, acknowledging both the concerns and potential benefits. The main takeaway is that AI will reshape the world of employment in the coming years, with some jobs becoming redundant while new jobs emerge. The video emphasizes the importance of upskilling to adapt to the changing job market and secure one's career in the face of AI automation.

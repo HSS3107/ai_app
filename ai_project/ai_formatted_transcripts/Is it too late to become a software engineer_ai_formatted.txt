@@ -1,0 +1,200 @@
+Speaker: Stevo The Dev
+
+Sentiment: Neutral
+
+Stevo: Hey everyone, Stevo here. Today we're going to tackle the question that's been on a lot of people's minds - is it too late to become a software engineer? With the current state of the tech industry, job scarcity, and the rise of AI, it's a valid concern for many.
+
+Sentiment: Concerned
+
+Stevo: Let's dive into why we're facing these challenges in the tech industry and explore some potential solutions for those who are determined to pursue a career in software engineering.
+
+Sentiment: Encouraging
+
+Stevo: Make sure to like and subscribe for more content from me. And if you want to delve deeper into related topics, check out some of my recent videos on junior developers contributing to open source, the impact of AI on software engineers, and tips for landing a tech job in 2024.
+
+Sentiment: Informative
+
+[00:00:00] Stevo: Over the last couple of videos that I've made, I've noticed a bit of a trend. People are not confident in the software tech industry right now. (Neutral)
+
+[00:00:11] Stevo: Software engineers, software developers, or anyone in tech really, are seeing a lot of layoffs. We're seeing AI come into the fold as well. (Neutral)
+
+[00:00:19] Stevo: People trying to get into the industry for the first time are seeing all this from an outside perspective and understandably, it's rocking their confidence a little bit. (Neutral)
+
+[00:00:26] Stevo: They're questioning if they're going down the wrong path and wasting their time. (Neutral)
+
+[00:00:32] Stevo: It's a common trend I'm seeing a lot, so I want to address that in this video and go over a few things that are going on in the industry. (Neutral)
+
+[00:00:40] Stevo: I'll talk about what I think of them, what's happening, my opinion, and solutions to that. (Neutral)
+
+[00:00:49] Stevo: Ultimately, I'll discuss if it's even worth trying to get into this industry if you don't have any background in it. (Neutral)
+
+[00:00:53] Stevo: If you're new to the channel, hello, I'm Stevo. I talk about my journey into tech and things I've experienced and learned. (Neutral)
+
+[00:01:05] Stevo: I try to give back to you guys who are trying to get in for the first time, and that's effectively what the channel's been about so far. (Neutral)
+
+[00:01:14] Stevo: Thank you for all the support on the recent videos as well. I've seen a lot of new people coming in, especially to... (Grateful)
+
+[00:01:16] Stevo: Thank you for all the support on the recent videos. It's been great to see new people coming in, especially to the video where I talked about being laid off last year. (Appreciative)
+
+[00:01:33] Stevo: Just to clarify, I have a job now. I had one before I even made the video. Thanks for asking. (Neutral)
+
+[00:01:47] Stevo: The job market is tough right now. Companies are cutting back, and the economy isn't in a good place. Tech, in particular, is feeling the effects as companies are mainly looking for experienced professionals. (Concerned)
+
+[00:02:19] Stevo: Innovation in tech is impacted by the economy. When things are good, innovation thrives, but in tough times, companies focus on safe investments. We need to get the economy back on track for innovation to pick up again. (Cautiously optimistic)
+
+[00:02:34] Speaker: The speaker discusses the cyclical nature of the economy and how it impacts the tech industry. (Neutral)
+[00:02:36] Speaker: Mentions the rise and fall of economies and how it affects tech jobs. (Neutral)
+[00:02:50] Speaker: Tech industry follows economic trends, can be volatile. Mentions past events like the dotcom bubble and the 2008 financial crash. (Neutral)
+[00:03:11] Speaker: Notes that tech industry tends to follow the economy, leading to layoffs in bad times and an abundance of jobs in good times. (Neutral)
+[00:03:24] Speaker: Describes the recent trend of companies being more cautious with investments due to the current economic situation. (Neutral)
+[00:03:56] Speaker: Companies are starting to save money and not invest as much due to the lower cycle of the economy. (Neutral)
+
+[00:03:51] Speaker: The speaker discusses the current economic cycle where people are saving money and not investing in new talent, possibly due to economic hardships. (Neutral)
+
+[00:03:59] Speaker: The speaker mentions how AI may play a role in this trend but will address it later. (Neutral)
+
+[00:04:16] Speaker: Companies were heavily investing in new talent in 2021, leading to over-hiring and now facing economic challenges, resulting in layoffs. (Neutral)
+
+[00:04:37] Speaker: Companies previously trained new hires and forced business growth, but now struggle to sustain these actions due to economic constraints. (Neutral)
+
+[00:04:55] Speaker: Economic hardships have led to layoffs as clients aren't buying, impacting the availability of junior roles in the market. (Negative)
+
+[00:05:13] Speaker: There have been very few new junior roles in the UK market recently, and this trend may continue until there are economic changes. (Neutral)
+
+Stevo The Dev:
+- [00:05:16] Comparing to the last couple of years, the industry is likely to remain the same for a while. (Neutral)
+- [00:05:20] Companies are hesitant to hire entry-level or junior positions without experience to minimize risk. (Neutral)
+- [00:05:45] Companies prioritize safe investments in experienced individuals rather than taking a chance on newcomers. (Neutral)
+- [00:06:10] While not impossible, it's significantly harder for individuals without experience to break into the industry. (Neutral)
+- [00:06:34] Newcomers are seen as unknown entities, making companies reluctant to take risks on them. (Neutral)
+- [00:06:37] Hiring decisions are typically not personal but based on minimizing risk for the company. (Neutral)
+
+Stevo The Dev:
+- Companies are hesitant to take risks on inexperienced individuals, not personal, but due to lack of experience. (Neutral)
+- AI is overhyped, useful as a tool for tasks like code completion, but not a replacement for human skills. (Neutral)
+
+Stevo The Dev:
+
+[00:07:57] The use of AI in software engineering is not meant to take your job but to assist in doing your job. (Neutral)
+
+[00:08:01] Tools like Auto completion are very handy, but they are not yet capable of completely replacing the human process. (Neutral)
+
+[00:08:17] AI is not currently capable of replicating the skills of a software engineer or someone who requires problem-solving abilities. (Neutral)
+
+[00:08:36] There is a video discussing the limitations of AI in replicating human skills, although it was not the best due to illness during filming. (Neutral)
+
+[00:08:51] AI may become more capable of impressive feats in the future as it advances, but it is currently overhyped. (Neutral)
+
+[00:09:01] Many new companies are focusing on AI products, receiving heavy investment due to the appeal of AI technology. (Neutral)
+
+Stevo The Dev:
+
+[00:09:19] Speaker: The speaker discusses the heavy investment in AI in many companies, highlighting the hype surrounding AI and the industry's current focus on AI-related growth.
+
+[00:09:41] Speaker: The speaker clarifies that the investment in AI does not signify the end for software engineers, emphasizing the continued need for software engineers in building new products and utilizing AI as an assisting tool.
+
+[00:10:24] Speaker: The speaker emphasizes the importance of various roles in the software development process, including testers, product owners, stakeholders, and consumers, stating that the entire business process is necessary for bringing a product to market and improving it based on feedback.
+
+Speaker: Stevo The Dev
+
+[00:10:35] Engineers can then take those requirements and build on that. This process is still very much applicable and will always be applicable for the foreseeable future. (Neutral)
+[00:10:49] AI is there to assist in that process. (Neutral)
+[00:10:55] People are struggling to get jobs largely because companies are derisking and AI is hyped. (Neutral)
+[00:11:12] Juniors themselves might be thinking they missed the boat in this oversaturated market. (Neutral)
+[00:11:27] There is an oversaturation of juniors in the market compared to available job positions. (Neutral)
+[00:11:35] People are struggling to find roles due to the oversaturation. (Neutral)
+[00:11:38] Solution number one is not trying to fulfill every job requirement. (Neutral)
+[00:11:55] Job requirements are often referred to as wish lists, especially in an oversaturated market. (Neutral)
+
+Stevo The Dev:
+[00:12:00] There will be a ton of competition in this oversaturated market. It's important to fulfill as many requirements as possible, but it's not necessary to know everything on the list. They're looking for a good fit with experience who can demonstrate good problem-solving skills and work well with others.
+Sentiment: Neutral
+
+[00:12:45] Instead of trying to learn everything on job requirement lists, specialize in particular technologies or industries that interest you. Focus on fundamentals like JavaScript, HTML, CSS, frameworks, and deploying websites, then specialize further.
+Sentiment: Encouraging
+
+Stay tuned for the continuation in the next part.
+
+[00:13:20] Speaker: The speaker advises focusing on a particular language or framework and building specific types of projects with a theme or interest to specialize and become an expert. Sentiment: Positive
+
+[00:13:44] Speaker: It's important to work towards what you ultimately want to do as changing later can be difficult once you specialize in certain technologies. Sentiment: Cautious
+
+[00:14:13] Speaker: The recommendation is to pick what you're passionate about and become really good at it to stand out from the crowd. Specializing in something makes you stand out more than being a jack of all trades. Sentiment: Encouraging
+
+[00:14:41] Speaker: Focus on getting really good at the things you want to excel in, rather than trying to do everything moderately well to differentiate yourself. Sentiment: Motivational
+
+This chunk continues in the next part.
+
+Stevo The Dev:
+
+[00:14:45] Speaker: The speaker expresses surprise at the number of people who try to meet all the requirements for a job but only at a moderate level, wasting time in the process.
+
+[00:15:02] Speaker: It is emphasized that getting an entry-level job is not the only path to success in the field. Building personal projects and gaining experience through hobby projects is mentioned as a valuable alternative.
+
+[00:15:37] Speaker: Collaborating with others, working on open source projects, and pursuing one's passion are highlighted as important ways to gain experience and knowledge in the field.
+
+[Stevo The Dev]
+[00:15:57] Passionate about specific products, gaining experience with technologies.
+[00:15:59] Excitement for projects, not solely for job prospects.
+[00:16:01] Experience with front-end technologies, like making websites.
+[00:16:05] Freelancing can provide valuable experience.
+[00:16:09] Building a portfolio for potential clients.
+[00:16:13] Freelancing as a way to showcase skills.
+[00:16:19] Opportunities with WordPress for website setups.
+[00:16:24] Clients often seek help with brochure websites.
+[00:16:32] Building trust and a client base is crucial.
+[00:16:41] Importance of networking and collaborating with others.
+[00:17:03] Networking is key for personal and professional growth.
+
+Stevo The Dev:
+[00:17:11] Collaboration and working in teams is important for gaining experience and demonstrating project work. (Neutral)
+[00:17:45] Utilizing tools like kanban boards and estimating work velocity are essential in agile environments. (Neutral)
+[00:18:15] Demonstrating familiarity with agile principles can be beneficial in interviews, especially for junior positions. (Positive)
+
+[00:18:32] Speaker: The speaker discusses the importance of experience with working in teams and projects, mentioning questions about agile methods and project management tools.
+[00:18:54] Speaker: It's important to have knowledge of best practices in agile methodologies as it is commonly used in many companies.
+[00:19:11] Speaker: Companies expect employees to know how to work with agile methodologies, which can be gained through collaboration with others.
+[00:19:24] Speaker: Networking is essential, and platforms like LinkedIn can help connect with others in the industry to collaborate and learn from each other.
+
+[00:19:45] Speaker: The speaker discusses the benefits of using LinkedIn to connect with others in the tech industry, promote projects, and engage with recruiters.
+[00:20:15] Speaker: Emphasizes the importance of in-person networking events like meetups to engage with others in the industry and potentially find job opportunities or collaborate on projects.
+[00:21:04] Speaker: Highlights the significance of networking and how it can lead to unexpected opportunities in the future.
+
+Stevo The Dev:
+[00:21:04] Networking is crucial. By exposing yourself to others in the industry, you increase your chances of success. It's important to make yourself known and not stay in your own bubble. Networking, talking to everyone, and collaborating can lead to unexpected opportunities. My first job came through networking on LinkedIn during a tough job market. I reached out to people on LinkedIn when I couldn't find applicable roles at my skill level.
+
+[00:22:24] (Speaker unknown): I started contacting people on LinkedIn who were in web Technologies.
+
+[00:22:31] (Speaker unknown): I contacted a guy I knew from a web marketing agency, even though my first role was in sales.
+
+[00:22:46] (Speaker unknown): I applied to work for them in sales before, but it didn't work out. 
+
+[00:23:00] (Speaker unknown): I messaged him out of the blue and told him about my projects and skills in web development.
+
+[00:23:30] (Speaker unknown): I asked if his company was looking for a web developer, and he replied positively.
+
+[00:23:47] (Speaker unknown): He looked at my work and thought it was cool, just a year after our previous interaction.
+
+[00:23:52] Speaker: The speaker expresses excitement about the progress made in a short amount of time.
+[00:23:56] Speaker: Impressed by the individual's ability to learn quickly.
+[00:24:03] Speaker: Describes the individual as enthusiastic and adept at learning.
+[00:24:11] Speaker: Refers to the person who helped secure the job.
+[00:24:16] Speaker: Mentions the person as a good friend.
+[00:24:23] Speaker: The individual's work impressed the potential employer.
+[00:24:29] Speaker: Recounts how the job opportunity came about unexpectedly.
+[00:24:32] Speaker: The company wasn't actively hiring but had a need for technical expertise.
+[00:24:48] Speaker: Clients were requesting custom apps, prompting the company to consider hiring a developer.
+[00:25:06] Speaker: Emphasizes the importance of networking and being in the right place at the right time.
+
+[00:25:06] Stevo: I just happened to show up at the right time and come knocking. The point of this story is, you never know what kind of opportunities are going to come up. Networking, LinkedIn, in-person events, and even open source can lead to unexpected opportunities. It's important to put yourself out there and collaborate with others. 
+
+[00:25:50] Stevo: To wrap up, the question of whether it's too late to become a software engineer has been asked before, and the answer remains the same: No, it's not too late. Learning to code is still accessible and easier than ever with the abundance of resources available. While it may be harder to secure a job in the current market, there's always a way to create your path in tech.
+
+[00:26:24] Stevo: "Now, yes, there's no denying that. It is objectively harder to get a job right now. But there's always a way, there's always a way to create your own experience and find your way in. There's always something somewhere that you can do to create opportunities for yourself. And it's maybe not the most obvious path, but I mean, is it ever, right? For most people, people in the past obviously were very lucky with how easy it was to just walk into some of these jobs without any experience whatsoever. It was an era that has come and gone, and even before that, it was also difficult to get a job in tech, you know, back in sort of, you know, after the dotcom bubble and things like that, no one was hiring developers then either. As I said at the start of the video, it largely comes and goes in waves with the economy. And yeah, it's always been worth it regardless. So yeah, that's my take on the whole thing. If you have any concerns, if there's any questions that haven't been asked and answered here about whether software engineering is worth it for any particular reason, if you have anything on your mind that is putting you off the idea but you're not sure, then leave it in the comments by all means. And hopefully I'll get back to you. I'd love to see if there's any other apprehensions people have about getting into the industry now. If you like the video, of course, like, subscribe if you haven't already as well. And I will be..."
+
+Stevo The Dev:
+[00:27:51] "I've been away for a little bit due to personal stuff, but I'm getting to a place now where I can start making videos more often again."
+(Sentiment: Neutral)
+
+[00:28:22] "Hopefully, you'll see more of me soon. Like I said, like, subscribe, and I will see you in the next one. Bye for now."
+(Sentiment: Positive)

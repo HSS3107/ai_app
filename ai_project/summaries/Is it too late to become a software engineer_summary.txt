@@ -1,0 +1,14 @@
+In the video titled "Is it too late to become a software engineer?" by Stevo The Dev, the main topic discussed is the concern surrounding the current state of the tech industry and job scarcity, and whether it is still a viable career path for newcomers. 
+Stevo addresses this concern by exploring the challenges in the tech industry and providing potential solutions and advice for those determined to pursue a career in software engineering. 
+
+The video begins with Stevo acknowledging the valid concerns many individuals have about entering the tech industry due to job scarcity and the rise of AI. He encourages viewers to delve deeper into related topics by checking out his previous videos on junior developers contributing to open source, the impact of AI on software engineers, and tips for landing a tech job in 2024. 
+
+Stevo discusses the challenges faced by the tech industry, such as layoffs, AI integration, and the current economic state. He explains that companies are cutting back and mainly looking for experienced professionals, which makes it harder for newcomers to break into the industry. However, he emphasizes that AI is not meant to replace software engineers but rather assist in their work. 
+
+The speaker also addresses the oversaturation of juniors in the market and advises newcomers to focus on fulfilling as many requirements as possible, specializing in specific technologies or industries that interest them, and building a strong portfolio. He highlights the importance of networking, collaborating with others, and gaining experience through personal and hobby projects. He also mentions the significance of having knowledge of agile methodologies and best practices in the tech industry. 
+
+Stevo shares a personal experience of how networking on LinkedIn helped him secure a job during a tough job market. He emphasizes the importance of making yourself known and not staying in your own bubble, as networking and collaborating can lead to unexpected opportunities. 
+
+Overall, the tone of the video is concerned but encouraging. While there are challenges and uncertainties in the tech industry, Stevo provides practical advice and solutions for those who are determined to pursue a career in software engineering. 
+
+The main takeaway from the video is that although it may be more challenging for newcomers to enter the tech industry, it is not impossible. By specializing in specific technologies, building a strong portfolio, networking, and gaining experience through personal projects, individuals can increase their chances of success. The video encourages viewers to stay determined and proactive in their pursuit of a career in software engineering.

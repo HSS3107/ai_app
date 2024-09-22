@@ -1,0 +1,374 @@
+[00:00:00] Clément Mihailescu: What's up everybody, how's it going? In this video I'm going to share my honest thoughts about the current software engineering Market in 2024. I figure that the best way to do that is to share first my unfiltered negative thoughts about the software engineering Market in 2024 and then to share my unfiltered positive thoughts about the market right now. Then we can kind of combine the two thoughts together and come to a conclusion. So with that said, I have to give you a warning. The first half of this video is going to be quite negative. So if you're feeling down right now, if you're struggling to get a job or something, I would encourage you to watch the entire video because the first half is definitely not going to motivate you or make you feel any better. It's going to probably make you feel even worse. But I do think that this is the best way to share my honest thoughts about the market. So with that said, the negative thoughts about the software engineering industry right now. What is so negative about it? Well, to put it simply, I think it comes down to right now is a brutal time to find a job as a software engineer, particularly for the software engineers that fall in the bracket of no work experience all the way to four to five years of work experience, which is basically senior software engineer at that point. So very, very brutal to get a job as a software engineer, especially in that bracket. And what makes this even worse, the really depressing part of this is that honestly, I don't think it's going to get better anytime soon, if ever. Like there's a world where it doesn't get better than right now. Now, in order to understand why it's so brutal right now, we have to rewind the clock a little bit and go back to the Golden Era of tech, which I'd like to think is like the 2010s, but particularly the latter half of the 2010s. So let's say 2015, 2016 and beyond. All the way to...
+
+This chunk continues in the next part.
+
+[00:02:05] Clément: In 2022, going back, I'm going to share very briefly my story of how I got into Tech because it's relevant. I got into Tech after graduating from college in 2016. I had never written a line of code. Many of you know this. I had a degree in math. I remember the few jobs I had applied to that had nothing to do with tech or software engineering were offering salaries ranging from $40,000 to $60,000 a year. This was in New York City, which is a high cost of living area, arguably the highest in the United States.
+
+[00:02:39] Clément: I had friends the same age as me, just graduated with a computer science degree, landing jobs paying $110,000 to $130,000 a year in Silicon Valley. I was like, "What's going on here?" That's when I decided to learn to code. I went to a coding boot camp for about three months, learned to code, enjoyed it, and then got a job at Google. Around that time, I founded my company, AlgoExpert. The key point here is that I wasn't the only one doing this. Many others did the same around the same time or after, from 2017 to 2022.
+
+[00:03:38] Clément: Not all of them were new grads like me. Many were in other industries, two, five, ten, fifteen years into their careers, not making much money or not enjoying their jobs. They saw the opportunity in Tech and flocked to it. It felt like there was easy, good money to be made with a low barrier to entry.
+
+Clément Mihailescu: [00:04:06] So over these, you know, the second half of the 2010's decade into 2020 and beyond, you had hundreds of thousands of developers that flocked into the industry. (Neutral)
+
+Clément Mihailescu: [00:04:29] Companies hiring software engineers welcomed them with open arms. They hired most of these people because back then everybody was hiring. (Neutral)
+
+Clément Mihailescu: [00:04:42] There was supposedly a shortage of software engineers. Companies were hiring too many roles and needed to fill too many positions. (Neutral)
+
+Clément Mihailescu: [00:05:18] Everything was great until early to mid 2022. (Neutral)
+
+Clément Mihailescu: [00:05:27] Interest rates in the United States and many places in the world started to go up. (Neutral)
+
+Clément Mihailescu: [00:05:39] Money became very expensive to borrow and raise. Companies became much more defensive of their money. (Neutral)
+
+[00:06:12] Clément: What they did is they started to cut costs. (Neutral)
+[00:06:15] Clément: We need to make sure that we can make money, that we can make a good amount of money, so they cut costs. (Neutral)
+[00:06:20] Clément: They stopped hiring, they slowed hiring, but a lot of them stopped hiring altogether. (Neutral)
+[00:06:24] Clément: Many of them did layoffs. (Negative)
+[00:06:31] Clément: What happens when so many companies stop hiring and do layoffs? (Negative)
+[00:06:38] Clément: The entire cohort of new upcoming software engineers from 2021 to 2022 can't find a job suddenly. (Negative)
+[00:06:51] Clément: You've got a huge amount of software engineers from the cohorts of 2016 all the way to 2022 that get laid off. (Negative)
+[00:06:58] Clément: They also need to find a job, so suddenly you've got all these software engineers competing for the few jobs that are still available. (Neutral)
+[00:07:10] Clément: It's not like there were no more open software engineering positions completely whatsoever, just way fewer. (Neutral)
+[00:07:24] Clément: At the bottom of the market, there were like 70% or 65% fewer open jobs compared to the top in early to mid 2022. (Neutral)
+[00:07:34] Clément: Suddenly, you've got all these people competing for very few positions. (Neutral)
+[00:07:41] Clément: The brutality of the current software engineering job market. (Negative)
+[00:07:46] Clément: What makes it really tough is that people with no work experience or only one to two years of work experience are competing against more experienced individuals. (Neutral)
+[00:08:07] Clément: Imagine you're a senior software engineer at Google who got laid off and now the only job you can find is at a startup called XYZ. (Neutral) 
+
+This chunk continues in the next part.
+
+Clément Mihailescu: [00:08:18] For one software engineer, that software engineer is going to get paid $150,000 in, let's say, California. 
+
+Sentiment: Neutral
+
+Clément Mihailescu: [00:08:26] Well, for that senior software engineer from Google who used to be making $350,000 at Google, like that is an entry-level software engineering role, you know, at least based on salary. 
+
+Sentiment: Neutral
+
+Clément Mihailescu: [00:08:40] It is the only software engineering role that he or she can apply to and get, then they're still going to go after it, right? 
+
+Sentiment: Neutral
+
+Clément Mihailescu: [00:08:47] And so all of a sudden, all those entry-level people or junior people, they're competing against that senior person for the same job, which makes it really, really brutal. 
+
+Sentiment: Negative
+
+Clément Mihailescu: [00:09:00] Very brutal to land an interview, very brutal to sometimes even find the open jobs because a lot of companies, they don't even need to put their job posts on open job boards. 
+
+Sentiment: Negative
+
+Clément Mihailescu: [00:09:18] It's a lot harder also to pass the interviews because if you've got, you know, let's say like a thousand people applying for one job, or you know, 10,000 people applying for one job, you narrow it down to like, I don't know, 50 people. 
+
+Sentiment: Negative
+
+Clément Mihailescu: [00:09:34] And the bar to pass is much higher. 
+
+Sentiment: Negative
+
+Clément Mihailescu: [00:09:36] Of course, if you do get one of those highly coveted interviews, you want to make sure that you prepare and that you do very well because that's going to be your one shot at landing that job. 
+
+Sentiment: Positive
+
+Clément Mihailescu: [00:09:46] Here, of course, I'm going to recommend that you check out my company algoexpert algoexpert.io. We've got the best software engineering interview prep materials across all disciplines like coding interviews, systems design, machine learning, front end, infrastructure, iOS. Definitely check it out. 
+
+Sentiment: Positive
+
+Clément Mihailescu: [00:10:00] Algoexpert.io. Use promo code ClamCM. 
+
+Sentiment: Positive
+
+This chunk continues in the next part.
+
+[00:10:02] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:05] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:08] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:11] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:13] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:16] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:20] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:24] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:27] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:30] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:33] Speaker: Clément 
+Sentiment: Negative
+
+[00:10:35] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:37] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:40] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:41] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:44] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:47] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:50] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:52] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:55] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:57] Speaker: Clément 
+Sentiment: Neutral
+
+[00:10:59] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:01] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:03] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:06] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:08] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:10] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:13] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:15] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:18] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:19] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:22] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:23] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:26] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:28] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:30] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:32] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:34] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:36] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:38] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:41] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:42] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:44] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:47] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:48] Speaker: Clément 
+Sentiment: Neutral
+
+[00:11:50] Speaker: Clément 
+Sentiment: Negative
+
+[00:11:52] Speaker: Clément 
+Sentiment: Negative
+
+[00:11:55] Speaker: Clément 
+Sentiment: Negative
+
+[00:11:58] Speaker: Clément 
+Sentiment: Negative
+
+[00:12:01] Speaker: Clément 
+Sentiment: Negative
+
+This chunk continues in the next part.
+
+Clément Mihailescu:
+[00:12:03] Letters are AI, artificial intelligence.
+[00:12:07] I think that we all knew that AI was coming during the 2010s. (Neutral)
+[00:12:12] I kept hearing about machine learning and AI, but it really exploded in 2022 with the launch of Chad GPT. (Neutral)
+[00:12:23] AI has gotten to the point where there's an argument that it may obsolete software engineers altogether. (Negative)
+[00:12:39] I saw a video of an AI tool doing front-end engineer's work with just a one-paragraph prompt, and it was impressive. (Positive)
+[00:13:10] The fear of AI is impacting the job market and the psyche of software engineers. (Negative)
+[00:13:45] Those are my honest negative thoughts on the current software engineering market in 2024. (Negative)
+
+This chunk continues in the next part.
+
+[00:13:56] Clement: Let me look on my like, what's a positive Emoji. 
+[00:13:59] Clement: Okay, if you made it this far in the video, just put a party emoji. 
+[00:14:03] Clement: So, whether it's like the confetti or the little Emoji that's like blowing the party thing or a balloon, just put one of those emojis if you made it this far in the video. 
+[00:14:16] Clement: That'll tell me that you made it through the negative part of the video. 
+[00:14:22] Clement: What are my positive thoughts about the industry? 
+[00:14:26] Clement: Well, first and foremost, companies are still hiring flat out. 
+[00:14:31] Clement: There are still jobs out there, and a good amount of them. 
+[00:14:36] Clement: Anecdotally, I can tell you that I've been contacted numerous times now by recruiters at meta and Google asking me if I want to come back to work there. 
+[00:14:45] Clement: They're hiring. 
+[00:14:49] Clement: The most recent of these emails was just like a month ago, I think, or two months ago. 
+[00:14:58] Clement: I also had one of my friends, he was my coworker at Google, he joined Facebook right after I did, he's still there four, five years later. 
+[00:15:07] Clement: He got promoted and just a week ago told me that if I ever wanted to come back at meta, his team has headcount so they're hiring. 
+[00:15:15] Clement: Anecdotally speaking, I've heard from a lot of people that meta is hiring quite aggressively within the context of the current market. 
+[00:15:24] Clement: Companies are hiring. 
+[00:15:28] Clement: There's a lot of pockets in the world that are hiring. 
+[00:15:34] Clement: Just because one industry has been really badly affected doesn't mean that all industries have been badly affected. 
+[00:15:39] Clement: Remember during the pandemic, some industries were really destroyed while others were thriving.
+
+Clément: [00:15:45] By the way, like you know during the pandemic tons of people got into software engineering, right? Because it was so easy, you could do it remotely. So here, you know, one example that I gave in a recent video, I'll give it again, is like the blockchain industry, crypto industry. They're hiring a lot. Two companies that come to mind are Coinbase and Chainlink Labs. They're both remote companies, they're both really like leaders in the space and they're hiring. So if you're a software engineer, go check out their career pages and many other companies in that space. And just in general, like I don't know, like airlines, you know, maybe airlines are hiring or maybe credit card companies are hiring. You've just got to look around, right? And you will find some open jobs.
+
+Clément: [00:16:26] The second thing that I think is not all doom and gloom and is actually quite positive is AI. I will take the reverse side of that argument. Before that, I don't think AI is something that you should fear. I really, really don't think that AI is going to replace software engineers, even though I will concede that AI is extremely impressive and the pace of advancement is like starting to make you feel like, huh, it's going to be able to do things that I never thought were conceivable before. However, I don't think it's going to replace software engineers at least not anytime soon. Like not in the next five to 10 years. And you know, the best point I can give you is like, you are delusional if you think that a sane, rational, competitive business is going to risk getting rid of all their software engineers and replacing them with AI. That just makes no sense. The risk of that, the risk of suddenly you have a bug that is unfixable or your entire website or company goes down and you can't do anything about it because you just have an AI that is stuck is just ridiculous. And so, I really don't think...
+
+Clément Mihailescu: [00:17:29] that AI is going to completely replace software engineers and even the whole thing about like it makes them so productive that suddenly you need fewer Engineers. (Neutral)
+
+Clément Mihailescu: [00:17:38] I don't think that's quite accurate. I think that maybe for a few companies, for some companies where it's like, hey, we really only need one or two software engineers and if they have AI, we truly have no reason to hire a third engineer, okay fine, maybe those like AI will have a bit of an impact. You'll get only two workers instead of three. (Neutral)
+
+Clément Mihailescu: [00:18:00] But I think for most companies, especially like the ones that are in hyper growth mode and constantly trying to beat out the competition, you want your workforce to be as productive as possible. (Positive)
+
+Clément Mihailescu: [00:18:26] There's always more work to be done. (Neutral)
+
+Clément Mihailescu: [00:18:30] Like software engineering is not going anywhere. (Positive)
+
+Clément Mihailescu: [00:18:36] I think some people are just leaning too much into the idea that engineering is gone, you know, software engineering is a dying industry. (Neutral)
+
+Clément Mihailescu: [00:19:05] I feel like there are more construction workers right now than ever before. So, I think the same is going to be true for software engineering. (Positive)
+
+Clément Mihailescu: [00:19:14] to thrive and keep on thriving and I guess the final sort of positive thought that I have here is overall I think that like it is very pointless for you to let like it's very pointless for you to let these external things that you can't control like interest rates or like AI lead your life so instead of worrying too much about these things that you can't control why don't you worry about the things that you can control like you can control how hard you study computer science you can control how much time and effort you put into networking and into applying to jobs you can't control how much time and effort you put into preparing for coding interviews or systems design interviews or whatever you know algoexpert.io you can control all these things and so you know why don't you just try and focus on being the best version of yourself out competing everybody and getting that one position that has tons of competition around it like it's still doable you know there's going to be someone who gets that position and it's not always going to be the person with the most work experience so you should grab control of your life you know you have your own agency you are in control of your own destiny for the most part now as final thoughts mixing the negative and the positive together I will say that overall I think that the Golden Era of tech as we knew it in the 2010s particularly the second half of the 2010s is probably over I think that back then it was the Golden Era because it was the easiest meaning the least amount of barrier to entry the highest paid and the most relaxing and with the best work-life balance career out of basically in a career in my opinion and I think in a.
+
+[00:21:13] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:14] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:18] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:20] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:22] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:24] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:26] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:27] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:29] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:31] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:33] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:35] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:37] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:41] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:42] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:45] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:47] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:51] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:52] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:54] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:55] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:57] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:21:57] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:00] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:01] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:04] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:05] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:07] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:09] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:10] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:13] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:14] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:15] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:17] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:19] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:21] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:25] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:26] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:28] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:30] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:32] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:34] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:36] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:37] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:39] Speaker: Clément Mihailescu
+Sentiment: Neutral
+[00:22:41] Speaker: Cl
+

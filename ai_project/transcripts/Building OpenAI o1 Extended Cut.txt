@@ -1,0 +1,605 @@
+Title: Building OpenAI o1 (Extended Cut)
+Channel: OpenAI
+Published: 2024-09-20T18:15:46Z
+Duration: PT22M14S
+Description: Top row (left to right): Mark Chen, Giambattista Parascandolo, Trapit Bansal, Łukasz Kaiser, Hunter Lightman, Karl Cobbe, Łukasz Kondraciuk, Szymon Sidor, Noam Brown, Hongyu Ren, Liam Fedus, Hyung Won Chung
+
+Bottom row (left to right): Ilge Akkaya, Jakub Pachocki, Shengjia Zhao, Jason Wei, Wojciech Zaremba, Jerry Tworek
+
+Host: Bob McGrew
+
+More on the research: https://openai.com/index/learning-to-reason-with-llms/
+
+Full list of contributors: https://openai.com/openai-o1-contributions/
+
+Transcript:
+
+[00:00:09] all right I'm Bob McGrew I lead the
+[00:00:11] research team here at open aai we've
+[00:00:13] just released a preview of our new
+[00:00:15] series of models 01 and 01 mini which we
+[00:00:18] are very excited about and we've got the
+[00:00:20] whole team here to tell you about them
+[00:00:22] what exactly is 01 so we're starting a
+[00:00:25] series of new models uh with the new
+[00:00:27] name oan this is to highlight the fact
+[00:00:30] that you might feel different when you
+[00:00:32] use o as a compared to previous models
+[00:00:35] such as GPT 40 as others will explain
+[00:00:38] later o1 is a reasoning model so it will
+[00:00:40] think more before answering your
+[00:00:42] question we are releasing two models o1
+[00:00:46] preview which is to preview what's
+[00:00:48] coming for 01 and 01 mini which is a
+[00:00:51] smaller and faster model that is trained
+[00:00:53] with a similar framework as o1 so we
+[00:00:55] hope you like our new naming scheme o1
+[00:01:00] so what what is reasoning anyway so one
+[00:01:03] way of thinking of reasoning is that
+[00:01:05] there are times where we ask questions
+[00:01:06] and we need answers immediately because
+[00:01:07] there are simple questions for example
+[00:01:09] if you ask what's the capital of Italy
+[00:01:11] you know the answer is Rome and you
+[00:01:12] don't really have to think about it much
+[00:01:14] but if you um Wonder um about a complex
+[00:01:17] puzzle or you want to write a really
+[00:01:19] good business plan you want to write a
+[00:01:21] novel you probably want to think about
+[00:01:23] it for a while and the more you think
+[00:01:24] about it the better the outcome so
+[00:01:26] reasoning is the ability of turning
+[00:01:28] thinking time into better outcomes
+[00:01:31] whatever the task you're doing so how
+[00:01:33] long have you guys been working on this
+[00:01:35] early on at open AI we were very
+[00:01:37] inspired by the alpha go results and the
+[00:01:40] potential of deep reinforcement
+[00:01:43] learning and so we were researching that
+[00:01:45] heavily and we saw great scaling on daa
+[00:01:48] and Robotics and we were thinking about
+[00:01:51] how H H how can we how can we do
+[00:01:53] reinforcement learning on a general
+[00:01:54] domain to get to a very capable
+[00:01:56] artificial
+[00:01:57] intelligence and then we saw
+[00:02:00] the amazing results of scaling on
+[00:02:02] supervised learning in the GPD Paradigm
+[00:02:04] and so ever since we've been thinking
+[00:02:06] about how do we combine this two
+[00:02:07] different paradigms into one yeah and
+[00:02:09] it's hard to point to one exact instance
+[00:02:11] where this whole effort got started but
+[00:02:12] you know we've had early Explorations
+[00:02:14] with yakob and Shimon we've had early
+[00:02:16] Explorations with lukash Ilia and of
+[00:02:19] course like I think one moment in time
+[00:02:20] here is consolidating things with Jerry
+[00:02:22] and um having him build out this large
+[00:02:24] scale effort here so I mean it's been
+[00:02:27] going on for a long time but I think
+[00:02:28] what's really cool about research is
+[00:02:29] there's that aha moment there's that
+[00:02:31] particular point in time where something
+[00:02:33] surprising happens and things really
+[00:02:34] click together are there any times for
+[00:02:36] you all when there was you had that aha
+[00:02:38] moment like we trained gpt2 gpt3 GPT 4
+[00:02:41] there was the first moment when the one
+[00:02:43] was hot of the press we started talking
+[00:02:44] to the model people were like wow this
+[00:02:46] this mod is really great and starting
+[00:02:48] doing doing something like that and I
+[00:02:50] think that there was a certain moment in
+[00:02:52] our in our training process where we
+[00:02:54] trained like put more comput in our than
+[00:02:58] before and train first mod generating
+[00:03:01] coherent chains of thought and we so wow
+[00:03:04] this this looks like something
+[00:03:04] meaningfully different than before and I
+[00:03:06] think I think for me this is the moment
+[00:03:08] uh wow related to that uh when we think
+[00:03:11] about like training a model for
+[00:03:12] reasoning uh one thing that immediately
+[00:03:14] jumps to mind is you could have humans
+[00:03:16] write out their thought process and
+[00:03:17] train on that when aha moment for me was
+[00:03:20] like when we saw that if you train the
+[00:03:21] model using RL to generate and hone its
+[00:03:23] own chain of thoughts it can do even
+[00:03:25] better than having humans right chains
+[00:03:27] of thought for it and that was in aha
+[00:03:29] moment that you could really scale this
+[00:03:31] uh and explore models reasoning that way
+[00:03:34] for a lot of the time that I've been
+[00:03:35] here we've been trying to make the
+[00:03:37] models better at solving math problems
+[00:03:39] as an example and we've put a lot of
+[00:03:40] work into this and we've come up with a
+[00:03:42] lot of different methods but one thing
+[00:03:43] that I kept like every time I would read
+[00:03:45] these outputs from the models I'd always
+[00:03:46] be so frustrated the model just would
+[00:03:48] never seem to question what was wrong or
+[00:03:49] when it was making mistakes or things
+[00:03:50] like that but one of these early uh 01
+[00:03:53] models when we trained it and we
+[00:03:54] actually started talking to it we
+[00:03:55] started asking it these questions and it
+[00:03:56] was scoring higher on these math tests
+[00:03:57] we were giving it we could look at how
+[00:03:59] it was reasoning um and you could just
+[00:04:02] see that it started to question itself
+[00:04:04] and have really interesting reflection
+[00:04:06] um and that was a moment for me where I
+[00:04:08] was like wow like we we've uncovered
+[00:04:10] something different this is going to be
+[00:04:11] something new and and it was just like
+[00:04:13] one of these coming together moments
+[00:04:15] that that that was really powerful so
+[00:04:16] when you when you read the the the
+[00:04:18] thoughts do they does it feel like
+[00:04:20] you're watching a human or does it feel
+[00:04:21] like you're watching a robot it's like a
+[00:04:23] spiritual
+[00:04:26] experience it's a spiritual experience
+[00:04:29] but then you can empathize with them all
+[00:04:31] like oh that's a mistake that a lot of
+[00:04:33] people would make or you can see it sort
+[00:04:35] of questioning common conventions and
+[00:04:38] yeah it's it's spiritual but like oddly
+[00:04:41] human in in its
+[00:04:42] Behavior it it was also pretty cool at
+[00:04:45] some point when uh when we have seen in
+[00:04:48] cases where there was like a limited
+[00:04:50] amount of thinking allowed for the model
+[00:04:52] that just before the timeout the was
+[00:04:54] like I'm like I have to finish it now
+[00:04:57] and like here's the answer I spent a lot
+[00:04:59] of time doing uh competition math when I
+[00:05:01] was young and that was really my whole
+[00:05:02] reason for getting into AI was to try
+[00:05:04] and automate this process and uh so it's
+[00:05:07] been very like a huge full circle moment
+[00:05:09] for me to see the model actually be able
+[00:05:11] to follow through like very close to the
+[00:05:13] same steps I would use when solving
+[00:05:15] these problems um and that's you know
+[00:05:17] it's not exactly the same chain I
+[00:05:19] thought I would say but very very
+[00:05:21] relatable it's also really cool to you
+[00:05:24] know it's believable that these models
+[00:05:25] they are getting on the Casp of really
+[00:05:28] advancing engineering and science
+[00:05:30] and if they seem to be like solving the
+[00:05:33] problems are you know maybe we can call
+[00:05:35] ourselves experts hard for us then maybe
+[00:05:38] they will be even hard for some other
+[00:05:40] experts and could Advance science so
+[00:05:43] we've talked a lot about some of the the
+[00:05:45] Great Moments and the times and
+[00:05:46] everything just clicked what are some of
+[00:05:47] the hurdles what are some of the places
+[00:05:49] where it was actually really hard to
+[00:05:50] make things work training large models
+[00:05:52] is fundamentally a very very hard thing
+[00:05:54] to do and there are like thousands
+[00:05:56] things that can go wrong and there are
+[00:05:58] there are at least like hundreds that
+[00:05:59] did go wrong in every every training R
+[00:06:02] so almost everyone here like you know
+[00:06:03] put a lot of Blood Sweat and Tears in in
+[00:06:06] training those those things and figuring
+[00:06:08] out how to how how to keep them continue
+[00:06:11] learning and improving on a path is
+[00:06:13] actually the path of success is very
+[00:06:15] narrow and the ways of failure are
+[00:06:17] plentiful it's like imagine like having
+[00:06:20] a the center for launching a rocket to
+[00:06:24] the let's say some planet Moon or so and
+[00:06:26] if you are off by one angle you won't
+[00:06:29] arrive at the destination and that's our
+[00:06:32] job so so the model we said is is very
+[00:06:35] good often times better than humans like
+[00:06:38] has equivalent of several phds and that
+[00:06:40] is sometimes a challenge because we have
+[00:06:42] to often go and verify that the model
+[00:06:44] isn't going off the rails doing
+[00:06:46] something s sensible and it started
+[00:06:48] taking some serious time as we scal the
+[00:06:50] model uh we were saturating out all the
+[00:06:53] industry uh grade evals and we don't
+[00:06:56] know what to look for next so that is
+[00:06:58] also a challenge yeah I do think all of
+[00:07:00] these things we ran into it's also been
+[00:07:02] one point of fulfillment it's like uh
+[00:07:04] you know every time you have a puzzle
+[00:07:05] it's like another hurdle for this team
+[00:07:07] to overcome and I'm really glad with all
+[00:07:09] the little hurdles that we've overcome
+[00:07:10] so what what are some of the ways you
+[00:07:12] tested the models did you have any
+[00:07:13] favorite questions that you saw the
+[00:07:14] model get better at how many hours are
+[00:07:16] in
+[00:07:18] ster for whatever reason the Jud GPT
+[00:07:22] wasn't able to solve this question
+[00:07:23] reliably but oh one like you know we did
+[00:07:26] like a year and a half work like a Lar
+[00:07:30] and now we can count the number of Arts
+[00:07:32] in Strawberry we should have just
+[00:07:34] hardcoded that wayu
+[00:07:37] reliably I have this habit which I think
+[00:07:39] other people here do too of whenever you
+[00:07:42] go on Twitter and you see some post
+[00:07:43] that's like large language models can't
+[00:07:45] do this you copy and paste it in and
+[00:07:47] then you said confirm that our
+[00:07:50] large uh can do this to give people a
+[00:07:53] sense of what they can use the model for
+[00:07:55] I'd love to hear some of the ways that
+[00:07:56] you use 01 so uh one way I've been using
+[00:08:00] o1 is for obviously coding and a lot of
+[00:08:03] my job is about coding so the U more and
+[00:08:07] more I focus on the problem definition
+[00:08:10] and use this what's called a TD test
+[00:08:13] driven development so instead of writing
+[00:08:16] the code that implements the
+[00:08:17] functionality I focus on writing say the
+[00:08:20] unit test that specify what is correct
+[00:08:24] behavior of this piece of code to pass
+[00:08:27] and so because I can focus on more that
+[00:08:29] and then pass it on to1 to really
+[00:08:31] implements the thing I can focus on this
+[00:08:34] what's important what's the high level
+[00:08:35] problems um to solve and so on so this
+[00:08:37] has been really a important way of
+[00:08:40] Shifting my focus and another area is
+[00:08:43] debugging so now when I get some error
+[00:08:46] messages I just pass to oan and then it
+[00:08:49] just prints out something sometimes it
+[00:08:50] solves right away even if it doesn't it
+[00:08:53] at least give some better questions to
+[00:08:55] ask and uh provide some ways to think
+[00:08:57] about this problem better so it has
+[00:08:59] really important change of um working uh
+[00:09:03] for me and I hope this helps others too
+[00:09:05] I like using a one more and more for
+[00:09:07] learning the more I ask it's like
+[00:09:08] various complex technical subjects I
+[00:09:10] find hallucinate less and explain
+[00:09:13] better those Concepts on previous
+[00:09:16] models for me I like to use o1 as like a
+[00:09:19] brainstorming partner so that can range
+[00:09:21] from anything from like a how to solve
+[00:09:24] some very specific ml problem machine
+[00:09:26] learning problem to like how to write uh
+[00:09:29] a blog post or or a tweet so uh for
+[00:09:32] example I I recently wrote a blog post
+[00:09:34] about language model evaluations and I
+[00:09:36] was asking oan about ideas for the
+[00:09:39] structure of the blog post pros and cons
+[00:09:42] of certain benchmarks um and even the
+[00:09:44] style of the writing and I think because
+[00:09:46] it's able to think before it gives the
+[00:09:48] final answer um it's able to connect
+[00:09:50] ideas better it can revise and uh
+[00:09:53] critique candidate ideas and and things
+[00:09:55] like that yeah I think if you need like
+[00:09:57] a know you have some short text and want
+[00:09:59] it more creative something really
+[00:10:02] different that that's a great use to
+[00:10:04] like give me five different ideas also
+[00:10:06] if you have just sort of like some
+[00:10:08] unstructured thoughts it's a really
+[00:10:10] brilliant thought partner so you have
+[00:10:12] like some ideas it's like well how
+[00:10:14] should I connect these things what am I
+[00:10:16] missing um and through its final answers
+[00:10:20] and through sort of reading it's like
+[00:10:21] thought process it it can really lead to
+[00:10:23] like much better results for you yeah I
+[00:10:25] use it to try out a bunch of our
+[00:10:27] internal secret ideas and it actually
+[00:10:29] tries improved yeah for Standalone
+[00:10:31] projects it's it's great like like I I I
+[00:10:34] I had to add a GitHub plugin I know
+[00:10:36] nothing about adding GitHub plugins and
+[00:10:38] I just said like hey I want GitHub
+[00:10:40] plugin that displays this and this
+[00:10:42] information about the pr and and and
+[00:10:44] like um yeah just produce the code I
+[00:10:47] just like like you know I just ask it
+[00:10:49] like okay so where do I need to paste
+[00:10:50] this code I don't even know like it's
+[00:10:52] just like yeah place it here let's go I
+[00:10:55] think for a lot of people it's uh it's
+[00:10:57] hard to really fill the AGI and until
+[00:10:59] you see the models do something better
+[00:11:02] than humans can at a domain that you
+[00:11:03] really care about and I think you know
+[00:11:06] for go players and chess players that
+[00:11:08] would have come you know a few years
+[00:11:10] earlier and for a lot of us that like
+[00:11:12] really value math and and coding I I
+[00:11:15] think we're starting to feel that now
+[00:11:17] our moms would be proud of
+[00:11:21] us so are there any parts of this
+[00:11:23] project anything that that really needed
+[00:11:25] to be done but you know people might not
+[00:11:27] realize how important it is so I think
+[00:11:30] building large scale reliable
+[00:11:33] infrastructure for to run our biggest
+[00:11:35] Flagship Flagship model training runs as
+[00:11:38] well as doing research experiments is
+[00:11:40] something that is not as exciting as
+[00:11:42] doing research itself but has to be done
+[00:11:45] and it's has a tremendous impact on the
+[00:11:47] success on the entire project I think
+[00:11:49] there is something special in open ey
+[00:11:50] about how we structure our research G
+[00:11:52] that we value algorithmic advancements
+[00:11:54] in the same way as building reliable
+[00:11:57] large scale systems and building data
+[00:11:59] that are needed either way for for
+[00:12:01] training those models I'm really proud
+[00:12:03] of openi in that way yeah I think that
+[00:12:05] has been a consistent pattern throughout
+[00:12:08] many of our big projects every time we
+[00:12:11] scale a new thing up another order of
+[00:12:13] magnitude we see another host of
+[00:12:15] problems both algorithmic and
+[00:12:17] infrastructure and we've definitely
+[00:12:19] built a capacity to to to um Advance
+[00:12:22] them both with a lot of fuckus I feel
+[00:12:24] the final model is just like literally a
+[00:12:26] beautiful piece of art right in order to
+[00:12:28] make it work you have to make sure that
+[00:12:29] every step has work right you know we
+[00:12:32] find some any Challenge and we solve it
+[00:12:34] right I think that's really how opening
+[00:12:36] ey operates and then very proud to work
+[00:12:37] out here and I also must say there's
+[00:12:42] like
+[00:12:43] a really not only brilliant people are
+[00:12:46] here but also kind hearted is just fun
+[00:12:48] to me to work over here and I'm grateful
+[00:12:52] to my colleagues to you know code with
+[00:12:55] me par code with me hang out with me eat
+[00:12:58] lunch with me like speak with the model
+[00:13:01] with
+[00:13:02] me so what's it like to work on the
+[00:13:04] strawberry team you can have your
+[00:13:06] brilliant ideas but most of the time you
+[00:13:08] spend on like running them and not
+[00:13:11] running and failing and and then it's
+[00:13:14] very good to have people very close by
+[00:13:16] in your office that you can ask for help
+[00:13:18] with whatever failed last time because I
+[00:13:22] mean most of the time you spend your
+[00:13:23] time debugging things that didn't work
+[00:13:26] so and having people who can help was
+[00:13:30] speaking of this U help we had many
+[00:13:32] times when we were trying to debug this
+[00:13:34] for like a week and then passing by wend
+[00:13:36] the and then like ask it and then like
+[00:13:38] he just solved it right away he started
+[00:13:41] calling it w the blessing and then
+[00:13:44] blessing people and that has been uh
+[00:13:46] really really effective and I stopped
+[00:13:49] like thinking about is this too stupid
+[00:13:50] to ask and just ask right away well one
+[00:13:53] of the things I like really appreciate
+[00:13:55] about working at open a is that from
+[00:13:57] every big project like this we like
+[00:13:59] really learn right we we we I think like
+[00:14:02] from daa we learn importance of
+[00:14:04] engineering from gp4 we learn importance
+[00:14:06] of research and we keep iterating like
+[00:14:08] this and uh the effect of that is that
+[00:14:11] like now the strawberry team is again
+[00:14:13] the best big uh research project team
+[00:14:16] yet because it's built on all of the
+[00:14:18] things we've learned from the previous
+[00:14:20] projects and it really like you can like
+[00:14:22] really see it working here like people
+[00:14:24] really like started developing develop
+[00:14:27] very good intuition like when do you
+[00:14:29] hack something where do you like need to
+[00:14:31] develop stronger fundamentals like when
+[00:14:34] do you st overnight where do you
+[00:14:36] actually like take a weekend off and
+[00:14:38] like come with a fresh mind to this
+[00:14:40] particular problem like I I think I
+[00:14:42] think like it's really amazing to
+[00:14:44] observe this progress we make as a
+[00:14:45] company yeah one thing I've liked is
+[00:14:47] just how organic this project has felt
+[00:14:49] the ideas have come literally from
+[00:14:51] everywhere on this team and um people
+[00:14:53] feel empowered to just like hey here's
+[00:14:54] an idea I really believe in and it's the
+[00:14:56] thing that I'm going to push and also
+[00:14:58] people are just willing to get their
+[00:14:59] hands dirty I feel like there have been
+[00:15:00] a lot of you know deadlines some
+[00:15:02] self-imposed but um we've all really
+[00:15:04] come together and you know been willing
+[00:15:06] to put in that work to make it happen
+[00:15:09] this project really demonstrated the
+[00:15:10] power of momentum where we get initial
+[00:15:12] good results and more and more people
+[00:15:14] get excit about particular field and
+[00:15:16] particular research they try to
+[00:15:17] contribute their new ideas those new
+[00:15:19] ideas work even better and then the
+[00:15:22] thing started snowballing and getting
+[00:15:23] more and more momentum on itself or
+[00:15:25] people just believing that this is the
+[00:15:26] right thing to do and we should continue
+[00:15:28] pushing this research
+[00:15:29] related to that I think like we have a
+[00:15:31] very like lots of very smart people but
+[00:15:33] also like very opinionated people but
+[00:15:36] people are always willing to like update
+[00:15:37] their opinions once you see results to
+[00:15:39] the contrary and I think that's like
+[00:15:40] make things really
+[00:15:41] fun it's kind of cool to be in that
+[00:15:45] place that's a combination of like a
+[00:15:46] brilliant scientists and engineers and
+[00:15:49] folks who can like build out like
+[00:15:51] incredible systems uh it's very humbling
+[00:15:55] so one thing I remember a few months ago
+[00:15:57] I remember the model was very smart but
+[00:15:59] it was also kind of boring so what was
+[00:16:00] it like to give the model A personality
+[00:16:02] yeah so that's interesting I remember I
+[00:16:05] asked model about the meaning of life
+[00:16:08] and it gave me an answer 42 which is not
+[00:16:11] that bad of an answer uh and you know
+[00:16:14] the kind of similarity when I asked
+[00:16:16] model you know what is love it told me
+[00:16:20] oh there like a strange human
+[00:16:23] feeling and uh once we
+[00:16:27] actually uh get gave model personality
+[00:16:30] made it actually work with chat then the
+[00:16:33] aners start being quite interesting that
+[00:16:36] day and know I asked about the love it
+[00:16:38] told me you know there's like a romantic
+[00:16:40] love familial love self love
+[00:16:43] nonconditional love conditional love and
+[00:16:46] uh it became more useful and also more
+[00:16:49] fun the funnest moment is that ask the
+[00:16:51] exact same question and you tries to
+[00:16:53] Define love with algebra
+[00:16:59] and you ask them after
+[00:17:01] question so what's the story of 01 mini
+[00:17:04] how did that come to be um so the
+[00:17:06] motivation is that we want to bring the
+[00:17:09] ow series to broader audience which with
+[00:17:12] like much lower cost so we created ow
+[00:17:15] mini which was designed to be like a
+[00:17:16] minimal demonstration of the whole 01
+[00:17:19] pipeline order framework um we make it
+[00:17:23] uh stand reasoning specialist which may
+[00:17:26] not necessarily know the birth dat of
+[00:17:28] our favorite celebrity but really truly
+[00:17:31] understands like how to do reasoning
+[00:17:33] effectively right and truly has a lot of
+[00:17:36] um intelligence the model is actually
+[00:17:38] really smart right it's like much
+[00:17:40] smarter than our previous best model for
+[00:17:42] all and also almost um part right with
+[00:17:45] our best model o1 uh but only comes with
+[00:17:48] like a fraction of cost and latency um
+[00:17:51] it does have the limitation that you may
+[00:17:53] not know a lot of the knowledge in the
+[00:17:55] outside world right which is not about
+[00:17:58] science or technology but we try to make
+[00:18:00] it roughly on par with our previous best
+[00:18:03] mini model like 40 mini and we are
+[00:18:05] working to improve it further so I'm
+[00:18:08] super excited for our external users to
+[00:18:10] just try it out for this like lightning
+[00:18:12] experience of uh reasoning and thinking
+[00:18:15] so what motivates you to do your
+[00:18:17] research I just find it fascinating that
+[00:18:20] in this world you have you have these
+[00:18:22] things that that can do intelligence and
+[00:18:24] reasoning and and they're much smaller
+[00:18:26] than you think and they can do this in
+[00:18:29] different ways it's just super
+[00:18:31] fascinating good things in life take
+[00:18:33] time and our models just tend to answer
+[00:18:34] too quickly and eventually want to have
+[00:18:37] models I can do for example research for
+[00:18:39] months or years and I feel like this is
+[00:18:41] the first step in the direction of
+[00:18:43] models I can think very long for about
+[00:18:45] one problem and now we're at the level
+[00:18:47] of minutes and I think it's just the
+[00:18:49] first step on a long path that hopefully
+[00:18:50] takes us to models that can think for
+[00:18:52] months or years as as time goes by it
+[00:18:55] feels very meaningful that uh that IE
+[00:18:59] together with a small number of people
+[00:19:01] can have a some substantial positive
+[00:19:03] impact on the world and also it's uh fun
+[00:19:07] day today it's just fun I like you know
+[00:19:10] speaking to the computer I like starting
+[00:19:13] a job on the cluster I very much enjoy
+[00:19:16] uh collaboration it's just
+[00:19:20] beautiful I really like our malls to be
+[00:19:22] useful and I think technology has a
+[00:19:25] chance and a promise to improve human
+[00:19:27] life and I like our models to do like
+[00:19:30] work for us to to to help us with our
+[00:19:33] our day-to-day problems and giving them
+[00:19:35] ability to reason H allows them
+[00:19:38] to do for us things that they just they
+[00:19:41] just couldn't be that that will allow us
+[00:19:43] to spend our time more productively yeah
+[00:19:46] very excited about this I mean I think
+[00:19:48] these sort of paradigms
+[00:19:51] unlock things that these the models
+[00:19:53] couldn't do before so it's not just like
+[00:19:55] answering some sets of queries a little
+[00:19:57] bit better but it's actually getting to
+[00:19:59] a point where through planning through
+[00:20:01] error correction it's able to just
+[00:20:04] unlock like new capabilities and you
+[00:20:09] know the ability to produce new
+[00:20:10] knowledge in the world for like science
+[00:20:13] for Discovery I think is one of the most
+[00:20:15] exciting pieces for this and I think in
+[00:20:18] some short amount of time it's going to
+[00:20:20] become like a larger and larger
+[00:20:22] contribution or contributor to its own
+[00:20:24] like development and I think that's like
+[00:20:26] a really exciting regime I think some of
+[00:20:28] the people on the team we were um math
+[00:20:30] or coding Olympiad participants in the
+[00:20:32] past and there's this huge personal
+[00:20:34] motivation to create a system that can
+[00:20:35] beat us we do best and um I think a
+[00:20:39] second thing really kind of Echoes the
+[00:20:41] point that JT and leam made you know I
+[00:20:43] do think reasoning is a much more
+[00:20:44] powerful primitive than people give it
+[00:20:46] credit for you know um when you think
+[00:20:48] about kind of accomplishing tasks
+[00:20:50] reliably really that fundamental
+[00:20:52] primitive has to be reasoning you're
+[00:20:53] you're going to hit bottlenecks and
+[00:20:54] you're going to have to navigate your
+[00:20:55] way around them so I'm really excited
+[00:20:57] for that future I I think AI researchers
+[00:21:00] job is to find the way to put more
+[00:21:02] compute in and Hardware people have been
+[00:21:05] doing so good of a job that the cost has
+[00:21:07] been going down exponentially for a very
+[00:21:09] long time and we don't have much time to
+[00:21:11] find another way to put in more compute
+[00:21:14] and it's kind of like a weight on my
+[00:21:16] shoulder is just getting uh larger and
+[00:21:19] larger and this new paradigm really
+[00:21:21] finds a way to unload that for probably
+[00:21:25] a long time is there anything else
+[00:21:27] you've observed as we've been going
+[00:21:29] through this project for the whole time
+[00:21:32] we've been doing it anything else that's
+[00:21:33] worth calling out I think an interesting
+[00:21:36] meta observation that that we've had is
+[00:21:38] uh every model that we train is like a
+[00:21:41] little bit different it has its own
+[00:21:42] quirks and it's almost like a artisanal
+[00:21:45] cuz when you look at a model that can do
+[00:21:48] so many different tasks um each model
+[00:21:50] you train won't be exactly the same
+[00:21:52] performance at each task so it might be
+[00:21:54] better at some tasks and worse at others
+[00:21:56] and so there's this uniqueness of like
+[00:21:58] personality to every model that is
+[00:22:01] almost like a little bit beautiful thank
+[00:22:03] you and congrats on releasing this

@@ -1,0 +1,12 @@
+{% extends 'app/base.html' %}
+{% block content %}
+<div class="chat-container">
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-input-container">
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="user-input" placeholder="Enter a YouTube URL or ask a question...">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

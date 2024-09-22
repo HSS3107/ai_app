@@ -1,0 +1,125 @@
+Speaker 1 (Fireship): In this video you're going to learn how to make cloud computing great again. (Positive)
+
+Speaker 1 (Fireship): Try Docker Build Cloud for free at dockr.ly/4gx7mXa. (Neutral)
+
+Speaker 1 (Fireship): Chat with me on Discord at discord.gg/fireship. (Neutral)
+
+Speaker 1 (Fireship): Get more content and upgrade to PRO at fireship.io/pro. Use code YT25 for 25% off PRO access. (Positive)
+
+Speaker 1 (Fireship): My editor settings include Atom One Dark, vscode-icons, and Fira Code Font. (Neutral)
+
+Speaker 1 (Fireship): Topics covered in this video include cloud computing, Amazon Web Services, Google Cloud, Terraform, Pulumi, SST, and Docker Build Cloud. (Neutral)
+
+This chunk continues in the next part.
+
+Fireship - How To Make AWS Not Suck
+
+Speaker 1: [00:00:00] In this video, you're going to learn how to make cloud computing great again. (Neutral)
+Speaker 1: [00:00:01] If you're a software developer, that means you're on the Spectrum, a spectrum that defines how dependent you are on big cloud platforms like AWS, Google Cloud, and Azure. (Neutral)
+Speaker 1: [00:00:12] On one end, we have the based self-hoster. This dev handles 5,000 requests per second with PHP and jQuery on a $5 FreeBSD VPS. (Neutral)
+Speaker 1: [00:00:32] At the other end of the spectrum, we have the SAS sommelier. This dev pays for various services funded by rewards credit cards instead of customer revenue. (Neutral)
+Speaker 1: [00:00:52] Being on either end of the spectrum is not ideal. (Neutral)
+Speaker 1: [00:01:06] Luckily, there is another path where you leverage big cloud at optimal efficiency with amazing DX and zero vendor lock-in. (Positive) 
+Speaker 1: [00:01:14] There are some amazing open source tools that can help us get there. (Positive)
+Speaker 1: [00:01:16] But first, why do I even need a tool? (Neutral)
+
+[SPEAKER] Fireship
+
+[00:01:16] "Do I even need a tool?" - Neutral
+[00:01:19] "End up deploying a massive Kubernetes cluster you don't need... end up homeless." - Negative
+[00:01:26] "If you're deploying on big cloud, you should never do this and instead use infrastructure as code." - Neutral
+[00:01:31] "There are many tools that can get the job done with one of the most popular options being Terraform." - Neutral
+[00:01:36] "A good alternative is Palumi which itself is written in Go but allows you to write your code in multiple languages." - Positive
+[00:01:45] "Taking a declarative approach like this is not only safer but just far more efficient." - Positive
+[00:01:54] "I'm using Palumi to create a Google Cloud virtual machine." - Neutral
+[00:02:08] "If I want to deploy it, I can just do 'pulumi up' and it will automatically deploy this stuff to my Google Cloud account." - Positive
+[00:02:15] "When I want to take it down, I can do that with a single command." - Neutral
+
+This chunk continues in the next part.
+
+[00:02:24] Speaker: The speaker introduces Palumi and SST as useful tools.
+Sentiment: Positive
+[00:02:32] Speaker: Expresses initial skepticism about Palumi but acknowledges its effectiveness in infrastructure as code.
+Sentiment: Neutral
+[00:02:53] Speaker: Explains how SST simplifies defining serverless resources for different frameworks.
+Sentiment: Positive
+[00:03:10] Speaker: Mentions the issue of vendor lock-in with frameworks like Next.js and the benefits of containerization with Docker.
+Sentiment: Neutral
+[00:03:20] Speaker: Introduces Docker Build Cloud for faster image building.
+Sentiment: Positive
+
+Speaker: Fireship
+
+[00:03:34] Sentiment: Informative
+it should only rebuild layers that have changed and use the cache for everything
+
+[00:03:37] Sentiment: Informative
+the problem is that that cache only exists on your machine with build Cloud
+
+[00:03:42] Sentiment: Informative
+though this cache becomes available to every machine remotely that means if Bob builds an image in Tokyo Alice can take advantage of that cache in Austin instantly
+
+[00:03:49] Sentiment: Informative
+most importantly it fixes the massively annoying bottleneck of waiting for your CI server to hurry up and fail
+
+[00:03:55] Sentiment: Positive
+the shared cache can make complex builds 39 times faster which means more developer happiness for individuals and potentially millions of dollars saved for a medium-sized company
+
+[00:04:05] Sentiment: Instructive
+try out Docker build Cloud for free right now with the link below
+
+[00:04:09] Sentiment: Informative
+one thing that sucks about the cloud though is that it's utterly useless without an internet connection or credit card
+
+[00:04:13] Sentiment: Informative
+the good news is that there's a tool called local stack which emulates all the major services on AWS from a single container that you can run locally
+
+[00:04:20] Sentiment: Positive
+that means you can set up and test all of your buckets lambdas and Dynamo DBS on a flight and then push them to production the moment you land
+
+[00:04:29] Sentiment: Informative
+AWS is a massive collection of stuff you don't need and while local stack doesn't cover everything it does cover a lot of things
+
+[00:04:36] Sentiment: Positive
+most importantly though it's a playground where you can over engineer your architecture without any real world consequences
+
+[00:04:42] Sentiment: Instructive
+what I like to do is first create a diagram of my architecture using a tool like cloudcraft which can visually represent different services in 3D and how they connect to one another
+
+This chunk continues in the next part.
+
+Speaker: Narrator
+
+[00:04:42] Creating a diagram of my architecture using a tool like cloudcraft, which visually represents different services in 3D and how they connect to one another. (Neutral)
+
+[00:04:50] For example, I might have an S3 static website with a form that triggers a Lambda function that uploads to another bucket, which triggers a resizer Lambda, which triggers the simple notification service to send an email with simple email service. (Neutral)
+
+[00:05:03] Testing out my prototype, I can now use the AWS local CLI to create all my lambdas and buckets locally. (Neutral)
+
+[00:05:13] Once deployed locally, I can then go to the local stack dashboard and manage everything just like it was on AWS. I can even see my uploaded S3 files right here. (Positive)
+
+[00:05:19] The Encore of this video is a tool named Encore that every developer should know how to use infrastructure as code tools. (Positive)
+
+[00:05:27] One drawback is that they're totally decoupled from the code that matters, your application code. (Neutral)
+
+[00:05:33] Encore gets us pretty close to a world where we can build an app, click deploy, and never worry about it. (Positive)
+
+[00:05:40] Encore is a backend application framework that allows you to write your application code in go or typescript, with infrastructure semantics built into the application code. (Positive)
+
+[00:05:48] At compile time, Encore creates an application model where all the resources required to run your app are identified, allowing you to configure and customize them from the Encore development dashboard. (Positive)
+
+[00:05:52] Speaker: The speaker discusses a platform where all the resources required to run your app are identified and can be configured and customized from a development dashboard.
+
+[00:06:00] Speaker: The speaker mentions the benefits of the platform, including automation of devops work like continuous integration and deployment.
+
+[00:06:12] Speaker: The trade-off of using this platform is flexibility, as it assumes certain conditions such as application code being written in typescript or go.
+
+[00:06:32] Speaker: The speaker concludes the talk on how to make AWS better, emphasizing potential time savings by adhering to the platform's conventions.
+
+Sentiment: Positive
+
+[00:06:34] Speaker: The speaker thanks the audience for watching and hints at future content.
+
+Sentiment: Appreciative
+
+This is the last chunk.

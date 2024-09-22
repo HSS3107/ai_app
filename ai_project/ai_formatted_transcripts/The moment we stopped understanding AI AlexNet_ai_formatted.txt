@@ -1,0 +1,269 @@
+Title: The moment we stopped understanding AI [AlexNet]
+Channel: Welch Labs
+Published: 2024-07-01T19:09:21Z
+Duration: PT17M38S
+
+Description: Thanks to KiwiCo for sponsoring today's video! Go to https://www.kiwico.com/welchlabs and use code WELCHLABS for 50% off your first month of monthly lines and/or for 20% off your first Panda Crate.
+
+Activation Atlas Posters!
+- https://www.welchlabs.com/resources/5gtnaauv6nb9lrhoz9cp604padxp5o
+- https://www.welchlabs.com/resources/activation-atlas-poster-mixed5b-13x19
+- https://www.welchlabs.com/resources/large-activation-atlas-poster-mixed4c-24x36
+- https://www.welchlabs.com/resources/activation-atlas-poster-mixed4c-13x19
+
+Special thanks to the Patrons:
+Juan Benet, Ross Hanson, Yan Babitski, AJ Englehardt, Alvin Khaled, Eduardo Barraza, Hitoshi Yamauchi, Jaewon Jung, Mrgoodlight, Shinichi Hayashi, Sid Sarasvati, Dominic Beaumont, Shannon Prater, Ubiquity Ventures, Matias Forti
+
+Welch Labs
+Ad free videos and exclusive perks: https://www.patreon.com/welchlabs
+Watch on TikTok: https://www.tiktok.com/@welchlabs
+Learn More or Contact: https://www.welchlabs.com/
+Instagram: https://www.instagram.com/welchlabs
+X: https://twitter.com/welchlabs
+
+References:
+- AlexNet Paper: https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+- Original Activation Atlas Article: explore here - Great interactive Atlas! https://distill.pub/2019/activation-atlas/ Carter, et al., "Activation Atlas", Distill, 2019.
+- Feature Visualization Article: https://distill.pub/2017/feature-visualization/ Olah, et al., "Feature Visualization", Distill, 2017.
+- Great LLM Explainability work: https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html Templeton, et al., "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet", Transformer Circuits Thread, 2024.
+- “Deep Visualization Toolbox" by Jason Yosinski video inspired many visuals: https://www.youtube.com/watch?v=AgkfIQ4IGaM
+
+This chunk continues in the next part.
+
+- Welch Labs: The "Deep Visualization Toolbox" by Jason Yosinski video inspired many visuals. (Neutral)
+- Great LLM/GPT Intro paper available at https://arxiv.org/pdf/2304.10557. (Positive)
+- 3Blue1Brown's GPT Videos are excellent, as always:
+  - https://www.youtube.com/watch?v=eMlx5fFNoYc
+  - https://www.youtube.com/watch?v=wjZofJX0v4M (Positive)
+- Andrej Karpathy's walkthrough is amazing: https://www.youtube.com/watch?v=kCc8FmEb1nY. (Positive)
+- Goodfellow’s Deep Learning Book can be found at https://www.deeplearningbook.org/. (Positive)
+- OpenAI’s 10,000 V100 GPU cluster (1+ exaflop) detailed at https://news.microsoft.com/source/features/innovation/openai-azure-supercomputer/. (Neutral)
+- GPT-3 size, etc: Language Models are Few-Shot Learners by Brown et al, 2020. (Neutral)
+- Unique token count for ChatGPT available at https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken. (Neutral)
+- Speculative details on GPT-4 training size, etc, can be found at:
+  - https://patmcguinness.substack.com/p/gpt-4-details-revealed
+  - https://www.semianalysis.com/p/gpt-4-architecture-infrastructure. (Neutral)
+- Historical Neural Network Videos:
+  - https://www.youtube.com/watch?v=FwFduRA_L6Q
+  - https://www.youtube.com/watch?v=cNxadbrN_aI. (Neutral)
+- Errata: At 1:40, it should be "word fragment is appended to the end of the original input". Thanks to Chris A for finding this error. (Neutral)
+
+Speaker: Narrator
+
+[00:00:00] This is an activation Atlas, giving us a glimpse into the high-dimensional embedding spaces modern AI models use to organize and make sense of the world. (Neutral)
+[00:00:11] The first model to really see the world like this, AlexNet, was published in 2012 in an 8-page paper that shocked the computer vision community. (Neutral)
+[00:00:24] The paper's second author, Ilya K., would go on to co-found OpenAI where he and the team scaled up this idea to create GPT. (Neutral)
+[00:00:39] If you look under the hood of ChatGPT, you won't find any obvious signs of intelligence; instead, you'll find layers of compute blocks called transformers. (Neutral)
+[00:01:00] ChatGPT breaks apart what you ask into words and word fragments, maps each to a vector, and stacks them together into a matrix. (Neutral)
+[00:01:17] This operation is repeated multiple times in ChatGPT 3.5 and reportedly even more in ChatGPT 4. (Neutral)
+[00:01:24] The next word or word fragment that ChatGPT says back to you is literally just the last column of its final output matrix mapped back to text. (Neutral)
+
+(Continues in the next part)
+
+[00:01:29] Speaker: Narrator
+Sentiment: Neutral
+Transcript: This is literally just the last column of its final output Matrix mapped from a vector back to text to formulate a full response. This new word or word fragment is appended to the end of the original output, and this new slightly longer text is fed back into the input of chat GPT. This process is repeated again and again, with one new column added to the input Matrix each time until the model's output returns a special stop word fragment. And that is it, one Matrix multiply after another. GPT slowly morphs the input you give it into the output it returns. Where is the intelligence? How is it that these 100 or so blocks of dumb compute are able to write essays, translate language, summarize books, solve math problems, explain complex concepts, or even... at the next line of this script? The answer lies in the vast amounts of data these models are trained on. Okay, pretty good, but not quite what I wanted to say next. The AlexNet paper is significant because it marks the first time we really see layers of compute blocks like this learning to do unbelievable things. An AI tipping point towards high performance in scale and away from explainability. While chat GPT is trained to predict the next word fragment given some text, AlexNet is trained to predict a label given an image. The input image to AlexNet is represented as a three-dimensional Matrix or tensor of RGB intensity values, and the output is a single vector of length 1,000 where each entry corresponds to AlexNet's predicted probability that the input image.
+
+Speaker: Narrator
+
+[00:02:53] The output is a single vector of length 1,000 where each entry corresponds to AlexNet's predicted probability that the input image belongs to one of the a thousand classes in the ImageNet dataset, such as tabby cats, German Shepherds, hot dogs, toasters, and aircraft carriers. (Neutral)
+
+[00:03:08] Just like ChatGPT today, AlexNet was somehow magically able to map the inputs we give it into the outputs we wanted using layer after layer of compute block after training on a large dataset. (Neutral)
+
+[00:03:22] One nice thing about vision models, however, is that it's easier to poke around under the hood and get some idea of what the model has learned. (Positive)
+
+[00:03:30] One of the first under-the-hood insights that Kfy Suit and Hinton show in the AlexNet paper is that the model has learned some very interesting visual patterns in its first layer. (Positive)
+
+[00:03:39] The first five layers of AlexNet are all convolutional blocks first developed in the late 1980s to classify handwritten digits and can be understood as a special case of the Transformer blocks in ChatGPT and other large language models. (Neutral)
+
+[00:03:54] In convolutional blocks, the input image tensor is transformed by sliding a much smaller tensor called a kernel of learned weight values across the image and at each location computing the dot product between the image and the kernel. (Neutral)
+
+[00:04:12] The more similar a given patch of the image and kernel are, the higher the resulting dot product will be. AlexNet uses 96 individual kernels in its first layer, each of dimension 11 by 11 by 3. (Neutral)
+
+Welch Labs
+[00:04:10] Speaker: Narrator
+Sentiment: Neutral
+Kernel are the higher the resulting dot.
+[00:04:12] Speaker: Narrator
+Sentiment: Neutral
+Product will be Alex net uses 96.
+[00:04:15] Speaker: Narrator
+Sentiment: Neutral
+Individual kernels in its first layer.
+[00:04:18] Speaker: Narrator
+Sentiment: Neutral
+Each of Dimension 11 by 11 by 3 so.
+[00:04:20] Speaker: Narrator
+Sentiment: Neutral
+Conveniently we can visualize them as.
+[00:04:22] Speaker: Narrator
+Sentiment: Neutral
+Little RGB images these images give us a nice idea of how the first layer of Alexnet sees the image.
+[00:04:25] Speaker: Narrator
+Sentiment: Neutral
+The upper kernels in this figure show where Alex and has clearly learned to detect edges or rapid changes from light to dark at various angles.
+[00:04:30] Speaker: Narrator
+Sentiment: Neutral
+Images with similar patterns will generate High Dot products with these kernels below we see where Alexon has learned to detect Blobs of various colors.
+[00:04:42] Speaker: Narrator
+Sentiment: Neutral
+These kernels are all initialized as random numbers and the patterns we're looking at are completely learned from data.
+[00:04:46] Speaker: Narrator
+Sentiment: Neutral
+Sliding each of our 96 kernels over the input image and Computing the dot product at each location produces a new set of 96 matrices sometimes called activation Maps.
+[00:05:00] Speaker: Narrator
+Sentiment: Neutral
+Conveniently we can view these as images as well the activation Maps show us which parts of an image if any match a given kernel well if I hold up something visually similar to a given kernel we see high activation in that part of the activation map.
+[00:05:16] Speaker: Narrator
+Sentiment: Neutral
+Notice that it goes away when I rotate the pattern by 90° the image and kernel are no longer aligned you can also see various activation Maps picking up edges and other low features in our image of course finding edges and color blobs in images is still hugely removed from recognizing complex Concepts like German Shepherds or aircraft carriers what's astounding about deep neural networks like alexnet and chat GPT is.
+
+[00:05:35] Speaker: The speaker discusses the complexity of recognizing concepts like German Shepherds or aircraft carriers.
+[00:05:39] Speaker: The speaker mentions the astounding nature of deep neural networks like AlexNet and Chat GPT.
+[00:05:47] Speaker: The speaker explains the process of repeating the same operation with different learned weights in AlexNet.
+[00:06:00] Speaker: The speaker discusses making activations easier to visualize by removing values close to zero.
+[00:06:13] Speaker: The speaker explains the limitation of visualizing weight values and kernels in the second layer.
+[00:06:25] Speaker: The speaker explains the depth of the incoming data in the first layer of AlexNet.
+[00:06:37] Speaker: The speaker discusses the challenge of visualizing the weighted combinations of computations in the second layer.
+[00:06:50] Speaker: The speaker suggests finding parts of various images that strongly activate the outputs of the second layer.
+
+Speaker: Narrator
+
+[00:06:50] The speaker discusses how to understand AI by analyzing activation maps in different layers of AlexNet.
+
+Sentiment: Neutral
+
+[00:07:20] AlexNet was able to learn the concept of faces without explicit instruction, solely from the images and labels in the dataset.
+
+Sentiment: Positive
+
+[00:07:52] Feature visualization is mentioned as a technique to generate synthetic images that maximize a given activation, providing insight into what a specific layer is looking for.
+
+Sentiment: Positive
+
+[00:08:12] The final layer of AlexNet processes the image into a vector of length 4,096, performing a final matrix computation to create the output vector.
+
+Sentiment: Neutral
+
+This chunk continues in the next part.
+
+Welch Labs:
+[00:08:09] Speaker: Narrator
+Sentiment: Neutral
+Into a vector of length.
+[00:08:12] Speaker: Narrator
+Sentiment: Neutral
+4,096 the final layer performs one last.
+[00:08:14] Speaker: Narrator
+Sentiment: Neutral
+Matrix computation on this Vector to create a final output Vector of length.
+[00:08:16] Speaker: Narrator
+Sentiment: Neutral
+1,000 with one entry for each of the classes in the ImageNet data set.
+[00:08:21] Speaker: Narrator
+Sentiment: Neutral
+Chfi suit and Hinton noticed that the second to last layer Vector demonstrated some very interesting properties.
+[00:08:25] Speaker: Narrator
+Sentiment: Neutral
+One way to think about this Vector is as a point in 4,096 dimensional space each image we pass into the model is effectively mapped to a point in this space all we have to do is just stop one layer early and grab this Vector just as we can measure the distance between two points in 2D space we can also measure the distance between points or images in this high-dimensional space Hinton's team ran a simple experiment where they took a test image in the ImageNet data set computed its corresponding vector and then search for the other images in the ImageNet data set that were closest or the nearest neighbors to the test image in this high-dimensional space remarkably the nearest neighbor images showed highly similar concepts to the test images in figure four from the AlexNet paper we see an example where an elephant test image yields nearest neighbors that are all elephants what's interesting here too is that the pixel values themselves between these images are very different AlexNet really has learned high-dimensional representations of data where similar concepts are physically close this high-dimensional space is often called a latent or embedding space in the years following the AlexNet paper it was shown.
+
+This chunk continues in the next part.
+
+[00:09:29] Speaker: The concept of physically close in this high-dimensional space is often called a latent or embedding space. (Neutral)
+[00:09:36] Speaker: In the years following the AlexNet paper, it was shown that not only distance but directionality in some of these embedding spaces is meaningful. (Neutral)
+[00:09:44] Speaker: The demos where faces are age or gender-shifted often work by first mapping an image to a vector in an embedding space and then literally moving this point in the age or gender direction in that embedding space. (Neutral)
+[00:10:00] Speaker: Before we get into activation atlases, which give us an amazing way to visualize these embedding spaces, please take a moment to consider if this video sponsor is something that you or someone in your life would enjoy. (Neutral)
+[00:10:12] Speaker: I was genuinely really excited to work with this company. They make incredibly thoughtful educational products. (Positive)
+[00:10:21] Speaker: This video sponsor is Kiwi. They make fun and super well-designed educational crates for kids of all ages. (Positive)
+[00:10:38] Speaker: You can also buy individual crates which are great for trying out Kiwi and make amazing gifts. (Positive)
+
+[00:10:48] Speaker: The speaker expresses enthusiasm for hands-on learning projects like the pencil sharpener from the Eureka crate line.
+Sentiment: Positive
+
+[00:10:57] Speaker: The speaker believes that self-driven learning experiences are magical and lead to the most significant knowledge gains.
+Sentiment: Positive
+
+[00:11:07] Speaker: The speaker mentions wanting their children to have similar hands-on learning experiences.
+Sentiment: Positive
+
+[00:11:19] Speaker: The speaker praises Kiwi for their project crates and mentions their daughter's positive experience with the panda crate.
+Sentiment: Positive
+
+[00:11:28] Speaker: The speaker expresses gratitude to Kiwi for sponsoring the video and offers a discount code for viewers.
+Sentiment: Positive
+
+[00:11:36] Speaker: The speaker transitions back to discussing AlexNet and mentions the use of synthetic images to create activation atlases.
+Sentiment: Neutral
+
+[00:12:02] Speaker: The speaker explains how deep neural networks organize the visual world through activation atlases.
+Sentiment: Neutral
+
+This chunk continues in the next part.
+
+Welch Labs:
+[00:12:04] The speaker discusses how certain neighborhoods of neurons are activated in the model, allowing for smooth transitions between concepts like zebras, tigers, leopards, and rabbits. (Neutral)
+[00:12:23] The correlation between the number and size of fruit in an image and the model's inner layers is highlighted. (Neutral)
+[00:12:33] Words and word fragments are mapped to vectors in an embedding space, where similar meanings are close to each other. (Neutral)
+[00:12:43] Recent work from the team at Anthropic shows how activations can be mapped to concepts in language, aiding in understanding large language models. (Positive)
+[00:13:05] By clamping activations corresponding to the concept of the Golden Gate Bridge, the model began identifying itself as such. (Neutral)
+[00:13:08] AlexNet significantly outperformed other models in the ImageNet challenge in 2012. (Positive)
+[00:13:18] Previous winners used more traditional approaches compared to AlexNet's innovative methods. (Neutral)
+
+Welch Labs Transcript:
+Speaker: Narrator
+
+Sentiment: Informative
+
+[00:13:25] Winner used a complex set of very different algorithms starting with an algorithm called sift which is composed of specialized image analysis techniques developed by experts over many years of research. 
+[00:13:37] In contrast, AlexNet is an implementation of a much older AI idea, an artificial neural network where the behavior of the algorithm is almost entirely learned from data. 
+[00:13:49] The dot product operation between the data and a set of weights was originally proposed by Molic and Pitts in the 1940s as a dramatically oversimplified model of the neurons in our brain. 
+[00:14:10] The perceptron is a learning algorithm and physical machine from the 1950s that uses Molic and Pitts neurons and can learn to perform basic shape recognition tasks. 
+[00:14:18] Back in the 1980s, a younger Jeff Hinton and his collaborators at Carnegie Mellon showed how to train multiple layers of these perceptrons using a multivariate calculus technique called backpropagation. 
+[00:14:35] Chief AI scientist at Meta, was able to train five-layer deep models to recognize handwritten digits. 
+[00:14:46] Despite the intermittent successes of artificial neural networks over the years, this approach was hardly the accepted way to do AI right up until the publication of AlexNet.
+
+[00:14:48] Speaker: The speaker discusses the advancements in AI leading up to the publication of AlexNet.
+Sentiment: Neutral
+
+[00:15:00] Speaker: Deep networks were believed to be difficult to train until the breakthrough with AlexNet.
+Sentiment: Neutral
+
+[00:15:24] Speaker: The key difference in 2012 was the scale of data and compute power available.
+Sentiment: Neutral
+
+[00:15:50] Speaker: AlexNet increased the number of learnable parameters significantly.
+Sentiment: Neutral
+
+[00:16:02] Speaker: The mindboggling scale of models like GPT is characteristic of the current AI wave.
+Sentiment: Neutral
+
+[00:16:09] Speaker: Understanding how these models work poses a fundamental challenge.
+Sentiment: Neutral
+
+[00:16:18] Speaker: Large language models learn representations of various concepts.
+Sentiment: Positive
+
+[00:16:20] Speaker: There are many more concepts that these models can learn.
+Sentiment: Neutral
+
+This chunk continues in the next part.
+
+Speaker: Narrator
+
+[00:16:16] Language models learn representations of concepts like the Golden Gate Bridge. (Neutral)
+[00:16:20] Models also learn many more concepts that we don't even have words for. (Neutral)
+[00:16:27] Activation atlases are low-dimensional projections of high-dimensional spaces. (Neutral)
+[00:16:33] Our spatial reasoning abilities often fall apart in these projections. (Neutral)
+[00:16:36] Predicting where AI will go next is notoriously difficult. (Neutral)
+[00:16:43] No one expected the scale-up of neural networks in the 80s and 90s to yield AlexNet. (Neutral)
+[00:16:50] Scaling up compute blocks in AlexNet led to the breakthrough of Chat GPT. (Neutral)
+[00:17:04] Maybe a mostly forgotten approach to AI will resurface, similar to AlexNet in 2012. (Neutral)
+
+Speaker: Narrator
+
+[00:17:19] "Are you mad that I called the blocks of compute dumb?" (Neutral)
+[00:17:21] "Not at all." (Neutral)
+[00:17:24] Describing the compute blocks as "dumb" highlights the impressive nature of how simple operations can produce intelligent behavior. (Positive)
+[00:17:29] It's a great way to emphasize the power of the underlying algorithms and training data. (Positive)
+
+This is the last chunk.

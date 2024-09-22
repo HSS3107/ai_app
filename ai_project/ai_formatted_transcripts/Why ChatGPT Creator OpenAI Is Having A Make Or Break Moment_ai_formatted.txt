@@ -1,0 +1,227 @@
+Chunk:
+Speaker: CNBC Host
+Sentiment: Neutral
+Transcript: In the next few months, ChatGPT-creator OpenAI will face some of its biggest tests yet. A high-profile partnership with Apple now that ChatGPT is built into the iPhone 16, It has a more than a $100 billion valuation and interest from big-name investors. It’s going through a restructuring of its complex hybrid for-profit and nonprofit structure, and GPT-5 is still on the line. It’s a tall ask for a company that’s seen a bumpy ride to the top and a divisive CEO. Can Sam Altman lead OpenAI into the big leagues? CNBC’s Deirdre Bosa has the story.
+
+Chapters:
+Speaker: CNBC Host
+Sentiment: Neutral
+00:54 Intro - Why OpenAI’s next phase will be its toughest
+00:59 Chapter 1 - The stage is set
+6:39 Chapter 2 - The man behind the curtain
+8:37 Chapter 3 - The next act
+
+Anchor: Deirdre Bosa
+Produced by: Jasmine Wu, Laura Batchelor, Drew Troast
+Edited by: Nic Golden Henry
+Supervising Producer: Jeniece Pettitt
+
+CNBC News Online offers the latest news and updates. Follow CNBC on various social media platforms for more content and updates.
+
+Sentiment: Neutral
+
+This chunk does not include any specific statements or sentiments, but rather provides information on how to connect with CNBC online.
+
+[00:00:00] Speaker 1: OpenAI has got the wind at its back. (Positive)
+[00:00:03] Speaker 1: The OpenAI in talks now for a new funding round. (Neutral)
+[00:00:05] Speaker 1: Perhaps the biggest AI player out there. (Positive)
+[00:00:08] Speaker 1: But the next act for the ChatGPT creator will be its toughest. (Neutral)
+[00:00:11] Speaker 1: Every organization. (Neutral)
+[00:00:13] Speaker 1: If they want to go public, they're going to have to reorganize and restructure the company before any of these investors can see some kind of massive return off of that. (Neutral)
+[00:00:22] Speaker 1: A high profile partnership with Apple. (Positive)
+[00:00:24] Speaker 1: iPhone 16 raises the bar for what an iPhone can do. (Positive)
+[00:00:28] Speaker 1: The next breakthrough and GPT-5 on the line, all led by a CEO who, depending on who you ask, is a visionary or a snake oil salesman. (Neutral)
+[00:00:38] Speaker 1: What do you think of OpenAI? (Neutral)
+[00:00:39] Speaker 1: Do you trust Sam Altman? (Neutral)
+[00:00:41] Speaker 2: Not a bit. (Negative)
+[00:00:43] Speaker 1: I'm Deirdre Bosa and this is pardon the disruption. (Neutral)
+[00:00:47] Speaker 1: Here's why this is OpenAI's moment of truth. (Neutral)
+[00:01:04] Speaker 1: The higher the climb, the harder the fall, and OpenAI has climbed the tech ranks very quickly. (Neutral)
+[00:01:08] Speaker 1: Google ahead of Microsoft and ahead of Apple. (Neutral)
+[00:01:13] Speaker 1: Next month, those three giants have had to reorient their entire businesses around artificial intelligence because of what this one startup has done. (Neutral)
+[00:01:22] Speaker 1: And now the stage is set for one of its biggest tests yet, a partnership with Apple. (Positive)
+[00:01:27] Speaker 1: We're integrating them right into your experiences, and we're starting out with the best of these; the pioneer and market leader ChatGPT from OpenAI. (Positive)
+[00:01:38] Speaker 1: A $100 billion valuation, one of the few unicorns in history to even reach that level. (Positive)
+[00:01:43] Speaker 1: It also signals this all out arms race we're seeing in the valley for these AI companies to get more cash. (Neutral)
+[00:01:49] Speaker 1: OpenAI with ChatGPT has been considered the leader. (Positive)
+[00:01:52] Speaker 1: And now its founder is once again in the spotlight. (Neutral)
+
+[00:01:46] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:01:49] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:01:52] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:01:55] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:01:59] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:02] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:04] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:06] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:09] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:11] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:13] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:16] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:19] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:22] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:25] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:26] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:30] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:33] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:35] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:38] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:42] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:44] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:47] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:48] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:51] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:54] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:56] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:02:59] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:01] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:04] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:07] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:10] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:10] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:13] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:16] Speaker: CNBC Reporter
+Sentiment: Neutral
+
+[00:03:10] Speaker: CNBC Reporter
+[00:03:10] Sentiment: Neutral
+Altman ultimately survived that coup, returning in less than a week, but he has since lost some of the key people that helped build OpenAI in the first place.
+
+[00:03:20] Speaker: CNBC Reporter
+[00:03:20] Sentiment: Neutral
+OpenAI co-founder John Schulman is leaving the maker of ChatGPT to join Anthropic, an AI rival backed by Amazon.
+
+[00:03:30] Speaker: CNBC Reporter
+[00:03:30] Sentiment: Neutral
+We learned about that major leadership exodus over at OpenAI as top talent, including two co-founders, announced their departures in just the past few days.
+
+[00:03:38] Speaker: CNBC Reporter
+[00:03:38] Sentiment: Neutral
+Co-founder Ilya Sutskever, who took part in ousting Altman before reversing course and pushing for his return, will exit the board.
+
+[00:04:15] Speaker: CNBC Reporter
+[00:04:15] Sentiment: Neutral
+OpenAI says that Altman maintains transparency with the board about his occasional investments, and adheres to a process for managing potential conflicts of interest.
+
+[00:04:28] Speaker: CNBC Reporter
+[00:04:28] Sentiment: Neutral
+Altman started OpenAI in 2015 as a nonprofit with the mission of advancing AI that would benefit humanity as a whole and, quote, unconstrained by a need to generate financial return.
+
+[00:04:38] Speaker: CNBC Reporter
+[00:04:38] Sentiment: Neutral
+Building AI is expensive and requires significant investments in data servers, engineers, energy, and AI chips.
+
+[00:04:45] Speaker: CNBC Reporter
+[00:04:45] Sentiment: Neutral
+In 2019, OpenAI updated its structure to include a for-profit subsidiary to attract investors who seek returns.
+
+Interviewer: The current structure is unique, which might be an understatement. Equity is actually issued by OpenAI's for-profit subsidiary, which is governed by the nonprofit board. A very complex hybrid between a nonprofit entity and a for-profit arm. I think that kind of structure is ultimately untenable. You can't be both.
+
+Criticism has been directed at the CEO for running OpenAI as a for-profit company, no longer reflecting the nonprofit structure it was founded on. Its original focus on safe and responsible development has made way for a very lucrative business model, including subscriptions, licensing, and enterprise products. This shift led one of its co-founders, who left in 2018, to coin it "Closed AI."
+
+Interviewee: It seems weird that something can be a nonprofit, open-source, and somehow transform itself into a for-profit, closed-source. I mean, this would be like funding an organization to save the Amazon rainforest, and instead, they became a lumber company and chopped down the forest for profit. That doesn't seem legal.
+
+Interviewer: The test now is whether OpenAI can balance the tug of war between its nonprofit roots and a more realistic for-profit future. Emil Michael, an early Uber executive who now invests in AI companies, would advise the CEO to navigate this challenge carefully.
+
+This chunk continues in the next part.
+
+[00:06:15] Speaker: Unknown
+Sentiment: Neutral
+It's clear to the world now, but it certainly was getting clearer to the board of directors and the donors of which Elon Musk was a donor and a co-founder, that this was more going to be a for-profit entity. If I were advising him, which I'm not on this subject, I'd say just be who you are. This is a for-profit thing. Give the donations back to people who thought they were donating to, you know, a foundation.
+
+[00:06:43] Speaker: Unknown
+Sentiment: Neutral
+Sam Altman has been a long, recurring character in Silicon Valley tech circles with a work ethic to match. I've known him a little for a long time. He is responsive. You texting; can you talk? And before you can hit send, he's calling you. Roots in entrepreneurship and venture capital, he is raising money at ever higher valuations and he's drawing interest from the biggest players in the tech world. Microsoft was first with an initial $1 billion investment in 2019 that quickly swelled to 13 billion, and now Apple and Nvidia may be poking around hoping to invest themselves and capitalize on OpenAI's winning streak.
+
+[00:07:22] Speaker: Unknown
+Sentiment: Neutral
+You might call it a party round. That's what they would call it in Silicon Valley. But you've got names like Microsoft, you've got Apple trying to back the hottest name in Silicon Valley. But some tech observers are throwing cold water, saying that OpenAI's sky-high valuation does not match the returns. He's able to raise money at these very, very high valuations without having to demonstrate the progress that he promised a year or two ago. And, you know, as long as those incentives are misaligned, you shouldn't trust him.
+
+Speaker 1: [00:07:44] He promised a year or two ago. (Neutral)
+Speaker 1: [00:07:46] And, you know, as long as those incentives are misaligned, you shouldn't trust him. (Negative)
+Speaker 1: [00:07:49] And, you know, there's a lot of history here. (Neutral)
+Speaker 1: [00:07:53] And as an investor, I'm looking at this thing going, wow, it's interesting because the promises of two years ago and the promises of one year ago have not come true. (Neutral)
+Speaker 1: [00:08:03] The only thing that's come true is that he's raised more money at higher valuations. (Neutral)
+Speaker 2: [00:08:06] Michael though, says that big tech interest is more strategic. (Neutral)
+Speaker 2: [00:08:11] Apple, Nvidia and Microsoft are strategic investors, meaning they weren't just looking for financial return. They did it because they want to have some alignment with the technology that this company is building. (Positive)
+Speaker 2: [00:08:42] Generative AI has now become synonymous with OpenAI. (Neutral)
+Speaker 2: [00:08:45] After ChatGPT's launch in 2022 went viral and changed the entire conversation around what AI can do. (Positive)
+Speaker 2: [00:09:06] Since then, no one has been able to replicate that moment, not Microsoft, with reports of its flagship product, Copilot disappointing customers, not Apple, which is staggering, and pushing back the launch of some AI capabilities on the iPhone. (Negative)
+Speaker 2: [00:09:22] Not even Google with its decade-long lead in AI. (Neutral) 
+
+Continues in the next part.
+
+[00:09:18] Interviewer: The delay in launching AI capabilities on the iPhone is staggering, not even Google with its long lead in AI. It was Altman who got it done. (Neutral)
+[00:09:35] Interviewer: Altman is seen as a technologist and a great businessman. He may need to be more cautious in the future. (Neutral)
+[00:10:00] Interviewer: A new race for advanced AI is on between Big Tech and OpenAI, aiming for artificial general intelligence. OpenAI faces scrutiny to ensure safety and reliability with GPT-5. (Neutral)
+[00:10:22] Interviewer: Another milestone in the AI arms race as OpenAI competes for breakthroughs in AI development. (Neutral)
+[00:10:36] Interviewer: According to Jensen Huang, the first to reach the next level in AI will establish revolutionary leadership. (Positive)
+[00:10:56] Interviewer: OpenAI's position as a leader in AI is now at stake. (Neutral)

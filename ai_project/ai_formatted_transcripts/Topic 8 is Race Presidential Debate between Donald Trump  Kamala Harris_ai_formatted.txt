@@ -1,0 +1,72 @@
+Formatted Transcript:
+
+[00:00:00] 
+Speaker 1 (Moderator): 
+- Sentiment: Neutral
+"Competent she and her boss are President."
+
+[00:00:03] 
+Speaker 2 (Donald Trump): 
+- Sentiment: Neutral
+"Thank you, I want to move on now to race and politics in this country Mr President, you recently said Vice President Harris quote "I didn't know she was black until a number of years ago when she happened to turn black and now she wants to be known as black." I want to ask a bigger picture question here tonight, why do you believe it's appropriate to weigh in on the racial identity of your opponent?"
+
+[00:00:24] 
+Speaker 2 (Donald Trump): 
+- Sentiment: Neutral
+"I don't and I don't care. I don't care what she is, I don't care. You make a big deal out of something I couldn't care less. Whatever she wants to be is okay with me."
+
+[00:00:35] 
+Speaker 1 (Moderator): 
+- Sentiment: Neutral
+"But those were your words, so I am asking."
+
+[00:00:37] 
+Speaker 2 (Donald Trump): 
+- Sentiment: Neutral
+"I don't know, I don't know. I mean all I can say is I read where she was not black, that she put out and I'll say that. And then I read that she was black and that's okay, either one was okay with me. That's up to her, that's up to her."
+
+[00:00:52] 
+Speaker 3 (Kamala Harris): 
+- Sentiment: Negative
+"I think it's, I mean honestly, I think it's a tragedy that we have someone who wants to be president who has consistently over the course of his career attempted to use race to divide the American people. You know, I do believe that the vast majority of us know that we have so much more in common than what separates us and we don't want this kind of approach that is just constantly trying to divide us and especially by race."
+
+[00:01:24] 
+Speaker 3 (Kamala Harris): 
+- Sentiment: Negative
+"Let's remember how Donald Trump started. He was a landowner, he owned buildings, and he was investigated because he refused to rent property to black families. Let's remember this is the same individual who took out a full page ad in the New York Times calling for the execution of five young black and Latino boys who were innocent, the Central Park 5. He took out a full page ad calling for their execution. This is the same individual who spread birther lies about the first black president of the United States and I think the American people want better than that."
+
+[00:02:18] 
+Speaker 3 (Kamala Harris): 
+- Sentiment: Positive
+"I travel our country. We see in each other a friend, we see in each other a neighbor. We don't want a leader who is constantly trying to have Americans point their fingers at each other. I meet with people all the time who tell me, can we please just have discourse about how we're going to invest in the aspirations and the ambitions and the dreams of the American people knowing that regardless of people's color or the language their grandmother speaks. We all have the same dreams and aspirations and want a president who invests in those, not in hate and division."
+
+[00:03:00] 
+Speaker 1 (Moderator): 
+- Sentiment: Neutral
+"President Trump, this is now your third time..."
+
+[00:03:02] 
+Speaker 2 (Donald Trump): 
+- Sentiment: Negative
+"This is the most divisive presidency in the history of our country. There's never been anything like it. They're destroying our country and they come up with things like what she just said going back many many years. When a lot of people including May Bloomberg agreed with me on the Central Park 5, they admitted they said they plead guilty and I said well if they plead guilty, they'd badly hurt a person, killed a person, person ultimately and if they plead guilty then they plead. We're not guilty but this is a person that has to stretch back years 40 50 years ago because there's nothing now. I built one of the greatest economies in the history of the world and I'm going to build it again. It's going to be bigger, better and stronger but they're destroying our economy. They have no idea what a good economy is. Their oil policies, every single policy..."
+
+[00:04:16] 
+Speaker 3 (Kamala Harris): 
+- Sentiment: Positive
+"I am certainly not Donald Trump and what I do offer is a new generation of leadership for our country. One who believes in what is possible, one who brings a sense of optimism about what we can do instead of always disparaging the American people. I believe in what we can do to strengthen our small businesses which is why I have a plan. Let's talk about our plans and let's compare the plans. I have a plan to give startup businesses $50,000 tax deduction to pursue their ambitions, their innovation, their ideas, their hard work. I have a plan $6,000 for young families for the first year of your child's life to help you in that most critical stage of your child's development. I have a plan that is about allowing people to be able to pursue what has been fleeting in terms of the American dream by offering help with down payment of $225,000 down payment assistance for first time home buyers. That's the kind of conversation I believe David that people really want tonight as opposed to a conversation that is constantly about belittling and name calling."
+
+[00:05:47] 
+Speaker 1 (Moderator): 
+- Sentiment: Neutral
+"President Trump, let's turn to policy please."
+
+[00:05:52] 
+Speaker 2 (Donald Trump): 
+- Sentiment: Negative
+"She has a plan to defund the police, she has a plan to confiscate everybody's gun, has to allow fracking in Pennsylvania or anywhere else that's what her plan is until just recently."
+
+[00:06:10] 
+Speaker 1 (Moderator): 
+- Sentiment: Neutral
+"I'm sorry, we're going to move on Vice President, President Trump this is now your third time running for president, you have long vowed to repeal and replace the Affordable Care Act also known as Obama..."
+

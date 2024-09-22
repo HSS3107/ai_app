@@ -1,0 +1,85 @@
+Title: How Big is The Universe?
+Channel: Science Time
+Published: 2024-02-03T20:00:19Z
+Duration: PT11M10S
+
+Speaker 1: We begin at the familiar blue and green orb we call home and zoom out to explore the vastness of space. (Neutral)
+Speaker 2: From the Moon, our closest cosmic neighbor, to the edges of the observable universe, prepare to be astonished by the sheer scale of everything that exists. (Positive)
+Speaker 1: Travel with us as we venture past the Moon, understanding its distance in terms we can grasp. (Neutral)
+Speaker 2: Witness the Sun, not just as a source of light, but as a milestone in the vastness of our solar system. (Positive)
+Speaker 1: We don't stop there; Mars, Neptune, and the outer reaches of our solar neighborhood await. (Neutral)
+
+This chunk continues in the next part.
+
+[00:00:04] Narrator: Earth, our home planet, a tiny blue dot floating in the immense cosmic ocean. (Neutral)
+[00:00:14] Narrator: Here resides everyone you ever knew, every human who ever lived, every story that was ever told. (Neutral)
+[00:00:21] Narrator: It's where our journey begins. (Neutral)
+[00:00:28] Narrator: But as we zoom out beyond our atmosphere, past the moon, beyond the familiar planet and the sun, we embark on an epic quest, a quest to grasp the true scale of our universe. (Neutral)
+[00:00:35] Narrator: As we leave Earth's embrace, the first marker on our cosmic journey is the moon, about 384,000 km away. (Neutral)
+[00:00:43] Narrator: A distance so vast that if you were to drive a car at a constant speed of 100 km per hour, it would take you over 160 days to reach it. (Neutral)
+[00:00:50] Narrator: And from this lunar vantage point, Earth appears as a fragile sphere of blues and greens cradled in the black void of space, a sight that puts our existence into a humbling perspective. (Neutral)
+[00:01:06] Narrator: This is Earth as seen from the Moon. (Neutral)
+[00:01:13] Narrator: As we continue our outward journey, the next milestone is the sun, lying approximately one astronomical unit away from Earth. (Neutral)
+[00:01:19] Narrator: This unit, equivalent to about 150 million km, is the standard measuring stick for distances in our solar system. (Neutral)
+[00:01:27] Narrator: Imagine this light traveling at an astounding speed of 300,000 km/s, takes about 8 minutes and 20 seconds to journey from the Sun to Earth. (Neutral)
+[00:01:35] Narrator: If you were to travel this distance in a commercial jet flying at 900 km/hour, it would take you about 19 years. (Neutral)
+[00:01:41] Narrator: This immense distance is a stark reminder of the vastness of space even within our own solar system. (Neutral)
+[00:01:57] Narrator: The Sun, a fiery behemoth, provides life-sustaining energy to our planet from this incredible distance. (Neutral)
+[00:02:03] Narrator: Venturing beyond our home planet and its solar companion, the Sun, we set our sights on Mars, our enigmatic red neighbor. (Neutral)
+
+Speaker: Narrator
+Sentiment: Informative
+
+[Narrator] The sun we set our sights on Mars, our enigmatic red neighbor. Mars, at its closest approach to Earth, is about 54.6 million kilometers away. However, this distance can stretch up to 401 million km when the two planets are on opposite sides of the sun. To put that in perspective, traveling to Mars at the speed of a commercial jet would take upwards of 50 years. This vast expanse of space between Earth and Mars has been a significant challenge for space exploration. The rovers and probes we've sent to the red planet embark on a journey that is not just far but fraught with complexities due to the constantly changing distances and orbital dynamics. As we journey to the outermost reaches of our solar system, we encounter Neptune, the distant ice giant lying roughly 4.5 billion kilometers from Earth. Neptune marks the edge of our solar neighborhood. Sunlight racing across the vacuum of space takes about 4 hours and 15 minutes to reach Neptune from the Sun. This staggering distance showcases the enormity of our solar system. Launched in 1977, the Voyager One space probe represents Humanity's insatiable curiosity and our desire to explore beyond known boundaries. As of now, Voyager 1 has traveled for over four decades, covering a staggering distance of more than 22 billion kilometers from Earth. It's the farthest human-made object from our planet, a silent wanderer in the cosmic sea. In 1990, at the suggestion of the renowned astronomer Carl Sagan, Voyager 1 turned its camera back towards Earth for one final photograph. This resulted in the iconic pale blue dot image, and at a distance of about 6 billion kilometers from Earth, our planet appeared as a tiny faint dot in the vastness of space. Sean poetically reflected on this image, emphasizing...
+
+Sean poetically reflected on the image of Earth as a tiny faint dot in the vastness of space, emphasizing our responsibility to cherish and preserve our only home. (Positive sentiment)
+
+The Oort Cloud, a theoretical sphere of icy objects at the fringes of our solar system, extends up to a staggering 100,000 astronomical units from the Sun, nearly 1.9 light years away. (Neutral sentiment)
+
+Scientists determine the boundary of interstellar space, known as the heliopause, where the sun's solar wind is stopped by the interstellar medium. This marks the beginning of the vast realm of interstellar space beyond the influence of our sun. (Neutral sentiment)
+
+The Oort Cloud represents the final frontier of our solar system, where the sun's influence wanes and the cosmic journey into the Galaxy truly begins. (Neutral sentiment)
+
+Beyond our solar system, the next point of interest is Alpha Centauri, the closest star system to our sun, located about 41.3 trillion km away, equivalent to over 276,000 astronomical units. (Neutral sentiment)
+
+Due to the colossal distances involved, astronomers use the light-year for interstellar measurements. Alpha Centauri is about 4.4 light years away from us, making a journey there almost unfathomable with our current space travel technology. (Negative sentiment)
+
+For instance, the Voyager spacecraft, traveling at about 17 km/second, would take over 70,000 years to reach Alpha Centauri, highlighting the immense distances in space. (Negative sentiment)
+
+Speaker: Narrator
+
+Sentiment: Neutral
+
+Narrator: about 17 km/second would take over 70,000 years to reach this neighboring star system. This immense distance underscores the vastness of space that separates the stars and highlights the challenges of interstellar travel. Our journey now takes us to the Grand scale of our home galaxy, The Milky Way, spanning about 100,000 light years in diameter. This vast spiral galaxy is home to hundreds of billions of stars, each potentially hosting their own planetary systems. Within this immense structure, there's a tiny sphere known as the human radio bubble, extending about 100 light years from Earth. This bubble represents the farthest extent of human influence in the cosmos, the reach of our radio and television broadcasts into space. Beyond this bubble, it's as if Humanity never existed. Any civilizations residing in the vast majority of our galaxy would be oblivious to our presence, given that our signals haven't reached them yet. The scale of the Milky Way is so vast that our entire recorded history is but a whisper in the Cosmic Wind, undetectable beyond this small bubble. As we leave the Milky Way, we enter the vast, almost incomprehensible realm of Intergalactic space, where galaxies float in the cosmic ocean separated by mindboggling distances. Our galaxy is part of a small Cosmic neighborhood known as the local group, a cluster of more than 50 galaxies spread across approximately 10 million light years. The local group is a diverse assembly including not just spiral galaxies like the Milky Way and Andromeda, but also a multitude of smaller dwarf galaxies. The distances here are so vast that light from one end of the local group to the other would take 10 million years to traverse.
+
+Speaker: Narrator
+
+Sentiment: Fascination and awe at the vast distances and structures in the universe.
+
+[Narrator] dwarf galaxies the distances here are so vast that light from one end of the local group to the other would take 10 million years to Traverse. This scale dwarfs anything within our own Galaxy, underscoring the enormity of the universe. Intergalactic space is a silent expanse, a vast wilderness between the islands of Galactic light. In this immense void, our galaxy, home to our entire history, is just a tiny speck among many, a single story in the grand Cosmic Library. As we extend our Cosmic gaze beyond the local group, we encounter the Colossal Virgo supercluster, an immense collection of Galaxy groups and clusters, including our own local group, encompassing a region of space about 110 million light years in diameter or 33 megap parsecs. The Virgo supercluster is a Titanic structure in the universe containing thousands of galaxies from at least 100 Galaxy groups and clusters, each with their own myriad stars and planets. As we journey outward from the Virgo supercluster, we arrive at an even more staggering Cosmic structure, the lanaka supercluster. This immense congregation of galaxies, which includes the Vergo supercluster, and extends over 500 million light years, is our Galactic home on a grand scale. Lanaka, meaning immense Heaven in Hawaiian, truly lives up to its name, containing the mass of 100 million billion Suns. Lanaka is a gravitational masterpiece with Galaxy clusters, superclusters, and countless celestial bodies bound in a cosmic web of attraction and motion. At the heart of lanaka lies the great attractor, a mysterious region of space that exerts a massive gravitational pull on the galaxies within this supercluster. In this vast expanse, our Milky Way, the entire local group, and even the Virgo supercluster are...
+
+[00:09:27] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Pull on the galaxies within this super cluster. In this vast expanse, our Milky Way, the entire local group, and even the Virgo supercluster are just tiny components of this gigantic structure.
+
+[00:09:40] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Lanak Kia provides a profound context for our existence. In this immense supercluster, we are part of something far greater and more majestic than we can fully comprehend.
+
+[00:09:53] Speaker: Narrator
+Sentiment: Neutral
+Transcript: As we reach the boundaries of our cosmic exploration, we encounter the limits of the observable universe, an astonishing astronomical marvel stretching about 93 billion light years in diameter.
+
+[00:10:05] Speaker: Narrator
+Sentiment: Neutral
+Transcript: This begs a fascinating question - if the universe is only 13.8 billion years old, how can it be so vast? The answer lies in the nature of cosmic expansion.
+
+[00:10:26] Speaker: Narrator
+Sentiment: Neutral
+Transcript: But what lies beyond the observable universe remains one of the greatest mysteries of cosmology. Some regions of space are expanding away from us faster than the speed of light, placing them forever out of our view.
+
+[00:10:52] Speaker: Narrator
+Sentiment: Neutral
+Transcript: We are left with the humbling realization that there might always be regions of space, entire galaxies, and wonders that we will never witness as they retreat endlessly into the depths of the ever-expanding universe. 
+
+This is the last chunk.

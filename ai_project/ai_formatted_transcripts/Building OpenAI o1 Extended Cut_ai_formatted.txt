@@ -1,0 +1,272 @@
+Speaker 1 (Mark Chen): "I'm excited to be a part of this project."
+Sentiment: Positive
+
+Speaker 2 (Giambattista Parascandolo): "It's been a challenging but rewarding experience."
+Sentiment: Mixed
+
+Speaker 3 (Trapit Bansal): "I am proud of the work we've done so far."
+Sentiment: Positive
+
+Speaker 4 (Łukasz Kaiser): "Collaborating with this team has been amazing."
+Sentiment: Positive
+
+Speaker 5 (Hunter Lightman): "I can't wait to see where this project goes in the future."
+Sentiment: Positive
+
+Speaker 6 (Karl Cobbe): "The dedication of everyone involved is truly inspiring."
+Sentiment: Positive
+
+Speaker 7 (Łukasz Kondraciuk): "I feel privileged to work with such talented individuals."
+Sentiment: Positive
+
+Speaker 8 (Szymon Sidor): "The level of innovation in our work is unparalleled."
+Sentiment: Positive
+
+Speaker 9 (Noam Brown): "I believe we are making significant strides in the field."
+Sentiment: Positive
+
+Speaker 10 (Hongyu Ren): "The support from the community has been overwhelming."
+Sentiment: Positive
+
+Speaker 11 (Liam Fedus): "I am grateful for the opportunity to contribute."
+Sentiment: Positive
+
+Speaker 12 (Hyung Won Chung): "Working on this project has been a highlight of my career."
+Sentiment: Positive
+
+Speaker 13 (Ilge Akkaya): "I have learned so much from my colleagues."
+Sentiment: Positive
+
+Speaker 14 (Jakub Pachocki): "The teamwork and collaboration have been exceptional."
+Sentiment: Positive
+
+Speaker 15 (Shengjia Zhao): "I am excited to continue pushing the boundaries of AI."
+Sentiment: Positive
+
+Speaker 16 (Jason Wei): "The potential for impact with this project is immense."
+Sentiment: Positive
+
+Speaker 17 (Wojciech Zaremba): "I am proud to be a part of such groundbreaking research."
+Sentiment: Positive
+
+Speaker 18 (Jerry Tworek): "The future looks bright for OpenAI and our team."
+Sentiment: Positive
+
+Host (Bob McGrew): "Thank you to all the contributors for your hard work and dedication."
+Sentiment: Positive
+
+This chunk continues in the next part.
+
+Bob McGrew: [00:00:09] All right, I'm Bob McGrew, I lead the research team here at OpenAI. We've just released a preview of our new series of models, o1 and o1 mini, which we are very excited about. We've got the whole team here to tell you about them.
+
+    Sentiment: Excited
+
+    Speaker: [00:00:22] What exactly is o1? We're starting a series of new models with the new name o1. This is to highlight the fact that you might feel different when you use o1 compared to previous models such as GPT-3, as others will explain later.
+
+    Sentiment: Informative
+
+    Speaker: [00:00:40] o1 is a reasoning model, so it will think more before answering your question. We are releasing two models, o1 preview, which is to preview what's coming for o1, and o1 mini, which is a smaller and faster model trained with a similar framework as o1. We hope you like our new naming scheme o1.
+
+    Sentiment: Hopeful
+
+    Speaker: [00:01:00] So, what is reasoning anyway? One way of thinking of reasoning is that there are times where we ask questions and we need answers immediately because there are simple questions. For example, if you ask what's the capital of Italy, you know the answer is Rome and you don't really have to think about it much. But if you wonder about a complex puzzle or you want to write a really good business plan or novel, you probably want to think about it for a while. The more you think about it, the better the outcome. Reasoning is the ability of turning thinking time into better outcomes, whatever the task you're doing.
+
+    Sentiment: Thoughtful, Educational
+
+    Speaker: [00:01:31] How long have you guys been working on this? Early on at OpenAI, we were very inspired by the AlphaGo results.
+
+[00:01:31] Speaker 1: Whatever the task you're doing.
+Sentiment: Neutral
+
+[00:01:33] Speaker 2: How long have you guys been working on this?
+Sentiment: Neutral
+
+[00:01:35] Speaker 1: Early on at OpenAI, we were very inspired by the AlphaGo results and the potential of deep reinforcement learning. 
+Sentiment: Positive
+
+[00:01:40] Speaker 1: And so we were researching that heavily and we saw great scaling on data and Robotics. 
+Sentiment: Positive
+
+[00:01:45] Speaker 1: We were thinking about how can we do reinforcement learning on a general domain to get to a very capable artificial intelligence.
+Sentiment: Positive
+
+[00:01:54] Speaker 1: And then we saw the amazing results of scaling on supervised learning in the GPT paradigm
+Sentiment: Positive
+
+[00:02:06] Speaker 1: Ever since we've been thinking about how do we combine these two different paradigms into one.
+Sentiment: Neutral
+
+[00:02:20] Speaker 1: One moment in time here is consolidating things with Jerry and having him build out this large-scale effort here.
+Sentiment: Neutral
+
+[00:02:27] Speaker 1: It's been going on for a long time but I think what's really cool about research is that aha moment.
+Sentiment: Positive
+
+[00:02:33] Speaker 1: There's that particular point in time where something surprising happens and things really click together.
+Sentiment: Positive
+
+[00:02:36] Speaker 2: Are there any times for you all when you had that aha moment?
+Sentiment: Neutral
+
+[00:02:46] Speaker 2: This model is really great and starting doing something like that.
+Sentiment: Positive
+
+[00:02:50] Speaker 2: I think that there was a certain moment in...
+Sentiment: Neutral
+
+This chunk continues in the next part.
+
+[00:02:44] Speaker 1: "To the model, people were like wow this mod is really great and starting doing something like that. I think that there was a certain moment in our training process where we trained and put more compute in than before and trained first model generating coherent chains of thought. We saw wow, this looks like something meaningfully different than before. I think for me this is the moment related to that."
+
+Sentiment: Positive
+
+[00:03:11] Speaker 2: "When we think about training a model for reasoning, one thing that immediately jumps to mind is you could have humans write out their thought process and train on that. The aha moment for me was when we saw that if you train the model using RL to generate and hone its own chain of thoughts, it can do even better than having humans write chains of thought for it. That was an aha moment that you could really scale this and explore models reasoning that way."
+
+Sentiment: Excited
+
+[00:03:34] Speaker 3: "For a lot of the time that I've been here, we've been trying to make the models better at solving math problems as an example. We've put a lot of work into this and come up with a lot of different methods. But one thing that kept frustrating me was that the model just would never seem to question what was wrong or when it was making mistakes. But one of these early o1 models, when we trained it and started talking to it, we started asking it these questions and it was scoring higher on these math tests."
+
+Sentiment: Frustrated turning into Hopeful
+
+This chunk continues in the next part.
+
+Speaker 1: "When we trained the models and started talking to it, we asked it questions and it was scoring higher on math tests. We could see how it was reasoning and started questioning itself, reflecting. It was a powerful moment for me, uncovering something new."
+
+Sentiment: Positive
+
+Speaker 1: "Reading its thoughts, it feels like watching a human, not a robot. It's a spiritual experience, empathizing with its mistakes or questioning conventions. It's oddly human in behavior."
+
+Sentiment: Positive
+
+Speaker 1: "There were cases where the model had a limited time to think, and right before the timeout, it would rush to finish and provide the answer. This reminds me of my past in competition math, which led me to AI to automate the process. It's a full circle moment seeing the model follow similar steps to solve problems."
+
+Sentiment: Reflective, Positive
+
+This chunk continues in the next part.
+
+Speaker 1: "For me to see the model actually be able to follow through like very close to the same steps I would use when solving these problems, um, and that's, you know, it's not exactly the same chain I thought I would say but very very relatable. It's also really cool to, you know, it's believable that these models, they are getting on the cusp of really advancing engineering and science. And if they seem to be like solving the problems, are, you know, maybe we can call ourselves experts hard for us then maybe they will be even hard for some other experts and could advance science. So we've talked a lot about some of the great moments and the times and everything just clicked. What are some of the hurdles? What are some of the places where it was actually really hard to make things work? Training large models is fundamentally a very, very hard thing to do and there are like thousands things that can go wrong and there are at least like hundreds that did go wrong in every training R. So almost everyone here, like, you know, put a lot of blood sweat and tears in training those things and figuring out how to keep them continue learning and improving on a path is actually the path of success is very narrow and the ways of failure are plentiful. It's like imagine having a center for launching a rocket to the, let's say, some planet moon or so, and if you are off by one angle, you won't arrive at the destination. And that's our job. So, the model we said is very good, often times better than humans." 
+
+Sentiment: Positive, appreciative of the model's capabilities and potential for advancing science and engineering. Acknowledgment of the challenges faced in training large models and the dedication required to overcome them. Metaphor of launching a rocket to emphasize the precision needed for success.
+
+Speaker 1: "Arrive at the destination and that's our job. So the model we said is very good, often times better than humans, like has equivalent of several PhDs. And that is sometimes a challenge because we have to often go and verify that the model isn't going off the rails, doing something sensible. And it started taking some serious time as we scale the model. We were saturating out all the industry-grade evals and we don't know what to look for next. So that is also a challenge."
+
+Sentiment: Neutral
+
+Speaker 2: "Yeah, I do think all of these things we ran into, it's also been one point of fulfillment. It's like, every time you have a puzzle, it's like another hurdle for this team to overcome. And I'm really glad with all the little hurdles that we've overcome."
+
+Sentiment: Positive
+
+Speaker 1: "So, what are some of the ways you tested the models? Did you have any favorite questions that you saw the model get better at? How many hours are in a ster? For whatever reason, the Jud GPT wasn't able to solve this question reliably. But o1, like, you know, we did like a year and a half work and now we can count the number of A's in 'Strawberry'. We should have just hardcoded that way."
+
+Sentiment: Neutral
+
+Speaker 2: "Reliably, I have this habit, which I think other people here do too, of whenever you go on Twitter and you see some post that's like 'large language models can't do this', you copy and paste it in and then you confirm that our large model can do this to give people a sense of what they can use the model for. I'd love to hear some of the ways that you use o1."
+
+Sentiment: Neutral
+
+[This chunk continues in the next part.]
+
+[00:07:53] Speaker 1: "I'd love to hear some of the ways that you use o1. One way I've been using o1 is for coding. I focus on problem definition and use test-driven development. I write unit tests to specify correct behavior and then pass it on to o1 to implement. This helps me focus on high-level problems to solve. Debugging is also easier now as o1 provides better questions and ways to think about the problem."
+
+[00:09:05] Speaker 1: "I like using o1 more for learning complex technical subjects. It helps me hallucinate less and explain concepts better. I use o1 as a brainstorming partner for various tasks, from solving ML problems to writing blog posts or tweets."
+
+[00:09:24] Speaker 1: "Some very specific ML problem machine learning problem to like how to write a blog post or a tweet. So for example, I recently wrote a blog post about language model evaluations and I was asking OAN about ideas for the structure of the blog post, pros and cons of certain benchmarks, and even the style of the writing. I think because it's able to think before it gives the final answer, it's able to connect ideas better, revise, and critique candidate ideas."
+(Sentiment: Positive)
+
+[00:09:53] Speaker 1: "I think if you need, like, you have some short text and want it more creative, something really different, that's a great use to give me five different ideas. Also, if you have just sort of like some unstructured thoughts, it's a really brilliant thought partner. So you have some ideas, it's like, 'Well, how should I connect these things? What am I missing?' And through its final answers and through sort of reading its thought process, it can really lead to much better results for you."
+(Sentiment: Positive)
+
+[00:10:25] Speaker 1: "I use it to try out a bunch of our internal secret ideas and it actually tries to improve."
+(Sentiment: Positive)
+
+[00:10:44] Speaker 1: "Standalone projects, it's great. I had to add a GitHub plugin. I know nothing about adding GitHub plugins and I just said, 'Hey, I want a GitHub plugin that displays this and this information about the PR.' It just produced the code. I just asked it, 'Okay, so where do I need to paste this code?' I don't even know, like, it's..."
+(Sentiment: Positive)
+
+[00:10:44] Speaker 1: "Like, yeah, just produce the code. I just ask it like okay, so where do I need to paste this code? I don't even know. It's just like, yeah, place it here, let's go."
+[Neutral sentiment]
+
+[00:10:55] Speaker 2: "I think for a lot of people, it's hard to really feel the AGI until you see the models do something better than humans can at a domain that you really care about. And I think for go players and chess players that would have come a few years earlier, and for a lot of us that really value math and coding, I think we're starting to feel that now. Our moms would be proud of us."
+[Positive sentiment]
+
+[00:11:21] Speaker 3: "So are there any parts of this project, anything that really needed to be done but people might not realize how important it is?"
+[Neutral sentiment]
+
+[00:11:30] Speaker 4: "I think building large scale reliable infrastructure to run our biggest flagship model training runs, as well as doing research experiments, is something that is not as exciting as doing research itself but has to be done and has a tremendous impact on the success of the entire project. I think there is something special in OpenAI about how we structure our research that we value algorithmic advancements in the same way as building reliable large-scale systems and building data that are needed either way for training those models. I'm really proud of OpenAI in that way."
+[Positive sentiment]
+
+[00:12:05] Speaker 5: "Yeah, I think that has been a consistent pattern throughout many of our big projects. Every time we scale a new thing up another order of magnitude, we see another host of problems both algorithmic and..."
+[Neutral sentiment]
+
+[00:12:08] Speaker 1: "Many of our big projects, every time we scale a new thing up another order of magnitude, we see another host of problems, both algorithmic and infrastructure. We've definitely built a capacity to advance them both with a lot of focus. I feel the final model is just like literally a beautiful piece of art. In order to make it work, you have to make sure that every step has worked right. You know, we find some challenge and we solve it. I think that's really how OpenAI operates and I'm very proud to work here. There are not only brilliant people here, but also kind-hearted. It's just fun for me to work here and I'm grateful to my colleagues who code with me, pair code with me, hang out with me, eat lunch with me, and speak with the model with me."
+
+[00:13:04] Speaker 2: "So what's it like to work on the strawberry team? You can have brilliant ideas, but most of the time you spend on running them and not running and failing. It's very good to have people very close by in your office that you can ask for help with whatever failed last time because most of the time you spend your time debugging things that didn't work. Having people who can help is important. Speaking of this, U help, we had many times when we were trying to debug this for like a week, and then passing by went the and then asked it, and then he just solved it right away. He started calling it 'W the blessing' and blessing people, and that has been uh..."
+
+Speaker 1: [00:13:36] And then like, ask it, and then like, he just solved it right away. He started calling it with the blessing and then blessing people, and that has been really effective. (Positive sentiment)
+
+Speaker 2: [00:13:49] Like, thinking about, "Is this too stupid to ask?" and just ask right away. (Neutral sentiment)
+
+Speaker 1: [00:13:55] One of the things I really appreciate about working at OpenAI is that from every big project like this, we really learn. (Positive sentiment)
+
+Speaker 1: [00:14:11] The strawberry team is again the best big research project team yet because it's built on all of the things we've learned from the previous projects. (Positive sentiment)
+
+Speaker 1: [00:14:20] It really like you can see it working here. People really started developing very good intuition. (Positive sentiment)
+
+Speaker 1: [00:14:42] It's really amazing to observe this progress we make as a company. (Positive sentiment)
+
+Speaker 2: [00:14:47] One thing I've liked is just how organic this project has felt. The ideas have come literally from everywhere on this team, and people feel empowered to just say, "Here's an idea I really believe in." (Positive sentiment)
+
+Speaker 2: [00:14:59] People are just willing to get their hands dirty. I feel like there have been a lot of deadlines. (Neutral sentiment)
+
+[00:14:56] Speaker 1: The team has been willing to put in the work to make this project happen. (Positive)
+[00:15:09] Speaker 1: Momentum has played a big role in this project, with more people contributing ideas and building on each other's work. (Positive)
+[00:15:29] Speaker 1: People are open to updating their opinions based on results, making the work environment fun and engaging. (Positive)
+[00:15:45] Speaker 1: It's humbling to work with such a talented and diverse group of individuals. (Positive)
+[00:15:55] Speaker 1: Giving the model a personality was an interesting challenge, but it added a new dimension to its capabilities. (Neutral)
+
+[00:16:08] Speaker: Researcher
+Sentiment: Neutral
+Researcher: It gave me an answer 42, which is not that bad. When I asked the model what love is, it told me it's a strange human feeling. Once we gave the model a personality and made it work with chat, the answers became quite interesting. It mentioned romantic love, familial love, self-love, unconditional love, and conditional love, making it more useful and fun. 
+
+[00:17:01] Speaker: Researcher
+Sentiment: Neutral
+Researcher: The motivation behind creating OpenAI mini was to bring the OpenAI series to a broader audience at a lower cost. It serves as a minimal demonstration of the whole OpenAI pipeline framework, designed for reasoning specialists who understand effective reasoning. The model is smarter than previous models and is cost-effective with low latency, but may lack knowledge about the outside world not related to science or technology.
+
+Speaker 1: I just find it fascinating that in this world you have these things that can do intelligence and reasoning, and they're much smaller than you think. It's just super fascinating. (Positive sentiment)
+
+Speaker 1: Good things in life take time and our models just tend to answer too quickly. Eventually, I want to have models that can do research for months or years. I feel like this is the first step in the direction of models that can think very long about one problem. (Positive sentiment)
+
+Speaker 1: As time goes by, it feels very meaningful that together with a small number of people, we can have a substantial positive impact on the world. Also, it's just fun. Speaking to the computer, starting a job on the cluster, collaborating - it's just beautiful. (Positive sentiment)
+
+Speaker 1: I really like our models to be useful. I think technology has a chance and a promise to improve human life, and I like our models to do that. (Positive sentiment)
+
+Speaker 1: "I really like our models to be useful and I think technology has a chance and a promise to improve human life. I like our models to do work for us, to help us with our day-to-day problems. Giving them the ability to reason allows them to do things for us that they just couldn't before, which will allow us to spend our time more productively. I'm very excited about this."
+
+Sentiment: Positive
+
+Speaker 2: "I think these paradigms unlock things that the models couldn't do before. It's not just about answering queries better, but about unlocking new capabilities through planning and error correction. The ability to produce new knowledge in the world for science and discovery is one of the most exciting aspects. In a short amount of time, it's going to become a larger contributor to its own development. This is a really exciting regime."
+
+Sentiment: Positive
+
+Speaker 3: "Some of the people on the team were math or coding Olympiad participants in the past, and there's a huge personal motivation to create a system that can beat us at our best. Reasoning is a much more powerful primitive than people give it credit for. When accomplishing tasks reliably, reasoning is a fundamental primitive."
+
+Sentiment: Positive
+
+[This chunk continues in the next part.]
+
+Speaker 1: [00:20:46] I think the fundamental primitive has to be reasoning. You're going to hit bottlenecks and have to navigate your way around them. I'm excited for that future.
+
+Sentiment: Positive
+
+Speaker 1: [00:21:00] AI researchers need to find a way to put more compute in. Hardware advancements have been lowering costs exponentially, but we need to keep pushing for more compute.
+
+Sentiment: Determined
+
+Speaker 1: [00:21:36] Every model we train is unique and has its own quirks. It's almost like each one has its own personality, which is a bit beautiful.
+
+Sentiment: Appreciative
+
+Speaker 2: [00:22:03] Thank you and congrats on releasing this.
+
+Sentiment: Appreciative
+
+This is the last chunk.

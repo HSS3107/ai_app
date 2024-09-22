@@ -1,0 +1,18 @@
+AI PROJECT
+├── ai_project (Django project root)
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py (Project configuration)
+│   ├── urls.py (URL routing)
+│   └── wsgi.py (Web server gateway interface)
+│
+├── app (Django app)
+│   ├── migrations (Database migrations)
+│   ├── __init__.py
+│   ├── admin.py (Admin interface customization)
+│   ├── apps.py (App configuration)
+│   ├── models.py (Database models)
+│   ├── tests.py (Unit tests)
+│   └── views.py (View functions/classes)
+│
+└── manage.py (Django command-line utility)

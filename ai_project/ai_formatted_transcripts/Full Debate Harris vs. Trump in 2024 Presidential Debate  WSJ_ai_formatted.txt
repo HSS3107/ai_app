@@ -1,0 +1,630 @@
+Video: Full Debate: Harris vs. Trump in 2024 Presidential Debate | WSJ
+Channel: The Wall Street Journal
+
+[00:00:28] (e) [Positive]
+[00:00:58] (e) [Positive]
+[00:01:28] (e) [Neutral]
+[00:01:58] (e) [Neutral]
+[00:02:28] (e) [Neutral]
+[00:02:58] (e e) [Neutral]
+[00:03:45] the high stake Showdown here in
+[00:03:47] Philadelphia between vice president
+[00:03:48] kamla Harris and former president Donald
+[00:03:50] Trump their first face-to-face meeting
+[00:03:52] in this presidential election their
+[00:03:54] first face-to-face meeting ever a
+[00:03:56] historic race for president upended just
+[00:03:59] weeks ago President Biden withdrawing
+[00:04:01] after his last debate Donald Trump now
+[00:04:03] up against a new opponent the candidates
+[00:04:05] separated by the smallest of margins
+[00:04:07] essentially tied in the polls nationally
+[00:04:09] and in the key Battlegrounds including
+[00:04:11] right here in Pennsylvania all still
+[00:04:13] very much in play the ABC News
+[00:04:15] presidential debate starts right
+[00:04:18] now this is an ABC News special the most
+[00:04:21] consequential moment of this campaign
+[00:04:23] kamla Harris together we will chart a
+[00:04:27] new way forward Donald Trump we will
+[00:04:31] soon be a great nation again face to
+[00:04:35] face
+[00:04:37] historic the ABC News presidential
+[00:04:39] debate here now David mure and Lindsay
+[00:04:45] Davis good evening I'm David mure and
+[00:04:47] thank you for joining us for tonight's
+[00:04:49] ABC News presidential debate we want to
+[00:04:51] welcome viewers watching on ABC and
+[00:04:53] around the world tonight vice president
+[00:04:55] kamla Harris and president Donald Trump
+[00:04:57] are just moments away from taking the
+[00:04:58] stage in this president at race for
+[00:05:00] president and I'm lindsy Davis tonight's
+[00:05:02] meeting could be the most consequential
+[00:05:04] event of their campaigns with election
+[00:05:06] day now less than two months away for
+[00:05:08] vice president kamla Harris this is her
+[00:05:10] first debate since President Biden
+[00:05:12] withdrew from the race on July 21st of
+[00:05:14] course that decision followed his debate
+[00:05:16] against President Donald Trump in June
+[00:05:18] since then this race has taken on an
+[00:05:20] entirely new Dynamic and that brings us
+[00:05:22] to the rules of tonight's debate 90
+
+[00:05:24] Moderator: "Minutes with two commercial breaks. No topics or questions have been shared with the campaigns. The candidates will have 2 minutes to answer questions. This is the clock that's what they'll be seeing. 2 minutes for rebuttals and one minute for follow-ups, clarifications, or responses. Their microphones will only be turned on when it's their turn to speak. No pre-written notes allowed. There is no audience here tonight in this Hall at the National Constitution Center. This is an intimate setting for two candidates who have never met. President Trump won the coin toss, he chose to deliver the final closing statement of the evening. Vice President Harris selected the podium to the right. So let's now welcome the candidates to the stage: Vice President Kamala Harris and President Donald Trump."
+
+[00:06:09] Kamala Harris: "Let's have a good debate, see you have fun. Thank you."
+
+Moderator: "Welcome to you both. It's wonderful to have you. It's an honor to have you both here tonight. Good evening, we are looking forward to a spirited and thoughtful debate. So let's get started. I want to begin tonight with the issue that voters repeatedly say is their number one issue, and that is the economy and the cost of living in this country. Vice President Harris, you and President Trump were elected four years ago, and your opponent on the stage here tonight often asks his supporters, 'Are you better off than you were four years ago?' When it comes to the economy, do you believe Americans are better off than they were four years ago?"
+
+Kamala Harris: "I was raised as a middle-class kid, and I am actually the only person on this stage who has a plan that is about lifting up the middle class and working people of America. I believe in the ambitions, the aspirations, the dreams of the American people, and that is why I imagine and have actually a plan to build what I call an opportunity economy. Because here's the thing, we know that we have a shortage..." 
+
+Sentiment: Harris expresses confidence in her plan to uplift the middle class and working people, emphasizing the importance of the American people's aspirations and dreams.
+
+Harris: [00:07:13] "Housing is too expensive for far too many people. I intend on extending a tax cut for young families of $6,000, the largest child tax credit in a long time, so that those young families can afford essentials for their children. My passion is small businesses. My plan is to give a $50,000 tax deduction to startup small businesses, as they are part of the backbone of America's economy. My opponent, on the other hand, plans to provide a tax cut for billionaires and big corporations, resulting in a $ trillion dollar deficit for America. His 'Trump sales tax' would impose a 20% tax on everyday goods, burdening middle-class families with an additional $4,000 a year due to his policies."
+  
+Trump: [00:08:46] "First of all, I have no sales tax. We are implementing tariffs on other countries who will finally pay us back for all that we've done for the world. The tariffs I've imposed have brought in billions of dollars, especially from China, who couldn't remove the tariffs as it would destroy everything they've planned."
+
+Trump: [00:09:13] They're taking in billions of dollars from China and other places. They've left the tariffs on when I had it. I had tariffs and yet I had no inflation. 
+Sentiment: Neutral
+
+Trump: [00:09:21] Look, we've had a terrible economy because inflation has, which is really known as a country buster. It breaks up countries. We have inflation like very few people have ever seen before, probably the worst in our nation's history. 
+Sentiment: Negative
+
+Trump: [00:09:45] This has been a disaster for people, for the middle class, but for every class. 
+Sentiment: Negative
+
+Trump: [00:10:19] They're going in violently. These are the people that she and Biden led into our country and they're destroying our country. 
+Sentiment: Negative
+
+Harris: [00:10:47] Well, I would love to. Let's talk about what Donald Trump left us. Donald Trump left us the worst unemployment since the Great Depression. 
+Sentiment: Negative
+
+Harris: [00:10:59] Donald Trump left us the worst public health epidemic in a century. 
+Sentiment: Negative
+
+Harris: [00:11:07] Donald Trump left us the worst attack on our democracy since the Civil War. 
+Sentiment: Negative
+
+Speaker 1: Donald Trump
+
+[00:11:14] Donald Trump: "What we have done and what I intend to do is build on what we know are the aspirations and the hopes of the American people. But I'm going to tell you all in this debate tonight, you're going to hear from the same old tired playbook, a bunch of lies, grievances, and name-calling. What you're going to hear tonight is a detailed and dangerous plan called project 2025 that the former president intends on implementing if he were elected again. I believe very strongly that the American people want a president who understands the importance of bringing us together. We have so much more in common than what separates us, and I pledge to you to be a president for all Americans."
+
+Sentiment: Assertive and critical of opponent's plan, emphasizes unity and commonality among Americans.
+
+Speaker 2: Debate Moderator
+
+[00:11:56] Debate Moderator: "President Trump, I'll give you a minute here to respond."
+
+Speaker 3: Donald Trump
+
+[00:11:59] Donald Trump: "Number one, I have nothing to do, as you know and as she knows better than anyone, I have nothing to do with project 2025. That's out there, I haven't read it, I don't want to read it purposely, I'm not going to read it. This was a group of people that got together, they came up with some ideas, I guess some good, some bad, but it makes no difference. I have nothing to do. Everybody knows I'm an open book, everybody knows what I'm going to do: cut taxes very substantially and create a great economy like I did before. We had the greatest economy, we got hit with a pandemic, and the pandemic was, is not since 1917 where 100 million people died, has there been anything like it. We did a phenomenal job with the pandemic, we handed them over a country where the economy and where the stock market was higher than it was before the pandemic came in. Nobody's ever seen anything like it, we made ventilators for the entire world, we got gowns, we got masks, we did things that nobody thought possible, and people give me credit for rebuilding the military, they give me credit for a lot of things but not enough credit for the great job we did with the pandemic. But the only jobs they got were bounceback."
+
+Sentiment: Defensive and proud of previous accomplishments, dismissive of opponent's claims.
+
+[00:13:03] Trump: Jobs bounced back and it went to their benefit, but I was the one that created them. They know it, and so does everybody else. 
+Sentiment: Assertive
+
+[00:13:13] Moderator: Vice President Harris, I'll let you respond.
+Sentiment: Neutral
+
+[00:13:14] Harris: Donald Trump has no plan for you. When you look at his economic plan, it's all about tax breaks for the richest people. I am offering what I describe as an opportunity economy. 
+Sentiment: Critical
+
+[00:13:33] Harris: What Goldman Sachs has said is that Donald Trump's plan would make the economy worse, mine would strengthen the economy. 
+Sentiment: Critical
+
+[00:13:53] Harris: 16 Nobel laureates have described his economic plan as something that would increase inflation and by the middle of next year would invite a recession. 
+Sentiment: Critical
+
+[00:14:10] Harris: Donald Trump actually has no plan for you because he is more interested in defending himself than he is in looking out for you. 
+Sentiment: Critical
+
+[00:14:38] Trump: ...my plan is a brilliant plan, it's a great plan that's going to bring up our worth, our value as a country, make people want to work, create jobs, and create solid money for our country. 
+Sentiment: Assertive
+
+[00:14:55] Trump: Take a look at her plan, she doesn't have a plan. 
+Sentiment: Critical
+
+[00:14:58] Moderator: I do want to drill down on something you both brought up, the vice president brought up your tariffs, you responded, and let's drill.
+Sentiment: Neutral
+
+Trump: [00:15:03] Your plan is essentially a national sales tax.
+Harris: [00:15:07] Many economists say costs are passed on to the consumer with tariffs at that level.
+Harris: [00:15:32] Argues it will cost the typical family nearly $4,000 a year.
+Trump: [00:15:36] Americans won't have higher prices, China and other countries will.
+Trump: [00:16:02] Under their Administration, we are going to take in billions of dollars.
+Trump: [00:16:11] People can't go out and buy basic necessities, the economy is destroyed.
+Trump: [00:16:34] Polls show 80-90% agree the Trump economy was great.
+Moderator: [00:16:36] Vice President Harris, how do you respond to the President's claims about tariffs and the economy? 
+
+Sentiment:
+- Harris expresses concern about the impact of tariffs on consumers.
+- Trump defends his tariff policies by stating they benefit the U.S. and hurt other countries.
+- Trump criticizes the current administration's handling of the economy.
+- Moderator prompts Harris to respond to Trump's statements.
+
+Harris: "[00:16:48] Deficit one of the highest we've ever seen in the history of America. He invited trade wars. You want to talk about his deal with China, what he ended up doing is under Donald Trump's presidency, he ended up selling American chips to China to help them improve and modernize their military. Basically sold us out when a policy about China should be in making sure the United States of America wins the competition for the 21st century, which means focusing on the details of what that requires, focusing on relationships with our allies, focusing on investing in American-based technology so that we win the race on AI, on Quantum Computing, focusing on what we need to do to support America's workforce so that we don't end up having the short end of the stick in terms of workers' rights. But what Donald Trump did, let's talk about this with Covid, is he actually thanked President Xi for what he did during Covid. Look at his tweet: 'Thank you President Xi!' when we know that she was responsible for lacking and not giving us transparency about the origins of Covid."
+
+Trump: "[00:18:07] First of all, they bought their chips from Taiwan. We hardly make chips anymore because of philosophies like they have and policies like they have. I don't say her because she has no policy. Everything that she believed three years ago and four years ago is out the window. She's going to my philosophy now. In fact, I was going to send her a MAGA hat. She's gone to my philosophy. But if she ever got elected, she'd change it and it will be the end of our country. She's a Marxist, everybody knows she's a Marxist. Her father's a Marxist professor in economics and he taught her well. But when you look at what she's done to our country and when you look at these millions and millions of people that are pouring into our country monthly, where it's I believe 21 million people, not the 15 that people say. And I think it's a..."
+
+[00:18:53] Trump: lot higher than the 21 that's bigger than New York State pouring in and just look at what they're doing to our country they're criminals many of these people coming in are criminals and that's bad for our economy too. (Neutral)
+[00:19:07] Trump: bad immigration is the worst thing that can happen to our economy, they have and she has destroyed our country with policy that's insane almost policy that you'd say they have to hate our country. (Negative)
+[00:19:23] Moderator: President Trump, thank you. Lindsay, I want to turn to the issue of abortion. President Trump, you've often touted that you were able to kill Roe v. Wade last year, you said that you were proud to be the most pro-life president in American history. (Neutral)
+[00:19:36] Moderator: Then last month you said that your Administration would be great for women and their Reproductive Rights. In your home state of Florida, you surprised many with regard to your six-week abortion ban because you initially had said that it was too short. (Neutral)
+[00:19:58] Moderator: Vice President Harris says that women shouldn't trust you on the issue of abortion because you've changed your position so many times, therefore why should they trust you? (Neutral)
+[00:20:06] Trump: The reason I'm doing that vote is because the plan is, as you know, the vote is they have abortion in the 9th month. They even have, and you can look at the governor of West Virginia, the previous governor of West Virginia, not the current governor, is doing an excellent job. (Neutral)
+[00:20:33] Trump: That's why I did that because that predominates because they're radical. The Democrats are radical in that and her vice presidential pick, which I think is a horrible pick by the way for our... (Negative)
+
+Trump: [00:20:41] The country because he is really out of it.
+Harris: [00:20:44] But her vice presidential pick says abortion in the ninth month is absolutely fine.
+Sentiment: Trump expresses disagreement with his opponent's stance on abortion.
+Sentiment: Harris responds by accusing Trump of spreading lies.
+
+Trump: [00:20:48] He also says execution after birth, it's execution, no longer abortion because the baby is born is okay.
+Harris: [00:20:57] And that's not okay with me, hence the vote.
+Sentiment: Trump argues against late-term abortion and infanticide.
+Sentiment: Harris reaffirms her stance against such practices.
+
+Trump: [00:21:02] But what I did is something for 52 years they've been trying to get Roe v. Wade into the states.
+Sentiment: Trump takes credit for moving the abortion issue back to the states.
+
+Harris: [00:22:22] As I said, you're going to hear a bunch of lies and that's not actually a surprising fact.
+Sentiment: Harris dismisses Trump's statements as lies.
+
+Harris: [00:22:28] Donald Trump hand-selected three members of the United States Supreme Court with the intention that they would undo the protections of Roe v. Wade.
+Sentiment: Harris accuses Trump of appointing justices to overturn abortion protections.
+
+[00:22:48] Harris: It is criminal for a doctor or nurse to provide Health Care in one state. (Critical)
+[00:22:51] Harris: It provides prison for life. (Critical)
+[00:22:53] Harris: Trump abortion bans that make no exception even for rape and incest, which is immoral. (Critical)
+[00:23:00] Harris: A survivor of a crime or violation to their body does not have the right to make a decision about what happens to their body next. (Critical)
+[00:23:11] Harris: The government and Donald Trump should not be telling a woman what to do with her body. (Critical)
+[00:23:31] Harris: Pregnant women who want to carry a pregnancy to term are suffering from a miscarriage. (Critical)
+[00:23:38] Harris: Being denied care in an emergency room because the health care providers are afraid they might go to jail. (Critical)
+[00:23:50] Harris: A 12 or 13-year-old survivor of incest being forced to carry a pregnancy to term. (Critical)
+[00:24:00] Harris: When Congress passes a bill to put back in place the protections of Roe v. Wade, as president, I will proudly sign it into law. (Supportive)
+[00:24:17] Harris: If Donald Trump were to be reelected, he will sign a National Abortion ban, which infringes on freedoms. (Critical)
+[00:24:31] Harris: The freedom to make decisions about one's own body should not be made by the government. (Supportive)
+[00:24:38] Moderator: Thank you, Vice President Harris. (Neutral)
+[00:24:38] Trump: There she goes again. It's a lie. I'm not signing a ban. (Defensive)
+[00:24:48] Trump: We've gotten what everybody wanted. (Defensive)
+
+Trump: [00:24:57] For 52 years this issue has torn our country apart and they've wanted it back in the States. (Neutral)
+Trump: [00:25:01] I did something that nobody thought was possible. The states are now voting, what she says is an absolute lie. (Negative)
+Trump: [00:25:06] The states are now voting, what she says is an absolute lie. (Negative)
+Trump: [00:25:11] As far as the abortion B, no I'm not in favor of abortion B, but it doesn't matter because this issue has now been taken over by the states. (Neutral)
+Moderator: [00:25:21] Would you veto a National Abortion ban if it... (Neutral)
+Trump: [00:25:24] Well, I won't have to because... (Neutral)
+Trump: [00:25:38] She can't get the vote, she won't even come close to it, so it's just talk. (Negative)
+Trump: [00:25:42] You know what it reminds me of when they said they're going to get student loans terminated and it ended up being a total catastrophe. (Negative)
+Trump: [00:25:59] Look, her boss went out and said we'll do it again, we'll do it a different way and he got rejected again by the Supreme Court. (Negative)
+Moderator: [00:26:18] But if I could just get a yes or no... (Neutral)
+Trump: [00:26:28] Well, I didn't discuss it with JD in all fairness. (Neutral)
+
+[00:26:47] Trump: (Negative sentiment) they taunted young people and a lot of other people that had loans they can never get this approved so it doesn't matter what she says about going to Congress wonderful let's go to Congress do it but the fact is that for years they wanted to get it out of Congress and out of the federal government and we did something that everybody said couldn't be done and now you have a vote of the people on abortion. 
+[00:27:09] Moderator: Vice President Harris, I want to give you your time to respond but I do want to ask, would you support any restrictions on a woman's right to an abortion? 
+[00:27:16] Harris: (Positive sentiment) I absolutely support reinstating the protections of Roe v. Wade and as you rightly mentioned nowhere in America is a woman carrying a pregnancy to term and asking for an abortion. It's insulting to the women of America. 
+[00:27:36] Harris: (Negative sentiment) Couples who pray and dream of having a family are being denied IVF treatments. Working people, working women who are working one or two jobs who can barely afford child care have to travel to another state to get on a plane sitting next to strangers to get the healthcare she needs. What you are putting her through is unconscionable. 
+[00:28:07] Harris: (Positive sentiment) The majority of Americans believe in a woman's right to make decisions about her own body and that is why in every state where this issue has been on the ballot in red and blue states, both the people of America have voted for freedom. 
+[00:28:32] Trump: (Negative sentiment) Another lie. I have been a leader on IVF which is fertilization. I have been a leader. In fact, when they got a very negative decision on IVF from the Alabama courts, I saw the people of Alabama and the legislature two days. 
+
+This chunk continues in the next part.
+
+Trump: [00:28:51] Later voted it in, I've been a leader on it, they know that and everybody else knows it. (Confident)
+Trump: [00:28:58] Fertilization IVF and the other thing they not, you should ask will she allow abortion in the eighth month ninth month seventh month come on okay would you do that why don't you ask her that question. (Defensive)
+Trump: [00:29:14] Under Roe v. Wade you could do abortions in the seventh month, the eighth month, the ninth month, and probably after birth. (Critical)
+Moderator: [00:29:30] President Trump, thank you. We're going to turn now to immigration and border security. (Neutral)
+Moderator: [00:29:39] In this country Vice President Harris, you were tasked by President Biden with getting to the root causes of migration from Central America. (Neutral)
+Harris: [00:30:06] So I'm the only person on this stage who has prosecuted transnational criminal organizations for the trafficking of guns, drugs, and human beings. (Assertive)
+
+Harris: [00:30:43] Families watching tonight who have been personally affected by The Surge of fentanyl in our country. That bill would have put more resources to allow us to prosecute transnational criminal organizations for trafficking in guns, drugs, and human beings. But you know what happened to that bill? Donald Trump got on the phone, called up some folks in Congress, and said kill the bill. And you know why? Because he'd prefer to run on a problem instead of fixing a problem. This statement conveys frustration and disappointment with Trump's actions.
+
+Harris: [00:31:08] Understand this comes at a time where the people of our country actually need a leader who engages in solutions, who actually addresses the problems at hand. But what we have in the former president is someone who would prefer to run on a problem instead of fixing a problem. This statement expresses a lack of faith in Trump's leadership abilities.
+
+Harris: [00:31:30] I'll tell you something, he's going to talk about immigration a lot tonight, even when it's not the subject that is being raised. This shows Harris' anticipation of Trump's tactics during the debate.
+
+Harris: [00:31:50] You will see during the course of his rallies he talks about fictional characters like Hannibal Lecter, he will talk about windmills causing cancer. This highlights Harris' criticism of Trump's rally speeches and the lack of focus on real issues.
+
+Harris: [00:32:08] I believe you deserve a president who actually puts you first, and I pledge to you that I will. This statement shows Harris' commitment to prioritizing the needs of the people.
+
+Moderator: [00:32:16] President Trump, on that point, I want to get your response. Like to respond? This indicates the moderator's request for Trump's perspective on the issue at hand.
+
+Trump: [00:32:19] Let me just ask though, why did you try to kill that bill and successfully so that would have put thousands of additional agents and officers on the border? Trump questions Harris' actions regarding the bill and highlights the potential impact it could have had.
+
+Trump: [00:32:29] In her rallies, there's no reason to go and the people that do go, she's busing them in and paying them to be there and then showing them in a different light. So she can't talk about that. (Negative sentiment)
+
+Trump: [00:32:41] People don't leave my rallies. We have the biggest rallies, the most incredible rallies in the history of politics. That's because people want to take their country back. (Positive sentiment)
+
+Trump: [00:32:46] Our country is being lost. We're a failing nation, and it happened three and a half years ago. (Negative sentiment)
+
+Trump: [00:33:00] What they have done to our country by allowing these millions and millions of people to come into our country. Look at what's happening to the towns all over the United States. (Negative sentiment)
+
+Trump: [00:33:31] As far as rallies are concerned, as far as the reason they go is they like what I say. They want to bring our country back, they want to make America great again. It's a very simple phrase: make America great again. (Positive sentiment)
+
+Trump: [00:33:46] She's destroying this country, and if she becomes president, this country doesn't have a chance of success. Not only success, we'll end up being Venezuela on steroids. (Negative sentiment)
+
+Moderator: [00:33:58] I just want to clarify, I hear you bring up Springfield Ohio, and ABC News did reach out to the city manager there. He told us there have been no credible reports of specific claims of pets being harmed, injured, or abused by individuals within the immigrant community. (Neutral sentiment)
+
+[00:34:19] Moderator: Vice President Harris, I'll let you respond to the rest of what you've heard. 
+Sentiment: Neutral
+
+[00:34:33] Kamala Harris: I think one of the reasons why in this election I actually have the endorsement of 200 Republicans who have formerly worked with President Bush, Mitt Romney, and John McCain, including the endorsement of former Vice President Dick Cheney and Congressmember Cheney. 
+Sentiment: Positive
+
+[00:35:01] Kamala Harris: If you want to really know the inside track on who the former president is, just ask people who have worked with him. His former Chief of Staff, a four-star general, has said he has contempt for the Constitution of the United States. 
+Sentiment: Negative
+
+[00:35:28] Kamala Harris: His former Secretary of Defense has said the nation, the Republic, would never survive another Trump term. When we listen to this kind of rhetoric and the issues that affect the American people are not being addressed, I think the choice is clear in this election.
+Sentiment: Neutral
+
+[00:35:41] Moderator: President Trump, I'll give you a quick minute to respond here.
+Sentiment: Neutral
+
+[00:35:46] Donald Trump: I fired most of those people not so graciously because they did bad things or a bad job. They never fired one person, they didn't fire anybody having to do with Afghanistan and the Taliban and the 13 people who were just killed. 
+Sentiment: Negative
+
+Trump: "Bad job, I fire them and you take a guy like esper he was no good I fired him so he writes a book another one writes a book because with me they can write books with nobody else can they but they have done such a poor job and they never fire anybody look at the economy look how look at the inflation they didn't fire any of their Economist they have the same people that's a good way not to have books written about you but just to finish I got more votes than any Republican in history by far in fact I got more votes than any president sitting president in history by far. Let me continue on immigration it was what you wanted to talk about earlier so let's get back to your deportation proposal that the vice president has reacted to as well. President Trump you call this the largest domestic deportation operation in the history of our country you say you would use the National Guard you say if things get out of control you'd have no problem using the US military you also said you would use local police. How would you Deport 11 million undocumented immigrants I know you believe that number is much higher take us through this what does this look like will authorities be going door to in this country?"
+
+Sentiment: Criticizes previous administration for poor performance and lack of action on immigration, outlines aggressive deportation plan.
+
+Trump: "Yeah it is much higher because of them they allowed criminals many many millions of criminals they allowed terrorists they allowed Common Street criminals they allowed people to come in drug dealers to come into our country and then now in the United States and told by their countries like Venezuela don't ever come back or we're going to kill you do you know that crime in Venezuela and crime in countries all over the world is way down down you know why because they've taken their criminals off the street and they've given them to put into our country and this will be one of the greatest mistakes in history for them to allow and I think they probably did it."
+
+Sentiment: Strongly opposes allowing criminals into the country, criticizes other countries for not dealing with their criminals effectively.
+
+Trump: Because they think they going to get votes but it's not worth it because they're destroying the fabric of our country by what they've done. There's never been anything done like this at all. They've destroyed the fabric of our country, millions of people in and all over the world. Crime is down all over the world except here; crime here is up and through the roof despite their fraudulent statements that they made. Crime in this country is through the roof and we have a new form of crime, it's called migrant crime and it's happening at levels that nobody thought possible.
+
+Moderator: President Trump, as you know, the FBI says overall violent crime is actually coming down in this country.
+
+Trump: Excuse me, the FBI defraud, they were defrauding statements. They didn't include the worst cities, they didn't include the cities with the worst crime. It was a fraud, just like their number of 88,000 jobs that they said they created turned out to be a fraud.
+
+Moderator: President Trump, thank you. I'll let you respond, Vice President Harris.
+
+Harris: Well, I think this is so rich coming from someone who has been prosecuted for National Security crimes, economic crimes, election interference, has been found liable for sexual assault, and his next big court appearance is in November at his own criminal sentencing. And let's be clear where each person stands on the issue of what is important about respect for the rule of law and respect for law enforcement. The former vice president called for defunding federal law enforcement, 45,000 agents. Get this, on the day after he was arraigned on 34 felony counts. So let's talk about what is important in this race. It is important that we move forward, that we turn the page on this same old tired rhetoric and address the needs of the American people, address what we need to do about the housing shortage which I have a plan for, address what we must do to support our... 
+
+This chunk continues in the next part.
+
+[00:40:11] Trump: small businesses address Bringing Down the price of groceries but frankly the American people are exhausted with this same old tired playbook. (Neutral)
+[00:40:24] Trump: every one of those cases was started by them against their political opponent and I'm winning most of them and I will win the rest on appeal. (Neutral)
+[00:40:34] Trump: I'm winning most of them but those are cases it's called weaponization never happened in this country they weaponized the justice department. (Negative)
+[00:41:27] Moderator: a really quick response here vice president Harris on this notion of weaponization of the justice department. (Neutral)
+[00:41:36] Harris: understand the context in which this election in 2024 is taking place... someone who has openly said he would terminate the Constitution of the United States. (Negative)
+
+[00:42:12] Trump: "Certainly we know now the court won't stop him, we know JD Vance is not going to stop him. It's up to the American people. Vice president, thank you, Lindy."
+(Sentiment: Neutral)
+
+[00:42:21] Moderator: "Vice president Harris, in your last run for president, you said you wanted to ban fracking. Now you don't. You wanted mandatory government buyback programs for assault weapons. Now your campaign says you don't. You supported criminalizing border crossings. Now you're taking a harder line. I know you say that your values have not changed. So then why have so many of your policy positions changed?"
+(Sentiment: Neutral)
+
+[00:43:12] Harris: "My values have not changed, and I'm going to discuss every point that you've made. But in particular, let's talk about fracking because we're here in Pennsylvania. I made that very clear in 2020, I will not ban fracking. I have not banned fracking as vice president of the United States. And in fact, I was the tiebreaking vote on the Inflation Reduction Act which opened new leases for fracking."
+(Sentiment: Neutral)
+
+[00:44:06] Harris: "As it relates to my values, let me tell you, I grew up a middle-class kid raised by a hardworking mother who worked and saved and was able to buy our first home when I was a teenager. The values I bring to the importance of homeownership, knowing not everybody got handed $400 million on a silver platter."
+(Sentiment: Assertive)
+
+Harris: "and then filed bankruptcy six times is a value that I bring to my work to say we are going to work with the private sector and home builders to increase 3 million homes increased by 3 million homes by the end of my first term. My work that is related to having a friend when I was in high school who was sexually assaulted by her stepfather and my focus then on protecting women and children from violent crime is based on a value that is deeply grounded in the importance of standing up for those who are most vulnerable. My work that is about protecting Social Security and Medicare is based on long-standing work that I have done protecting seniors from scams. My values have not changed and what is important is that there is a president who actually brings values and a perspective that is about lifting people up and not beating people down and name-calling. The true measure of the leader is the leader who actually understands the strength is not in beating people down, it's in lifting people up. I intend to be that president."
+
+Trump: "President Trump, well first of all, I wasn't given $400 million. I wish I was. My father was a Brooklyn Builder in Brooklyn Queens and a great father and I learned a lot from him, but I was given a fraction of that, a tiny fraction, and I built it into many, many billions of dollars. Many, many billions. And when people see it, they are even surprised. So we don't have to talk about that. Fracking, she's been against it for 12 years. Defund the police, she's been against that forever. She gave all that stuff up very wrongly, very horribly, and everybody's laughing at it. They're all laughing at it. She gave up at least 12 and probably 14 or 15 different policies like she was big on defund the police in Minnesota. She went out - wait a minute, I'm talking now, you don't mind, please. Does that sound familiar? She went out in Minnesota and wanted..."
+
+Trump: [00:46:17] To let criminals that killed people, that burned down Minneapolis, she went out and raised money to get him out of jail. This is a radical left liberal that would do this. 
+Sentiment: Negative
+
+Trump: [00:46:29] She wants to do transgender operations on illegal aliens that are in prison. She wants to confiscate your guns and she will never allow fracking in Pennsylvania. Fracking in Pennsylvania will end on day one. 
+Sentiment: Negative
+
+Trump: [00:46:48] So important in my opinion. I got the oil business going like nobody has ever done before. They got rid of it and the prices were going up, they immediately let these guys go. 
+Sentiment: Positive
+
+Trump: [00:47:24] If she won the election, the day after that election, they'll go back to destroying our country and oil will be dead. We'll go back to windmills and solar where they need a whole desert to get some energy to come out. 
+Sentiment: Negative
+
+Moderator: [00:47:49] Thank you, Lindsay. We have an election in just 56 days and I want to talk about the peaceful transfer of power which of course we all know is a cornerstone of our democracy and the role of a president in a moment of crisis. 
+Sentiment: Neutral
+
+Moderator: [00:48:07] This played out at the capital that day, officers coming under attack. It's a very intense situation.
+
+Moderator: [00:48:19] Is there anything you regret about what you did on that day?
+
+Trump: [00:48:24] I said things should be done peacefully and patriotically. I regret the death of Ashley Babbitt who was shot by a police officer. 
+
+Trump: [00:48:50] What about all the people pouring into our country and committing crimes? When will they be prosecuted?
+
+Moderator: [00:49:42] Is there anything you regret about what you did on that day?
+
+Harris: [00:49:53] I had nothing to do with that other than they asked me to make a statement.
+
+Trump: [00:49:56] I showed up for a speech I said it's going to be big. I went to Nancy Pelosi and the mayor of Washington, DC. The mayor put it back in writing. This is going to be a very big rally. It wasn't done by me, it was done by others. I said I'd like to give you 10,000 National Guard or soldiers. They rejected me. Nancy Pelosi rejected me. Just two weeks ago, her daughter has a tape of her saying she is fully responsible for what happened. They want to get rid of that tape. It would have never happened if Nancy Pelosi and the mayor of Washington did their jobs. I wasn't responsible for security. Nancy Pelosi was responsible. She didn't do her job.
+
+Moderator: [00:50:41] The question was about you as president, not about former Speaker Pelosi, but I do want Vice President Harris to respond.
+
+Harris: [00:50:46] I was at the Capitol on January 6th. I was the vice president-elect. I was also an acting Senator. On that day, the president of the United States incited a violent mob to attack our nation's capital, to desecrate our nation's capital. On that day, 140 law enforcement officers were injured and some died. I understand the former president has been indicted and impeached for exactly that reason. But this is not an isolated situation. Let's remember Charlottesville where there was a mob of people carrying tiki torches, spewing anti-Semitic hate. And what did the president then at the time say? There were fine people on each side. Let's remember that when it came to the Proud Boys, a militia, the former president said, "Stand back and stand by." So for everyone watching who remembers what January 6th was, I say we don't have to go back. Let's not go back. It's time to turn the page. And if that was a bridge too far for you, well, there is a...
+
+Harris: [00:52:10] "There is a place in our campaign for you to stand for country, to stand for our democracy, to stand for rule of law and to end the chaos and the approach that is about attacking the foundations of our democracy. You don't like the outcome and be clear on that point, Donald Trump, the candidate has said in this election there will be a bloodbath if this and the outcome of this election is not to his liking. Let's turn the page on this, let's not go back, let's chart a course for the future and not go backwards to the past."
+
+Trump: [00:52:56] "It was a different term and it related to energy because they have destroyed our energy business. That was where 'bloodbath' was also on Charlottesville. That story has been debunked, Laura Ingram, Sean Hannity, Jesse, all of these people they covered it. If they go an extra sentence, they will see it was perfect, it was debunked in almost every newspaper. But they still bring it up, just like they bring 2025 up, they bring all of this stuff up. I ask you this, you talk about the capital, why are we allowing these millions of people to come through on the southern border? How come she's not doing anything? And I'll tell you what I would do, and I would be very proud to do it. I would say we would both leave this debate right now. I'd like to see her go down to Washington DC during this debate because we're wasting a lot of time. Go down because she's been so bad, it's so ridiculous. Go down to Washington DC and let her sign a bill to close up the border because they have the right to do it. They don't need bills, they have the right to do it. The president of the United States, you'll get them out of bed, you'll wake them up at 4:00 in the afternoon, you'll say come on, come on down to the office, let's sign a bill. If he signs a bill that the border is closed, all he has to do is say it to the..."
+
+Speaker 1: border patrol who are phenomenal if they do that the border is closed, those people are killing many people unlike J6. 
+Sentiment: Neutral
+
+Speaker 2: We talked immigration here tonight. I do want to focus on this next issue to both of you because it really brings us into focus the truth in these times that we're living in. 
+Sentiment: Neutral
+
+Speaker 3: Mr. President, for three and a half years after you lost the 2020 election, you repeatedly falsely claimed that you won many times saying you won in a landslide. In the past couple of weeks leading up to this debate, you have said, quote, you lost by a whisker, that you didn't quite make it, that you came up a little bit short. Are you now acknowledging that you lost in 2020? 
+Sentiment: Neutral
+
+Speaker 4 (President): I don't acknowledge it at all. I said that sarcastically. Look, there's so much proof, all you have to do is look at it. They should have sent it back to the legislatures for approval. I got almost 75 million votes, the most votes any sitting president has ever gotten. 
+Sentiment: Defensive
+
+Speaker 4: I was told if I got 63, which was what I got in 2016, you can't be beaten. The election people should never be thinking about an election is fraudulent. We need two things, we need walls, we need and we have to have it, we have to have borders and we have to have good elections. Our elections are bad and a lot of these illegal immigrants coming in, they're trying to get them to vote, they can't even speak English, they don't even know what country they're in practically, and these people are trying to get them to vote and that's why they're allowing them to come into our country. 
+Sentiment: Defensive
+
+Speaker 5: I did watch all of these pieces of video, I didn't detect the sarcasm lost by a whisker, we didn't quite make it. And we should just point out here as clarification, and you know this, you and your allies had 60 cases in front of many judges, many of them looked at it and said we didn't have standing. 
+Sentiment: Neutral
+
+Continues in the next part.
+
+[00:55:54] Trump: "The other thing they said we didn't have standing, a technicality. Can you imagine a system where a person in an election doesn't have standing? The President of the United States doesn't have standing. That's how we lost. If you look at the facts, and I'd love to have you do a special on it, I'll show you Georgia, Wisconsin, and Pennsylvania. We have so many facts and statistics, but you know what, that doesn't matter because we have to solve the problem that we have right now. That's old news. The problem that we have right now is we have a nation in decline, and they have put it into decline. We have a nation that is dying."
+    Sentiment: Accusatory and critical towards the current state of the nation.
+
+[00:56:35] Moderator: "Vice President Harris, you heard the President there tonight. He said he didn't say that he lost by a whisker so he still believes he did not lose the election that was won by President Biden and yourself. But I do want to ask you about something that's come up in the last couple of days..."
+    Sentiment: Neutral inquiry.
+
+[00:57:13] Moderator: "Is that what you believe he's trying to do here?"
+    Sentiment: Questioning intentions.
+
+[00:57:15] Harris: "Donald Trump was fired by 81 million people so let's be clear about that. Clearly, he is having a very difficult time processing that. But we cannot afford to have a President of the United States who attempts, as he did in the past, to upend the will of the voters in a free and fair election..."
+    Sentiment: Assertive and critical of Trump's actions.
+
+Speaker 1: [00:57:49] Leaders, some of whom worked with you, say you're a disgrace. (Negative sentiment)
+Speaker 1: [00:57:57] When you deny court cases you have lost, it leads one to believe we do not have the right candidate. (Negative sentiment)
+Speaker 1: [00:58:18] The American people deserve better. (Positive sentiment)
+
+Speaker 2: [00:58:26] Let me tell you about world leaders. (Neutral sentiment)
+Speaker 2: [00:58:29] Victor Orban, one of the most respected men, called a strong man. (Neutral sentiment)
+Speaker 2: [00:58:53] China, North Korea, and Russia were afraid of him. (Neutral sentiment)
+Speaker 2: [00:59:25] The most respected, most feared person is Donald Trump. (Neutral sentiment)
+Speaker 2: [00:59:30] This weak, pathetic man got no votes. (Negative sentiment)
+Speaker 2: [00:59:41] He got 14 million votes and was thrown out of office. (Negative sentiment)
+
+[00:59:56] Trump: was the first one to leave because she failed and now she's running. (Neutral)
+[00:59:58] Trump: I don't understand it but I'm okay with it because your time is up. (Neutral)
+[01:00:01] Trump: I think we're going to do very well, we've got a lot more to get to. (Positive)
+[01:00:05] Moderator: Turning now to the Israel-Hamas War and the hostages who are still being held, Americans among them, Vice President Harris in December you said... (Neutral)
+[01:00:39] Moderator: President Biden has not been able to break through the stalemate, how would you do it? (Neutral)
+[01:00:41] Harris: Well, let's understand how we got here. (Neutral)
+[01:01:24] Harris: What we know is that this war must end, it must end immediately. (Neutral)
+[01:01:37] Harris: We must chart a course for a two-state solution. (Neutral)
+[01:01:50] Harris: I will always give Israel the ability to defend itself. (Neutral)
+
+[01:02:05] Speaker: Moderator
+Sentiment: Neutral
+Transcript: rebuild Gaza where the Palestinians have [01:02:09] security self-determination and the dignity they so rightly deserve.
+
+[01:02:14] Speaker: Moderator
+Sentiment: Neutral
+Transcript: President Trump, how would you negotiate with Netanyahu and also Hamas in order to get the hostages out and prevent the killing of more innocent civilians in Gaza?
+
+[01:02:23] Speaker: Trump
+Sentiment: Negative
+Transcript: If I were president, it would have never started... Russia would have never, ever. I know Putin very well, he would have never... and there was no threat of it either. For four years, have gone into Ukraine and killed millions of people, when you added up, far worse than people understand what's going on over there.
+
+[01:02:56] Speaker: Trump
+Sentiment: Negative
+Transcript: All of a sudden she hates Israel, she wouldn't even meet with Netanyahu when he went to Congress to make a very important speech, she refused to be there because she was at a sorority party of hers, she wanted to go to the sorority party. She hates Israel. If she's president, I believe that Israel will not exist within two years from now.
+
+[01:03:26] Speaker: Trump
+Sentiment: Negative
+Transcript: It would have never happened. Iran was broke under Donald Trump, now Iran has $300 billion because they took off all the sanctions that I had. Iran had no money for Hamas or Hezbollah or any of the 28 different spheres of Terror. They had no money, it was a big story and you know it, you covered it very well actually. They had no money for Terror, they were broke, now they're a rich nation.
+
+[01:04:13] Trump: President-elect, I'll get it done before even becoming president.
+Sentiment: Confident, assertive.
+
+[01:04:16] Trump: Vice President Harris, he says you hate Israel. That's absolutely not true. I have my entire career and life supported Israel and the Israeli people. 
+Sentiment: Defensive, accusatory.
+
+[01:04:29] Trump: He's trying to again divide and distract from the reality which is it is very well known that Donald Trump is weak and wrong on National Security and foreign policy.
+Sentiment: Criticizing, dismissive.
+
+[01:05:12] Trump: These dictators and autocrats are rooting for you to be president again because they're so clear they can manipulate you with flattery and favors.
+Sentiment: Accusatory, skeptical.
+
+[01:05:49] Harris: Vice President Harris, thank you. They're the ones and she's the one that caused it that's weak on National Security by allowing Every Nation last month for the year 168 different countries sending people into our country.
+Sentiment: Defensive, deflective.
+
+[01:06:10] Trump: What he's gotten away with is absolutely incredible. It wouldn't have happened with me.
+Sentiment: Boastful, confident.
+
+[01:06:17] Trump: The leaders of other countries think that they're weak and incompetent and they are they're grossly incompetent.
+Sentiment: Critical, dismissive.
+
+[01:06:23] Trump: Why does Biden go in and kill the Keystone pipe.
+Sentiment: Questioning, accusatory.
+
+[01:06:26] Trump: "and approve the single biggest deal that Russia's ever made nordstream 2 the biggest pipeline anywhere in the world going to Germany and all over Europe because they're weak and they're ineffective and Biden by the way gets paid a lot of money. Thank you, we have a lot of issues to get to."
+
+[01:06:41] Moderator: "We'll be right back with much more of this historic ABC News presidential debate from the national Constitution Center right here in Philadelphia."
+
+[01:06:57] Moderator: "The ABC News presidential debate will continue after this brief break."
+
+[01:11:36] Moderator: "Welcome back to this historic ABC News presidential debate. Tonight we're going to continue here and I want to turn to the war in Ukraine. Mr. President, how exactly would you solve this war in 24 hours and do you want Ukraine to win this war?"
+
+[01:12:22] Trump: "I want the war to stop. I want to save lives that are being uselessly people being killed by the millions. It's so much worse than the numbers that you're getting which are fake numbers. Look, we're in for 250." 
+
+Sentiment: Trump appears dismissive of Biden's actions and emphasizes the need to stop the war in Ukraine for the sake of saving lives.
+
+Trump: Billion or more because they don't ask. Europe, a much bigger beneficiary, is in for $150 billion less because Biden lacks the courage to ask like I did with NATO. They should be forced to equalize. I want the war settled, I know Zelensky and Putin very well. They respect me, not Biden. He hasn't even made a phone call in two years to Putin. I will get it settled before I even become president if I win. When I'm president-elect, I'll speak to both and get them together. The war would have never happened if I was still in power. Biden had no idea how to talk to Putin, and now millions are dead. We could be heading towards World War III, and we have a president we don't even know is present. They threw him out of a campaign like a dog.
+
+Trump: [01:14:33] You know, he's our president, but we have a president that doesn't know he's alive. Your time is up. And just to clarify, in the question, do you believe it's in the US best interest for Ukraine to win this war? Yes or no?
+
+Sentiment: Trump dismissive and critical of current president.
+
+Moderator: [01:14:42] I think it's the US best interest to get this war finished and just get it done, negotiate a deal because we have to stop all of these human lives from being destroyed. I want to take this to Vice President Harris.
+
+Sentiment: Moderator neutral, transitioning to next speaker.
+
+Harris: [01:14:59] I want to get your thoughts on support for Ukraine in this moment, but also as commander-in-chief, if elected, how would you deal with Vladimir Putin and would it be any different from what we're seeing from President Biden?
+
+Sentiment: Harris assertive, challenging Trump's stance on war.
+
+Harris: [01:15:10] First of all, it's important to remind the former president you're not running against Joe Biden, you're running against me. I believe the reason that Donald Trump says that this war would be over within 24 hours is because he would just give it up, and that's not who we are as Americans.
+
+Sentiment: Harris confrontational towards Trump, emphasizing her stance on war.
+
+Harris: [01:15:25] Let's understand what happened here. I actually met with Zelensky a few days before Russia invaded, tried through force to change territorial boundaries to defy one of the most important international rules and norms, which is the importance of sovereignty and territorial integrity.
+
+Sentiment: Harris informative, explaining her diplomatic efforts.
+
+Harris: [01:16:04] Ukraine stands as an independent and free country. If Donald Trump were president, Putin would be sitting in Kiev right now, and understand what that would mean because Putin's agenda is not just about Ukraine.
+
+Sentiment: Harris critical of Trump's potential handling of international relations.
+
+[01:16:31] Speaker 1: "Allies and our NATO allies are so thankful that you are no longer president and that we understand the importance of the greatest military Alliance the world has ever known which is NATO and what we have done to preserve the ability of zeny and the Ukrainians to fight for their independence. Otherwise, Putin would be sitting in keev with his eyes on the rest of Europe starting with Poland. And why don't you tell the 800,000 Polish Americans right here in Pennsylvania how quickly you would give up for the sake of favor and what you think is a friendship with what is known to be a dictator who would eat you for lunch." (Negative sentiment)
+[01:17:15] Speaker 2: "Vice President Harris, thank you. We've heard from both of you on Ukraine tonight. Afghanistan came up in the last hour. I wanted her to respond to something you said earlier and please, I'll give you a minute here." (Neutral sentiment)
+[01:17:25] Speaker 1: "Putin would be sitting in Moscow and he wouldn't have lost 300,000 men and women, but he would have been sitting in Moscow much happier than he is right now. But eventually, you know he's got a thing that other people don't have - he's got nuclear weapons. They don't ever talk about that. He's got nuclear weapons, nobody ever thinks about that. And eventually, maybe he'll use them, and maybe he hasn't been that threatening, but he does have that something we don't even like to talk about. Nobody likes to talk about it. But just so you understand, they sent her to negotiate peace before this war started. Three days later, he went in and he started the war because everything they said was weak and stupid. They said the wrong things, that war should have never started. She was the Emissary they sent her in to negotiate with Zalinski and Putin, and she did, and the war started 3 days later. That's the kind of talent we have with her. She's worse than Biden, in my opinion. I think he's the worst president in the history of our..." (Negative sentiment)
+
+Trump: [01:18:30] Country, she goes down as the worst vice president in the history of our country. (Negative)
+Trump: [01:18:37] Let me tell you something, she is a horrible negotiator. They sent her in to negotiate, as soon as they left, Putin did the invasion. (Negative)
+Moderator: [01:18:45] President Trump, thank you. You did bring up something, you said she went to negotiate with Vladimir Putin. Vice President Harris, have you ever met Vladimir Putin? Can you clarify tonight? (Neutral)
+Harris: [01:18:51] I've now met with him over five times, standing as America always should, as a leader upholding international rules and norms, showing strength. (Positive)
+Harris: [01:19:15] Understanding that the alliances we have around the world are dependent on our ability to look out for our friends and not favor our enemies. (Neutral)
+Harris: [01:19:31] Because you adore strong men instead of caring about democracy, and that is very much what is at stake here. (Negative)
+Harris: [01:19:35] The President of the United States is commander-in-chief, and the American people have a right to rely on a president who understands the significance of America's role and responsibility in ensuring stability. (Positive)
+Harris: [01:19:53] Ensuring we stand up for our principles and not sell them for personal flattery. (Positive)
+Moderator: [01:20:00] We've talked about Ukraine and Vladimir Putin. I do want to talk about Afghanistan. It came up in the first hour of this debate. I wanted to move on to Afghanistan. (Neutral)
+Trump: [01:20:09] Stenberg said Trump did the most amazing thing, he got these countries, the 28 countries at the time, to pay up. (Positive)
+Trump: [01:20:16] For years, we were paying almost all of NATO, we were being ripped off by European nations both on trade and on NATO. I got them to pay up. (Positive)
+
+[01:20:33] Speaker 1: "To protect you, otherwise we would have never gotten it. He said it was one of the most incredible jobs that he's ever seen done. Thank you. I want to turn to Afghanistan. It came up in the first hour of the debate and we witnessed a poignant moment today on Capitol Hill honoring the soldiers who died in the chaotic withdrawal from Afghanistan. I do want to ask the vice president, do you believe you bear any responsibility in the way that withdrawal played out?"
+
+[01:20:56] Speaker 2: "Well, I will tell you I agreed with President Biden's decision to pull out of Afghanistan. Four presidents said they would, and Joe Biden did. And as a result, America's taxpayers are not paying the $300 million a day we were paying for that endless war. And as of today, there is not one member of the United States military who is in active duty in a combat zone in any war zone around the world for the first time this century. But let's understand how we got to where we are. Donald Trump, when he was president, negotiated one of the weakest deals you can imagine. He calls himself a dealmaker, even his National Security advisor said it was a weak, terrible deal."
+
+[01:21:58] Speaker 2: "And here's how it went down. He bypassed the Afghan government, he negotiated directly with a terrorist organization called the Taliban. The negotiation involved the Taliban getting 5,000 terrorist Taliban released. And get this, the president at the time invited the Taliban to Camp David, a place of storied significance for us as Americans, a place where we honor the importance of American diplomacy, where we invite and receive respected world leaders."
+
+[01:22:38] Speaker 2: "And this gets back to the point of how he has consistently disparaged and demeaned..."
+    
+Sentiment:
+Speaker 1: Appreciative and reflective.
+Speaker 2: Critical and blaming.
+
+[01:22:45] Speaker: Moderator
+Sentiment: Neutral
+Members of our military, fallen soldiers, and the work that we must do to uphold the strength and respect of the United States of America around the world. Vice President Harris, thank you. 
+
+[01:22:57] Speaker: Moderator
+Sentiment: Neutral
+President Trump, your response to her saying that you began the negotiations with the Taliban. 
+
+[01:23:00] Speaker: Trump
+Sentiment: Defensive
+If you take a look at that period of time, the Taliban was killing our soldiers, a lot of them with snipers. I got involved with the Taliban because they were the ones doing the killing. Abdul is the head of the Taliban, and I told him not to do it anymore. For 18 months, we had nobody killed. 
+
+[01:23:42] Speaker: Trump
+Sentiment: Criticism
+The agreement negotiated by Mike Pompeo was terminated because they didn't do what they were supposed to do. This was the worst withdrawal and the most embarrassing moment in the history of our country. 
+
+[01:24:33] Speaker: Trump
+Sentiment: Criticism
+That's why Russia attacked Ukraine, they saw how incompetent she and her boss are. Thank you. 
+
+[01:24:39] Speaker: Moderator
+Sentiment: Neutral
+I want to move on now to race and politics in this country. Mr. President, you recently said to Vice President Harris, "I didn't know."
+
+[01:24:41] Trump: she was black until a number of years ago when she happened to turn black and now she wants to be known as black. [Negative sentiment]
+
+[01:24:49] Moderator: why do you believe it's appropriate to weigh in on the racial identity of your opponent?
+
+[01:25:05] Trump: I don't care what she is. I couldn't care less. Whatever she wants to be is okay with me. [Neutral sentiment]
+
+[01:25:21] Moderator: Vice President Harris, your thoughts on this?
+
+[01:25:24] Harris: I think it's a tragedy that we have someone who wants to be president consistently using race to divide the American people. [Negative sentiment]
+
+[01:25:44] Harris: The vast majority of us have so much more in common than what separates us. We don't want this constant approach of dividing us, especially by race. [Positive sentiment]
+
+[01:26:00] Harris: Donald Trump was investigated for refusing to rent property to black families and took out a full-page ad calling for the execution of innocent black and Latino boys. [Negative sentiment]
+
+[01:26:31] Harris: Trump spread birther lies about the first black president of the United States. The American people want better than that. [Negative sentiment]
+
+[01:26:53] Harris: "I see in each other a neighbor we don't want a leader who is constantly trying to have Americans point their fingers at each other. I meet with people all the time who tell me can we please just have discourse about how we're going to invest in the aspirations and the ambitions and the dreams of the American people, knowing that regardless of people's color or the language their grandmother speaks, we all have the same dreams and aspirations. We want a president who invests in those, not in hate and division."
+
+[01:27:29] Harris: "Thank you, Lindsay."
+
+[01:27:31] Trump: "This is now your third time. This is the most divisive presidency in the history of our country. There's never been anything like it. They're destroying our country and they come up with things like what she just said going back many, many years when a lot of people, including Mayor Bloomberg, agreed with me on the Central Park 5. They admitted they said they plead guilty and I said, well, if they plead guilty, they badly hurt a person, killed a person ultimately. And if they plead guilty, then they plead were not guilty. But this is a person that has to stretch back years, 40-50 years ago, because there's nothing now. I built one of the greatest economies in the history of the world and I'm going to build it again. It's going to be bigger, better, and stronger, but they're destroying our economy. They have no idea what a good economy is, is their oil policies, every single policy. And remember this, she is Biden. You know, she's trying to get away from Biden. I don't know the gentleman. She says she is Biden. The worst inflation we've ever had, a horrible economy because inflation has made it so bad and she can't get away with that."
+
+[01:28:44] Moderator: "Thank you. Your time is up. I want to respond to that though. I want to just respond briefly."
+
+[01:28:48] Harris: "Clearly, I am not Joe Biden and I am certainly not Donald Trump."
+
+Harris: [01:28:55] What I do offer is a new generation of leadership for our country, one who believes in what is possible, one who brings a sense of optimism about what we can do instead of always disparaging the American people. (Positive)
+
+Harris: [01:29:13] I believe in what we can do to strengthen our small businesses, which is why I have a plan. Let's talk about our plans and let's compare. (Positive)
+
+Harris: [01:29:25] I have a plan to give startup businesses a $50,000 tax deduction to pursue their ambitions, innovation, ideas, and hard work. (Positive)
+
+Harris: [01:29:37] $6,000 for young families for the first year of your child's life to help you in that most critical stage of your child's development. (Positive)
+
+Harris: [01:29:48] I have a plan that is about allowing people to pursue what has been fleeting in terms of the American dream by offering help with a down payment of $25,000 for first-time home buyers. (Positive)
+
+Harris: [01:30:03] That's the kind of conversation I believe people really want tonight, as opposed to a conversation that is constantly about belittling and name-calling. (Positive)
+
+Moderator: [01:30:14] President Harris, thank you. Let's turn to policy. (Neutral)
+
+Moderator: [01:30:20] President Trump, please respond. (Neutral)
+
+Trump: [01:30:23] Harris has a plan to defund the police, confiscate everybody's gun, and not allow fracking in Pennsylvania or anywhere else. (Negative)
+
+Moderator: [01:30:37] Vice President, please respond. (Neutral)
+
+Moderator: [01:30:43] President Trump, this is now your third time running for president. (Neutral)
+
+Trump: Obamacare was lousy healthcare, Democrats wouldn't change it, I had to decide whether to save it or let it rot. I saved it, but it's still not great and too expensive. We're looking at different plans to find something better and less costly. I have concepts of a plan, but only if it's better and cheaper. You'll hear about it soon.
+
+[Lindsay] In the distant future, Vice President Harris, in 2017, you supported Bernie Sanders' proposal to do away with private insurance and create a government-run healthcare system. Two years later, you proposed a plan that included a private insurance option. What is your plan today?
+
+[Harris] Well, first of all, I absolutely support private healthcare options and over the last four years as vice president. What we need to do is maintain and grow the Affordable Care Act. But I need to respond to a previous point that the former president has made. I've made my position on tracking and the business about taking everyone's guns away clear. Tim Walls and I are both gun owners, we're not taking anybody's guns away. So stop with the continuous lying about this stuff. As it relates to the Affordable Care Act, let's look at the history. When Donald Trump was President, 60 times he tried to get rid of the Affordable Care Act. I was a Senator at the time, and I will never forget the early morning hours when it was up for a vote in the United States Senate and the late great John McCain, who you have disparaged as being someone you don't like, he said at the time because he got caught, he was an American hero. I will never forget that night. He walked onto the Senate floor and said, "No, you don't get rid of the Affordable Care Act. You have no plan." And what the Affordable Care Act has done is eliminate the ability of insurance companies to deny people with pre-existing conditions. I don't have to tell the people watching tonight, you remember what that was like. Remember when an insurance company could deny a child with asthma, a breast cancer survivor, a grandparent with diabetes. And thankfully, as I've been vice president, we've... 
+
+This chunk continues in the next part.
+
+Harris: [01:34:47] The last four years have strengthened the Affordable Care Act. (Positive)
+Trump: [01:34:55] Donald Trump said he was going to allow Medicare to negotiate drug prices, he never did. (Negative)
+Harris: [01:35:01] We have capped the cost of insulin at $35 a month. (Positive)
+Harris: [01:35:05] We have capped the cost of prescription medication for seniors at $2,000 a year. (Positive)
+Harris: [01:35:12] When I am President, we will do that for all people. (Positive)
+Harris: [01:35:16] Access to healthcare should be a right and not just a privilege. (Positive)
+Harris: [01:35:24] The plan has to be to strengthen the Affordable Care Act, not get rid of it. (Neutral)
+Trump: [01:35:34] We can do much better than Obamacare for much less money. (Positive)
+Trump: [01:35:50] She won't improve private medical insurance for people. (Negative)
+Trump: [01:35:59] She wants everybody to be on government insurance where you wait six months for an operation. (Negative)
+
+(Continues in the next part)
+
+Harris: [01:36:37] "He had said that climate change is a hoax, and what we know is that it is very real. You ask anyone who lives in a state that has experienced these extreme weather occurrences, who now is either being denied home insurance or it's being jacked up. You ask anybody who has been the victim of what that means in terms of losing their home, having nowhere to go. We know that we can actually deal with this issue. The young people of America care deeply about this issue and I am proud that as vice president over the last four years, we have invested a trillion dollars in a clean energy economy while we have also increased domestic gas production to historic levels. We have created over 800,000 new manufacturing jobs while I have been vice president. We have invested in clean energy to the point that we are opening up factories around the world. Donald Trump said he was going to create manufacturing jobs; he lost manufacturing jobs. And I'm also proud to have the endorsement of the United Auto Workers and Shan feain, who also know that part of building a clean energy economy includes investing in American-made products, American automobiles. It includes growing what we can do around American manufacturing and opening up auto plants, not closing them like happened under Donald Trump."
+
+Trump: [01:38:00] "That didn't happen under Donald Trump. Let me just tell you, they lost 10,000 manufacturing jobs this last month. It's going, they're all leaving. They're building big auto plants in Mexico, in many cases owned by China. They're building these massive plants and they think they're going to sell their cars into the United States because of these people. What they have given to China is unbelievable. But we're not going to let that. We'll put tariffs on those cars so they can't come into our country because they will kill the United Auto Workers and any other worker, whether it's in Detroit or..."
+
+[01:38:34] Trump: "South Carolina or any other place, what they've done to business and manufacturing in this country is horrible. We have nothing because they refuse. You know, Biden doesn't go after people because supposedly China paid him millions of dollars. He's afraid to do it. Between him and his son, they get all this money from Ukraine, they get all this money from all of these different countries. And then you wonder, why is he so loyal to Ukraine, China? Why did he get 35 million dollars from the mayor of Moscow's wife? Why did she pay him $35 million? This is a crooked administration and they're selling our country down the tubes. Thank you, thank you, President Trump."
+
+[01:39:22] Moderator: "We'll be right back with closing statements from both of our candidates in this historic night of the ABC News presidential debate from Philadelphia."
+
+[01:44:26] Harris: "I think you've heard tonight two very different visions for our country. One that is focused on the future and the other that is focused on the past and an attempt to take us backward. But we're not going back. I do believe that the American people know we all have so much more in common than what separates us. And we can chart a new way forward and a vision that includes having a..."
+
+[01:44:56] Harris: "I intend to create an opportunity economy investing in small businesses and new families, protecting seniors, giving hardworking folks a break, and bringing down the cost of living. I believe in sustaining America's standing in the world and ensuring respect, including for our military. I will protect fundamental rights and freedoms, including a woman's right to make decisions about her own body."
+(Sentiment: Positive)
+
+[01:45:50] Harris: "I started my career as a prosecutor, never asking victims or witnesses about their political affiliation, only if they were okay. We need a president who cares about the people first."
+(Sentiment: Positive)
+
+[01:46:19] Harris: "I intend to be a president for all Americans and focus on building up our country by investing in the American people."
+(Sentiment: Positive)
+
+[01:46:36] Trump: "Why hasn't she done all these wonderful things she's talking about in her three and a half years in office? She should leave right now and go to the White House."
+(Sentiment: Negative)
+
+Trump: "The capital get everyone together and do the things you want to do but you haven't done it and you won't do it because you believe in things that the American people don't believe in. You believe in things like we're not going to Frack, we're not going to take fossil fuel, we're not going to do things that are going to make this country strong whether you like it or not. Germany tried that and within one year they were back to building normal energy plants. We're not ready for it, we can't sacrifice our country for the sake of bad vision. But I just ask one simple question, why didn't she do it? We're a failing nation. We're a nation that's in serious decline, we're being laughed at all over the world. They're laughing, I know the leaders very well, they're coming to see me. They call me, we're laughed at all over the world. They don't understand what happened to us as a nation. We're not a leader, we don't have any idea what's going on. We have wars going on in the Middle East, we have wars going on with Russia and Ukraine, we're going to end up in a third world war and it'll be a war like no other because of nuclear weapons, the power of weaponry. I rebuilt our entire military, she gave a lot of it away to the Taliban, she gave it to Afghanistan. What these people have done to our country and maybe toughest of all is allowing millions of people to come into our country, many of them are criminals and they're destroying our country. The worst president, the worst vice president in the history of our country. President Trump, thank you."
+
+Moderator: "And that is our ABC News presidential debate from here in Philadelphia at the National Constitution Center. I'm Lindsey Davis and I'm David Muir. Thank you for watching here in the US and all over the world. And from all of us here at ABC News, good night." 
+
+Sentiment: Trump expresses frustration and criticism towards his opponent and the current state of the country. The moderator closes the debate with a formal thank you to the viewers.
+

@@ -1,0 +1,44 @@
+**Video Metadata:**
+
+Title: 🍓 "As useful as a GOOD grad student" ― Surpasses Human Capability on Many Tasks (but not all!)
+Channel: David Shapiro
+Published: 2024-09-15T11:40:22Z
+Duration: PT14M47S
+Description: 
+
+**Formatted Transcript:**
+
+[David Shapiro, Positive Sentiment]
+[00:00:00] All right, so how smart is strawberry or 01 preview? I have been kind of taking it all in like drinking from a fire hose the last couple of days. There's been a kind of a constellation of facts, drip feeds, or opinions that I've been taking in that has really kind of made me sit up and take note.
+
+[David Shapiro, Positive Sentiment]
+[00:00:22] For instance, here's one tweet. The most gifted mathematician has rendered his verdict. GP1 is like a mediocre but not completely incompetent grad student. So think of it this way, the top mathematician in the world, according to someone's opinion, says that this new tool which is just the preview version, just the first version of this new paradigm, is like a mediocre grad student.
+
+[David Shapiro, Positive Sentiment]
+[00:01:05] Now, I wrote about how a postdoc friend of mine texted me after he started testing 01 preview. This is a friend of mine who is a PhD researcher in the field of oceanography and computational fluid dynamics. He said oh yeah, it almost got it right the first time, and he showed me the prompt which was so jargon heavy. But with just a little bit of encouragement, it got it right.
+
+[David Shapiro, Positive Sentiment]
+[00:01:39] Then I had someone reply, "I just had 01 write a major cancer treatment project based on a very specific immunological approach. It created the full framework of the project in under a minute with highly creative aims, approaches, and even considerations for potential pitfalls and alternative strategies." This would have taken me days if not longer to prepare and I still would have missed several points.
+
+[David Shapiro, Positive Sentiment]
+[00:03:24] So, I've been collecting people's data basically. In terms of how smart is this thing, it is now in a completely new league. Whenever you see a leap like this, that means that you've had a breakthrough paradigm shift in how machine learning is approaching a problem.
+
+[David Shapiro, Positive Sentiment]
+[00:04:46] Whatever OpenAI has done with strawberry, this is clearly the correct approach because of how broadly it generalizes. It's been tested in computational fluid dynamics, mathematics, and medical research, three very different domains. Then compare it to this New York Times puzzle and then to this other third-party open-source IQ test. 01 is kind of right in the middle of the pack in terms of general human reasoning.
+
+[David Shapiro, Positive Sentiment]
+[00:05:37] You could make an argument that this is pretty close to AGI (Artificial General Intelligence). If this is as smart as it seems to be, then as a service to humanity, we need to open source it, with or without OpenAI's permission.
+
+[David Shapiro, Positive Sentiment]
+[00:06:19] Ultimately, it's the practical impact that matters. What impact does it have on science? What impact does it have on the economy? If the output is economically viable, scientifically valuable, or otherwise meaningful to humans and if the answer is yes, it doesn't matter whether or not it's truly thinking or truly intelligent.
+
+[David Shapiro, Positive Sentiment]
+[00:07:02] We just saw something that blasted through the barrier of being as smart as a good grad student. And with all that being said, they're about to release GPT 5. So, that's going to be another model, another paradigm shift in terms of model capability.
+
+[David Shapiro, Positive Sentiment]
+[00:07:58] If we're still unlocking abilities after two and a half years, how much longer are we going to be able to unlock those latent abilities of GPT 5? If that gives us a much longer runway, then those diminishing returns that I've been afraid of with respect to AI slowing down might not matter as much.
+
+[David Shapiro, Positive Sentiment]
+[00:14:25] Thanks for watching. I hope you got a lot out of this. Cheers, have a good one. 
+
+**

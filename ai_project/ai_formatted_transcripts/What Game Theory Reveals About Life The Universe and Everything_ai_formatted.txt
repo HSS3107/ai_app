@@ -1,0 +1,698 @@
+Title: What Game Theory Reveals About Life, The Universe, and Everything
+Channel: Veritasium
+Published: 2023-12-23T17:00:08Z
+Duration: PT27M19S
+
+Speaker: Narrator
+Sentiment: Neutral
+
+Description: This is a video about the most famous problem in Game Theory, the Prisoner’s Dilemma. Head to https://brilliant.org/veritasium to start your free 30-day trial, and the first 200 people get 20% off an annual premium subscription.
+
+Speaker: Narrator
+Sentiment: Appreciative
+
+Special thanks to our Patreon supporters! Join the community to help us keep our videos free, forever: 
+https://ve42.co/PatreonDEB
+
+If you’re looking for a molecular modeling kit, try Snatoms – a kit I invented where the atoms snap together magnetically – https://ve42.co/SnatomsV   
+
+Speaker: Narrator
+Sentiment: Grateful
+
+▀▀▀
+Speaker: Narrator
+Sentiment: Appreciative
+
+A massive thank you to Prof. Robert Axelrod and Prof. Steven Strogatz for their expertise and time. 
+
+To read more about Prof. Axelrod’s Passion for Cooperation visit: https://ve42.co/Axelrod2023 
+
+Speaker: Narrator
+Sentiment: Appreciative
+
+A massive thanks to the wonderful Nicky Case. Nicky’s “The Evolution of Trust” game was a huge inspiration for this video. We highly recommend you play this excellent game yourself, over at: https://ncase.me/trust/ 
+
+Speaker: Narrator
+Sentiment: Appreciative
+
+A huge thank you to those who helped us understand and fact check different parts of this topic - Dr. Christian Hilbe, Dr. Vincent Knight, Dr. Jelena Grujic, Prof. Andreas Diekmann, and Dr. Alexander Stewart.
+
+Speaker: Narrator
+Sentiment: Grateful
+
+This chunk continues in the next part.
+
+In this chunk, various references related to game theory and the evolution of cooperation are provided. These references include works by researchers such as Axelrod, Dawkins, Poundstone, and others. Additionally, links to resources on the Prisoner's Dilemma, historical nuclear weapons stockpiles, and Cold War events are included. The references offer valuable insights into the principles of cooperation, strategic decision-making, and the implications of game theory in real-world scenarios.
+
+Images & Video:
+- RAND Historical images via rand.org - https://ve42.co/RAND  
+- Golden Balls - https://www.youtube.com/watch?v=S0qjK3TWZE8
+- Zotti, G., et al. (2021). The Simulated Sky: Stellarium for Cultural Astronomy Research - https://ve42.co/Stellarium  
+- Newspapers from 1980s via Newspapers.com  – https://ve42.co/Newspapers  
+- Decommissioned nuke image via The Moscow Times - https://ve42.co/MT2012 
+- Soviet inspection image via Bulletin of the Atomic Scientists - https://ve42.co/Krzyzaniak2019  
+- Decommissioning nuclear weapon via ShareAmerica - https://ve42.co/Kaufman2014 
+
+[Neutral sentiment]
+
+Special thanks to our Patreon supporters:
+- Adam Foreman
+- Amadeo Bee
+- Anton Ragin
+- Balkrishna Heroor
+- Bernard McGee
+- Bill Linder
+- Burt Humburg
+- Dave Kircher
+- Diffbot
+- Evgeny Skvortsov
+- Gnare
+- Jesse Brandsoy
+- John H. Austin, Jr.
+- John Kiehl
+- Josh Hibschman
+- Juan Benet
+- KeyWestr
+- Lee Redden
+- Marinus Kuivenhoven
+- Mario Bottion
+- Max Maladino
+- Meekay
+- Meg Noah
+- Michael Krugman
+- Paul Peijzel
+- Richard Sundvall
+- Sam Lutfi
+- Stephen Wilcox
+- Tj Steyn
+- TTST
+- Ubiquity Ventures
+
+[Appreciative sentiment]
+
+Directed by Casper Mebius
+Written by Casper Mebius, Derek Muller, Petr Lebedev, and Ashley Hamer
+Additional research and fact checking by Gregor Čavlović and Will Wood
+Edited by Peter Nelson
+Animated by Fabio Albertelli, Ivy Tello and Alondra Vitae
+Illustrations by Jakub Misiek
+Filmed by Derek Muller
+Produced by Casper Mebius, Derek Muller, Gregor Čavlović and Han Evans
+
+[Professional sentiment]
+
+[00:00:00] Speaker: Narrator
+Sentiment: Neutral
+Narrator: This is a video about the most famous problem in game theory.
+
+[00:00:02] Speaker: Narrator
+Sentiment: Neutral
+Narrator: Problems of this sort pop up everywhere, from nations locked in conflict to roommates doing the dishes.
+
+[00:00:10] Speaker: Narrator
+Sentiment: Neutral
+Narrator: Even game shows have been based around this concept.
+
+[00:00:16] Speaker: Narrator
+Sentiment: Neutral
+Narrator: Figuring out the best strategy can mean the difference between life and death, war and peace, flourishing and the destruction of the planet.
+
+[00:00:22] Speaker: Narrator
+Sentiment: Neutral
+Narrator: And in the mechanics of this game, we may find the very source of one of the most unexpected phenomena in nature: cooperation.
+
+[00:00:34] Speaker: Narrator
+Sentiment: Neutral
+Narrator: On the 3rd of September, 1949, an American weather monitoring plane collected air samples over Japan.
+
+[00:00:46] Speaker: Narrator
+Sentiment: Neutral
+Narrator: In those samples, they found traces of radioactive material.
+
+[00:00:58] Speaker: Narrator
+Sentiment: Neutral
+Narrator: They also detected small amounts of Cerium-141 and Yttrium-91.
+
+[00:01:09] Speaker: Narrator
+Sentiment: Neutral
+Narrator: But the US hadn't performed any tests that year, so the only possible conclusion was that the Soviet Union had figured out how to make a nuclear bomb.
+
+[00:01:20] Speaker: Narrator
+Sentiment: Neutral
+Narrator: This was the news the Americans had been dreading.
+
+[00:01:29] Speaker: Narrator
+Sentiment: Neutral
+Narrator: Some thought their best course of action was to launch an unprovoked nuclear strike against the Soviets while they were still ahead.
+
+[00:01:37] The imminence of war was greater.
+Speaker: Narrator
+Sentiment: Neutral
+
+[00:01:39] Some thought their best course of action was to launch an unprovoked nuclear strike against the Soviets while they were still ahead.
+Speaker: Narrator
+Sentiment: Concerned
+
+[00:01:45] In the words of Navy Secretary Matthews, to become "aggressors for peace".
+Speaker: Narrator
+Sentiment: Irony
+
+[00:01:51] John von Neuman, the founder of game theory, said, "If you say why not bomb them tomorrow, I say, why not bomb them today? If you say today at five o'clock, I say why not at one o'clock?"
+Speaker: Narrator
+Sentiment: Alarming
+
+[00:02:06] Something needed to be done about nuclear weapons and fast.
+Speaker: Narrator
+Sentiment: Urgency
+
+[00:02:10] But what?
+Speaker: Narrator
+Sentiment: Questioning
+
+[00:02:11] In 1950, the RAND Corporation, a US-based think tank was studying this question.
+Speaker: Narrator
+Sentiment: Informative
+
+[00:02:21] And as part of this research, they turned to game theory.
+Speaker: Narrator
+Sentiment: Informative
+
+[00:02:31] This game is now known as the prisoner's dilemma.
+Speaker: Narrator
+Sentiment: Informative
+
+[00:02:34] So let's play a game.
+Speaker: Narrator
+Sentiment: Engaging
+
+[00:02:36] A banker with a chest full of gold coins invites you and another player to play against each other.
+Speaker: Narrator
+Sentiment: Intriguing
+
+[00:03:06] So what would you do?
+Speaker: Narrator
+Sentiment: Thought-provoking
+
+[00:03:09] Suppose your opponent cooperates, then you could also cooperate and get three coins or you could defect and get five coins, instead.
+Speaker: Narrator
+Sentiment: Strategic
+
+[00:03:18] So you are better off defecting, but what if your opponent defects, instead?
+Speaker: Narrator
+Sentiment: Dilemma
+
+Speaker: Narrator
+
+Sentiment: Neutral
+
+Narrator: Cooperate and get three coins, or you could defect and get five coins instead. So you are better off defecting. But what if your opponent defects instead? Well, you could cooperate and get no coins, or you could defect and at least get one coin. So no matter what your opponent does, your best option is always to defect. Now, if your opponent is also rational, they will reach the same conclusion and therefore also defect. As a result, when you both act rationally, you both end up in the suboptimal situation, getting one coin each when you could have gotten three instead.
+
+In the case of the US and Soviet Union, this led both countries to develop huge nuclear arsenals of tens of thousands of nuclear weapons each, more than enough to destroy each other many times over. But since both countries had nukes, neither could use them. And both countries spent around $10 trillion developing these weapons. Both would've been better off if they had cooperated and agreed not to develop this technology further. But since they both acted in their own best interest, they ended up in a situation where everyone was worse off.
+
+The prisoner's dilemma is one of the most famous games in game theory. Thousands and thousands of papers have been published on versions of this game. In part, that's because it pops up everywhere.
+
+(bright music)
+
+Impalas living in between African woodlands and Savannahs are prone to catching ticks, which can lead to infectious diseases, paralysis, even death. So it's important for impalas to remove ticks and they do this by grooming, but they can't reach all.
+
+Veritasium
+[00:04:50] Speaker: Narrator
+Sentiment: Informative
+
+Narrator: to infectious diseases, paralysis, even death.
+[00:04:53] Sentiment: Informative
+
+Narrator: So it's important for impalas to remove ticks and they do this by grooming,
+[00:04:56] Sentiment: Informative
+
+Narrator: but they can't reach all the spots on their bodies and therefore they need another impala to groom them.
+[00:04:58] Sentiment: Informative
+
+Narrator: Now, grooming someone else comes at a cost. It costs saliva, electrolytes, time and attention, all vital resources under the hot African sun where a predator could strike at any moment.
+[00:05:01] Sentiment: Informative
+
+Narrator: So for the other impala, it would be best not to pay this cost, but then again, it too will need help grooming.
+[00:05:05] Sentiment: Informative
+
+Narrator: So all impalas face a choice: should they groom each other or not? In other words, should they cooperate or defect?
+[00:05:25] Sentiment: Thoughtful
+
+Narrator: Well, if they only interact once, then the rational solution is always to defect. That other impala is never gonna help you, so why bother?
+[00:05:34] Sentiment: Thoughtful
+
+Narrator: But the thing about a lot of problems is that they're not a single prisoner's dilemma. Impalas see each other day after day and the same situation keeps happening over and over again.
+[00:05:48] Sentiment: Insightful
+
+Narrator: So that changes the problem because instead of playing the prisoner's dilemma just once, you're now playing it many, many times.
+[00:05:54] Sentiment: Insightful
+
+Narrator: And if I defect now, then my opponent will know that I'd defected and they can use that against me in the future.
+[00:06:02] Sentiment: Insightful
+
+Narrator: So what is the best strategy in this repeated game?
+[00:06:10] Sentiment: Thoughtful
+
+Narrator: That is what Robert Axelrod, a political scientist wanted to find out.
+[00:06:18] Sentiment: Informative
+
+Narrator: So in 1980 he decided to hold a computer tournament.
+[00:06:22] Sentiment: Informative
+
+Narrator: - He invited some of the world's leading game theorists for many different subjects to submit computer programs that would play each other.
+[00:06:26] Sentiment: Informative
+
+Narrator: - Axelrod called these programs strategies.
+[00:06:34] Sentiment: Informative
+
+- Narrator: The world's leading game theorists gathered for a tournament, submitting computer programs as strategies to play against each other. (Neutral)
+- Axelrod called these programs strategies, with each facing off against every other and against a copy of itself in matchups lasting 200 rounds. (Neutral)
+- Narrator: Axelrod used points instead of coins with the goal of winning as many points as possible over five repeated tournaments to ensure success was not a fluke. (Neutral)
+- Narrator: Axelrod provided examples of strategies like one that cooperates initially but defects after two consecutive defections from its opponent. (Neutral)
+- Narrator: Strategies like Friedman, Joss, and Graaskamp had unique approaches to playing the game. (Neutral)
+
+[00:08:00] (Narrator) Graaskamp defects in the 50th round to probe the opponent's strategy, showing a strategic move.
+
+[00:08:05] (Narrator) The most elaborate strategy was Name Withheld with 77 lines of code, demonstrating complexity in gameplay.
+
+[00:08:21] (Narrator) The simplest program, Tit for Tat, surprisingly won the game, showcasing the power of a straightforward approach.
+
+[00:08:28] (Derek) Tit for Tat cooperates initially and mirrors the opponent's last move, highlighting a reactive strategy.
+
+[00:08:50] (Narrator) Tit for Tat's perfect cooperation with Friedman contrasts with its back-and-forth defections against Joss, illustrating different outcomes based on opponent behavior.
+
+[00:09:05] (Speaker) The alternating defections between the programs reflect current political dynamics, drawing parallels to real-world conflicts.
+
+[00:09:31] (Narrator) Mutual retaliations lead to a shift in gameplay dynamics, mirroring the consequences of retaliatory actions in politics and international relations.
+
+[00:09:25] Speaker 1: "And that's also like some of the things that we're seeing in politics today and in international relations." (Neutral sentiment)
+
+[00:09:31] Speaker 2: "As a result of these mutual retaliations, both Tit for Tat and Joss did poorly. But because Tit for Tat managed to cooperate with enough other strategies, it still won the tournament." (Neutral sentiment)
+
+[00:09:43] Speaker 3: "As we are being joined..." (Neutral sentiment)
+
+[00:09:46] Speaker 4: "Hey my God, there's Professor Axelrod." (Positive sentiment)
+
+[00:09:50] Speaker 5: "Whoa, what a treat this is." (Positive sentiment)
+
+[00:09:55] Speaker 6: "I imagine initially it'd be sort of like computer chess where you need a pretty complicated program to play a sophisticated game. But in fact it was not like that at all. It was the simplest strategy that did the best." (Neutral sentiment)
+
+[00:10:08] Speaker 7: "Axelrod found that all the best performing strategies, including Tit for Tat, shared four qualities." (Neutral sentiment)
+
+[00:10:15] Speaker 7: "First, they were all nice, which just means they are not the first to defect. So Tit for Tat is a nice strategy, it can defect but only in retaliation." (Neutral sentiment)
+
+[00:10:25] Speaker 7: "The opposite of nice is nasty. That's a strategy that defects first. So Joss is nasty." (Neutral sentiment)
+
+[00:10:37] Speaker 7: "The top eight strategies were all nice and even the worst performing nice strategy still far outscored the best performing nasty one." (Neutral sentiment)
+
+[00:10:46] Speaker 7: "The second important quality was being forgiving. A forgiving strategy is one that can retaliate but it doesn't hold a grudge. So Tit for Tat is a forgiving strategy." (Neutral sentiment)
+
+Speaker: 
+[00:10:57] It retaliates when its opponent defects but it doesn't let affections from before the last round influence its current decisions. (Neutral)
+[00:11:01] Friedman, on the other hand, is maximally unforgiving. (Negative)
+[00:11:08] After the first defection just from the opponent, it would defect for the rest of the game. (Negative)
+[00:11:14] Okay, that's it. No mercy and that might feel good to do but it doesn't end up working out well in the long run. (Negative)
+[00:11:23] This conclusion that it pays to be nice and forgiving came as a shock to the experts. (Surprise)
+[00:11:30] Many had tried to be tricky and create subtle nasty strategies to beat their opponent and eke out an advantage, but they all failed. (Negative)
+[00:11:38] Instead, in this tournament, nice guys finished first. (Positive)
+[00:11:41] Tit for Tat is quite forgiving, but it's possible to be even more forgiving. (Neutral)
+[00:11:51] Axelrod's sample strategy only defects after its opponent defected twice in a row. It was Tit for Two Tats. (Neutral)
+[00:11:56] Axelrod found that if anyone had submitted the Sample strategy, they would've won the tournament. (Positive)
+[00:12:05] There are so many layers to this story, it's so clever. (Positive)
+[00:12:15] After Axelrod published his analysis of what happened or circulated it among these game theorists, he said, now that we all know what worked well, let's try again. (Neutral)
+[00:12:22] So he announced a second tournament where everything would be the same except for one change: the number of rounds per game. (Neutral)
+[00:12:29] In the first tournament, each game lasted precisely 200 rounds. (Neutral)
+[00:12:36] If you know when the last round is, then there's no reason to cooperate in that round. (Negative)
+
+[00:12:29] Speaker: Narrator
+Sentiment: Neutral
+Each game lasted precisely 200 rounds.
+
+[00:12:32] Speaker: Narrator
+Sentiment: Neutral
+And that is important because if you know when the last round is,
+
+[00:12:34] Speaker: Narrator
+Sentiment: Neutral
+then there's no reason to cooperate in that round.
+
+[00:12:36] Speaker: Narrator
+Sentiment: Neutral
+So you're better off defecting.
+
+[00:12:39] Speaker: Narrator
+Sentiment: Neutral
+Of course your opponent should reason the same
+
+[00:12:41] Speaker: Narrator
+Sentiment: Neutral
+and so they should also defect in the last round.
+
+[00:12:46] Speaker: Narrator
+Sentiment: Neutral
+But if you both anticipate defection in the last round,
+
+[00:12:49] Speaker: Narrator
+Sentiment: Neutral
+then there's no reason for you to cooperate in the second to last round or the round before that, or before that
+
+[00:12:57] Speaker: Narrator
+Sentiment: Neutral
+And so in Axelrod's tournament,
+
+[00:13:00] Speaker: Narrator
+Sentiment: Neutral
+it was a very important thing that the players didn't know exactly how long they were gonna be playing.
+
+[00:13:04] Speaker: Narrator
+Sentiment: Neutral
+They knew on average it would be 200 rounds, but there was a random number generator that prevented them from knowing with certainty.
+
+[00:13:13] Speaker: Narrator
+Sentiment: Neutral
+- Yeah, if you're not sure when it ends, then you have to kind of keep cooperating 'cause it might keep going and you might need them on your side.
+- That's right.
+
+[00:13:21] Speaker: Narrator
+Sentiment: Neutral
+- For this second tournament, Axelrod received 62 entries
+
+[00:13:29] Speaker: Narrator
+Sentiment: Neutral
+and again, added random.
+
+[00:13:33] Speaker: Narrator
+Sentiment: Neutral
+This created two camps.
+
+[00:13:35] Speaker: Narrator
+Sentiment: Neutral
+Some thought that clearly being nice and forgiving were winning qualities.
+
+[00:13:42] Speaker: Narrator
+Sentiment: Neutral
+So they submitted nice and forgiving strategies.
+
+[00:13:48] Speaker: Narrator
+Sentiment: Neutral
+The second camp anticipated that others would be nice and extra forgiving
+
+[00:13:52] Speaker: Narrator
+Sentiment: Neutral
+and therefore they submitted nasty strategies to try to take advantage of those that were extra forgiving.
+
+[00:13:56] Speaker: Narrator
+Sentiment: Neutral
+One such strategy was called Tester.
+
+[00:13:50] Speaker: The speaker discusses how some strategies were submitted to take advantage of forgiving opponents. (Neutral)
+[00:13:52] Speaker: Tester was a strategy that would defect initially to test the opponent's reaction. (Neutral)
+[00:14:00] Speaker: If the opponent retaliated, Tester would switch to Tit for Tat, but if not, it would defect every other move. (Neutral)
+[00:14:16] Speaker: Tit for Tat was found to be the most effective strategy once again. (Positive)
+[00:14:21] Speaker: Nice strategies performed better overall in the top 15. (Positive)
+[00:14:27] Speaker: Nasty strategies dominated the bottom 15. (Negative)
+[00:14:36] Speaker: Axelrod identified retaliatory behavior as another key quality for successful strategies. (Neutral)
+[00:14:43] Speaker: Requiring immediate retaliation against defection to avoid being taken advantage of. (Neutral)
+[00:14:57] Speaker: The importance of clarity in strategies was highlighted by Axelrod. (Neutral)
+[00:15:09] Speaker: Programs that were too opaque or random made it difficult to establish trust. (Neutral)
+[00:15:27] Speaker: The complexity of game theory strategies and their impact is mind-blowing. (Positive)
+
+00:15:21 - Speaker: Narrator
+Statement: Defaulting to thinking every turn is like the last time I'm gonna see you. (Neutral)
+
+00:15:24 - Speaker: Narrator
+Statement: So I might as well defect. (Neutral)
+
+00:15:27 - Speaker: Narrator
+Statement: Mind-blowing realization about the principles of being nice, forgiving, provokable, and clear resembling the morality of "an eye for an eye." (Positive)
+
+00:15:40 - Speaker: Narrator
+Statement: Comparing the principles to the morality that has evolved around the world. (Positive)
+
+00:15:57 - Speaker: Narrator
+Statement: Noting that Tit for Two Tats won the first tournament but ranked 24th in the second, showing that there is no single best strategy in the repeated prisoner's dilemma. (Neutral)
+
+00:16:15 - Speaker: Narrator
+Statement: Highlighting that the best-performing strategy depends on the other strategies it interacts with in the repeated prisoner's dilemma. (Neutral)
+
+00:16:24 - Speaker: Narrator
+Statement: Tit for Tat performs poorly when faced with always defecting strategies. (Negative)
+
+00:16:51 - Speaker: Narrator
+Statement: Successful strategies in a simulation see their numbers grow while unsuccessful ones go extinct, showcasing the dynamics of strategy evolution. (Positive)
+
+[00:16:54] Speaker: Narrator
+Sentiment: Neutral
+Strategy in the top 15,
+[00:16:56] Speaker: Narrator
+Sentiment: Neutral
+first grew quickly,
+[00:16:59] Speaker: Narrator
+Sentiment: Neutral
+but then as the strategies it was preying on went extinct,
+[00:17:03] Speaker: Narrator
+Sentiment: Neutral
+Harrington's numbers also quickly dropped.
+[00:17:06] Speaker: Narrator
+Sentiment: Neutral
+This shows a main benefit of this simulation because it tests how well a strategy does with other successful strategies.
+[00:17:09] Speaker: Narrator
+Sentiment: Positive
+After a thousand generations, the proportions are mostly stable and only nice strategies survive.
+[00:17:13] Speaker: Narrator
+Sentiment: Positive
+Again, Tit for Tat comes out on top, representing 14.5% of the total population.
+[00:17:18] Speaker: Narrator
+Sentiment: Positive
+Now this process may sound similar to evolution, but there is a subtle difference, which is that in this case there are no mutations.
+[00:17:29] Speaker: Narrator
+Sentiment: Neutral
+So it's actually an ecological simulation.
+[00:17:32] Speaker: Narrator
+Sentiment: Neutral
+But what if the world you started in was different?
+[00:17:39] Speaker: Narrator
+Sentiment: Neutral
+Imagine a world that is a really nasty place to live, more or less populated with players that always defect, except there's a little cluster of tit-for-tat players that live in some kind of nucleus and they get to play with each other a lot because they're geographically sequestered.
+[00:17:48] Speaker: Narrator
+Sentiment: Neutral
+They will start building up a lot of points, and also because that translates into offspring, they'll start to take over the population.
+[00:17:59] Speaker: Narrator
+Sentiment: Positive
+So in fact, Axelrod showed that a little island of cooperation can emerge and spread and eventually will take over the world, which is fantastic.
+[00:18:11] Speaker: Narrator
+Sentiment: Positive
+How can cooperation emerge in a population of players who are self-interested? Who are not trying to be good because they're good-hearted.
+[00:18:19] Speaker: Narrator
+Sentiment: Neutral
+You don't have to be altruistic. You could be looking out for number one for yourself and your own interests. And yet cooperation can still emerge.
+[00:18:31] Speaker: Narrator
+Sentiment: Positive
+(bright music)
+
+Speaker: Narrator
+
+Sentiment: Informative
+
+Narrator: For number one for yourself and your own interests. And yet cooperation can still emerge. Some argue that this could explain how we went from a world full of completely selfish organisms where every organism only cared about themselves to one where cooperation emerged and flourished. From impalas grooming each other to fish cleaning sharks. Many life forms experience conflicts similar to the prisoner's dilemma, but because they don't interact just once, both can be better off by cooperating. And this doesn't require trust or conscious thought either because the strategy could be encoded in DNA, as long as it performs better than the other strategies, it can take over a population. Axelrod's insights were applied to areas like evolutionary biology and international conflicts, but there was one aspect that his original tournaments didn't cover. What happens if there is a little bit of random error in the game? Some noise in the system. For example, one player tries to cooperate, but it comes across as a defection. Little errors like this happen in the real world all the time. Like in 1983, the Soviet satellite-based early warning system detected the launch of an intercontinental ballistic missile from the US but the US hadn't launched anything. The Soviet system had confused sunlight reflecting off high altitude clouds with a ballistic missile. Thankfully, Stanislav Petrov, the Soviet officer on duty, dismissed the alarm. But this example shows the potential costs of a signal error and the importance of...
+
+Speaker 1: [00:20:09] The Soviet officer on duty dismissed the alarm.
+Speaker 1: [00:20:12] But this example shows the potential costs of a signal error and the importance of studying the effects of noise on those strategies. (Neutral)
+Speaker 2: [00:20:20] The word game sounds like it's a children's game or, you know, there's something, a misnomer maybe in calling it game theory because this is, these are life and death matters obviously. (Neutral)
+Speaker 2: [00:20:31] And as you mentioned that this came up in the Cold War. I mean it could actually be life and death of the whole planet, we could annihilate human civilization. (Neutral)
+Speaker 2: [00:20:39] So these are not games in any kind of trivial sense, it's just the term that is used by mathematicians and theorists. (Neutral)
+Speaker 1: [00:20:47] When Tit for Tat plays against itself in a noisy environment, both start off by cooperating, but if a single cooperation is perceived as a defection, then the other Tit for Tat retaliates and it sets off a chain of alternating retaliations. (Neutral)
+Speaker 1: [00:21:08] Therefore, in the long run, both would only get a third of the points they would get in a perfect environment. Tit for Tat goes from performing very well to performing poorly. (Neutral)
+Speaker 1: [00:21:19] So how do you solve this? Well, you need a reliable way to break out of these echo effects. (Neutral)
+Speaker 1: [00:21:25] And one way to do this is by playing Tit for Tat, but with around 10% more forgiveness. (Neutral)
+Speaker 1: [00:21:38] This helps you break out of those echoes while still being retaliatory enough. (Neutral)
+
+- Speaker 1: "After every defection, you only retaliate around nine out of every 10 times." (Neutral)
+- Speaker 1: "This helps you break out of those echoes while still being retaliatory enough to not be taken advantage of." (Positive)
+- Speaker 2: "And so we also ran the tournament with noise and generosity, and that did quite well." (Positive)
+- Speaker 2: "My favorite example is Tit for Tat does really well, but it could never do better than the player it's playing with." (Neutral)
+- Speaker 2: "I mean, think about it, by design, all they can do is lose or draw." (Neutral)
+- Speaker 2: "And yet when the results of all interactions are tallied up, they come out ahead of all other strategies." (Positive)
+- Speaker 2: "Similarly, always defect can never lose a game. It can only draw or win, but overall, it performs extremely poorly." (Negative)
+- Speaker 2: "This highlights a common misconception because for many people when they think about winning, they think they need to beat the other person." (Neutral)
+- Speaker 2: "In games like chess or poker, this is true since one person's gain is necessarily another person's loss, so these games are zero sum." (Neutral)
+- Speaker 2: "But most of life is not zero sum." (Neutral)
+- Speaker 2: "To win, you don't need to get your reward from the other player. Instead, you can get it from the banker." (Positive)
+- Speaker 2: "Only in real life, the banker is the world. It is literally everything around you. It is just up to us to find those win-win situations, and then work together to unlock those rewards." (Positive)
+- Speaker 2: "Cooperation pays even among rivals." (Positive)
+- Speaker 2: "From 1950 to 1986, the US and Soviet Union had trouble cooperating and both kept developing nukes. But then from the late '80s onwards, they started reducing their nuclear stockpiles. They too had learned how to resolve conflict." (Positive)
+
+[00:23:15] Speaker: Narrator
+Sentiment: Neutral
+Transcript: But then from the late '80s onwards, they started reducing their nuclear stockpiles.
+
+[00:23:17] Speaker: Narrator
+Sentiment: Neutral
+Transcript: They too had learned how to resolve conflict.
+
+[00:23:24] Speaker: Narrator
+Sentiment: Positive
+Transcript: Rather than making an agreement to abolish all nuclear arms at once and essentially turning it into a single prisoner's dilemma, they would disarm slowly, a small number of nukes each year.
+
+[00:24:16] Speaker: Narrator
+Sentiment: Positive
+Transcript: Axelrod's main takeaways still hold: be nice, forgiving, but don't be a pushover.
+
+[00:24:19] Speaker: Interviewer
+Sentiment: Curious
+Transcript: Can I ask you, why did Anatol Rapoport submit Tit for Tat?
+
+[00:24:23] Speaker: Axelrod
+Sentiment: Light-hearted
+Transcript: Well, the reason was because I asked him to. (both laugh)
+
+[00:24:49] Speaker: Axelrod
+Sentiment: Reflective
+Transcript: I think his own inclinations were to be much more forgiving and maybe not be so provokable.
+
+[00:24:52] Speaker: Interviewer
+Sentiment: Fascinated
+Transcript: What I find fascinating is that one of the main things that sets life apart from non-living things is that life gets to make decisions.
+
+This chunk continues in the next part.
+
+[00:24:54] Speaker: Narrator
+Sentiment: Neutral
+Transcript: that life gets to make decisions.
+
+[00:24:56] Speaker: Narrator
+Sentiment: Neutral
+Transcript: We get to make choices.
+
+[00:24:57] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Choices that don't only change our future,
+
+[00:25:00] Speaker: Narrator
+Sentiment: Neutral
+Transcript: but also the future of those we interact with.
+
+[00:25:02] Speaker: Narrator
+Sentiment: Neutral
+Transcript: You see, in the short term, it is often the environment
+
+[00:25:05] Speaker: Narrator
+Sentiment: Neutral
+Transcript: that shapes the player that determines who does well.
+
+[00:25:08] Speaker: Narrator
+Sentiment: Neutral
+Transcript: But in the long run, it is the players
+
+[00:25:11] Speaker: Narrator
+Sentiment: Neutral
+Transcript: that shape the environment.
+
+[00:25:14] Speaker: Narrator
+Sentiment: Neutral
+Transcript: So let's play a game, the game of life,
+
+[00:25:17] Speaker: Narrator
+Sentiment: Neutral
+Transcript: and make your choices wisely because their impact may reach further than you think.
+
+[00:25:27] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Using the right strategy matters,
+
+[00:25:30] Speaker: Narrator
+Sentiment: Neutral
+Transcript: but figuring out the best strategy isn't easy.
+
+[00:25:33] Speaker: Narrator
+Sentiment: Neutral
+Transcript: It requires critical thinking
+
+[00:25:34] Speaker: Narrator
+Sentiment: Neutral
+Transcript: and innovative solutions like Axelrod's tournaments.
+
+[00:25:37] Speaker: Narrator
+Sentiment: Neutral
+Transcript: If you are looking for an easy way
+
+[00:25:39] Speaker: Narrator
+Sentiment: Neutral
+Transcript: to build your problem-solving skills,
+
+[00:25:40] Speaker: Narrator
+Sentiment: Neutral
+Transcript: then check out this video's sponsor, Brilliant.
+
+[00:25:43] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Brilliant will help make you a better thinker
+
+[00:25:45] Speaker: Narrator
+Sentiment: Neutral
+Transcript: in everything from math and data science
+
+[00:25:48] Speaker: Narrator
+Sentiment: Neutral
+Transcript: to programming, technology, you name it.
+
+[00:25:51] Speaker: Narrator
+Sentiment: Neutral
+Transcript: You can start right now for free,
+
+[00:25:53] Speaker: Narrator
+Sentiment: Neutral
+Transcript: straight from your device, the device you're watching this on.
+
+[00:25:56] Speaker: Narrator
+Sentiment: Neutral
+Transcript: All you need to do is set your learning goal
+
+[00:25:58] Speaker: Narrator
+Sentiment: Neutral
+Transcript: and Brilliant will design the perfect path for you,
+
+[00:26:01] Speaker: Narrator
+Sentiment: Neutral
+Transcript: equipping you with all the tools you need to reach it.
+
+[00:26:04] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Did you like today's insights from game theory
+
+[00:26:06] Speaker: Narrator
+Sentiment: Neutral
+Transcript: then Brilliant's brand new course, Intro to Probability is the perfect next step.
+
+[00:26:08] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Introduction to Probability is your gateway
+
+[00:26:13] Speaker: Narrator
+Sentiment: Neutral
+Transcript: to mastering the tools of chance, risk, and prediction.
+
+[00:26:16] Speaker: Narrator
+Sentiment: Neutral
+Transcript: You'll learn how to construct
+
+[00:26:17] Speaker: Narrator
+Sentiment: Neutral
+Transcript: and analyze models of real-world situations
+
+[00:26:21] Speaker: Narrator
+Sentiment: Neutral
+Transcript: from electrons and business decisions all the way
+
+[00:26:23] Speaker: Narrator
+Sentiment: Neutral
+Transcript: to the 2023 Women's World Cup.
+
+[00:26:26] Speaker: Narrator
+Sentiment: Neutral
+Transcript: Whether you are a
+
+- Speaker: Narrator
+- Sentiment: Informative, promotional
+Narrator: "Real world situations from electrons and business decisions all the way to the 2023 Women's World Cup. Whether you are a budding statistician or you just want to learn about randomness and chance, this course will equip you with the skills you need to make decisions in uncertain situations. You'll even take a page out of Axelrod's Playbook and learn how to build computer simulations to put your strategies to the test. Beyond probability, Brilliant has a massive library of content covering everything from math to data science and programming to technology. What I love about Brilliant is that each lesson is hands-on, so you'll build real intuition and the best part is that you can learn with Brilliant on the go. To try everything Brilliant has to offer for free for a full 30 days visit brilliant.org/veritasium and the first 200 of you to sign up will get 20% off Brilliant's annual premium subscription. So I want to thank Brilliant for sponsoring this video and I want to thank you for watching."
+- Sentiment: Grateful, promotional
+Speaker: Narrator

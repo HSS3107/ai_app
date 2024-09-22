@@ -1,0 +1,381 @@
+Title: Why Quantum Computers Will Break Reality
+Channel: The Tesla Space
+Published: 2024-05-19T19:00:12Z
+Duration: PT14M22S
+
+Speaker 1: Welcome to the Tesla Space, where we share the latest news, rumors, and insights into all things Tesla, Space X, Elon Musk, and the future! We'll be showing you all of the new details around the Tesla Model 3 2023, Tesla Model Y 2023, along with the Tesla Cybertruck when it finally arrives, it's already ordered! (Excited)
+
+Speaker 1: Instagram: https://www.instagram.com/TheTeslaSpace
+Twitter: https://twitter.com/TheTeslaSpace
+
+Speaker 1: Business Email: sean@creatormill.com
+
+Next part continues the transcript.
+
+[00:00:00] Speaker: Quantum computers have the potential to be the most important, most dangerous, and most unpredictable invention of our lifetime. (Neutral)
+[00:00:14] Speaker: We hear this term come up every now and then, it sounds very futuristic and speculative, but quantum computers are very real. (Neutral)
+[00:00:28] Speaker: They are on the verge of becoming a big part of our daily lives. (Neutral)
+[00:00:30] Speaker: You don't need to be a physicist to understand the role that these Quantum machines could play in changing the world as we know it. (Neutral)
+[00:00:38] Speaker: I'm here to guide you into the quantum realm. (Neutral)
+
+[00:00:46] Speaker: Marvel's Ant-Man has some questionable physics at best, but one thing that Professor Pim does have right is that the smaller things get, the stranger the laws of physics that govern them will become. (Neutral)
+[00:01:00] Speaker: This is important to keep in mind as we go along. (Neutral)
+[00:01:02] Speaker: You've probably seen a quantum computer before. It looks pretty weird, more like some kind of a cross between a golden chandelier and a giant squid than anything we traditionally associate with a computer. (Neutral)
+[00:01:18] Speaker: This thing is also a computer, the first computer actually, as in the first ever. (Neutral)
+[00:01:31] Speaker: It was found at the bottom of the Mediterranean Sea and dates back to ancient Greece. (Neutral)
+[00:01:38] Speaker: It was used to predict the movements of the Sun, the Moon, and the Earth. (Neutral)
+[00:01:44] Speaker: This computer also looks pretty weird. (Neutral)
+
+[00:01:36] Speaker: The Earth could have forecasted a solar eclipse decades in advance, similar to how we can today. (Neutral)
+[00:01:44] Speaker: This computer also looks pretty weird, with shiny golden mechanisms that are just artistic recreations. (Neutral)
+[00:01:53] Speaker: Calculating machines have taken many forms over the centuries they've been used by humankind. (Neutral)
+[00:02:04] Speaker: The quantum computer is the next phase of evolution, but also different in many ways from modern computers. (Neutral)
+[00:02:14] Speaker: Modern computers are defined by bits, the smallest unit of data that a computer can process and store. (Neutral)
+[00:02:28] Speaker: Computers speak a binary language, with each bit existing in one of two states, like a switch. (Neutral)
+[00:02:47] Speaker: This is binary computing, where each bit is represented by either a one or a zero. (Neutral)
+[00:02:50] Speaker: The physical manifestation of a bit is a transistor, an electronic switch that can exist in on or off states. (Neutral)
+[00:03:05] Speaker: We've been constantly trying to make transistors smaller to process more bits of information at one time. (Neutral)
+
+Speaker: 
+[00:03:05] The speaker simplifies the concept of transistor size reduction to fit more transistors into devices over time.
+[00:03:30] The speaker explains the reduction of transistor size to 3 nanometers, comparing it to the width of a human DNA strand.
+[00:03:52] There is a prediction that transistors could reach a size of 1 nanometer by the end of the decade.
+[00:04:03] The speaker highlights the limitation of traditional transistors being binary in nature.
+[00:04:09] Quantum computers are introduced as utilizing Cubits for data measurement, which can represent both one and zero simultaneously.
+[00:04:25] Cubits are described as nonbinary, potentially holding more information than traditional bits by representing multiple states at once.
+[00:04:38] The physical manifestation of a Cubit involves manipulating the spin state of subatomic particles to create two distinct states.
+
+Speaker: The Tesla Space
+
+[00:04:38] Quantum computers achieve their power by manipulating the spin state of subatomic particles, such as protons or electrons. This causes them to spin in different directions, creating two distinct states of one and zero. (Neutral)
+
+[00:04:52] Quantum mechanics allows these subatomic particles to exist in multiple states simultaneously, potentially being in all directions at once. (Neutral)
+
+[00:05:10] When you put two bits together, each bit represents either a one or a zero, giving you two bits of information. (Neutral)
+
+[00:05:19] However, when you put two qubits together, you end up with the equivalent of four bits of information because each qubit can be both values at the same time. (Neutral)
+
+[00:05:48] Schrodinger's Cat is a famous thought experiment in quantum physics, illustrating the concept of superposition where things can exist in multiple states at once. (Neutral) 
+
+[00:06:00] In the thought experiment, a cat is placed in a box with a potentially lethal element, highlighting the strange and complex nature of quantum mechanics. (Neutral) 
+
+[00:06:09] The experiment challenges our understanding of reality and the limitations of our perception. (Neutral) 
+
+This chunk continues in the next part.
+
+Speaker 1: [00:06:03] In a thought experiment, no one put a cat in a box with poison, at least not that we know of.
+Sentiment: Neutral
+
+Speaker 1: [00:06:11] As long as there is no way for us on the outside to know what's happened inside the box, then we have no evidence to suggest that the cat is dead or alive.
+Sentiment: Neutral
+
+Speaker 1: [00:06:19] Maybe it drank the poison, maybe it didn't. My cat eats plastic but refuses to eat chicken. They're unpredictable creatures.
+Sentiment: Neutral
+
+Speaker 1: [00:06:25] As long as we have no observable method to predict the fate of the cat, then it may be considered simultaneously to be both dead and alive at the same time. This is referred to in quantum physics as a superposition.
+Sentiment: Neutral
+
+Speaker 1: [00:06:39] A state in which our qubits are able to reside, with two potential outcomes occurring simultaneously.
+Sentiment: Neutral
+
+Speaker 1: [00:06:47] The moment you open the box and check on the well-being of the cat, that superposition collapses back into a binary. The cat will either be dead or alive, and the same applies to qubits.
+Sentiment: Neutral
+
+Speaker 1: [00:07:09] This superposition is where the quantum computer gets its power, allowing it to explore a vast network of potential combinations before arriving at a final answer.
+Sentiment: Positive
+
+Speaker 1: [00:07:18] When you start adding up all of the potential values from the superpositions of multiple qubits working together, then you start to get some pretty staggering numbers.
+Sentiment: Positive
+
+Speaker 1: [00:07:29] Remember when we said that two qubits were able to store four possible values, making them equivalent to four standard bits? Well, combining just 20 qubits...
+Sentiment: Neutral
+
+This chunk continues in the next part.
+
+[00:07:29] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:31] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:34] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:36] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:39] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:41] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:44] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:46] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:49] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:53] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:07:55] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:00] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:03] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:05] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:07] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:09] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:12] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:14] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:16] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:19] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:21] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:23] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:26] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:28] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:31] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:32] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:34] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:37] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:39] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:42] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:44] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:46] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:49] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:52] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:55] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:08:58] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:09:00] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:09:03] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:09:05] Speaker: The Tesla Space
+Sentiment: Informative
+
+[00:09:07] Speaker: The Tesla Space
+Sentiment: Informative
+
+This chunk continues in the next part.
+
+Speaker 1: The world's most powerful freezer, oh and even with the necessary cooling system.
+
+Sentiment: Neutral
+
+Speaker 1: Existing quantum computers can only operate for around 1 second at a time before the cubits lose their superposition state.
+
+Sentiment: Neutral
+
+Speaker 1: The second problem is a bit more difficult to wrap your head around, but in simple terms, quantum computers are actually able to make mistakes and they do it fairly often.
+
+Sentiment: Concerned
+
+Speaker 1: This is a bit of a weird one because most of us are not really familiar with computers that make mistakes. Imagine if your calculator just occasionally gave you the wrong answer.
+
+Sentiment: Concerned
+
+Speaker 1: Existing quantum computers tend to have error rates that sit between 1 and 100 at worst and one in 1,000 at best.
+
+Sentiment: Concerned
+
+Speaker 1: It's been speculated that in order for a quantum computer to be truly practical, the error rate needs to be reduced to at least 1 in 1 million.
+
+Sentiment: Concerned
+
+Speaker 1: This comes down to the nature of cubits and their superpositions. Each cubit on its own is inherently unstable, and when you begin combining multiple cubits together, that instability will only multiply.
+
+Sentiment: Concerned
+
+Speaker 1: Essentially, meaning that the more capable your quantum computer is, the more likely it will be to make an error. With great power comes great instability.
+
+Sentiment: Concerned
+
+Speaker 1: But even with this factor of unpredictability taken into account, it is still more than possible for existing quantum computers to solve math problems in a matter of seconds that would take a conventional computer thousands of years to complete.
+
+Sentiment: Optimistic
+
+Speaker 1: This actually has the potential to become a really big problem, but is it one that you should be worried about? Most iPhone users probably missed.
+
+Sentiment: Neutral
+
+Continues in the next part.
+
+Speaker: (Unknown)
+
+Sentiment: Concerned
+
+[00:10:25] To complete this actually has the potential to become a really big problem. 
+[00:10:28] But is it one that you should be worried about? Most iPhone users probably missed this announcement, but in February 2024, Apple revealed that iMessage had been cryptographically upgraded with postquantum security, meaning that even a sophisticated quantum computer attack would not be able to brute force hack your iMessage account, which is good news. 
+[00:10:53] But it also demonstrates that Apple has enough concern about the potential quantum of hacking to take it seriously. 
+[00:11:00] And Apple is one of the leaders in this current move towards Quantum-safe encryption, which means that there are still plenty of online services that you probably use that have not taken the same measure. 
+[00:11:15] That includes emails, bank accounts, cloud storage, even cryptocurrency wallets like Bitcoin that are literally built on cryptography – it's in the name. 
+[00:11:25] These private keys can be brute force hacked by quantum computers. 
+[00:11:29] One of the biggest problems we have right now is that the arms race towards Quantum Supremacy is not being won by the United States. 
+[00:11:38] China has taken the early lead with the largest quantity of powerful and stable quantum computers in 2020. 
+[00:11:45] Then President Donald Trump announced that the US government would be spending $1 billion per year on Quantum Computing in America. 
+[00:11:53] By 2022, the Chinese Communist Party had committed $15 billion per year for their own Quantum development. 
+[00:12:02] So that is a bit scary, but is there anything that any of us normal people -
+
+Speaker: The Tesla Space
+
+[00:11:53] The party has committed $15 billion per year for their own Quantum development. (Neutral)
+
+[00:11:56] This is a bit scary, but is there anything that any of us normal people can really do about it? (Neutral)
+
+[00:12:02] Well, not really, but it's maybe worth keeping an eye on which services you use that are upgrading to postquantum encryption. (Neutral)
+
+[00:12:10] If it's something that you're concerned about, then maybe consider switching to services with higher levels of encryption. (Neutral)
+
+[00:12:23] This is the world we live in now. (Neutral)
+
+[00:12:25] I want to leave you with something fun to think about - the potential importance of quantum computers for doing good things. (Positive)
+
+[00:12:32] Things so immeasurably good that they will change the course of human history towards the science fiction Star Trek utopian future that has so far only been dreamed about. (Positive)
+
+[00:12:39] If there's one thing that our existing computer systems are really lacking, it would be an ability to understand nature and the physical world. (Neutral)
+
+[00:12:51] Traditionally, computers have been pretty bad at grasping very important concepts like biology and weather. (Neutral)
+
+[00:12:58] For example, we can't cure cancer because we still do not understand cancer. (Negative)
+
+[00:13:03] 20 years ago, scientists were able to map the human genome with help from supercomputers of the time. (Neutral)
+
+[00:13:09] It was an amazing accomplishment, but even with vastly more powerful machines available in the modern day, we are failing to make meaningful breakthroughs in medical science. (Negative)
+
+[00:13:20] One of the biggest problems here is that forces of nature like diseases and viruses also operate on the quantum level, just like the qubits. (Neutral)
+
+This chunk continues in the next part.
+
+[00:13:17] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:20] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:22] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:26] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:28] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:29] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:32] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:34] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:37] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:39] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:43] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:45] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:47] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:50] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:53] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:55] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:13:58] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:01] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:04] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:06] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:09] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:11] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:13] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:16] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:19] Speaker: The Tesla Space
+Sentiment: Neutral
+
+[00:14:21] Speaker: The Tesla Space
+Sentiment: Positive

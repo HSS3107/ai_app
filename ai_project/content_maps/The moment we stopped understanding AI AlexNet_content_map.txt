@@ -1,0 +1,39 @@
+1. Introduction and Overview
+   [00:00:00-00:01:24]
+   - Title: The moment we stopped understanding AI [AlexNet]
+   - Overview of the video and introduction to AlexNet and ChatGPT
+
+2. Understanding AlexNet
+   [00:01:29-00:03:08]
+   - Introduction to AlexNet and its significance in computer vision
+   - Explanation of how AlexNet maps inputs to outputs using compute blocks
+   - Description of the process of predicting labels for images in AlexNet
+
+3. Visualizing AlexNet
+   [00:03:22-00:06:50]
+   - Explanation of the first five layers of AlexNet and their similarity to Transformer blocks
+   - Visualization of the patterns learned by the first layer of AlexNet using convolutional blocks
+   - Understanding activation maps and their role in visualizing what the model has learned
+   - Discussion on the complexity of recognizing concepts in images
+
+4. Activation Atlases and Embedding Spaces
+   [00:07:20-00:12:04]
+   - Explanation of how deep neural networks organize the visual world through activation atlases
+   - Description of how activation maps can help understand the concepts learned by the model
+   - Introduction to embedding spaces and the correlation between distance and similarity in these spaces
+   - Mention of recent work on mapping activations to concepts in language
+
+5. The Impact of AlexNet and Scaling Up
+   [00:12:04-00:16:20]
+   - Discussion on the impact of AlexNet and its breakthrough in AI
+   - Explanation of the advancements in AI leading up to AlexNet and the scale of data and compute power
+   - Understanding the challenges in understanding and interpreting large language models like ChatGPT
+   - Speculation on the future of AI and the possibility of resurfacing forgotten approaches
+
+6. Conclusion and Final Thoughts
+   [00:16:20-00:17:29]
+   - Recap of the key points discussed in the video
+   - Addressing the use of the term "dumb" to describe compute blocks and highlighting the power of algorithms and training data
+   - Closing thoughts on the impressive nature of AI and the potential for future advancements
+
+Note: The timestamp ranges provided are approximate and may vary slightly.

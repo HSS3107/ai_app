@@ -1,0 +1,822 @@
+Title: Is it too late to become a software engineer?
+Channel: Stevo The Dev
+Published: 2024-05-10T17:00:18Z
+Duration: PT28M33S
+Description: Is it too late to become a software engineer? This is a question I see getting thrown around a lot now due to lack of jobs, AI etc.
+
+In this video, I go over some of reasons we are seeing the issues we are with the tech industry, and some potential solutions for those determined enough. 
+
+Like & subscribe for more doomer Stevo.
+
+This video makes reference to or summarises some other topics I've spoken about recently, see also:
+
+Should Junior Developers Contribute To Open Source?:
+https://youtu.be/PA4yuyYF2bM
+
+Will AI Replace Software Engineers?:
+https://youtu.be/B-x8buAiXpg
+
+How To Get A Tech Job In 2024:
+https://youtu.be/2Te-ln71Pxk
+
+Chapters:
+00:00 - Intro/current tech industry issues
+01:46 - Companies are "de-risking" (economic recession)
+04:03 - AI mentioned
+04:12 - Overhiring causing mass layoffs
+05:05 - This is why we aren't seeing a lot of entry level jobs
+06:10 - New hires are an unknown/risk factor
+07:00 - Affects of AI on jobs (not what you think)
+10:50 - Summary of industry problems
+11:37 - Solution: Don't tick all the boxes
+15:04 - Solution: Volunteer/build (& maybe sell) a project/open source (maybe)
+16:55 - Solution: Network/collaborate (most important)
+19:15 - A few different networking methods
+21:45 - How I got my first job
+25:45 - So, is it too late then?
+27:22 - Conclusion
+
+Transcript:
+
+[00:00:00] over the last couple of videos that I've
+[00:00:01] made I've noticed a bit of a trend um
+[00:00:04] people are not confident in the software
+[00:00:06] tech industry right now software
+[00:00:08] Engineers software developers or anyone
+[00:00:11] in Tech really um are are seeing a lot
+[00:00:13] of layoffs uh we're seeing AI come into
+[00:00:16] the fold as well and people trying to
+[00:00:18] get into the industry for the first time
+[00:00:19] are seeing all this from an outside
+[00:00:21] perspective and understandably are is
+[00:00:24] rocking their confidence a little bit
+[00:00:26] and um they're questioning if they're
+[00:00:28] going down the wrong path and wasting
+[00:00:30] their time effectively common Trend I'm
+[00:00:32] seeing a lot so I want to address that
+[00:00:34] in this video and sort of go over a few
+[00:00:36] of the things are that's going on in the
+[00:00:38] industry and talk about sort of what I
+[00:00:40] think of them what's happening my
+[00:00:42] opinion and sort of solutions to that
+[00:00:45] and if ultimately I think it's even
+[00:00:47] worth trying to get into this industry
+[00:00:49] in the first place uh if you don't have
+[00:00:50] any sort of uh background in it
+[00:00:52] whatsoever butth of course if you're new
+[00:00:53] to the channel hello I'm steo um I talk
+[00:00:57] about my journey into Tech and things
+[00:00:58] I've experienced things I've learned and
+[00:01:00] and try to give back to to you guys who
+[00:01:03] are trying to get in for the first time
+[00:01:05] and that's effectively what the
+[00:01:06] Channel's been about so far if you like
+[00:01:08] this sort of stuff and if you want to
+[00:01:09] see more from me then hit the like
+[00:01:11] button subscribe and uh yeah hopefully
+[00:01:14] you stick around and also thank you for
+[00:01:16] all the support on the recent videos as
+[00:01:17] well um it's been great I've seen a lot
+[00:01:19] of uh new people coming in especially to
+[00:01:22] the video where I talked about me being
+[00:01:23] laid off last year uh that in particular
+[00:01:26] has sort of gained a bit of traction and
+[00:01:28] people are really seem seeming to enjoy
+[00:01:30] that sort of stuff so uh thanks I guess
+[00:01:33] I have a job now by the way I've had a
+[00:01:34] few people ask me that but um I actually
+[00:01:36] had one before I even made the the video
+[00:01:39] um I wanted to make sure that was sort
+[00:01:41] of settled first but uh yeah um thank
+[00:01:43] you anyway for the support so it's uh
+[00:01:45] it's good to see so first of all uh
+[00:01:47] reasons that it's tough right now um is
+[00:01:49] well companies are drisking right now
+[00:01:52] obviously the econom is not in a good
+[00:01:53] place as many people are aware at this
+[00:01:55] point and job markets in general are
+[00:01:58] quite Grim at the moment uh a lot of
+[00:02:00] companies aren't really hiring anyone
+[00:02:02] and if they are hiring people they're
+[00:02:04] looking for experienced people in their
+[00:02:05] fields this isn't limited to Tech this
+[00:02:08] is across the board really but we're
+[00:02:10] seeing it in particular with tech um
+[00:02:12] especially as Tech is generally um
+[00:02:15] affected quite dramatically by the
+[00:02:17] economy Innovation pushes forward
+[00:02:19] whenever we're in a good economic place
+[00:02:21] and when we're not in a good economic
+[00:02:23] place that sort of innovation and uh
+[00:02:26] desire to push things forward sort of
+[00:02:28] gives real back a bit in place of more
+[00:02:31] safe Investments and and safe things
+[00:02:34] until we get the economy back on track
+[00:02:36] that's that's kind of how economic
+[00:02:38] Cycles go and the economy is a cycle as
+[00:02:41] well I might add as well we're not
+[00:02:43] always going to be in the exact same
+[00:02:44] situations as we're in just now
+[00:02:46] economies sort of rise and fall right
+[00:02:48] they they they go up and they go down
+[00:02:50] and Tech kind of largely follows that
+[00:02:52] just to a very volatile and dramatic
+[00:02:54] effect sometimes you know we've seen
+[00:02:56] things before like the dotom bubble and
+[00:02:58] the 2008 financial crash which have both
+[00:03:01] severely affected tech jobs and things
+[00:03:03] so it's it's not the most stable of
+[00:03:05] Industries you know people coming in
+[00:03:07] don't necessarily know that I do want
+[00:03:09] you to know that that over time it has
+[00:03:11] been proven that uh it's tends to
+[00:03:14] dramatically follow whatever the economy
+[00:03:15] does and it can often lead to you know
+[00:03:19] layoffs in the bad times and tons and
+[00:03:22] tons of jobs in the Good Times where
+[00:03:24] there's people are willing to pay
+[00:03:26] anything really for anyone to try and
+[00:03:29] you know build whatever they're trying
+[00:03:30] to build because they've got tons of
+[00:03:32] money to throw at it that's kind of what
+[00:03:34] happened in the last few years and now
+[00:03:36] we're seeing obviously these sort of
+[00:03:37] worst times where uh companies are
+[00:03:39] starting to uh sort of skimp and save a
+[00:03:42] little bit and and uh not invest so
+[00:03:44] heavily into to new products and new
+[00:03:46] Talent basically um and so that's
+[00:03:49] effectively what's happening you know
+[00:03:50] because of the economy because we're in
+[00:03:51] this sort of lower cycle now where um
+[00:03:54] people are starting to save their money
+[00:03:56] and not spend so much um we're now
+[00:03:59] seeing starting to drisk and not invest
+[00:04:01] in new talent and things like that a lot
+[00:04:03] of this can also kind of relate to AI in
+[00:04:06] a sense but I'll get into that in a
+[00:04:08] minute um it does affect it in a way but
+[00:04:10] not necessarily as dramatically as you
+[00:04:12] think a lot of what happened in say like
+[00:04:14] 2021 and things when uh companies were
+[00:04:16] starting to come out of you know the
+[00:04:18] whole the big cough era is uh they were
+[00:04:21] heavily investing in new talent and uh
+[00:04:24] over hiring essentially especially these
+[00:04:26] sort of web consultancy sort of type
+[00:04:28] companies uh um they would hire a lot of
+[00:04:31] people especially newer people um and
+[00:04:34] just throw money at them and train them
+[00:04:37] up and effectively just force their
+[00:04:41] business to to grow exponentially
+[00:04:42] because they had the money to do so um
+[00:04:45] at the time and now that we're seeing
+[00:04:47] these sort of uh economic hardships uh
+[00:04:50] you know these people are being laid off
+[00:04:52] now because um the money is not coming
+[00:04:55] in the clients aren't buying and they've
+[00:04:58] got all these people that they need to
+[00:04:59] tr
+[00:05:00] uh pay a wage to right um which doesn't
+[00:05:03] make any economic sense at the moment so
+[00:05:05] so that's why you're not seeing Junior
+[00:05:07] roles pop up or not as much there's
+[00:05:09] there's some popping up at least in the
+[00:05:10] UK market now um but in the last year or
+[00:05:13] so there's been Next To None um in
+[00:05:16] comparison to the last couple years
+[00:05:18] probably going to be that way for a bit
+[00:05:20] really until something economically
+[00:05:23] changes um but uh at this point in time
+[00:05:26] it's not really going to be the way that
+[00:05:27] people get into the industry just by
+[00:05:29] walking into an entry level job even
+[00:05:31] Junior jobs and they do come up now they
+[00:05:33] tend to require some amount of
+[00:05:35] experience right which kind of goes
+[00:05:38] against you know the the name an entry
+[00:05:40] level position right or a junior
+[00:05:42] position um but it's kind of the way it
+[00:05:45] is because as I said companies are
+[00:05:46] trying to Der risk uh and put safe
+[00:05:49] investments in in people um so they're
+[00:05:52] they're not they're not willing to take
+[00:05:54] that risk and hire someone who might not
+[00:05:56] be you know that good at the job or they
+[00:05:58] might not be able to deliver uh what
+[00:06:00] they're requiring for that position so
+[00:06:03] um you're you're getting a lot of senior
+[00:06:04] positions and things um but not so much
+[00:06:08] uh Juniors uh but yeah that's that's
+[00:06:10] kind of just the way it goes um it
+[00:06:12] doesn't necessarily mean it's impossible
+[00:06:14] at the moment but it is significantly
+[00:06:16] harder uh for someone without that
+[00:06:18] experience someone without that um that
+[00:06:21] knowledge and experience that they can
+[00:06:22] sort of present to employers and
+[00:06:24] companies and things to drisk themselves
+[00:06:27] effectively to make themselves look like
+[00:06:29] Investments um people just don't have
+[00:06:31] that they're a bit of an unknown when
+[00:06:32] they're new to the industry so um
+[00:06:34] companies just simply aren't willing to
+[00:06:36] take that risk and it's as simple as
+[00:06:37] that it's never anything personal um
+[00:06:41] very rarely anything to do with people's
+[00:06:42] backgrounds or anything like that as
+[00:06:44] such it's just that lack of experience
+[00:06:47] um makes people a bit of an unknown they
+[00:06:49] could be great at what they do they
+[00:06:50] could be really talented but companies
+[00:06:52] just a lot of companies anyway just
+[00:06:54] aren't willing to take that risk at the
+[00:06:55] moment and that's kind of where that
+[00:06:56] comes from so um yeah I also mentioned
+[00:07:01] AI has a bit to do with it as well so
+[00:07:04] I'll go into it it's not quite the way
+[00:07:05] you think um AI is not taking all the
+[00:07:07] jobs or like that and it's certainly not
+[00:07:10] anytime soon I'll actually go as far to
+[00:07:12] say AI is a bit of a hype product at the
+[00:07:14] moment to be honest um people are way
+[00:07:17] overhyping the capabilities of AI at
+[00:07:19] least currently um yes it's a useful
+[00:07:22] tool I use AI every day in my job it's
+[00:07:25] great helpful um for multiple things
+[00:07:28] where it's you know code autoc
+[00:07:30] completion or um you know if you need
+[00:07:33] just like a small sort of function or
+[00:07:36] algorithm or something that does a thing
+[00:07:39] uh it could be great for spitting that
+[00:07:40] out and the problem with that though is
+[00:07:43] you need to know exactly what you want
+[00:07:45] and yeah it's getting into the problem
+[00:07:48] of AI now of it can't do everything for
+[00:07:49] you right um it's a very good sort of
+[00:07:53] Helper and things like GitHub co-pilot
+[00:07:55] is in the name it's a co-pilot right
+[00:07:57] it's not there to take your job it's
+[00:07:58] there to assist doing your job um
+[00:08:01] they're they're very handy tools like I
+[00:08:02] said Auto completion and things like
+[00:08:04] that very handy tools but um they're
+[00:08:07] just not there yet in terms of um being
+[00:08:10] able to like completely uh replace that
+[00:08:13] process and they're not going to be for
+[00:08:15] a long time I made another video about
+[00:08:17] Ai and why I don't think it's capable of
+[00:08:21] replicating like a software engineer or
+[00:08:22] anyone who has to use sort of problem
+[00:08:25] solving skills or anything like that in
+[00:08:26] their their day-to-day um it's not the
+[00:08:29] best video I've ever done to be honest I
+[00:08:31] was actually quite ill when I made it
+[00:08:32] but anyway um it's uh it's the point
+[00:08:36] still stands um so go watch it by any
+[00:08:39] means I'll I'll link it below in the
+[00:08:40] description if you want to go have a
+[00:08:42] look but um yeah in that video I sort of
+[00:08:44] talk about my feelings towards Ai and it
+[00:08:47] um its abilities and things I'm not
+[00:08:48] saying it might not be capable of doing
+[00:08:51] more impressive stuff in the future um
+[00:08:54] it certainly will as it as it advances
+[00:08:56] but it's still very early days and uh
+[00:08:59] it's it's a bit hyped up to be honest so
+[00:09:01] that leads into how it affects the the
+[00:09:03] job market a lot of uh companies that
+[00:09:05] we're seeing pop up just now are AI
+[00:09:08] companies right um they are uh they are
+[00:09:11] built solely on the idea of building a
+[00:09:13] product with AI or with AI Assistance or
+[00:09:15] something like that and or machine
+[00:09:17] learning Assistance or or whatever and
+[00:09:19] um a lot of these companies are getting
+[00:09:22] heavy investment in things like that
+[00:09:23] because of of the AI part right they've
+[00:09:26] got AI in the title they AI in the
+[00:09:28] description um is very much hype around
+[00:09:31] AI um there's a lot of Industry
+[00:09:32] investment in AI right now so any sort
+[00:09:35] of uh growth you're seeing in the
+[00:09:37] industry right now is purely related to
+[00:09:39] Ai and a lot of people might take that
+[00:09:41] the wrong way they might see that that's
+[00:09:43] potentially a a sign of the end days for
+[00:09:46] software Engineers or whatever right um
+[00:09:48] and that's kind of what we're piling our
+[00:09:50] money into and things like that it's not
+[00:09:52] quite the case um as I said it's not
+[00:09:55] nearly as as capable as you might think
+[00:09:58] in terms of that um it's definitely uh
+[00:10:01] going to open up a lot of doors for for
+[00:10:03] new products and things um but we need
+[00:10:05] software Engineers to build those
+[00:10:07] products at the end of the day the AI
+[00:10:08] will just assist them in doing so and in
+[00:10:10] building a product that does more
+[00:10:12] impressive stuff you still need software
+[00:10:13] Engineers you still need testers and QA
+[00:10:16] and things like that you still need
+[00:10:18] product uh product owners and um
+[00:10:20] stakeholders and and whatever you still
+[00:10:22] need a whole business to to carry to see
+[00:10:24] that through and carry it to a market
+[00:10:26] and and to sell that to Consumers who
+[00:10:29] would actually use the product and and
+[00:10:30] things like that and feedback and uh
+[00:10:33] explain what they like and don't like
+[00:10:34] about the product and then software
+[00:10:35] Engineers can then take those
+[00:10:36] requirements and and build on that you
+[00:10:38] know it's that whole process still is
+[00:10:40] very much applicable and will always be
+[00:10:43] applicable for the foreseeable really um
+[00:10:46] AI is just there really to assist in
+[00:10:49] that process so spoken a bit about some
+[00:10:50] of the problems we're seeing in the
+[00:10:51] industry and stuff just now and um you
+[00:10:53] know why people are struggling to get
+[00:10:55] jobs and things it largely comes down to
+[00:10:57] companies der risking um and and
+[00:11:00] obviously AI being a bit of a hype
+[00:11:01] prodct just now um people are starting
+[00:11:03] to um even companies even are starting
+[00:11:06] to not necessarily uh invest in you know
+[00:11:10] Junior talent and juniors themselves are
+[00:11:12] starting to maybe uh think you know
+[00:11:14] maybe this isn't quite what I should be
+[00:11:16] doing now I've missed the boat a little
+[00:11:18] bit but at the same time regardless of
+[00:11:20] that there's still an oversaturation of
+[00:11:23] juniors in the market um in comparison
+[00:11:25] to actual job positions that are
+[00:11:27] advertised and available um so you know
+[00:11:31] because of that you know people are
+[00:11:33] still struggling to to find roles to
+[00:11:35] find the job so some solutions because I
+[00:11:38] do have some so solution number one um
+[00:11:41] don't you know try and take everyone's
+[00:11:44] boxes right so what I mean what I mean
+[00:11:46] by that um you see these uh job
+[00:11:49] requirements for for jobs now now
+[00:11:51] especially um they're just filled with
+[00:11:53] stuff that they want um and you
+[00:11:55] sometimes see this stuff referred to as
+[00:11:57] a wish list right it's kind the true
+[00:12:00] right especially in this sort of
+[00:12:01] oversaturated Market you know there will
+[00:12:03] be a ton of competition and um you want
+[00:12:07] to try and fulfill as many of those
+[00:12:08] requirements as possible to get a good
+[00:12:10] chance at it but it's not necessarily
+[00:12:12] the case where you have to know
+[00:12:14] everything on the list um what they're
+[00:12:17] looking for at the end of the day is a
+[00:12:18] good fit you know someone with the
+[00:12:20] experience that they want but also
+[00:12:22] someone who clearly knows the stuff that
+[00:12:25] they know um and and can demonstrate
+[00:12:29] that and can demonstrate good problem
+[00:12:30] solving skills and things like that and
+[00:12:32] be able to work with people and stuff
+[00:12:34] and so what I will say is rather than
+[00:12:35] trying to learn everything that you see
+[00:12:37] on these sort of requirement lists for
+[00:12:39] for job listings and stuff um don't do
+[00:12:43] that right so what you want to do is
+[00:12:45] basically specialize um obviously learn
+[00:12:48] the fundamentals there's a few like
+[00:12:50] things you just need to know right so
+[00:12:52] like if you're learning say JavaScript
+[00:12:54] for example you need to know how to
+[00:12:56] write JavaScript HTML CSS you need to
+[00:12:58] know like a framework and you know how
+[00:13:01] to deploy websites and stuff like that
+[00:13:03] you know you need to know all the sort
+[00:13:04] of Basics obviously but beyond that I
+[00:13:08] would say try and specialize in
+[00:13:10] particular Technologies or particular
+[00:13:12] types of uh Industries and things that
+[00:13:15] you are interested in so um you know if
+[00:13:18] you want to focus on webd and do that
+[00:13:20] and then focus on a particular uh
+[00:13:22] language or framework and build specific
+[00:13:24] types of projects have like a a theme
+[00:13:27] have an interest right have something
+[00:13:29] that kind of makes you you um rather
+[00:13:32] than just ticking a bunch of boxes you
+[00:13:34] want to specialize and become an
+[00:13:37] ultimately become an expert at something
+[00:13:38] whether that's front end or backend
+[00:13:40] related or whatever it doesn't really
+[00:13:42] matter um it's not a case of there's
+[00:13:44] more jobs doing any particular thing um
+[00:13:47] Al there is more jobs doing some
+[00:13:49] particular things but the point being
+[00:13:52] you want to work towards the thing that
+[00:13:54] you ultimately want to do um because
+[00:13:57] believe you me it's very difficult to
+[00:14:00] change later I've uh I've experienced
+[00:14:03] this a little bit once you start to go
+[00:14:04] down a certain path once you start to
+[00:14:06] specialize in particular Technologies
+[00:14:08] you kind of end up getting stuck there
+[00:14:10] so what I would recommend is you pick
+[00:14:13] the stuff you're passionate about uh
+[00:14:15] first of all and just learn that and be
+[00:14:19] really good at it because that makes you
+[00:14:21] stand out more if you specialize and
+[00:14:23] something you stand out from the crowd
+[00:14:25] for that particular thing um if you're a
+[00:14:27] jack of all trades uh if you take all
+[00:14:30] the boxes and can do everything sort of
+[00:14:33] moderately well then yeah so can
+[00:14:35] everyone else right so that's uh that's
+[00:14:39] kind of all that comes down to just um
+[00:14:41] you know get really good at the things
+[00:14:43] you want to get good at that's sort of
+[00:14:45] number one there sounds a bit obvious
+[00:14:47] when I say that but you you'd be
+[00:14:49] surprised by the amount of people who
+[00:14:50] just try to tick all the boxes and learn
+[00:14:54] all the things in these requirements
+[00:14:56] lists to a moderate sort of level a
+[00:14:59] moderate ability um it's not really
+[00:15:02] helping them and they're kind of just
+[00:15:03] wasting a bunch of time doing that
+[00:15:04] leading into uh the whole getting a job
+[00:15:06] thing I did mention that getting an
+[00:15:08] entry level job or just walking into an
+[00:15:09] entry level job is not really the way
+[00:15:11] you're going to do things now as I said
+[00:15:13] I did mention I do have another video
+[00:15:15] going more into detail about this but uh
+[00:15:18] you probably get your first job doing
+[00:15:20] other sort of things potentially even
+[00:15:22] unpaid things sort of hobby things in
+[00:15:24] your spare time to begin with building
+[00:15:26] your own projects and products and stuff
+[00:15:28] you could even potentially sell um as a
+[00:15:30] business and things that's a good way to
+[00:15:32] get experience under your belt a lot of
+[00:15:33] people just end up going down that road
+[00:15:35] uh and not bothering with working for
+[00:15:37] companies uh collaborating with other
+[00:15:39] people as well I'm going to get a bit
+[00:15:40] more into that because that's very
+[00:15:42] important uh and also you know working
+[00:15:44] in open source projects and stuff as
+[00:15:45] well but what I will say again another
+[00:15:47] video about that which I'll link is with
+[00:15:50] open source you don't go into that just
+[00:15:52] for the sole purpose of getting a job
+[00:15:54] you go into that working on stuff you're
+[00:15:57] in particular passionate about and
+[00:15:59] products that you are excited about um
+[00:16:01] and that's more for getting experience
+[00:16:03] with particular Technologies I would say
+[00:16:05] than anything um it's definitely not for
+[00:16:07] the sole purpose of getting a job but it
+[00:16:09] does help towards that if you have never
+[00:16:11] had one before that and then even some
+[00:16:13] freelancing as well if you get some uh
+[00:16:16] uh sort of experience on your your belt
+[00:16:17] with say more front- end Technologies so
+[00:16:19] you like U making websites and things um
+[00:16:22] uh you know there's tons of things like
+[00:16:24] WordPress for example um used for like
+[00:16:27] you know brochure websites and stuff and
+[00:16:29] people advertising their businesses
+[00:16:30] those kind of people are always looking
+[00:16:32] for people to set that stuff up for them
+[00:16:34] uh freelancing can be a great way to do
+[00:16:35] that it's quite easy to to learn that
+[00:16:37] stuff and um the hard part there
+[00:16:40] actually is just building the client
+[00:16:41] base up and building trust in and people
+[00:16:44] to to come to you for that right um so
+[00:16:46] what you want to do with that is build a
+[00:16:48] sort of portfolio of work uh that you
+[00:16:50] can sell to people and ultimately
+[00:16:52] ultimately that's a business kind of
+[00:16:53] thing as well and that's kind of a short
+[00:16:55] summary of some things you can do but I
+[00:16:57] did mention one of the most important
+[00:16:59] things is collaborating with people uh
+[00:17:01] and if you don't necessarily want to go
+[00:17:03] down the business route um or open
+[00:17:06] source or anything like that um just
+[00:17:09] collaborating with people and networking
+[00:17:11] is the most important thing you can do
+[00:17:13] so if you just want to build some fun
+[00:17:15] projects on the side for fun do it with
+[00:17:17] someone else um you don't necessarily
+[00:17:19] need to do it yourself what a lot of
+[00:17:20] these companies like to see is people
+[00:17:22] having worked in teams people not only
+[00:17:25] having worked in teams and can
+[00:17:27] demonstrate sort of experience with
+[00:17:29] working with people but also people that
+[00:17:31] can demonstrate uh their sort of uh
+[00:17:35] project um working on projects sort of
+[00:17:37] experience and uh experience of agel
+[00:17:39] methodologies and things and be able to
+[00:17:41] sort of uh track their progress um using
+[00:17:45] things like you know uh can band boards
+[00:17:47] and uh you know estimating their work
+[00:17:50] velocity and stuff like that Sprint burn
+[00:17:52] down all that kind of stuff it's all
+[00:17:54] stuff you need to know about in a
+[00:17:55] company um working you know in sprints
+[00:17:58] and an sort of agile environment these
+[00:18:00] are all Concepts that get thrown around
+[00:18:02] on a day-to-day basis and you know it's
+[00:18:04] not all just about knowing to code right
+[00:18:06] so um start collaborating with people
+[00:18:09] and start sort of employing these sort
+[00:18:11] of agile uh principles and and getting
+[00:18:14] sort of familiar with them right um
+[00:18:15] because you can then demonstrate that in
+[00:18:18] the likes of an interview um you know
+[00:18:21] I've I've been asked in the past
+[00:18:22] questions about you know agile and stuff
+[00:18:25] as a junior especially um you're not
+[00:18:28] expected to know a ton of technical
+[00:18:30] things um and so what a lot of companies
+[00:18:32] will do is they'll gravitate more
+[00:18:34] towards your sort of experience with
+[00:18:37] working with people working in teams and
+[00:18:38] projects and they'll ask you about you
+[00:18:41] know things that you know about agile
+[00:18:42] and stuff and they'll ask you know you
+[00:18:44] know what's you know what's velocity all
+[00:18:46] about you know how do you track velocity
+[00:18:48] um you know can you explain what a
+[00:18:50] Sprint burndown chart is can you explain
+[00:18:52] how can band boards work stuff like that
+[00:18:54] like you may get asked that stuff
+[00:18:56] because it's very important knowledge
+[00:18:57] it's useful to know sort of best
+[00:18:59] practice around that and how to how to
+[00:19:02] navigate that sort of uh way of working
+[00:19:04] because it's very common and uh it's not
+[00:19:07] going anywhere anytime soon um a lot of
+[00:19:09] companies work that way now um so they
+[00:19:11] expect people to know how to work that
+[00:19:13] way um but you gain a lot of that
+[00:19:14] through collaborating with other people
+[00:19:16] um which you don't necessarily need to
+[00:19:18] be employed somewhere to do um so
+[00:19:21] Network right so um couple of different
+[00:19:24] ways you can do that uh you can
+[00:19:27] obviously through Linkedin you can can
+[00:19:29] just sort of connect with people and
+[00:19:31] people are doing similar stuff or if you
+[00:19:33] have been to like a boot camp or a
+[00:19:34] similar style course you can obviously
+[00:19:36] connect with people that you've met
+[00:19:38] through that and you can continue to
+[00:19:39] collaborate outside of that um but you'd
+[00:19:42] ultimately do that through Linkedin and
+[00:19:44] you can use the tools on LinkedIn to
+[00:19:45] sort of help each other out as well you
+[00:19:47] can sort of uh recommend each other
+[00:19:49] endorse each other and things it's a bit
+[00:19:51] of a social media platform as well I
+[00:19:53] guess in a sense so you can use that to
+[00:19:55] uh you know post your projects and sort
+[00:19:57] of promote them and talk about things
+[00:19:59] that you've been learning and stuff uh
+[00:20:01] and talk back and forward to these
+[00:20:02] people um you know recruiters see all
+[00:20:05] this stuff right they're on there
+[00:20:06] looking for talent all the time so um
+[00:20:09] you know utilize the platform right use
+[00:20:11] use LinkedIn it's a very useful tool um
+[00:20:15] but you know life isn't perpetually
+[00:20:17] online right it's not all about LinkedIn
+[00:20:19] you can do inperson events and stuff as
+[00:20:21] well meetups and things uh wherever
+[00:20:24] you're from I imagine there's some kind
+[00:20:26] of local sort of scene um of you know
+[00:20:29] people trying to get into Tech or just
+[00:20:32] the tech industry in general people of
+[00:20:34] all experience levels quite often like
+[00:20:37] to go to these sort of meetups to talk
+[00:20:38] about you know programming languages and
+[00:20:40] and best practices and um various
+[00:20:43] stories about the industries and and
+[00:20:45] things like that there's there's always
+[00:20:46] tons of stuff like that going on and
+[00:20:47] just general networking events and
+[00:20:49] meeting people and uh talking to people
+[00:20:51] and you might find that you run into a
+[00:20:53] few people that you know end up down the
+[00:20:56] line help you get a job or um you help
+[00:20:59] them get a job or you work together on a
+[00:21:01] project or something um you never know
+[00:21:04] right it's you know not networking is
+[00:21:07] far worse than networking because it
+[00:21:09] although nothing might necessarily come
+[00:21:11] from talking to one particular person
+[00:21:13] it's increasing your chances by exposing
+[00:21:15] yourself to other people either in the
+[00:21:17] industry or trying to get into the
+[00:21:19] industry uh making yourself known to
+[00:21:21] these people is the the best thing you
+[00:21:23] can do really you want you want to make
+[00:21:25] yourself known trying to stay in your
+[00:21:26] own little little bubble in your own
+[00:21:28] little and sort of not get involved is
+[00:21:32] only going to hinder your progress um so
+[00:21:35] network network as much as you can talk
+[00:21:38] to everyone connect with everyone
+[00:21:40] collaborate even if you can and you
+[00:21:43] never know right um I've mentioned this
+[00:21:45] in a few videos before but um the way I
+[00:21:48] got my first job wouldn't have happened
+[00:21:51] without networking um I um I actually
+[00:21:55] got my first job effectively through
+[00:21:56] Linkedin right but it wasn't through a
+[00:21:58] for a role um if you've been around for
+[00:22:01] a while you might have already heard
+[00:22:02] this story but if you haven't this is
+[00:22:03] sort of the end of like 2020 at this
+[00:22:05] point so um I was looking for my first
+[00:22:07] job the market wasn't great for me
+[00:22:10] either at that point it was probably
+[00:22:11] slightly better than it is now but it
+[00:22:12] wasn't great because it was still during
+[00:22:14] you know those times um and companies
+[00:22:17] hadn't quite got back into the highing
+[00:22:19] Rhythm yet um so I wasn't really finding
+[00:22:22] anything and in terms of you know roles
+[00:22:24] to actually apply for that were
+[00:22:25] applicable to me in my scale level so
+[00:22:28] what I ended up doing was I just started
+[00:22:31] contacting people in LinkedIn
+[00:22:33] effectively and one person in particular
+[00:22:36] um guy I knew from the company I'd
+[00:22:38] ultimately work for uh from my first
+[00:22:40] role um not Tech related to tall at
+[00:22:43] least he wasn't it was actually in sales
+[00:22:46] but I knew for a fact this company dealt
+[00:22:48] in web Technologies they were a web
+[00:22:50] marketing agency and they had a team
+[00:22:53] that did all that stuff so I'd actually
+[00:22:56] applied to work from them in the past as
+[00:22:58] a as a sales person and ultimately
+[00:23:00] didn't actually even get the job right
+[00:23:02] uh it just wasn't for me at the time um
+[00:23:05] and so didn't get it but I kept in touch
+[00:23:07] with the guy because we got on fairly
+[00:23:09] well and um I basically just out the
+[00:23:12] blue just messaged him and says hey you
+[00:23:15] know remember me um I've uh I've went
+[00:23:18] down this path I've I've built all these
+[00:23:20] projects I've learned all this stuff and
+[00:23:22] I'm looking for a role in in in web and
+[00:23:25] and making stuff as as a a programmer a
+[00:23:28] software engineer as a a web developer
+[00:23:30] whatever you want to call it um and you
+[00:23:33] know I was wondering if you and your
+[00:23:35] company are looking for that kind of
+[00:23:37] thing right now because I know for a
+[00:23:38] fact that that's the kind of work that
+[00:23:40] they do um and if they are then you know
+[00:23:43] hit me up give me a shout and uh we'll
+[00:23:46] have a
+[00:23:47] chat and um surely enough he got back to
+[00:23:50] me he looked at my stuff and went yeah
+[00:23:52] that stuff's really cool you know this
+[00:23:53] was only about a year apart as well so
+[00:23:54] he's looked at all this stuff and went w
+[00:23:56] this guy's learned all this stuff in a
+[00:23:57] year right um just think of how much he
+[00:24:00] can learn you know with us in a short
+[00:24:02] space of time he obviously adapts
+[00:24:03] quickly and learns quickly so he was
+[00:24:06] quite enthusiastic about it and uh he he
+[00:24:08] put all my stuff forward to the you know
+[00:24:11] the person who would ultimately be my
+[00:24:12] boss um and I actually still talked to
+[00:24:14] to this day um he's a he's a good friend
+[00:24:16] of mine um you know I put all my stuff
+[00:24:18] forward to him showed him everything uh
+[00:24:20] that I'd done and that I'd sent over and
+[00:24:23] it was obious really
+[00:24:24] impressed uh we got chatting about a
+[00:24:26] week or so later and next you know I had
+[00:24:29] the job there um they weren't even
+[00:24:30] hiring at the time either that's the
+[00:24:32] thing like they weren't even hiring a
+[00:24:35] web developer or anything at the time
+[00:24:37] but there was internal talks of oh we
+[00:24:39] might need someone to do some of the
+[00:24:41] more technical stuff because a lot of
+[00:24:42] their work at the time was largely just
+[00:24:44] WordPress based um but they had a few
+[00:24:46] sort of requests for more custom apps
+[00:24:48] and bespoke apps from from clients and
+[00:24:51] stuff um and as a team of mostly
+[00:24:55] designers and things like that they
+[00:24:56] didn't really have that capability at
+[00:24:58] the time so um they were thinking about
+[00:25:00] it they just hadn't really you know
+[00:25:02] formally put anything out um and it was
+[00:25:05] the right place at the right time for me
+[00:25:06] I just happen to show up at the right
+[00:25:08] time and and come knocking so uh the
+[00:25:11] point of this story
+[00:25:12] is um Network basically Network you
+[00:25:16] never know right you never know what
+[00:25:18] kind of opportunities are going to come
+[00:25:19] up LinkedIn inperson events even open
+[00:25:22] source as well while I said uh you don't
+[00:25:25] necessarily go into open source looking
+[00:25:26] for a job if you get chatting with other
+[00:25:28] collaborators and things you can
+[00:25:30] collaborate on your own projects with
+[00:25:31] them and stuff they might work for
+[00:25:32] companies themselves they might have an
+[00:25:34] opening they might put you forward for
+[00:25:35] it right it's just one of these things
+[00:25:37] one of these things that Cascades into
+[00:25:39] an opportunity eventually potentially if
+[00:25:41] you don't ask you don't get if you don't
+[00:25:43] put yourself out there you won't get so
+[00:25:45] to wrap up this slightly larger longer
+[00:25:48] video than I had imagined originally
+[00:25:50] basically the question of is it too late
+[00:25:53] to become a software engineer is uh has
+[00:25:56] been asked before it's not you and the
+[00:25:59] answer is still the same no it's not too
+[00:26:01] late um you can you know learn to code
+[00:26:05] learn to program just as you the same as
+[00:26:08] you could 5 10 years ago in fact it's
+[00:26:11] actually easier than ever to pick up the
+[00:26:12] basics just pure purely because of the
+[00:26:15] amount of resources out there now if
+[00:26:17] you're passionate about tech if you're
+[00:26:18] passionate about learning to code then
+[00:26:20] you know things haven't changed in that
+[00:26:22] sense uh is it harder to get a job right
+[00:26:24] now yes there's there's no denying that
+[00:26:26] it is objectively harder to get a job
+[00:26:28] right now but there's always a way
+[00:26:30] there's always a way to um create your
+[00:26:33] own experience and find your way in
+[00:26:36] right there's always a thing something
+[00:26:38] somewhere that you can do to to create
+[00:26:40] opportunities for yourself and it's
+[00:26:41] maybe not the most obvious path um but I
+[00:26:45] mean is it ever right for for most
+[00:26:48] people um people in the past obviously
+[00:26:51] were very lucky with how easy it was
+[00:26:53] just been able to walk into some of
+[00:26:54] these jobs without any experience
+[00:26:56] whatsoever it's um you know it was an
+[00:26:59] ERA that is come and gone and you know
+[00:27:02] even before that it was also difficult
+[00:27:04] to get a job in Tech um you know back in
+[00:27:06] sort of you know after the dotom bubble
+[00:27:09] and things like that no one was hiring
+[00:27:11] developers then either um as I said at
+[00:27:14] the start of the video it largely comes
+[00:27:16] and goes and waves with the economy and
+[00:27:19] uh yeah it's always been worth it
+[00:27:21] regardless so yeah that's my take on the
+[00:27:24] whole thing um if you you know have any
+[00:27:28] concerns if there's any questions that
+[00:27:30] haven't asked uh asked and answered here
+[00:27:33] about whether uh software engineering is
+[00:27:35] worth it for any particular reason if
+[00:27:36] you have anything on your mind that is
+[00:27:39] putting you off the idea um but you're
+[00:27:41] not sure then leave it in the comments
+[00:27:43] by all means and uh hopefully I'll get
+[00:27:45] back to you um I'd love to see you know
+[00:27:47] if there's any other sort of
+[00:27:49] apprehensions people have about getting
+[00:27:51] into the industry now if you like the
+[00:27:52] video of course like uh subscribe if you
+[00:27:54] haven't already as well and uh I will be
+[00:27:57] back shortly I've I've been away for a
+[00:27:59] little bit um I've not made a video for
+[00:28:01] a while actually um and that's just
+[00:28:03] larly due to sort of it's been a bit of
+[00:28:06] a whirlwind for me this year I've had a
+[00:28:07] lot of sort of stuff going on in my own
+[00:28:09] life um which I've had to deal with um
+[00:28:12] so luckily not necessarily job related
+[00:28:14] but um just sort of personal stuff um
+[00:28:18] but yeah I'm I'm I'm getting to a place
+[00:28:19] now where I can sort of start making
+[00:28:20] videos a bit more often again so um
+[00:28:22] hopefully bit more of this stuff and uh
+[00:28:25] yeah hopefully you'll see more of me
+[00:28:26] soon so like I said like subscribe and
+[00:28:29] uh I will see you in the next one bye
+[00:28:31] for now

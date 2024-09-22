@@ -1,0 +1,15 @@
+In the video "The Moment We Stopped Understanding AI [AlexNet]" by Welch Labs, the narrator discusses the concept of understanding artificial intelligence (AI) by examining the AlexNet model. 
+
+The video begins by introducing the activation atlas, which provides insight into the high-dimensional embedding spaces used by modern AI models. The narrator highlights the significance of the AlexNet model, which was published in 2012 and marked a turning point in computer vision. AlexNet's co-founder, Ilya K., went on to co-found OpenAI and scale up the idea to create models like GPT.
+
+The narrator then explains the inner workings of ChatGPT, breaking down how it maps words and word fragments to vectors and uses matrix operations to generate responses. The video emphasizes that the intelligence of these models lies in the vast amounts of data they are trained on.
+
+The focus then shifts to AlexNet and its ability to recognize objects in images. The narrator discusses the convolutional blocks used in AlexNet, which slide a smaller tensor called a kernel over the input image to compute dot products. The visualization of the kernels in the first layer of AlexNet reveals patterns related to edge detection and color blobs.
+
+The video explores the concept of activation maps, which show which parts of an image match a given kernel well. The speaker demonstrates how activation maps can detect visual patterns and features. The discussion then moves to the second layer of AlexNet, where visualizing the weighted combinations of computations becomes more challenging.
+
+The narrator highlights the ability of AlexNet to learn concepts like faces without explicit instruction, solely from the images and labels in the dataset. Feature visualization is mentioned as a technique to generate synthetic images that maximize a given activation, providing insight into what a specific layer is looking for.
+
+The video concludes by discussing the concept of embedding spaces and the idea that distance and directionality in these spaces can be meaningful. The activation atlas is introduced as a tool to visualize these embedding spaces. The narrator also mentions the video sponsor, KiwiCo, which offers educational products and crates for children.
+
+Overall, the tone of the video is informative and explores the complexity and capabilities of AI models like AlexNet and ChatGPT. The video highlights the importance of data in training these models and the challenges of understanding their inner workings. The main takeaway is the significance of embedding spaces and the potential for visualization tools like activation atlases to provide insights into AI models.

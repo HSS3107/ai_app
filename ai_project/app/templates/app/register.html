@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <h1>Register</h1>
+    <form id="register-form">
+        <!-- Our registration form. Again, the id is crucial for our JavaScript -->
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+    </form>
+    <p id="message"></p>
+    <!-- This paragraph will display messages to the user -->
+{% endblock %}

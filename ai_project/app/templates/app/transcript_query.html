@@ -1,0 +1,40 @@
+{% extends 'app/base.html' %}
+{% block content %}
+<h1 class="page-title">Transcript Analysis and Query</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h2>Transcript Analysis</h2>
+    </div>
+    <div class="card-body">
+        <form id="analysis-form">
+            <div class="form-group">
+                <label for="video-url">YouTube Video URL</label>
+                <input type="text" id="video-url" class="form-input" placeholder="https://www.youtube.com/watch?v=..." required>
+            </div>
+            <button type="submit" class="btn">Analyze Transcript</button>
+        </form>
+        <div id="transcript-result" class="result-area"></div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h2>Query Transcript</h2>
+    </div>
+    <div class="card-body">
+        <form id="query-form">
+            <div class="form-group">
+                <label for="video-id">Video ID</label>
+                <input type="text" id="video-id" class="form-input" placeholder="dQw4w9WgXcQ" required>
+            </div>
+            <div class="form-group">
+                <label for="query">Query</label>
+                <textarea id="query" class="form-input" rows="3" placeholder="Enter your query here..." required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Query</button>
+        </form>
+        <div id="query-result" class="result-area"></div>
+    </div>
+</div>
+{% endblock %}
