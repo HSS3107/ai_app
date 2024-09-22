@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-oxchz10h0zzb@v!9*c*1)*v0%(#_7==67xp^6a%0#sf2mor2)#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost']
 
 
 # Application definition
@@ -67,26 +67,18 @@ ROOT_URLCONF = 'ai_project.urls'
 WSGI_APPLICATION = 'ai_project.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'Harshit',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': os.getenv('DATABASE_NAME'),
+        'USER': os.getenv('DATABASE_USER'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD'),
+        'HOST': os.getenv('DATABASE_HOST'),
+        'PORT': os.getenv('DATABASE_PORT'),
     }
 }
+
 
 
 # Password validation
@@ -123,7 +115,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -168,6 +159,7 @@ TEMPLATES = [
 # Static files are things like CSS, JavaScript, images - the decorations for our HTML skeleton
 STATIC_URL = '/static/'  # The URL to use when referring to static files
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'app', 'static')]  # Where to find our static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 PINECONE_API_KEY = os.getenv('PINECONE_API_KEY_1')

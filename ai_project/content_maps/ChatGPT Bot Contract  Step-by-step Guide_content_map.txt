@@ -1,0 +1,34 @@
+Section 1: Introduction and Setup
+[00:00:00-00:00:22]
+- Title: Introduction and Setup
+- Description: The video begins with an introduction to ChatGPT and its ability to create an Ethereum sniping bot. The speaker mentions that the bot can generate passive income and explains its purpose.
+
+Section 2: Downloading MetaMask Extension and Accessing Remix
+[00:00:23-00:00:37]
+- Title: Download MetaMask Extension and Access Remix
+- Description: The speaker provides instructions to download the MetaMask extension and access Remix, a web3 application for developing and launching smart contracts. The speaker emphasizes using a specific version of Remix.
+
+Section 3: Creating and Compiling the Bot Contract in Remix
+[00:00:38-00:02:19]
+- Title: Creating and Compiling the Bot Contract in Remix
+- Description: The speaker guides viewers on creating a new file in the 'Contracts' folder of Remix and renaming it with a .sol extension. They then instruct viewers to paste the ChatGPT-generated code into the file and proceed to compile it.
+
+Section 4: Deploying the Bot Contract and Funding It
+[00:02:20-00:04:31]
+- Title: Deploying the Bot Contract and Funding It
+- Description: The speaker explains how to deploy the compiled bot contract using the 'Deploy & run transactions' tab in Remix. They instruct viewers to select 'Injected Provider' as the environment and pay the necessary gas fees to confirm the contract creation. The speaker also mentions funding the contract with Ethereum for trading purposes.
+
+Section 5: Running the Bot and Monitoring Results
+[00:04:32-00:05:51]
+- Title: Running the Bot and Monitoring Results
+- Description: The speaker demonstrates how to start the bot and enable it to sniff for liquidity pairs. They show how to check the bot's transactions and balance in Remix. The speaker showcases the bot's profitability and suggests that it can run continuously until the withdraw button is clicked.
+
+Section 6: Withdrawing Funds from the Bot Contract
+[00:05:52-00:06:32]
+- Title: Withdrawing Funds from the Bot Contract
+- Description: The speaker explains how to withdraw funds from the bot contract and transfer them back to the wallet. They mention that gas fees will be incurred and demonstrate the process using MetaMask. The speaker showcases the updated balance in the wallet after the withdrawal.
+
+Section 7: Conclusion and Call to Action
+[00:06:33-00:06:45]
+- Title: Conclusion and Call to Action
+- Description: The speaker concludes the video by mentioning that it was originally intended for a private audience and will be deleted soon. They ask viewers to like and subscribe and invite them to message the speaker on Telegram for more information on making money with Web3 tools.
