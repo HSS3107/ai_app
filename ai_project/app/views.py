@@ -12,6 +12,7 @@ from langchain_pinecone import PineconeVectorStore
 from django.views.generic import TemplateView
 import logging
 import traceback
+import re
 
 logger = logging.getLogger(__name__)
 
