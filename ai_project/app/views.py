@@ -59,9 +59,17 @@ class TranscriptAnalysisView(APIView):
             return Response({'error': 'Video URL is required'}, status=status.HTTP_400_BAD_REQUEST)
         
         try:
-            video_id = video_url.split("v=")[1]
-        except IndexError:
-            return Response({'error': 'Invalid YouTube URL'}, status=status.HTTP_400_BAD_REQUEST)
+            # Regular expression to match the video ID from different YouTube URL formats
+            pattern = r'(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/|.+\?v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})'
+            match = re.search(pattern, video_url)
+
+            if match:
+                video_id = match.group(1)
+            else:
+                return Response({'error': 'Invalid YouTube URL'}, status=status.HTTP_400_BAD_REQUEST)
+
+        except Exception as e:
+            return Response({'error': 'Something went wrong: ' + str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
         try:
             vector_store, chain, video_info, summary, keywords = podcast_utils.process_video(video_id)
