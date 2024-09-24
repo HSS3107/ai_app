@@ -254,7 +254,7 @@ def generate_comprehensive_summary(ai_formatted_transcript, video_info):
 
     Comprehensive Summary:
     """)
-
+#
     try:
         result = gpt_model.invoke(prompt.format(
             title=video_info['title'],
