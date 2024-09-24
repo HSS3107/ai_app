@@ -53,6 +53,7 @@ def login_view(request):
 def register_view(request):
     return render(request, 'app/register.html')
 
+# analyze-transcript API
 class TranscriptAnalysisView(APIView):
     def post(self, request):
         video_url = request.data.get('video_url')
