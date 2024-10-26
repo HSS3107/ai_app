@@ -1,0 +1,176 @@
+Title: How I Design Beautiful Websites (Without Being a Designer)
+Channel: Gobie Nan
+Published: 2024-09-20T19:46:14Z
+Duration: PT7M11S
+Description: Watch Next: https://www.youtube.com/watch?v=ZydjoyupPzY&list=PLtu71D9QGuou0ySREGE9ncUXIjBlO-Uhp&index=1
+
+If you are looking for the design resources. 
+Here you go: https://gobienan.com/resources
+
+Spectral Gradient used from Damon xart.
+
+Projects I created:
+https://ResumePhoto.ai 
+https://Resoume.com
+https://Chapterize.ai
+
+Find me on the internet:
+Website: https://gobienan.com
+Twitter: https://twitter.com/@gobienan
+Linkedin: https://linkedin.com/in/gobie-nanthakumar/
+Instagram: https://www.instagram.com/gobienan
+
+⏳ Timestamps
+0:00 - Intro
+0:30 - Design Fundamentals For Developers
+2:40 - My Favorite Sites
+5:55 - Encouragement and Takeaway
+
+Transcript:
+
+[00:00:00] Hey, welcome back to the channel. Today, 
+I want to share the resources I use to get  
+[00:00:06] Getting design inspiration is always 
+a struggle, but over the years,  
+[00:00:09] I've collected some amazing websites that 
+have helped me to build clean, professional,  
+[00:00:14] and user-friendly websites. One thing that 
+has really helped me to stay inspired and  
+[00:00:18] get creative is to know where to look for 
+inspiration. For this video, I have actually  
+[00:00:23] put together a website where I've collected all 
+the resources I am using to build my product.
+[00:00:28] NoAwwwards.com is not on that list, and I will 
+tell you why in a minute. Design isn't just about  
+[00:00:33] making things pretty; it's about functionality 
+and the user experience. I think there are  
+[00:00:39] three contributors that developers get wrong when 
+they build a website: fonts, colors, and spacing.
+[00:00:46] Let me give you an example. One of my current 
+favorite fonts is Gist by Varsity, it's clean,  
+[00:00:52] modern, and extremely versatile, perfect for 
+tech websites. Gist can act as your main font  
+[00:00:58] for things like body tags, menus, and general 
+information. It's easy on the eyes and keeps  
+[00:01:04] things clean. But when you want to highlight 
+something important, like a headline or a  
+[00:01:09] call-to-action, you can bring in a bold font 
+like Thunder, for example, to make people look  
+[00:01:14] at it right away. This kind of pairing - simple 
+and clean from Gist and bold and chunky with  
+[00:01:20] Thunder - keeps your design balanced while guiding 
+people to things you want them to see first.
+[00:01:27] And when it comes to text on your website, 
+you have to add spacing to it to give your  
+[00:01:33] site enough breathing room and avoid a cluttered 
+look. Designing without consideration for spacing  
+[00:01:37] is like trying to write a book with 
+no paragraphs; it's just hard to read.
+[00:01:44] I'm not going to dive too deep into colors in 
+this video, but to give you a real-life example,  
+[00:01:50] I have recently built a chart component with 
+different colors. My primary focus was to  
+[00:01:56] make this component work first, so I used the 
+brand colors for each bar. But as you can see,  
+[00:02:02] it ended up looking like...well, I don't know, 
+a kid's toy. But once the component was working,  
+[00:02:09] I focused on the colors, and you can 
+see now clearly the difference. This  
+[00:02:14] updated version now looks like a 
+proper product for the B2B sector.
+[00:02:18] The impact color can have on your product is 
+huge, but the topic of color is also too big  
+[00:02:22] for this video. If you're interested in learning 
+more about color, let me know in the comments.
+[00:02:28] Alright, let's talk about where I get 
+my inspiration from. The web is full  
+[00:02:31] of amazing resources, but these are my 
+favorites. Let's start with Dribbble.  
+[00:02:36] Dribbble is still one of my go-to resources for 
+design inspiration. It's well-known out there,  
+[00:02:41] but they have amazing UIs and web layouts, and 
+quite a lot of creativity in one place. I always  
+[00:02:49] browse Dribbble when I want to explore original, 
+creative concepts for web design. Yes, I know some  
+[00:02:55] are a bit over the top or not really usable for my 
+products, but it still has a great collection of  
+[00:03:01] designs. And this is also the reason I don't 
+like Awwwards. The pages there look amazing;  
+[00:03:07] they are state-of-the-art, pushing the boundaries 
+of what's possible on the front-end. But these  
+[00:03:12] pages also tend to load very slowly, you have to 
+scroll quite a lot to understand what's going on,  
+[00:03:19] and all of that doesn't help when it comes to 
+making a sale, well, at least for my products.
+[00:03:27] Let's move on to Codrops. Codrops has been out 
+for ages, and it's one of the best resources for  
+[00:03:35] web design tutorials and inspiration. Codrops not 
+only shows you visually rich designs, but the code  
+[00:03:42] is actually open-source, so you can check out how 
+it works in detail. I know a lot of examples here  
+[00:03:49] are also a bit crazy, but you can also just pick a 
+certain element of it and use it to give your site  
+[00:03:55] something special. And that's also what I did for 
+ResumePhoto. I have a section here where I wanted  
+[00:04:01] to show the selfie, which is the before image, 
+and the AI-generated headshot, which is the after  
+[00:04:07] image. And when you hover over the image, you 
+will see this transition from before and after.
+[00:04:17] Let's move on to BentoGrids. BentoGrids have 
+become increasingly popular over the years.  
+[00:04:23] I'm not sure if Apple invented them, but they 
+definitely made them popular. I'm also a huge  
+[00:04:29] fan of the layout; they are modular, flexible, 
+and allow you to organize content into visually  
+[00:04:35] appealing tiles. To be honest, I also struggled to 
+come up with a nice-looking design for BentoGrids.  
+[00:04:42] That's when I discovered the website, Well, 
+also called BentoGrids, and they feature  
+[00:04:48] you can get inspiration from. They have a ton 
+of examples from other products and websites,  
+[00:04:54] and this actually helped me to come up 
+with my own BentoGrid for ResumePhoto.
+[00:05:02] The last page I want to cover is 
+UncoverLab. This is a page I have  
+[00:05:06] stumbled upon recently, and it has a ton of 
+great designs for designers and developers,  
+[00:05:12] especially if you're working on B2B websites 
+and applications. They have a growing library  
+[00:05:17] of ready-made templates for Figma, for 
+example, you can grab a hero section,  
+[00:05:23] pricing section, or even a newsletter call 
+section without having to design them from  
+[00:05:28] scratch. It's all there. Personally, I 
+found these designs to be clean, modern,  
+[00:05:34] and very B2B-focused, which makes it super 
+easy to plug and play without overthinking.
+[00:05:43] I have like 30 more resources on my webpage, 
+and I only want to pick the ones I'm using  
+[00:05:48] on a daily basis. And if you're a developer 
+and you struggle with design, and trust me,  
+[00:05:52] you're not the only one, try to challenge yourself 
+to build something you have seen on Dribbble or  
+[00:05:57] on BentoGrids. Use whatever text editor you 
+want - React, Vue - it doesn't really matter.  
+[00:06:02] And just try to copy what you see on the screen by 
+recreating those components. You will improve your  
+[00:06:08] skills exponentially. Try to do this a couple 
+of times, and you will quickly realize that by  
+[00:06:13] doing so, you will get a better understanding of 
+the small but important details. That's also what  
+[00:06:19] I did when I started to learn design. I tried to 
+replicate what I have seen on Dribbble or Behance.
+[00:06:27] So if you are struggling to get into development 
+or design, I get it. You see a beautiful website  
+[00:06:32] out there, and you think, "that's something I 
+could never build." But trust me, you can. All  
+[00:06:38] the resources you need are out there, and 
+on top of that, we have now something like  
+[00:06:43] GitHub where you can ask questions and report 
+the errors you have to improve your code. I'm  
+[00:06:50] using it all the time to bounce off ideas 
+or to fix some issues I have with my code.
+[00:06:55] I hope you like the resources I have collected. 
+If you did, please leave a like and subscribe to  
+[00:07:00] the channel. Keep designing, keep building, 
+and I will see you in the next one. Bye.

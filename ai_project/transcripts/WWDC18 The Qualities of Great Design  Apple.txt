@@ -1,0 +1,1642 @@
+Title: WWDC18: The Qualities of Great Design | Apple
+Channel: Apple Developer
+Published: 2024-10-01T22:00:58Z
+Duration: PT53M23S
+Description: Great Design isn’t magic, it is crafted with care by real people. Explore the characteristics of great design through the voices of designers from Apple and our developer community. Learn how they take inspiration from everyday life, conceive and refine ideas, and push themselves to design apps and games that can stand the test of time.
+
+More Apple Developer resources:
+Video sessions: https://apple.co/VideoSessions
+Documentation: https://apple.co/DeveloperDocs
+Forums: https://apple.co/DeveloperForums
+App: https://apple.co/DeveloperApp
+
+Transcript:
+
+[00:00:07] [ Music ]
+[00:00:20] [ Applause ]
+[00:00:29] >> Hello. Hi, I'm really excited
+[00:00:32] to be here to talk to you today
+[00:00:33] about The Qualities of Great
+[00:00:35] Design.
+[00:00:36] My name is Lauren Strehlow, and
+[00:00:38] I'm a design evangelist here at
+[00:00:40] Apple.
+[00:00:41] The evangelism team, our number
+[00:00:42] one goal is to help developers
+[00:00:44] just like you create great apps.
+[00:00:47] And a big part of my job is
+[00:00:50] actually to work with the design
+[00:00:51] presenters who are putting on
+[00:00:53] all of the awesome design
+[00:00:54] session content that you see
+[00:00:55] here at the conference.
+[00:00:58] So when I started to work with
+[00:01:01] potential presenters this year
+[00:01:03] about their talks, this theme of
+[00:01:05] quality kept coming up, but
+[00:01:07] nobody was talking about it head
+[00:01:09] on, so I decided to.
+[00:01:13] But I went about it a little bit
+[00:01:14] differently.
+[00:01:15] I decided to talk to great
+[00:01:17] designers from our developer
+[00:01:18] community, such as the creative
+[00:01:21] director at The Game Band.
+[00:01:24] I also talked to the cofounders
+[00:01:27] of the Layers Conference, which
+[00:01:28] is actually happening right now
+[00:01:30] across the street.
+[00:01:32] And I talked to the VP of Design
+[00:01:34] at Khan Academy.
+[00:01:36] I also talked to some of my
+[00:01:37] great colleagues here at Apple
+[00:01:39] who work in a wide variety of
+[00:01:41] design disciplines.
+[00:01:43] They work in type design, sound
+[00:01:46] design, motion, visual, and
+[00:01:49] interaction design.
+[00:01:51] These are all real people who I
+[00:01:54] truly admire and respect, and I
+[00:01:57] think they have created great
+[00:01:58] apps and games that have
+[00:02:00] tremendous caliber.
+[00:02:02] So I conducted a series of
+[00:02:03] interviews.
+[00:02:04] I talked to 13 people, and I
+[00:02:07] asked them a ton of questions to
+[00:02:09] discover what quality means to
+[00:02:11] them, what challenges they face,
+[00:02:14] and what they do to strive for
+[00:02:16] excellence in design.
+[00:02:18] So before you think any of this
+[00:02:20] is scripted, I actually didn't
+[00:02:23] give anybody these questions in
+[00:02:24] advance.
+[00:02:25] So everything you're about to
+[00:02:27] hear today is real reactions to
+[00:02:29] these questions.
+[00:02:31] I collected over 15 hours of
+[00:02:34] interview footage, and I've
+[00:02:35] distilled it down to the very
+[00:02:37] essence of these responses.
+[00:02:40] So the audio clips you're about
+[00:02:41] to hear today represent what I
+[00:02:44] discovered about quality in
+[00:02:46] great design.
+[00:02:47] So today, we're going to dig
+[00:02:50] into interpretations of quality
+[00:02:52] and how it influences our
+[00:02:53] perceptions and design
+[00:02:55] directions.
+[00:02:56] We're also going to talk about
+[00:02:58] its effect on people's lives.
+[00:03:02] [laughs] Actually, this is
+[00:03:03] really exciting because it
+[00:03:03] turned out to be so much more
+[00:03:05] than what I expected.
+[00:03:07] We're also going to hear about
+[00:03:09] aspirations from the designers
+[00:03:11] that I interviewed, to hear what
+[00:03:13] drives them, what goals they
+[00:03:14] have when they're striving for
+[00:03:15] quality, even if those goals
+[00:03:17] seem unattainable.
+[00:03:20] And finally, I want to share
+[00:03:21] some techniques that were
+[00:03:23] revealed while asking people
+[00:03:25] about their experiences.
+[00:03:27] And I hope that these techniques
+[00:03:28] can help you approach the
+[00:03:30] challenge of designing for a lot
+[00:03:31] of people.
+[00:03:33] So this session is all about the
+[00:03:35] qualities of great design
+[00:03:37] defined by designers.
+[00:03:40] So let's kick things off, and
+[00:03:43] get started, and hear a few
+[00:03:45] answers to this one simple
+[00:03:49] question: What is quality?
+[00:03:53] >> Quality is nothing else than
+[00:03:55] what we agree upon is good.
+[00:04:01] >> If something is quality, it
+[00:04:03] implies that there is nothing
+[00:04:05] random about it.
+[00:04:09] >> The number one thing is just
+[00:04:10] that something with a lot of
+[00:04:13] care and time went into it.
+[00:04:18] >> It's one of those things that
+[00:04:19] people can feel it when they
+[00:04:20] feel it, and it's very hard for
+[00:04:22] them to put their finger on it.
+[00:04:25] >> All right.
+[00:04:25] This one I can really relate to.
+[00:04:27] I'm totally a feeler, and so
+[00:04:29] this naturally led me to ask a
+[00:04:31] follow-on question: What does
+[00:04:34] quality feel like?
+[00:04:37] >> Does it feel like somebody
+[00:04:38] has thought of you already and
+[00:04:39] all the things that you need are
+[00:04:41] easy to get to and very
+[00:04:42] understandable?
+[00:04:42] >> I think that when I'm
+[00:04:47] thinking about things that are
+[00:04:47] quality or handling things that
+[00:04:49] are quality, it's things that
+[00:04:52] aren't painful to use in any
+[00:04:54] way, which could be, like,
+[00:04:55] mentally painful, physically
+[00:04:57] painful, emotionally painful,
+[00:05:00] things that don't make me feel
+[00:05:01] uncomfortable, or dumb, or
+[00:05:04] [laughs] or inconvenienced.
+[00:05:06] >> If you just launch the app
+[00:05:09] and you feel, as you use it, oh,
+[00:05:11] well, this feels like
+[00:05:12] state-of-the-art technology that
+[00:05:14] I'm using.
+[00:05:15] This feels like it's easier for
+[00:05:16] me to get things done.
+[00:05:18] I feel more productive.
+[00:05:19] I feel like I'm able to achieve
+[00:05:21] better results.
+[00:05:22] >> All the concentration that
+[00:05:25] you're building up goes to the
+[00:05:27] task at hand, the thing that you
+[00:05:28] actually want to do.
+[00:05:30] And that to me feels like
+[00:05:31] quality.
+[00:05:31] If you're able to achieve that,
+[00:05:32] and people can be very creative,
+[00:05:34] and make beautiful things, or
+[00:05:36] have special moments through a
+[00:05:38] device -- for example, by taking
+[00:05:41] really good pictures, or sharing
+[00:05:42] pictures with friends, or
+[00:05:44] finding the right music to play
+[00:05:45] at the right moment, or, you
+[00:05:47] know, doing fun stuff with
+[00:05:48] FaceTime, and seeing people on
+[00:05:49] the other side of the world that
+[00:05:50] you haven't seen in a long time
+[00:05:52] -- all of that is very special.
+[00:05:53] And again, none of that is
+[00:05:55] around the UI that you're doing.
+[00:05:56] None of that is about what
+[00:05:58] interaction you chose to do that
+[00:05:59] stuff.
+[00:06:00] That should all be obvious, and
+[00:06:01] blatantly unspoken, and just
+[00:06:03] completely in the background.
+[00:06:08] >> Wow. I just love that, that
+[00:06:11] quality isn't about the UI or
+[00:06:13] interactions, that it's about
+[00:06:15] the moment, the people.
+[00:06:17] You know, these are the people
+[00:06:18] that you're designing for, and
+[00:06:20] you're helping them create
+[00:06:21] memories and share those moments
+[00:06:23] with others.
+[00:06:25] That is what this is all about.
+[00:06:27] So how do you design for that?
+[00:06:30] Well, I actually asked that
+[00:06:32] question.
+[00:06:34] >> It's hard.
+[00:06:36] >> [laughter] Yeah.
+[00:06:38] I hope you weren't actually
+[00:06:39] hoping for a real answer here.
+[00:06:40] It's definitely very hard, and
+[00:06:42] we have 55 minutes to dig into
+[00:06:44] why.
+[00:06:45] So we just heard a ton of
+[00:06:48] answers to this question, what
+[00:06:50] is quality?
+[00:06:52] We heard that it is what we
+[00:06:54] agree upon is good, that it's
+[00:06:58] not random, it's something that
+[00:07:01] shows a lot of care and time
+[00:07:04] went into it, and it feels like
+[00:07:07] somebody has thought of you
+[00:07:08] already.
+[00:07:10] It can also be not painful in
+[00:07:13] any way, and it feels state of
+[00:07:16] the art.
+[00:07:17] Quality things make it easier to
+[00:07:19] get things done.
+[00:07:21] And finally, your concentration
+[00:07:23] goes to the thing that you
+[00:07:24] really want to do, like sharing
+[00:07:27] that picture or playing your
+[00:07:28] favorite song.
+[00:07:29] So by asking about quality, it
+[00:07:33] resulted in many different
+[00:07:34] answers, but what's so great
+[00:07:37] about that is that it reflects
+[00:07:39] what each one of these people
+[00:07:40] truly care about.
+[00:07:42] And of course, people care about
+[00:07:44] different things, so it makes
+[00:07:46] complete sense that they all
+[00:07:47] have different interpretations
+[00:07:49] of what quality is when it
+[00:07:51] applies to apps and games.
+[00:07:54] So we have a lot to get to
+[00:07:56] today, but I really want to dig
+[00:07:58] into just a couple of these
+[00:08:00] responses.
+[00:08:01] I think they're all great, but
+[00:08:02] let's just dig into this first
+[00:08:04] one here.
+[00:08:06] And we're going to listen to the
+[00:08:07] clip one more time.
+[00:08:09] >> If something is quality, it
+[00:08:12] implies that there is nothing
+[00:08:14] random about it.
+[00:08:15] >> During this interview with
+[00:08:17] Nicole, she explained that not
+[00:08:19] random to her meant not slapped
+[00:08:22] together.
+[00:08:23] And she used this word
+[00:08:25] "considered."
+[00:08:26] Great designs are considered.
+[00:08:28] They're organized, and they show
+[00:08:30] a thought process has taken
+[00:08:31] place.
+[00:08:32] And what I found really
+[00:08:33] interesting is that she said
+[00:08:35] that that's really visible to
+[00:08:36] people, that that visibility of
+[00:08:39] quality in design actually came
+[00:08:40] up in another interview when I
+[00:08:42] was talking with Mike.
+[00:08:44] >> I guess this is probably a
+[00:08:46] little cliché sounding, but
+[00:08:48] it's often the little things
+[00:08:49] that are the telltale signs
+[00:08:51] about craftsmanship.
+[00:08:52] >> Okay, we have to pause right
+[00:08:54] there because we're about to
+[00:08:55] talk about craft in a design
+[00:08:57] session, and Mike already called
+[00:08:59] it out that it's a little
+[00:09:00] cliché, but before we listen to
+[00:09:03] the rest of this clip, I need
+[00:09:05] you to imagine that you're in
+[00:09:07] the audio booth with us.
+[00:09:09] There's not going to be anything
+[00:09:10] on screen, so I want you to
+[00:09:12] really focus on the words that
+[00:09:14] Mike is about to say.
+[00:09:16] Okay, here we go.
+[00:09:19] >> We're sitting in this room
+[00:09:21] here, and there's these panels
+[00:09:22] on the wall, and the panels have
+[00:09:24] a little bit of a gap between
+[00:09:26] them.
+[00:09:26] And we can look at the width of
+[00:09:28] the gap as you look from the top
+[00:09:31] of the wall to the bottom of the
+[00:09:33] wall.
+[00:09:33] And if there's variable
+[00:09:36] separation or variable width of
+[00:09:37] that gap, you just get the sense
+[00:09:39] that it wasn't well crafted.
+[00:09:43] >> Right. So really, while Mike
+[00:09:46] was talking about those variable
+[00:09:48] widths in the gaps of the panels
+[00:09:50] in the audio booth, you know, I
+[00:09:52] understood that he's saying that
+[00:09:54] those details are visible, and
+[00:09:56] they matter a lot.
+[00:09:59] And it's through consideration
+[00:10:00] and being really deliberate, and
+[00:10:02] thinking through every single
+[00:10:04] detail thoughtfully, well, that
+[00:10:06] shows.
+[00:10:06] And so being really into your
+[00:10:09] craft here is the point because
+[00:10:11] the best things that we love are
+[00:10:13] not random.
+[00:10:14] They're not slapped together.
+[00:10:16] They're intentional through
+[00:10:17] every detail.
+[00:10:19] And if you can do that, that's
+[00:10:21] quality.
+[00:10:23] So let's explore one more answer
+[00:10:25] to the question, what is
+[00:10:26] quality, and listen to the clip
+[00:10:28] again.
+[00:10:30] >> The number one thing is just
+[00:10:31] that something with a lot of
+[00:10:34] care and time went into it.
+[00:10:38] >> This one in particular really
+[00:10:39] resonated with me because when
+[00:10:42] you're writing questions to
+[00:10:43] interviews like, what is
+[00:10:44] quality, you naturally end up
+[00:10:46] asking yourself, and to me,
+[00:10:49] quality is all about care.
+[00:10:52] So when I heard care connected
+[00:10:53] to quality not only from that
+[00:10:55] clip we just heard from Travis,
+[00:10:57] but it also came up in my
+[00:10:59] interview with Gary.
+[00:11:01] >> If it's quality, it's better
+[00:11:03] than something that's not
+[00:11:04] quality by virtue of someone
+[00:11:06] caring about it.
+[00:11:07] >> Right. I totally agree that
+[00:11:10] caring makes things better.
+[00:11:12] For example, I care about this
+[00:11:14] presentation, so, naturally,
+[00:11:16] it's just a little bit better
+[00:11:18] than if I didn't care about it
+[00:11:19] at all.
+[00:11:20] So now, I feel like we should
+[00:11:22] dig into, what is care?
+[00:11:26] Okay, we're going to stick with
+[00:11:27] a few interview clips from Gary
+[00:11:28] so you can hear more of the full
+[00:11:30] conversation.
+[00:11:32] So I asked him, "How would you
+[00:11:34] describe care?"
+[00:11:36] >> Just that someone, excuse my
+[00:11:40] French, gave a [beep].
+[00:11:44] >> [laughter] I'm not sure if
+[00:11:44] that's a WWDC first, but it's
+[00:11:46] simple.
+[00:11:47] I like it.
+[00:11:48] [laughs] Really, what he's
+[00:11:49] saying here is that care is a
+[00:11:52] motivator.
+[00:11:53] So how do you look at care in
+[00:11:56] design?
+[00:11:57] >> I look at it from 2 lenses of
+[00:12:00] care.
+[00:12:00] Did I care enough to make it the
+[00:12:02] best it could be?
+[00:12:02] But do I also care about what
+[00:12:04] your experience is?
+[00:12:06] Be it you.
+[00:12:07] Be it my mum.
+[00:12:08] Be it my next-door neighbor.
+[00:12:09] Be it anybody around the world.
+[00:12:11] You have to kind of, sort of
+[00:12:12] take yourself out of the
+[00:12:13] equation, put yourself in their
+[00:12:15] shoes so you can be sure that
+[00:12:17] their experience is a quality
+[00:12:18] experience.
+[00:12:19] So you have to care enough to do
+[00:12:20] that.
+[00:12:21] It's not just about caring about
+[00:12:22] your own sense of, "Oh, I like
+[00:12:25] my design, and I cared enough to
+[00:12:27] make it good for me."
+[00:12:28] It's about it being good for as
+[00:12:30] many people as possible or for
+[00:12:33] the target audience, if it
+[00:12:34] happens to be a more narrowly
+[00:12:35] focused thing.
+[00:12:38] >> Right. So when I heard this,
+[00:12:40] I was just, I wanted to know
+[00:12:41] how, immediately.
+[00:12:43] How do you design that
+[00:12:45] experience for others, and how
+[00:12:47] do you know when you've made
+[00:12:48] progress?
+[00:12:49] >> I think sometimes we look at
+[00:12:51] a tangled mess of problems that
+[00:12:53] we need to solve, and if, at the
+[00:12:55] end, you can look at the result
+[00:12:57] and go, that is so much better,
+[00:12:58] and if it came easy, it wouldn't
+[00:13:01] be as fun, but the fact that you
+[00:13:02] sweated over it, that you really
+[00:13:05] worked hard at it, that it gave
+[00:13:06] you sleepless nights, that you
+[00:13:08] poured late nights and weekends
+[00:13:10] into solving those problems,
+[00:13:12] combined effort, team effort,
+[00:13:14] the end result is so much more
+[00:13:16] satisfying.
+[00:13:18] I love it when we work hard and
+[00:13:20] get there more than when ideas
+[00:13:22] just come easily.
+[00:13:24] I worry that we've actually
+[00:13:25] missed something by not working
+[00:13:27] hard.
+[00:13:27] If it's too easy, we've become
+[00:13:29] complacent, and I don't think
+[00:13:31] you get anywhere rewarding
+[00:13:32] without doing hard work.
+[00:13:36] >> I really understood this
+[00:13:37] point about working hard after
+[00:13:40] Gary related this to mountain
+[00:13:42] biking.
+[00:13:44] We talked about this for a
+[00:13:45] while, so I'm just going to
+[00:13:46] summarize that conversation here
+[00:13:48] for you today.
+[00:13:49] Essentially, you have to work
+[00:13:51] really hard to get to the top of
+[00:13:53] the mountain, and then you can
+[00:13:55] have a ton of fun on the
+[00:13:56] descent.
+[00:13:57] Now, it's not as much fun if you
+[00:13:59] just started at the top and went
+[00:14:01] down because it's really all of
+[00:14:04] that time, and effort, and sweat
+[00:14:07] that brings you to the top of
+[00:14:08] the mountain that makes the view
+[00:14:10] all that more beautiful and
+[00:14:12] makes the ride down so much more
+[00:14:16] fun.
+[00:14:16] So in life, care naturally gives
+[00:14:21] more time and effort because you
+[00:14:24] have a passion to achieve your
+[00:14:25] goals, and you'll do whatever is
+[00:14:27] needed to meet your own
+[00:14:29] expectations.
+[00:14:30] And yeah, that's totally a lot
+[00:14:32] of work, but that hard work has
+[00:14:35] a payoff, and it's really
+[00:14:37] satisfying.
+[00:14:38] And the payoff, well, that's why
+[00:14:40] you did it in the first place,
+[00:14:41] right?
+[00:14:42] You have a goal, and you make it
+[00:14:45] happen.
+[00:14:45] That's just awesome.
+[00:14:47] So quality is all about care,
+[00:14:51] and because you care, you're
+[00:14:53] going to put in that time and
+[00:14:55] effort to make things great.
+[00:14:57] And that's just one answer to
+[00:15:00] the question, what is quality?
+[00:15:03] And because there are so many
+[00:15:05] different interpretations of
+[00:15:06] quality, well, that means it's
+[00:15:09] just really hard to achieve.
+[00:15:12] A little bit later, we're going
+[00:15:13] to get into some techniques to
+[00:15:15] hopefully help make the process
+[00:15:16] of designing a little bit
+[00:15:17] easier.
+[00:15:18] But for now, let's just recap
+[00:15:20] what we've learned.
+[00:15:21] So far, just by asking a few
+[00:15:25] simple questions, we've learned
+[00:15:27] that quality means something
+[00:15:29] different to different people,
+[00:15:32] that it's not random -- it is
+[00:15:34] crafted and considered.
+[00:15:37] Quality is the result of time,
+[00:15:40] effort, and care.
+[00:15:41] And it is just hard to achieve,
+[00:15:46] but that's okay.
+[00:15:49] Quality has many different
+[00:15:50] interpretations.
+[00:15:52] What is yours?
+[00:15:53] I think this is really important
+[00:15:56] to ask yourself, what is
+[00:15:58] quality, and what does it mean
+[00:15:59] to you, and what does it mean to
+[00:16:01] your app or game, because that's
+[00:16:03] going to reveal what you truly
+[00:16:05] care about, and that's going to
+[00:16:06] help you focus on what you're
+[00:16:08] working towards going forward.
+[00:16:10] So let's just pause here for a
+[00:16:13] moment, and we actually need to
+[00:16:15] go back a bit.
+[00:16:16] Why does quality matter in the
+[00:16:17] first place?
+[00:16:18] Why are we even talking about it
+[00:16:20] here at WWDC?
+[00:16:21] Well, what's the significance?
+[00:16:25] Let's just ask, why is quality
+[00:16:28] important?
+[00:16:30] >> Quality impacts the world
+[00:16:34] that we interact with in so many
+[00:16:36] different ways all the time
+[00:16:37] throughout our day.
+[00:16:39] >> Yeah. Travis is totally
+[00:16:41] right.
+[00:16:42] Throughout our day, there are
+[00:16:43] things that we eat, drink, wear,
+[00:16:47] I mean, even the air we breathe.
+[00:16:49] They all have some level of
+[00:16:50] quality that impacts us.
+[00:16:53] And we expect quality in our
+[00:16:55] friendships, in our family, in
+[00:16:57] our relationships.
+[00:16:59] We seek out people who show us
+[00:17:01] respect, who care about us and
+[00:17:03] make us feel good.
+[00:17:03] I mean, nobody keeps around
+[00:17:06] poor-quality friends.
+[00:17:08] We also expect quality from the
+[00:17:09] products that we use and the
+[00:17:11] things that we use every day.
+[00:17:13] We expect them not to break.
+[00:17:16] And if they do break, well, we
+[00:17:18] tend to think that they're cheap
+[00:17:19] and not well made, and we
+[00:17:22] typically won't buy them again.
+[00:17:25] So yeah, the concept of quality
+[00:17:28] impacts our every day, and it's
+[00:17:30] really in everything.
+[00:17:33] While it's really wide reaching
+[00:17:34] and broad, there seems to be
+[00:17:36] something so special about
+[00:17:39] quality, but what is it?
+[00:17:41] What makes quality special?
+[00:17:44] >> They say, like, oh, I cooked
+[00:17:46] this with love, and it can just
+[00:17:47] be eggs or whatever, but it does
+[00:17:50] taste different, and I think
+[00:17:52] Jessie and I like to think that
+[00:17:54] whatever we do, that sort of
+[00:17:56] love for what we're doing comes
+[00:17:57] through.
+[00:17:59] >> Right? I know these two
+[00:18:01] ladies absolutely love what they
+[00:18:02] do, and I know I can feel it
+[00:18:05] when someone really loves
+[00:18:07] something.
+[00:18:08] And to Elaine's first point, you
+[00:18:10] know, I think everyone here
+[00:18:11] knows that Mom and Dad's food
+[00:18:13] just tastes a little bit better
+[00:18:15] because it's made with that care
+[00:18:17] and love.
+[00:18:19] So what really Elaine means by
+[00:18:21] this is your intentions are
+[00:18:24] felt.
+[00:18:25] So if your intention is to
+[00:18:27] create something great and you
+[00:18:29] do everything you need to do to
+[00:18:31] achieve that, people are going
+[00:18:32] to know.
+[00:18:33] They're going to feel it.
+[00:18:35] And the reverse is true too.
+[00:18:37] You know, if you rushed and you
+[00:18:38] didn't really care about the
+[00:18:40] look of settings in your app UI,
+[00:18:42] well, it's going to impact the
+[00:18:44] overall feeling that people have
+[00:18:47] about your app.
+[00:18:50] So throughout the course of
+[00:18:52] conducting these interviews, I
+[00:18:53] started to see the word
+[00:18:55] "quality" everywhere, like
+[00:18:57] quality coffee or quality meats.
+[00:19:01] And even one night when I was
+[00:19:02] working really late, and I
+[00:19:03] ordered a pizza, and the pizza
+[00:19:05] box said, "Our commitment is
+[00:19:07] quality."
+[00:19:09] [laughs] So I see the word
+[00:19:11] everywhere now.
+[00:19:12] It's really pervasive, from
+[00:19:14] signs to badges, to labels.
+[00:19:17] So I brought this up in a few of
+[00:19:19] the interviews, not because I
+[00:19:21] wanted to know what people
+[00:19:22] thought of labeling, but,
+[00:19:23] instead, to ask, why do we tend
+[00:19:26] to be drawn towards things that
+[00:19:28] are quality?
+[00:19:31] >> Well, survival instinct at
+[00:19:34] its root.
+[00:19:35] On a more deep level, I guess,
+[00:19:36] why do we desire quality?
+[00:19:38] We desire quality because we
+[00:19:39] want to live.
+[00:19:41] And a good survival strategy for
+[00:19:44] living is to put things into our
+[00:19:47] body, to eat things, or to wear
+[00:19:50] things, or to drive in things,
+[00:19:52] or to live in things that are
+[00:19:54] safe and have been well
+[00:19:56] constructed so they aren't going
+[00:19:59] to cause us bodily harm.
+[00:20:01] And so I think purely on a
+[00:20:04] survival level, quality is a
+[00:20:07] very important concept for us.
+[00:20:08] It's a very important attribute
+[00:20:10] that we seek in everything.
+[00:20:14] >> Mike explained a bit further
+[00:20:16] during this interview.
+[00:20:17] We were talking about this
+[00:20:19] fictitious butcher shop, and if
+[00:20:22] we were in this shop, quality
+[00:20:24] would be communicated not only
+[00:20:25] by the products itself, but also
+[00:20:28] the shop being really clean and
+[00:20:30] interacting with the really nice
+[00:20:32] people that work there.
+[00:20:34] Every facet of the entire
+[00:20:36] experience would meet your
+[00:20:38] expectations, [laughs] and it
+[00:20:40] would also be connected to that
+[00:20:42] proposition of quality.
+[00:20:44] And that evokes trust.
+[00:20:49] Trust comes from products
+[00:20:51] upholding their promise, and
+[00:20:53] that quality experience is far
+[00:20:56] more important than any label
+[00:20:58] because I am definitely not
+[00:21:00] suggesting that you add a label
+[00:21:02] to your apps because you
+[00:21:04] [laughs] definitely don't need
+[00:21:06] to.
+[00:21:07] Every facet of your app
+[00:21:10] experience, from the screenshots
+[00:21:12] on the App Store to the
+[00:21:14] description, to how you respond
+[00:21:16] to customer reviews, all through
+[00:21:19] to your app's interface, these
+[00:21:21] experiences, these interactions
+[00:21:23] that you have with people, that
+[00:21:25] communicates the quality about
+[00:21:27] your app or your game.
+[00:21:29] And you don't want a label
+[00:21:31] anyway.
+[00:21:32] Why?
+[00:21:35] >> In a way, it's like saying
+[00:21:37] you're cool.
+[00:21:38] Like, being cool doesn't involve
+[00:21:41] saying you're cool.
+[00:21:43] [laughs] And, you know, you only
+[00:21:46] say that someone else is cool.
+[00:21:48] It's only something which can be
+[00:21:49] sort of determined by an outside
+[00:21:51] party, in a way.
+[00:21:53] And even then, there's a certain
+[00:21:56] context where it feels more
+[00:21:57] appropriate than others.
+[00:21:58] Like, if we're talking about
+[00:21:59] Thelonious Monk and we're just
+[00:22:01] talking about jazz in the '50's,
+[00:22:03] like, that's cool.
+[00:22:05] That's the birth of cool, right.
+[00:22:06] [laughs] That's where it's,
+[00:22:08] like, totally appropriate to use
+[00:22:10] that kind of term, but that's an
+[00:22:13] earned coolness.
+[00:22:15] And so quality has to be earned.
+[00:22:17] >> I think Mike makes a really
+[00:22:19] good point.
+[00:22:20] So the significance of quality
+[00:22:24] is massive.
+[00:22:25] As we heard, it impacts our
+[00:22:27] every day, it can be felt, and
+[00:22:30] it evokes trust in the people
+[00:22:32] that are using your app.
+[00:22:35] All right.
+[00:22:37] Now, everyone I talked to
+[00:22:39] throughout these interviews,
+[00:22:40] they all have a passion for
+[00:22:42] excellence, so we're going to
+[00:22:43] talk about four design
+[00:22:45] aspirations, and these four
+[00:22:47] aspirations really stood out to
+[00:22:49] me because, well, they seemed
+[00:22:51] just so incredibly elusive and
+[00:22:53] hard to achieve.
+[00:22:54] But these designers use them as
+[00:22:57] motivation to strive for quality
+[00:23:00] in their work, and these
+[00:23:01] aspirations are to design things
+[00:23:04] that are simple, stunning,
+[00:23:09] timeless, and leave a positive
+[00:23:12] impact on people's lives.
+[00:23:14] So we're going to dig into each
+[00:23:16] one of these to discover why
+[00:23:18] they're important and also how
+[00:23:20] they provide motivation to
+[00:23:22] create great design.
+[00:23:24] All right.
+[00:23:25] Let's start with simplicity.
+[00:23:27] This came up in response to this
+[00:23:30] question: What makes a great
+[00:23:33] app?
+[00:23:35] >> It's simple.
+[00:23:36] It doesn't try to do more than
+[00:23:38] it needs to do.
+[00:23:39] And what it does, it does it
+[00:23:41] really well.
+[00:23:41] >> I don't know about you, but I
+[00:23:44] have heard that a lot.
+[00:23:46] [laughs] So I'm sure you've
+[00:23:47] heard it before too.
+[00:23:49] But there's got to be a reason
+[00:23:51] why that phrase is on repeat,
+[00:23:53] and I was really thinking about
+[00:23:56] this after the interview.
+[00:23:57] You know, why should apps be
+[00:23:59] simple, and why is that a good
+[00:24:01] thing?
+[00:24:02] Well, it finally clicked for me
+[00:24:03] one day after work.
+[00:24:06] I got home, I needed to cook
+[00:24:08] some dinner, and I needed an app
+[00:24:10] to help me with a recipe, to not
+[00:24:11] make cooking any harder than it
+[00:24:13] already is.
+[00:24:14] And as soon as I was home, I
+[00:24:16] remembered that I needed to go
+[00:24:18] ahead and put, book pet care for
+[00:24:20] my two dogs because I'm going on
+[00:24:21] vacation after WWDC.
+[00:24:22] Aw, aren't they cute?
+[00:24:24] [laughs] Okay, we have to stop
+[00:24:28] before I get distracted.
+[00:24:29] We're talking about two tasks
+[00:24:31] here, cooking dinner and pet
+[00:24:34] care.
+[00:24:35] Why do the apps that help me
+[00:24:36] with those, why do they need to
+[00:24:38] be simple?
+[00:24:38] Well, it's because I don't go
+[00:24:41] into them all the time, so they
+[00:24:43] need to be instantly
+[00:24:44] understandable, as if I already
+[00:24:46] know how to use them.
+[00:24:47] So familiar navigation and
+[00:24:49] gestures really help with that.
+[00:24:51] You know, the goal is launch the
+[00:24:53] app, I totally get it, and I can
+[00:24:55] get the task done.
+[00:24:57] But why else should they be
+[00:24:58] simple?
+[00:25:00] Well, it could be a good day or
+[00:25:02] a bad day, but I'm using these
+[00:25:04] apps in real life, and that's
+[00:25:07] where all of my mental energy
+[00:25:08] should be, not wasted on a
+[00:25:10] confusing app UI, interaction,
+[00:25:13] or interface.
+[00:25:14] Apps should not be a burden, and
+[00:25:17] it's a lot easier to get back to
+[00:25:18] real life when they're simple.
+[00:25:21] So how would you describe
+[00:25:23] simplicity in apps and games?
+[00:25:25] >> It just has to work.
+[00:25:28] >> Right. It just has to work
+[00:25:31] for the people that are using
+[00:25:32] it.
+[00:25:32] But there's actually something
+[00:25:34] else here.
+[00:25:35] You don't want people to feel
+[00:25:36] distracted.
+[00:25:38] Simple, easy-to-understand apps
+[00:25:41] that just work, well, they help
+[00:25:43] keep people focused.
+[00:25:45] I know for me, I can get really
+[00:25:46] easily overwhelmed if
+[00:25:47] something's out of place.
+[00:25:49] It can just take me out of that
+[00:25:50] experience, and that makes
+[00:25:52] getting the task done even
+[00:25:53] harder.
+[00:25:54] I was actually talking to Jessie
+[00:25:56] about this, and I asked her,
+[00:25:59] what does she look for in great
+[00:26:01] apps?
+[00:26:01] >> Make my life feel a little
+[00:26:04] bit easier or make my life feel
+[00:26:06] a little bit nicer or more
+[00:26:08] luxurious.
+[00:26:09] >> I think that is just spot on.
+[00:26:12] Make my life feel a little bit
+[00:26:13] easier by being simple, focused,
+[00:26:18] instantly understandable, and
+[00:26:20] just do one thing really, really
+[00:26:22] well.
+[00:26:23] That is the goal.
+[00:26:25] All right, this next aspiration
+[00:26:29] is to be stunning, and this came
+[00:26:31] up when I was talking to
+[00:26:32] Caroline.
+[00:26:33] I asked her, "What communicates
+[00:26:36] great visual design?"
+[00:26:39] >> Just that polish.
+[00:26:42] Does it look great?
+[00:26:43] Does it look stunning?
+[00:26:45] And then, the other level of
+[00:26:46] polish, on a different kind of
+[00:26:48] app, like a game or something,
+[00:26:50] to me is making it feel
+[00:26:52] beautiful as an experience, like
+[00:26:54] it feels like a work of art.
+[00:26:57] >> Right, yes.
+[00:26:59] So we talked a little bit
+[00:27:00] further about this, and Caroline
+[00:27:02] explained that what she means by
+[00:27:04] polish is things lining up just
+[00:27:07] the way you intend them to be,
+[00:27:09] including how it feels.
+[00:27:10] You know, swipe animations
+[00:27:12] lining right up with those swipe
+[00:27:14] gestures.
+[00:27:15] And the best apps appear
+[00:27:17] visually perfect, and that is
+[00:27:18] just totally remarkable.
+[00:27:20] And she also mentioned games.
+[00:27:23] Games should absolutely aspire
+[00:27:25] to be stunning.
+[00:27:27] Games are a perfect escape from
+[00:27:29] this world into a different one.
+[00:27:32] And they accomplish this through
+[00:27:34] stunning, immersive visuals.
+[00:27:37] I mean, I love TV and movies,
+[00:27:39] but that's a really passive
+[00:27:41] escape.
+[00:27:42] In games, well, they're an
+[00:27:43] active one, and that's why I
+[00:27:45] love them.
+[00:27:46] But there is one essential thing
+[00:27:48] that all games must do.
+[00:27:50] They must teach you, the player,
+[00:27:53] the rules.
+[00:27:53] And this is really a first
+[00:27:56] impression that people have of a
+[00:27:57] lot of games, so it makes me
+[00:27:59] really sad when games make a bad
+[00:28:02] first impression because when
+[00:28:04] I'm trying to learn, well, the
+[00:28:06] rules feel slapped together,
+[00:28:09] added on last minute, or it just
+[00:28:11] doesn't feel a part of the
+[00:28:12] game's world.
+[00:28:13] So I decided to ask Sam, who's
+[00:28:16] working on an upcoming game
+[00:28:18] called Where Cards Fall, "How do
+[00:28:20] you learn the rules of the game
+[00:28:22] all while staying in the game's
+[00:28:24] world?"
+[00:28:24] >> With games in particular,
+[00:28:27] there's a real joy that can come
+[00:28:29] from discovering what they can
+[00:28:31] do and learning for yourself.
+[00:28:33] People tend to remember things
+[00:28:35] the best when they experience
+[00:28:37] them themselves, when they learn
+[00:28:38] them through some sort of active
+[00:28:40] discovery.
+[00:28:41] So if we give them too much at
+[00:28:43] the beginning, we're robbing
+[00:28:45] them of that chance to reward
+[00:28:47] their own curiosity.
+[00:28:48] So we always want to make sure
+[00:28:49] that they stay curious, that
+[00:28:51] they stay interested throughout
+[00:28:52] the entire experience, and that
+[00:28:55] they have a lot of different
+[00:28:56] moments where they can be
+[00:28:57] rewarded for trying something.
+[00:28:58] And when they try something and
+[00:29:00] they discover something for the
+[00:29:01] first time, they definitely
+[00:29:03] won't forget it.
+[00:29:03] But if we throw up like a
+[00:29:04] tooltip or some way of just
+[00:29:06] making sure that we as the game
+[00:29:08] designers are comfortable
+[00:29:09] knowing that they know
+[00:29:10] something, there's a pretty good
+[00:29:12] chance that they'll forget it
+[00:29:13] later on since they didn't go
+[00:29:14] through the process of learning
+[00:29:15] it themselves.
+[00:29:19] So when I go into a game for the
+[00:29:21] first time, I want to learn how
+[00:29:24] to navigate the world, if it
+[00:29:26] takes place in a world, as
+[00:29:29] quickly as possible or just how
+[00:29:30] to understand the rules of the
+[00:29:31] game as quickly as possible, but
+[00:29:34] not so quickly that I'm kind of
+[00:29:35] robbed of my curiosity to
+[00:29:37] explore them a little bit
+[00:29:38] further.
+[00:29:39] So I tend to get a sense for
+[00:29:42] what the game is, and if the
+[00:29:44] game continues to surprise me,
+[00:29:46] I'll make it through to the
+[00:29:48] finish line.
+[00:29:51] >> Wow, that was learning the
+[00:29:53] rules in Where Cards Fall, and
+[00:29:55] that definitely feels a part of
+[00:29:57] the game's world, and I think
+[00:29:59] everyone can learn from what Sam
+[00:30:01] said about active discovery.
+[00:30:03] And this is not just for games.
+[00:30:05] Active discovery is so much
+[00:30:07] better than reading tooltips or
+[00:30:09] chasing a pointing arrow, and to
+[00:30:12] Sam's point, being told isn't as
+[00:30:14] much fun or, frankly, effective
+[00:30:17] as discovering something for
+[00:30:19] yourself.
+[00:30:20] It's kind of like being told
+[00:30:22] about a vacation versus being on
+[00:30:24] that vacation yourself.
+[00:30:26] It's way more fun, and you're
+[00:30:28] just going to remember it better
+[00:30:29] if you actually go through that
+[00:30:31] experience.
+[00:30:33] So whether you're creating an
+[00:30:35] app or a game, aspire to be
+[00:30:38] stunning.
+[00:30:39] Create beautiful experiences,
+[00:30:41] polish your visual design so it
+[00:30:43] looks and feels just a part of
+[00:30:45] your app or game's world.
+[00:30:47] Okay, timeless.
+[00:30:51] This has been on my mind since
+[00:30:54] talking with Hugo, a sound
+[00:30:55] designer.
+[00:30:56] Most of you will recognize this.
+[00:31:00] [ Ringtone ]
+[00:31:10] I'm always looking for where
+[00:31:11] that phone is.
+[00:31:13] But what reminded me of this
+[00:31:14] ringtone was this part of the
+[00:31:17] interview.
+[00:31:18] >> If we create a ringtone for
+[00:31:24] the new iPhone, then we don't
+[00:31:27] want it to sound dated after a
+[00:31:28] year, of course.
+[00:31:29] It should still be a great
+[00:31:32] ringtone after 5 years, and
+[00:31:34] maybe people will still remember
+[00:31:35] it after 10 years.
+[00:31:37] >> It was actually this section
+[00:31:41] of the quote that really made me
+[00:31:43] think of timelessness.
+[00:31:46] You know, it makes sense for a
+[00:31:47] ringtone not to want to sound
+[00:31:49] dated, but this could also apply
+[00:31:51] to your visual and interaction
+[00:31:53] design too.
+[00:31:55] Hugo used this word "durability"
+[00:31:57] to describe quality during our
+[00:32:00] interview, and I think that's
+[00:32:01] really great.
+[00:32:03] If we all aspire to create
+[00:32:04] designs that are just a little
+[00:32:06] bit longer lasting, it not only
+[00:32:08] would save us time and effort
+[00:32:10] now, but it would put us into
+[00:32:12] the right mindset to provide
+[00:32:14] something that we create with
+[00:32:15] the opportunity to be timeless.
+[00:32:21] This final aspiration really had
+[00:32:23] an impact on me, and it came
+[00:32:25] from my colleague Doug when I
+[00:32:27] asked him, "What makes great app
+[00:32:29] experiences?"
+[00:32:32] >> When I think of, like, great
+[00:32:34] app experiences and things that
+[00:32:36] kind of provide something unique
+[00:32:38] and valuable to users, I think a
+[00:32:40] lot of it is the substantial
+[00:32:43] kind of positive effect that it
+[00:32:45] has on the user's life.
+[00:32:48] >> Doug, you nailed it.
+[00:32:51] Yes, absolutely, apps should
+[00:32:53] provide something unique and
+[00:32:54] valuable, but, actually, it was
+[00:32:57] this part, the positive effect,
+[00:32:59] that really resonated with me.
+[00:33:01] It made me reassess the apps and
+[00:33:03] games on my phone.
+[00:33:05] After this interview, I
+[00:33:06] literally scrolled through all
+[00:33:08] of my apps, and I thought, which
+[00:33:10] ones have a positive effect on
+[00:33:13] my life?
+[00:33:14] You know, wouldn't it be great
+[00:33:17] if life just had a little more
+[00:33:19] positivity?
+[00:33:21] So next time you design, strive
+[00:33:24] for simplicity because real life
+[00:33:26] if where we need to be spending
+[00:33:28] our energy.
+[00:33:29] Aspire to be stunning because we
+[00:33:32] all need a break from chaos, and
+[00:33:34] it's really nice to escape and
+[00:33:36] experience something beautiful.
+[00:33:38] Design to be timeless.
+[00:33:41] Think about how your designs can
+[00:33:43] be good now but also years from
+[00:33:45] now because we could all design
+[00:33:47] to be a little less trendy and
+[00:33:49] definitely more durable.
+[00:33:51] And finally, think about how you
+[00:33:54] could have a positive impact on
+[00:33:56] people's lives.
+[00:33:58] And, you know, this can manifest
+[00:33:59] itself in really different ways
+[00:34:01] depending on your app.
+[00:34:02] It could be maybe that
+[00:34:04] positivity is being really
+[00:34:05] accurate, or maybe it's just
+[00:34:07] being super entertaining.
+[00:34:09] Maybe it's just making someone's
+[00:34:10] life or day feel a little bit
+[00:34:13] easier.
+[00:34:13] I hope that you found some of
+[00:34:16] these thoughts to be as
+[00:34:17] inspiring as I did.
+[00:34:20] I'm sure you're thinking now,
+[00:34:21] though, well, sure, this has
+[00:34:22] been mildly inspiring and
+[00:34:24] somewhat educational, but what
+[00:34:26] can I do?
+[00:34:27] What can I actually take away
+[00:34:29] and apply to my work?
+[00:34:30] Well, I wanted to know that too.
+[00:34:33] After talking with so many
+[00:34:35] different people from different
+[00:34:36] backgrounds, I wanted to know
+[00:34:38] what they learned -- what they
+[00:34:40] learned on the job through their
+[00:34:42] experiences.
+[00:34:43] So through a series of
+[00:34:44] questions, I uncovered a few
+[00:34:46] tips and techniques that these
+[00:34:48] designers use regularly when
+[00:34:50] designing.
+[00:34:52] And something important to
+[00:34:53] mention about design before we
+[00:34:54] get started is, yes, design is
+[00:34:58] hard because nobody sets out to
+[00:35:01] create a bad app.
+[00:35:02] Making great designs is what we
+[00:35:04] all strive for, but let's be
+[00:35:07] honest.
+[00:35:08] We don't always achieve it, and
+[00:35:11] that's okay because we keep
+[00:35:12] trying and we learn a lot along
+[00:35:15] the way.
+[00:35:16] Okay, let's go ahead and hear
+[00:35:19] this first technique, and it
+[00:35:21] really surprised me.
+[00:35:22] It came up when I was talking
+[00:35:24] with Loic [phonetic], a type
+[00:35:25] designer, and I asked him, "What
+[00:35:27] helps you with your work?"
+[00:35:30] >> So in the case of type
+[00:35:32] design, for instance, we've
+[00:35:33] developed all kinds of little
+[00:35:35] drawing tricks.
+[00:35:36] In type design especially,
+[00:35:38] subjectiveness I feel can
+[00:35:41] [inaudible] even more than in
+[00:35:42] other aspects of design because
+[00:35:44] we go to the depth of how the
+[00:35:46] particular curve of, on the
+[00:35:48] shoulder of a lowercase m is,
+[00:35:50] for instance.
+[00:35:50] And we can have a 10-minute
+[00:35:52] discussion only on that.
+[00:35:55] But the difficult part is
+[00:35:56] describing what you see in words
+[00:35:59] that the other person is going
+[00:36:01] to understand the way you mean
+[00:36:03] it, and that's very difficult
+[00:36:05] when you're talking about shape.
+[00:36:06] But one way we started doing
+[00:36:08] that with some of my colleagues
+[00:36:10] was basically redrawing the
+[00:36:12] shape we're looking at with
+[00:36:14] exaggerated features, where we
+[00:36:16] basically kind of make a
+[00:36:18] caricature of what we are
+[00:36:19] seeing.
+[00:36:20] So if I'm pushing what I'm
+[00:36:22] seeing to the extreme of why I
+[00:36:25] find it ugly or uncomfortable,
+[00:36:28] it's because it feels like that
+[00:36:30] to me.
+[00:36:31] And through that drawing,
+[00:36:32] usually the other people can
+[00:36:33] start seeing that much more
+[00:36:36] toned down but existing feature
+[00:36:38] of the design that they weren't
+[00:36:40] necessarily perceiving before
+[00:36:41] because that's not what they
+[00:36:42] were looking at.
+[00:36:44] So it is about trying to make
+[00:36:46] people see the world through
+[00:36:48] your eyes and the other way
+[00:36:50] around, like gaining the ability
+[00:36:52] to see the world through their
+[00:36:53] eyes, so that you can then find
+[00:36:55] that third place that is
+[00:36:56] actually the joint gaze that you
+[00:37:00] have on the world.
+[00:37:02] And that's the, that I think to
+[00:37:04] me is the key of a successful
+[00:37:07] collaboration in design is
+[00:37:08] finding that place.
+[00:37:13] >> Wow. Before we even dig into
+[00:37:15] this technique, have you thought
+[00:37:17] about type design?
+[00:37:19] I mean, every single letter that
+[00:37:20] you text, and email, and that
+[00:37:22] you read, that's been designed,
+[00:37:25] and type designers care so much
+[00:37:27] about detail that they've
+[00:37:29] invented ways to communicate
+[00:37:31] about shape when there are no
+[00:37:33] words.
+[00:37:34] That's just so cool.
+[00:37:36] So to Loic's point, when you're
+[00:37:38] designing for others, it's
+[00:37:40] really necessary to see the
+[00:37:42] world through their eyes, and
+[00:37:44] this technique helps achieve
+[00:37:46] that.
+[00:37:46] So draw caricatures and ask
+[00:37:50] others to do the same.
+[00:37:52] It's really the importance of
+[00:37:53] putting yourself in others'
+[00:37:54] shoes because you can better
+[00:37:56] understand their world.
+[00:37:58] And this is a great tool for
+[00:37:59] communication if words are not
+[00:38:01] doing it, and it'll help you
+[00:38:03] understand what others are
+[00:38:04] seeing.
+[00:38:05] This next technique is going to
+[00:38:08] be unveiled through a story.
+[00:38:10] Actually, even better, a first
+[00:38:13] job story.
+[00:38:15] Because you learn a lot on your
+[00:38:17] first job, and they have a huge
+[00:38:19] impact.
+[00:38:20] So I asked my colleague Doug
+[00:38:22] what he learned at his first
+[00:38:24] design job.
+[00:38:25] >> One of the real kind of ahas
+[00:38:30] for me was a question that I got
+[00:38:33] at the Tech Museum from the Head
+[00:38:35] of Design that was essentially,
+[00:38:37] why is this good?
+[00:38:39] Why is this thing that you just
+[00:38:41] gave me good?
+[00:38:42] And, you know, my initial
+[00:38:45] reaction was, well, because I
+[00:38:47] think this will be easy for
+[00:38:49] people to do.
+[00:38:50] And, you know, he responded,
+[00:38:53] like, well, how do you know
+[00:38:54] that?
+[00:38:54] How do you know that this is
+[00:38:55] going to be easier than the way
+[00:38:57] that we do it now?
+[00:38:58] And I kind of realized that I
+[00:39:01] didn't know the answer to that.
+[00:39:03] And then, I realized what he was
+[00:39:05] really asking is, should we put
+[00:39:07] all of this energy into making
+[00:39:10] the changes that you're
+[00:39:11] suggesting?
+[00:39:13] How can we be sure that that's
+[00:39:14] the right thing to do?
+[00:39:15] And to answer that question, I
+[00:39:19] opened up -- it might have been
+[00:39:21] Microsoft Paint [laughs] -- and
+[00:39:23] I drew a picture, and I took it
+[00:39:27] out onto the museum floor, and
+[00:39:29] basically asked visitors to give
+[00:39:32] me their impression of what they
+[00:39:35] thought they should do based on
+[00:39:37] kind of how I had arranged
+[00:39:39] things on the screen.
+[00:39:41] >> So what Doug was talking
+[00:39:42] about here, and he went on to
+[00:39:44] explain, that it was this method
+[00:39:46] of prototyping that helped him
+[00:39:48] answer that question from his
+[00:39:50] boss.
+[00:39:51] Why should we put energy into
+[00:39:53] your idea?
+[00:39:54] So what Doug learned at his
+[00:39:56] first design job was that he
+[00:39:58] could not assume that his
+[00:40:00] designs were going to work.
+[00:40:01] And this actually also came up
+[00:40:03] in my conversation with Gary.
+[00:40:06] >> It wasn't just designed on
+[00:40:07] paper, implemented in code, and
+[00:40:10] sort of assumed that that was
+[00:40:13] going to work.
+[00:40:13] You can't just assume from your
+[00:40:15] own experience and through
+[00:40:18] chatting that something's going
+[00:40:19] to work.
+[00:40:20] You've really got to go out and
+[00:40:20] try it.
+[00:40:23] >> And I think this is the part
+[00:40:24] that's really important not to
+[00:40:25] overlook.
+[00:40:27] You know, in this case, we are
+[00:40:28] talking about trying designs in
+[00:40:30] context out in the real world to
+[00:40:32] vet solutions to problems, and
+[00:40:35] trying solutions is something
+[00:40:36] that Sam mentioned too.
+[00:40:39] >> One of our ethos's is to
+[00:40:42] solve a problem.
+[00:40:43] Put it in front of players and
+[00:40:45] see how they react.
+[00:40:46] See if they're learning what
+[00:40:47] they need to learn.
+[00:40:47] And if we need to do more, we'll
+[00:40:49] do more.
+[00:40:50] It's impossible to rush the
+[00:40:53] creative process of making a
+[00:40:55] game because so much of what's
+[00:40:57] special about the games that you
+[00:40:58] remember are decisions that seem
+[00:41:01] very obvious and very small but
+[00:41:03] take a really, really long time
+[00:41:05] to arrive at.
+[00:41:06] And you can't hire more people
+[00:41:08] to get there faster.
+[00:41:09] You just have to sit with it and
+[00:41:12] continue working on it until the
+[00:41:13] best solutions arise.
+[00:41:17] >> So Sam said something here
+[00:41:18] that I want to expand on.
+[00:41:21] More people are not going to fix
+[00:41:22] a creative problem.
+[00:41:24] Great artists are patient.
+[00:41:27] Sometimes you just get writer's
+[00:41:29] block and there's no amount of
+[00:41:30] conversation that's going to fix
+[00:41:32] it, so you have to wait and just
+[00:41:34] let that creative process
+[00:41:36] happen.
+[00:41:37] And that's okay.
+[00:41:38] It's a part of the process, and
+[00:41:41] sometimes that's exactly what is
+[00:41:42] needed to produce quality.
+[00:41:44] So the theme really from these
+[00:41:47] last 3 clips is to go out and
+[00:41:50] try your designs in context with
+[00:41:52] real people.
+[00:41:54] Show people prototypes and learn
+[00:41:55] from their feedback.
+[00:41:57] This is a really essential
+[00:41:58] technique to help work through
+[00:42:00] your design decisions.
+[00:42:01] So we can learn a lot from each
+[00:42:05] other, so I wanted to know what
+[00:42:07] advice would one designer give
+[00:42:09] to another designer.
+[00:42:11] >> Learn how to accept, and
+[00:42:14] sort, and prioritize the
+[00:42:16] feedback as it comes in, whether
+[00:42:17] it's from yourself or from
+[00:42:19] others.
+[00:42:19] You will learn so much more
+[00:42:21] quickly than if you are
+[00:42:22] defensive and you just, like,
+[00:42:23] buckle down.
+[00:42:26] >> I personally struggle with
+[00:42:27] this.
+[00:42:28] I can almost not help becoming
+[00:42:30] defensive when I hear feedback
+[00:42:32] on a project I'm working on.
+[00:42:33] It's like this instinctual
+[00:42:35] reaction, especially if I just
+[00:42:37] spent late nights and weekends
+[00:42:38] working on something.
+[00:42:41] But still, I know it's
+[00:42:43] important, but I wanted to know
+[00:42:46] why.
+[00:42:46] Again, why is it important to be
+[00:42:49] open to feedback?
+[00:42:52] >> I think there's also just a
+[00:42:53] reality, which is after you've
+[00:42:55] used your own work for some
+[00:42:57] amount of time, you naturally
+[00:42:58] develop some blind spots.
+[00:43:00] And that's where having a really
+[00:43:01] great, collaborative team and
+[00:43:03] people that you trust around you
+[00:43:04] to help critique your work is a
+[00:43:07] really important part of the
+[00:43:07] design process.
+[00:43:09] So you can get fresh eyes on
+[00:43:10] stuff and trust that people have
+[00:43:12] the good intentions and they're
+[00:43:13] going to be able to give you
+[00:43:14] great insights of how you can
+[00:43:16] improve.
+[00:43:17] >> Totally.
+[00:43:18] I've been there.
+[00:43:19] I've definitely been too close
+[00:43:21] on a project and lost sight of a
+[00:43:22] big picture or overlooked some
+[00:43:24] detail.
+[00:43:25] So by being open to feedback,
+[00:43:28] it's really easy then to have
+[00:43:30] someone else like your team or
+[00:43:32] somebody that you asked a
+[00:43:33] question to give you something,
+[00:43:35] some piece of information that
+[00:43:36] can help you improve your
+[00:43:37] designs.
+[00:43:39] And I really like that May-Li
+[00:43:40] said this word, "trust," to
+[00:43:42] trust the people around you.
+[00:43:44] So be open to feedback.
+[00:43:47] It makes everything better and
+[00:43:48] just ups the overall quality of
+[00:43:50] design in your work.
+[00:43:53] So this next technique is more
+[00:43:55] of a mindset, and it came up
+[00:43:57] when I asked Cas, who works on
+[00:43:59] platform patterns, "How do you
+[00:44:01] approach designing for so many
+[00:44:03] people?"
+[00:44:03] >> Knowing what you don't know,
+[00:44:08] in a way.
+[00:44:08] What I mean is that if you're
+[00:44:12] looking at these things or if
+[00:44:13] you're designing for these
+[00:44:14] things, obviously, you have
+[00:44:16] ideas and ways of using a
+[00:44:19] certain device or an app in your
+[00:44:20] own way, in your own
+[00:44:21] environment, in your own habits,
+[00:44:23] and you might know a little bit
+[00:44:24] about how your friends are using
+[00:44:26] it, or how you've seen other
+[00:44:27] people use it, or maybe feedback
+[00:44:29] you're getting, but it's a
+[00:44:30] really big world, and there's a
+[00:44:32] lot of people out there, and
+[00:44:34] they all have their own needs,
+[00:44:35] their own habits, their own way
+[00:44:38] of going through life.
+[00:44:39] And so you have to be very
+[00:44:40] mindful that how you think about
+[00:44:42] things or your opinions are not
+[00:44:43] always, first of all, correct
+[00:44:45] ones, nor the only ones.
+[00:44:49] >> I really like how Cas put
+[00:44:50] this at the beginning -- know
+[00:44:53] that you don't know.
+[00:44:54] And he also used this word
+[00:44:56] "modesty" through our
+[00:44:57] conversation.
+[00:44:58] To be unassuming when you're
+[00:45:00] designing for so many people.
+[00:45:03] And that is a really great
+[00:45:05] headspace to be in when you're
+[00:45:06] approaching design; to be modest
+[00:45:09] and to be mindful.
+[00:45:11] So how do you help keep people's
+[00:45:14] experiences top of mind when
+[00:45:16] you're designing?
+[00:45:17] >> So in many ways, I just have
+[00:45:19] to be skeptical and ask
+[00:45:21] questions if the idea in front
+[00:45:23] of me, is that going to work for
+[00:45:25] someone in a wheelchair, for
+[00:45:27] example?
+[00:45:27] Is that going to work for
+[00:45:28] someone that has never used this
+[00:45:33] app before?
+[00:45:33] Is it going to work for someone
+[00:45:36] coming from a PC to a Mac?
+[00:45:37] You just have to ask lots of
+[00:45:39] questions, and it can just start
+[00:45:41] people thinking about, oh, yeah,
+[00:45:43] did I care enough to consider
+[00:45:44] that aspect of it?
+[00:45:47] >> Right. So this may seem
+[00:45:49] really simple, but it's
+[00:45:51] important to ask questions,
+[00:45:54] especially from different
+[00:45:55] perspectives.
+[00:45:56] That's going to help you
+[00:45:57] maintain quality throughout your
+[00:45:58] work and keep those other
+[00:46:00] people's experiences in mind.
+[00:46:03] So design is a really
+[00:46:05] collaborative process, and
+[00:46:06] there's a lot that goes into
+[00:46:08] making collaboration work.
+[00:46:10] At one point or another, we're
+[00:46:12] all going to start on a new
+[00:46:13] project or a new team, so what
+[00:46:15] helps make that process a little
+[00:46:17] bit easier?
+[00:46:20] >> I always like to set
+[00:46:21] expectations upfront.
+[00:46:22] I just say, hey, this is how I
+[00:46:24] am.
+[00:46:25] This is how I work.
+[00:46:28] This is how I communicate.
+[00:46:29] How do you work?
+[00:46:30] How do you communicate?
+[00:46:31] What's your preferred method of
+[00:46:32] communication?
+[00:46:33] And by the way, here's the goals
+[00:46:36] that I think we are working
+[00:46:38] toward.
+[00:46:38] And here are the things that are
+[00:46:39] important to me.
+[00:46:40] And please share with me the
+[00:46:42] same for you.
+[00:46:43] And I'll always sort of say it
+[00:46:45] with a caveat like, "We're going
+[00:46:46] to get all this business out of
+[00:46:47] the way, and we're going to
+[00:46:48] speak very directly about it."
+[00:46:53] >> I know for me, talking about
+[00:46:55] communication can be awkward,
+[00:46:57] but after I tried this
+[00:46:59] technique, I learned that it
+[00:47:00] helps avoid so much drama and
+[00:47:03] confusion.
+[00:47:04] So talk about communication,
+[00:47:07] especially if you're working on
+[00:47:08] teams.
+[00:47:09] Work towards the same goal about
+[00:47:11] creating something great.
+[00:47:14] So really, these six techniques
+[00:47:16] are all about caring about the
+[00:47:18] other people and having tools to
+[00:47:20] talk about it, and you have to
+[00:47:22] care about other people and put
+[00:47:24] yourself second.
+[00:47:25] Be mindful of their lives and be
+[00:47:27] modest about your own because we
+[00:47:29] just learned you can't assume.
+[00:47:31] You have to go out and try your
+[00:47:33] designs through prototyping and
+[00:47:35] also really remain open to
+[00:47:36] feedback.
+[00:47:37] That's essential to making
+[00:47:39] progress in design because, as
+[00:47:42] May-Li said, we all develop
+[00:47:44] blind spots, and we're not only
+[00:47:47] designing to make progress, but
+[00:47:50] we want to get closer to
+[00:47:51] reaching our own aspirations and
+[00:47:52] our own goals.
+[00:47:54] So these techniques are used by
+[00:47:57] real designers that I talked to,
+[00:47:59] and they help them go through
+[00:48:00] the process of designing, and it
+[00:48:02] makes their days a little bit
+[00:48:03] easier, so I hope they can help
+[00:48:06] you too.
+[00:48:07] So after all of these
+[00:48:09] interviews, I learned that
+[00:48:12] quality is the result of time,
+[00:48:15] effort, and care.
+[00:48:17] It's considered, it's crafted,
+[00:48:19] and it means something different
+[00:48:21] to different people.
+[00:48:23] I also learned that quality
+[00:48:24] impacts our every day, that your
+[00:48:27] intentions are truly felt.
+[00:48:29] High quality evokes trust, and
+[00:48:32] that's really important, as well
+[00:48:34] as it has to be earned.
+[00:48:36] It's also important to strive
+[00:48:38] for simplicity, to aspire to be
+[00:48:41] stunning, and design to be
+[00:48:43] timeless.
+[00:48:44] Just think about how your app or
+[00:48:45] game can have a positive impact
+[00:48:47] on people's lives.
+[00:48:49] And finally, working towards
+[00:48:51] quality is all about
+[00:48:53] communication, collaboration,
+[00:48:55] and understanding, especially
+[00:48:57] understanding the people you are
+[00:48:58] designing for.
+[00:49:00] So really, quality is a
+[00:49:02] principle.
+[00:49:03] It is intentional, and it's
+[00:49:06] something that you have to ask
+[00:49:07] yourself, what does quality mean
+[00:49:09] to you?
+[00:49:10] And you need to know your
+[00:49:11] interpretation to go forward, to
+[00:49:14] put in that hard work that meets
+[00:49:16] your expectations and hits your
+[00:49:18] aspirations because, at the end
+[00:49:21] of the day, you're not designing
+[00:49:23] for you.
+[00:49:24] You're designing for other
+[00:49:25] people who are going to use your
+[00:49:27] app or your game.
+[00:49:29] So make great designs for them.
+[00:49:32] Now, there are two important
+[00:49:34] statements on quality in great
+[00:49:35] design that stand alone.
+[00:49:38] These are going to play back to
+[00:49:39] back, and I hope each offers
+[00:49:41] something different that you can
+[00:49:42] take away from today.
+[00:49:45] >> Sensing the human behind the
+[00:49:49] experience I think is really an
+[00:49:52] earmark of something great.
+[00:49:58] >> A great design is going to be
+[00:50:01] the product of tremendous amount
+[00:50:02] of effort, and creativity, and
+[00:50:04] skill, and [laughs] late nights.
+[00:50:07] It's going to seem effortless,
+[00:50:10] and it should hopefully recede
+[00:50:12] in people's consciousness.
+[00:50:14] And in a way, I think you're
+[00:50:16] very aware of an interface which
+[00:50:18] has been poorly designed, and
+[00:50:20] you're not at all aware of an
+[00:50:21] interface which has been well
+[00:50:23] designed.
+[00:50:28] >> So I talked to a lot of
+[00:50:29] people, and I saved something
+[00:50:31] special just for the end.
+[00:50:34] Since I had the opportunity to
+[00:50:35] talk to so many different
+[00:50:37] designers, I had to ask them onw
+[00:50:39] final question, and it's
+[00:50:40] something that I've always
+[00:50:42] wanted, wondered myself: What
+[00:50:45] are designers' favorite colors?
+[00:50:50] >> Oh, wow.
+[00:50:52] >> My favorite color?
+[00:50:53] >> I have to say--
+[00:50:55] >> Is there such a thing?
+[00:50:57] I don't think so.
+[00:50:58] >> I would have said glitter,
+[00:51:00] but it's not a color.
+[00:51:01] >> One of the things that I
+[00:51:02] really love is Tahitian blue.
+[00:51:04] >> But colors to me are like
+[00:51:06] moods, and I do not have the
+[00:51:09] same mood every day.
+[00:51:09] I don't think I even have the
+[00:51:10] same mood every hour, so.
+[00:51:12] >> I really like white.
+[00:51:14] Is it really a color?
+[00:51:15] I think that's one of the
+[00:51:16] reasons why I like it.
+[00:51:17] >> My favorite color has been
+[00:51:18] amber.
+[00:51:19] >> I mean, lately, it's been
+[00:51:20] green for some reason.
+[00:51:22] I don't know why.
+[00:51:23] >> I got to go back on this
+[00:51:25] answer.
+[00:51:26] Oh, it's actually Pantone 347.
+[00:51:29] >> My favorite color is blue.
+[00:51:31] >> Like a happy blue, and blue
+[00:51:33] is, like, always such a color of
+[00:51:35] responsibility, which is, like,
+[00:51:37] so me.
+[00:51:38] >> But I just think it's, like,
+[00:51:39] soft and friendly.
+[00:51:42] And food that's pink tastes
+[00:51:44] good.
+[00:51:45] >> I'm going to go with red.
+[00:51:46] >> Throw out a hex value.
+[00:51:47] I don't have a favorite color.
+[00:51:49] Every color's great.
+[00:51:50] >> [laughs] All right, maybe
+[00:51:53] I'll just answer for this moment
+[00:51:55] in time.
+[00:51:56] >> I don't wear any green.
+[00:51:58] My car's not green.
+[00:52:00] But I just like the idea of
+[00:52:04] green.
+[00:52:05] >> And I can't pick one because
+[00:52:08] I wouldn't be able to pick a
+[00:52:09] single musical note, so I'll use
+[00:52:12] all of them where it makes
+[00:52:14] sense.
+[00:52:15] >> I'll need to check the spec
+[00:52:17] on that, I think.
+[00:52:19] System blue, of course.
+[00:52:20] Yeah.
+[00:52:26] >> Special thanks to everyone
+[00:52:27] who participated in these
+[00:52:28] interviews.
+[00:52:29] Thank you all so much.
+[00:52:30] Have a great WWDC.

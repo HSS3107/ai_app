@@ -1,0 +1,26 @@
+### Content Map for "How I Design Beautiful Websites (Without Being a Designer)"
+
+#### Section 1: Intro
+- **Timestamp Range:** [00:00:00-00:00:30]
+- **Title/Topic:** Introduction and Overview
+- **Description:** The host introduces the video and shares the struggle of finding design inspiration. They mention the importance of resources for building clean and user-friendly websites.
+
+#### Section 2: Design Fundamentals For Developers
+- **Timestamp Range:** [00:00:30-00:02:40]
+- **Title/Topic:** Essential Design Principles
+- **Description:** The host discusses critical design elements: fonts, colors, and spacing. They provide examples of font pairing (Gist and Thunder) and emphasize the significance of spacing for readability. A real-life example of color impact on design is shared, illustrating the transition from a cluttered design to a professional look.
+- **Key Quote:** "Designing without consideration for spacing is like trying to write a book with no paragraphs."
+
+#### Section 3: My Favorite Sites
+- **Timestamp Range:** [00:02:40-00:05:55]
+- **Title/Topic:** Design Inspiration Resources
+- **Description:** The host shares their favorite resources for design inspiration, including Dribbble, Codrops, BentoGrids, and UncoverLab. Each resource is briefly described, highlighting its strengths and how it has been used in the host's projects.
+- **Key Quote:** "If you're a developer and you struggle with design... challenge yourself to build something you have seen on Dribbble or on BentoGrids."
+
+#### Section 4: Encouragement and Takeaway
+- **Timestamp Range:** [00:05:55-00:07:11]
+- **Title/Topic:** Motivation for Developers
+- **Description:** The host encourages developers to replicate designs they admire and utilize resources available online. They emphasize that anyone can build beautiful websites with practice and the right tools. The video concludes with a call to action for viewers to like and subscribe.
+- **Key Quote:** "All the resources you need are out there... you can." 
+
+This content map effectively summarizes the topics, timestamps, and key points of the video, providing a clear overview of its structure and content.

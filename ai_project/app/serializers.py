@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import User
+from .models import ChatSession
 
 class UserSerializer(serializers.ModelSerializer):
     """
@@ -21,3 +22,14 @@ class UserSerializer(serializers.ModelSerializer):
 
 # Add any other serializers your app needs here
 # Serializers help convert complex data types (like Django models) to Python datatypes that can then be easily rendered into JSON
+
+
+
+class ChatSessionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ChatSession
+        fields = ['id', 'question', 'answer', 'created_at', 'session_identifier', 
+                 'video_title', 'video_id', 'content_map']
+        read_only_fields = ['id', 'created_at']
+        
+

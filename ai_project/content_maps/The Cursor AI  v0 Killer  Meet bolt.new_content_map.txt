@@ -1,0 +1,21 @@
+**Content Map: The Cursor AI & v0 Killer | Meet bolt.new**
+
+1. **[00:00:00-00:01:44] Introduction to Bolt.new**
+   - **Description**: The presenter shares excitement about discovering Bolt.new, claiming it could be a competitor to v0 and Cursor AI. They discuss its capabilities, including code generation, editing, and one-click deployment to Netlify.
+   - **Key Quote**: "I'm being sincere when I say this could be the vzer cursor AI killer."
+
+2. **[00:01:45-00:02:38] Website Building Demonstration**
+   - **Description**: The presenter initiates the process of building a website for a car detailing business using Next.js and discusses the automatic creation of pages (Services and About) by Bolt.new.
+   - **Key Quote**: "It made a Services page I didn’t ask for that."
+
+3. **[00:02:39-00:03:00] Implementing External Packages**
+   - **Description**: The presenter explains the ability of Bolt.new to install external packages and demonstrates this by attempting to add a confetti effect to the services page.
+   - **Key Quote**: "This is where this shines... it installs external packages and implements them."
+
+4. **[00:03:01-00:04:06] Testing and Deployment**
+   - **Description**: The presenter successfully tests the confetti feature after Bolt.new installs the canvas confetti package. They highlight the ease of deployment to Netlify and the website’s functionality.
+   - **Key Quote**: "My website is live... confetti works."
+
+5. **[00:04:07-00:04:30] Conclusion and Call to Action**
+   - **Description**: The presenter wraps up by encouraging viewers to try Bolt.new, expressing the platform's potential for rapid website development, and invites viewers to like, comment, and subscribe.
+   - **Key Quote**: "This is the future, take part in it."

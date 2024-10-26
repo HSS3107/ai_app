@@ -1,0 +1,128 @@
+Title: The Cursor AI & v0 Killer | Meet bolt.new
+Channel: Ras Mic
+Published: 2024-10-04T19:36:25Z
+Duration: PT4M30S
+Description: I'm not joking when I say this is a combo between v0 + claude + cursor + replit. Check it out and let me know what you think.
+
+Check it out: https://bolt.new/
+ 
+Follow me on Twitter: https://dub.sh/ras-twitter
+Join my Discord: https://dub.sh/discord-rasmic
+
+My portfolio: https://rasmic.xyz
+My Nextjs SAAS Starter Kit: https://starter.rasmic.xyz
+My Blog Builder & CMS: https://tsafi.xyz
+
+Browser I use (Arc): https://dub.sh/my-browser
+Recording & Editing Software:  https://dub.sh/my-editing
+
+Transcript:
+
+[00:00:00] so I stayed up late last night because I
+[00:00:02] discovered bolt. new and I'm being
+[00:00:04] sincere when I say this could be the
+[00:00:06] vzer cursor AI killer and here's a
+[00:00:08] reason why and what better way to
+[00:00:10] explain it than to actually PRT it and
+[00:00:12] see what it does so build me a website
+[00:00:18] for my um car
+[00:00:22] detailing business in NEX
+[00:00:25] js14 app router now while this is
+[00:00:29] cooking a couple things that are
+[00:00:30] exciting about bolt is it's just like
+[00:00:32] vzer in a sense where it's trained on
+[00:00:35] best practices of nextjs it's trained on
+[00:00:37] shaty Andi but then it's also like
+[00:00:40] cursor AI where I have an editor where I
+[00:00:43] can edit the code myself but I also get
+[00:00:45] code generation and last but not least
+[00:00:48] it's like repet where I can oneclick
+[00:00:49] deploy and this deploys to netlify which
+[00:00:52] is a great hosting provider but here is
+[00:00:56] the amazing part and this is what blew
+[00:00:58] me away if you're trying to build a
+[00:01:00] feature or something that in requires
+[00:01:03] external packages it can be pretty hard
+[00:01:05] with uh different AI models and the
+[00:01:07] different services but bolt will find
+[00:01:11] packages external packages install them
+[00:01:15] and Implement them correctly in your
+[00:01:17] code base I'm talking n out of 10 times
+[00:01:20] it did it perfectly for me and that's
+[00:01:22] what blew me away this is what cognition
+[00:01:25] AI wants to be where this does your uh
+[00:01:30] does what VZ does does what cursor does
+[00:01:33] does what repet does but also combines
+[00:01:35] all of that cohesively in a great
+[00:01:38] environment and mind you I don't even
+[00:01:39] think these guys have VC funding yet
+[00:01:41] imagine when they get millions of
+[00:01:42] dollars how amazing this platform is
+[00:01:44] going to be so I was super excited and
+[00:01:47] this is why I had to record this video
+[00:01:49] so the site is done we see a couple
+[00:01:52] things have been done couple Pages have
+[00:01:54] been
+[00:01:55] made let's look at what it's built for
+[00:01:58] us first site here let's click on
+[00:02:03] Services okay it made a Services page I
+[00:02:06] didn't ask for that let's click on about
+[00:02:08] it made an about page I didn't ask for
+[00:02:10] that and then it has that next year
+[00:02:11] snappiness if I click on home you can
+[00:02:13] see that light mode works all right so
+[00:02:17] this is what I'm going to do I'm going
+[00:02:18] to say when I click on our
+[00:02:24] services do not route me to the services
+[00:02:29] page
+[00:02:30] but please rain confetti now the reason
+[00:02:35] why I'm doing this is I want to show you
+[00:02:37] how it installs external packages and
+[00:02:41] implements them uh within the code base
+[00:02:43] and I think that's where this shines and
+[00:02:46] as always I don't think this is going to
+[00:02:47] replace developers but my fellow
+[00:02:48] developers I hope you prototype using
+[00:02:51] this this I can see it being fantastic
+[00:02:54] now I'm glad this happens sometimes it
+[00:02:56] poops on you you just got to hit send
+[00:02:58] again and let's let's see what it
+[00:03:04] does so it's going to install a package
+[00:03:06] called canvas confetti um I would have
+[00:03:09] done react confetti but I'm pretty sure
+[00:03:11] canvas confetti is just as good let's
+[00:03:12] see how this works so my page is live I
+[00:03:15] know it's says there's a problem here
+[00:03:16] and I can click fix problem but I just
+[00:03:18] want to see if it got this right so I'm
+[00:03:20] going to click on our
+[00:03:21] services and look at that it downloaded
+[00:03:24] an external package made it work with my
+[00:03:27] existing code codebase and here's the
+[00:03:30] best part of it all I can click deploy
+[00:03:32] and this will deploy to netlify which if
+[00:03:35] I may add is a great hosting provider
+[00:03:37] okay so it looks like the build and the
+[00:03:39] deployment was done my website is live
+[00:03:42] here so I'm going to click on this link
+[00:03:44] right now and if I click on our services
+[00:03:47] confetti works if I click on Services
+[00:03:49] about look how Snappy that is light mode
+[00:03:53] it all works and this was what two
+[00:03:55] prompts three prompts you can make this
+[00:03:57] site way better you can make this um you
+[00:04:00] know fancy you can add animations I just
+[00:04:02] wanted to share bolt. new with you guys
+[00:04:05] so you guys can start playing with it
+[00:04:06] right away if I had a couple more
+[00:04:08] prompts I could make this site look so
+[00:04:11] amazing and have it deployed in minutes
+[00:04:14] this is the future take part in it I
+[00:04:16] hope you enjoy this video I hope you
+[00:04:18] enjoy Balta do new thank you so much for
+[00:04:20] watching this video hope you like
+[00:04:21] comment subscribe hit the notification
+[00:04:22] Bell and I'll see you guys in the next
+[00:04:24] one and the next one is going to be a
+[00:04:25] banger tutorial so I hope you're
+[00:04:27] subscribed peace

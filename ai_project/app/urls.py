@@ -1,14 +1,16 @@
 from django.urls import path
 from . import views
 from rest_framework_simplejwt.views import TokenRefreshView
+from django.contrib import admin
+from django.urls import path
+from . import views
+
+from .views import RegisterView, LoginView, TranscriptAnalysisView, QueryView, ChatSessionView
 
 urlpatterns = [
-    path('', views.HomeView.as_view(), name='home'),
     path('register/', views.RegisterView.as_view(), name='register'),
     path('login/', views.LoginView.as_view(), name='login'),
-    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('analyze-transcript/', views.TranscriptAnalysisView.as_view(), name='analyze-transcript'),
     path('query/', views.QueryView.as_view(), name='query'),
-    # path('login-page/', views.login_page, name='login-page'),
-    # path('register-page/', views.register_page, name='register-page'),
+    path('chat-sessions/', ChatSessionView.as_view(), name='chat_sessions'),  # New endpoint
 ]

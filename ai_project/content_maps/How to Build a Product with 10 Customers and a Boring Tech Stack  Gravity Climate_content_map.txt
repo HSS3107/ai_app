@@ -1,0 +1,28 @@
+**Content Map: How to Build a Product with 10 Customers and a Boring Tech Stack | Gravity Climate**
+
+1. **[00:00:00-00:04:20] Introduction and Background**
+   - **Title/Topic:** Introduction to Gravity Climate
+   - **Description:** Saleh and Ted introduce themselves and discuss their backgrounds in tech and startups. They outline the challenge of measuring carbon footprints and their approach to testing with a minimal code base.
+   - **Key Quotes:** "Why is measuring carbon footprints so hard?" (Saleh), "Hypothesis testing was key; we learned so much from those early conversations." (Ted)
+
+2. **[00:04:20-00:07:00] Importance of Real Customers**
+   - **Title/Topic:** Engaging Real Customers
+   - **Description:** Discussion on the significance of having real customers, focusing on their specific needs, and how direct feedback informed feature development.
+   - **Key Quotes:** "With just 10 customers, we could focus on their specific needs and pain points." (Saleh), "This direct feedback loop was invaluable." (Ted)
+
+3. **[00:07:00-00:10:30] Tech Stack Decisions**
+   - **Title/Topic:** Choosing a Boring Tech Stack
+   - **Description:** Saleh and Ted explain their choice of simple, reliable technologies over cutting-edge tools, emphasizing stability and ease of use.
+   - **Key Quotes:** "It's not about the tools; it's about the problems you’re solving." (Ted), "Experimenting with powerful new databases is a luxury for people who have more time and money to burn." (Saleh)
+
+4. **[00:10:30-00:12:53] Growth and Future Outlook**
+   - **Title/Topic:** Growth and Future Plans
+   - **Description:** The speakers share insights on their growth trajectory, encouraging entrepreneurs to prioritize real customer feedback and insights for future growth.
+   - **Key Quotes:** "We've seen our user base grow two to three times annually since we started." (Ted), "Don’t hesitate to reach out if you have any questions or want to connect with us!" (Saleh)
+
+5. **[00:12:53-00:13:06] Conclusion**
+   - **Title/Topic:** Closing Remarks
+   - **Description:** Final thoughts on the ongoing journey of entrepreneurship and the importance of continuing to adapt and learn.
+   - **Key Quotes:** "The journey of entrepreneurship is always evolving." (Ted)
+
+**Note:** The timestamps and sections cover the entire duration of the video, ensuring a complete content map.

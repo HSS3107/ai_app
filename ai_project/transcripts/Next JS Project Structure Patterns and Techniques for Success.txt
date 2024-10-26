@@ -1,0 +1,294 @@
+Title: Next JS Project Structure: Patterns and Techniques for Success
+Channel: Code Ryan
+Published: 2023-08-30T12:00:21Z
+Duration: PT11M23S
+Description: In this in-depth video tutorial, we dive into the world of Next JS project structure and explore best practices for building robust and scalable web applications. Whether you're a beginner or an experienced developer, understanding how to organize your Next JS projects effectively is crucial for code maintainability, collaboration, and performance optimization.
+
+Join us as we demystify the complexities of Next JS project structure and provide you with practical insights, tips, and techniques to streamline your development process. From choosing the right folder structure to architecting components, this video covers it all.
+
+Transcript:
+
+[00:00:00] if you're anything like me you might see
+[00:00:01] a video on next.js Project structure and
+[00:00:04] think to yourself
+[00:00:05] boring next video and I get that it's
+[00:00:09] not the most exciting thing in the world
+[00:00:11] and it's one of those things that I
+[00:00:14] would rather be like developing features
+[00:00:15] learning how that works and moving
+[00:00:17] forward with that but if you're wanting
+[00:00:19] to build professional next.js
+[00:00:21] applications I think that it is
+[00:00:22] important to consider how you are
+[00:00:25] structuring different folders and files
+[00:00:27] within your overall application so
+[00:00:30] that's what this video is going to cover
+[00:00:31] I'm not going to like mess around it
+[00:00:33] drag this video on super long but I'm
+[00:00:35] going to show you some different things
+[00:00:36] within xjs that you can use for your
+[00:00:39] project structure and maybe some
+[00:00:41] different strategies that you can use
+[00:00:42] that kind of makes sense to me so here
+[00:00:44] in redox you can see right here that
+[00:00:47] nexjs is unopinionated about how you
+[00:00:50] kind of organize and they say co-locate
+[00:00:54] project files I think they're being a
+[00:00:56] little bit fancy here where you put your
+[00:00:58] project files is probably what I would
+[00:00:59] have said but they give you some kind of
+[00:01:01] different things to consider when
+[00:01:04] organizing your next project so they say
+[00:01:07] safe co-location by default and
+[00:01:10] my interpretation of this is co-location
+[00:01:13] is effectively if you have a certain
+[00:01:15] page say you have a dashboard page well
+[00:01:18] you could create all of your components
+[00:01:20] that you use for that dashboard page all
+[00:01:23] within your kind of dashboard folder so
+[00:01:25] your all of your code that you use for
+[00:01:28] your dashboard is right there within
+[00:01:30] that dashboard folder it's all kind of
+[00:01:32] co-located together
+[00:01:34] so you have safe co-location by default
+[00:01:36] and what they mean by this is that
+[00:01:39] while each folder in next.js it
+[00:01:44] can potentially represent something so
+[00:01:47] if you have a dashboard folder and you
+[00:01:49] create a page.js file within that folder
+[00:01:52] you are creating a public route for your
+[00:01:55] forward slash dashboard
+[00:01:57] and similar when you create a route.js
+[00:02:00] file within your dashboard folder you're
+[00:02:02] creating a publicly accessible route
+[00:02:05] however you can create folders that
+[00:02:08] don't contain a page.js or route.js file
+[00:02:12] and those aren't going to be publicly
+[00:02:14] accessible meaning you can still use
+[00:02:16] those folders to co-locate different
+[00:02:18] components or different application code
+[00:02:21] without necessarily needing to worry
+[00:02:24] about those being publicly accessible
+[00:02:26] and that's what it says here even though
+[00:02:28] route structure is defined to folders a
+[00:02:30] route is not publicly accessible until
+[00:02:32] page.js or route.js file is added to a
+[00:02:36] new route segment so here they create a
+[00:02:39] dashboard folder a settings folder an
+[00:02:41] API folder but they never add a page.js
+[00:02:44] or rob.js file to these folders so they
+[00:02:46] don't make these actually publicly
+[00:02:49] accessible and they go on to say even
+[00:02:51] when a route is made publicly accessible
+[00:02:54] only the content returned by h.js or
+[00:02:57] route.js is sent to your client which is
+[00:03:01] a nice feature of next.js and what this
+[00:03:03] means is that project files can be
+[00:03:05] safely co-located inside route segments
+[00:03:08] in the app directory without
+[00:03:09] accidentally being routable so like you
+[00:03:13] wouldn't want to create a components
+[00:03:16] folder and actually create a route in
+[00:03:18] your application called forward slash
+[00:03:19] components for most apps that probably
+[00:03:22] wouldn't make a ton of sense so
+[00:03:25] here they show an example of they create
+[00:03:27] a components folder and they have a
+[00:03:29] button.js file within this components
+[00:03:31] folder but that's not routable because
+[00:03:34] they are actually creating a page.js
+[00:03:37] file or a route.js file within their
+[00:03:41] components folder now within their
+[00:03:44] dashboard folder they create page.js so
+[00:03:47] that does create a route at forward
+[00:03:48] slash dashboard but they create a nav.js
+[00:03:52] file within their dashboard folder but
+[00:03:55] that's not routable because it's for one
+[00:03:59] not a folder with a page.js or raw.js
+[00:04:01] file only the code returned from the
+[00:04:04] page.js file is sent to your client so
+[00:04:07] if you wanted to use like some
+[00:04:09] navigation page or a navigation sidebar
+[00:04:13] and it was just for your dashboard and
+[00:04:14] you wanted to co-locate that within your
+[00:04:17] dashboard folder well you're you're fine
+[00:04:19] to create a nav.js within your dashboard
+[00:04:21] folder that's not going to be sent to
+[00:04:23] the to the client only the code returned
+[00:04:25] by your page.js is going to be sent to
+[00:04:28] the client so you're not going to
+[00:04:29] accidentally create a you know dashboard
+[00:04:31] forward slash nav to do that but if you
+[00:04:34] did want to do that then you would just
+[00:04:35] create a nav folder within your
+[00:04:37] dashboard folder with a page.js file and
+[00:04:40] they do a similar thing within the API
+[00:04:41] folder they create a route.js file
+[00:04:43] within the API folder which is publicly
+[00:04:46] routable because it's a route.js file
+[00:04:48] but they also created db.js file within
+[00:04:52] the API folder but that is not routable
+[00:04:54] because it's not a route.js file so
+[00:04:57] they're kind of file conventions allow
+[00:05:00] you to
+[00:05:02] kind of co-locate some data depending on
+[00:05:05] however you kind of want to do it now
+[00:05:07] like I said earlier they do provide some
+[00:05:09] different kind of features that can be
+[00:05:11] useful for you so you can actually
+[00:05:13] create private folders Within next.js by
+[00:05:16] prefixing the folder with an underscore
+[00:05:18] so underscore folder name and what this
+[00:05:21] does is the folder is a private
+[00:05:24] implementation detail and should not be
+[00:05:26] considered by the routing system thereby
+[00:05:28] opting the folder in all its subfolders
+[00:05:30] out of routing so
+[00:05:33] in this example here if they created a
+[00:05:36] underscore lib folder and they created a
+[00:05:40] page.js file which would normally be
+[00:05:42] publicly accessible well
+[00:05:45] since they prefixed this with an
+[00:05:46] underscore that's making this a lib
+[00:05:49] folder and all of its subfolders not
+[00:05:53] publicly accessible so it's making this
+[00:05:55] page.js file within underscore lib it's
+[00:05:59] not routable you can't actually access
+[00:06:01] this page.js file okay so they give you
+[00:06:04] the ability to add underscores in front
+[00:06:07] of Fuller's names to make those private
+[00:06:08] and even if you add a page.js or
+[00:06:11] route.js file within those folders it's
+[00:06:15] not going to be publicly routable or
+[00:06:17] accessible now they do go on to say that
+[00:06:19] you don't necessarily need to do this
+[00:06:20] since if you don't add a page.js or
+[00:06:24] route.js file within your folders then
+[00:06:27] it's safe to kind of co-locate your data
+[00:06:30] there anyways but they mentioned that
+[00:06:32] you still might do this if you want to
+[00:06:34] separate UI logic from routing logic if
+[00:06:37] you want to consistently organize
+[00:06:39] internal files across the project
+[00:06:41] if you want to sort and group files and
+[00:06:44] code editors or avoid potential naming
+[00:06:46] conflicts with next.js file convention
+[00:06:49] so these are some reasons why you might
+[00:06:51] still use these private folders even
+[00:06:54] when you wouldn't necessarily need to as
+[00:06:57] long as you avoid adding a page.js or
+[00:07:00] route.js file within your folders as
+[00:07:02] those are going to be private anyways
+[00:07:04] now their next section of their docs
+[00:07:06] here covers route groups I cover this in
+[00:07:08] a separate video so you can check that
+[00:07:10] out but you can also add route groups
+[00:07:12] for some organization but my video on
+[00:07:15] that will go into much more depth there
+[00:07:16] and then you can also use an SRC
+[00:07:19] directory within xjs so you could put
+[00:07:21] all of your application code within an
+[00:07:22] SRC directory that's going to be
+[00:07:24] absolutely okay to do and then you also
+[00:07:27] have module path aliases which when I
+[00:07:30] first started coding I was like this is
+[00:07:32] kind of lame who cares but it's actually
+[00:07:34] super nice so instead of doing something
+[00:07:37] like you know importing a button from
+[00:07:39] and then you have to go back like three
+[00:07:41] directories to get your buttons so like
+[00:07:43] dot dot forward slash dot dot forward
+[00:07:45] slash dot dot forward slash components
+[00:07:47] forward slash button instead of needing
+[00:07:49] to do that you can just use an at symbol
+[00:07:52] forward slash components forward slash
+[00:07:55] button so this ad symbol is basically
+[00:07:57] like hey go find this components folder
+[00:07:59] and import my button from it
+[00:08:03] so these module path aliases just allow
+[00:08:06] for much cleaner Imports which I
+[00:08:09] actually personally like didn't care
+[00:08:11] about this at all when I started out but
+[00:08:13] I've come to realize that this is
+[00:08:15] actually a pretty pretty cool feature
+[00:08:17] here and then here they talk about a few
+[00:08:19] different project organization
+[00:08:21] strategies that are common in the day
+[00:08:23] then can make sense and they go to say
+[00:08:26] you know there's no right or wrong way
+[00:08:27] to do this but these are just some
+[00:08:29] strategies that people tend to use so
+[00:08:32] for one you could store project files
+[00:08:34] outside of your app directory so you
+[00:08:37] might have a components folder or a lib
+[00:08:39] folder and you might store those at the
+[00:08:42] same level as your app directory so you
+[00:08:45] would have components lib app all those
+[00:08:48] would be at the same kind of hierarchy
+[00:08:50] in your application and then you would
+[00:08:53] just keep your app for kind of routing
+[00:08:55] purposes and only for where you create
+[00:08:57] your routes and your different pages and
+[00:09:00] raw handlers and stuff like that so I
+[00:09:02] think that is one reasonable way to go
+[00:09:05] about things they also talk about how
+[00:09:06] you could store project files in top
+[00:09:08] level folders inside of apps so you'd
+[00:09:11] have your app folder and then you would
+[00:09:13] have a components folder within your app
+[00:09:15] folder as well as a live folder within
+[00:09:17] your app folder and then you could also
+[00:09:19] have your kind of routing and pages in
+[00:09:22] your app folder as well I tend to do
+[00:09:24] things this way
+[00:09:25] but I haven't really come to a clear
+[00:09:28] methodology that I personally really
+[00:09:31] love but this is kind of my default of
+[00:09:33] creating a components folder and as well
+[00:09:37] as a live folder within my app directory
+[00:09:39] and that is kind of within the same
+[00:09:41] level as some of my kind of different
+[00:09:43] routes and stuff like that but I can
+[00:09:45] also see the argument for why this would
+[00:09:47] also make quite a bit of sense to do up
+[00:09:49] top and then they also talk about
+[00:09:51] splitting project files by feature or
+[00:09:53] route so they might create a components
+[00:09:57] folder within your app folder but you
+[00:09:59] also might create a components folder
+[00:10:01] within your dashboard folder so all of
+[00:10:03] your components for your dashboard go
+[00:10:05] into that folder and then say you have a
+[00:10:08] Blog folder or blog route maybe all of
+[00:10:11] your components for your blog go into
+[00:10:12] that route
+[00:10:13] I could also see this making sense but
+[00:10:16] it could also get a little bit messy if
+[00:10:18] okay now now you might have some
+[00:10:20] components that you use across both your
+[00:10:23] dashboard and your blog and then you
+[00:10:26] have certain components that you use for
+[00:10:28] just your dashboard and your settings
+[00:10:31] folder and it could get a little bit
+[00:10:33] kind of messy in that regard so I don't
+[00:10:36] think I would love this route but this
+[00:10:39] would allow you to kind of co-locate
+[00:10:41] your components to only the kind of
+[00:10:45] routes or pages that are using them
+[00:10:46] which could have its benefits as well so
+[00:10:49] those are a few different strategies
+[00:10:50] I've personally kind of defaulted to
+[00:10:53] using the one where
+[00:10:55] and you keep like a components folder
+[00:10:57] and a live folder within your app
+[00:10:59] directory but I I can see all these
+[00:11:02] being pretty decent and it's just going
+[00:11:04] to kind of depend on what your team
+[00:11:06] likes and what your team is used to so
+[00:11:08] that is it that is Project structure in
+[00:11:10] next Jazz hopefully this gives you some
+[00:11:12] ideas on how to structure your project
+[00:11:14] and what may be some good ideas are when
+[00:11:18] it comes to doing that so thanks for
+[00:11:20] tuning in to this I'll see you in that
+[00:11:22] next one

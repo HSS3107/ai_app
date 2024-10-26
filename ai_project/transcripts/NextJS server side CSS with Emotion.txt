@@ -1,0 +1,97 @@
+Title: NextJS server side CSS with Emotion
+Channel: basarat
+Published: 2022-05-04T12:00:32Z
+Duration: PT2M2S
+Description: In this lesson we demonstrate how to use #emotion for server side rendering in an #NextJS project 🌹
+
+Code for this lesson: https://github.com/basarat/demo-next-emotion
+
+📺 Guide to the official NextJS TypeScript template: https://www.youtube.com/watch?v=KE6rMKB3Y3k
+
+#basarat
+
+👇 ❤️ Subscribe for MOORE ❤️ 👇
+https://www.youtube.com/basaratali?sub_confirmation=1
+
+**Feel Free To Read This Lot**
+
+I'm Basarat, and I love helping developers. More about me:
+
+Microsoft MVP for TypeScript
+200K contributions on Stackoverflow. Top Contributor for TypeScript. 
+Udemy Courses: https://www.udemy.com/user/basaratalisyed/ 
+Creator https://designtsx.com
+Book Author : Beginning NodeJS
+Book Author : TypeScript Deep Dive
+Egghead Instructor : https://egghead.io/instructors/basarat-ali-syed?af=bxr3i
+Creator of multiple hot ✨ed Github Open Source projects
+
+Follow me on twitter: https://twitter.com/basarat
+Follow me on github: https://github.com/basarat
+Donate: https://www.paypal.me/basaratali
+
+Website: https://basarat.com/
+
+Transcript:
+
+[00:00:00] one of the big players in the css and js
+[00:00:02] frameworks is emotion and since version
+[00:00:05] 10 it's been supporting so sad rendering
+[00:00:07] with next.js out of the box and that is
+[00:00:09] what we will demo in this lesson so
+[00:00:11] let's go
+[00:00:13] now we're using our own empty next js
+[00:00:15] template and you are free to bring in
+[00:00:16] your own
+[00:00:17] right now the homepage is rendering now
+[00:00:19] and we can see that when we visit the
+[00:00:21] browser it's completely empty in order
+[00:00:23] to install emotion to our next js
+[00:00:25] project all that we really need is to
+[00:00:27] install the immersion react package now
+[00:00:29] i also prefer to install the emotion
+[00:00:31] styled package as that is much easier to
+[00:00:33] work with and we'll save exact versions
+[00:00:35] of these into our package.json with the
+[00:00:37] installation out of the way whenever we
+[00:00:39] want to use emotion within our project
+[00:00:41] we bring in the style to import from
+[00:00:43] emotion styled now we can create a
+[00:00:45] classic emotion styled button component
+[00:00:48] by using the style dot button tag and
+[00:00:50] because this is the template string
+[00:00:51] within our javascript we can bring in
+[00:00:53] any javascript variables if we needed to
+[00:00:55] now we can use and render this component
+[00:00:57] anywhere within our ui as an example we
+[00:00:59] will render it within our home page
+[00:01:02] with that done we can jump to the
+[00:01:03] browser and see our button tag which is
+[00:01:05] styled by emotion now of course the
+[00:01:07] power of using emotion over just the
+[00:01:09] react native style attribute is that you
+[00:01:11] cannot use hover with style but that is
+[00:01:13] something that you can do with emotion
+[00:01:15] now we had to do no special
+[00:01:16] configuration for next years despite
+[00:01:19] that this particular css is being
+[00:01:21] rendered on the server by nextgs and we
+[00:01:24] can see that in the initial html
+[00:01:25] response that is returned from the
+[00:01:27] server this is the css that we wrote for
+[00:01:29] this button component and it's being
+[00:01:31] rendered into a style tag by the server
+[00:01:33] and returned in the initial html and we
+[00:01:36] can further verify that by using the
+[00:01:38] preview tab for this particular response
+[00:01:41] this is the html that is returned and
+[00:01:43] when we hover over the button in the
+[00:01:44] preview you can see that it is
+[00:01:46] completely functional
+[00:01:48] and that's all for this lesson smash
+[00:01:49] that like and subscribe for more quick
+[00:01:51] content like this if you are interested
+[00:01:52] in this next year's template then i have
+[00:01:54] a lesson dedicated to that over here
+[00:01:56] thanks for joining me and i will see you
+[00:01:58] in the next one

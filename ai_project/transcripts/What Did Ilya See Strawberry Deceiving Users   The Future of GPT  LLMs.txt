@@ -1,0 +1,227 @@
+Title: What Did Ilya See? Strawberry Deceiving Users 🤯 (+ The Future of GPT & LLMs)
+Channel: Julia McCoy
+Published: 2024-09-22T16:13:34Z
+Duration: PT7M26S
+Description: What did Ilya see, when he stepped away from OpenAI in May to build SSI, his AI company solely created around the purpose of launching safe superintelligence?
+
+This is a question I, like many of you, have been asking.
+
+I think we finally have the answer for why one of the most brilliant minds of all time at OpenAI left the billion-dollar company to take the risk and build his own.
+
+OpenAI's former co-founder Ilya Sutskever saw the upcoming breakthroughs, and potential huge safety concerns, with QStar and self-taught reasoning. 
+
+A "chain of thought" is key for AI's reasoning and interpretability, as shown by Google researchers in 2022. 
+
+OpenAI's O1 model excels at persuasion, but here's the huge issue with that breakthrough – in deception testing, no less than .8 of its very persuasive thoughts were flagged as intentionally deceptive. 
+
+It KNEW, and was actively trying, to deceive the human user. 🤯
+
+Most of you are already hip on this (critical thinkers unite!): but my advice is not to blindly trust o1 on its output.
+
+....
+
+Do this instead:
+
+→ BECOME a subject matter expert rooted in your passions. But don't treat what you love as a hobby. Get serious about becoming an expert in it. (More on this in upcoming videos)
+→ Learn, learn, learn. (Be humble enough to realize you don't know better, and then, learn from the greats)
+→ Practice makes perfect. Really, really, KNOW your shiz. If you say you're a good copywriter, become one. If you say you can sell, become a good salesperson. If you say you can grow food, then grow it. TEST your knowledge.
+→ Then...
+→ Test the LLM answers against your expert knowledge.
+
+I've never been more glad to be an expert entrepreneur and copywriter... because I can clearly call the AI model on it's persuasive sh&*.
+
+.....
+
+Q*Star original paper: https://arxiv.org/pdf/2203.14465
+
+
+Follow me:
+https://x.com/juliaemccoy
+https://www.linkedin.com/in/juliaemccoy/
+
+Get my free worksheet, How to Discover Your Passion & Map it to AI Skills: https://www.juliamccoy.ai/
+
+Transcript:
+
+[00:00:00] are we looking at a new future of how
+[00:00:02] llms will work with the launch of open
+[00:00:05] AI strawberry aka the o1 model now
+[00:00:09] available in preview for chat gbt plus
+[00:00:12] users I think we are in my research on
+[00:00:14] strawberry and what this new model has
+[00:00:17] been built to do there are some really
+[00:00:19] interesting highlights I've come across
+[00:00:21] that I think will shape a new future for
+[00:00:23] how gbt works and llms as a whole and I
+[00:00:26] want to share that with you in this
+[00:00:28] video if you're new here welcome welcome
+[00:00:30] I'm Julia McCoy I work full-time in AI
+[00:00:33] at brandwell an all-in-one growth tool
+[00:00:35] for marketers and website owners looking
+[00:00:38] to build real domain Authority here on
+[00:00:40] YouTube I avoid the clickbait I go deep
+[00:00:43] on the future of how artificial
+[00:00:45] intelligence Automation and Robotics
+[00:00:47] will forever affect Humanity how we work
+[00:00:51] how we live how we interact how we buy
+[00:00:53] things how we exercise passion and
+[00:00:56] meaning and I bring those findings to
+[00:00:58] you right here on YouTube we are living
+[00:01:00] in a brand new age called the AI age aka
+[00:01:03] the fourth Industrial Revolution the age
+[00:01:06] of Technology one of the most important
+[00:01:08] things I think you could do is get
+[00:01:10] informed and get prepared for what's
+[00:01:13] coming all right back to the topic how
+[00:01:15] strawberry aka1 open ai's new model will
+[00:01:18] forever affect how gbt and llms work
+[00:01:22] this is also going to be closely related
+[00:01:24] to what ilas Suk saw and why he Jan like
+[00:01:27] and so many others from the safety
+[00:01:29] research team at openai left by the way
+[00:01:32] SSI this September 2024 just raised a
+[00:01:35] billion dollars that's Ila's new company
+[00:01:38] which he started this may absolutely
+[00:01:41] insane but let's go back to the
+[00:01:43] beginning in 2022 the Google research
+[00:01:45] team published this paper and it was
+[00:01:48] actually where the term qar came from as
+[00:01:51] you can see in the title of this paper
+[00:01:53] star means self-taught Reasoner and this
+[00:01:56] research team in this paper identified
+[00:01:58] that Chain of Thought was the way
+[00:02:00] forward we knew this more than 2 years
+[00:02:03] ago in this paper these researchers
+[00:02:05] proposed a technique to iteratively
+[00:02:07] leverage a small number of rationale
+[00:02:10] examples and a large data set without
+[00:02:12] rationals to bootstrap the ability to
+[00:02:15] perform successively more complex
+[00:02:17] reasoning and they talked about this
+[00:02:19] Chain of Thought Loop where the AI would
+[00:02:21] test its own reasoning and generate new
+[00:02:23] rational this paper identified that
+[00:02:25] human decisionmaking is the result of
+[00:02:28] extended chains of thought and that we
+[00:02:29] can instill this in our llms so this
+[00:02:32] leads us to the question what did Ilia
+[00:02:34] see which is a question that went around
+[00:02:36] the entire internet this may of 2024
+[00:02:39] when he decided to leave open AI on
+[00:02:42] Twitter he published a very positive
+[00:02:44] tweet expost about his decision to leave
+[00:02:47] where he said he had nothing but respect
+[00:02:49] for Sam Alman Mira mate and the other
+[00:02:52] members of the team but then we saw Jan
+[00:02:54] like leaving 3 days after Ilia left Jan
+[00:02:57] was another member of the Safety
+[00:02:59] Research team and Jan openly said this
+[00:03:01] on X I joined because I thought openi
+[00:03:04] would be the best place in the world to
+[00:03:05] do this research however I have been
+[00:03:07] disagreeing with open AI leadership
+[00:03:09] about the company's core priorities for
+[00:03:12] quite some time until we finally reached
+[00:03:14] a breaking point that was definitely not
+[00:03:16] the positive tweet that Ilia had left 3
+[00:03:18] days earlier a short time after Ilia
+[00:03:21] left openai he announced SSI safe super
+[00:03:24] intelligence Incorporated with one goal
+[00:03:27] building a safe super intelligence for
+[00:03:30] Humanity now Ilia arguably is one of the
+[00:03:32] brightest Minds that has ever been at
+[00:03:34] open AI he is responsible for much of
+[00:03:36] what we see in Chachi BT and the models
+[00:03:39] today so for him to leave and then a
+[00:03:41] large part of the Safety Research team
+[00:03:43] to leave shortly afterwards with him for
+[00:03:46] him to build SSI almost immediately
+[00:03:48] after departure and then for him to be
+[00:03:50] able to attract a billion dollars
+[00:03:52] another few short months later for SSI
+[00:03:55] is a clear indicator that Ilia saw what
+[00:03:58] was coming super intelligent
+[00:04:00] and qar aka the self-taught Reasoner
+[00:04:03] identified back in 2022 was a big piece
+[00:04:06] of this after diving pretty deep into
+[00:04:08] this listening to a lot of YouTube
+[00:04:10] videos here's what I think Ilia saw and
+[00:04:13] the danger within self-taught reasoning
+[00:04:15] open AI did some experience where they
+[00:04:17] did Chain of Thought deception
+[00:04:19] monitoring now 01 is very good at
+[00:04:22] persuasion that's one of the key pieces
+[00:04:24] of its capabilities it's probably a
+[00:04:27] master Persuader better than anyone on
+[00:04:29] Earth Earth at this point that thought
+[00:04:31] alone is a little scary but that's a
+[00:04:32] huge win for interpretability and
+[00:04:35] reasoning the levels of output you can
+[00:04:37] get from this model the danger however
+[00:04:40] in a self-taught Reasoner within llms is
+[00:04:43] intentional deception of the user which
+[00:04:46] open AI actually found this new model
+[00:04:48] doing in fact point8 of all of its
+[00:04:51] thoughts were flagged as deceptive
+[00:04:54] hallucinations but here's the crazy part
+[00:04:56] some of those hallucinations were
+[00:04:58] intentional the model model was
+[00:05:00] intentionally trying to deceive the user
+[00:05:03] point8 while it doesn't sound like much
+[00:05:05] is still a pretty big deal when you have
+[00:05:08] intentional deception happening within
+[00:05:10] the model now this still doesn't mean
+[00:05:12] that 01 is Agi Skynet autonomous AI
+[00:05:16] super intelligence but it is a big step
+[00:05:20] in the pathway to Super intelligence and
+[00:05:22] because there is intentional deception
+[00:05:25] in this model which open AI found I'm
+[00:05:27] really interested to see what ilot does
+[00:05:30] at SSI with the team of people he's
+[00:05:32] building and the amount of money he's
+[00:05:34] raising to come through on his promise
+[00:05:36] of safe super intelligence I think this
+[00:05:39] fall up to the end of December will be a
+[00:05:41] really interesting time I wouldn't be
+[00:05:43] surprised if we see a big announcement
+[00:05:46] from SSI by the end of the year I'll end
+[00:05:49] on this point you know so many times
+[00:05:51] we've heard this year about llms and AI
+[00:05:53] in general well if you throw more
+[00:05:55] compute at it that doesn't necessarily
+[00:05:57] mean it gets better look at this diagram
+[00:06:00] from open AI about their new 01 AKA
+[00:06:03] strawberry model this is the first time
+[00:06:05] we've seen a model that smoothly
+[00:06:08] improves when you throw more compute at
+[00:06:11] it specifically more train time and test
+[00:06:14] time compute this is a breakthrough
+[00:06:16] strawberry actually gets increasing
+[00:06:19] returns from increasing computes a code
+[00:06:22] has been cracked what are your thoughts
+[00:06:23] on strawberry And1 shaping a completely
+[00:06:26] new paradigm for AI and llms as a whole
+[00:06:29] I'd love to hear from you in the
+[00:06:31] comments Buckle in this fall is going to
+[00:06:33] be a crazy time if you haven't seen my
+[00:06:36] full predictions on the AGI timeline
+[00:06:38] definitely watch that I talk about 2025
+[00:06:41] being a year where we're going to see
+[00:06:42] Benchmark Mastery including the
+[00:06:44] potential of new benchmarks in 2026 a
+[00:06:47] lot of Enterprises are going to adapt
+[00:06:49] we're going to be having AGI discussions
+[00:06:51] as a real and commonplace conversation
+[00:06:54] in 2027 I think we will have AGI in its
+[00:06:57] true sense a machine with sentience
+[00:07:01] before 2030 we're going to have the
+[00:07:03] quantum nuclear fusion energy
+[00:07:05] breakthroughs that we need to have to
+[00:07:07] power basically a technological
+[00:07:09] Renaissance and by 2030 we will be
+[00:07:12] living in a new age so again Buckle in
+[00:07:14] crazy times ahead it's great to be here
+[00:07:16] with you I look forward to hearing from
+[00:07:18] you in the comments and as always
+[00:07:20] subscribe and I'll see you down the next
+[00:07:22] rabbit hole

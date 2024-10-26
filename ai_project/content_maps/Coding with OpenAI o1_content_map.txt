@@ -1,0 +1,33 @@
+High Level Summary: The video introduces OpenAI's o1 AI model series that can reason through complex tasks and solve harder problems in science, coding, and math. The presenter demonstrates the model's capabilities by creating a visualization tool for teaching about Transformer models.
+
+1. Introduction [00:00:00-00:00:11]
+   a) Music
+   b) The presenter introduces the topic they will discuss: writing code for a visualization tool.
+   c) Speaker: Presenter
+
+2. The motive behind the visualization tool [00:00:11-00:00:37]
+   a) The need for a visualization tool for teaching about Transformer models.
+   b) The presenter explains that they require a visualization tool for a class they teach on Transformers, which is the technology behind models like GPT.
+   c) Speaker: Presenter
+
+3. Introduction to o1 AI model [00:00:37-00:00:55]
+   a) Introduction to the o1 model and its capabilities.
+   b) The presenter introduces the o1 model and explains how it can assist them in creating the visualization tool.
+   c) Speaker: Presenter
+
+4. Explaining the requirements for the model [00:00:55-00:01:42]
+   a) Going through the requirements for the visualization tool.
+   b) The presenter gives a detailed explanation of the requirements they have set for the o1 model to meet and how the model's reasoning capabilities can ensure all instructions are met.
+   c) Speaker: Presenter
+
+5. Using the o1 model's output [00:01:42-00:02:20]
+   a) Implementing the code provided by the o1 model.
+   b) The presenter copies the output code provided by the o1 model and pastes it into a terminal, then visualizes the result in a browser.
+   c) Speaker: Presenter
+   d) Quote: "I'll just try to open this up and you can see that when I hover over this thing, it shows the arrows."
+
+6. Concluding thoughts [00:02:20-00:02:46]
+   a) Reflection on the outcome and the utility of the o1 model.
+   b) The presenter concludes by appreciating the model's performance and noting its potential usefulness in creating visualization tools for their teaching sessions.
+   c) Speaker: Presenter
+   d) Quote: "This model did really nicely. I think this can be a really useful tool for me to come up with a bunch of different visualization tools for my new teaching sessions."

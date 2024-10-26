@@ -1,0 +1,1532 @@
+Title: REST APIs with Django REST Framework Tutorials | PostgreSQL Database | Django REST APIs | CRUD
+Channel: Cloud Quick Labs
+Published: 2023-07-06T18:21:26Z
+Duration: PT52M58S
+Description: ===================================================================
+1. SUBSCRIBE FOR MORE LEARNING : 
+https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ
+===================================================================
+2. CLOUD QUICK LABS - CHANNEL MEMBERSHIP FOR MORE BENEFITS :
+https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ/join
+===================================================================
+3. BUY ME A COFFEE AS A TOKEN OF APPRECIATION :
+https://www.buymeacoffee.com/cloudquicklabs
+===================================================================
+
+In this comprehensive tutorial, we dive into the world of building custom REST APIs using Django REST Framework and PostgreSQL.
+
+Join us as we explore the step-by-step process of creating robust and professional-grade APIs from scratch. We'll cover everything from setting up the Django project and configuring the PostgreSQL database to implementing advanced features and best practices.
+
+Throughout the video, we'll delve into essential concepts such as serializers, views, models, and authentication mechanisms. You'll learn how to design elegant API endpoints, handle data validation, perform CRUD operations, and implement advanced query functionality.
+
+Additionally, we'll address crucial topics like versioning, pagination, filtering, and authentication, ensuring that your APIs are secure, scalable, and efficient. We'll also demonstrate how to incorporate proper error handling and response formatting for a seamless user experience.
+
+By the end of this tutorial, you'll have the knowledge and skills to confidently build custom REST APIs with Django REST Framework and PostgreSQL, enabling you to create powerful and flexible web applications that interact seamlessly with external clients. Join us on this journey to become a Django REST Framework API expert!
+
+#Django #RESTAPIs #DjangoRESTFramework #PostgreSQL #WebDevelopment #APIDevelopment #Python #BackendDevelopment #DatabaseIntegration #tutorial 
+
+Repo path :  https://github.com/RekhuGopal/PythonHacks/tree/main/Django_REST_API
+
+Transcript:
+
+[00:00:01] hey hi in this video I'm gonna show you
+[00:00:04] how to build credit operation API with
+[00:00:07] using Django rest framework that is drf
+[00:00:10] as you see in this PPT this PPT depicts
+[00:00:12] My Demo here this picture depicts you
+[00:00:15] know how does drf that is Django rest
+[00:00:17] framework will work and it also you know
+[00:00:20] highlights a very important components
+[00:00:22] of drf
+[00:00:24] so
+[00:00:25] as usual in my videos I'm going to walk
+[00:00:27] you through the this demo in the first
+[00:00:29] part I'm going to explain you like how
+[00:00:31] does this Django rest framework work and
+[00:00:33] works and and helps us to do the grid
+[00:00:35] operation that is create read update and
+[00:00:37] delete operation and in the second part
+[00:00:39] I'm going to show you how we can set up
+[00:00:42] from the scratch how we can set up a
+[00:00:44] project and also create an API
+[00:00:47] application and then we're gonna see
+[00:00:48] that you know how do we do uh grid
+[00:00:51] operations with using the apis yeah all
+[00:00:54] right so with that note let's directly
+[00:00:55] jump to the first part of the video that
+[00:00:57] is uh how does these components work
+[00:00:59] yeah so as you see here that is the
+[00:01:01] outer box it depicts you know so that is
+[00:01:03] Django rest framework environment yeah
+[00:01:05] so in the Django rest framework
+[00:01:07] environment we have a four important
+[00:01:10] components called URLs views serializer
+[00:01:13] and models yeah
+[00:01:15] as these important components is nothing
+[00:01:18] but you know these are like basically a
+[00:01:19] files in your Django rest framework
+[00:01:22] project
+[00:01:23] at a Layman time you just need to
+[00:01:24] understand that there will be a files
+[00:01:25] like url.py views.py serializer.py and
+[00:01:29] model.py yeah so these files you know
+[00:01:31] what have what we'll do is these files
+[00:01:33] will help us to to you know to achieve
+[00:01:35] the you know the original current
+[00:01:37] operations at at your databases okay and
+[00:01:41] that is to use in the using the drf apis
+[00:01:43] yeah
+[00:01:44] so under the hood how does it works is
+[00:01:47] for example say whenever we hit the
+[00:01:49] https request with using Postman or it
+[00:01:51] could be using the commandlets or you
+[00:01:54] know if you are using the maybe browser
+[00:01:55] so the request will first hit our url.pf
+[00:01:59] file so whenever we create a project in
+[00:02:01] order at the project we will have a
+[00:02:02] url.pfi and also setting.pfl I'm going
+[00:02:05] to explain those files in detail in the
+[00:02:07] next uh in a real time when we create a
+[00:02:09] project
+[00:02:10] uh so so whenever the request comes to
+[00:02:12] the url.pf file so there we will have a
+[00:02:14] redirection saying like you know if the
+[00:02:16] the the path of the URL is something
+[00:02:18] like this you know so or the you know
+[00:02:20] API contains something path like this
+[00:02:22] you need to go to this particular
+[00:02:24] viewset file yeah or weaves file in
+[00:02:26] general yeah and that views.py file will
+[00:02:29] be created under uh uh you know under an
+[00:02:32] application API folder right so this
+[00:02:34] view set is nothing but it's a it's a
+[00:02:36] place where you actually do a real grid
+[00:02:39] operations with respect to your
+[00:02:40] databases yeah and there is also a
+[00:02:43] couple of two more
+[00:02:45] um there are there's like one more
+[00:02:46] couple of uh resource out there here
+[00:02:47] that is uh serializer and modules as as
+[00:02:51] you see here the models is the is the
+[00:02:53] core component which is actually in real
+[00:02:56] time you know interfaces with the
+[00:02:57] databases and and does the you know the
+[00:02:59] creating the record reading the record
+[00:03:01] updating the you know record or deleting
+[00:03:03] the record from a at uh I know a table
+[00:03:06] from your you know you know database
+[00:03:08] engine right so here in my case I'm
+[00:03:10] using postgres SQL I'm going to create a
+[00:03:12] database and we're going to create a
+[00:03:14] table with using the models we're going
+[00:03:16] to show you that you know so in the real
+[00:03:19] term so this is how the Django
+[00:03:20] restaurant works it gonna leverage the
+[00:03:22] capability of model or the the basically
+[00:03:25] the functionality of the model uh you
+[00:03:27] know the libraries you know that library
+[00:03:28] has the intelligence that you know it
+[00:03:30] can interact with the dynamod you know
+[00:03:32] it can interact with the uh you know the
+[00:03:34] the database storages like like you know
+[00:03:36] postgresql in your cases similarly views
+[00:03:39] okay so then we might be wonder why do
+[00:03:41] we need serializers so serializer is a
+[00:03:43] component within the within the Django
+[00:03:45] rest framework which actually you know
+[00:03:47] converts the input given from the HTTP
+[00:03:50] request say you know you are creating a
+[00:03:51] record so when you are creating a record
+[00:03:53] you will be sending a payload as the you
+[00:03:55] know input or as the parameter so that
+[00:03:57] payload should be converted into uh you
+[00:04:00] know python readable format so that it
+[00:04:02] can use that readable format and and and
+[00:04:05] try to insert into the you know postgres
+[00:04:08] Circle database in your case right
+[00:04:10] so serializer is a component which will
+[00:04:11] help us to converse the you know convert
+[00:04:13] the data type or convert the payload
+[00:04:16] into a required format so that which
+[00:04:18] will be easy for you to or which will be
+[00:04:20] easy to insert into a a table format and
+[00:04:23] vice versa for example if you are
+[00:04:25] reading from the if you're reading the
+[00:04:26] data from the your database and when
+[00:04:29] once you are once you are returning a
+[00:04:30] database say you are running a select
+[00:04:32] star from this particular table right so
+[00:04:34] it's gonna give the data in a certain
+[00:04:35] format and that data need to be
+[00:04:37] converted back into a Json format right
+[00:04:39] so that's the reason so this serializes
+[00:04:41] a component which will help us to
+[00:04:43] convert you know to and fro of the uh
+[00:04:45] you know to and fro conversion of the
+[00:04:46] Json format which is required at the you
+[00:04:49] know at interaction with the database
+[00:04:50] model yeah and also that is how
+[00:04:53] basically it works and and finally we
+[00:04:55] see the response at the view file and
+[00:04:57] that is where we call it as https
+[00:04:58] response yeah so under the hood you know
+[00:05:00] if you remember these four important
+[00:05:02] components you know you will basically
+[00:05:03] understood you know how does the credit
+[00:05:05] operations happens at drf yeah so with
+[00:05:08] that what we will directly jump to the
+[00:05:09] demo part of the of the particular of
+[00:05:12] this particular you know lab session
+[00:05:14] so here I have already you know executed
+[00:05:16] or tried my hands-on experience on this
+[00:05:19] uh creating this demo API that is
+[00:05:21] creating the Django rest framework apis
+[00:05:23] with using
+[00:05:24] um you know with using drf basically
+[00:05:26] yeah so this is my visual studio code
+[00:05:28] and currently you know I have a folder
+[00:05:30] called Django rest API so this is the
+[00:05:32] folder currently I'm gonna show you like
+[00:05:34] how to set up the project how to
+[00:05:36] configure the you know the an API
+[00:05:38] application and then we're going to see
+[00:05:39] the credit operations being performed
+[00:05:40] with the drf yeah so here uh for my
+[00:05:45] reference purpose I will be referring
+[00:05:46] this particular project which is there
+[00:05:48] in another folder or which is another
+[00:05:49] project all together now we're going to
+[00:05:51] create a separate independent project
+[00:05:53] here so with that you know I have
+[00:05:55] created a helpful.txt file so which is
+[00:05:57] there under this particular folder so in
+[00:06:00] this file I have articulated certain
+[00:06:01] command certain steps that you need to
+[00:06:03] follow to make the you know the this
+[00:06:05] project working you know generally you
+[00:06:07] know to make the credit operations
+[00:06:08] working yeah so here there are
+[00:06:10] prequisite uh you know the uh python
+[00:06:13] library has to be installed in your
+[00:06:14] system this is my Windows system so what
+[00:06:16] we do is you know we need to install the
+[00:06:18] Django rest framework libraries or
+[00:06:20] packages right so first one is you know
+[00:06:22] you need to have your system installed
+[00:06:24] with the Django framework so to install
+[00:06:27] the Django framework you need to run a
+[00:06:28] command called pip install Django right
+[00:06:31] so if you have a I know P3 maybe you
+[00:06:33] need to use P3 install Django and then
+[00:06:35] you need to install the drf framework so
+[00:06:37] Django is like a based a baseline
+[00:06:40] framework and then on top of that one we
+[00:06:41] are using Django rest framework as well
+[00:06:44] so again you need to run a command
+[00:06:46] called pencil as as I'm showing you here
+[00:06:48] and then we are also using the python
+[00:06:51] library for postgres SQL that is uh you
+[00:06:53] know psychop psychop Z2
+[00:06:56] so as I showed you in my case I'm using
+[00:06:59] the my database as postgres SQL so I'm
+[00:07:02] using that library because through with
+[00:07:04] that you know I can interact with the
+[00:07:05] databases yeah so this is my as I said
+[00:07:09] this is my Windows system I have already
+[00:07:10] installed pz admin 4 with the server
+[00:07:13] options my server is up and running fine
+[00:07:15] I have a postgres engine is running and
+[00:07:18] running that postgresql 15 engine I have
+[00:07:21] the databases like that is the default
+[00:07:22] postgres SQL databases I'm going to
+[00:07:24] create a databases for this demo as well
+[00:07:25] in a while yeah so we are done with the
+[00:07:29] prerequisite packages required for the
+[00:07:31] for the you know python that is Django
+[00:07:33] related packages yeah so with that now
+[00:07:36] we need to jump for the next command
+[00:07:38] that is next command is to create the
+[00:07:40] project so basically once you install
+[00:07:42] the you know drf framework and and
+[00:07:44] Django framework in your system
+[00:07:45] automatically Django admin commandlet
+[00:07:48] becomes activated and you can use that
+[00:07:50] Django hyphen admin commands uh to
+[00:07:53] interact with the Django you know
+[00:07:54] framework basically yeah so so the next
+[00:07:57] command that we need to execute is to
+[00:07:59] start project yeah so start project is a
+[00:08:01] command within the Django framework
+[00:08:03] which will set up a project that is
+[00:08:04] which you set up a Django a rest API
+[00:08:07] project in your system right so
+[00:08:09] currently I need to set up that project
+[00:08:11] in this particular folder that is that's
+[00:08:13] the reason I'm gonna go or I'm going to
+[00:08:15] do a CD to this particular path so I'm
+[00:08:17] gonna just copy this yeah
+[00:08:20] so I'm going to do a CD to this path
+[00:08:23] and if you see the Ls I'm sorry if you
+[00:08:25] see the ls of this one it currently has
+[00:08:28] help file Dot it currently has
+[00:08:30] helpful.txt file right so now let's set
+[00:08:32] up a project called let me set up a
+[00:08:35] project called Cloud Quick labs yeah
+[00:08:37] that is which is my channel name that is
+[00:08:38] Cloud Quick Labs Yeah so basically what
+[00:08:41] I'm doing is I'm creating a project name
+[00:08:42] called Cloud Quick Labs yeah I'm just
+[00:08:45] gonna change the spelling Cloud Quick
+[00:08:48] Labs yeah which is my channel name
+[00:08:49] basically so this is my project
+[00:08:51] underneath the project you can have a n
+[00:08:52] number of API applications right so
+[00:08:55] right now we are creating a project like
+[00:08:56] this so I'm going to hit it enter if you
+[00:08:58] see here you know it has created a
+[00:09:00] folder called Cloud Quick Labs yeah so
+[00:09:03] if you extend the Cloud Quick Labs you
+[00:09:04] have a multiple folders of folders with
+[00:09:07] the same name that is uh Cloud Quick
+[00:09:08] Labs okay so the Cloud Quick Labs uh in
+[00:09:11] the subfolder underneath the main Cloud
+[00:09:13] Quick Flex folder contains a very
+[00:09:14] important configuration file that is all
+[00:09:16] python file it contains underscore
+[00:09:19] underscore init underscore underscore.pi
+[00:09:21] file which is a initiation file of any
+[00:09:23] python execution then you have a some
+[00:09:26] other setting configuration setting.pfi
+[00:09:28] which is very important for uh for our
+[00:09:29] demo purpose then we have a url.pfi
+[00:09:32] which is a master url.pf file of the
+[00:09:34] project
+[00:09:35] and then we have our wsga.pi file as
+[00:09:37] well similarly then we have at the root
+[00:09:39] we will have a manage.pfl so this is the
+[00:09:42] file this is the master python file
+[00:09:43] where the python execution gets
+[00:09:46] initiated and gets redirected to the
+[00:09:48] across the parts of the of the Python
+[00:09:50] folders yeah all right so that is all
+[00:09:53] about the project setups now I'm gonna
+[00:09:55] go to the next commands and we're gonna
+[00:09:56] see the next part of the of the
+[00:09:58] particular setup so now I'm gonna set up
+[00:10:01] the python manage.py that is uh
+[00:10:04] what I'm actually doing is so if you see
+[00:10:06] here that is a Django rest framework
+[00:10:08] underneath that we have a file name card
+[00:10:12] so actually so we need to run manage.pfi
+[00:10:15] which is got created because because I
+[00:10:17] run the command Django hyphen admin RI
+[00:10:21] setup
+[00:10:22] project that is Cloud Quick labs and
+[00:10:24] that's the reason manage.pi file of that
+[00:10:26] project got created so we need to
+[00:10:28] execute that particular uh appear file
+[00:10:31] so for that case to execute that I need
+[00:10:33] to again do a CD to the to the my uh my
+[00:10:36] project folder that is Cloud Quick Labs
+[00:10:37] yeah once I do this then I'm I should be
+[00:10:40] good to execute the next command that is
+[00:10:42] to set up the my application yeah so in
+[00:10:45] my in my application so here if you see
+[00:10:47] the syntax that is Python managed.py and
+[00:10:50] startup then after that you need to give
+[00:10:52] your application name yeah so let's say
+[00:10:54] my application here is you know I'm
+[00:10:55] interested in say cars yeah so I'm
+[00:10:58] creating an API called cars underneath
+[00:11:00] my project called quick you know Cloud
+[00:11:02] Quick Labs Cloud Quick Labs is a big
+[00:11:04] container underneath that you are
+[00:11:05] creating one small small apis yeah think
+[00:11:07] like that so here right now we are
+[00:11:09] creating a an
+[00:11:10] um an application called cars if if you
+[00:11:13] see here cars is another you know it has
+[00:11:15] emulated another folder automatically so
+[00:11:18] that's that's how the you know that's
+[00:11:19] how the benefit of Django rest framework
+[00:11:21] right so it will automatically set up
+[00:11:23] the required folder structure set up the
+[00:11:25] required file you know file and also the
+[00:11:27] code within it okay so that is like a
+[00:11:29] ready made for you you don't need to run
+[00:11:30] it you know you don't need to type
+[00:11:31] everything from the scratch it is ready
+[00:11:33] made right we just have to modify the
+[00:11:35] these files and folder structures so
+[00:11:37] that our you know we are connecting the
+[00:11:39] you know the Django rest framework and
+[00:11:41] finally you know uh the required API
+[00:11:43] will be working fine yeah all right so
+[00:11:45] with that you know we are actually done
+[00:11:47] with the uh you know so we are actually
+[00:11:49] done with the prerequisite setup that is
+[00:11:51] creating the project and the creating
+[00:11:53] the an application that is API
+[00:11:54] application within the project
+[00:11:56] all right so now I'm gonna take you to
+[00:11:58] the next important configuration changes
+[00:12:00] so now what you have to do is you have
+[00:12:01] to be very careful and try to modify the
+[00:12:04] files which I am doing in a sequential
+[00:12:06] manner with the patience all right so
+[00:12:09] now what we do is you know uh we need to
+[00:12:11] modify the first thing is we need to
+[00:12:12] modify our Cloud Quick Labs project
+[00:12:15] files the first file we need to modify
+[00:12:17] is you know the the setting.pa file so
+[00:12:20] in the setting.pf file if you go here so
+[00:12:23] we have our installed applications and
+[00:12:25] we also have the database connections
+[00:12:26] yeah so if you see the database
+[00:12:28] connections uh if I go to the database
+[00:12:30] connection So currently there is this is
+[00:12:31] the database connections we're going to
+[00:12:33] replace it with the postgresql engines
+[00:12:35] yeah
+[00:12:36] so I will take you back to the uh this
+[00:12:39] is my database okay so in that one we
+[00:12:40] have a default configuration so I'm
+[00:12:42] going to copy this
+[00:12:43] and note that in the Amina
+[00:12:46] project folder called Cloud Quick labs
+[00:12:48] in that one I'm in a settings.pfl you
+[00:12:50] can do the same thing from your side and
+[00:12:52] underneath that there is a variable
+[00:12:54] called databases and that one I'm just
+[00:12:56] copy pasting default settings and that
+[00:12:58] contains engine that is actually our
+[00:13:01] Django DB backend postgres SQL engine
+[00:13:03] and then this is the name of your DB so
+[00:13:05] in my case I'm gonna create a new debut
+[00:13:08] so I will go back to the my PC admin I
+[00:13:11] am going to create a new DB called cars
+[00:13:14] so let me create a DB called cars
+[00:13:17] so I'm gonna save it as cars
+[00:13:20] here you go so our DB got created and if
+[00:13:22] you go to the schemas and go to the
+[00:13:23] public schemas and if you go to that
+[00:13:26] tables right now we don't have any
+[00:13:27] tables note that you know the tables in
+[00:13:30] postgres SQL framework you know sorry
+[00:13:32] the tables in Django race framework uh
+[00:13:35] rest framework of drf framework you know
+[00:13:37] the tables get automatically gets
+[00:13:39] created by the framework itself when you
+[00:13:43] set the required configuration and do
+[00:13:45] the certain Commerce execution yeah
+[00:13:48] we're going to see that in a couple of
+[00:13:49] minutes now so
+[00:13:51] um here you know I need to change the
+[00:13:53] name that is now it is car because this
+[00:13:55] name is means you know your database
+[00:13:57] name basically this is the engine name
+[00:13:59] which is by default and the rest all is
+[00:14:01] a username and password in my case my
+[00:14:03] password is root so I'm going to change
+[00:14:05] the value to the root and the host name
+[00:14:07] is local because my skno postgresql
+[00:14:09] server is hosted in my local system only
+[00:14:12] that's the reason I am giving localhost
+[00:14:13] yeah so this is the configuration we do
+[00:14:16] and we also need to update uh the
+[00:14:19] installed apps we also need to change
+[00:14:22] certain things under who you know
+[00:14:24] installed underscore apps uh you know
+[00:14:27] the list so this is a list so the things
+[00:14:30] we need to change here is I'm just gonna
+[00:14:31] see my another project which is actually
+[00:14:33] working fine so this is a again like
+[00:14:36] ours there is another project called
+[00:14:38] Django rest API this is a project folder
+[00:14:41] if you go here so in the settings you're
+[00:14:43] going to see the same thing right if you
+[00:14:45] see here it's a database and this is a
+[00:14:47] root and blah blah thing we have done
+[00:14:48] okay now we're gonna go to the uh this
+[00:14:51] one so here if you see we need to add
+[00:14:52] these installed app configurations that
+[00:14:54] is what I'm doing now and I'm doing it
+[00:14:56] now in my in our project called Django
+[00:14:59] rest framework and this is the Cloud
+[00:15:01] Quick labs and currently I'm in a
+[00:15:03] setting.pa file in the setting.pf file
+[00:15:05] I'm modifying the installed underscore
+[00:15:07] apps value that is the that is the least
+[00:15:10] value yeah so this is the global
+[00:15:12] variable and the value of the global
+[00:15:13] variable is list so in that one we are
+[00:15:16] just adding the uh these two these two
+[00:15:18] values So currently our application name
+[00:15:20] is car so you need to change it to cross
+[00:15:22] and the rest framework will remain same
+[00:15:24] as it is yeah so this is the one more
+[00:15:26] this is the configuration changes we
+[00:15:27] need to do in uh in the in the in the
+[00:15:30] project settings okay so now with that
+[00:15:32] now we go to the next one that is uh the
+[00:15:34] next file which we need to change is
+[00:15:35] urls.pf file so whenever the url.poi
+[00:15:38] file gets created as part of your
+[00:15:40] project creation so this is what the
+[00:15:41] configurations will be there in place
+[00:15:42] now we're going to change this URL
+[00:15:45] pattern value so you see this is again a
+[00:15:47] global variable with a value containing
+[00:15:49] in the with the value of of least in an
+[00:15:52] in in Python terminology and it contains
+[00:15:55] a value called path yeah so now uh we
+[00:15:58] need to change that as well so I will go
+[00:16:00] back to the URLs again and just gonna
+[00:16:02] copy this one so basically what I'm
+[00:16:04] doing is you know we are going to add
+[00:16:05] one more path
+[00:16:06] so by default by default there is only
+[00:16:11] one path for admin now we're going to
+[00:16:13] add a custom path belongs to our API
+[00:16:15] right so the base of our the base
+[00:16:18] redirection path of our API will be API
+[00:16:21] that is uh say localhost that is
+[00:16:24] 127.0.0. right then forward slash API
+[00:16:27] that's how it starts that's the reason
+[00:16:29] this is the API is nothing but you know
+[00:16:31] it's our root path of your API and then
+[00:16:33] includes okay so include is nothing but
+[00:16:35] you know so I need to add includes here
+[00:16:37] as well so includes is a function within
+[00:16:39] the URL so I'm just gonna add that
+[00:16:41] includes
+[00:16:43] yeah
+[00:16:44] so includes is a function within the
+[00:16:46] within the modules called
+[00:16:48] django.url so if you go here so while we
+[00:16:51] are you know while we are making changes
+[00:16:54] with the dot Pi files other than
+[00:16:56] settings so in settings if you go here
+[00:16:58] we don't have any libraries except path
+[00:17:00] libraries but in if you go to the
+[00:17:03] url.pfi we have a libraries being
+[00:17:04] imported that is Django contribute
+[00:17:07] import admin similarly Django URLs so we
+[00:17:10] have a Django country model been
+[00:17:12] imported we have our Django URL model
+[00:17:15] been imported so underneath that model
+[00:17:17] we have added a variable that is called
+[00:17:19] URL patterns in the URL pattern values
+[00:17:22] you know we have a list in that one list
+[00:17:24] we have added a API and and in that one
+[00:17:26] we have ADD now we are adding uh the
+[00:17:29] employer URL so that is in our case the
+[00:17:31] application name is cars so we need to
+[00:17:33] change the values to the curse why I am
+[00:17:35] doing this because whenever the request
+[00:17:37] comes you know by default it will hit to
+[00:17:39] this particular URL dot Pi file and
+[00:17:41] whenever it hits to the base URL like
+[00:17:44] API for slash then it has to go to the
+[00:17:46] go and check the file that is cars.urls
+[00:17:50] yeah so if you go back to this one so
+[00:17:52] this is how we have the configurations
+[00:17:54] for another working application so
+[00:17:56] currently this is all about the
+[00:17:58] configuration that we need to maintain
+[00:17:59] url.pf file under our project files
+[00:18:03] right this is this is remember that this
+[00:18:04] is a project folder now we need to go to
+[00:18:07] the cars.url what does this means cars
+[00:18:09] means this is a folder dot means you
+[00:18:11] know within this folder yeah so if you
+[00:18:13] go to the course
+[00:18:15] yeah so if you go to the cars if you
+[00:18:17] expand the cars underneath the cars you
+[00:18:19] have a url.pi file so if you go to the
+[00:18:22] there is no url.pfl so we need to create
+[00:18:24] that url.pf file let me change this test
+[00:18:27] dot URL file to uh you know so to to
+[00:18:29] Yeah so basically let me create a new
+[00:18:32] url.pfl because it is currently not
+[00:18:34] there we can create it so that's the
+[00:18:35] freedom
+[00:18:36] urls.py
+[00:18:39] so if you go here what did we add that
+[00:18:41] is the URLs yeah so the file name has to
+[00:18:44] be URLs okay so within this urls.pa file
+[00:18:47] I'm gonna close this test.pfl so the
+[00:18:49] test.pi file is for writing the test
+[00:18:51] cases I'm not going to use that file so
+[00:18:54] what do we need to keep now right so
+[00:18:55] again
+[00:18:57] um okay so let me expand this so if you
+[00:19:00] go here and I know right now what I'm
+[00:19:02] doing is I'm just comparing with the
+[00:19:03] already working project and I'm also
+[00:19:04] parallel explaining you so what do we
+[00:19:07] need to keep now in the us.pfl so this
+[00:19:09] is what we need to keep it I'm just
+[00:19:10] going to copy this
+[00:19:12] so
+[00:19:13] currently the new file which I created
+[00:19:16] with a name called url.pfi which is
+[00:19:18] created in a our API folder or our
+[00:19:21] application API folder so I'm gonna just
+[00:19:23] copy paste that
+[00:19:24] so here
+[00:19:26] what we need to do so this is currently
+[00:19:28] our API patterns are starts with the
+[00:19:31] cars so we need to add the cars
+[00:19:33] so this is the car and the car is
+[00:19:35] nothing but idea so and one more thing
+[00:19:37] is if you see here in the in the from
+[00:19:39] The Starting Line number 192 we're also
+[00:19:42] importing certain libraries that is URL
+[00:19:43] Dot and we need a path so again if I
+[00:19:46] remember if you remember the URLs which
+[00:19:49] is url.pfl which is created in the
+[00:19:51] project folder it also had a same
+[00:19:53] library has been imported it's just like
+[00:19:55] I know from URL file to another URL file
+[00:19:57] and from there you know the actual thing
+[00:19:58] will happen the actual thing will happen
+[00:20:00] in a view.pa file okay so that is views
+[00:20:03] dot PA file so I'm going to change it to
+[00:20:05] user.pi file
+[00:20:07] and within the iviews.vi file we're
+[00:20:09] going to create certain functions I'm
+[00:20:10] not later we need to write it here yeah
+[00:20:12] all right so here we've said so let me
+[00:20:15] create it as a course.va set okay this
+[00:20:17] is the function this is a class minute
+[00:20:19] we are importing basically what we are
+[00:20:21] doing is we are able to create a class
+[00:20:22] in this views.pi file but directly and
+[00:20:25] what I'm doing is from this views.pi
+[00:20:27] file I need to import my class card
+[00:20:29] cost.view set so I'm just going to
+[00:20:32] change the values like as expected and
+[00:20:34] whatever dot underscore has underscore
+[00:20:36] views function is there so it will
+[00:20:38] remain as it is yeah so this is all the
+[00:20:41] configuration we need to maintain in the
+[00:20:42] url.pfi now let's go to the Views dot
+[00:20:46] pfl yeah so the views.pfl as I said as I
+[00:20:48] explained in this diagram so this is
+[00:20:50] like a heart of you know this is like a
+[00:20:52] basically hot off the complete
+[00:20:53] application that's where actual they
+[00:20:55] know so many business logic will be
+[00:20:57] written in the views.pfl yeah all right
+[00:21:00] so I'm gonna just minimize my project
+[00:21:02] I'm gonna go to the uh views dot uh
+[00:21:05] viewset.pofl
+[00:21:07] I'm just going to copy the content
+[00:21:08] because we are doing the same we are
+[00:21:10] making the same working application I'm
+[00:21:12] gonna explain that applications uh in my
+[00:21:15] context okay in my in our application
+[00:21:17] context so we why I'm doing this so
+[00:21:19] these are all the configurations that we
+[00:21:20] need to maintain in the respective files
+[00:21:22] whatever the things that you are doing
+[00:21:24] at your side you need to follow the
+[00:21:26] respective configurations in the
+[00:21:28] respective files yeah all right so I'm
+[00:21:31] going to minimize the other other
+[00:21:33] project which is working project so here
+[00:21:35] we are doing couple of things here so
+[00:21:37] that is uh serializers uh dot so we need
+[00:21:39] to introduce one more file called uh
+[00:21:41] serializes okay so I'm gonna just copy
+[00:21:44] this
+[00:21:46] so underneath the cars folder that is
+[00:21:49] our API folder we need to create one
+[00:21:52] more file called serializes as we
+[00:21:54] explained like you know the serializes
+[00:21:56] dot Pi file is a file which is actually
+[00:21:59] converts the input into the you know
+[00:22:02] Django framework readable and also from
+[00:22:04] the database to user readable right that
+[00:22:07] is it converts you know the Json input
+[00:22:09] given from the user into the Django
+[00:22:12] understandable framework which will be
+[00:22:14] used to store in a database similarly
+[00:22:16] from the database to use readable format
+[00:22:18] so that is what the serializer job is so
+[00:22:22] um yeah so if you see here so our
+[00:22:24] views.pi file is now working fine now
+[00:22:27] I'm gonna close up the other files
+[00:22:29] because we are done with the
+[00:22:30] configurations of the other files now we
+[00:22:32] have a very two important files and
+[00:22:33] basically three important files we need
+[00:22:35] to make the changes that is models
+[00:22:36] serializes and Views okay so first one
+[00:22:39] let me make the changes in the model so
+[00:22:41] let's come from top to bottom you know
+[00:22:43] order so in the models.pi file so what
+[00:22:45] we need to do is we need to create a
+[00:22:46] model when you say model in application
+[00:22:49] context it is nothing but you know you
+[00:22:50] need to declare schema of your table
+[00:22:53] within the databases yeah so for that
+[00:22:55] case you know I have already declared
+[00:22:57] some schema in the another working
+[00:22:58] project I'm going to copy that so this
+[00:23:00] is the schema I we declared for for you
+[00:23:03] know relevant to that particular project
+[00:23:04] so we're gonna mimic that same thing
+[00:23:06] here so so underneath the yeah so
+[00:23:08] underneath the models.pfl so I'm gonna
+[00:23:10] just copy paste it so here what we do is
+[00:23:12] you know in our context it's a corset so
+[00:23:15] I'm going to just change it to course
+[00:23:16] so what does that care means so what
+[00:23:18] does this means is you know
+[00:23:20] what does actually you know this mean in
+[00:23:22] the context of Django is you know so
+[00:23:24] basically
+[00:23:25] we are telling hey Jango create a table
+[00:23:28] in my database with the name cars and
+[00:23:31] the the the the schema of the table has
+[00:23:34] to be like this that's what it means
+[00:23:35] yeah so here the whatever the variables
+[00:23:38] that you declare here that is full name
+[00:23:39] imply code mobile so those are nothing
+[00:23:41] but the column of your table called cars
+[00:23:43] so what I do is I'm gonna say like car
+[00:23:45] name
+[00:23:47] car underscore name
+[00:23:49] or or just a current score name and then
+[00:23:53] the say car code
+[00:23:56] then then you say like you know car
+[00:23:58] model yeah so say car model
+[00:24:02] so I'm going to create a very minimum uh
+[00:24:04] you know um very minimum um
+[00:24:07] so I'm gonna create very minimum column
+[00:24:09] that is that is bit relevant to the
+[00:24:11] course concept so we created a car name
+[00:24:13] car model car code or say you know the
+[00:24:15] car brand
+[00:24:17] uh car version maybe yeah
+[00:24:19] yeah all right so we created uh you know
+[00:24:22] so this so basically we defined the the
+[00:24:24] scheme of the table card cars so and
+[00:24:26] also within you know in front of those
+[00:24:28] uh you know little bit of those uh table
+[00:24:30] column name you can declare the
+[00:24:32] constraint of your
+[00:24:34] you know the the table columns yeah so
+[00:24:36] here it says you know the the it both
+[00:24:38] all these characters in all these
+[00:24:39] columns are allowed to fill the
+[00:24:42] characters of these lengths that's what
+[00:24:44] it means in the sense if you're Crossing
+[00:24:46] more than 100 characters you're not
+[00:24:47] gonna throw the error right so that's
+[00:24:49] the reason you need to maintain the uh
+[00:24:51] you know so basically you need to
+[00:24:52] maintain the the the character limit up
+[00:24:55] to this these limits been mentioned here
+[00:24:57] so I'm gonna keep these numbers like
+[00:24:58] this yeah so with that you know we are
+[00:25:00] done with the models.pi file
+[00:25:03] configurations yeah now we go to the
+[00:25:05] serializers so serializer as I said this
+[00:25:06] is like a conversion file yeah this is
+[00:25:08] the piece of component in the Django
+[00:25:10] framework which will help us to convert
+[00:25:12] yeah so I'm gonna just copy paste from
+[00:25:14] the other project and we're going to
+[00:25:15] make it relevant in changes yeah so in
+[00:25:18] my cases if I go to the models
+[00:25:20] uh in the models you know so we have a
+[00:25:22] class called cars yeah so here what we
+[00:25:25] notice we need to import that class here
+[00:25:27] how to do that is from dot model so from
+[00:25:31] dot model Generations from this models
+[00:25:33] file I need to import a class called
+[00:25:36] class yeah and then we are again making
+[00:25:40] we are again declaring a class called
+[00:25:43] that is serializer class with a name
+[00:25:45] like cars serializers yeah and this one
+[00:25:48] we are actually creating you know
+[00:25:49] keeping the model name equal to this is
+[00:25:51] cars yeah so what does this means is
+[00:25:54] basically you know uh you need to keep
+[00:25:55] the configurations of the serializer.pfl
+[00:25:57] in the same pattern yeah that is here
+[00:26:00] from model.car you know so we are
+[00:26:02] actually doing uh you know from you know
+[00:26:04] we are actually importing the class
+[00:26:06] declared in the
+[00:26:08] in the models.pi file and from here you
+[00:26:11] know we are actually
+[00:26:12] um we are actually so uh you know uh uh
+[00:26:15] declaring a class card car serializes
+[00:26:17] and that is inheriting certain uh you
+[00:26:21] know the classes certainly object
+[00:26:22] classes basically if you see here this
+[00:26:24] is again a class that is from the model
+[00:26:26] serializer class you know we are
+[00:26:27] actually
+[00:26:27] from the framework or from the library
+[00:26:29] serializes we are actually importing a
+[00:26:31] class called Model serializes that is
+[00:26:34] being I know that is being acting as a
+[00:26:36] uh you know the the parameter to this
+[00:26:38] particular class
+[00:26:39] all right so this is the configurations
+[00:26:41] of the serializer.pa file now let's go
+[00:26:43] to the next one that is um that is the
+[00:26:45] final one that is uh I know we use uh
+[00:26:47] dot PA file so weaves.pfl is a very uh
+[00:26:51] very important as I said you know this
+[00:26:53] is the file which is actually uh doing
+[00:26:55] the you know the heart of your
+[00:26:57] application which is actually
+[00:26:58] responsible for you know doing those
+[00:27:00] crit operation that is create read
+[00:27:02] update delete operations yeah so in my
+[00:27:04] case uh you know so uh if you see you
+[00:27:06] know this file has multiple libraries
+[00:27:09] been imported uh which includes a rest
+[00:27:12] framework then you have a shortcuts then
+[00:27:14] you then we are actually importing the
+[00:27:15] local files that is models and
+[00:27:17] serializes uh from those files you know
+[00:27:20] we are actually importing those files
+[00:27:21] and then we have the rest framework
+[00:27:23] views response and the status are also
+[00:27:25] been imported like this yeah so here I
+[00:27:27] need to make the change relevant so for
+[00:27:29] that case I'm gonna make the changes
+[00:27:31] serializes while I will also explain the
+[00:27:33] things yeah so here we are declaring a
+[00:27:36] class called cars view set so cars view
+[00:27:39] set in the python jungle framework
+[00:27:42] Django restaurant Keys you know it means
+[00:27:44] that you know you are doing certain
+[00:27:45] operations uh with respect to the data
+[00:27:47] or with respect to the request that's
+[00:27:48] what it means yeah so here we've said so
+[00:27:51] when you in no so here what you're doing
+[00:27:53] is from the rest framework where we are
+[00:27:55] actually you know you are actually
+[00:27:56] importing a class called API view
+[00:27:59] whenever you are import you know
+[00:28:00] whenever using that API view class as
+[00:28:03] the parameter to the another class
+[00:28:05] called class.view no you can directly
+[00:28:08] write the functions of https functions
+[00:28:11] in the sense you can reuse or you can
+[00:28:13] you write the functions you can override
+[00:28:16] the https functions like get an output
+[00:28:19] post write and delete yeah and that's
+[00:28:23] what the down the line it will be doing
+[00:28:24] it here
+[00:28:25] if I go to the model so we are using the
+[00:28:27] uh you know so basically car version
+[00:28:30] yeah so let me do this all right so here
+[00:28:34] um okay so let me go to the Views dot uh
+[00:28:36] POI file so this is very important
+[00:28:38] things we need to make the changes here
+[00:28:39] right so first wise get operation so
+[00:28:41] what does this get operation does so in
+[00:28:43] the sense let's say you have a database
+[00:28:45] in that database whatever the
+[00:28:46] information are present or whatever the
+[00:28:48] records are present you need to retrieve
+[00:28:50] that okay and that you need to do with
+[00:28:51] the API okay so not with the like select
+[00:28:54] zarya and that is what API does
+[00:28:56] basically yeah so here that is in in API
+[00:28:58] terminology that kind of operation will
+[00:29:01] be done by https method called get and
+[00:29:04] in that get you know we are actually
+[00:29:05] passing the the self uh you know the
+[00:29:08] self uh cell parameter then we have a
+[00:29:10] request then here ID so in in our case
+[00:29:13] it is ID it is not an ID so it should be
+[00:29:15] it should be um if I go to this one so
+[00:29:18] it should be
+[00:29:19] um car version so let me keep the value
+[00:29:21] as a car version
+[00:29:22] uh okay or let's make it as a car ID
+[00:29:26] only so let me to make it very simple or
+[00:29:28] to make it like uh very simple
+[00:29:31] yeah let it be car version so ID is
+[00:29:35] nothing but you know so it's uh okay so
+[00:29:37] let me tell you like this whenever we
+[00:29:39] whenever we create a table with using
+[00:29:41] Django framework it does create the
+[00:29:44] columns as per our definitions but also
+[00:29:45] it maintains a standard column called ID
+[00:29:48] which which actually mean for you know
+[00:29:51] maintaining the records uniquely so let
+[00:29:52] it be ID equal to none yeah so
+[00:29:54] underneath that we have a model so
+[00:29:56] models instance in the models if you go
+[00:29:58] to the models in the models we have a
+[00:30:00] class called cars
+[00:30:01] right so from the Cars Cars is nothing
+[00:30:03] but uh you know you can consider it like
+[00:30:05] as a
+[00:30:06] uh you know it's got considered as a
+[00:30:09] post gear SQL library for
+[00:30:12] you know for python yeah so like that so
+[00:30:15] from model we are importing uh car as a
+[00:30:18] class and in that class we want to get
+[00:30:20] an object object which is equal to ID
+[00:30:22] equal to idea that is nothing but you
+[00:30:23] know you are actually interacting with
+[00:30:25] the postgresql database and getting the
+[00:30:27] particular only one object where I'd
+[00:30:29] equal to something like this so in a
+[00:30:30] layman term this is nothing but select
+[00:30:33] a car from this car table where ID equal
+[00:30:35] to this one that is what it does yeah it
+[00:30:38] actually returns an item
+[00:30:39] and that item is nothing but you know so
+[00:30:41] here that atom will be passed as an
+[00:30:43] input to the serializers if you go to
+[00:30:45] the serializer we have a class called
+[00:30:47] car serializers I'm going to take you to
+[00:30:48] that
+[00:30:49] so this is the car serializers I'm going
+[00:30:51] to change the values and when it returns
+[00:30:53] you know so when this commands gets when
+[00:30:55] these uh you know function gets executed
+[00:30:57] that is I know the serializer class this
+[00:31:00] is the serializer model within that
+[00:31:01] serializer model this is a class yeah so
+[00:31:03] we are calling a class called cars
+[00:31:05] serializer and to that class we are
+[00:31:07] passing an object and the return type of
+[00:31:09] that particular uh you know class is
+[00:31:11] nothing but you know again one other one
+[00:31:13] more object and that object has the
+[00:31:15] property called data and that data has
+[00:31:17] been passed as a response you see we are
+[00:31:19] written a response called status equal
+[00:31:21] to success data equal to the
+[00:31:22] serializer.data and the status of the
+[00:31:24] response is nothing but https response
+[00:31:26] yeah all right similarly likewise you
+[00:31:28] know we are actually let's say you want
+[00:31:29] to retrieve all the data present in that
+[00:31:31] particular table so to do that you know
+[00:31:33] we have to follow the same you know same
+[00:31:34] thing but just a small changes I'm just
+[00:31:36] going to change the like you know cars
+[00:31:38] wherever it is implies I'm going to
+[00:31:39] change it to cars uh yeah and then
+[00:31:41] wherever it is a Car Series I'm going to
+[00:31:42] change it to the car serializes
+[00:31:45] so here again you know you are actually
+[00:31:47] running the postgres SQL query that is
+[00:31:49] get all selects or something like that
+[00:31:51] yeah so when you select star it gonna
+[00:31:53] return I know it gonna return the SQL
+[00:31:55] objects that SQL object has to be passed
+[00:31:58] to a serializer so that it can convert
+[00:32:00] that SQL object into a human readable
+[00:32:03] format that is what the serializer is
+[00:32:04] doing here through a class called
+[00:32:06] serializer module to the serial name
+[00:32:08] through the serializers model you are
+[00:32:10] invoking a custom class called car
+[00:32:11] serializers right and to the to that
+[00:32:14] particular class utilizers we are
+[00:32:15] actually giving the object called items
+[00:32:17] and that item is nothing but you know
+[00:32:19] it's a model item that is model object
+[00:32:21] yeah and then that the output of that
+[00:32:23] will be serializes and that will be
+[00:32:24] passed as a as a response where the from
+[00:32:27] the serializers we are extracting the
+[00:32:28] data yeah so likewise we are doing the
+[00:32:31] writing the post patch and delete I'm
+[00:32:33] going to share this file I'm not going
+[00:32:35] to walk you through these commands
+[00:32:36] you're gonna you know so that is how we
+[00:32:37] are doing it yeah so this is how we did
+[00:32:40] for get now let me go to the cars yeah
+[00:32:42] so let me do the other changes okay so
+[00:32:45] for example say
+[00:32:46] um car serial I just wanted to go
+[00:32:48] through the course here lenses
+[00:32:49] so here is the car serializers I'm going
+[00:32:51] to change it here so I'm just aligning
+[00:32:53] the I'm just aligning the changes
+[00:32:54] further changes yeah so this is the car
+[00:32:56] serializes and then we're gonna go to
+[00:32:58] the uh yeah so this is the serializers
+[00:33:00] yeah similarly here is we need to change
+[00:33:03] with the cars I'm gonna just uh so
+[00:33:05] wherever employer serializers is there
+[00:33:07] so I'm going to change it to car
+[00:33:08] similarities you can do same thing in
+[00:33:10] your application so don't get confused
+[00:33:12] so I'm gonna just go to the another one
+[00:33:14] so all right so now wherever it is
+[00:33:17] employees I'm going to change it to my
+[00:33:18] model class called cars
+[00:33:21] all right so I'm gonna quickly walk you
+[00:33:23] through these uh these functions as well
+[00:33:25] this is cars and this is also cars
+[00:33:28] all right so we did saw we did see uh
+[00:33:33] the the get operation that is https get
+[00:33:35] operations now we see the https post
+[00:33:37] operation so the https post operation is
+[00:33:39] nothing but it gonna create a record
+[00:33:41] into a postgresql table right so in our
+[00:33:45] case the table name is is you know is
+[00:33:46] cars yeah so how does it happen so if
+[00:33:49] you see here
+[00:33:50] the we are actually invoking a car
+[00:33:53] serializer class
+[00:33:55] and to that class we are passing
+[00:33:57] uh parameter equal to data that the data
+[00:34:00] parameter which contains data that is
+[00:34:02] came through a request if I go back to
+[00:34:03] this one that is a request the request
+[00:34:06] has been passed to the Views and the
+[00:34:08] viewc sending it to the residualizer
+[00:34:09] from the serializer it will convert that
+[00:34:11] you know the input into uh you know
+[00:34:13] serialized data which is suitable to
+[00:34:15] insert into the postgres circle model
+[00:34:17] okay so basically serializer is becoming
+[00:34:19] like a refiner in a model basically and
+[00:34:22] so serializer is doing that so once it
+[00:34:24] is serialized then it is validating
+[00:34:25] whether it is a write data and then it
+[00:34:27] is clicking as a save what does that say
+[00:34:29] mean in the sense insert save is nothing
+[00:34:30] but insert into a table yeah all right
+[00:34:33] then then we are actually calculating
+[00:34:34] the responses similarly likewise patch
+[00:34:37] let's say you already have a record with
+[00:34:39] a certain ID into your table you want to
+[00:34:41] update that that is what the update
+[00:34:43] operation is all about
+[00:34:44] so here what we are doing is we are
+[00:34:46] actually
+[00:34:47] um you know so first one to update the
+[00:34:49] record you also first you have to
+[00:34:50] retrieve the record modify the required
+[00:34:52] content and then put it into back here
+[00:34:53] so that is what we are doing first one
+[00:34:55] is actually equivalent to the get
+[00:34:56] operation that is get a particular car
+[00:34:58] object or car record like this and then
+[00:35:01] that that output is passed through a
+[00:35:04] serializer and then you are validating
+[00:35:06] the serializer and finally saving that
+[00:35:07] is nothing but you know you are actually
+[00:35:08] updating the record we're gonna see
+[00:35:10] these in in a real time when I'm
+[00:35:11] executing the project yeah all right
+[00:35:14] then finally delete so delete is nothing
+[00:35:15] but it is actually invoking a delete
+[00:35:17] method of the https likewise we saw in
+[00:35:21] the you know patch and post
+[00:35:23] the function name is equivalent to the
+[00:35:26] https method because as I said you know
+[00:35:28] we are passing a class called app view
+[00:35:31] from the from the request framework yeah
+[00:35:34] that's the reason you can directly use
+[00:35:36] these functions and these function gets
+[00:35:38] overridden yeah our methods gets
+[00:35:40] override yeah this is overwritten
+[00:35:42] methods in the delete and also you have
+[00:35:43] a ID where actually you know what we are
+[00:35:45] doing is we are actually filtering a
+[00:35:47] particular item say you want to you know
+[00:35:49] when you say delete Investments we want
+[00:35:50] to delete particular ID yeah so you need
+[00:35:52] to pass that you know API then then you
+[00:35:54] have a cars then for slash you need to
+[00:35:56] do a API ID then you if you hit the
+[00:35:58] method called delete it gonna delete so
+[00:36:00] this is what it does basically it
+[00:36:01] retrieves the particular object a
+[00:36:03] particular record from the table and it
+[00:36:05] executes a command called delete and
+[00:36:07] finally if it is deleted then it gonna
+[00:36:08] go to the return method and it's going
+[00:36:10] to return the responses so this is what
+[00:36:12] it happens under the hood so I have
+[00:36:15] walked you through the complete files
+[00:36:16] and folder structure now time has come
+[00:36:18] to execute the next commands and and
+[00:36:20] realize you know whether we are
+[00:36:22] successfully created the API that is our
+[00:36:25] Django rest framework API which is doing
+[00:36:28] credit operation for us all right so
+[00:36:30] next command that I need to execute is
+[00:36:32] you know I need to make the migrations
+[00:36:33] what does that migrations you know what
+[00:36:35] does that migration means in in Django
+[00:36:37] risk framework is that you know so when
+[00:36:39] you execute a command like make
+[00:36:41] migration and migration which actually
+[00:36:42] it compiles your model.pa file and
+[00:36:45] creates the table in the in the
+[00:36:47] designated you know the postgresql
+[00:36:50] engine and designated
+[00:36:52] a database it's going to create a table
+[00:36:54] that is what that is what actually you
+[00:36:56] know
+[00:36:57] um uh you know the the make migration
+[00:36:59] command does in a uh in the in the in
+[00:37:02] the rest framework that is in the brf
+[00:37:04] actually yeah so I'm going to run the
+[00:37:06] next command that is uh you know python
+[00:37:08] manage py make migration and then you
+[00:37:10] need to give your API app name in my
+[00:37:13] case my API app name is cars so I'm
+[00:37:15] gonna give the name like cars
+[00:37:17] and just hit enter all right so it
+[00:37:20] currently it is showing that you know
+[00:37:21] the car we've set from the Cars you know
+[00:37:23] there is like a cat importer name like
+[00:37:25] card view set from the car okay there is
+[00:37:27] look to a small problem so I'm going to
+[00:37:28] modify that so basically if you see the
+[00:37:30] cars and url.pa file so uh Cloud Quick
+[00:37:34] Labs okay I'm gonna go to the um
+[00:37:37] cars so yeah so this is under Cloud
+[00:37:40] Quick labs and cars in the apps and to
+[00:37:43] go to the urls
+[00:37:44] in the line number website so basically
+[00:37:46] car website it is not able to import the
+[00:37:48] car view set
+[00:37:50] so net to check what is the you know
+[00:37:52] what is the thing we need to modify so
+[00:37:53] if you go to the views
+[00:37:56] this is views in this one what is the
+[00:37:58] function we are given so this is the
+[00:38:00] function I have given so I need to give
+[00:38:01] that back to the uh to the URL so I'm
+[00:38:04] gonna just change it
+[00:38:07] so all right so there is a small uh if
+[00:38:09] you see here the function name is
+[00:38:11] changing yeah that is the class name is
+[00:38:13] changing from the views.py file the name
+[00:38:16] of my class is we use cars view set yeah
+[00:38:18] so that is what it was complaining so I
+[00:38:21] just made the changes you see it is
+[00:38:22] detected I'm gonna just change the
+[00:38:23] respective things whenever this kind of
+[00:38:25] error becomes error throws you know you
+[00:38:27] just need to read the last line that is
+[00:38:29] uh cannot import you know so the last
+[00:38:31] line of your error meshes is actually
+[00:38:33] tells what is there are happening yeah
+[00:38:36] all right so in my case you know we are
+[00:38:38] lucky enough that you know we have
+[00:38:38] identified what is the right error yeah
+[00:38:40] so I'm gonna just do a enter and we're
+[00:38:42] gonna re-execute the command called
+[00:38:44] python manage.pi make migration and then
+[00:38:47] our API name okay so if I go to the uh
+[00:38:50] txt file I have so this directive file
+[00:38:53] will be shared in my GitHub wrapper this
+[00:38:55] complete folder structure will be shared
+[00:38:57] in my GitHub wrapper and I'm going to
+[00:38:58] share this uh you know the GitHub repo
+[00:39:00] Link in this video's description you can
+[00:39:01] find it from there and try to learn the
+[00:39:03] drf
+[00:39:05] that is to build the credit operation
+[00:39:06] apis yeah all right so I'm gonna just
+[00:39:08] hit enter
+[00:39:10] if there is no error which is good sign
+[00:39:12] you know it has it is it has set the job
+[00:39:14] actually so with that we need to write a
+[00:39:16] one more command that is we need to
+[00:39:18] execute one more command that is python
+[00:39:19] manage.pf file so I'm going to just hit
+[00:39:21] enter
+[00:39:22] here you go the you know the the table
+[00:39:24] got created it looks like so whenever
+[00:39:26] you see these green green Mark okay okay
+[00:39:27] which means that you know
+[00:39:28] congratulations you know in the sense
+[00:39:30] your table got created so we're gonna go
+[00:39:32] to the uh go to the my postgres SQL
+[00:39:35] engine so this is my postgresql engine
+[00:39:36] in that one this is our table which we
+[00:39:39] created earlier I showed you that you
+[00:39:40] know there were no tables if I refresh
+[00:39:42] this table we should see the table Yeah
+[00:39:44] so if I refresh it here you go my tables
+[00:39:46] got created there are so many tables
+[00:39:48] that Django framework creates for us
+[00:39:50] that is auth right then you have a
+[00:39:52] Django Frameworks in that one the our
+[00:39:54] important uh table is Cars the cars is
+[00:39:57] like in our business table Yeah so this
+[00:40:00] one so I'm just gonna view all rows
+[00:40:03] so what what do I mean doing is I'm just
+[00:40:05] running a command called select start
+[00:40:07] from the Cars order by sending if I see
+[00:40:10] here you see you know we have a a column
+[00:40:12] name that is default column name called
+[00:40:14] ID card name car version and car models
+[00:40:17] okay so this is my table got created
+[00:40:19] automatically I have never executed an
+[00:40:21] SQL command but it got created yeah it
+[00:40:23] also so does when you do a create read
+[00:40:25] update and delete operations okay so
+[00:40:27] that's what we see now so now time has
+[00:40:29] come to run our application by running
+[00:40:31] the command called python manage.py run
+[00:40:34] server
+[00:40:35] so I'm gonna do that job right away so
+[00:40:37] if you hit the command called python
+[00:40:40] hyphen manage.pa file and then you're
+[00:40:42] gonna see this URL getting populated
+[00:40:45] just click on this URL it gonna take you
+[00:40:47] to this particular file yeah so
+[00:40:49] currently it is throw in there I'm just
+[00:40:51] copy paste I don't I don't like this
+[00:40:52] basically so I'm gonna open this in the
+[00:40:55] in this particular uh you know so in my
+[00:40:58] um in my Google Chrome so this is the
+[00:41:00] final demo so I know I need to open this
+[00:41:02] particular URL in the Google Chrome so
+[00:41:04] I'm just going to open this that is HTTP
+[00:41:06] HTTP colon localhost for slash 800 Port
+[00:41:09] 8000 port
+[00:41:12] so if I'm hitting this it is throwing
+[00:41:14] error why because it is telling that no
+[00:41:16] using the URL definitions that is cloud
+[00:41:18] group clubs URLs Django tied to these
+[00:41:21] URL pattern in the sense if you go here
+[00:41:22] that is what the Django is telling right
+[00:41:24] if you go to the here
+[00:41:25] uh underneath the Cloud Quick Labs I'm
+[00:41:28] going to minimize this under the Cloud
+[00:41:29] Quick labs and Cloud Quick Labs uh main
+[00:41:31] project folder there is a URLs in that
+[00:41:34] URL it is detecting that you know hey
+[00:41:35] there is a two other parts have been
+[00:41:36] defined you might need to use it so it
+[00:41:39] is telling that no this is not your
+[00:41:40] right API URL you need to append this
+[00:41:43] URL with the other options that is say
+[00:41:44] APA options yeah so I'm gonna just hit
+[00:41:47] enter
+[00:41:48] so this is also not right so I'm just
+[00:41:50] gonna say like you know apis
+[00:41:54] all right so it looks like you know so
+[00:41:55] currently uh you know currently it does
+[00:41:58] not has any record so I'm just going to
+[00:41:59] try with the admin maybe admin get work
+[00:42:02] so I'm just gonna see the
+[00:42:04] uh admin so I'm just just gonna so
+[00:42:07] basically you know our server is up and
+[00:42:08] running fine but there is a small you
+[00:42:10] know small uh problem in the in
+[00:42:12] accessing the path so I'm just going to
+[00:42:13] execute that admin
+[00:42:16] yeah here you go so our admin page is
+[00:42:18] working which means that you know our
+[00:42:19] application is up and running fine yeah
+[00:42:21] now we need to make a call to our API
+[00:42:24] that is a car so I'm gonna just say cars
+[00:42:29] right so if you enter this car so why
+[00:42:31] does it it you know why does this this
+[00:42:33] particular API path worked because if
+[00:42:36] you see here here I'm telling API from
+[00:42:38] the API what I'm telling it is it uh
+[00:42:40] well enough well so here when it when
+[00:42:43] the when the execution comes here I'm
+[00:42:44] telling hey you need to go to this file
+[00:42:46] that is cars underneath the cars you
+[00:42:48] need to go to the url.pfl so underneath
+[00:42:50] the URL file again you have a identified
+[00:42:52] paths what are those identified Parts
+[00:42:54] the identified parts are like cars right
+[00:42:56] so if I see here if I show you here so
+[00:42:59] first one this is the your root URL
+[00:43:01] underneath the root URL there is a one
+[00:43:03] more bottom subfolder called API after
+[00:43:06] that you need to hit the cars then only
+[00:43:09] the you know the the that is that is the
+[00:43:11] place where actually the API gets
+[00:43:12] started Yeah so basically your root API
+[00:43:15] URL is like this right now time has come
+[00:43:18] to you know do a records if you see here
+[00:43:20] we have four functions being declared in
+[00:43:23] our Django API right that is get delete
+[00:43:26] all those apis have been shown here that
+[00:43:27] is post and yeah
+[00:43:29] all right so now we're gonna create a
+[00:43:31] post now so to create a post I need to
+[00:43:33] we need to create this particular Json
+[00:43:36] object and the Json object should
+[00:43:38] contain the key value pair and the where
+[00:43:40] the key is nothing but your column name
+[00:43:41] and value is nothing but the value you
+[00:43:43] want to insert to do that what I've got
+[00:43:45] is I'm gonna go to the models I'm going
+[00:43:47] to copy my
+[00:43:48] um my column name and put it in the form
+[00:43:50] of a Json so whatever the value you are
+[00:43:52] putting here you need to put it in the
+[00:43:53] form of Json
+[00:43:55] make sure that you know you are not
+[00:43:56] missing the init Json properties
+[00:43:59] yeah so just do copy paste and then
+[00:44:02] we're gonna do this like this and then
+[00:44:04] yeah so this way
+[00:44:08] yeah all right and then finally we need
+[00:44:10] to create one more basically we have a
+[00:44:12] three columns right and that's the
+[00:44:14] reason I'm creating a three key value
+[00:44:16] pairs where the key is nothing but you
+[00:44:18] know our column names so I'm gonna just
+[00:44:20] show this now here I'm just gonna see
+[00:44:22] this and then we're gonna do the car
+[00:44:25] model as well so I'm gonna just copy the
+[00:44:26] core models and then uh here you go so
+[00:44:29] basically car name is say no say BMW so
+[00:44:32] this is BMW
+[00:44:34] and their version is say say you know
+[00:44:36] version 4 or version two yeah and the
+[00:44:39] model is something like say x y z
+[00:44:41] ah so this is the actual you know this
+[00:44:43] is actually a body of a post command
+[00:44:47] yeah so if I Joe this one just say post
+[00:44:49] here we go I know the data is inserted
+[00:44:51] into the you know so you see here it is
+[00:44:54] getting a response called you know
+[00:44:55] successfully inserted and the you know
+[00:44:57] it has created ID like this and and this
+[00:44:59] is what it happens okay so earlier when
+[00:45:01] I when I opened the postgres SQL command
+[00:45:03] it does not had any kind of Records in
+[00:45:05] it if I rerun the same command you see
+[00:45:08] you know my data got inserted yeah so
+[00:45:10] likewise we are done with the post
+[00:45:12] operations let's do patch operations
+[00:45:14] okay so to do the patch operation what I
+[00:45:16] need to do is I need to I need to update
+[00:45:18] the patch as well yeah
+[00:45:19] to update the patch you know I need to
+[00:45:21] pass the ID so anything but you know
+[00:45:23] which patch if I go to the back to the
+[00:45:25] patch code in the views.pf file so I
+[00:45:28] will go to the patch code here it needs
+[00:45:31] an input called ID yeah so for that case
+[00:45:33] what I'm doing is I need to update
+[00:45:36] uh I need to update a record where ID
+[00:45:39] equal to 1 and I just need to update the
+[00:45:43] uh The Columns like this okay so that's
+[00:45:45] what I'm doing so I'm going to go back
+[00:45:47] to the patch function so this is the
+[00:45:49] patch function so what is the what is a
+[00:45:51] very good good feature of the drf is
+[00:45:55] so you know so basically whenever you
+[00:45:57] whenever your application or whenever
+[00:45:59] your API starts working
+[00:46:01] Django Frameworks provides this you know
+[00:46:03] a ready-made inbuilt API you know
+[00:46:06] inbuilt
+[00:46:07] UI through which you can test your APS
+[00:46:09] you don't need to have a you know maybe
+[00:46:12] Postman are commanded but you know it
+[00:46:14] does helps you to um it does helps you
+[00:46:16] to you know basically basically test
+[00:46:18] your API from the UI itself and this UI
+[00:46:21] has been ready made built in from the
+[00:46:23] Jango restaurant I have not created any
+[00:46:25] you know any HTML CSS file for this one
+[00:46:27] but this is made in from the made by
+[00:46:29] default from the Django rest framework
+[00:46:31] yeah so here I need to modify the
+[00:46:34] version 2 to version 3. let's see if it
+[00:46:36] modifies yeah so I'm just going to make
+[00:46:38] a changes looks like there is some error
+[00:46:40] basically so
+[00:46:42] I don't know so what is there let's see
+[00:46:44] what is there
+[00:46:46] it says you know cars matching query
+[00:46:49] does not you know so basically it says
+[00:46:50] you know there is no cars okay so if I
+[00:46:52] uh go here
+[00:46:54] uh okay so this is uh patch right so
+[00:46:58] fast is nothing but ID equal to one
+[00:47:00] so we pass ID equal to one so I'm gonna
+[00:47:03] go back to this one
+[00:47:05] uh okay so let me go to the uh course
+[00:47:09] Select Cars so correctly this one so
+[00:47:12] patching so basically I'm missing the
+[00:47:13] syntax that's the reason it is not uh
+[00:47:16] throwing so basically I'm just gonna
+[00:47:17] modify it
+[00:47:19] I'm gonna just try to modify it
+[00:47:22] again with this format
+[00:47:25] uh just say four version looks like it
+[00:47:29] is modified I know it's version three
+[00:47:32] version four I'm just gonna make it
+[00:47:33] version 4 with the patch yeah I'm just
+[00:47:36] missing certain syntax and that's the
+[00:47:37] reason it's throwing there it says you
+[00:47:39] know the cars are model does not
+[00:47:41] uh cars matching the query does not
+[00:47:44] exist so basically now it is not
+[00:47:46] matching the queries that's the reason
+[00:47:47] it's throwing there so and also under
+[00:47:50] the hood you know so let me let me try
+[00:47:51] one more time and then later we can see
+[00:47:53] the get operations as well
+[00:47:55] uh so if I go to the so basically I'm
+[00:47:57] missing the functionality of the of the
+[00:48:00] particular is is right yeah so this is
+[00:48:02] the int ID
+[00:48:04] yeah so cars okay fine I'm just gonna do
+[00:48:08] the cars and then just save one so
+[00:48:11] basically when you when you hit this
+[00:48:12] command basically you know it's it's
+[00:48:13] actually doing a get operation yeah
+[00:48:17] um okay so now let me do a patch
+[00:48:19] operations uh with this ID that is
+[00:48:21] containing ID as well
+[00:48:23] okay so let me modify this ID
+[00:48:27] so basically you know earlier I was not
+[00:48:29] passing ID right so that's the reason it
+[00:48:31] might be throwing there let me try to
+[00:48:32] give this way
+[00:48:34] so what we are doing is we are updating
+[00:48:36] the car version from two to three that
+[00:48:38] is V3 and lets me hit it looks like
+[00:48:40] there is a error again so that says car
+[00:48:43] dot post we've said that car post you
+[00:48:45] know got an unexpected argument called
+[00:48:48] key ID so if you go here that is uh yeah
+[00:48:51] that is uh
+[00:48:53] uh idea so if you go here that is uh
+[00:48:57] patch if you go to here then the patch
+[00:48:58] you know basically ID equal to none
+[00:49:01] yeah the ID value will be passed here so
+[00:49:03] I need to I might need to use the
+[00:49:04] question mark so that's the reason let
+[00:49:05] me see
+[00:49:07] uh ID question mark ID equals to one
+[00:49:12] yeah and then yeah so let me see this
+[00:49:15] here you go so where ID equal to one and
+[00:49:18] I'm gonna I'm gonna update the records
+[00:49:21] yeah so I'm gonna update the record
+[00:49:22] again try to update the record again so
+[00:49:24] basically I'm missing the syntax that's
+[00:49:25] the reason I'm not able to run the patch
+[00:49:28] command which is nothing but updating
+[00:49:29] the record so I'm just gonna make the
+[00:49:31] command like this that is version three
+[00:49:33] and then then just let me hit the enter
+[00:49:36] here so it says again it throws the
+[00:49:38] error basically what is happening is you
+[00:49:40] know I'm just missing the syntax that's
+[00:49:41] all but in your case when you try it at
+[00:49:44] the patient's fully you know it will
+[00:49:45] work so in the word job time I'm just
+[00:49:46] gonna go to the next one that is uh that
+[00:49:49] is you know that is uh getting yeah so
+[00:49:51] if I go back and then just hit enter so
+[00:49:53] basically you know we are doing the get
+[00:49:55] operations if I hit the get operations
+[00:49:56] we are getting the all get operations
+[00:49:57] I'm gonna insert the one more records as
+[00:50:00] well to just to just to you know so let
+[00:50:02] me insert one more record I'm gonna
+[00:50:04] remove the ID
+[00:50:06] and say say you know say uh say like
+[00:50:09] bench
+[00:50:11] yeah so this is bench version is two
+[00:50:13] equal to and the core model is this one
+[00:50:15] so this is bench bench bench yeah I'm
+[00:50:17] sorry yeah unfortunately I have inserted
+[00:50:20] the record so I'm just gonna uh just try
+[00:50:23] to refresh it so if you write whenever
+[00:50:25] whenever hitting the whenever you're
+[00:50:27] directly that is nothing but you know
+[00:50:28] you are hitting the uh you know the um
+[00:50:31] you are actually hitting the uh you know
+[00:50:33] the get all operations if you hit these
+[00:50:35] commands let's say you want to delete a
+[00:50:37] particular ID right so how do you delete
+[00:50:39] it so you can delete it like this that
+[00:50:41] is where
+[00:50:42] ID
+[00:50:43] where IDE equal to
+[00:50:46] ID equal to 1 and if you hit the delete
+[00:50:49] you know we should be deleting the
+[00:50:50] record with the ID equal to one so if
+[00:50:52] you see here I show that you want to
+[00:50:54] delete this cursor view yes I just want
+[00:50:56] to confirm here you go the delete got
+[00:50:58] successful if I go to the uh the my
+[00:51:01] postgres symbol and run it we should see
+[00:51:03] the you know the two records I'm just
+[00:51:06] gonna see it here so I'm just gonna hit
+[00:51:08] it enter again
+[00:51:09] so I've just hit the enter here we go it
+[00:51:12] is it is getting the records and just
+[00:51:14] delete it
+[00:51:15] are you sure that you want to delete yes
+[00:51:17] I want to delete the delete got success
+[00:51:19] alert
+[00:51:20] Yeah so basically it is working yeah
+[00:51:22] under the hood you know the the apis are
+[00:51:24] working as expected yeah so
+[00:51:27] um yeah so basically what we are doing
+[00:51:30] is we are actually
+[00:51:31] um executing the commands if I go to the
+[00:51:33] uh you know the car
+[00:51:35] um
+[00:51:36] yeah so when I delete it so we are
+[00:51:39] getting the https request to why we are
+[00:51:42] getting is basically you know you see
+[00:51:43] that you know we are actually deleting
+[00:51:45] the function yeah
+[00:51:46] all right
+[00:51:49] um the finally you know um last one is
+[00:51:51] basically you know this is how under the
+[00:51:53] hood it works with a quite I know quite
+[00:51:55] some some other things you know we can
+[00:51:57] align in this functions but in general
+[00:52:00] you know so this is how uh our API Works
+[00:52:03] um yeah
+[00:52:04] um and and finally
+[00:52:06] um I'm gonna show you the the get
+[00:52:08] operation again so if I hit the get
+[00:52:09] operations we are actually getting all
+[00:52:11] and that is ID equal to all so I'm just
+[00:52:14] gonna do a control Z
+[00:52:16] and then hit enter so this is how you
+[00:52:19] know basically uh you know the our code
+[00:52:22] Works under the hood now with that note
+[00:52:24] you know I have shown you the things
+[00:52:26] need to be shown in this credit
+[00:52:27] operation apis we saw I know that you
+[00:52:30] know how does the Django race framework
+[00:52:32] has been built with using the main
+[00:52:33] important component we also did host a
+[00:52:36] project we created the project from
+[00:52:38] scratch we hosted the API application
+[00:52:41] then we made the changes and we finally
+[00:52:44] saw that you know our our API is working
+[00:52:46] as expected yeah so with that note you
+[00:52:48] know I have shown you the things need to
+[00:52:50] be shown in this video finally I can't
+[00:52:51] request please do subscribe my channel
+[00:52:52] that would really increase my a lot with
+[00:52:54] that note thank you thanks a lot and see
+[00:52:55] in the next video

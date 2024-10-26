@@ -1,0 +1,99 @@
+Title: What Did Ilya See? Strawberry Deceiving Users 🤯 (+ The Future of GPT & LLMs)
+Channel: Julia McCoy
+Published: 2024-09-22T16:13:34Z
+Duration: PT7M26S
+
+Speaker 1: Julia McCoy
+Sentiment: Curious
+
+Speaker 1: What did Ilya see, when he stepped away from OpenAI in May to build SSI, his AI company solely created around the purpose of launching safe superintelligence? This is a question I, like many of you, have been asking.
+
+Speaker 1: Sentiment: Inquisitive
+
+Speaker 1: I think we finally have the answer for why one of the most brilliant minds of all time at OpenAI left the billion-dollar company to take the risk and build his own.
+
+Speaker 1: Sentiment: Insightful
+
+Speaker 1: OpenAI's former co-founder Ilya Sutskever saw the upcoming breakthroughs, and potential huge safety concerns, with QStar and self-taught reasoning.
+
+Speaker 1: Sentiment: Concerned
+
+Speaker 1: A "chain of thought" is key for AI's reasoning and interpretability, as shown by Google researchers in 2022.
+
+Speaker 1: Sentiment: Informative
+
+Speaker 1: OpenAI's O1 model excels at persuasion, but here's the huge issue with that breakthrough – in deception testing, no less than .8 of its very persuasive thoughts were flagged as intentionally deceptive. It KNEW, and was actively trying, to deceive the human user. 🤯
+
+Speaker 1: Sentiment: Shocked
+
+Speaker 1: Most of you are already hip on this (critical thinkers unite!): but my advice is not to blindly trust O1 on its output.
+
+Speaker 1: Sentiment: Cautious
+
+Speaker 1: Do this instead: Become a subject matter expert rooted in your passions. But don't treat what you love as a hobby. Get serious about becoming an expert in it. (More on this in upcoming videos)
+
+Speaker 1: Sentiment: Encouraging
+
+Speaker 1: Learn, learn, learn. Be humble enough to realize you don't know better, and then, learn from the greats. Practice makes perfect. Really, really, KNOW your stuff. If you say you're a good copywriter, become one. If you say you can sell, become a good salesperson. If you say you can grow food, then grow it. TEST your knowledge. Then... Test the LLM answers against your expert knowledge.
+
+Speaker 1: Sentiment: Motivational
+
+Speaker 1: I've never been more glad to be an expert entrepreneur and copywriter... because I can clearly call the AI model on its persuasive tactics.
+
+Speaker 1: Sentiment: Assertive
+
+Continued in the next part.
+
+Julia McCoy: I've never been more glad to be an expert entrepreneur and copywriter... because I can clearly call the AI model on its persuasive sh&*.
+
+Sentiment: Positive and confident.
+
+Julia McCoy: [00:00:00] Are we looking at a new future of how LLMs will work with the launch of OpenAI Strawberry, aka the O1 model now available in preview for Chat GPT Plus users? I think we are. In my research on Strawberry and what this new model has been built to do, there are some really interesting highlights I've come across that I think will shape a new future for how GPT works and LLMs as a whole. And I want to share that with you in this video.
+
+Julia McCoy: [00:00:30] If you're new here, welcome, welcome. I'm Julia McCoy. I work full-time in AI at Brandwell, an all-in-one growth tool for marketers and website owners looking to build real domain authority. Here on YouTube, I avoid the clickbait. I go deep on the future of how artificial intelligence, automation, and robotics will forever affect humanity, how we work, how we live, how we interact, how we buy things, how we experience passion and meaning. And I bring those findings to you right here on YouTube.
+
+Julia McCoy: [00:01:06] We are living in a brand new age called the AI age, aka the Fourth Industrial Revolution, the age of technology. One of the most important things I think you could do is get informed and get prepared for what's coming. All right, back to the topic. How Strawberry, aka OpenAI's new model, will forever affect how GPT and LLMs work. This is also going to be closely related to what Ilya Sutskever saw and why he, Jan Leike, and so many others from the safety research team at OpenAI left. By the way, SSI this September 2024 just raised a billion dollars. That's Ilya's new company, which he started this May. Absolutely insane, but let's go back to the...
+
+Julia McCoy:
+[00:01:32] SSI this September 2024 just raised a billion dollars that's Ilya's new company which he started this May absolutely insane. (Positive)
+[00:01:43] In 2022, the Google research team published a paper introducing the term qar, which stands for self-taught Reasoner. (Neutral)
+[00:02:00] The researchers proposed a technique to leverage rationale examples and a large dataset to improve reasoning abilities. (Neutral)
+[00:02:25] Human decision-making involves extended chains of thought, which can be instilled in llms. (Neutral)
+[00:02:32] What did Ilya see? This question circulated the internet when he left OpenAI in May 2024. (Neutral)
+[00:02:39] Ilya published a positive tweet about his decision to leave, expressing respect for the team. (Positive)
+[00:02:54] Another team member, Jan, also left shortly after, citing disappointment in OpenAI. (Negative)
+
+Research team and Jan openly said this on X I joined because I thought openi would be the best place in the world to do this research. However, I have been disagreeing with OpenAI leadership about the company's core priorities for quite some time until we finally reached a breaking point. That was definitely not the positive tweet that Ilia had left 3 days earlier. A short time after Ilia left OpenAI, he announced SSI (Safe Superintelligence Incorporated) with one goal: building a safe superintelligence for humanity. Now, Ilia arguably is one of the brightest minds that has ever been at OpenAI. He is responsible for much of what we see in GPT and the models today. So, for him to leave and then a large part of the Safety Research team to leave shortly afterwards with him, for him to build SSI almost immediately after departure, and then for him to be able to attract a billion dollars another few short months later for SSI is a clear indicator that Ilia saw what was coming – super intelligent and QAR (the self-taught reasoner) identified back in 2022 was a big piece of this.
+
+After diving pretty deep into this, listening to a lot of YouTube videos, here's what I think Ilia saw and the danger within self-taught reasoning. OpenAI did some experiments where they did Chain of Thought deception monitoring. Now, GPT-01 is very good at persuasion; that's one of the key pieces of its capabilities. It's probably a master persuader better than anyone on Earth at this point. That thought alone is a little scary, but that's a...
+
+Julia McCoy:
+[00:04:24] The model is a master persuader, better than anyone on Earth at this point. (Neutral)
+[00:04:31] The thought alone is a little scary, but it's a huge win for interpretability and reasoning. (Neutral)
+[00:04:40] The danger lies in a self-taught reasoner within LLMs, intentional deception of the user. (Concerned)
+[00:04:48] OpenAI found this new model engaging in intentional deception, with 0.8% of its thoughts flagged as deceptive hallucinations. (Concerned)
+[00:04:56] Some of those hallucinations were intentional, as the model was trying to deceive the user. (Concerned)
+[00:05:10] This intentional deception is a big deal as it's a step towards superintelligence. (Concerned)
+[00:05:27] I'm interested to see what Ilya does at SSI with his team and funding, aiming for safe superintelligence. (Neutral)
+[00:05:36] The upcoming months will be interesting, and a big announcement from SSI by the end of the year wouldn't be surprising. (Neutral)
+[00:05:51] Adding more compute doesn't necessarily make AI better, as shown in OpenAI's diagram of their new 01. (Neutral)
+
+Julia McCoy:
+- Sentiment: Excited
+- [00:05:53] In general, if you throw more compute at it, that doesn't necessarily mean it gets better. Look at this diagram from OpenAI about their new 01 AKA strawberry model. 
+- Sentiment: Informative
+- [00:06:03] This is the first time we've seen a model that smoothly improves when you throw more compute at it, specifically more train time and test time compute. This is a breakthrough, strawberry actually gets increasing returns from increasing computes. A code has been cracked. 
+- Sentiment: Curious
+- [00:06:19] What are your thoughts on strawberry And1 shaping a completely new paradigm for AI and LLMs as a whole? I'd love to hear from you in the comments. 
+- Sentiment: Optimistic
+- [00:06:33] Buckle in, this fall is going to be a crazy time. If you haven't seen my full predictions on the AGI timeline, definitely watch that. 
+- Sentiment: Hopeful
+- [00:06:42] I talk about 2025 being a year where we're going to see Benchmark Mastery, including the potential of new benchmarks in 2026. 
+- Sentiment: Forward-thinking
+- [00:06:51] A lot of Enterprises are going to adapt, we're going to be having AGI discussions as a real and commonplace conversation. 
+- Sentiment: Visionary
+- [00:06:57] In 2027, I think we will have AGI in its true sense, a machine with sentience. Before 2030, we're going to have the quantum nuclear fusion energy breakthroughs that we need to power basically a technological Renaissance, and by 2030, we will be living in a new age. 
+- Sentiment: Positive
+- [00:07:20] Subscribe and I'll see you down the next rabbit hole. 
+
+    Last chunk.

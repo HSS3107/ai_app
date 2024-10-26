@@ -1,0 +1,312 @@
+Title: Mastering LangChain RAG: Integrating Chat History (Part 2)
+Channel: Eric Vaillancourt
+Published: 2024-06-07T18:21:54Z
+Duration: PT13M18S
+Description: Welcome to our second installment in the series on mastering LangChain's Retrieval-Augmented Generation (RAG) technology! In this video, we delve into integrating chat history with LangChain RAG, enhancing your application's ability to maintain context and improve interaction quality in chat-based conversations. 
+
+We will cover:
+- Updating prompts to include historical messages.
+- Contextualizing user questions.
+- Persisting chat history using SQLAlchemy.
+- Building a comprehensive Q&A chain for smarter, context-aware responses.
+
+Check out the full article for detailed code examples and explanations:
+🔗 [Mastering LangChain RAG: Integrating Chat History (Part 2)](https://medium.com/@eric_vaillancourt/mastering-langchain-rag-integrating-chat-history-part-2-4c80eae11b43)
+
+Access the complete source code on GitHub:
+🔗 [GitHub Repository](https://github.com/ericvaillancourt/RAG-tutorial)
+
+Support my work:
+☕ Buy me a coffee [https://buymeacoffee.com/evaillancourt]
+
+Don't forget to like, subscribe, and hit the bell icon to stay updated with our latest tutorials!
+
+#LangChain #RAG #AI #ChatHistory #SQLAlchemy #NLP #AIIntegration #Tutorial #Python #DataScience #MachineLearning #OpenAI
+
+Transcript:
+
+[00:00:00] hello everyone and welcome to my channel
+[00:00:03] today's video is going to be part two in
+[00:00:05] my series on line chain rag tutorial
+[00:00:08] this video is a companion to an article
+[00:00:10] that I wrote on medium.com you'll find
+[00:00:13] the link in the video's description in
+[00:00:15] this article I'll explain how to
+[00:00:17] integrate chat history into your rag
+[00:00:19] application so that you can have a
+[00:00:21] conversation so that when you ask a
+[00:00:23] first
+[00:00:24] question you can ask a follow-up
+[00:00:26] question and it remembers what the ation
+[00:00:30] was all about at the end of the article
+[00:00:32] I also included a section on how to uh
+[00:00:36] have your memory persistent in anql
+[00:00:38] database so let's get
+[00:00:40] started let's start by visiting the
+[00:00:42] article first thing is uh all the code
+[00:00:45] examples uh can be found on my GitHub uh
+[00:00:48] the link will be in the video
+[00:00:50] description now this article is based on
+[00:00:53] a Notebook published by Lang
+[00:00:55] chain uh which is part of their use
+[00:00:57] cases and it's on how to add uh chat
+[00:01:01] history to your rag application why do
+[00:01:04] we need history well when you start to
+[00:01:07] have a conversation with your rag
+[00:01:09] application um you need to provide all
+[00:01:13] the question well the first question and
+[00:01:15] if you have a follow-up question well it
+[00:01:18] doesn't know because since we're using a
+[00:01:21] vector
+[00:01:22] database um and you if you submit the
+[00:01:25] follow-up question it might not have all
+[00:01:27] the dependencies of the original
+[00:01:30] question and we'll probably won't be
+[00:01:33] able to answer the question so we need a
+[00:01:35] way to to fix this and this is what this
+[00:01:39] article uh will be
+[00:01:41] covering let's start with an example
+[00:01:44] first make sure you have all the
+[00:01:45] dependencies installed um if you're
+[00:01:49] running it from the original notebook
+[00:01:51] please note that I've added uh SQL
+[00:01:53] Alchemy because at the end I'm going to
+[00:01:56] demonstrate how to save the uh history
+[00:01:58] to an SQL datab base okay so I'm going
+[00:02:01] to start by showing you a chain without
+[00:02:04] uh the history so let's load my uh
+[00:02:07] environment variables let's instantiate
+[00:02:10] the chain which is basically the code uh
+[00:02:14] from the quick start example okay so we
+[00:02:18] have a loader which is basically uh
+[00:02:20] loading uh liliam Wang's
+[00:02:23] article we have a splitter with chunks
+[00:02:26] of a th000 and an overlap of 200 this is
+[00:02:29] basically uh to vectorize the content of
+[00:02:32] the blog okay we're using a prompt from
+[00:02:36] The Hub which is fine and then we have
+[00:02:39] our chain okay so what happens if I
+[00:02:43] say what is Task
+[00:02:46] decomposition then it answers that's the
+[00:02:48] composition is a technique blah blah
+[00:02:50] blah but what if I say what was the last
+[00:02:55] question then it says I don't know okay
+[00:03:00] because we don't have history so and and
+[00:03:04] since whenever we talk to the
+[00:03:07] llm the connection is stateless every
+[00:03:10] time we connect it doesn't remember the
+[00:03:12] previous time okay otherwise uh open AI
+[00:03:15] they they couldn't keep up I mean if
+[00:03:17] they had to keep history with the
+[00:03:19] millions of conversations that's are
+[00:03:21] going on uh simultaneously it would be
+[00:03:24] impossible so it's our
+[00:03:26] responsibility that when we submit a
+[00:03:28] question to llm to also provide the
+[00:03:32] context okay so in a regular um chatbot
+[00:03:38] conversation type application it's
+[00:03:40] pretty easy because all you have to do
+[00:03:43] is submit the history for example if you
+[00:03:45] say U who's Bill Gates it's going to
+[00:03:48] answer Bill Gates is the founder of
+[00:03:50] Microsoft blah blah blah and you can
+[00:03:51] just follow up with a question and say
+[00:03:53] his age and it's going to know it's
+[00:03:56] probably going to respond with his date
+[00:03:58] of birth and his age and so on and so
+[00:04:00] forth in the case of a rag application
+[00:04:04] you only want to answer based on the
+[00:04:06] context provided in in the blog
+[00:04:10] so if I use the regular approach of just
+[00:04:14] providing the chat history and I say
+[00:04:17] what is Tas DEC
+[00:04:19] composition it's going to answer if I do
+[00:04:22] a follow-up question and I
+[00:04:24] say um why is it good for example well
+[00:04:29] the there might be several other uh
+[00:04:32] points in the document in the blog that
+[00:04:35] could also qualify to answer the
+[00:04:37] question why is it good so we need to
+[00:04:42] change the question okay we need to uh
+[00:04:45] contextualize the question so that we
+[00:04:48] can reformulate the question so that the
+[00:04:52] llm will know that I'm asking what is
+[00:04:56] good about task
+[00:04:58] decomposition and that's what this
+[00:05:00] article is all about
+[00:05:02] okay so what does it mean to
+[00:05:05] contextualize a question well in essence
+[00:05:08] it means that we're going to make two
+[00:05:09] calls to the llm first one to
+[00:05:11] reformulate the question and the second
+[00:05:14] one to answer the question so to do this
+[00:05:17] we need to create a special prompt okay
+[00:05:20] we need to have a contextualized prompt
+[00:05:23] which will say given a chat history in
+[00:05:25] the latest user question which might
+[00:05:28] reference context in the chat history
+[00:05:30] reformulate a standalone question which
+[00:05:33] can be understood without the chat
+[00:05:35] history in other words if I
+[00:05:38] say um what is tassy composition and I
+[00:05:42] have a follow-up question that says
+[00:05:44] what's good about it well the llm will
+[00:05:47] reformulate it and and send me back a
+[00:05:50] new question which is basically going to
+[00:05:52] say what is good about task
+[00:05:54] decomposition and then it's going to
+[00:05:56] submit that question to the llm
+[00:06:00] how does it work well first we need to
+[00:06:03] create what we call a retriever and we
+[00:06:06] call it a history aware retriever
+[00:06:09] basically we we um create a chain which
+[00:06:12] has our llm our Retriever and our prompt
+[00:06:17] okay once we have that we create our
+[00:06:20] system prompt which is basically a stand
+[00:06:22] a standard prompt which is uh you are an
+[00:06:25] assistant for question and answering
+[00:06:27] okay and then we create our question and
+[00:06:29] answer chain which is a stuff document
+[00:06:32] chain which has the llm and our prompt
+[00:06:36] for answering question and then we
+[00:06:38] create our rag chain which is basically
+[00:06:41] a retrieval chain which has our history
+[00:06:44] aare Retriever and the question answer
+[00:06:46] chain okay so to make this simple just
+[00:06:51] you you all you need to understand is
+[00:06:52] that we're making two calls to the llm
+[00:06:55] one call to reformulate the question and
+[00:06:57] one call to answer the question
+[00:07:00] the chat history is stored in the
+[00:07:02] dictionary called store okay so let me
+[00:07:06] reinstantiate the chain
+[00:07:10] here and let's take a look at the store
+[00:07:13] before I submit any question see it's
+[00:07:16] empty so now let's ask our first
+[00:07:18] question what is Task
+[00:07:21] decomposition and I get task
+[00:07:23] decomposition involve breaking down comp
+[00:07:25] tax complex tax into smaller steps blah
+[00:07:28] blah blah now let's take take a look at
+[00:07:30] the store and we have our session ID our
+[00:07:35] memory object which is the human message
+[00:07:38] and the AI message which is the answer
+[00:07:41] and nothing else what happens if I ask a
+[00:07:44] follow-up
+[00:07:46] question it knows since it reformulated
+[00:07:49] the question that I'm saying what are
+[00:07:52] common ways of doing it but doing what
+[00:07:54] well common ways of task decomposition
+[00:07:58] okay now let's take a look at the
+[00:08:00] store now I still have my session
+[00:08:04] ID my original
+[00:08:08] question my first answer and now if I
+[00:08:11] scroll slowly I should have
+[00:08:14] another uh right here see what are
+[00:08:18] common ways of doing it and my last
+[00:08:22] answer
+[00:08:23] okay that's all nice okay but what
+[00:08:26] happens if I restart the computer or
+[00:08:29] clear my notebook okay let me restart
+[00:08:31] the notebook Let Me Clear restart and
+[00:08:35] now I'm going to reinstantiate the
+[00:08:38] chain let's take a look at the store it
+[00:08:40] should be empty okay now I'm not going
+[00:08:42] to ask the first question I'm going to
+[00:08:44] go straight to the second question
+[00:08:47] okay now it's going to say God knows
+[00:08:50] what see common ways of extending the
+[00:08:53] capabilities of llm through the user
+[00:08:55] okay so definitely not what I was
+[00:08:58] expecting
+[00:08:59] obviously this question is too vague
+[00:09:02] okay so this is why we need to do this
+[00:09:05] but it's fine if you never restart your
+[00:09:08] uh server but what if you do restart
+[00:09:11] your server and you want to continue the
+[00:09:13] conversation where you left off well we
+[00:09:15] need a way to have a persistent history
+[00:09:19] and that's what we're going to see next
+[00:09:22] before I continue with the persistence
+[00:09:24] with SQL Alchemy please if you like this
+[00:09:28] video and you feel that this content is
+[00:09:30] worth it please like And subscribe
+[00:09:32] because this really helps the uh YouTube
+[00:09:34] algorithm to promote my video so please
+[00:09:37] like And
+[00:09:39] subscribe so the original uh Lang chain
+[00:09:42] notebook didn't provide any mechanism to
+[00:09:45] uh save the chat history to an SQL
+[00:09:47] database so I decided to um add this
+[00:09:51] little code snippet which is pretty uh
+[00:09:53] straightforward uh basically we're going
+[00:09:55] to import the SQL alchy modules okay
+[00:10:00] and uh we're going to Define our in this
+[00:10:03] case I'm going to use SQL light we're
+[00:10:05] going to Define our datab base we're
+[00:10:08] going to Define our two tables one one
+[00:10:11] is called session the other one's called
+[00:10:13] message and then we're basically going
+[00:10:15] to instantiate the engine and we're
+[00:10:18] going to call the create all to create
+[00:10:20] the tables if they don't exist okay then
+[00:10:24] we're going to create a few functions a
+[00:10:26] few helper functions one one is called
+[00:10:28] save message message which is basically
+[00:10:30] going to save the messages to the
+[00:10:33] database one to load the session
+[00:10:36] history and want to get the history
+[00:10:39] which basically called load uh session
+[00:10:41] history and then a save all session okay
+[00:10:44] so and we're going to modify a little
+[00:10:46] bit at the end we're going to create a
+[00:10:49] new function that we're going to call
+[00:10:51] invoke and save and we're going to pass
+[00:10:53] a session ID and our question okay so in
+[00:10:58] essence
+[00:10:59] it's nothing fancy we just created the
+[00:11:02] two tables uh instantiated the uh engine
+[00:11:06] and whenever we call um whenever we
+[00:11:09] invoke the llm we're going to read the
+[00:11:12] history from the database and repopulate
+[00:11:16] the store so we all always have um the
+[00:11:20] history ready to
+[00:11:22] go now if I use a software like DB
+[00:11:25] browser I can see that my two tables
+[00:11:27] have been created and my message table
+[00:11:30] is empty see if I refresh okay now let's
+[00:11:35] clear this restart and let me
+[00:11:38] reinstantiate my new chain which is now
+[00:11:40] connected to the
+[00:11:42] database and let's ask a first
+[00:11:45] question what are the types of
+[00:11:48] memory okay it should give me an answer
+[00:11:52] and if I
+[00:11:54] refresh my table I get my question I get
+[00:11:58] the answer okay so nothing fancy now if
+[00:12:02] I ask a follow-up question like what was
+[00:12:05] my previous
+[00:12:07] question see your previous question was
+[00:12:10] what are the types of memory which is
+[00:12:12] correct now let's take a look and now I
+[00:12:14] should have another pair human AI
+[00:12:18] okay now let's just say I'm not going to
+[00:12:22] ask the third question what I'm going to
+[00:12:24] do is I'm going to clear and restart
+[00:12:27] okay now I'm going to instantiate the
+[00:12:30] chain and I'm only going to ask the last
+[00:12:34] question that says can you list them
+[00:12:38] again and it should say the types of
+[00:12:41] memory are blah blah blah okay so even
+[00:12:44] though I restarted my notebook it kept
+[00:12:48] my history because now the history is
+[00:12:50] persistent into an SQL
+[00:12:53] database so this is it for part two of
+[00:12:56] my uh series uh this was a had chat
+[00:12:59] history to our rag application and I
+[00:13:02] added a little bonus on how to persist
+[00:13:05] the chat history to an SQL database next
+[00:13:08] week we'll be looking at implementing
+[00:13:10] the streaming capabilities so again if
+[00:13:12] you like this video please like And
+[00:13:14] subscribe and we'll see you next week

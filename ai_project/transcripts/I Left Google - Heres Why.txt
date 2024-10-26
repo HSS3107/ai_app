@@ -1,0 +1,377 @@
+Title: I Left Google - Here's Why
+Channel: Jash Radia
+Published: 2024-09-14T05:14:48Z
+Duration: PT13M22S
+Description: Here’s why I left Google, spoiler alert: I am NOT following my passion! xD 
+In this video, I talk about all the reasons why I left the "Dream Company" for most Software Engineers.
+
+OdinSchool: https://hubs.la/Q02PPnxY0
+
+For 1:1 mentoring sessions: https://topmate.io/jash_radia
+
+Follow me here:
+LinkedIn: https://www.linkedin.com/in/jashradia/
+Instagram: https://www.instagram.com/jash.radia/
+
+0:00 Intro and Overview
+3:34 Reason 1
+6:09 Reason 2
+7:31 Upskilling Medium
+8:45 Reason 3
+10:31 Why DoorDash?
+
+#cloud #data #ai #dreamjob
+
+Transcript:
+
+[00:00:00] Google a company that is so huge that
+[00:00:02] its market cap is higher than most of
+[00:00:04] the country's gdps in fact if you look
+[00:00:06] at Google's current market cap which is
+[00:00:08] around $2 trillion it puts it into top
+[00:00:10] 10 countries with the most highest gdps
+[00:00:13] it is seemingly one of the most
+[00:00:14] prestigious employer and a pay master
+[00:00:17] and kind of a dream company for many
+[00:00:18] people in the software industry it is
+[00:00:20] also known for incredible perks free
+[00:00:23] food and a lot of in-office amenities
+[00:00:26] like in office spa and massage um gym
+[00:00:30] and and cafeteria and many more things
+[00:00:33] yeah people say that a lot of other
+[00:00:34] companies also provide free food but
+[00:00:36] trust me if you compare it with Google
+[00:00:38] it it's just on another level in fact in
+[00:00:41] my experience it is better than most of
+[00:00:43] the festar restaurants or hotels that
+[00:00:45] I've been
+[00:00:45] [Music]
+[00:00:48] in talking about offices Google offices
+[00:00:51] were also simply amazing like they were
+[00:00:53] one of the best offices that I've been
+[00:00:56] to I've visited four offices in New York
+[00:00:59] City
+[00:01:00] uh couple of offices in London one in
+[00:01:02] Paris one in Amsterdam and I've also
+[00:01:04] visited Pune and Mumbai offices in India
+[00:01:07] for example New York City office has
+[00:01:09] like an entire gaming arcade there's a
+[00:01:11] dedicated bridge that you can go through
+[00:01:13] from one building to another
+[00:01:15] specifically for Google employees there
+[00:01:17] is an in-office tra that takes you from
+[00:01:19] third floor to first
+[00:01:22] [Music]
+[00:01:26] floor most of the offices have a rooftop
+[00:01:29] top deck from where you can see the
+[00:01:32] entire city like the Paris office almost
+[00:01:34] looks like a chatau or a French Palace
+[00:01:36] and it has one of the most amazing views
+[00:01:39] of effil tower directly from the
+[00:01:40] cafeteria one of the offices had like a
+[00:01:42] meditation area where you can just go
+[00:01:45] wind
+[00:01:49] down and then many offices also have
+[00:01:52] alcohol for some reason I'm not just
+[00:01:54] talking about beer or wine but actual
+[00:01:57] hard Liquors being in some of the office
+[00:02:00] for some reason the point being Google
+[00:02:02] offices are one of the best offices in
+[00:02:04] the world they spend exorbitantly on
+[00:02:06] offices another thing that Google is
+[00:02:08] known for is a very low acceptance rate
+[00:02:10] of around2 or. 5% which puts it at the
+[00:02:14] lowest compared to any other Fang
+[00:02:16] competitors and it has over like 3
+[00:02:18] million applicants per year which makes
+[00:02:21] it more exclusive to get into than some
+[00:02:24] prestigious universities like Harvard
+[00:02:26] but then if it is such an amazing place
+[00:02:27] to work then why did I leave Google
+[00:02:29] [Music]
+[00:02:34] hello everyone this is Josh after having
+[00:02:36] spent over 2 years I have finally left
+[00:02:38] Google and in this video I'm going to
+[00:02:41] talk about why which is the most common
+[00:02:43] question that I've received by far in
+[00:02:45] fact there are three different reasons
+[00:02:46] why I did that but before I jump into
+[00:02:48] any of that do not forget to leave a
+[00:02:50] like And subscribe to the channel it
+[00:02:52] helps me out a lot all right so the
+[00:02:54] reason that I left Google is because I
+[00:02:56] wanted to pursue my passion my passion
+[00:02:59] to teach and enable young kids and to
+[00:03:03] feed off of their dreams and win the
+[00:03:05] battles of consumerism by putting out
+[00:03:07] DSA and system design courses every year
+[00:03:10] by making innocent Souls believe that
+[00:03:12] they can all get into
+[00:03:15] Fang sadly no I have not left Google to
+[00:03:19] become a full-time influencer or to
+[00:03:20] launch DSA or system design courses I
+[00:03:23] have in fact joined another organization
+[00:03:26] called door Dash if you're based in us
+[00:03:28] or Canada pretty sure you're pretty
+[00:03:30] familiar with do Dash but if you're not
+[00:03:32] well I'm going to talk about it later in
+[00:03:34] this video let's start talking about the
+[00:03:36] first actual reason why I left Google
+[00:03:39] Now believe it or not when it was my
+[00:03:41] very first day at Google I remember it
+[00:03:43] was 11th of July 2022 I received an
+[00:03:47] email from Sundar Pai not just me but
+[00:03:49] all the alphabet employees received an
+[00:03:51] email and that email contained that
+[00:03:53] because of slowdown in macroeconomic
+[00:03:56] situations uh they are going to place a
+[00:03:58] hiring freeze now my first reaction was
+[00:04:02] wow I'm so lucky that I got in just
+[00:04:03] before the hiring freeze but then after
+[00:04:06] a while I started thinking wait what if
+[00:04:09] like they start laying off people I
+[00:04:11] guess a few months 3 4 months after that
+[00:04:14] Google announced layoff they announced
+[00:04:16] lay off about 6% of their Workforce
+[00:04:18] which is 12,000 employees uh and they
+[00:04:21] did it overnight in the US like like
+[00:04:25] people lost access to their accounts
+[00:04:27] they could not enter the building
+[00:04:29] without any prior intimation that
+[00:04:31] something like this is going to happen
+[00:04:33] so obviously it was bad uh so in India I
+[00:04:36] think so we were kind of in a state of
+[00:04:38] limbo for about 2 3 months we didn't
+[00:04:41] like we knew that like we knew that the
+[00:04:43] final list they have the final list but
+[00:04:45] we are not sure if we are the ones in
+[00:04:48] that list or not so we were like in a
+[00:04:49] state of limbo and I'm pretty sure the
+[00:04:51] productivity was not good at that time
+[00:04:53] because people were like I'm doing all
+[00:04:55] this work but will I even be here after
+[00:04:57] 2 3 months it's a yeah obviously it's a
+[00:04:59] bad feeling uh and finally it happened
+[00:05:02] in India after a few months and
+[00:05:05] fortunately uh because my team so I was
+[00:05:08] in cloud and AI team and both of them
+[00:05:11] were like the priority Focus for Google
+[00:05:13] at that point uh there were very less uh
+[00:05:17] the impact was very Less in my team but
+[00:05:20] uh I knew a lot of colleagues who were
+[00:05:22] impacted and it was very bad
+[00:05:24] demoralizing to be honest now because of
+[00:05:26] those layoffs a lot of reorganizations
+[00:05:28] happened so if somebody leaves from like
+[00:05:31] let's say the middle of the management
+[00:05:32] chain obviously the people that report
+[00:05:35] to them they have to be reassigned to
+[00:05:36] somebody else right so a lot of these
+[00:05:38] things were happening uh teams were
+[00:05:41] being shuffled there were new managers
+[00:05:43] coming in or old managers going out and
+[00:05:45] because of that in my 2 years of
+[00:05:47] experience that I had at Google I had
+[00:05:49] more than four different managers which
+[00:05:51] was obviously not ideal because I felt
+[00:05:54] like after every quarter or every 6
+[00:05:55] month my progress was kind of resetting
+[00:05:57] because I had new manager to report to
+[00:05:59] even though my technical core work or
+[00:06:02] the team remained the same these reog
+[00:06:05] were one of the major reasons about why
+[00:06:07] I thought about leaving Google second
+[00:06:09] reason is learning and new challenges so
+[00:06:13] Google is known for having the best work
+[00:06:14] life balance in the industry and do you
+[00:06:16] know how that happens because there are
+[00:06:18] lot of approvals and reviews needed
+[00:06:20] which is understandable right I mean
+[00:06:22] think about the scale that Google
+[00:06:24] operates in different products it almost
+[00:06:26] feels like different companies like
+[00:06:28] Google Cloud could be a separate company
+[00:06:30] uh Google search Google devices right
+[00:06:33] there are so many things that happens
+[00:06:35] within Google so the size of
+[00:06:37] organization is huge that leads to a lot
+[00:06:40] of reviews and approvals every time you
+[00:06:42] push a new feature naturally things are
+[00:06:43] slow which is understandable otherwise
+[00:06:45] it would have been complete chaos right
+[00:06:47] but the flip side of that is your
+[00:06:49] learning kind of gets hampered in that
+[00:06:52] process and one very great thing about
+[00:06:55] Google is that they have a 20% project
+[00:06:58] so if let's say you are bored of your
+[00:07:00] regular work like for example I'm
+[00:07:02] working in cloud and then I want to work
+[00:07:04] I'm interested in Google pixels I can
+[00:07:06] work in a Google pixel team and spend
+[00:07:09] 20% of my time there but the problem
+[00:07:11] with that is because it's only 20% it
+[00:07:14] does not affect your performance reviews
+[00:07:16] that much and most of the time you told
+[00:07:19] by managers to focus on your core work
+[00:07:21] and which kind of makes sense but at the
+[00:07:24] same time it negates the point of having
+[00:07:26] a 20% project in the first place uh if
+[00:07:30] that makes sense now I'm going to be
+[00:07:31] honest here while I Was preparing for my
+[00:07:33] switch from Google to Door dash one
+[00:07:35] thing that I was doing a lot is learning
+[00:07:38] and upscaling uh because I Was preparing
+[00:07:40] for the interviews now because I had a
+[00:07:42] lot of relevant experience in the same
+[00:07:44] field it was relatively easy for me to
+[00:07:47] do so but if you are completely new to
+[00:07:49] data field obviously it can be very
+[00:07:51] daunting for you to figure out where to
+[00:07:53] start preparing for interviews and
+[00:07:54] that's where I believe Odin school can
+[00:07:57] help you out a lot at Odin school you
+[00:07:59] can focus on learning industry aligned
+[00:08:00] curriculum that is taught by live
+[00:08:02] instructors who have a ton of relevant
+[00:08:04] experience so you can kind of Master
+[00:08:06] your data analytics and machine learning
+[00:08:07] skills directly from the comfort of your
+[00:08:09] home they have over 5,000 successful
+[00:08:11] Learners who have been placed in top
+[00:08:14] companies and they have a total
+[00:08:15] portfolio of 500 plus top companies that
+[00:08:18] they are affiliated with you will get to
+[00:08:20] learn 115 plus live sessions more than
+[00:08:23] 500 self-based learning courses and a
+[00:08:26] lot of assignment which will involve a
+[00:08:28] lot of Hands-On as well I recommend that
+[00:08:29] you go through the entire syllabus and
+[00:08:31] course so that you know what to expect
+[00:08:33] before you have committed to this course
+[00:08:35] and if you use the link that I have
+[00:08:37] provided you might get some additional
+[00:08:39] discounts uh thank you so much Odin
+[00:08:41] school for sponsoring this content now
+[00:08:43] let's continue with the rest of this
+[00:08:44] video third money I'm I'm not going to
+[00:08:47] sit here and say that money doesn't
+[00:08:49] matter it's not the most important thing
+[00:08:51] to me it is not the most important but
+[00:08:54] it is definitely one of the most
+[00:08:56] important things uh because let's be
+[00:08:58] honest here that that's the reason why
+[00:09:00] we all work in the first place right if
+[00:09:03] if we suddenly get about $100 million in
+[00:09:05] our bank accounts 99% of us will not
+[00:09:08] going to be working again it was an
+[00:09:10] important factor about why I left Google
+[00:09:12] so basically if you look at companies
+[00:09:13] like Amazon or Google the best place to
+[00:09:16] see how much employees are being paid
+[00:09:18] and what are different levels available
+[00:09:20] is to check levels. FYI so if you are
+[00:09:23] for example at Amazon the position start
+[00:09:25] from sd1 and then you get promoted to
+[00:09:28] sd2 and then you get PR Ed to like
+[00:09:29] senior software development engineer the
+[00:09:32] same thing at Google starts from S 2
+[00:09:35] which is the starting level but I don't
+[00:09:36] know why it is called two um so if you
+[00:09:40] uh see in anyone's LinkedIn profile like
+[00:09:42] they are s to at Google they are not
+[00:09:44] equal to sd2 at Amazon it's kind of
+[00:09:47] confusing and then after S2 you get
+[00:09:50] promoted to S3 and then you get promoted
+[00:09:52] to a senior software engineer role so
+[00:09:54] one very good thing that I got when I
+[00:09:56] moved from Google to Door Dash is I got
+[00:09:59] kind of a level up to a senior position
+[00:10:02] and that was also a level up in terms of
+[00:10:03] my compensation so it was obviously a
+[00:10:06] good deal and if you want to explore
+[00:10:08] about more of these things I would
+[00:10:09] definitely recommend check this out it's
+[00:10:12] not a sponsored message or anything but
+[00:10:15] it will help you a lot if you going
+[00:10:17] through any interview rounds and if you
+[00:10:18] have any questions uh about what levels
+[00:10:21] you should be considered for or what
+[00:10:24] salary are they usually paying for that
+[00:10:25] level levels. fi has a lot of
+[00:10:28] information yeah so these are the three
+[00:10:30] main reasons but that's not it usually
+[00:10:33] when you make a move from one
+[00:10:34] organization to another there are two
+[00:10:36] aspects involved one is push second is
+[00:10:39] pull so push is something that pushes
+[00:10:40] you away from your current organization
+[00:10:42] which I already talked about and then
+[00:10:44] pull is something that brings you closer
+[00:10:46] or make like pulls you towards your new
+[00:10:49] opportunity so let's talk about some
+[00:10:52] pull reasons about why I left Google and
+[00:10:54] and joined door Dash door Dash as you
+[00:10:56] can see it's an American company online
+[00:10:58] quick ordering and delivery company it
+[00:11:00] trades with the symbol Dash on NASDAQ so
+[00:11:02] it is a publicly listed company with a
+[00:11:05] 56% market share in the US it is the
+[00:11:07] largest food delivery platform and it
+[00:11:10] also has a 60% market share in the
+[00:11:12] convenience delivery category so do Dash
+[00:11:14] does not have operations in India like
+[00:11:16] you cannot order things through door
+[00:11:17] Dash if you're living in India but they
+[00:11:20] have recently opened software
+[00:11:21] engineering office in Pune and that's
+[00:11:26] where I have joined door Dash obviously
+[00:11:27] has a really large user base
+[00:11:29] and a lot of orders happening on a daily
+[00:11:32] basis and a lot of transaction volumes
+[00:11:34] so that's obviously a really good sign
+[00:11:37] uh for a data or AI engineer because
+[00:11:39] they will get to work with uh data on a
+[00:11:42] different scale level and does is also
+[00:11:44] known for having a really good
+[00:11:45] technology stack it's based on AWS I was
+[00:11:48] working on AWS before I joined Google
+[00:11:50] and then I worked on gcp and then now
+[00:11:52] I'll again be working on AWS so I feel
+[00:11:54] like it will give me a good diverse
+[00:11:56] experience and this role was a mix of
+[00:11:58] data engineering and AI engineering
+[00:12:00] which was a perfect fit for me because
+[00:12:03] when I joined Google I joined as a data
+[00:12:04] engineer and then I moved to an AI
+[00:12:06] engineer role and when I moved to an AI
+[00:12:09] engineer role I understood the
+[00:12:10] importance of data engineering and even
+[00:12:13] if you are an AI engineer I'm telling
+[00:12:15] you you'll spend 50% of your time doing
+[00:12:17] data engineering tasks it's a much
+[00:12:18] smaller company compared to Google so
+[00:12:22] usually it has much more Dynamic
+[00:12:25] environment in a company like this
+[00:12:27] usually Innovation is focused more it
+[00:12:29] it's prioritized more and that's why
+[00:12:31] like you learn a lot you grow a lot
+[00:12:34] technically uh and one of the values
+[00:12:37] that I really found interesting about do
+[00:12:38] Dash is get 1% better every day so it
+[00:12:41] shows how much they are focusing on
+[00:12:45] improving day-to-day and if you apply
+[00:12:47] the same principle to your career it
+[00:12:49] it's a great thing I also like love
+[00:12:51] talking to the leaders uh of the team
+[00:12:54] that I was joining after I cleared out
+[00:12:56] all the interviews I was agreeing with
+[00:12:58] their Vision we had chat that was also
+[00:13:00] one of the reasons why I decided to join
+[00:13:01] do Dash um if you stuck around so far
+[00:13:04] thank you so much and uh do not forget
+[00:13:06] to leave a like And subscribe to the
+[00:13:08] channel if you have any questions or
+[00:13:09] anything that you would like to discuss
+[00:13:11] about let's talk about it in the comment
+[00:13:12] section below and that's it from my side
+[00:13:15] see you next time

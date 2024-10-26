@@ -1,0 +1,248 @@
+Title: Create Your Own Component Library Like Shadcn/ui
+Channel: NAYMUR WEB
+Published: 2024-10-16T15:37:33Z
+Duration: PT8M39S
+Description: Hey everyone! 👋 Hope you're all doing great!
+
+Ever thought about creating your own component library but didn’t know where to start? After launching mine, many of you asked for a starter repo—so I built one! 🎉
+
+Initially, I used Contentlayer for my library’s UI, but it felt overwhelming for beginners. To make things easier, I switched to Next.js MDX with CodeHike and decided to share this streamlined version with you all.
+
+This MDX Starter Repo will help you build and customize your own component library quickly and efficiently.
+
+⭐ Don’t forget to star the repo on GitHub:
+ https://github.com/naymurdev/mdx-starter-repo
+
+Also check ui-layout:
+👉https://ui-layout.com
+
+🚀 Technologies Used:
+   ---Next.js
+   ---CodeHike
+   ---Next-MDX
+   ---TailwindCSS
+   ---Framer Motion
+   ---GSAP
+   ---Zustand
+
+Time-lapse:
+➤intro: (00:00)
+➤codehike: (00:33)
+➤Features: (01:07)
+➤Component Explain: (04:17)
+
+
+If you're ready to dive into the world of open-source UI development, this repo is a perfect starting point!
+
+#ComponentLibrary #OpenSource #Nextjs #TailwindCSS #FramerMotion #GSAP #uilibrary  #uilayout
+
+Transcript:
+
+[00:00:00] hi guys hope you're all doing well today
+[00:00:01] and I will show you how you can create
+[00:00:03] your own com Li exactly like setan magic
+[00:00:05] UI and UI layout using nextjs with MDX
+[00:00:08] this was requested by many subscriber
+[00:00:10] after I launch my component Li call U
+[00:00:12] out my component Li use content lay just
+[00:00:15] like Shan but I realize for someone who
+[00:00:17] want to create a compon liy and set up
+[00:00:19] every feature that I have in my UI
+[00:00:21] layout it will really take lots of time
+[00:00:23] and after doing some research I found a
+[00:00:25] better way using NEX MDX and kod maybe
+[00:00:28] you guys know about Remo and remal built
+[00:00:31] up on COD and it has many features like
+[00:00:33] easy support for light and dark mode it
+[00:00:36] has class name features to Mark the code
+[00:00:38] like you can use T CSS over here it has
+[00:00:42] Focus so if I just click any of this and
+[00:00:46] it has line numbers it has token
+[00:00:49] transition remotion use this feature it
+[00:00:53] had tool keep so if I hover over it uh
+[00:00:56] it have transpile which I use also in my
+[00:00:58] UI layout and if it has by default copy
+[00:01:01] button collops code mentions and so many
+[00:01:04] things you can just explore everything
+[00:01:06] over here so this is the starter report
+[00:01:08] that I created for you all so that you
+[00:01:10] can easily create your own component
+[00:01:13] library and I will give the link to the
+[00:01:16] description or comment section so this
+[00:01:18] is the homepage and if you click click
+[00:01:20] this button it will take you to the UI
+[00:01:22] layout homepage and uh let's go to the
+[00:01:24] get start
+[00:01:26] page and we have a cool features over
+[00:01:28] here we have a typescript to JavaScript
+[00:01:31] compiler so if you click the JavaScript
+[00:01:34] then you'll get the JavaScript code if
+[00:01:37] you click the typescript then you can uh
+[00:01:39] you will get the typescript code and you
+[00:01:41] can also copy the code okay so this uh
+[00:01:43] one of the key features that we have now
+[00:01:46] if I go to the components uh so that's
+[00:01:47] all the component we have and uh I will
+[00:01:50] show you the components uh so this is
+[00:01:51] the button components you can directly
+[00:01:53] copy the code from here and also you can
+[00:01:56] uh click over here to see the code so
+[00:01:58] this is the code and I we have the
+[00:02:00] functionality uh to we have the tab for
+[00:02:03] typescript to JavaScript okay and
+[00:02:05] JavaScript to typescript so yeah that's
+[00:02:07] it and if I go to the clip path we have
+[00:02:11] this and the best part is you can now
+[00:02:14] reload it okay to see if there's a
+[00:02:16] animation and definitely if you create
+[00:02:19] your own Library there will be like lots
+[00:02:20] of Animation component and you can just
+[00:02:22] uh easily user can sorry user can easily
+[00:02:25] just click over here and then the
+[00:02:27] component will be reload again and you
+[00:02:29] can copy the code from here you don't
+[00:02:31] need to uh go to the code the tabs again
+[00:02:34] okay so you can just copy from here and
+[00:02:36] if you go to the code then you'll see
+[00:02:38] the code okay and uh this is the product
+[00:02:41] card and product card also have the same
+[00:02:43] features like the buttons if you click
+[00:02:45] over there it will open pop up and show
+[00:02:48] you the code and there are things like
+[00:02:50] if I just uh inspect it and go to the
+[00:02:53] mobile version do you see it's
+[00:02:55] responsive okay so uh the whole comp
+[00:02:58] website is not responsive because
+[00:03:00] basically if you are the one who want to
+[00:03:02] create a um component Library U own
+[00:03:04] component library then definitely you
+[00:03:06] know how to make responsible website
+[00:03:08] okay in the footer we have responsive
+[00:03:11] tab that allows you to switch between
+[00:03:13] desktop to tablet and tablet to mobile
+[00:03:15] views and if you go to Huber footer you
+[00:03:18] will see a file tab instead of the
+[00:03:20] expanding code button maybe you remember
+[00:03:22] we have all the time we have a expand
+[00:03:25] button over here and you need to click
+[00:03:27] on that and then you see all the others
+[00:03:29] code so I I don't like it Cu uh user
+[00:03:32] need to see it from here okay uh they
+[00:03:35] don't need to again go scroll down and
+[00:03:37] click the expand button so that's why I
+[00:03:39] just add um all the file as a tab and if
+[00:03:43] I go to the horizontal scroll it have
+[00:03:45] the same features so yeah that's all it
+[00:03:49] have and I think uh it's like a combo
+[00:03:52] things you can easily use for any any
+[00:03:56] component liity uh you will be created
+[00:03:58] okay and don't for for get to start Theo
+[00:04:01] and you can easily Fork it or you can um
+[00:04:04] download it as a Jeep or you can just
+[00:04:06] copy or clone it okay so yeah so now I
+[00:04:09] will just explain the folder structure
+[00:04:11] and everything that uh how you can
+[00:04:14] easily use it for your own component
+[00:04:16] Library okay so I explain first the
+[00:04:19] folder structure okay so first we have
+[00:04:21] the app asset component config content
+[00:04:24] hooks leaves and registry okay so all
+[00:04:28] the in the app we have the route okay so
+[00:04:31] this is the page homepage this basically
+[00:04:33] all the docs page okay we have component
+[00:04:36] G store and and component page okay and
+[00:04:39] this a live component basically uh maybe
+[00:04:42] you noticed we have we are using
+[00:04:44] responsive things so I'm using basically
+[00:04:46] if frame so for this I'm using this one
+[00:04:48] live component okay in the component We
+[00:04:51] have basically uh two folder like you
+[00:04:54] can easily see it from here okay so in
+[00:04:56] the component we have core and lab so I
+[00:04:59] delet the r fold folder so lab basically
+[00:05:02] when you have a component but you don't
+[00:05:04] want to share the code CU there's some
+[00:05:06] experiment you have done so then you can
+[00:05:09] add this component in the labs folder
+[00:05:11] but right now we don't have it so I just
+[00:05:12] remove it so we have core and website so
+[00:05:15] in the core basically we will add all
+[00:05:17] the component uh that uh uh the main
+[00:05:20] component okay uh that really used in
+[00:05:22] all the others component just uh
+[00:05:24] register we have all the component okay
+[00:05:26] so suppose I click the blow bity so in
+[00:05:30] the blur B we have this one the core
+[00:05:32] component so that's why I add it in the
+[00:05:34] core okay and if I go to the website so
+[00:05:39] in the website we will add all the
+[00:05:41] things that needed for the website so we
+[00:05:44] have the UI okay um and we have code
+[00:05:48] components that helps us to visual the
+[00:05:51] code and all the other things like we
+[00:05:53] have draw code component so if you just
+[00:05:55] click the button a draw will visible
+[00:05:57] with the code okay and uh we have iframe
+[00:06:01] component so iframe basically when you
+[00:06:03] go to the horizontal scroll and this is
+[00:06:05] the if frame component uh if I just
+[00:06:08] inspect then you will see okay this like
+[00:06:11] UI layout animation dobel do app this
+[00:06:14] not the same URL and uh if I just go
+[00:06:17] there iframe tab so this tab basically
+[00:06:21] used used for this one if I just go over
+[00:06:25] there this stabs okay okay so we have
+[00:06:27] precode and pre-coded so pre-coded helps
+[00:06:29] to visualize the code in the component
+[00:06:32] and and pre-code helps to visualize the
+[00:06:34] code outside the component and we have
+[00:06:36] the copy button so this is the copy
+[00:06:38] button we have component blog and
+[00:06:40] component code preview okay so we are
+[00:06:42] using this component code preview for
+[00:06:45] all of our component so whenever you
+[00:06:47] create a new component definitely you
+[00:06:49] need to add it in the register component
+[00:06:50] folder and definitely you need to create
+[00:06:52] a new MDX okay but suppose you already
+[00:06:55] have an MDX called Footers and you have
+[00:06:57] a comp you want to add a new comp
+[00:06:59] components for footer so you just need
+[00:07:01] to go to the footer object so we are
+[00:07:04] here okay and you need to uh copy this
+[00:07:07] object with all these keys and
+[00:07:09] definitely all the component name need
+[00:07:11] to be unique because these the uh the
+[00:07:14] key things that we use to identify the
+[00:07:16] component and show the components and
+[00:07:18] code and everything okay and this is a
+[00:07:21] doc. TSS TS and definitely when you
+[00:07:24] create a new component you need to also
+[00:07:26] add the add it over here okay and this
+[00:07:28] is the component name name suppose this
+[00:07:30] is a creative DC so and if I add a new
+[00:07:33] object with new component name then it
+[00:07:34] will create another one and these things
+[00:07:36] basically used for uh sidebar and sarch
+[00:07:39] bar and we have hooks definitely is for
+[00:07:42] Hooks and we have leave uh use the docs
+[00:07:47] folder which basically generate all the
+[00:07:49] MDX to this one this slag so now you
+[00:07:52] need to understand MDX component. TSX so
+[00:07:55] this one thing basically helps us to
+[00:07:58] centralize all of our markdown elements
+[00:08:00] in one place uh like the blow this
+[00:08:03] component and all the other things okay
+[00:08:05] so you can easily uh add a tag over here
+[00:08:09] and add a style on it and you can also
+[00:08:12] use a tailin classes in MDX like we did
+[00:08:16] in the buttons uh cuz we are using a
+[00:08:19] Tailwind plugin called typography okay
+[00:08:22] yeah I think that's all you need to know
+[00:08:23] to create your own component liy and
+[00:08:26] don't forget to start the repo not only
+[00:08:28] just uh the start repo also start the
+[00:08:31] repo to my component libr called UI
+[00:08:33] layout and please subscribe the channel
+[00:08:35] see you in the next video my my my my my
+[00:08:37] my m

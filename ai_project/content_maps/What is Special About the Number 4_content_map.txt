@@ -1,0 +1,7 @@
+### Content Map
+
+#### Section 1
+- **Timestamp Range:** [00:00:00-00:00:34]
+- **Title/Topic:** Unique Spelling of Four
+- **Description:** The video introduces an interesting fact about the number four, highlighting that it is the only number in the English language that has the same number of letters as its value. It spells out "four" and counts the letters.
+- **Key Quote:** "Four is the only number in the English language that is spelled with the same number of letters as the number itself."

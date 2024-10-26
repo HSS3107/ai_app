@@ -1,0 +1,977 @@
+Title: RAG Based Chatbot With Memory(Chat History) | Creating History Aware Retriever | Langchain #ai #rag
+Channel: Sunny Savita
+Published: 2024-08-31T03:30:18Z
+Duration: PT37M27S
+Description: Explore how to build a RAG-based chatbot with memory! This video shows you how to create a history-aware retriever that leverages past interactions, enhancing your chatbot’s responses and making conversations more engaging.
+
+#llm #embedding #ai  #futureai #generativeai #genai #textgeneration #ragapp #langchain #programminglogic  #python #chatbot #openai #gpt #langchainj #rag #crossencoder #transformers #multiretriever #ragfusion #advancerag #llamaindex #langchain #gemini #google #rag 
+
+Don't miss out; learn with me!
+
+P.S. Don't forget to like and subscribe for more AI content!
+
+Notebook Link:https://github.com/sunnysavita10/Generative-AI-Indepth-Basic-to-Advance/blob/main/RAG_with_Conversation.ipynb
+Multimodel RAG Playlis: https://www.youtube.com/watch?v=7CXJWnHI05w&list=PLQxDHpeGU14D6dm0rmAXhdLeLYlX2zk7p&pp=gAQBiAQB
+RAG detailed Playlist:  https://www.youtube.com/watch?v=wTVTkOb3SZc&list=PLQxDHpeGU14Blorx3Ps1eZJ4XvKET1_vx&pp=gAQBiAQB
+GenAI Foundation Playlist: https://www.youtube.com/watch?v=ajWheP8ZD70&list=PLQxDHpeGU14D7NiPgqxC9qhKkx4jMQcDk&pp=gAQBiAQB
+
+Google Form  For Suggestion and Feedback : https://forms.gle/1Ut21yM2ednvpbS66
+
+Connect with me on Social Media-
+LinkedIn :  https://www.linkedin.com/in/sunny-savita/  
+One to One Call: https://topmate.io/sunny_savita10
+GitHub : https://github.com/sunnysavita10
+Telegram : https://t.me/aimldlds
+
+Transcript:
+
+[00:00:00] hey hi everyone welcome to my YouTube
+[00:00:03] channel my name is s Savita and I'm back
+[00:00:06] with another exciting and useful video
+[00:00:09] so guys in this particular video we're
+[00:00:11] going to see how we can create rag based
+[00:00:15] chatbot with memory uh yes guys so in my
+[00:00:19] previous video I have explained you how
+[00:00:21] you can create a chat bot with memory
+[00:00:23] now if you want to integrate the rack
+[00:00:26] pipeline inside the chatboard how you
+[00:00:29] can do it and how you can sustain the
+[00:00:32] memory over there so my discussion my
+[00:00:35] complete discussion will be around to
+[00:00:37] that only and uh along with the
+[00:00:39] Practical I'll be explaining the
+[00:00:41] theoretical Point as well and at the end
+[00:00:44] you will get to know how we can create
+[00:00:47] these kind of pipeline so guys let's
+[00:00:49] start let's begin first of all let me uh
+[00:00:52] show you my YouTube channel so here guys
+[00:00:55] just a second uh this is my YouTube
+[00:00:58] channel if you haven't it so far please
+[00:01:01] go and check uh I have uploaded uh like
+[00:01:05] very amazing content with respect to gen
+[00:01:08] and definitely it will help you uh to
+[00:01:10] start with your gen a journey uh so this
+[00:01:13] was my last video with respect to
+[00:01:15] chatbot this one uh please go and check
+[00:01:18] out please try to learn about the
+[00:01:20] chatbot and uh this video will help you
+[00:01:23] uh with respect to today's uh like
+[00:01:26] tutorial itself and before that I
+[00:01:28] uploaded the L and C course also so yeah
+[00:01:31] both video you will get inside this
+[00:01:33] particular section if you want to learn
+[00:01:35] couple of other things with respect to
+[00:01:37] generative AI so definitely you can
+[00:01:38] check out with my playlist there I kept
+[00:01:41] a different different kind of playlist
+[00:01:43] and soon I'll be uploading many more
+[00:01:46] video so guys uh I hope this thing is
+[00:01:49] clear now let's uh start with the uh
+[00:01:53] solution so solution of this rag with
+[00:01:56] memory so here guys I try to cap the
+[00:01:59] code okay but this code is like uh it's
+[00:02:03] a waste right until we are not going to
+[00:02:06] understand the architecture under until
+[00:02:08] we are not going to understand the
+[00:02:10] theoretical stuff related to this
+[00:02:12] particular problem okay so first let's
+[00:02:15] try to understand the problem statement
+[00:02:17] let's try to understand the theoretical
+[00:02:19] point then again I will come to this
+[00:02:21] particular implementation so here on my
+[00:02:25] Blackboard itself guys I try to cap
+[00:02:27] everything first of all let me remove it
+[00:02:29] from here so that I can start from
+[00:02:32] scratch uh if you don't know about the
+[00:02:34] rag guys I created a dedicated playlist
+[00:02:36] on top of the rack definitely you can
+[00:02:38] check out and you can learn from there
+[00:02:41] about the rag so this is a architecture
+[00:02:45] of the rag guys now before uh coming to
+[00:02:47] this architecture let me give you some
+[00:02:49] theoretical Point theoretical stuff so
+[00:02:52] uh here let's say what I have I have my
+[00:02:55] llm model okay
+[00:03:00] this is what this is my a large language
+[00:03:03] model now to this llm model let's say
+[00:03:06] I'm passing one question okay this is
+[00:03:09] what this is my input prom I can write
+[00:03:11] over here prom right now this is going
+[00:03:14] to be my input prom now what I will be
+[00:03:16] what I will get tell me guys so I'll be
+[00:03:18] getting my output uh just a second let
+[00:03:21] me write in a
+[00:03:24] uh good way so here is what here is my
+[00:03:27] prompt now what I'll be getting I'll be
+[00:03:29] getting my output so here is what here
+[00:03:31] is my
+[00:03:33] output right so this kind of mechanism
+[00:03:36] is called uh like a basic question
+[00:03:38] answering so uh here I can mention about
+[00:03:41] it so this is nothing this is question
+[00:03:44] and answering right where I'm asking the
+[00:03:47] question to my llm and it is replying to
+[00:03:50] me now guys let's say if we are able to
+[00:03:52] maintain okay we are able to maintain
+[00:03:54] the history of this particular
+[00:03:55] conversation right and if we are able to
+[00:03:58] serve this app ation somewhere with
+[00:04:01] respect to any sort of a domain right so
+[00:04:04] this is what this is my chat bot so here
+[00:04:07] if we are able to maintain the history
+[00:04:09] history of what history of this
+[00:04:10] particular conversation right if we are
+[00:04:13] able to maintain the state like we do
+[00:04:15] inside the chat GPD so this is what this
+[00:04:17] is my chatbot okay now guys let's say
+[00:04:20] sometime my llm is not able to answer
+[00:04:23] something so let me remove this part as
+[00:04:25] well sometime my llm is not able to
+[00:04:29] answer answer something so in that case
+[00:04:31] what we do uh we connect this llm okay
+[00:04:35] we connect this large language model
+[00:04:37] with the rag pipeline so rag is nothing
+[00:04:41] it's a retrieval argument generation if
+[00:04:44] you don't know about the rag so let's
+[00:04:46] understand about the rag architecture so
+[00:04:48] what we do guys we never uh answer
+[00:04:51] directly so here we are asking the
+[00:04:52] question directly to my llm we never do
+[00:04:55] it what we do we create the rag pipeline
+[00:04:58] okay means whatever question we need to
+[00:05:01] ask whatever input we going to pass we
+[00:05:03] pass through this rag pipeline now how
+[00:05:06] to do that let me show you so this is
+[00:05:08] the complete rag architecture so first
+[00:05:11] guys inside the uh rag pipeline uh we'll
+[00:05:14] be always having one database okay our
+[00:05:16] knowledge base we are going to create a
+[00:05:18] chunks from that particular knowledge
+[00:05:20] base okay and then we are going to
+[00:05:22] create an embedding of that and
+[00:05:24] somewhere we are storing inside the
+[00:05:26] database this is uh usually this
+[00:05:28] database is called database okay now
+[00:05:31] guys let's say user is asking any sort
+[00:05:33] of a question so we convert this
+[00:05:35] question into the embedding then again
+[00:05:37] it come back to the uh Vector database
+[00:05:39] and then we perform the semantic search
+[00:05:43] or we perform the similarity search and
+[00:05:45] based on that semantic search and based
+[00:05:47] on that similarity search we find out
+[00:05:49] some rank results rank result means what
+[00:05:51] top result topmost result and here uh if
+[00:05:54] you want to perform the reranking I can
+[00:05:56] do that also it's my second level
+[00:05:57] filtering this all the thing I I already
+[00:05:59] uploaded on my YouTube channel if you
+[00:06:01] don't know about it you can go and check
+[00:06:03] with this Advanced rag playlist okay now
+[00:06:06] guys what we do we pass this data this
+[00:06:08] complete context and all okay uh this
+[00:06:11] query this prompt okay prompt means the
+[00:06:13] instruction to my model and here is a
+[00:06:15] context context is nothing this is the
+[00:06:17] ranked answer or retrieve answer we pass
+[00:06:20] everything to my model to my llm model
+[00:06:22] and finally we generate the answer okay
+[00:06:24] finally we generate the answer and we
+[00:06:26] pass it to the user this is my rack
+[00:06:28] pipeline so guys instead of passing
+[00:06:30] direct uh question to my llm okay what
+[00:06:33] we do we pass some more context okay
+[00:06:36] using this rack pipeline here is a
+[00:06:38] complete rack pipeline which we connect
+[00:06:40] uh to the llm and then we generate the
+[00:06:42] answer I hope this thing is clear so
+[00:06:45] first of all let's do one thing let's
+[00:06:46] try to create this rag Pipeline and then
+[00:06:49] I will show you how you can create the
+[00:06:51] history aware rag because that is very
+[00:06:53] much important and before this history
+[00:06:55] aware R guys uh history aware retriever
+[00:06:59] pipeline history of rag anything you can
+[00:07:01] say so we'll have to understand the
+[00:07:03] complete coding of this rag so uh guys
+[00:07:06] uh here I C this particular coding uh
+[00:07:09] now let me show you first of all let me
+[00:07:10] connect it so either you can connect
+[00:07:12] with the GPU or CPU anything is fine
+[00:07:14] right now because uh we are uh not going
+[00:07:17] to do very heavy implementation so uh
+[00:07:20] guys uh here uh it is getting connected
+[00:07:22] so let it
+[00:07:23] connect okay so my system has connected
+[00:07:26] now uh what I will do I will install the
+[00:07:28] necessary Library
+[00:07:30] so uh I'm going to install it guys uh
+[00:07:32] see uh and after that after installing
+[00:07:34] it I have to uh set couple of variable
+[00:07:36] as well so this is my variable guys
+[00:07:38] which I am going to be set over here so
+[00:07:40] this variable is related to the logging
+[00:07:42] so if I want to capture the log of this
+[00:07:44] particular implementation uh so that's
+[00:07:47] why I'm defining this variable and if
+[00:07:49] you don't know about it you can check
+[00:07:50] out with this uh this particular video
+[00:07:52] length sh one short video there I have
+[00:07:54] explained the use of this uh Lang Smith
+[00:07:58] okay Lang Smith for capturing the log
+[00:08:00] log of the implementation so uh I can
+[00:08:02] give you the glimpse of that uh how
+[00:08:04] basically I'm getting this particular
+[00:08:06] variable this is with respect to the
+[00:08:07] jimy okay I'm using the jimy model
+[00:08:09] that's why I kept it now here these are
+[00:08:11] the variable from where actually I'm
+[00:08:13] getting it so once you will go through
+[00:08:14] with the Lin website here inside the
+[00:08:16] product if you will search about this
+[00:08:18] Lang Smith so there here is a lang Smith
+[00:08:20] guys you will get this type of interface
+[00:08:22] right now what you can do you can click
+[00:08:24] on this new project once you will do it
+[00:08:25] guys it will give you all this variable
+[00:08:27] now this particular variable you have to
+[00:08:29] set it as a environment variable okay
+[00:08:32] here you need to pass the API key here
+[00:08:34] you need to pass pass your project name
+[00:08:36] whatever you want to pass okay and from
+[00:08:38] where you will get the API key so just
+[00:08:40] do just click on this uh setting icon so
+[00:08:43] once you will do it guys here it will
+[00:08:44] give you the option for generating the
+[00:08:46] API key see here you are getting it so
+[00:08:48] once you will configure all the variable
+[00:08:50] so see I already created couple of
+[00:08:52] project and here is the complete uh log
+[00:08:54] okay log of those particular uh log of
+[00:08:58] those particular implementation
+[00:08:59] so easily you can track what is
+[00:09:01] happening at which Step so if your like
+[00:09:04] application is too complex in that case
+[00:09:06] you can uh in that case actually you can
+[00:09:09] trag the complete application using this
+[00:09:12] log I hope this is uh clear to all of
+[00:09:14] you now let me run it let me set all the
+[00:09:16] environment variable and this is my
+[00:09:18] project name so the new project will be
+[00:09:19] created automatically over there so it's
+[00:09:22] saying import OS uh okay let me run it
+[00:09:27] again import OS yeah it is working fine
+[00:09:31] now here I'm going to be import this
+[00:09:32] warning because I don't want to any sort
+[00:09:34] of a warning in between my answer so
+[00:09:37] that's why I'm importing it now here I'm
+[00:09:39] going to be load the uh Ting model it is
+[00:09:41] Google jimy but it is up to you you can
+[00:09:44] utilize uh or you can keep any sort of a
+[00:09:47] model inside your implementation I'm not
+[00:09:49] going to stop you okay now apart from
+[00:09:51] this one guys what we have we have a
+[00:09:52] model so which model guys we are using
+[00:09:54] this jimy model jimy 1.5 Pro 001 why I'm
+[00:09:58] using it so that easily you can access
+[00:10:01] it means uh like without any sort of a
+[00:10:03] cost we have other ways also from the
+[00:10:05] hugging phe we can take any sort of a
+[00:10:07] model you can take any type of model but
+[00:10:09] right now I'm not going for that because
+[00:10:11] my main intention to explain you the
+[00:10:13] History part over here so here I'm
+[00:10:15] checking my model whether my model is
+[00:10:16] working or not so yes it is working so I
+[00:10:19] hope everything is set till so far uh
+[00:10:22] now uh my model is working now what I
+[00:10:24] will do guys I'll will be gathering the
+[00:10:26] data uh and on the domain specific
+[00:10:29] problem problem on the one specific
+[00:10:30] problem statement I'm going to implement
+[00:10:32] this Rec pipeline so here I'm going to
+[00:10:34] collect my data uh this data basically
+[00:10:36] I'm going to collect from where from the
+[00:10:38] internet itself so for that actually I'm
+[00:10:40] using this vs4 uh now uh here you can
+[00:10:42] see we are going to import this create
+[00:10:44] retrieval Chen and here create a
+[00:10:47] document stuff chain okay then chroma as
+[00:10:50] a vector database we're going to use
+[00:10:51] chroma okay so let me run it and here is
+[00:10:53] web based loader right so we have B
+[00:10:56] based loader we based loader basically
+[00:10:58] what it will do it will fetch the data
+[00:11:00] directly from the internet now uh here
+[00:11:02] what I I have a chat prompt template so
+[00:11:04] I can Define my prompt basically and
+[00:11:07] here my recursive character test
+[00:11:08] splitter so I can make the chunks here
+[00:11:10] is my message plate holder so I can keep
+[00:11:12] the variable inside my chat prom
+[00:11:14] template so later on I can pass any sort
+[00:11:16] of a message okay dynamically while I'm
+[00:11:18] calling the chain uh now guys what I'm
+[00:11:20] doing I'm going to be collect the data
+[00:11:22] so I'm going to collect the data using
+[00:11:24] this particular link and here I passed a
+[00:11:26] couple of argument as well so what I
+[00:11:27] want I want content title and header
+[00:11:30] from this particular data so if you will
+[00:11:32] go and check with this uh this link so
+[00:11:34] what you will get you will get the data
+[00:11:36] here it is let me show you that so uh
+[00:11:40] where it is this one guys so here uh
+[00:11:42] this is a Blog actually llm powered
+[00:11:44] autonomous agent it is a complete block
+[00:11:46] on top of the agent we are not going to
+[00:11:48] extract any image from here we are just
+[00:11:50] going to be extract the content okay
+[00:11:52] that's why I have mention this
+[00:11:54] particular like values uh now guys what
+[00:11:57] I will do so once I will learn it guys I
+[00:11:59] will will be getting my data so inside
+[00:12:01] the doc actually I will get my data okay
+[00:12:05] doc document now what I'm doing I'm
+[00:12:07] passing this dog to this text splitter
+[00:12:09] see here is a complete data okay uh now
+[00:12:11] what I'm doing I'm passing this data to
+[00:12:13] my recursive character testt splitter so
+[00:12:15] I will be getting my chunks right and
+[00:12:17] then what I'm doing I'm going to be
+[00:12:19] store this data inside the vector DB
+[00:12:21] inside the chroma so here I'm performing
+[00:12:23] in memory storage uh I'm uh keeping the
+[00:12:26] data inside the memory itself so here is
+[00:12:29] my uh split okay so this is my split
+[00:12:31] here is my Ming so it will take the
+[00:12:34] document and uh then after taking the
+[00:12:36] document it will convert the mding and
+[00:12:39] it will be keeping inside the memory
+[00:12:41] itself okay those particular Ming now
+[00:12:43] let me run it and after the embedding
+[00:12:45] after like storing the data guys what I
+[00:12:47] did I created a retriever so here is my
+[00:12:49] retriever guys now on top of it
+[00:12:51] basically I can perform any sort of a uh
+[00:12:54] I I can pass any sort of a query okay to
+[00:12:56] this particular Retriever and I can
+[00:12:58] generate the SIM type of answer so so
+[00:13:01] far what I have implemented over here if
+[00:13:03] you will go and check so let me show you
+[00:13:05] inside the architecture so we have
+[00:13:06] implemented this part so here is my data
+[00:13:09] okay and from the data guys what I'm
+[00:13:12] doing I'm going to be perform the
+[00:13:14] chunking and after Ting I'm storing
+[00:13:16] inside the database so this uh
+[00:13:18] particular stage right I I perform the
+[00:13:20] data injection stage now after that uh I
+[00:13:23] have to generate the answer okay after
+[00:13:26] retrieving so this is my system prompt
+[00:13:28] guys what I'm doing I'm defining the
+[00:13:29] behavior of the system and here I'm uh
+[00:13:32] here itself inside the system prompt
+[00:13:33] only I'm passing the context so that uh
+[00:13:36] what I'm doing I'm passing the context
+[00:13:38] over here itself uh so uh basically
+[00:13:40] based on that I can ask any sort of a
+[00:13:42] answer all right based on that I can I
+[00:13:45] can like I can ask any sort of a query
+[00:13:48] okay to my model so uh if you don't know
+[00:13:50] about about it guys I can explain you
+[00:13:52] that so just go with the chat GPD and
+[00:13:54] here over the chat GPD what you can do
+[00:13:56] you can Define the you can Define the
+[00:13:59] behavior of your chat GPD okay how you
+[00:14:01] can Define you can write one message
+[00:14:02] here so you can say uh you are funny
+[00:14:06] assistant okay I I'm saying it's a funny
+[00:14:08] assistant you can Define anything so
+[00:14:10] it's a funny assistant and uh you have
+[00:14:15] to answer all the query in the funniest
+[00:14:22] way okay so this is the question now let
+[00:14:25] me uh run it so this is my uh behavior
+[00:14:28] of this particular system system okay
+[00:14:29] now let's say if I'm going to ask any
+[00:14:31] sort of a thing it will answer in this
+[00:14:32] particular manner inside the funniest
+[00:14:35] way right so here I'm asking how I how I
+[00:14:39] can earn earn money right so this is my
+[00:14:44] question now you'll find out it will
+[00:14:47] answer invent invent time machine sell
+[00:14:50] botal Air Tech cast Okay create a course
+[00:14:54] so guys see it is giving me like
+[00:14:56] sarcastic answer it is not giving me any
+[00:14:58] statefor answer or any uh basically
+[00:15:01] generic answer right so like this you
+[00:15:04] can Define the behavior of the system
+[00:15:05] like this uh here also I'm doing the
+[00:15:07] same thing uh so previously if you will
+[00:15:09] go and check with my re chent you will
+[00:15:11] find out uh this uh retriever actually I
+[00:15:14] was passing along with the question so
+[00:15:16] in both way you can do it means uh this
+[00:15:18] retriever means the context you can pass
+[00:15:20] along the question then PR then llm and
+[00:15:22] final output passer like this also you
+[00:15:24] can create a chain or what you can do
+[00:15:26] you can pass the context to your system
+[00:15:27] prompt itself you can Define as a system
+[00:15:29] behavior and then you can ask the
+[00:15:31] questions so here I'm trying I'm like
+[00:15:34] trying to tell you the multiple ways
+[00:15:36] okay but at the end uh the main aim uh
+[00:15:40] is same right to generate an answer
+[00:15:42] using the llm after giving some
+[00:15:44] information to it through the rack
+[00:15:47] pipeline got it now guys uh what I'm
+[00:15:50] doing so here is my system prompt which
+[00:15:52] I'm defined now here is what here is my
+[00:15:54] chat prom template it will take the
+[00:15:56] system prom and this input and finally
+[00:15:58] uh here is going to my chain model and
+[00:16:00] chat promp template okay this is my this
+[00:16:02] is going to my of chain I'll be creating
+[00:16:04] separate video on top of this chain we
+[00:16:06] have a different different type of chain
+[00:16:07] now nowadays we have a LCL okay uh this
+[00:16:10] uh Lang chain expression language so we
+[00:16:12] don't require this kind of chain but
+[00:16:14] again U like we can use it it's a uh
+[00:16:17] like uh way of connecting multiple
+[00:16:19] component all together in a efficient
+[00:16:21] manner and uh we can create any sort of
+[00:16:23] a thing okay any kind of like
+[00:16:25] applications over here okay just to
+[00:16:26] connect a multiple component here I'm
+[00:16:29] creating a rag a pipeline okay just to
+[00:16:31] connect this particular component so uh
+[00:16:33] here model and chat prom template Now
+[00:16:35] what is my next thing here so here I'm
+[00:16:37] going to pass this uh Retriever and this
+[00:16:39] question answering chain so I have
+[00:16:41] connected three things first is what
+[00:16:43] first is model then prop template and
+[00:16:45] then this retriever okay now finally I
+[00:16:48] have to invoke it so this is my question
+[00:16:50] which I'm asking this question actually
+[00:16:51] I took from this particular
+[00:16:52] documentation itself you can take any
+[00:16:54] sort of a question now here I'm like
+[00:16:56] running this particular question and see
+[00:16:58] I I will be getting my answer so this
+[00:17:01] was the rag pipeline okay now we have to
+[00:17:05] understand how we can add on the history
+[00:17:07] inside this particular rag pipeline guys
+[00:17:11] so how this uh history aware retriever
+[00:17:14] Works uh let me tell you guys uh let me
+[00:17:17] explain you that particular part for
+[00:17:19] that I kept couple of images inside this
+[00:17:22] implementation and definitely uh by
+[00:17:24] seeing those images easily you can
+[00:17:27] understand it so uh here guys see uh
+[00:17:31] this is the images uh definitely I will
+[00:17:33] explain you along with the example I
+[00:17:34] kept everything for all of you so what
+[00:17:37] we are doing see if if you will look
+[00:17:39] into the retriever part so what we are
+[00:17:41] doing we are passing the query to the
+[00:17:43] retriever okay and we are generating the
+[00:17:46] answer means the similar answer and then
+[00:17:47] further we are passing to the further we
+[00:17:50] are passing to the llm right and you can
+[00:17:53] look into this particular architecture
+[00:17:54] the idea will be more clear to all of
+[00:17:56] you now coming to the next part see uh
+[00:17:58] if we are talking about this history
+[00:18:00] aware retriever inside that we are we
+[00:18:04] have a query whatever query user is
+[00:18:07] asking this query guys uh I'm passing
+[00:18:11] along with the chat history to my llm
+[00:18:15] getting my point and then we are
+[00:18:16] rephrasing the query and then we are
+[00:18:19] passing to the retriever for generating
+[00:18:22] the tell me ranked result okay which
+[00:18:25] result let me write over here
+[00:18:31] ranked result okay so how it is working
+[00:18:35] let me explain you and the same thing
+[00:18:37] basically I kept it inside this
+[00:18:38] particular architecture as well so later
+[00:18:40] on I will come to this one first uh
+[00:18:43] let's try to understand with the example
+[00:18:45] so uh guys let's say this is the
+[00:18:46] scenario so uh here I'm asking a
+[00:18:49] question here my user is asking a
+[00:18:51] question what is a machine learning now
+[00:18:54] uh here is my answer okay my answer is
+[00:18:59] what machine learning enable computer
+[00:19:00] this this that whatever okay so I'm able
+[00:19:04] to generate this particular answer to my
+[00:19:05] llm just just think about it uh so here
+[00:19:08] is my here here my user is asking the
+[00:19:11] question okay this one and whatever data
+[00:19:14] we have retrieve uh whatever data we
+[00:19:16] have retrieved whatever rank result was
+[00:19:18] there uh let me clear it first of all so
+[00:19:21] whatever rank result was there based on
+[00:19:24] that particular rank result okay we are
+[00:19:27] able to generate this particular answer
+[00:19:29] now guys see here what is happening
+[00:19:32] second
+[00:19:34] time my user is asking one more question
+[00:19:38] and now this question guys it is
+[00:19:39] directly related to this previous
+[00:19:43] answer okay so my user is asking what is
+[00:19:46] this making
+[00:19:47] prediction what's what's the meaning of
+[00:19:49] it right so here guys see what is
+[00:19:52] happening this
+[00:19:53] question along with this
+[00:19:56] answer okay this question this this new
+[00:20:00] question along with this answer this is
+[00:20:02] what this is my chat
+[00:20:05] history
+[00:20:08] chat history right so along with this
+[00:20:11] answer and here is what here is my
+[00:20:13] prompt now no just read the prompt what
+[00:20:15] I'm saying so here we are saying given a
+[00:20:18] chat history and the latest user
+[00:20:22] question whatever question user is
+[00:20:23] asking which might reference context in
+[00:20:26] the chat history means this question
+[00:20:28] might be connected to this particular
+[00:20:29] chat history okay this particular chat
+[00:20:31] history formulate a standalone question
+[00:20:34] which can be understood without the chat
+[00:20:35] history means now we are trying to
+[00:20:37] formulate a new question we are trying
+[00:20:39] to rephrase the question okay and here
+[00:20:42] we are saying do not answer this
+[00:20:43] particular question just rephrase it
+[00:20:45] just reformulate it why we are doing it
+[00:20:47] guys here so that we can see here here
+[00:20:51] guys how we are going to rephrase this
+[00:20:53] particular question using the llm means
+[00:20:56] this question this machine learning uh
+[00:20:58] like answer and here this particular
+[00:21:00] prompt all the three things okay all the
+[00:21:03] three things combinely we are going to
+[00:21:06] pass to our
+[00:21:07] llm and then llm will generate the new
+[00:21:10] question and this particular question
+[00:21:13] guys see here is a question how does
+[00:21:15] machine learning make prediction by
+[00:21:17] identifying pattern in the data and what
+[00:21:19] does making prediction mean so this
+[00:21:21] particular question I will be passing to
+[00:21:23] my Retriever and so this is called guys
+[00:21:27] history of your retriever are you
+[00:21:29] getting my point history aware retriever
+[00:21:31] means this question okay this question
+[00:21:34] basically we got okay we got from the
+[00:21:37] user end from from from where we got it
+[00:21:40] we got it from the user end but maybe
+[00:21:44] user has not provided many more
+[00:21:48] information whatever he want to ask he
+[00:21:50] just told over here okay so see here in
+[00:21:53] the question this user is writing what
+[00:21:55] is a making prediction right
+[00:21:59] maybe they are not providing any sort of
+[00:22:01] a context anything anything over here
+[00:22:04] let's say I can take one more example
+[00:22:06] here I'm saying 2 + 2 is equal to 4 my
+[00:22:09] LM is giving this particular answer now
+[00:22:11] I'm saying what should
+[00:22:16] I
+[00:22:19] add so it will
+[00:22:25] become 10 what should I end add inside
+[00:22:29] this particular answer so 4 + 6 is equal
+[00:22:31] 10 so here I'm not giving anything means
+[00:22:35] here I'm not giving any plus equation or
+[00:22:37] something I'm just asking the question
+[00:22:39] based on my previous right so let's say
+[00:22:42] if user is asking any sort of a
+[00:22:45] question right if user is asking any
+[00:22:47] sort of a question based on this
+[00:22:48] particular history and user is not
+[00:22:51] mentioning
+[00:22:52] anything how we will be able to retrieve
+[00:22:55] the correct thing from the database just
+[00:22:57] tell me
+[00:22:59] so that's why what we are doing we have
+[00:23:01] a question we have this history we are
+[00:23:04] passing the prompt and we are going to
+[00:23:07] rephrase the question so that easily we
+[00:23:10] can take the tell me easily we can take
+[00:23:13] the similar kind of document from the
+[00:23:16] database and further we can pass it to
+[00:23:19] the llm model I hope you are getting and
+[00:23:22] this is what guys this is history aware
+[00:23:26] retriever means the next question it is
+[00:23:29] connected to the previous question that
+[00:23:31] we are going to rephrase using the llm
+[00:23:33] power and we are passing to the tell me
+[00:23:36] we are passing to the uh like Retriever
+[00:23:38] and we are getting the relevant document
+[00:23:40] now I hope this is clear now let's look
+[00:23:42] into this particular architecture so
+[00:23:43] what we are doing so here is my input
+[00:23:45] query okay here is my chat history uh
+[00:23:48] this one connect connectively now we
+[00:23:50] have a cont like this cont contextualize
+[00:23:55] prompt means my system prompt we are
+[00:23:57] passing to the llm we are generating a
+[00:23:58] new query then we are passing to the
+[00:24:00] Retriever and here is my document now
+[00:24:03] for the further generation what I will
+[00:24:05] do so this document I will pass along
+[00:24:07] with the along with this prompt and
+[00:24:09] along with this chat history will will
+[00:24:11] be passing to the llm and finally we are
+[00:24:13] generating my answer so this is the
+[00:24:16] entire thing and I hope so it is clear
+[00:24:18] to all of you now let's look into the
+[00:24:22] guys of further
+[00:24:24] implementation so first guys we'll have
+[00:24:26] to import this create history fre aware
+[00:24:29] retriever uh it's a class inside the
+[00:24:31] lenon itself so directly we can use this
+[00:24:33] particular class okay uh now after this
+[00:24:36] one guys uh after importing this class
+[00:24:38] uh let me import it first uh here is my
+[00:24:40] retriever prompt okay uh The Prompt uh
+[00:24:43] the system prompt okay uh which I told
+[00:24:45] you uh here you can see the complete uh
+[00:24:48] like text of it so I'm running it now
+[00:24:51] what I'm doing here I'm going to create
+[00:24:52] my contextualized prompt uh you can look
+[00:24:55] into this particular architecture so we
+[00:24:57] are going to retrieve
+[00:24:58] the answer uh so if there is a chat
+[00:25:01] history if chat history exist then only
+[00:25:05] it will reformulate it will rephrase the
+[00:25:07] answer sorry it will rephrase the
+[00:25:09] question otherwise it won't do it and
+[00:25:11] how we are doing it uh we are doing it
+[00:25:13] using this particular prompt so see I
+[00:25:16] mentioned about it now uh here is my
+[00:25:19] prompt then what I'm doing so create
+[00:25:21] history aw retriever we are passing the
+[00:25:23] model we are passing the Retriever and
+[00:25:26] we are passing this contextualized Q
+[00:25:28] prompt uh now guys if you're not able to
+[00:25:31] understand this hierarchy let me explain
+[00:25:32] you in a simplest way what is happening
+[00:25:34] over here this particular architecture
+[00:25:36] so uh here guys actually what uh we are
+[00:25:41] trying to achieve just a second see
+[00:25:44] whenever we Implement any sort of a
+[00:25:46] chain okay so we connect the
+[00:25:48] component so in a component the first
+[00:25:52] component that is my prompt this prompt
+[00:25:56] actually it is connected to what it is
+[00:25:58] connected to my llm okay llm now this
+[00:26:02] llm what it will do so whatever prompt
+[00:26:05] like I have Define this cont
+[00:26:07] contextualized promp let me write over
+[00:26:11] here contextualize promp this prompt it
+[00:26:15] will go to the llm and it will generate
+[00:26:17] the answer this answer basically
+[00:26:19] automatically I will pass to the SDR
+[00:26:21] output parcel if you don't know about
+[00:26:24] this St strr output parcel of this
+[00:26:27] chaining and all you can refer to my
+[00:26:29] previous video uh then what I'm doing so
+[00:26:31] here uh finally I'm passing to my
+[00:26:33] retriever so retriever what it does it
+[00:26:37] will pass to the Retriever and then
+[00:26:39] we'll be getting the relevant
+[00:26:42] document okay relevant document from
+[00:26:46] here so this is the complete hierarchy
+[00:26:48] guys which we are trying to achieve
+[00:26:50] inside this chain okay I hope uh this
+[00:26:54] thing is getting clear to all of you now
+[00:26:56] see uh let me execute it let me me uh
+[00:26:58] create this history of retriever uh now
+[00:27:01] what I'm doing I'm creating my chain
+[00:27:03] okay here is what here is my stuff chain
+[00:27:06] okay create a stuff document chain uh
+[00:27:09] now here is what here is my prompt
+[00:27:11] system prompt message placeholder there
+[00:27:13] is there is my chat history whatever
+[00:27:15] chat history I'll be passing it will
+[00:27:17] come over here and here is my input
+[00:27:19] means my human uh means my questions
+[00:27:22] okay user question so this is my qf
+[00:27:24] prompt guys so this was the this is this
+[00:27:26] was this is this is for what tell me
+[00:27:28] this one so this is for the retriever
+[00:27:30] only okay and this is for what this is
+[00:27:33] for the main llm are you getting my
+[00:27:36] point right so this prompt this
+[00:27:39] particular one this particular chain for
+[00:27:40] the Retriever and now this is final one
+[00:27:43] for my llm because at end we have to
+[00:27:44] pass it to the llm only now right so I
+[00:27:46] hope it is clear so let me create this
+[00:27:48] model plus QA prompt this particular
+[00:27:50] chain let me delete this part so here is
+[00:27:53] my chain okay question answering chain
+[00:27:55] now everything I'm going to be combin
+[00:27:56] over here so here is my hisory aware
+[00:27:58] retriever means my Retriever and this is
+[00:28:01] what this is my question answering chain
+[00:28:02] means my model so here I've have
+[00:28:04] combined everything and this is my final
+[00:28:06] reaction now here I'm going to be import
+[00:28:08] this human message and AI message and
+[00:28:10] see this is what this is my chat history
+[00:28:12] right whatever I'm going to be asked to
+[00:28:14] my model it will be it will it will come
+[00:28:16] over here inside the chat history it
+[00:28:18] will save it I will save it over here I
+[00:28:19] will show you at end don't worry
+[00:28:21] everything is a transparent inside this
+[00:28:22] particular uh solution so this is my
+[00:28:25] question what is a task decomposition it
+[00:28:27] is with respect to this document only
+[00:28:29] you can generate a different different
+[00:28:30] type of question and you can ask to your
+[00:28:32] model okay this is your like
+[00:28:33] responsibility now I'm just showing you
+[00:28:35] with this one question only now uh if
+[00:28:38] I'm passing it so see this is my
+[00:28:39] question first I'm passing this question
+[00:28:41] first and here is my chat history okay
+[00:28:42] this particular list so message one and
+[00:28:46] uh I am passing okay let me Define this
+[00:28:49] chat history now I am passing this
+[00:28:51] message I'm passing it okay so I'm
+[00:28:54] passing this chat over here here is my
+[00:28:56] question I'm in cing it I'll will be
+[00:28:59] getting my answer so let me okay message
+[00:29:03] one not answer anything is fine I'm just
+[00:29:05] keeping inside this particular variable
+[00:29:07] now uh let me show you the answer so it
+[00:29:09] is saying 5 please retry on report
+[00:29:13] it uh okay I
+[00:29:16] think uh revoke revoke revoke what is
+[00:29:19] the issue here just a
+[00:29:23] second okay it is working now now here
+[00:29:26] is message answer so let me check the
+[00:29:28] answer this is the answer which I'm
+[00:29:30] getting with respect to this question
+[00:29:32] now what I'm doing so here I'm going to
+[00:29:35] add this particular thing okay inside
+[00:29:36] where inside this chat history okay I'm
+[00:29:39] going to call this extent so I will be
+[00:29:41] segregating this human message and this
+[00:29:43] AI message both so uh here uh I have
+[00:29:46] edit now you can see this chat history
+[00:29:49] see human message and AI message now
+[00:29:51] what I'm doing I'm asking the next
+[00:29:53] question so what are the common ways of
+[00:29:55] doing it I'm not mentioning anything
+[00:29:57] everything it it need to pick from the
+[00:29:59] previous answer itself okay so here I'm
+[00:30:02] running it and see it is giving me a
+[00:30:05] answer again it is generating this
+[00:30:07] answer resource exuses I think there's a
+[00:30:10] issue with the key maybe I will have to
+[00:30:12] generate a new one don't worry I will do
+[00:30:13] it after the session so here here here
+[00:30:16] again it is generating internal server
+[00:30:20] uh it was giving me when I was
+[00:30:22] practicing it
+[00:30:23] now 429 resour existing oh just a second
+[00:30:28] second let me run it one more
+[00:30:30] time uh resource
+[00:30:33] exhausting okay check Kota I think Kota
+[00:30:35] is uh exceed let me check it guys don't
+[00:30:38] worry yeah so it is running for me now
+[00:30:41] uh so here what was the issue uh
+[00:30:43] basically I was facing uh so to this uh
+[00:30:46] I was using uh jimy 1.5 flash model so
+[00:30:50] that particular model actually uh what
+[00:30:52] happened now so I adjusted a limit limit
+[00:30:56] in terms of what limit in terms terms of
+[00:30:58] the context which we are passing over
+[00:31:00] there so if you are also facing this
+[00:31:02] particular issue in that case what you
+[00:31:04] can do you can use any other different
+[00:31:05] model so maybe you can use jimy 1.0 jimy
+[00:31:09] 1.0 Pro or jimy 1.5 Pro right uh this
+[00:31:13] particular model so that you want so
+[00:31:15] that like it can bear the context okay
+[00:31:18] in the free uh limit in the free uses
+[00:31:20] and easily you can test your pipelines
+[00:31:23] so uh now guys I asked this particular
+[00:31:25] question what are the common ways of
+[00:31:27] doing it uh now uh here I am passing my
+[00:31:30] question second question here is my chat
+[00:31:32] history means my previous conversation
+[00:31:34] this particular one and based on that
+[00:31:37] here you can see this is the answer
+[00:31:39] which I'm getting but here you will you
+[00:31:41] will feel that everything I'm doing
+[00:31:43] manually means manually I'm passing the
+[00:31:45] chat history and it is not a good
+[00:31:47] practice so guys here this Lang Chen has
+[00:31:50] provided lch has provided us a automated
+[00:31:53] way so what's the automated way let me
+[00:31:55] tell you so this way actually I have
+[00:31:57] used in my previous session also if you
+[00:32:00] will go and check this particular
+[00:32:01] session uh chatbot using uh memory Lang
+[00:32:04] chain with memory so there also I have
+[00:32:07] used uh this particular wave now I'm
+[00:32:09] going to import couple of statement uh
+[00:32:12] chat message history base chat message
+[00:32:14] history reenable with message history
+[00:32:17] right now guys after doing it just a
+[00:32:19] second yeah after importing it uh I'm
+[00:32:22] going to be create one dictionary uh
+[00:32:24] store and then this is my method right
+[00:32:28] this method basically get a session
+[00:32:30] history so with respect to the session
+[00:32:32] ID whatever session ID I'm passing with
+[00:32:34] respect to that I'm getting a chat
+[00:32:35] history I will let you know what is this
+[00:32:37] uh if you don't know guys what you can
+[00:32:39] do I can suggest you the previous video
+[00:32:40] just go and check and I can give you
+[00:32:42] very good example here let's say if
+[00:32:45] you're chatting something you are
+[00:32:46] writing something okay you are
+[00:32:47] generating something based on that
+[00:32:48] whatever right now uh see uh here this
+[00:32:51] is your first chat okay now let's say
+[00:32:54] you have uh initiated a new chat so this
+[00:32:57] chat and and the previous chat both are
+[00:32:59] different agree or not if you will go
+[00:33:01] with the previous chat this one so funny
+[00:33:04] assistant both are different all right
+[00:33:06] so that is what I was I'm telling to you
+[00:33:09] here also you can main that that setup
+[00:33:11] okay using the session ID you can
+[00:33:13] mention the different different chats
+[00:33:16] okay you can maintain the different
+[00:33:17] different context inside the single chat
+[00:33:19] also you can maintain the different
+[00:33:20] different sessions okay different
+[00:33:23] different context that is what I'm
+[00:33:24] trying to tell you getting my point if
+[00:33:27] conversation is going to change you can
+[00:33:29] change this particular
+[00:33:30] ID okay so here I'm going to create this
+[00:33:34] here I'm going to execute this uh code
+[00:33:36] so I'm getting session ID if it is not
+[00:33:38] inside the store I have to create it I
+[00:33:40] have to keep it over there otherwise we
+[00:33:42] have to return return the conversation
+[00:33:44] related to that okay related to that
+[00:33:46] particular session ID now I I what I'm
+[00:33:48] doing I'm creating a reenable with
+[00:33:50] message history so there is my reaction
+[00:33:52] here is my get session history okay uh
+[00:33:55] this particular one uh and then we have
+[00:33:58] some inputs variable input chat history
+[00:34:00] and this answer now let me execute it so
+[00:34:03] here I executed it now I'm going to I'm
+[00:34:06] going to I'm going to invoke this
+[00:34:08] particular chain so I'm writing
+[00:34:10] conversational reaction invoke here is
+[00:34:12] my message and see here is what here is
+[00:34:14] my session ID so with respect to this
+[00:34:16] particular session ID I'm going to uh
+[00:34:19] like keep the conversation inside the
+[00:34:21] dictionary so let me execute it and here
+[00:34:23] I can show you that so see it is
+[00:34:25] generating answers this is my answer
+[00:34:27] with respect to back to this question if
+[00:34:28] you will look into the store so you will
+[00:34:30] find out this particular ID and here is
+[00:34:32] a complete conversation now if you are
+[00:34:34] going to change the ID this particular
+[00:34:35] ID so according to that you will be
+[00:34:37] getting the conversation now this is my
+[00:34:39] next question what are the common ways
+[00:34:41] and I'm maintaining a same and I'm
+[00:34:43] maintaining the same session ID so that
+[00:34:45] it will be captured over here okay with
+[00:34:48] respect to this particular key only now
+[00:34:50] let me run it let me execute it so yes
+[00:34:52] it is able to generate an answer based
+[00:34:54] on this previous uh data see common ways
+[00:34:56] of doing it this this is that right you
+[00:34:58] can test it with a different different
+[00:34:59] question as of now I'm not doing it now
+[00:35:02] if you want to check the complete
+[00:35:03] conversation whatever conversation I
+[00:35:05] have made over here so here you can
+[00:35:08] check see user is asking this this is
+[00:35:10] the answer user is asking this this is
+[00:35:11] the answer getting my point now let's
+[00:35:13] say if I'm going to ask any sort of a
+[00:35:15] thing what is a prompt technique like
+[00:35:17] step XY Z okay I'm asking the question
+[00:35:20] from this particular uh answer only
+[00:35:23] right so somewhere uh it has
+[00:35:26] mentioned uh come on ways of this is
+[00:35:29] okay no issue I am asking this
+[00:35:30] particular question now see what is the
+[00:35:32] answer which is trying to provide to me
+[00:35:34] so here I'm going to write one question
+[00:35:37] one more question and here here here
+[00:35:40] here it is giving me a answer if prom
+[00:35:43] teching life step XY Z is a this one
+[00:35:45] right so if it is not able to find out
+[00:35:48] over here in that case it is going to
+[00:35:50] return this particular question only it
+[00:35:51] is going to my retrieval getting my
+[00:35:53] point to my retrieval and it is fetching
+[00:35:55] the relevant answer because I designed
+[00:35:57] the ProMed in such a way if this
+[00:35:59] question okay if this particular
+[00:36:01] question is not matching with any sort
+[00:36:03] of answer with any sort of a
+[00:36:05] conversation right so here it will
+[00:36:07] written it as it is if you will look
+[00:36:10] into the prompt template now you will
+[00:36:11] get it see here do not answer the
+[00:36:13] question just reformulate it if needed
+[00:36:15] okay formulate a question without the
+[00:36:18] chat history okay if it given a chat
+[00:36:20] history and the latest your question
+[00:36:22] with the night it it might reference
+[00:36:24] right and if it is not uh like a
+[00:36:26] referencing in that case is uh see here
+[00:36:29] basically somewhere we have mentioned
+[00:36:31] inside the prompt itself uh if you don't
+[00:36:33] know the answer you can say that uh okay
+[00:36:37] it will take care of it guys right it
+[00:36:38] will directly pass it to the llm means
+[00:36:42] to the retriever itself okay if it is
+[00:36:44] not able to find out the previous
+[00:36:45] history now if you will look into the
+[00:36:47] conversation so this is the complete
+[00:36:49] conversation right likewise you can look
+[00:36:51] into the conversation and uh you can uh
+[00:36:55] like sustain any sort of a conversation
+[00:36:57] right up to the mark now guys let's say
+[00:37:00] if the conversation is going to be too
+[00:37:01] long to too huge in that case what you
+[00:37:03] will do tell me in that case actually
+[00:37:06] you will trim the message now how you
+[00:37:08] will get to know how to trim the message
+[00:37:10] you will get it over here inside this
+[00:37:11] particular video okay so yeah thank you
+[00:37:14] guys thank you for watching this video
+[00:37:15] and this is it now you can test with a
+[00:37:17] different different question and answer
+[00:37:18] and you can check whether it is working
+[00:37:20] fine or not if you have any doubt you
+[00:37:22] can let me know inside the comment
+[00:37:23] section until the next video thank you
+[00:37:25] bye-bye take care guys

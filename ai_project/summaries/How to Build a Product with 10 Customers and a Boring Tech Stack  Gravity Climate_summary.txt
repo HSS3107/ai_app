@@ -1,0 +1,11 @@
+**Video Title:** How to Build a Product with 10 Customers and a Boring Tech Stack  
+**Channel:** EO  
+**Main Topic:** Building a tech product effectively with minimal resources and straightforward technologies.  
+
+In this video, Saleh and Ted from Gravity Climate share their entrepreneurial journey, emphasizing the significance of starting small and focusing on real customer feedback. They detail how they began with a simple tech stack, testing their hypothesis about carbon footprint measurement by engaging with just ten customers (00:02:15). This approach allowed for rapid iteration and a deep understanding of user needs (00:05:00).  
+
+Key moments include Ted's assertion, “It’s not about the tools; it’s about the problems you’re solving” (00:07:15), which encapsulates their philosophy that simpler, reliable technologies often yield better results than the latest trends. The duo reflects on their growth, noting a user base increase of two to three times annually (00:08:00).  
+
+The overall tone of the video is positive and encouraging, with a focus on practicality and customer-centric development.  
+
+The main takeaway is a call to action for aspiring entrepreneurs: start small, prioritize customer feedback, and remember that successful products can emerge from “boring” tech stacks. They invite viewers to connect and learn from their experiences (00:09:45).

@@ -1,0 +1,89 @@
+Title: Artificial intelligence comes to farming in India | BBC News
+Channel: BBC News
+Published: 2024-01-11T13:30:13Z
+Duration: PT3M2S
+Description: India has used traditional methods of agriculture for generations, but with 1.4 billion people now dependant on the crops farmers produce, some are turning to technology to boost productivity and profit.
+ 
+For example on one vineyard, sensor devices are being used to check weather and soil health. 
+ 
+Artificial intelligence (AI) can then figure out when it's time to water the crops, add fertiliser and tackle pests.
+ 
+Nitin Patil, who works at the vineyard, says the AI advice has helped "save 50% of the water" the farm had been using previously.
+
+Subscribe here: http://bit.ly/1rbfUog
+
+For more news, analysis and features visit: www.bbc.com/news 
+
+#AI #India #Agriculture #BBCNews
+
+Transcript:
+
+[00:00:00] so we talked about groceries the food we
+[00:00:02] buy off the shelf of course it's all uh
+[00:00:05] cultivated and grown on farms and if we
+[00:00:07] head to India 50% of the workforce are
+[00:00:11] employed in agriculture and a growing
+[00:00:13] population now 1.4 billion are dependent
+[00:00:17] on the crops produced but traditional
+[00:00:19] methods are now making way for new
+[00:00:21] technology that promises to make Farms
+[00:00:24] more efficient productive and profitable
+[00:00:26] thanks to artificial intelligence
+[00:00:28] archana Shukla reports
+[00:00:33] for Generations Indian Farms have been
+[00:00:35] swn and tilled only with traditional
+[00:00:38] know
+[00:00:40] how but some like Nan pel are trying out
+[00:00:44] something
+[00:00:45] different with sensor devices on his
+[00:00:48] Vineyard that check weather and soil
+[00:00:50] health and uses artificial intelligence
+[00:00:53] to figure out when to water the crops at
+[00:00:56] fertilizer and Tackle pests Nathan then
+[00:00:59] receives a precise advisory on a mobile
+[00:01:02] app this Vineyard where we are now it
+[00:01:04] has no groundwater sources and we are
+[00:01:07] growing these wines with the water that
+[00:01:09] we purchase from outside tankers with
+[00:01:11] the help of this AI data we are now able
+[00:01:14] to irrigate them only at The crucial
+[00:01:16] stage and that's helping us to sa around
+[00:01:18] 50% of the water that they actually used
+[00:01:21] we used to give
+[00:01:23] before built in India Silicon Valley
+[00:01:26] Bangalore by startup fil Agri Tech the
+[00:01:28] service has led to a near 25% boost in
+[00:01:31] productivity on crops like grapes and
+[00:01:34] guavas informed decision making is only
+[00:01:37] one part of the solution to improve
+[00:01:39] productivity but weeding out
+[00:01:41] inefficiencies in the existing age-old
+[00:01:44] agricultural practices is also
+[00:01:49] crucial AI powered robots offer a
+[00:01:52] solution this one is equipped with
+[00:01:55] Precision cameras that scan the ground
+[00:01:57] in real time programmed to avoid fa F
+[00:02:00] spraying the way spraying is done in
+[00:02:02] India is on a acre level and our mission
+[00:02:05] is to boil that down into a plant level
+[00:02:08] decision making just by spraying only on
+[00:02:10] the plant we are seeing a 56%
+[00:02:13] savings improved rural digital
+[00:02:16] connectivity and government support for
+[00:02:18] Agri Tech startups has pushed Farm
+[00:02:20] Innovations but even now just 2%
+[00:02:23] cultivators use Tech in farming we
+[00:02:26] really need to enable the digital public
+[00:02:28] infrastructure and second is going to be
+[00:02:30] public private Partnerships India will
+[00:02:32] always be resource constraint we
+[00:02:34] possibly are perhaps lowest in the yield
+[00:02:37] level we possibly are uh pretty much
+[00:02:40] constrained on finance and uh insurance
+[00:02:42] services for the farmers and that's
+[00:02:44] where the Gap needs to be filled up with
+[00:02:47] AI datadriven agriculture promises
+[00:02:50] profitability but will need considerable
+[00:02:53] time and investment to reach majority of
+[00:02:56] India's Farmers ARA Shukla BBC News
+[00:03:00] Bangalore

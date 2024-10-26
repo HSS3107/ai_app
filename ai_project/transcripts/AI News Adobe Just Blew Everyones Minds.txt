@@ -1,0 +1,1050 @@
+Title: AI News: Adobe Just Blew Everyone's Minds
+Channel: Matt Wolfe
+Published: 2024-10-18T18:52:48Z
+Duration: PT35M32S
+Description: Here's The AI News You Probably Missed This Week!
+
+Grab HubSpot's ChatGPT Guide Here: https://offers.hubspot.com/matt-wolfe-chatgpt-bundle
+
+Discover More From Me:
+🛠️ Explore thousands of AI Tools: https://futuretools.io/
+📰 Weekly Newsletter: https://www.futuretools.io/newsletter
+🎙️ The Next Wave Podcast: https://www.youtube.com/@TheNextWavePod
+❌ Follow me on X: https://x.com/mreflow
+🧵 Follow me on Instagram: https://www.instagram.com/mr.eflow
+
+Resources From Today's Video:
+Starship Test: https://twitter.com/SpaceX/status/1845210284270682178
+Adobe MAX 2024: https://news.adobe.com/news/2024/10/101424-adobe-puts-greater-power-possibility-in-hands-of-creators-teams-marketers
+Lightroom Updates: https://main--blog--adobecom.hlx.page/en/publish/2024/10/14/more-power-photographers-explore-latest-from-lightroom-adobe-max-2024
+ProjectPerfectBlend: https://www.youtube.com/watch?v=xuPd0ZZa164
+ProjectCleanMachine: https://www.youtube.com/watch?v=nq2b6GT18tU
+ProjectHiFi: https://www.youtube.com/watch?v=iM8ejIpaqF8
+ProjectInMotion: https://www.youtube.com/watch?v=bT6ezwb0o6k
+ProjectTurntable: https://www.youtube.com/watch?v=gfct0aH2COw
+ProjectScenic: https://www.youtube.com/watch?v=UpL0Itg6tfg
+ProjectRemixALot: https://www.youtube.com/watch?v=UGgdC3RvyMQ
+ProjectSuperSonic: https://www.youtube.com/watch?v=RddSWodgX5w
+Kaiber Superstudio: https://finance.yahoo.com/news/kaiber-launches-superstudio-creative-ai-153000463.html
+KREA AI Partnerships: https://twitter.com/krea_ai/status/1846855436458512685
+Suno Scenes: https://twitter.com/suno_ai_/status/1846574384963633345
+HeyGen Avatars: https://help.heygen.com/en/articles/9182113-interactive-avatar-101-your-ultimate-guide
+Meta CoTracker3: https://www.threads.net/@aiatmeta/post/DBMRS6mvTee
+Blumhouse AI Films: https://www.hollywoodreporter.com/movies/movie-news/blumhouse-meta-ai-video-generator-short-films-1236033830/
+Nvidia AI Model: https://twitter.com/itsPaulAi/status/1846565333240607148
+Mistral Edge Models: https://techcrunch.com/2024/10/16/mistral-releases-new-ai-models-optimized-for-edge-devices/
+ChatGPT Windows App: https://twitter.com/OpenAI/status/1846957067204166113
+Perplexity Knowledge Search: https://www.perplexity.ai/hub/blog/introducing-internal-knowledge-search-and-spaces
+NotebookLM Update: https://blog.google/technology/ai/notebooklm-update-october-2024/
+Dropbox Dash: https://dash.dropbox.com/meet-dash-for-business
+Amazon Ads AI: https://www.aboutamazon.com/news/innovation-at-amazon/amazon-ads-generative-ai-video-generator-advertisers
+Apple iPad Mini: https://www.apple.com/newsroom/2024/10/apple-introduces-powerful-new-ipad-mini-built-for-apple-intelligence/
+Emteq Emotion Glasses: https://www.techtimes.com/articles/307870/20241015/emteq-labs-unveils-emotion-tracking-smart-glasses-that-peer-inside-your-mind.htm
+FTC Cancellation Rule: https://twitter.com/unusual_whales/status/1846554380319015242
+
+Let’s work together!
+- For brand & sponsorship inquiries: https://tally.so/r/nrBVlp
+- For other business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:18 SpaceX Chop-Sticks
+2:19 Adobe Firefly Video
+5:27 Adobe Photoshop AI Upgrades
+6:42 Adobe Lightroom AI Upgrades
+7:17 ChatGPT Essential Resources
+8:59 Adobe Project Perfect Blend
+10:28 Adobe Project Clean Machine
+10:47 Adobe Project HiFi
+11:21 Adobe Project Scenic
+12:27 Adobe Project RemixALot
+13:55 Adobe Project SuperSonic
+15:54 Adobe Project Turntable
+17:34 Kaiber Superstudio
+20:45 Krea Gets All The Video Tools
+21:43 Suno Scenes
+23:06 HeyGen Interactive Avatars
+25:08 Meta CoTracker3
+25:59 Meta & Blumhouse
+26:30 Nvidia Nemotron 70b
+27:18 Mistral Ministral Models
+27:50 ChatGPT Windows App
+28:19 Perplexity Spaces
+29:28 NotebookLM Updates
+30:47 Dropbox Dash
+31:10 Amazon AI Ads
+31:45 Apple's New iPad
+32:14 Emotion Tracking Glasses
+33:15 Click-To-Cancel Rule
+34:52 Find Cool AI Tools
+
+Transcript:
+
+[00:00:00] this has actually been a pretty crazy
+[00:00:01] week so let's go ahead and just break it
+[00:00:02] [Music]
+[00:00:05] down starting with literally one of the
+[00:00:07] coolest things I have ever seen in my
+[00:00:10] entire life now I know this is probably
+[00:00:12] not the first time you've seen this but
+[00:00:14] I honestly can't get enough of it so
+[00:00:16] we're going to watch it again right now
+[00:00:18] but this is the moment that SpaceX
+[00:00:21] managed to catch their rocket booster
+[00:00:24] out of midair with what they call their
+[00:00:26] Little Chopsticks so this is just so
+[00:00:28] insane to me
+[00:00:32] you can see how fast this vehicle is
+[00:00:34] moving on the left
+[00:00:39] hand Landing burn
+[00:00:43] ignited we're now down to three Raptor
+[00:00:46] engines we can see those Chopsticks now
+[00:00:49] in here
+[00:01:02] booster bur
+[00:01:04] shut Milla has
+[00:01:08] [Applause]
+[00:01:12] boost this is absolutely insane on the
+[00:01:17] first ever attempt we have successfully
+[00:01:19] caught the super heavy booster back at
+[00:01:23] the laun
+[00:01:24] tower what an incredible View
+[00:01:30] are you kidding
+[00:01:33] me now you probably can't tell on camera
+[00:01:35] but I literally just got goosebumps
+[00:01:37] watching that again and it's probably
+[00:01:39] like the 10th time I've seen it no I
+[00:01:41] know that has nothing to do with AI I
+[00:01:44] just think it is so cool it's like so
+[00:01:46] impressive what humans can accomplish
+[00:01:49] when they all come together and put
+[00:01:51] their brains together to engineer these
+[00:01:54] types of things it's just it's
+[00:01:55] mind-blowing to me but let's go ahead
+[00:01:57] and move on to the actual AI stuff this
+[00:01:59] week was Adobe max out in Miami this is
+[00:02:02] an annual event that adobe puts on where
+[00:02:04] they show off all of the cool things
+[00:02:07] that they're about to release right now
+[00:02:08] and then they also do this thing called
+[00:02:10] Adobe sneaks where they give you a sneak
+[00:02:12] peek of some of the really cool stuff
+[00:02:14] that they're working on and well
+[00:02:16] surprise surprise it was like all AI
+[00:02:18] this year now the thing that most people
+[00:02:20] seem to be talking about from this event
+[00:02:22] was the Adobe Firefly generative video
+[00:02:26] we've had generative images for a long
+[00:02:27] time but now Adobe Firefly is going to
+[00:02:30] allow you to generate videos you can see
+[00:02:32] they type a text prompt here they click
+[00:02:34] generate and you actually get pretty
+[00:02:37] decent looking videos I mean they're
+[00:02:39] probably cherry-picked if they're
+[00:02:40] showing them at Adobe Max you know it's
+[00:02:43] going to be the best of the best that
+[00:02:45] they're going to show off but I mean
+[00:02:46] they look pretty good and one thing
+[00:02:49] about this new Adobe Firefly video model
+[00:02:52] is that they claim that this is like the
+[00:02:54] only ethical AI video model we can see
+[00:02:57] here it says Adobe trained its Firefly
+[00:02:59] generative AI models on licensed content
+[00:03:01] such as Adobe stock and public domain
+[00:03:03] content and it was developed in
+[00:03:04] accordance with the company's AI ethics
+[00:03:06] principles of accountability
+[00:03:08] responsibility and transparency now
+[00:03:10] basically they're saying that it wasn't
+[00:03:12] trained on other people's videos and
+[00:03:14] images to create this it was trained on
+[00:03:16] Adobe stock in public domain but Adobe
+[00:03:19] stock actually kind of includes some AI
+[00:03:22] generated images because I know for a
+[00:03:25] long time Adobe stock was allowing
+[00:03:27] people to upload images that they
+[00:03:28] generated with mid or stable diffusion
+[00:03:30] or these various AI platforms so
+[00:03:33] although they had the license to use
+[00:03:35] those images they were still images
+[00:03:38] generated with tools that used I guess
+[00:03:40] the less ethical ways of generating
+[00:03:43] images so it's all very confusing and
+[00:03:45] complicated but nonetheless they claim
+[00:03:47] that this is trained on all footage that
+[00:03:50] they had the rights to use so that
+[00:03:52] nobody could come back and say hey my
+[00:03:54] videos were in your training set now
+[00:03:56] they showed off the Adobe Firefly video
+[00:03:58] but we don't actually have access to
+[00:04:00] that mode where we can just type a
+[00:04:02] prompt and get a video out but they did
+[00:04:04] give access inside of Adobe Premiere to
+[00:04:07] what they called generative extend which
+[00:04:09] we can see here in this demo where you
+[00:04:11] can see they've got some footage down
+[00:04:13] here but there's a little bit of a gap
+[00:04:15] there's like a 2cond gap here that they
+[00:04:17] need to close that Gap and they don't
+[00:04:19] have video to close that Gap so they can
+[00:04:21] now use AI to actually stretch and
+[00:04:25] extend that footage and you can see it
+[00:04:27] now generates AI footage AG to just
+[00:04:30] extend the existing video clip which
+[00:04:32] anybody who does video editing knows how
+[00:04:34] handy that's going to be now it does
+[00:04:36] sound like they are starting to roll out
+[00:04:38] beta access to this Adobe Firefly video
+[00:04:41] model but it is a weight list you can
+[00:04:43] actually join the weit list over at this
+[00:04:45] long URL here but I'll make sure it's
+[00:04:47] linked up in the description so you can
+[00:04:49] easily join the weit list if you want to
+[00:04:51] use this new generative video model and
+[00:04:54] here's a few more examples of it a
+[00:04:56] papier-mâché panda an astronaut
+[00:04:59] unplugged something here we got a little
+[00:05:01] butterfly it looks like it can generate
+[00:05:03] text within the video so that's pretty
+[00:05:05] cool and all sorts of cool examples of
+[00:05:08] what it's capable of if this had come
+[00:05:10] out like a year ago everybody would be
+[00:05:12] blown away by it but now that we've seen
+[00:05:14] Sora and we've seen Runway and we've
+[00:05:17] seen Luma dream machine and we've seen
+[00:05:19] cling and we've seen all of these other
+[00:05:22] AI video tools it feels like it's kind
+[00:05:25] of on par with the rest of them Adobe
+[00:05:27] Photoshop got an AI upgrade as well we
+[00:05:30] can see in their little demo video here
+[00:05:32] there's a find distractions button it
+[00:05:33] finds wires and cables and people he
+[00:05:36] clicks the wires and cables button the
+[00:05:38] wires get removed he clicks the people
+[00:05:39] button the people disappear now it's
+[00:05:41] just the dude sitting on a wall and of
+[00:05:43] course generative fill that got some
+[00:05:46] upgrades as well they're basically
+[00:05:48] running the latest image model called
+[00:05:50] Firefly image 3 we can see here here's
+[00:05:53] the new Innovations in Photoshop we've
+[00:05:55] got the distraction removal tool there's
+[00:05:57] a new generative workspace and now
+[00:06:00] generally available we've got generative
+[00:06:01] fill generative expand generate similar
+[00:06:04] and generate background which are all
+[00:06:06] powered by that new Adobe Firefly 3
+[00:06:08] Model here's a look at that generative
+[00:06:10] workspace here they type in a prompt 3D
+[00:06:12] prodium arches product photography
+[00:06:14] minimal BL blue green yellow it
+[00:06:16] generates a bunch of Podium images uh
+[00:06:19] that they can choose between and then
+[00:06:21] they are able to bring their product in
+[00:06:23] and display it all these features are
+[00:06:25] available inside of the Adobe beta
+[00:06:28] versions of the app so if you're
+[00:06:29] Creative Cloud Member log into your
+[00:06:31] Creative Cloud app go to apps click on
+[00:06:34] beta and make sure you're downloading
+[00:06:35] the beta version of Photoshop or the
+[00:06:38] beta version of Premiere Pro the non-
+[00:06:40] beta versions won't have them available
+[00:06:42] yet they also rolled out some AI
+[00:06:44] features inside of Adobe Lightroom
+[00:06:47] things like quick actions that use AI to
+[00:06:50] automatically touch up the sky touch up
+[00:06:52] the skin make the colors pop things like
+[00:06:55] that the generative remove feature is
+[00:06:57] also available now inside of ad be
+[00:06:59] Lightroom so you don't have to go into
+[00:07:01] the full Photoshop in order to remove
+[00:07:04] things from your photos and those are
+[00:07:05] really the main AI updates that are
+[00:07:07] available right now but I did mention
+[00:07:10] they gave a whole bunch of sneak peeks
+[00:07:11] of some of the things they were working
+[00:07:13] on and that's where the truly
+[00:07:15] mind-blowing stuff came out of adobe max
+[00:07:18] if you're somebody that uses AI at work
+[00:07:19] or you're thinking about using AI at
+[00:07:21] work you need to check out hubspot's
+[00:07:23] completely free bundle five essential
+[00:07:25] resources for using chat GPT at work and
+[00:07:28] honestly if you haven't embraced AI yet
+[00:07:30] just remember what Nvidia CEO Jensen
+[00:07:33] hang said AI will be the most
+[00:07:35] transformative technology of the 21st
+[00:07:37] century it will affect every industry
+[00:07:39] and aspect of our lives so if you're not
+[00:07:42] using AI to speed up and improve the
+[00:07:44] quality of your work well your
+[00:07:46] competitors probably are so the link to
+[00:07:47] this totally free resource is down in
+[00:07:49] the description below and trust me this
+[00:07:52] is something you're going to want to
+[00:07:53] look through it includes interesting
+[00:07:55] flowcharts on what you should or
+[00:07:56] shouldn't use chat GPT for there's also
+[00:07:58] a really cool template that you can use
+[00:08:00] with chat GPT to make sure that any of
+[00:08:03] the content it creates for you follows
+[00:08:05] your Brand's voice you've also got an AI
+[00:08:08] generated content refinement checklist
+[00:08:10] to double check the ai's work and ensure
+[00:08:12] that you're putting something out into
+[00:08:14] the world that you really want to be
+[00:08:15] putting out there there's also a
+[00:08:17] four-page checklist that you can easily
+[00:08:18] follow all about adopting AI in the
+[00:08:21] workplace and a super comprehensive PDF
+[00:08:23] guide on how to supercharge your day
+[00:08:25] with chat GPT and here's something
+[00:08:27] really cool if you scroll all the way
+[00:08:29] down to the bottom of this document they
+[00:08:31] have 100 ways to try chat GPT today and
+[00:08:35] it's got some really cool prompts to
+[00:08:37] test out things like providing
+[00:08:39] recommendations for improving customer
+[00:08:40] service and support providing
+[00:08:42] recommendations for improving SEO
+[00:08:44] helping with email management in
+[00:08:45] organization and so much more again it
+[00:08:48] is really comprehensive and really
+[00:08:50] helpful once again the link to this
+[00:08:52] completely free resource from HubSpot is
+[00:08:54] in the description below and thank you
+[00:08:56] so much to HubSpot for sponsoring this
+[00:08:58] video one of my favorite demos was from
+[00:09:00] this project Perfect Blend here where it
+[00:09:02] shows a table with you know a Christmas
+[00:09:05] background here and the girl here who
+[00:09:07] was demonstrating this she pulled in an
+[00:09:09] image of her boyfriend sitting at a
+[00:09:12] table removed the background and then
+[00:09:14] placed him like he was sitting at this
+[00:09:16] table and if we look down at the very
+[00:09:18] bottom of the video here there's this
+[00:09:20] harmonize button and when she clicks the
+[00:09:22] harmonize button you can see that it
+[00:09:24] actually relights the image so it looks
+[00:09:26] like he's actually in that position and
+[00:09:28] it even cast a new shadow on the table
+[00:09:31] here to make it look like he's really
+[00:09:33] there she then pulled in an image of
+[00:09:35] herself sitting at a table and
+[00:09:37] completely different lighting removed
+[00:09:39] the background on it and then clicked
+[00:09:41] the harmonize button and once again it
+[00:09:43] relit the whole thing so it all looks
+[00:09:46] like it's got the same lighting it added
+[00:09:48] shadows and it just made it look more
+[00:09:50] real they weren't done they wanted to
+[00:09:52] put a cat on the table so they pulled it
+[00:09:54] an image of a cat removed the background
+[00:09:56] on the cat clicked the harmonize button
+[00:09:58] and made it look like like the cat was
+[00:10:00] sitting at the table and then she showed
+[00:10:01] off that you can like change the
+[00:10:03] background on the image and it will
+[00:10:05] relight the whole thing based on what's
+[00:10:07] going on in the background so notice how
+[00:10:08] it's like an orange glow coming through
+[00:10:10] the trees and it casted orange glow on
+[00:10:12] everybody in the image night time with
+[00:10:14] fireworks and you can see like the sort
+[00:10:15] of blue glow on his face and this sort
+[00:10:17] of orange glow on her face coming from
+[00:10:19] the various fireworks and no matter what
+[00:10:21] they changed the background to it made
+[00:10:23] it all harmonize and looked like it was
+[00:10:26] all one cohesive image they also showed
+[00:10:28] off this project clean machine where
+[00:10:30] they took this star Lapse video but it
+[00:10:33] had all these like flashes in the video
+[00:10:35] like here's the original video you can
+[00:10:37] see the sort of flashes that keep
+[00:10:38] popping up on the camera well he uses
+[00:10:40] his Project Clean Machine and it figures
+[00:10:43] out how to remove all of those flashes
+[00:10:45] and give them a really clean star lapse
+[00:10:47] they showed off this project Hi-Fi where
+[00:10:49] they gave a image of a room generated a
+[00:10:52] bright pink empty living room etc etc
+[00:10:55] this to me looks very similar to what
+[00:10:57] you can do with something like Nvidia
+[00:10:58] canvas they drew a little plant image it
+[00:11:01] generated this plant image they you know
+[00:11:03] gave us some more detail here and then
+[00:11:05] they were able to pull their plant image
+[00:11:06] into the original image that they built
+[00:11:09] they drew this little couch image it
+[00:11:11] created this version of the couch and of
+[00:11:13] course they're able to pull that couch
+[00:11:15] into the image pretty cool stuff we've
+[00:11:17] seen stuff like this before but it'll be
+[00:11:19] cool to be able to do this kind of thing
+[00:11:20] directly inside of Photoshop they showed
+[00:11:22] off this project Scenic where they enter
+[00:11:24] a prompt up here in the top right a cozy
+[00:11:27] campsite they click generate and it
+[00:11:29] generates this like campsite with 3D
+[00:11:31] objects in it and you notice each one is
+[00:11:34] like a movable scalable object just like
+[00:11:37] you would be able to interact with it in
+[00:11:39] blender once they have the composition
+[00:11:40] dialed in the way they like it they can
+[00:11:42] click this generate button down here and
+[00:11:45] it generates a more realistic image but
+[00:11:47] it follows the composition that they
+[00:11:49] created using those 3D objects here's
+[00:11:52] another example where it sort of like
+[00:11:53] zoomed out more and they added a whole
+[00:11:55] bunch of trees and more tents around
+[00:11:57] this campsite and the cool thing is this
+[00:11:59] being a 3D space they can point the
+[00:12:02] camera however they want so they can
+[00:12:03] have like a top down view of this
+[00:12:04] campsite or this sort of low angle view
+[00:12:07] of the campsite and then they can scale
+[00:12:09] the things from this angle however they
+[00:12:11] want and they get a much more realistic
+[00:12:13] image from that exact angle that they
+[00:12:15] set up so it's this really cool project
+[00:12:17] where it creates this 3D environment you
+[00:12:19] can add whatever elements you want to
+[00:12:21] the 3D environment scale up scale down
+[00:12:23] and then point the camera however you
+[00:12:25] want and then convert that to like a
+[00:12:27] realistic image they showed off this
+[00:12:28] project remix a lot which looks like
+[00:12:31] it's designed for Adobe Illustrator
+[00:12:33] where you can sort of mock up what you
+[00:12:35] want like a flyer to look like and then
+[00:12:37] it will generate that flyer in a similar
+[00:12:40] look to what you were going for here's
+[00:12:42] another flyer that they generated and
+[00:12:44] this seems like it'll be really handy
+[00:12:46] really cool this is where the sort of
+[00:12:47] remixing comes in is that they can
+[00:12:49] resize it to any size that you want and
+[00:12:52] you can see it will generate that same
+[00:12:55] image just in the new size you can see
+[00:12:57] it sort of reformatted everything
+[00:12:59] without it looking distorted and funky
+[00:13:01] she even showed a demo where she made
+[00:13:03] this giant sort of like leaderboard
+[00:13:05] style banner and it rearranged the text
+[00:13:07] so it is in a more vertical format and
+[00:13:09] it did all of that with the sort of
+[00:13:11] behind the-scenes AI so you just create
+[00:13:13] the one flyer that you want and then
+[00:13:14] let's say you need a whole bunch of
+[00:13:15] banners for Google ads or whatever you
+[00:13:17] just tell it the dimensions you want and
+[00:13:19] it will regenerate a similar Banner for
+[00:13:22] every Dimension that you want it also
+[00:13:24] has this feature where it can match a
+[00:13:26] style so they generated this little
+[00:13:27] flyer here for a a circus and then they
+[00:13:30] gave it this example to basically say
+[00:13:33] match the style of my banner with that
+[00:13:35] banner and you can see it regenerated
+[00:13:38] their circus Banner with all the same
+[00:13:40] exact text and details just in the same
+[00:13:43] style of this other image that they
+[00:13:45] uploaded people who do a lot of banner
+[00:13:46] advertising or do a lot on social media
+[00:13:48] where they need different sizes of their
+[00:13:50] memes or whatever they're making for
+[00:13:52] various social media platforms are going
+[00:13:53] to love that feature but now we're
+[00:13:55] getting into the coolest things that I
+[00:13:57] saw at Adobe Max and there was two that
+[00:13:59] really really stood out for me the first
+[00:14:01] one being this project supersonic here
+[00:14:04] and this one is very audio based so let
+[00:14:07] me just play the demo for you here in
+[00:14:09] this first example they give a video of
+[00:14:12] a forest along with the prompt up here
+[00:14:14] Forest Ambience and this is what it
+[00:14:21] generated so by giving it that one text
+[00:14:23] prompt it was able to match up the audio
+[00:14:26] with the video footage now of course I
+[00:14:28] want to add a sound for the spaceship
+[00:14:31] but I'm kind of out of ideas but no
+[00:14:33] worries because project supersonic is
+[00:14:35] also an inspiration machine I can hit
+[00:14:38] subject selection and when I click on
+[00:14:40] the spaceship it's going to write a
+[00:14:43] prompt for me there we go check it out
+[00:14:45] we get a spaceship taking off from a
+[00:14:48] forest Planet sounds good to me let's
+[00:14:51] give it a go I'm going to hit generate
+[00:14:53] and let's see what we get
+[00:14:57] [Applause]
+[00:14:59] [Music]
+[00:15:01] I just thought that was really cool
+[00:15:02] because you notice how as it lifts it
+[00:15:04] really sinks up to the sound it's like
+[00:15:07] as like as the spaceship goes up it like
+[00:15:09] knows that it makes that sound of taking
+[00:15:12] off it I don't know that to me was just
+[00:15:13] really really cool but they actually had
+[00:15:15] another demo here where he used his own
+[00:15:18] voice to sort of control what was going
+[00:15:20] to happen with the audio so check this
+[00:15:27] out we got the grows down now let's see
+[00:15:30] what we get back I'm going to type in
+[00:15:32] Monster growl and I'm going to hit
+[00:15:35] generate and it's going to be using the
+[00:15:38] precise timing Dynamics and energy of my
+[00:15:43] voice to drive the
+[00:15:46] generation
+[00:15:52] who so that was really cool and then the
+[00:15:54] final thing and this to me was the most
+[00:15:57] mind-blowing because I can see it being
+[00:15:59] being used to like sort of easily do
+[00:16:01] more like animations and stuff and so I
+[00:16:03] can see using it some my own like fun
+[00:16:05] video workflows in the future but this
+[00:16:07] one's called project turntable the
+[00:16:09] warrior should be looking at the dragon
+[00:16:11] right so I have to turn the warrior
+[00:16:13] around to face the dragon but you see
+[00:16:15] it's a 2d Vector shape and I cannot just
+[00:16:17] turn it around now normally I have to
+[00:16:19] redraw the entire shape which is going
+[00:16:21] to take a lot of time but here let me
+[00:16:23] show you our new tool I just need to
+[00:16:25] select the shape and click this gen
+[00:16:27] Wheels button and then I can just rotate
+[00:16:30] the shape by simply dragging the slider
+[00:16:33] that is so crazy look at
+[00:16:37] that it figured out like every angle of
+[00:16:40] that character and now he can set that
+[00:16:42] character up however he wants I can just
+[00:16:45] turn the dragon around like this and
+[00:16:47] then of course he goes and does it with
+[00:16:48] the dragon as well to show off that it
+[00:16:51] can do it with any of the images that to
+[00:16:53] me was probably the most mind-blowing
+[00:16:55] the coolest thing that I saw out of
+[00:16:57] adobe Max was this project turn table
+[00:16:59] again Adobe Max uh sneaks is all sneak
+[00:17:02] peeks of stuff they've been working on
+[00:17:04] so this isn't actually stuff that's
+[00:17:06] currently available these are sort of
+[00:17:08] like their experimental projects that
+[00:17:11] they're doing that will be available
+[00:17:13] eventually but they don't really have
+[00:17:15] much of a timeline on yet but this is
+[00:17:16] one that man that was so cool but those
+[00:17:19] were really the main things I wanted to
+[00:17:20] show off from Adobe Max there was a lot
+[00:17:22] more that wasn't related to AI you know
+[00:17:24] a lot of other quality of life features
+[00:17:26] that they added to illustrator and to
+[00:17:28] their very Suites of tools but I wanted
+[00:17:30] to show you the stuff that really
+[00:17:31] impressed me and specifically the AI
+[00:17:33] related stuff so since we're on this
+[00:17:35] vein of sort of creativity and art right
+[00:17:38] now let's talk about kyber cuz kyber
+[00:17:40] just launched what they call Super
+[00:17:41] Studio the new kyber super studio now
+[00:17:44] adds the ability to use Luma Labs dream
+[00:17:46] machine directly inside of it black
+[00:17:47] Force Labs flux and kyber's own image
+[00:17:50] and video models that they already had
+[00:17:52] available it's also got this canvas
+[00:17:54] interface in it that allows you to sort
+[00:17:55] of connect the dots and have this like
+[00:17:58] visual work flow so I actually happened
+[00:18:00] to have a kyber account so we can take a
+[00:18:01] look and we can see we've got this like
+[00:18:03] canvas that I can move around and zoom
+[00:18:06] way in on and zoom out on and I just
+[00:18:08] realized as I hover over these videos it
+[00:18:10] automatically plays any of these videos
+[00:18:12] that I hover over now it kind of looks
+[00:18:15] like they're trying to model what you
+[00:18:16] get out of something like comfy UI but a
+[00:18:18] little bit less complex we can see up
+[00:18:21] here it looks like we can upload our own
+[00:18:23] images pick a aesthetic here and then it
+[00:18:25] will output a handful of variations in
+[00:18:28] this image creation flow here and then
+[00:18:30] down in this video creation flow which
+[00:18:32] is using lum's dream machine it looks
+[00:18:35] like you could give a text prompt of a
+[00:18:37] subject you can give the video details
+[00:18:39] like the aspect ratio you can give it a
+[00:18:40] starting key frame you can even give it
+[00:18:42] an ending key frame and watch as it
+[00:18:45] animates between those two key frames it
+[00:18:48] looks like it's pretty much taking what
+[00:18:49] you can do with flux what you can do
+[00:18:51] with Luma dream machine and what you've
+[00:18:53] already been able to do with kyber and
+[00:18:55] sort of mashing them all together into
+[00:18:57] this like no code based connecting
+[00:19:01] workflow system and then as you build it
+[00:19:03] it's on this like Infinite Canvas where
+[00:19:05] you could keep on adding more to it and
+[00:19:08] build out a sort of board of creative
+[00:19:11] ideas if I click on this plus button up
+[00:19:13] at the top we have all sorts of options
+[00:19:15] like Luma video flux image image Lab
+[00:19:17] video Lab video restyle image upscale
+[00:19:20] profile picture restyle and Logo restyle
+[00:19:23] and if I click on any one of these it
+[00:19:25] brings that little node in and I can
+[00:19:27] update the detail details here so in my
+[00:19:29] image lab I can give it a prompt or a
+[00:19:32] image let's give it the prompt of wolf
+[00:19:33] howling at the moon press this little
+[00:19:35] smiley face button here and we can see
+[00:19:38] it starts on a generation here and we
+[00:19:40] got an image of a wolf howling at a moon
+[00:19:42] that I can zoom in on in my Infinite
+[00:19:44] Canvas here I come up to this plus
+[00:19:46] button again and do Luma video I can
+[00:19:48] give it the subject a wolf howling at
+[00:19:50] the moon it would be cool if I was able
+[00:19:52] to just take this wolf howling at the
+[00:19:53] moon pull it in here as my starting key
+[00:19:55] frame and oh it did I can and now if I
+[00:19:59] click generate it should generate based
+[00:20:00] on this image that I just pulled in here
+[00:20:02] as my starting key frame and roughly a
+[00:20:05] minute later I've got a video of a wolf
+[00:20:09] um
+[00:20:11] well yeah we all know how AI video is
+[00:20:14] right now sometimes it takes a few
+[00:20:16] rerolls I really like this sort of
+[00:20:18] canvas style where you can just sort of
+[00:20:19] keep on adding stuff to the same window
+[00:20:22] and get more creative and you know drag
+[00:20:24] what you've created into other little
+[00:20:26] modules here something that I need to
+[00:20:28] play around with more this was actually
+[00:20:31] my first time testing this on this video
+[00:20:33] but so far seems pretty cool not nearly
+[00:20:36] as complicated as what something like
+[00:20:38] comfy UI is and I have a feeling this
+[00:20:40] like node based system where you connect
+[00:20:42] the dots is going to get fleshed out a
+[00:20:44] little bit more over time the tool Crea
+[00:20:46] AI just integrated pretty much all of
+[00:20:48] the video models that are available into
+[00:20:51] one platform so if you have a kaya
+[00:20:53] account you can now create videos with
+[00:20:55] Minimax Luma Labs Runway P labs and
+[00:20:58] cling which I think pretty much covers
+[00:21:01] all the main players in the AI video
+[00:21:04] generation space so if I go over here to
+[00:21:06] ca. a go into video click generate
+[00:21:09] videos I could generate a video by
+[00:21:11] typing a prompt a wolf howling at the
+[00:21:13] moon and then down in the bottom left
+[00:21:15] you can see a little popup menu with
+[00:21:17] options for Luma Runway cling huo AI
+[00:21:21] which is also Minimax and then paika it
+[00:21:24] also looks like it gives you estimated
+[00:21:26] times for how long it'll take to
+[00:21:27] generate Luma 1 minute runways 1 minute
+[00:21:30] cing is about 10 minutes huo AI is about
+[00:21:32] 10 minutes Pika is 5 minutes pretty cool
+[00:21:35] upgrade so now if you want to play
+[00:21:37] around with these AI video models you
+[00:21:39] can play around with all of the
+[00:21:41] available models in one single place if
+[00:21:43] you're a fan of generating music sunno
+[00:21:46] just rolled out a new feature with video
+[00:21:48] and image prompting says here whether
+[00:21:50] it's a stunning landscape a funny meme a
+[00:21:52] candid selfie or a quick video of your
+[00:21:54] daily Adventure sunos scenes helps you
+[00:21:56] create unique songs from your favorite
+[00:21:57] photos and all from your phone now it
+[00:22:00] looks like it's only available on the
+[00:22:01] mobile app which I do happen to have
+[00:22:03] here so we can go ahead and take a peek
+[00:22:05] I'll go ahead and click the create
+[00:22:06] button let's just go ahead and take a
+[00:22:07] picture of what I'm seeing right now and
+[00:22:09] see what it generates from that it does
+[00:22:11] say Pro tip adding some context makes
+[00:22:13] your song even more personal but I kind
+[00:22:15] of don't want to do that I want it to
+[00:22:17] read the image I feel like if I give it
+[00:22:18] more context then it's just me giving it
+[00:22:21] like a text input for a song so I want
+[00:22:23] to just do it I know I can give it a
+[00:22:25] style like Punk or hip-hop or whatever I
+[00:22:28] just want to see what it does if I just
+[00:22:29] give it an image here's what we
+[00:22:31] [Music]
+[00:22:38] got o
+[00:22:41] [Music]
+[00:22:42] back Tech
+[00:22:47] play we can see the lyrics it generated
+[00:22:49] here camera and screen in a dance
+[00:22:52] recursive trance oceans backdrop Tech
+[00:22:54] play and tricks that was all the lyrics
+[00:22:57] it generated based on what it saw but
+[00:22:58] there's a painting in the background
+[00:23:00] with the ocean and there is Tech and a
+[00:23:01] camera on a screen so I mean it figured
+[00:23:04] out what's in the picture and made music
+[00:23:06] around it pen also rolled out a new
+[00:23:07] feature called interactive Avatar they
+[00:23:10] claim this will allow you to attend
+[00:23:11] thousands of meetings and classes and
+[00:23:14] things like that at the same time
+[00:23:16] because you can create an avatar of
+[00:23:18] yourself and then allow that Avatar to
+[00:23:21] go on like Zoom meetings for you so you
+[00:23:24] like train it with all of this
+[00:23:25] information about how you would respond
+[00:23:27] to things you train it on your face your
+[00:23:29] voice all of that stuff and supposedly
+[00:23:32] it could get on to meetings and then
+[00:23:35] actually interact in those meetings and
+[00:23:37] it would know how you think and how you
+[00:23:39] talk and how you'd probably respond
+[00:23:41] based on all the additional context and
+[00:23:42] data that you give it I haven't played
+[00:23:44] with this yet one of my good buddies
+[00:23:46] Brad castano actually did he actually
+[00:23:48] jumped on a zoom meeting with one of
+[00:23:50] these avatars and this was his
+[00:23:51] experience okay so as you're a business
+[00:23:55] consultant right what what's your
+[00:23:56] experience in business Consulting I'm
+[00:23:58] here here as your supportive AI business
+[00:23:59] coach my focus is on helping you analyze
+[00:24:02] challenges develop strategies and take
+[00:24:04] actionable steps to reach your goals so
+[00:24:06] let's tackle those lead generation
+[00:24:08] strategies together what's your target
+[00:24:10] audience Executives at large businesses
+[00:24:12] got it targeting Executives at large
+[00:24:14] businesses is a smart approach have you
+[00:24:16] considered networking events or LinkedIn
+[00:24:18] Outreach to connect with them let's
+[00:24:19] brainstorm some course I have but right
+[00:24:22] now what I'm doing is I'm trying to
+[00:24:23] interrupt you and uh see how well you
+[00:24:26] react let me ask this what do you think
+[00:24:28] is the single best way to Target
+[00:24:30] Executives for lead generation not using
+[00:24:33] LinkedIn no problem I appreciate the
+[00:24:34] test aside from LinkedIn hosting
+[00:24:36] webinars or Workshops can be a fantastic
+[00:24:38] way to attract Executives it positions
+[00:24:40] you as an expert and creates engagement
+[00:24:42] what do you think you're pretty good now
+[00:24:44] this is something I'll have to play
+[00:24:45] around with a little bit more and put it
+[00:24:46] through its motions when I tried to use
+[00:24:48] it earlier today myself their servers
+[00:24:50] were overloaded and it kept on saying
+[00:24:52] there was too many sessions going on so
+[00:24:54] I wasn't actually able to get in and use
+[00:24:55] it but I do plan to experiment with this
+[00:24:57] and probably make a video about my
+[00:24:59] findings on this one all right let's get
+[00:25:00] into rapid fire mode I'm going to show
+[00:25:02] off a whole bunch of other news items in
+[00:25:04] the AI world that I found interesting
+[00:25:06] this week and uh let's go ahead and
+[00:25:07] start with Meta Meta just released their
+[00:25:10] new AI research for COD tracker 3 which
+[00:25:13] you can see is a model that makes it a
+[00:25:16] lot easier to track individual elements
+[00:25:19] within a single video this will come in
+[00:25:21] handy for a lot of video editing so when
+[00:25:23] you need to track something and have
+[00:25:24] like something pinned to whatever you're
+[00:25:26] tracking they're just getting better and
+[00:25:27] better at being able able to track
+[00:25:29] what's going on in 3D space on those
+[00:25:31] videos they do have a hugging face demo
+[00:25:34] where you could go and try it yourself
+[00:25:36] if I pull in this video of this dude
+[00:25:37] jumping off a hill paragliding it allows
+[00:25:39] me to add points all over him so I can
+[00:25:41] go ahead and put like a point on his
+[00:25:43] head a point on his little backpack here
+[00:25:46] let's put one on his hand one on each
+[00:25:48] foot maybe put one over here on this
+[00:25:50] side and then click track you can see it
+[00:25:52] makes this video where the points try to
+[00:25:54] follow that exact same position in 3D
+[00:25:57] space from where I put those dots since
+[00:25:59] we're talking about meta I figured I'd
+[00:26:01] mention this bloomhouse tests AI with
+[00:26:03] meta partnership on short films last
+[00:26:05] week I talked about meta movie gen well
+[00:26:08] this company bloomhouse is using meta
+[00:26:10] movie genen with filmmakers like Casey
+[00:26:13] Affleck Anish gigantti and the Spurlock
+[00:26:16] sisters now there's not a ton of details
+[00:26:17] here I'm not totally sure when we're
+[00:26:19] going to get to see these films but it
+[00:26:21] is encouraging to see that more and more
+[00:26:23] people in Hollywood are embracing the AI
+[00:26:25] technology instead of trying to fight
+[00:26:27] against it Sue these companies into
+[00:26:29] Oblivion Nvidia quietly released a new
+[00:26:32] open- source model this week called
+[00:26:34] llama 3.1 neotron 70b instruct and this
+[00:26:39] new model actually managed to outperform
+[00:26:41] gp4 Turbo Claude 3.5 Sonet GPT 40 pretty
+[00:26:46] much all of the biggest models out there
+[00:26:48] other than the newest 01 models in these
+[00:26:51] benchmarks and I say they quietly rolled
+[00:26:54] out because they didn't put out any news
+[00:26:55] articles about it they didn't make any
+[00:26:57] videos about it I don't even know if
+[00:26:59] Nvidia tweeted about it it's crazy to me
+[00:27:01] that these open-source models are pretty
+[00:27:03] much catching up with the
+[00:27:05] state-of-the-art models that exist right
+[00:27:07] now the only currently better model on
+[00:27:09] the market is 01 and that's a closed
+[00:27:11] Source model this is actually still
+[00:27:13] beating out a lot of other Clos Source
+[00:27:15] models so that's pretty impressive and
+[00:27:17] since we're talking about large language
+[00:27:19] model mistol also released some new
+[00:27:21] models this week that are optimized for
+[00:27:23] laptops and phones they're called mini
+[00:27:25] stroll 3B and mini stroll 8 B with
+[00:27:28] context Windows of 128,000 tokens
+[00:27:31] meaning they can ingest roughly a
+[00:27:33] 50-page book and because these are
+[00:27:35] smaller models theoretically they are
+[00:27:38] going to be able to run inference
+[00:27:40] directly on device so we won't need to
+[00:27:42] send data to the cloud for it to process
+[00:27:45] and give us a response ideally you'll be
+[00:27:47] able to do it directly on your mobile
+[00:27:49] phone or laptop open AI has had a chat
+[00:27:51] GPT desktop app for a while but it's
+[00:27:53] only been available if you're on a Mac
+[00:27:56] well this week they rolled out their
+[00:27:58] desktop app for Windows so if you go to
+[00:28:00] open.com chg pt/ download you can see
+[00:28:04] they now have the option to test an
+[00:28:06] early version of the Windows app click
+[00:28:08] on that and you can download it and we
+[00:28:11] now have our familiar chat GPT interface
+[00:28:14] just now in a separate desktop app
+[00:28:17] instead of inside of the browser
+[00:28:19] perplexity got a pretty cool update this
+[00:28:21] week as well with internal knowledge
+[00:28:24] search and spaces so let's check this
+[00:28:26] out if we go over to perplexity I here
+[00:28:28] there's a new link over on the left side
+[00:28:30] bar called spaces and if we create a
+[00:28:32] space we can give it a title let's just
+[00:28:35] call this one test space pick the model
+[00:28:37] we want to use I still like to use clae
+[00:28:39] 3.5 Sonet and we can give it custom
+[00:28:41] instructions just like we can cloud and
+[00:28:44] chat GPT now let's just go ahead and
+[00:28:46] click continue jump into our test space
+[00:28:48] and we have the option to add files here
+[00:28:51] this works just like perplexity normally
+[00:28:53] works but we can also add additional
+[00:28:55] context through PDFs and text files and
+[00:28:59] things like that so now it's combining
+[00:29:01] the power that we get with like claw
+[00:29:03] projects or custom gpts but using
+[00:29:07] perplexity with the ability to search
+[00:29:09] the web and the sort of multi-search
+[00:29:11] agentic features that perplexity has so
+[00:29:14] this is going to be pretty cool I
+[00:29:16] haven't played around with this one a
+[00:29:17] whole lot yet because it rolled out the
+[00:29:20] day that I'm recording this video but
+[00:29:22] I'm really really excited to Deep dive
+[00:29:24] add some additional files and some
+[00:29:25] context to my searches and see what
+[00:29:27] comes out of it notebook LM also got an
+[00:29:29] update if you've been watching my
+[00:29:31] channel for the last several weeks
+[00:29:32] you'll know that I've become a pretty
+[00:29:33] big fan of notebook LM it's this tool
+[00:29:36] that allows you to upload documents or
+[00:29:38] pull in YouTube videos or pull in
+[00:29:40] articles and then you can chat with
+[00:29:42] those articles you can create FAQs
+[00:29:45] create briefing docs and even create a
+[00:29:47] little audio podcast around the
+[00:29:50] information that you pulled in well they
+[00:29:52] just rolled out this new feature where
+[00:29:54] if we go and create a new notebook and
+[00:29:56] let's go ahead and just pull in a PDF
+[00:29:58] here click on my notebook guide here now
+[00:30:00] if I wanted to generate a podcast I have
+[00:30:02] my button to generate the podcast but I
+[00:30:05] also now have a customize button this is
+[00:30:07] brand new if I click on customize I can
+[00:30:09] actually give some additional
+[00:30:11] information to the podcast hosts I can
+[00:30:13] upload a long book and say hey just talk
+[00:30:16] about what's going on in chapter two of
+[00:30:18] this book or I can say make this podcast
+[00:30:21] funny and make a lot of jokes about this
+[00:30:24] information or when you give me back the
+[00:30:27] podcast explain everything like I'm a
+[00:30:29] 5-year-old really really dumb it down
+[00:30:31] for me you can give it additional
+[00:30:32] instructions and custom information so
+[00:30:35] it's got the PDF documents and whatever
+[00:30:37] information you give it over on that
+[00:30:39] side but also it now knows how to sort
+[00:30:41] of handle that information and how to
+[00:30:43] discuss it on the podcast that's a
+[00:30:45] pretty cool new feature as well Dropbox
+[00:30:47] rolled out a new AI feature this week
+[00:30:49] called Dash which is an AI powered
+[00:30:52] Universal search for your teams you can
+[00:30:54] see here they can type quarterly
+[00:30:56] Business review and it searches all of
+[00:30:58] the documents within a Dropbox that are
+[00:31:00] related to quarterly business
+[00:31:03] information it's basically just a much
+[00:31:05] more improved search feature on your
+[00:31:07] Dropbox that is now leveraging ai Amazon
+[00:31:10] ads launched a new AI tool for
+[00:31:12] advertisers this is kind of the same
+[00:31:14] thing we've been seeing from like every
+[00:31:16] e-commerce platform where you could give
+[00:31:19] it some images of the product you're
+[00:31:20] trying to sell and it will then create
+[00:31:23] you know other images of that product in
+[00:31:25] different environments they even showed
+[00:31:27] off that you can create create like a
+[00:31:28] little video of your image so if we look
+[00:31:31] at this version here we see this the mug
+[00:31:33] and it turns it into a live image where
+[00:31:36] the steam is coming off the mug and you
+[00:31:38] can see the waves in the background just
+[00:31:40] some ways to take your initial product
+[00:31:42] and make them look a little bit prettier
+[00:31:44] on your Amazon listing Apple this week
+[00:31:46] introduced a new iPad Mini which was
+[00:31:49] designed to use apple intelligence from
+[00:31:52] all of the reviews and everything I've
+[00:31:53] seen so far it's pretty much the same
+[00:31:56] iPad Mini that we've had before for just
+[00:31:58] with a new chip in it which is more
+[00:32:00] designed to use these new Apple
+[00:32:02] intelligence features which haven't
+[00:32:04] really rolled out yet so it's an iPad
+[00:32:06] Mini designed to use apple intelligence
+[00:32:09] but Apple intelligence isn't really
+[00:32:11] quite ready yet but when it is this iPad
+[00:32:13] will be ready for it this company mtech
+[00:32:16] Labs unveiled emotion tracking smart
+[00:32:18] glasses these glasses are embedded with
+[00:32:20] mini sensors that capture real-time
+[00:32:22] facial expressions they include
+[00:32:24] movements around the eyes eyebrows
+[00:32:25] cheeks and jawline and it's able to
+[00:32:27] measure these subtle facial cues of
+[00:32:29] smiling or chewing food and they really
+[00:32:32] see two major applications for this
+[00:32:34] mental health and diet tracking so it
+[00:32:36] can sort of sense when you're happy sad
+[00:32:38] frustrated mad things like that and sort
+[00:32:41] of track for mental health purposes also
+[00:32:43] because it's going to have front-facing
+[00:32:45] cameras and the sensors that can tell
+[00:32:47] when you're chewing it can help prevent
+[00:32:50] overeating and tell you to slow down on
+[00:32:52] eating and things like that the glasses
+[00:32:53] aren't available yet but they do plan to
+[00:32:55] release a development kit by December
+[00:32:57] December which typically when they say
+[00:32:59] they're going to release a development
+[00:33:00] kit it means that they're going to
+[00:33:01] release a version that's really really
+[00:33:03] expensive just for developers to sort of
+[00:33:04] play with so it's probably still a ways
+[00:33:07] away before consumers actually get their
+[00:33:10] hands on a product like this and finally
+[00:33:12] this has nothing to do with AI I just
+[00:33:14] thought it was cool and wanted to share
+[00:33:15] it the FDC has announced a click to
+[00:33:17] cancel rule that will require companies
+[00:33:19] to let you cancel any products as easily
+[00:33:21] as you registered which is amazing news
+[00:33:24] because I absolutely can't stand it when
+[00:33:26] you sign up for a subscription online
+[00:33:28] and then they make you like fax them
+[00:33:29] something or you know send something by
+[00:33:32] Raven to get it cancelled now that kind
+[00:33:34] of practice is going to be a legal it
+[00:33:36] needs to be just as easy to cancel as it
+[00:33:38] was to subscribe including things like
+[00:33:40] gym memberships that's going to be
+[00:33:42] amazing it is sort of related to AI
+[00:33:43] because there's so many products that
+[00:33:45] offer monthly subscriptions in the AI
+[00:33:47] world and as these tools sort of
+[00:33:49] consolidate into single products owned
+[00:33:52] by the big incumbents that all have the
+[00:33:54] features under it you know the Google
+[00:33:55] the microsofts companies like that
+[00:33:57] they're probably all going to offer a
+[00:33:58] lot of these AI features and we're going
+[00:34:01] to be wanting to cancel a lot of these
+[00:34:02] products that we're sort of one time
+[00:34:04] using and subscribing with membership
+[00:34:06] fees so exciting that that is happening
+[00:34:08] I'm a big fan of this decision it seems
+[00:34:11] like this should have happened a long
+[00:34:13] time ago honestly and that's what I got
+[00:34:15] for you this week A lot happened most of
+[00:34:17] it from Adobe a really cool rocket
+[00:34:19] launch it's been an exciting week stuff
+[00:34:21] is starting to ramp up and feel really
+[00:34:23] exciting and fun again I'm done with
+[00:34:25] traveling for the year but I have been
+[00:34:26] sick the last couple weeks so my videos
+[00:34:28] haven't been as consistent as I want to
+[00:34:31] other than these Friday news videos but
+[00:34:33] I do have a lot of fun videos in the
+[00:34:35] works planned out to come out for this
+[00:34:36] channel so if you like stuff like this
+[00:34:39] you like staying in the loop with all
+[00:34:40] the latest AI news you like AI tutorials
+[00:34:42] and how to use these various tools you
+[00:34:44] want to keep your finger on the pulse of
+[00:34:46] the latest research make sure you like
+[00:34:48] this video And subscribe to this channel
+[00:34:50] I'll make sure you stay looped in and if
+[00:34:52] you haven't already make sure you check
+[00:34:54] out futur tools. where I curate all of
+[00:34:57] the latest and coolest AI tools keep the
+[00:35:00] AI news page up to date so if you want
+[00:35:03] to know all the most interesting AI news
+[00:35:05] on a daily basis you can check that out
+[00:35:07] here and I have a free email newsletter
+[00:35:10] you sign up I'll send you my free AI
+[00:35:12] income database which is a whole bunch
+[00:35:14] of cool ways to use AI tools to make
+[00:35:16] money online you can find it all over at
+[00:35:18] futur tools. it's 100% free so give that
+[00:35:22] a look and that's all I got thank you so
+[00:35:24] much for tuning in thanks to HubSpot for
+[00:35:26] sponsoring this one as well really
+[00:35:27] appreciate you guys thanks for nerding
+[00:35:29] out see you in the next one bye-bye

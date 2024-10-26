@@ -1,20 +1,30 @@
-from rest_framework import status, permissions
+from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.decorators import api_view
 from django.contrib.auth import authenticate
-from django.shortcuts import render
 from .serializers import UserSerializer
 from . import podcast_utils
-from django.http import HttpResponse
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_pinecone import PineconeVectorStore
-from django.views.generic import TemplateView
 import logging
 import traceback
+from django.conf import settings
 import re
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework.decorators import api_view
+from .models import ChatSession  # Import the ChatSession model
+from .serializers import UserSerializer, ChatSessionSerializer  # Ensure you have a serializer for ChatSession
+from django.contrib.auth.models import User
+# ... (other imports)
+
 
 logger = logging.getLogger(__name__)
+
+@api_view(['GET'])
+def api_root(request):
+    return Response({"message": "Welcome to YT Transcript Analyzer API"})
 
 class RegisterView(APIView):
     def post(self, request):
@@ -41,19 +51,6 @@ class LoginView(APIView):
             })
         return Response({'error': 'Invalid Credentials'}, status=status.HTTP_401_UNAUTHORIZED)
 
-class HomeView(TemplateView):
-    template_name = 'app/home.html'
-
-def home(request):
-    return render(request, 'app/home.html')
-
-def login_view(request):
-    return render(request, 'app/login.html')
-
-def register_view(request):
-    return render(request, 'app/register.html')
-
-# analyze-transcript API
 class TranscriptAnalysisView(APIView):
     def post(self, request):
         video_url = request.data.get('video_url')
@@ -61,7 +58,6 @@ class TranscriptAnalysisView(APIView):
             return Response({'error': 'Video URL is required'}, status=status.HTTP_400_BAD_REQUEST)
         
         try:
-            # Regular expression to match the video ID from different YouTube URL formats
             pattern = r'(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/|.+\?v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})'
             match = re.search(pattern, video_url)
 
@@ -70,32 +66,26 @@ class TranscriptAnalysisView(APIView):
             else:
                 return Response({'error': 'Invalid YouTube URL'}, status=status.HTTP_400_BAD_REQUEST)
 
-        except Exception as e:
-            return Response({'error': 'Something went wrong: ' + str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
-        try:
-            vector_store, chain, video_info, summary, keywords = podcast_utils.process_video(video_id)
+            vector_store, retrieval_chain, video_info, content_map, summary_and_tags, chat_history = podcast_utils.process_video(video_id)
+            
+            # Retrieve the full transcript
+            transcript = podcast_utils.get_transcript(video_id)
+            formatted_transcript = podcast_utils.format_original_transcript(transcript, video_info, video_id) if transcript and video_info else "Transcript not available."
             
             response_data = {
                 'message': 'Video processed',
                 'video_id': video_id,
+                'content_map': content_map or "Content map not available",
+                'video_info': video_info or {'title': 'Unknown', 'channel': 'Unknown', 'published_at': 'Unknown', 'duration': 'Unknown', 'captions_type': 'Unknown'},
+                'summary_and_tags': summary_and_tags or "Summary and tags not available",
+                'transcript': formatted_transcript
             }
             
-            if summary:
-                response_data['summary'] = summary
-            if keywords:
-                response_data['keywords'] = keywords
-            if video_info:
-                response_data['video_info'] = {
-                    'title': video_info.get('title', 'Unknown'),
-                    'channel': video_info.get('channel', 'Unknown'),
-                    'published_at': video_info.get('published_at', 'Unknown'),
-                    'duration': video_info.get('duration', 'Unknown'),
-                    'captions_type': 'Full transcript analysis'
-                }
+            if not vector_store or not retrieval_chain:
+                response_data['warning'] = 'Vector store or retrieval chain creation failed. Some features may be unavailable.'
             
-            if not vector_store or not chain:
-                response_data['warning'] = 'Vector store or chain creation failed. Some features may be unavailable.'
+            # Store the chat_history in the session
+            request.session[f'chat_history_{video_id}'] = chat_history
             
             return Response(response_data, status=status.HTTP_200_OK)
             
@@ -104,38 +94,76 @@ class TranscriptAnalysisView(APIView):
             logger.error(traceback.format_exc())
             return Response({'error': 'Failed to process video', 'details': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+from .podcast_utils import load_vector_store, setup_llm_chain, process_query, get_video_info
+
+from .podcast_utils import load_vector_store, get_video_info, process_query, setup_llm_chain
+from .podcast_utils import load_vector_store, get_video_info, process_query, setup_llm_chain, get_summary
+
+
 class QueryView(APIView):
     def post(self, request):
         video_id = request.data.get('video_id')
         query = request.data.get('query')
+        session_identifier = request.data.get('session_identifier')
         
-        if not video_id or not query:
-            return Response({'error': 'Video ID and query are required'}, status=status.HTTP_400_BAD_REQUEST)
+        if not all([video_id, query, session_identifier]):
+            return Response({
+                'error': 'Video ID, query, and session identifier are required'
+            }, status=status.HTTP_400_BAD_REQUEST)
         
         try:
-            # Fetch video info to get the title
-            video_info = podcast_utils.get_video_info(video_id)
-            if not video_info:
-                return Response({'error': 'Failed to fetch video info'}, status=status.HTTP_400_BAD_REQUEST)
+            vector_store = load_vector_store(video_id)
+            if vector_store is None:
+                return Response({'error': 'Failed to load vector store for this video'}, 
+                              status=status.HTTP_404_NOT_FOUND)
             
-            video_title = video_info['title']
+            video_info = get_video_info(video_id)
+            if video_info is None:
+                return Response({'error': 'Failed to get video info'}, 
+                              status=status.HTTP_404_NOT_FOUND)
+
+            retriever = vector_store.as_retriever()
+            retrieval_chain = setup_llm_chain(retriever)
+            content_map = get_summary(video_id)
+
+            # Process query with session-specific chat history
+            result, _ = process_query(
+                retrieval_chain, 
+                query, 
+                video_id, 
+                video_info['title'], 
+                content_map,
+                session_identifier
+            )
             
-            # Initialize necessary components
-            embeddings = podcast_utils.create_embeddings()
-            index = podcast_utils.initialize_pinecone()
-            docsearch = podcast_utils.PineconeVectorStore(index=index, embedding=embeddings, text_key="text")
-            chain = podcast_utils.setup_llm_chain()
-            
-            # Process the query
-            result = podcast_utils.process_query(docsearch, chain, query, video_id, video_title)
-            
-            return Response({'result': result}, status=status.HTTP_200_OK)
+            return Response({
+                'result': result
+            }, status=status.HTTP_200_OK)
         
         except Exception as e:
-            logger.error(f"Error processing query for video_id {video_id}: {str(e)}")
-            logger.error(traceback.format_exc())
-            return Response({
-                'error': 'Failed to process query',
-                'details': str(e),
-                'trace': traceback.format_exc()
-            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            logger.error(f"Error processing query: {str(e)}")
+            return Response({'error': 'Failed to process query', 'details': str(e)}, 
+                          status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+class ChatSessionView(APIView):
+    def post(self, request):
+        logger.info(f"Received chat session request data: {request.data}")
+        
+        serializer = ChatSessionSerializer(data=request.data)
+        if serializer.is_valid():
+            try:
+                chat_session = serializer.save()
+                return Response({
+                    'message': 'Chat session created successfully!',
+                    'id': chat_session.id
+                }, status=status.HTTP_201_CREATED)
+            except Exception as e:
+                logger.error(f"Error creating chat session: {str(e)}")
+                return Response({
+                    'error': 'Failed to create chat session',
+                    'detail': str(e)
+                }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+        logger.error(f"Serializer errors: {serializer.errors}")
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

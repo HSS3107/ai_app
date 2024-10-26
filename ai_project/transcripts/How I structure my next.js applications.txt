@@ -1,0 +1,651 @@
+Title: How I structure my next.js applications
+Channel: Web Dev Cody
+Published: 2024-06-18T13:00:35Z
+Duration: PT23M19S
+Description: My Products
+🏗️ WDC StarterKit: https://wdcstarterkit.com
+📖 ProjectPlannerAI: https://projectplannerai.com
+🤖 IconGeneratorAI: https://icongeneratorai.com
+
+Useful Links
+💬 Discord: https://discord.gg/4kGbBaa
+🔔 Newsletter: https://newsletter.webdevcody.com/
+📁 GitHub: https://github.com/webdevcody
+📺 Twitch: https://www.twitch.tv/webdevcody
+🤖 Website: https://webdevcody.com
+🐦 Twitter: https://twitter.com/webdevcody
+
+Transcript:
+
+[00:00:00] so I think it's been like a week since
+[00:00:01] I've published a video on my channel and
+[00:00:02] I figured I should probably get
+[00:00:03] something published out there before the
+[00:00:05] YouTube algorithm thinks I'm no longer
+[00:00:07] relevant so I want to talk about the
+[00:00:09] structure of my code and how I kind of
+[00:00:11] architect the code for my nextjs starter
+[00:00:13] kit um you can kind of take what you
+[00:00:15] want from this you can in the comments
+[00:00:17] you can say that this is dumb you can
+[00:00:19] say hey I agree with what you're doing
+[00:00:21] maybe we can have a discussion about it
+[00:00:22] and just learn from it a lot of the
+[00:00:24] stuff I'm going to be showing in this
+[00:00:25] video do come from an idea called clean
+[00:00:28] architecture there's a book called clean
+[00:00:29] AR chitecture written by Uncle Bob we
+[00:00:32] apply this or we try to apply this as
+[00:00:34] best as possible at work so we have
+[00:00:36] something called like controllers use
+[00:00:37] cases entities and you kind of structure
+[00:00:40] your code in different layers and
+[00:00:42] there's certain rules that you follow so
+[00:00:44] that you don't have dependencies that
+[00:00:46] cause your project to be a little bit
+[00:00:48] more unmaintainable there's also like a
+[00:00:50] layered architecture approach where you
+[00:00:52] basically have like a presentation layer
+[00:00:54] a business layer a persistence layer and
+[00:00:55] a database layer this is also kind of
+[00:00:58] what I'm doing on my starter kit which
+[00:01:00] I'll kind of walk you through the
+[00:01:02] different layers that I have applied I
+[00:01:04] highly recommend that you do something
+[00:01:06] like this on your projects like I've
+[00:01:07] seen a lot of videos and tutorials where
+[00:01:09] people are just like doing uh Prisma
+[00:01:11] calls or drizzle calls or SQL calls
+[00:01:13] calls directly in their react server
+[00:01:15] components when the page loads and
+[00:01:17] although that works I just don't think
+[00:01:19] it's a very long-term maintainable
+[00:01:21] solution uh what you want to do is just
+[00:01:24] apply some type of layered architecture
+[00:01:26] so that you have more control over like
+[00:01:29] who can read the data who can manipulate
+[00:01:31] the data and you can kind of test your
+[00:01:33] business logic separately from all the
+[00:01:36] nextjs code okay so let's just draw a
+[00:01:38] little bit so in my project I'm trying
+[00:01:40] to do a layered architecture type of
+[00:01:42] thing right so we have nextjs and to
+[00:01:44] help kind of exemplify what we're doing
+[00:01:46] um we are going to follow a use case
+[00:01:49] where I'm an admin or an owner of this
+[00:01:51] group and I want an admin or owner to be
+[00:01:54] able to modify the text on the info page
+[00:01:58] like over here if I say hello world
+[00:02:00] I save this I want other users who are
+[00:02:03] not admins or uh owners to be able to
+[00:02:06] see this text when they go and view this
+[00:02:08] group directly so in terms of that use
+[00:02:11] case what we just did in xjs is what you
+[00:02:14] probably know is I'm using server action
+[00:02:16] so let's just go ahead and say we have a
+[00:02:18] server action I'll make a little box
+[00:02:20] here I'll say server action and this is
+[00:02:24] one of the layers I'll call this a
+[00:02:25] presentational layer you may also call
+[00:02:27] this a controller uh it does doesn't
+[00:02:30] really matter the point is you want to
+[00:02:32] keep all your nextjs specific code to
+[00:02:35] the left of this line right you don't
+[00:02:37] want react cach methods or unstable cach
+[00:02:41] methods bleeding over onto the right
+[00:02:43] side of the line you don't want
+[00:02:44] revalidate path or revalidate tag
+[00:02:47] bleeding over cuz now at this point you
+[00:02:50] don't have nice clean uh separations
+[00:02:53] between like what's in charge of the
+[00:02:54] presenting and the controlling of your
+[00:02:57] your code and what's in charge of the
+[00:02:59] actual business logic so that leads me
+[00:03:00] to my next point is if I consider a
+[00:03:03] server action kind of like a controller
+[00:03:06] if you were to look at this layer
+[00:03:08] architecture the presentational layer
+[00:03:10] would probably be like react or your
+[00:03:11] react server components that render out
+[00:03:13] the page when you invoke an action again
+[00:03:17] that's kind of calling a presentational
+[00:03:18] layer uh controller again if you were to
+[00:03:21] look at the clean architecture Circle
+[00:03:23] your controllers in your presenters are
+[00:03:24] all in this interface adapters right so
+[00:03:27] the user needs to do something they are
+[00:03:28] going to invoke some type of controller
+[00:03:31] invoke some type of adapter and in our
+[00:03:33] case I'm basically going to say that a
+[00:03:36] server action is a form of a controller
+[00:03:39] again feel free to call me out in the
+[00:03:40] comments if anything I'm explaining
+[00:03:42] doesn't seem right but this is just how
+[00:03:44] I kind of think about it so when a user
+[00:03:46] clicks on the save changes that invokes
+[00:03:50] a server action which again is still in
+[00:03:52] this nextjs layer over here so let's
+[00:03:54] kind of look at the code I have a page
+[00:03:57] and I click on a button and it calls an
+[00:04:00] action let's try to figure out where
+[00:04:01] that's happening I have an action here
+[00:04:03] called update group info action now
+[00:04:06] something that I'm doing in my codebase
+[00:04:08] is I want to make sure that everything
+[00:04:09] that goes in and out of this action is
+[00:04:13] parsed right I want to make sure that
+[00:04:15] the stuff that's sent in it matches a
+[00:04:17] certain type of structure I want to make
+[00:04:19] sure the group ID sent in is a number
+[00:04:21] there is an info that's sent in that is
+[00:04:23] defined and once I get that information
+[00:04:26] I can kind of trust it and start running
+[00:04:29] some controller type of code and again
+[00:04:32] notice that my actions this is where I
+[00:04:34] keep revalidate path or revalidate tag
+[00:04:36] or redirect all of the nextjs SL uh
+[00:04:41] react specific code I would probably
+[00:04:43] keep it inside of This Server action now
+[00:04:46] if you're curious how I'm using an
+[00:04:48] authenticated action I'm using a library
+[00:04:50] called Zsa which allows you to basically
+[00:04:53] create middlewares where for example I
+[00:04:56] have this authenticated action I create
+[00:04:58] a procedure and anytime I want to create
+[00:05:01] a action that requires authentication
+[00:05:04] all I do is I just run some code make
+[00:05:07] sure that the you know the cookie set
+[00:05:08] the session is set I also do some rate
+[00:05:11] limiting just so that all my
+[00:05:13] authenticated endpoints are just rate
+[00:05:15] limited by that user ID I don't want
+[00:05:16] people trying to maliciously abuse my
+[00:05:19] systems and then I return the user right
+[00:05:22] so again this is still all in the the
+[00:05:24] controller presentational layer if we
+[00:05:27] were to go back to this diagram now at
+[00:05:29] some point you'll see that after I've
+[00:05:31] done the parsing of the input which
+[00:05:33] comes from a form or whatever I'm
+[00:05:35] calling something called a use case this
+[00:05:37] is just my nomac claure of like how I
+[00:05:39] like to denote this stuff and this comes
+[00:05:41] heavily from the clean architecture book
+[00:05:44] so all of my actions invoke use cases
+[00:05:46] and these use cases leads us to the next
+[00:05:49] point I want to make out and that is the
+[00:05:52] business uh business layer a business
+[00:05:56] layer and then inside of this business
+[00:05:57] layer Theory clean architecture believe
+[00:06:00] that he calls them use cases or slash
+[00:06:02] interactors okay let's just look at this
+[00:06:04] little diagram real quick and you'll see
+[00:06:07] he calls the little orange red circle
+[00:06:09] use cases and then that points to
+[00:06:12] application business rules okay so from
+[00:06:15] my perspective what is a business rule
+[00:06:17] what are concerns of the business logic
+[00:06:20] well the action all it's in charge of is
+[00:06:24] basically taking in figuring out what
+[00:06:26] the authentication methods are maybe
+[00:06:28] you're using JWT Maybe using session
+[00:06:30] storage doesn't matter the business
+[00:06:32] layer does not care about that all it
+[00:06:34] cares about is that you're passing in
+[00:06:35] the correct data um that it would expect
+[00:06:38] so in our case this update group info
+[00:06:40] use case this needs a group ID and an
+[00:06:44] info and it also takes in an
+[00:06:46] authenticated user again this thing
+[00:06:49] doesn't
+[00:06:50] know if we're using jts or sessions it's
+[00:06:53] just give me a user object and I'm going
+[00:06:56] to use that user information to figure
+[00:06:57] out if a user should have access to
+[00:07:00] update the group info so what this does
+[00:07:03] is basically we're going to pass over
+[00:07:04] some user information the group ID
+[00:07:07] whatever and we're going to invoke a use
+[00:07:10] case again that I called um update group
+[00:07:13] info use case I might as well go back to
+[00:07:15] this one and change this one to have a
+[00:07:19] name just call it uh this action here so
+[00:07:22] this action is going to invoke this
+[00:07:24] business layer use case interactor and
+[00:07:27] this is where you want to run some type
+[00:07:28] of authorization check so in my group
+[00:07:30] finder application I have a lot of role
+[00:07:32] base authorization checks in place you
+[00:07:34] can be an owner or an admin of a group
+[00:07:37] or you can just be a member of a group
+[00:07:39] and if you're an owner or an admin an
+[00:07:42] owner can actually go and delete the
+[00:07:43] entire group an admin just has the
+[00:07:45] ability to modify you know some info
+[00:07:48] they have the ability to come in here
+[00:07:50] and maybe promote other users to an
+[00:07:52] admin or demote users Etc but the owner
+[00:07:55] has you know very special privileges
+[00:07:57] that you have to encode this in business
+[00:07:59] logic somewhere and so how this works is
+[00:08:02] basically this use case is where you're
+[00:08:05] going to run your you know authorization
+[00:08:08] checks is this user an
+[00:08:11] owner or an
+[00:08:13] admin and then if they are you want to
+[00:08:16] be able to allow them to update this
+[00:08:18] information so let's look at the code
+[00:08:19] because it's actually super super simple
+[00:08:21] so basically we first we fetch the group
+[00:08:23] by group ID if there is no group I throw
+[00:08:25] an error and again you should not be
+[00:08:27] throwing any type of nextjs specific
+[00:08:29] erors here you should not be calling
+[00:08:30] redirects or anything keep it simple
+[00:08:33] throw errors or return some type of like
+[00:08:35] error objects if you need to and then
+[00:08:38] finally I do another check that says if
+[00:08:40] I'm not the group
+[00:08:41] owner go ahead and throw an error that
+[00:08:44] has unauthorized and then finally if
+[00:08:46] everything passes we just go ahead and
+[00:08:48] update that group info using that info
+[00:08:51] that was passed in now
+[00:08:52] technically there is more to clean
+[00:08:54] architecture if you look at this uh
+[00:08:56] diagram there's something called
+[00:08:57] entities and I'm a voiding entities just
+[00:09:00] to keep it simple for my you know oneman
+[00:09:02] Team starter kit project but at some
+[00:09:04] point you may want to encode business
+[00:09:06] rules to say info can only be 1,000
+[00:09:11] characters right that is business rules
+[00:09:14] that the business people can Define and
+[00:09:16] I know when I say business like I'm just
+[00:09:17] talking about myself because this is
+[00:09:18] like a oneman project but when you work
+[00:09:20] on a bigger team like there's people who
+[00:09:22] are going to Define how large how much
+[00:09:25] data some of the stuff can be what is
+[00:09:27] the shape of this data is it a first
+[00:09:30] name does it need to be all capitalized
+[00:09:31] does it need to be proper case stuff
+[00:09:33] like that and so sometimes what you want
+[00:09:35] to do is you want to
+[00:09:36] encode this information in something
+[00:09:39] called business entities and those
+[00:09:40] entities can have validation rules
+[00:09:42] themselves okay now I'm not going to
+[00:09:44] dive into that because again I'm not
+[00:09:45] doing that so basically I just call a
+[00:09:47] method called update group and this is
+[00:09:50] something called a persistence method so
+[00:09:52] this is going to lead us to the next
+[00:09:55] section of our
+[00:09:57] code which is the
+[00:10:00] persistence layer okay let's look at the
+[00:10:03] layered architecture we are over here we
+[00:10:04] just talked about the business layer a
+[00:10:06] little bit now we're at the persistence
+[00:10:08] layer and the persistence layer's goal
+[00:10:11] is to basically give you methods that
+[00:10:13] you can invoke for storing and quering
+[00:10:16] data from your data store whether that
+[00:10:19] be in postgress whatever so we
+[00:10:22] have a method over here called update
+[00:10:24] group so I'll just go ahead and make a
+[00:10:27] little box here that's going to call
+[00:10:29] update group going to pass in some
+[00:10:32] information such as a group ID some info
+[00:10:34] and there's different ways you can do
+[00:10:36] this a lot of people use something
+[00:10:36] called like a repository pattern where
+[00:10:39] they'll have like an object called I
+[00:10:41] don't know groups and they'll say update
+[00:10:44] and they'll pass it whatever information
+[00:10:46] something like this I think is just not
+[00:10:47] as friendly to read versus something
+[00:10:49] update group that's just a personal
+[00:10:50] preference it doesn't really matter but
+[00:10:52] the point is is that this layer is
+[00:10:54] responsible for knowing how to write to
+[00:10:57] your database which in case I'm using
+[00:10:59] drizzle but something I want to point
+[00:11:01] out is that you don't even know I'm
+[00:11:03] using drizzle right the business layer
+[00:11:05] has no concept of what omm you're using
+[00:11:08] what libraries you're using to actually
+[00:11:10] persist the data all it knows is that I
+[00:11:12] need to call some method to save this
+[00:11:16] group information okay that's been
+[00:11:18] abstracted away about how that actually
+[00:11:20] happen so let's dive into this code real
+[00:11:22] quick and you'll see over here I have a
+[00:11:23] data access folder with like all of my
+[00:11:25] tables I basically have like a one to
+[00:11:27] one mapping of a file maps to a table in
+[00:11:29] my SQL database you can structure this
+[00:11:31] however you want but the way I typically
+[00:11:34] do this is I have a groups file and this
+[00:11:37] has an update group function which
+[00:11:39] allows you to basically take any group
+[00:11:41] ID and just update any parts of it right
+[00:11:44] and so now you start seeing some code
+[00:11:45] that might look familiar to you which is
+[00:11:47] drizzle orm so if you go up to the top
+[00:11:49] here you'll see that I am just defining
+[00:11:51] like a drizzle orm connection and in
+[00:11:54] fact let me uh how do I go to the
+[00:11:56] definition here I think just scroll up
+[00:11:58] you'll see I'm import reporting this
+[00:11:59] from DB which is bringing us some
+[00:12:02] drizzle orm stuff okay so this
+[00:12:04] persistence method this persistence
+[00:12:06] layer knows about how to write and
+[00:12:09] persist the data which if you look at a
+[00:12:11] layered architecture now we're hitting
+[00:12:13] the database layer something that we're
+[00:12:15] using a library we're using knows how to
+[00:12:16] write data let's just go ahead and put
+[00:12:19] another line here and this is going to
+[00:12:22] write directly to a database just draw a
+[00:12:25] database symbol here here we go I'll
+[00:12:28] just say post CR cuz that's what I'm
+[00:12:30] using so if we zoom out a little bit
+[00:12:32] this is the pattern that I try to follow
+[00:12:34] in my applications this is just the way
+[00:12:36] I've been brought up when learning how
+[00:12:37] to code people smarter than me have
+[00:12:39] taught me this pattern I believe them
+[00:12:41] and I follow the pattern too not blindly
+[00:12:44] but I do try to follow it because I
+[00:12:46] personally think it is useful and some
+[00:12:48] of the reasons why I think following
+[00:12:49] either clean architecture or layered
+[00:12:51] architecture or some type of pattern is
+[00:12:53] a everyone on the team has a common
+[00:12:57] pattern they can follow if you're
+[00:12:59] working on a project by yourself I mean
+[00:13:00] you could just raw dog SQL right in your
+[00:13:03] react server components if you want to I
+[00:13:05] probably would not recommend that
+[00:13:07] because if your project actually takes
+[00:13:08] off and grows you're going to want to
+[00:13:10] bring in other engineers and you want a
+[00:13:11] Common Language such as an architecture
+[00:13:14] that you can all discuss things about
+[00:13:17] now some teams and projects like to make
+[00:13:19] this even more complex which I'm on the
+[00:13:22] fence of a lot of teams will in between
+[00:13:23] these two layers they'll do something
+[00:13:25] called data transfer objects DT's to
+[00:13:28] make sure that that certain things Never
+[00:13:30] Bleed over so what I mean by bleeding
+[00:13:32] over so for example in the business
+[00:13:33] layer let's say you're fetching
+[00:13:35] something from a persistence layer an
+[00:13:37] update group happens to update the group
+[00:13:38] but then return the whole group object
+[00:13:40] back you could potentially have a bunch
+[00:13:43] of extra fields on this database that
+[00:13:45] you haven't actually like cleaned up you
+[00:13:47] could have like a group name a group
+[00:13:50] display name all this other stuff and
+[00:13:52] you may not want that to ever bleed over
+[00:13:55] into your business layer right so
+[00:13:56] sometimes what you do is you'll create a
+[00:13:58] data transfer object so that all the
+[00:14:00] data is basically sent through a mapper
+[00:14:03] to make sure that you only return the
+[00:14:05] things that are necessary from your
+[00:14:06] persistence layer back to your business
+[00:14:08] layer and again you want to make sure
+[00:14:11] that you only return certain things from
+[00:14:12] your business layer back to your
+[00:14:14] controller or back into your react
+[00:14:16] server component so that you don't leak
+[00:14:19] sensitive information or information
+[00:14:20] that's not a concern of any of these
+[00:14:23] layers one good example I've seen is a
+[00:14:26] lot of people who use
+[00:14:27] mongodb a lot of the times the unique
+[00:14:30] identifier for your IDs is underscore ID
+[00:14:34] and they'll start bleeding that over
+[00:14:35] into every single layer and you can
+[00:14:37] actually look at the network request and
+[00:14:39] see oh all the entities have an
+[00:14:41] underscore ID on them I'm going to
+[00:14:42] assume you guys are using mongodb right
+[00:14:45] because that wasn't really abstracted
+[00:14:47] way too well and using something like a
+[00:14:49] dto could potentially help prevent
+[00:14:52] leaking information about your you know
+[00:14:55] your underlying architecture of your
+[00:14:56] system maybe you don't want people to
+[00:14:58] know you're using mongus because that
+[00:14:59] opens up more security attack vectors of
+[00:15:02] how they can abuse your system stuff
+[00:15:04] like that so that's kind of how I would
+[00:15:06] recommend at least Loosely following a
+[00:15:08] project the only dto stuff I end up
+[00:15:11] doing is with these actions over here I
+[00:15:14] can actually put an output as well and I
+[00:15:17] can specify what the output needs to
+[00:15:19] look like so over here I can say well I
+[00:15:21] just want this to return uh nothing I
+[00:15:24] could say void of undefined or something
+[00:15:27] and that at least gives me a little bit
+[00:15:29] of certainty because Zod is going to
+[00:15:31] verify that whatever I'm returning here
+[00:15:34] it has to match undefined if I were to
+[00:15:36] accidentally take the group that was
+[00:15:38] being returned here and let's just say
+[00:15:40] like name is Bomb notice that I get some
+[00:15:43] typescript errors that says hey you're
+[00:15:44] returning some information where you're
+[00:15:47] not supposed to be returning that
+[00:15:48] because you specified an output of
+[00:15:50] undefined something like that can be
+[00:15:52] very useful and again this is basically
+[00:15:54] a dto it's just that we're using
+[00:15:56] libraries that just automatically do it
+[00:15:58] for us and I don't want to waste a bunch
+[00:16:00] of time writing the mapping code and
+[00:16:01] writing the you know the dto objects
+[00:16:04] with classes and stuff like that now
+[00:16:06] before I wrap up this video I do want to
+[00:16:07] kind of touch a little bit about the
+[00:16:09] directory structure of my projects I try
+[00:16:11] to collocate as much as possible so if
+[00:16:14] I'm looking at a page right here for
+[00:16:16] example I'm on my group info page
+[00:16:19] everything that's on this page should be
+[00:16:21] in the same directory as my info route I
+[00:16:24] don't like having a separate components
+[00:16:26] folder where I put all those and then I
+[00:16:27] import them I want all my components
+[00:16:30] that are related cooc in this directory
+[00:16:33] because I think it makes the project a
+[00:16:35] little easier to maintain at work we do
+[00:16:38] an approach where we have like every
+[00:16:39] folder holds different things and those
+[00:16:43] things are separated by type and you end
+[00:16:46] up having this folder that has 500
+[00:16:47] different files in them and there's like
+[00:16:50] no good way to really understand like
+[00:16:52] what is using this thing okay so if it's
+[00:16:55] not an actual res sharable reusable
+[00:16:57] thing then I would just co-locate it for
+[00:17:00] example typically server actions have
+[00:17:02] stuff like this like revalidate path
+[00:17:05] which means they are very tightly
+[00:17:06] coupled to the page or the route that
+[00:17:08] you're on so it makes sense to just put
+[00:17:10] your actions directly in this folder
+[00:17:12] also with components this is the only
+[00:17:14] place in this entire application I have
+[00:17:16] a component that looks like this so I'm
+[00:17:18] not going to go and find my components
+[00:17:20] directory and put it in there I'm going
+[00:17:21] to collocate it so that if I were to
+[00:17:23] onboard someone under this project they
+[00:17:25] can also have a common Convention of
+[00:17:27] like okay I'm looking at the info page I
+[00:17:30] have 95% certainty that every component
+[00:17:32] that's needed for this info panel is
+[00:17:35] probably going to be right in this
+[00:17:36] directory now another thing I'm still
+[00:17:38] trying to figure out how I want to
+[00:17:40] approach this is basically the react
+[00:17:42] server components when you hit a page
+[00:17:44] you typically need to load some data and
+[00:17:47] so the way I've been doing this is I'll
+[00:17:49] just call these use cases directly here
+[00:17:52] uh before I call the use case I will
+[00:17:54] basically get the current user from a
+[00:17:56] session and then I'll call the use case
+[00:17:58] and pass it the current session and then
+[00:18:01] also I'll pass it the um whatever
+[00:18:03] arguments I might need and that'll
+[00:18:04] return some data for me right and I can
+[00:18:06] kind of throw errors inside the react
+[00:18:07] server component where I could actually
+[00:18:09] have like an errors. TS file handle that
+[00:18:12] and display something else uh the kind
+[00:18:14] of exemplify what I mean so this is the
+[00:18:17] info page it takes in a group ID which
+[00:18:19] is loaded from the URL
+[00:18:21] here and I basically take that and I
+[00:18:24] call a git Group by ID use case let's
+[00:18:27] just go ahead and go through the whole
+[00:18:28] flow real quick quick so you understand
+[00:18:30] uh I call this git Group by ID use case
+[00:18:33] in our case I probably should do some
+[00:18:35] type of authorization here to make sure
+[00:18:37] that there's no like sensitive data
+[00:18:39] being leaked but um again you can kind
+[00:18:41] of search for a lot of these groups
+[00:18:43] publicly and that ends up calling a get
+[00:18:45] group by ID method which calls a drizzle
+[00:18:47] method to get the first group by an ID
+[00:18:50] okay and I don't see any issues with
+[00:18:53] doing this as long as you just you know
+[00:18:55] make sure you're passing in the user
+[00:18:56] sessions again because you're calling
+[00:18:58] the user case during your react server
+[00:19:00] component and all the business logic is
+[00:19:02] kind of encapsulated there now something
+[00:19:05] that I might at some point end up
+[00:19:07] needing is when you have a complex tree
+[00:19:11] and you have to call the same method
+[00:19:13] multiple times and your react server
+[00:19:15] components typically what you want to do
+[00:19:17] is you want to call a cache method which
+[00:19:19] is built into next I'm sorry this is
+[00:19:21] built into react actually um so you can
+[00:19:23] bring in a cache method from react and
+[00:19:26] you can wrap your functions with this
+[00:19:28] cach uh Factory function
+[00:19:31] basically so that as it's traversing
+[00:19:34] your react server components if it finds
+[00:19:36] the same method it's just going to use
+[00:19:38] the cach results for that individual
+[00:19:41] request that your user made and then on
+[00:19:43] the next request if a new user comes in
+[00:19:45] it hits the same page brand new cache
+[00:19:47] it's not going to reuse the old stuff
+[00:19:49] okay so in some cases you may want to do
+[00:19:51] that and I might actually add a new
+[00:19:54] folder here or a new file called loaders
+[00:19:57] and then I would probably just make a
+[00:19:58] new fun function here called like uh get
+[00:20:00] group by ID
+[00:20:02] loader and then you could basically um
+[00:20:05] you want to do this I could just set
+[00:20:08] this to
+[00:20:09] Cache like this and then I could just
+[00:20:12] have this taken a group
+[00:20:15] ID like so and then you know call the
+[00:20:18] use case in here goad and say return get
+[00:20:20] group by ID use case something like that
+[00:20:23] and then also in the loader you could
+[00:20:24] potentially get the user so get current
+[00:20:26] user like this
+[00:20:30] so that I can pass it in and then
+[00:20:33] obviously we want this to be an
+[00:20:34] asynchronous function so we do this if
+[00:20:37] for some reason you do end up needing to
+[00:20:38] like wrap stuff with the nextjs like try
+[00:20:41] to avoid going into your use cases your
+[00:20:43] business layer and like trying to add
+[00:20:45] cache methods here because again you're
+[00:20:47] breaking that Convention of like now
+[00:20:48] you're running a react code inside your
+[00:20:51] business
+[00:20:52] layer okay so technically if I were to
+[00:20:55] do that refactoring I could just call
+[00:20:56] that loader here and then I can get that
+[00:20:58] information information and use it so I
+[00:21:00] want to talk on one last Point as to why
+[00:21:02] I think this is more maintainable and
+[00:21:04] the reason is if you keep all your
+[00:21:07] nextjs code out of your business layer
+[00:21:11] what you can do is if down the road you
+[00:21:13] decide that you know what server actions
+[00:21:15] isn't it server actions is just not
+[00:21:18] worth doing it's causing more headache I
+[00:21:20] rather go back to use form Hooks and go
+[00:21:22] back to uh react query and just hit API
+[00:21:25] in points well the refactoring involv D
+[00:21:28] with doing that is very simple cuz now
+[00:21:31] you have this method that it doesn't
+[00:21:33] care about anything in nextjs it doesn't
+[00:21:35] care about how you're doing you know how
+[00:21:38] you're handling your your actions or
+[00:21:41] your post requests or mutations it just
+[00:21:44] needs some input and so if later on you
+[00:21:46] decide you know what I actually want to
+[00:21:49] make this an API inpoint well it's super
+[00:21:52] easy to just you know have a new API
+[00:21:55] inpoint
+[00:21:56] directory and invoke this which makes it
+[00:21:59] very convenient and a lot more
+[00:22:00] maintainable another thing that I've
+[00:22:02] seen in some projects is if you don't do
+[00:22:04] some type of approach like this you end
+[00:22:07] up taking your business layer like your
+[00:22:09] your your logic that defines like when a
+[00:22:12] user should read something and you end
+[00:22:14] up putting it everywhere like you'll
+[00:22:16] take this you know there's some certain
+[00:22:18] rules that you need to check to see if a
+[00:22:19] user has access to get a group and
+[00:22:21] you're like oh I'll put it in this react
+[00:22:22] server component and then later on
+[00:22:24] you'll decide that you need that same
+[00:22:26] logic and you'll put it in another place
+[00:22:28] maybe you also need in front of the API
+[00:22:30] but then you have all this business
+[00:22:32] logic that's kind of sprinkled out
+[00:22:33] throughout your controller and your
+[00:22:34] presentational layer which you'll start
+[00:22:37] updating in one place and you'll forget
+[00:22:38] to update it somewhere else and then
+[00:22:40] it's just a big headache because you've
+[00:22:42] basically spread out all of your really
+[00:22:44] your core logic throughout your entire
+[00:22:47] application it becomes very very hard to
+[00:22:48] maintain and understand and also to even
+[00:22:51] switch off of in the future if you
+[00:22:54] needed to for some reason um anyway I've
+[00:22:56] been rambling for a while now so I hope
+[00:22:58] you guys enjoyed watching this video
+[00:23:00] again I just wanted to get something out
+[00:23:01] there for you all and hopefully this
+[00:23:03] elevates your knowledge in coding a
+[00:23:06] little bit again leave a comment if
+[00:23:08] there's a different approach you like to
+[00:23:10] make your applications if you're using
+[00:23:12] nextjs with server actions let me know
+[00:23:14] we can have a discussion about it other
+[00:23:16] than that have a good day happy quing

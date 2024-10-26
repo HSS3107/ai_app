@@ -1,0 +1,81 @@
+Title: Still Trying to Connect Your Xbox Controller with RPCS3? NOT MAC
+Channel: Pink Tusked Mammoth
+Published: 2022-12-18T05:15:04Z
+Duration: PT2M54S
+Description: *THIS WILL NOT WORK ON MAC*
+I
+f your STILL having trouble with connecting your XBOX controller I think I might have the reason why in this video. I know this is WAY different then normal but others watching my channel will likely run into this issue themselves so I figured I'll be the guy to make ONE MORE video about this... cuz I only found like 2 and BTW heres the linkie poo for those! https://www.youtube.com/watch?v=nrmC96cNCCU and https://www.youtube.com/watch?v=nPGsvK9TTvo&t=1s. Thank you @SonarSystemsCoUk  for making those videos because it helped get me far enough to figure this out!
+
+Transcript:
+
+[00:00:00] so you went and got
+[00:00:02] rpcs3 and you downloaded it so that you
+[00:00:07] could play some games
+[00:00:09] but you can't seem to get the damn
+[00:00:12] controller to work and no matter what
+[00:00:15] you know when you watch the other videos
+[00:00:17] that told you how to do it right and
+[00:00:19] everything you clicked on this and you
+[00:00:21] set this up and it didn't work you
+[00:00:24] clicked on this
+[00:00:25] where'd it go there it is let me set
+[00:00:27] this up and for some reason it didn't
+[00:00:29] work after doing what they said and
+[00:00:31] you're still trying to figure out what's
+[00:00:33] going on right
+[00:00:35] well I'm going to try and help you
+[00:00:36] figure that out so let's go ahead get
+[00:00:40] out of that what you want to do is you
+[00:00:42] want to have the game that you're going
+[00:00:44] to like play set up and uh running and I
+[00:00:48] already have it done on our record four
+[00:00:50] you can see what I got this game or what
+[00:00:52] when I have the emulator for but uh I'm
+[00:00:55] gonna do it on for answer for you so
+[00:00:57] what you do is you go to create custom
+[00:01:00] Gamepad configuration set to X input if
+[00:01:03] you're using an Xbox controller uh this
+[00:01:06] is that's what this is for by the way
+[00:01:07] this is for the Xbox controller and that
+[00:01:10] will set all the buttons up unless you
+[00:01:12] want to change them and everything but
+[00:01:14] probably don't let me grab my controller
+[00:01:16] here there we go is it online yeah it's
+[00:01:19] on the holy okay anyhow so you did
+[00:01:24] all that stuff you you switched over
+[00:01:25] from the handlers over to X input made
+[00:01:28] sure all this stuff was going for
+[00:01:30] whatever reason you cannot seem to get
+[00:01:32] it to actually like pick up your
+[00:01:33] controller if you go up into devices and
+[00:01:37] you see that you have more than one pad
+[00:01:40] connected don't leave it on one well if
+[00:01:44] you put it on two now all of a sudden if
+[00:01:47] you look down here when I wiggle the
+[00:01:49] stick it Wiggles when I wiggle the other
+[00:01:52] stick it Wiggles and that's all it was
+[00:01:54] it took me forever I watched the
+[00:01:57] original video that the one dude did
+[00:01:59] that uh like helped get this far uh
+[00:02:03] watch the second updated version which
+[00:02:06] wasn't really any different it was the
+[00:02:08] same it was just two years later and I
+[00:02:10] still couldn't I just couldn't figure it
+[00:02:12] out and then finally I noticed his
+[00:02:14] didn't have his only showed one pad
+[00:02:16] being connected all three of all four of
+[00:02:19] these or all all three of the rest of
+[00:02:22] these were disconnected but mine showed
+[00:02:24] both of them and I couldn't figure out
+[00:02:26] why and I think it's because I actually
+[00:02:27] had more than one peripheral attack
+[00:02:30] attached to my computer at once so if
+[00:02:33] you're if you're like me and you have
+[00:02:34] two joysticks a Tartarus Pro and a
+[00:02:38] controller and keyboard and mouse all at
+[00:02:41] the same time time you might run into
+[00:02:43] something like this so keep that in mind
+[00:02:45] if you do you might run in the problems
+[00:02:47] where you can't use things when you
+[00:02:49] should but anyhow I hope that helped you
+[00:02:51] this is

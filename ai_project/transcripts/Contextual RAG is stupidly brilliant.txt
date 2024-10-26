@@ -1,0 +1,424 @@
+Title: Contextual RAG is stupidly brilliant!
+Channel: 1littlecoder
+Published: 2024-09-23T10:39:18Z
+Duration: PT15M3S
+Description: Anthropic introduces Contextual RAG and here are some key points!
+Embeddings+BM25 is better than embeddings on their own;
+Voyage and Gemini have the best embeddings of the ones we tested;
+Passing the top-20 chunks to the model is more effective than just the top-10 or top-5;
+Adding context to chunks improves retrieval accuracy a lot;
+Reranking is better than no reranking;
+All these benefits stack: to maximize performance improvements, we can combine contextual embeddings (from Voyage or Gemini) with contextual BM25, plus a reranking step, and adding the 20 chunks to the prompt.
+
+🔗 Links 🔗
+
+https://www.anthropic.com/news/contextual-retrieval
+
+
+❤️ If you want to support the channel ❤️
+Support here:
+Patreon - https://www.patreon.com/1littlecoder/
+Ko-Fi - https://ko-fi.com/1littlecoder
+
+🧭 Follow me on 🧭
+Twitter - https://twitter.com/1littlecoder
+Linkedin - https://www.linkedin.com/in/amrrs/
+
+Transcript:
+
+[00:00:00] retrieval augmented generation is one of
+[00:00:01] the biggest ways Enterprise companies
+[00:00:03] make money because that translates into
+[00:00:05] Direct business value so there is always
+[00:00:07] Innovation happening on that side so
+[00:00:10] even if you improve the quality of LM
+[00:00:12] you have to figure out ways to improve
+[00:00:14] rag so that any chatbot or any uh
+[00:00:18] internal search system that you have
+[00:00:20] deployed in your company or you're
+[00:00:21] deploying it for somebody else would
+[00:00:23] have Improvement and that Improvement
+[00:00:26] directly means a dollar value and it is
+[00:00:28] always easy to a solution if there is an
+[00:00:31] improvement in dollar value on that
+[00:00:33] context anthropic has released a new
+[00:00:36] retrieval technique for efficient rag
+[00:00:39] this technique is called contextual
+[00:00:41] retrieval the technique might sound
+[00:00:44] actually something like very scientific
+[00:00:46] and very big but the technique is very
+[00:00:49] simple and it might be also an upsell
+[00:00:53] for anthropic so there is there is a bit
+[00:00:55] of uh selling their own solution but it
+[00:00:57] is very interesting what they have come
+[00:00:58] up with and the kind of metrics and the
+[00:01:00] improvements that they have seen let's
+[00:01:02] get started with the video first of all
+[00:01:04] the typical current rag system would
+[00:01:06] look like this not many companies would
+[00:01:09] not even have rag system like this but
+[00:01:11] let's say for the sake of discussion you
+[00:01:12] have got the text Corpus inside your
+[00:01:15] company um it could be PDF it could be
+[00:01:17] web pages it could be a bunch of other
+[00:01:19] documents so anyways you have got it as
+[00:01:21] a corpus let's say Text corpus and what
+[00:01:25] you're going to do now is you're going
+[00:01:26] to create chunks so you're going to
+[00:01:28] either do the embedding model thing and
+[00:01:30] then store it in vctor database some
+[00:01:32] people do both one you would have like
+[00:01:34] embedding models vctor database and the
+[00:01:36] other thing is you also have TF IDF
+[00:01:38] which stands for term frequency and IDF
+[00:01:40] that stands for inverse document
+[00:01:42] frequency and uh this is a way to uh
+[00:01:46] measure certain uh elements in the
+[00:01:48] document in itself the carpus in itself
+[00:01:51] so you create the embeddings you create
+[00:01:53] TF IDF and then you store it now
+[00:01:55] whenever the user queries so this is a
+[00:01:57] batch process let's say this happens
+[00:01:59] every day in your company whenever the
+[00:02:01] user queries now that query comes to
+[00:02:04] your system existing system and the
+[00:02:07] query comes to this and it retrieves
+[00:02:09] from the vector database and it
+[00:02:11] retrieves from the TF IDF index and then
+[00:02:14] it gets fused here in rank fusion and
+[00:02:16] then it goes into the generative model
+[00:02:18] because ultimately you need an llm to
+[00:02:20] evaluate whatever the document you're
+[00:02:22] giving and collect it or correlate with
+[00:02:24] the question that the user is asking and
+[00:02:27] handcraft a humanik answer with the
+[00:02:30] knowledge that it got so this is the
+[00:02:32] typical rag system like I said even this
+[00:02:34] is not what a lot of companies do but
+[00:02:36] this is a decent rag system user asks a
+[00:02:39] question existing knowledge is embedded
+[00:02:41] and stored here and there is an
+[00:02:43] algorithm that retrieves everything and
+[00:02:45] then users an LM finally gives an answer
+[00:02:47] now what anthropic is suggesting is
+[00:02:49] anthropic is saying hey don't do any of
+[00:02:51] those things do something different and
+[00:02:54] that they call us I mean you can do all
+[00:02:57] of those things but along with that do
+[00:02:58] something different with which they call
+[00:03:00] as contextual retrieval pre-processing
+[00:03:02] what is contextual retrieval
+[00:03:04] pre-processing you would see it's
+[00:03:06] exactly the same except that you want to
+[00:03:09] use an llm I mean anthropic can sell
+[00:03:12] more calls um I'm not saying that this
+[00:03:14] is a bad thing they have done a good
+[00:03:16] thing they've shared the research I'm
+[00:03:18] just saying that it will help llm
+[00:03:19] companies sell more calls so anthropic
+[00:03:22] is saying after you do the chunking um
+[00:03:24] initially even before embedding the
+[00:03:26] model even before doing tfidf all you
+[00:03:28] have to do is send every chunk through a
+[00:03:32] large language model I mean if you have
+[00:03:35] got human beings you can use human
+[00:03:37] beings to do this but typically you
+[00:03:39] wouldn't have such a large human being
+[00:03:41] at scale um to work on this so you have
+[00:03:44] to send it to large language model and
+[00:03:46] use the large language model to create a
+[00:03:51] small sentence that would end up as a
+[00:03:55] context in front of every chunk and the
+[00:03:58] context is what in a large document what
+[00:04:02] is the situation during which this
+[00:04:04] sentence was present okay so let's look
+[00:04:07] at an example the example is this the
+[00:04:10] original chunk was this right okay what
+[00:04:13] is a chunk you've got a large carpus
+[00:04:15] like a big paragraph and then you are
+[00:04:16] splitting it into smaller pieces this is
+[00:04:18] a chunk so now you have got a chunk from
+[00:04:21] SEC filings and it says the company's
+[00:04:23] Revenue grew by 3% over the previous
+[00:04:25] quarter now typically what you would do
+[00:04:28] this is what you would have as a chunk
+[00:04:30] you would send it to embedding model you
+[00:04:31] would send it to tfidf you calculate the
+[00:04:33] you store it in Vector database you
+[00:04:34] store it in tfidf Index this is what you
+[00:04:37] would typically do now what anthropic is
+[00:04:39] saying is that no no no no no there is
+[00:04:41] one small or Nuance thing that you can
+[00:04:44] do that can improve your accuracy a
+[00:04:47] retrieval massively and what is that
+[00:04:49] thing you have to prepend or prefix a
+[00:04:53] chunk context so you are going to take
+[00:04:57] this and then send it to an LM ask the
+[00:05:01] llm to situate this particular sentence
+[00:05:03] in the document add a context let's look
+[00:05:06] at the context what is the context this
+[00:05:09] chunk is from an CC filing on Acme CS
+[00:05:12] performance in Q2 2023 the previous
+[00:05:15] quarter's Revenue was $314 million the
+[00:05:18] company's Revenue grew by 3% over the
+[00:05:20] previous quarter so the company's
+[00:05:21] Revenue grew by 3% over the previous
+[00:05:24] quarter Remains the Same except that now
+[00:05:27] there is a context that is added so
+[00:05:28] hence it is a contextualized chunk and
+[00:05:31] they've also given you the prompt
+[00:05:33] template for you to use to create the
+[00:05:36] contextualized chunk so you have got the
+[00:05:38] whole document which is like the whole
+[00:05:40] page and you give this document and then
+[00:05:44] say that okay here is a chunk we want to
+[00:05:45] situate within the whole document please
+[00:05:48] give a short suent context to situate
+[00:05:51] this chunk within the overall document
+[00:05:54] for the purpose of improving the search
+[00:05:56] retrieval of the chunk answer only with
+[00:05:58] a suin context and nothing else so this
+[00:06:03] is uh very important because now the
+[00:06:06] chunk that you are sending it to an llm
+[00:06:08] and the context that you're going to get
+[00:06:10] is based on the quality of the llm so
+[00:06:12] that is something that you have to keep
+[00:06:13] in mind so it's not like a fail safe
+[00:06:15] solution so there is a bit of
+[00:06:17] uncertainty that you are adding here so
+[00:06:19] until see this is all math uh embedding
+[00:06:22] model is math tfidf is math Vector DB is
+[00:06:25] math TF IDF index is math this is like
+[00:06:27] defined process you know goes inside you
+[00:06:30] you know B comes outside that's not the
+[00:06:32] case here so you're adding a little bit
+[00:06:33] of uncertainty um a stochastic process
+[00:06:36] in here but anyways anthropic is saying
+[00:06:39] that for every prompt CLA responds with
+[00:06:41] 50 to 100 tokens of context which is
+[00:06:44] then prepended to the corresponding
+[00:06:46] chunk so that is how you create the
+[00:06:48] contextualized chunk now with the
+[00:06:51] contextualized chunk you're going to do
+[00:06:52] the same thing that you have done there
+[00:06:54] so you're going to create contextualized
+[00:06:55] embeddings and then you're going to
+[00:06:57] create contextual bm25
+[00:07:00] bm25 index now that is finally going to
+[00:07:04] help you do certain improvements
+[00:07:06] according to anthropic so what is that
+[00:07:08] so number of failed retrievals so this
+[00:07:11] is 20 top 20 chunk retrieval if you see
+[00:07:14] the percentage number of failed
+[00:07:16] retrievals in the contextual chunk here
+[00:07:19] so the lower is better has gone down 35%
+[00:07:23] so from
+[00:07:24] 5.7% to
+[00:07:26] 3.7% so at this point I will always
+[00:07:29] always encourage you to pause think if
+[00:07:32] you are a company you want to improve
+[00:07:35] your rag now you need to make a
+[00:07:38] call this is a two percentage Point
+[00:07:41] difference okay in two percentage points
+[00:07:44] or in terms of percentage it is
+[00:07:46] 35% how business critical is what you
+[00:07:49] are doing where this 2 percentage point
+[00:07:52] or 2% 35% difference makes a huge impact
+[00:07:57] on your business numbers if those
+[00:08:00] metrics do not matter I mean like for
+[00:08:02] example in a lot of business it doesn't
+[00:08:05] matter like from from the way you know I
+[00:08:07] worked with companies consulted
+[00:08:09] implemented Rag and all those things it
+[00:08:11] doesn't matter this percentage doesn't
+[00:08:12] matter unless until it is business
+[00:08:14] critical imagine you are a doctor and
+[00:08:16] doctor needs to retrieve something and
+[00:08:18] it has to be absolutely accurate if you
+[00:08:20] give metric of a different patient the
+[00:08:21] patient might die like it's a life or
+[00:08:23] death situation there these things
+[00:08:24] matter but in a lot of Enterprise
+[00:08:26] context um imagine the the employ of the
+[00:08:29] company is trying to find out some HR
+[00:08:31] document so you don't need to have this
+[00:08:34] much reduction in the failure rate I
+[00:08:36] mean this is a good technique I'm not
+[00:08:37] saying this is a bad technique don't
+[00:08:39] take me wrong all I'm saying is that
+[00:08:41] you're adding more uncertainty to the
+[00:08:43] model you're adding more overhead you're
+[00:08:45] adding more maintenance you're adding
+[00:08:47] more dependencies if you're going to do
+[00:08:49] that you have to understand the cost of
+[00:08:51] it and when I mean cost it's not just
+[00:08:54] the cost cost in terms of the dollar
+[00:08:56] value but also like for example you're
+[00:08:58] going to add more tokens to to it you're
+[00:08:59] going to increase the size of the
+[00:09:01] embedding so you're going to do all
+[00:09:02] these things so keep that in mind
+[00:09:04] Improvement is always good you watch a
+[00:09:06] YouTube tutorial there's a new technique
+[00:09:07] you want to implement it all these
+[00:09:09] things are always good but is it
+[00:09:11] business critical if it is business
+[00:09:13] critical go ahead and Implement and we
+[00:09:14] have got clear numbers here that there
+[00:09:16] is a 35% reduction in the retrieval rate
+[00:09:19] failure for top 20 chunk and when you
+[00:09:21] combine uh embedding contextual
+[00:09:23] embeddings with contextual bm25 that is
+[00:09:26] further reduced as 4.9% so you can see
+[00:09:30] only embedding embedding plus bm25 um
+[00:09:33] again here contextual embedding
+[00:09:34] contextual embedding plus bm25 here so
+[00:09:36] these are there there are certain
+[00:09:38] nuances that you have to consider like
+[00:09:39] for example how do you split one of the
+[00:09:41] easiest ways to improve your rag
+[00:09:43] solution itself is to implement better
+[00:09:46] chunking strategies and there are a lot
+[00:09:48] of different chunking strategies a
+[00:09:49] simple Google search will help you
+[00:09:51] understand that option one option two uh
+[00:09:54] embedding model what kind of embedding
+[00:09:55] models that you using like uh if you
+[00:09:57] were to use an easier embedding model
+[00:09:59] what the number of the dimension of the
+[00:10:01] embedding model all these things matter
+[00:10:03] so where as contextual retrieval
+[00:10:04] improves the performance across all
+[00:10:06] embedding models we tested some models
+[00:10:08] May benefit more than others we found
+[00:10:11] Gemini and Voyage embeddings to be
+[00:10:13] particularly effective so custom
+[00:10:15] contextualize prompts you can play with
+[00:10:17] the prompt that they've given number of
+[00:10:18] chunks so all these things that you can
+[00:10:20] change and then see how the Improvement
+[00:10:22] is going on one final part before we
+[00:10:25] find uh close down this video so one we
+[00:10:27] got to know that this is a good standard
+[00:10:30] rag solution option one um when you
+[00:10:33] combine the typical embedding part with
+[00:10:36] bm25 it further becomes a better two we
+[00:10:39] have got to know that three we know that
+[00:10:41] adding chunks with context makes a
+[00:10:44] difference we know that how do you want
+[00:10:46] to create the context it's up to you you
+[00:10:48] want a human you want an LM you want to
+[00:10:50] use Gemini whatever you want to do you
+[00:10:52] can do it but we also know that it's
+[00:10:54] going to add overhead cost maintenance
+[00:10:55] and all those things and finally there
+[00:10:58] is one more interesting aspect here
+[00:11:00] which is a
+[00:11:01] ranking so anthropic is also found that
+[00:11:04] if you add reranking to the existing
+[00:11:07] system that they have created which is a
+[00:11:08] contextual retrieval system and
+[00:11:11] reranking does not happen in the
+[00:11:14] pre-processing stage that's something
+[00:11:15] that you have to keep in mind reranking
+[00:11:17] happens during inference like for
+[00:11:20] example the user is asking a question
+[00:11:22] before you send the retrieved augmented
+[00:11:26] item to the llm for generation
+[00:11:29] what you have to do is you have to put
+[00:11:31] in a ranker there and ask the ranker I
+[00:11:34] think rankers are typically like cross
+[00:11:36] encoders um a lot of reer rankers exist
+[00:11:38] in the market paid Solutions are there
+[00:11:40] free Solutions are there now you can ask
+[00:11:43] a ranker to rerank your existing system
+[00:11:46] and then uh the retrieved items and then
+[00:11:49] send it to an llm like large language
+[00:11:51] model generative model to create the
+[00:11:52] response and anthropic has found that
+[00:11:54] this further improves the system so what
+[00:11:57] are the steps perform the initial
+[00:11:59] retrieval just like you have been doing
+[00:12:02] pass the top end chunks along with the
+[00:12:03] user query through a reranking model
+[00:12:06] using a reranking model give a chunk
+[00:12:08] score based on the relevance importance
+[00:12:10] to The Prompt then select the top K so
+[00:12:12] you're just going to do top 20 but
+[00:12:14] you're are going to change the order and
+[00:12:16] then select the top 20 pass the top K
+[00:12:19] chunks into the model as context to
+[00:12:20] generate the final result and that has
+[00:12:22] further improved the model so from 5.7%
+[00:12:26] it came to 3.7% just in case if you're
+[00:12:29] just starting here this is a failed
+[00:12:31] retrieval rate for top 20 chunks so
+[00:12:34] lesser is better so it says that the
+[00:12:36] failer rate is only 3.5 so now combining
+[00:12:39] embedding with uh bm25 with reranking
+[00:12:44] gets you to 3.75 uh sorry 3.5 my
+[00:12:47] apologies and uh this is the standard
+[00:12:49] one but with contextual retrial this
+[00:12:51] comes down to below 2% below 2% fail
+[00:12:55] retrieval rate and uh that is amazing
+[00:12:57] but like I said there are some
+[00:12:59] implications that you have to keep in
+[00:13:00] mind the most important thing is is it
+[00:13:03] business critical for you that's one
+[00:13:04] thing but the other things that you have
+[00:13:06] to have is embeddings plus bm25 is
+[00:13:09] better than embeddings on their own
+[00:13:10] which we understood and voyage and
+[00:13:13] Gemini have the best embeddings of the
+[00:13:16] test that they' have done and uh the top
+[00:13:19] 20 chunks to the model is more effective
+[00:13:22] than top 10 or top five so if you're
+[00:13:23] looking for the K value the 20 is the
+[00:13:26] magical number here adding context to
+[00:13:28] the chunk improves the retrieval
+[00:13:29] accuracy which is what this whole paper
+[00:13:31] is about reranking is better than no
+[00:13:33] reranking and uh they've got a bunch of
+[00:13:36] other information one important
+[00:13:37] consideration is reranking Will
+[00:13:39] introduce a latency because what you're
+[00:13:42] doing is you're doing it at the infer
+[00:13:43] stage you're trying to do one additional
+[00:13:46] step like it could be an endpoint it
+[00:13:48] could be something else but you're going
+[00:13:49] to take like let's say you have got like
+[00:13:51] 100 received here and that 100 is going
+[00:13:54] into reranking and you're going to ask
+[00:13:56] the ranker to rerank and give a score
+[00:13:58] and relevance and importance and do like
+[00:14:01] a descending order sort and then send it
+[00:14:03] to large language model so there is
+[00:14:04] going to be a latency there and
+[00:14:06] definitely there's a cost element cost
+[00:14:07] element is not just with respect to
+[00:14:09] reranking but cost element is also with
+[00:14:12] respect to the the the pre-processing
+[00:14:15] year but this is a batch process this is
+[00:14:17] going to happen in the midnight when
+[00:14:18] everybody is sleeping but this is going
+[00:14:20] to happen at the runtime when the user
+[00:14:23] is requesting something so you have to
+[00:14:25] weigh all these cost benefit analysis
+[00:14:28] and then figure out if if it is useful
+[00:14:29] for you but this is a very interesting
+[00:14:31] uh approach a lot of people are trying
+[00:14:33] to look for like deep scientific way you
+[00:14:36] can improve the retrievals or rag but
+[00:14:39] this is a very uh Common Sense approach
+[00:14:41] and I really love that theyve put out a
+[00:14:43] blog post to explain this I'm going to
+[00:14:46] probably look and see if we can
+[00:14:48] implement this as an open source
+[00:14:49] solution but anyways otherwise I hope
+[00:14:51] this video was helpful to you in
+[00:14:52] learning something new in rag especially
+[00:14:55] if you're working for ra Enterprise
+[00:14:56] companies trying to implement rag this
+[00:14:58] could be particularly handy for your
+[00:15:00] promotion see you in another video Happy
+[00:15:02] promting

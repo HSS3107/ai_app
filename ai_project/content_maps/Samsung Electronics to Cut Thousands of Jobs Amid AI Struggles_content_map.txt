@@ -1,0 +1,27 @@
+Summary: This video discusses Samsung Electronics' decision to lay off workers in Southeast Asia, Australia, and New Zealand as part of a plan to reduce global headcount amid struggles in key areas such as AI.
+
+Section 1: [00:00:00-00:00:02]
+Title: Introduction
+Description: The video begins with a brief introduction about the impact of Samsung Electronics on various companies.
+Speakers: Unknown
+
+Section 2: [00:00:03-00:00:35]
+Title: Details on Samsung's layoffs
+Description: The speaker provides details about Samsung's layoffs, mentioning that they are related to overseas subsidiaries. The layoffs could potentially affect more than half of Samsung's entire workforce, particularly in Australia, New Zealand, and Southeast Asia.
+Speakers: Annabelle Droulers 
+
+Section 3: [00:00:36-00:00:53]
+Title: Process of layoffs
+Description: The speaker discusses the process of the layoffs, explaining how employees were informed about their severance or retrenchment packages.
+Speakers: Annabelle Droulers 
+
+Section 4: [00:00:54-00:01:21]
+Title: Samsung's previous layoffs and targeted roles
+Description: The speaker mentions Samsung's previous layoffs in India and parts of Latin America, and clarifies that the current layoffs are not targeting manufacturing roles but are focused on management and support functions.
+Speakers: Annabelle Droulers 
+
+Section 5: [00:01:22-02:05]
+Title: Samsung's market performance and struggles
+Description: The speaker discusses Samsung's market performance, noting a more than 20% drop for the company compared to other tech companies. She also identifies key areas where Samsung is falling behind, such as high bandwidth memory chips and building out its foundry business.
+Speakers: Annabelle Droulers
+Key Quotes: "What is leading some of those issues for Samsung is the perception that it's falling behind in key markets."

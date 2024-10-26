@@ -1,0 +1,243 @@
+Title: Why vector search is not enough and we need BM25
+Channel: Diffbot
+Published: 2024-09-26T09:44:21Z
+Duration: PT8M14S
+Description: Vector search is a popular for most RAG systems, but many of us probably haven't realized the difference between dense and sparse vectors. Dense vectors, commonly used with LLMs, are great at capturing semantic meaning, but they have limitations in tasks like calculations, sorting, aggregation, and filtering. Coincidentally, Anthropic recently introduced contextual retrieval, combining embeddings with BM25 to address some of these inaccuracies in RAG systems.
+
+1. In the first part of this video, we explain why LLMs struggle with calculations, so you'd see Python scripts or calculators are relied on when models like ChatGPT or Claude face calculations they aren’t well-trained for.
+
+2. We then highlight how dense vector search struggles with sorting, aggregation, and filtering. Metadata filtering is a valid solution but is not discussed in this video.
+
+3. The last half of the video dives into the mechanism behind BM25 (sparse vectors), a ranking model that excels at exact keyword matching. Dense vectors can sometimes return irrelevant or imprecise results due to how they handle semantic context, and hybrid search—combining dense and sparse vectors like BM25—improves retrieval by addressing these limitations. We’ll explore more advanced hybrid search approaches in a future video.
+
+0:00 vector search’s calculation problem
+2:07 how time-related terms behave in the vector search?
+2:35 sorting limitation in the vector space
+2:58 why these limitations exist in the vector space?
+3:48 imprecise results from dense vector search
+4:34 the mechanism difference between dense and sparse vector (BM25)
+5:20 diving into how BM25 (sparse vectors) works
+6:39 Term Frequency in BM25
+7:06 IDF (inverse document frequency) in BM25
+7:35 how BM25 normalizes Document Length
+
+Animations in this video are inspired by 3blue1brown and his animation library - manim. Code can be found here:
+https://github.com/leannchen86/vector-search-not-enough-manim
+
+#llm #bm25 #rag
+
+Transcript:
+
+[00:00:00] to search itself doesn't work well on
+[00:00:02] calculations storting or filtering and
+[00:00:04] in this video we'll be talking about why
+[00:00:06] that's the case when we process numbers
+[00:00:08] like 50 100 and 150 we intuitively
+[00:00:12] understand consistent difference between
+[00:00:14] them such as the 50 unit jump from 50 to
+[00:00:17] 100 and 100 to 150 however for llms
+[00:00:21] numbers are treated quite differently
+[00:00:23] instead of placing them on a number line
+[00:00:25] these models position numbers based on
+[00:00:27] how they are used in the context so the
+[00:00:30] semantic position of 100 isn't
+[00:00:32] necessarily halfway between 50 and 150
+[00:00:35] in fact in the vector space numbers can
+[00:00:37] be grouped with related words based on
+[00:00:40] patterns they learn from the training
+[00:00:41] data 50 could be clustered with half or
+[00:00:44] midpoint and 100 could be closer to full
+[00:00:47] or centy a similar concept applies to
+[00:00:50] how language models handle words and
+[00:00:52] their relationships using vectors in
+[00:00:54] this famous example the direction of the
+[00:00:57] vector difference between king and queen
+[00:00:59] closely parallel sta between men and
+[00:01:01] women which encod the semantic meaning
+[00:01:03] of gender and this other example shows
+[00:01:06] how the direction of the vector
+[00:01:08] difference captures the relationship of
+[00:01:10] Capital Cities now circling back to our
+[00:01:13] example with numerical values El might
+[00:01:15] understand that a 100 day challenge is
+[00:01:17] typically longer than a 30-day challenge
+[00:01:20] but this understanding doesn't come from
+[00:01:21] these models understanding that a 100 is
+[00:01:24] greater than 30 instead the direction of
+[00:01:26] the vector difference between a 100 day
+[00:01:29] challenge and 30 day challenge can
+[00:01:31] possibly capture a concept like
+[00:01:33] commitment or duration rather than the
+[00:01:36] exact 70-day difference this might make
+[00:01:38] you think that large language models are
+[00:01:40] bad at math but what's really happening
+[00:01:42] is that these numerical values are
+[00:01:44] processed as part of the language
+[00:01:46] instead of their actual numerical values
+[00:01:48] that's why you would see Transformer
+[00:01:50] based models like chat GPT or clock
+[00:01:52] struggle to calculate properly when they
+[00:01:54] need to handle a random number they
+[00:01:56] haven't seen much before but if the job
+[00:01:58] is to do simple calculations they've
+[00:02:00] learned during training before like 150
+[00:02:03] minus 100 they can quickly recall the
+[00:02:06] correct answer from memory now let's
+[00:02:08] talk about how language models handle
+[00:02:10] time related terms terms like latest
+[00:02:12] current recent AR map onto a timeline
+[00:02:15] instead they group based on context
+[00:02:17] latest might Sit Close to newest or
+[00:02:19] current because of how they're usually
+[00:02:21] used together but these Transformer
+[00:02:23] based models don't inherently know that
+[00:02:25] latest often implies something more
+[00:02:28] current than the term re as I mentioned
+[00:02:30] previously they rely on contextual usage
+[00:02:33] rather than the actual
+[00:02:37] timeline relationships are complex and
+[00:02:40] multi-dimensional so finding the highest
+[00:02:42] or the lowest involves comparing lots of
+[00:02:44] vectors which can get quite
+[00:02:46] computational expensive as data grows
+[00:02:49] Vector embeddings are great at capturing
+[00:02:51] relative Concepts though like good being
+[00:02:53] closer to excellent than to poor but
+[00:02:55] still they struggle with absolute
+[00:02:57] rankings so why do these limit ation
+[00:03:00] exists in Vector search we need to dive
+[00:03:02] into how embeddings are constructed and
+[00:03:04] how they behave in the vector space
+[00:03:06] first thing is tokenizing numerical
+[00:03:08] values are seen as part of the language
+[00:03:10] like text they are broken into smaller
+[00:03:13] pieces and get converted into embeddings
+[00:03:16] for a number like this that's not very
+[00:03:18] common there are various possible ways
+[00:03:19] to tokenize as you see here how the
+[00:03:21] model decides to do it depends a lot on
+[00:03:24] its training so there's no guarantee on
+[00:03:26] how it'll handle a specific number but
+[00:03:28] one thing for sure is that it's going to
+[00:03:29] break the number into multiple Parts
+[00:03:31] instead of treating it as one whole
+[00:03:33] piece second and perhaps more
+[00:03:35] importantly embeddings are not static
+[00:03:38] Tex embeddings are dynamically updated
+[00:03:40] to reflect cementing meaning based on
+[00:03:42] context this means their positions are
+[00:03:44] relative and can shift to different ones
+[00:03:46] based on their usage and that's why they
+[00:03:48] get to find related Concepts without
+[00:03:50] even needing exact keyword matches
+[00:03:53] however this flexibility can sometimes
+[00:03:55] backfire and in this case it means
+[00:03:58] imprecise results for example example in
+[00:04:00] a recipe search using embeddings a query
+[00:04:02] for apple pie might return recipe for
+[00:04:05] other food pies such as cherry or peach
+[00:04:07] pie or even meat pies while the broad
+[00:04:10] understanding from Vector search can
+[00:04:11] help users discover recipes they may
+[00:04:13] enjoy it can also make it harder to find
+[00:04:16] what exactly they're looking for if they
+[00:04:19] specifically want apple pie recipe so
+[00:04:21] for cases like this that require exact
+[00:04:23] keyword matching we can use bn25 to
+[00:04:26] compliment Vector search talk about what
+[00:04:28] Vector search does well where doesn't
+[00:04:31] and how B 25 can be helpful so why are
+[00:04:34] they different Vector search relies on
+[00:04:36] dense vectors while B25 uses sparse
+[00:04:39] vectors so what are the core difference
+[00:04:41] between the two mechanisms then vectors
+[00:04:43] represent words or phrases in high
+[00:04:46] dimensional space where each Dimension
+[00:04:48] captures a specific aspect of meaning or
+[00:04:51] context small squares that you're seeing
+[00:04:53] here represent a dimension with a
+[00:04:55] numerical value that indicates the
+[00:04:57] strand of the words association with a I
+[00:05:00] concept for example in the dense Vector
+[00:05:02] for the word King one dimension might
+[00:05:04] have a high value associated with
+[00:05:06] royalty another with leadership and
+[00:05:09] another with masculinity they
+[00:05:11] collectively Define its position in the
+[00:05:13] semantic space on the other hand sparse
+[00:05:16] vectors focus on the presence or the
+[00:05:18] absence of specific terms in these
+[00:05:20] vectors small dimensions are zero with
+[00:05:22] non-zero values only appearing when
+[00:05:24] specific terms are present in document
+[00:05:27] this structure directly supports exact
+[00:05:28] keyword matching because each nonzero
+[00:05:31] value corresponds to a specific term in
+[00:05:33] the query which allows the vector to
+[00:05:35] identify documents containing those
+[00:05:37] terms and is ideal and effective for
+[00:05:40] precise retrieval tasks where the goal
+[00:05:42] is to match specific keywords rather
+[00:05:44] than capture broader cemented context
+[00:05:46] however the ability to find exact
+[00:05:48] keyword matches is just part of bn25
+[00:05:50] strings to rank the most relevant
+[00:05:52] information bn25 not only checks for the
+[00:05:54] presence of a specific term but also
+[00:05:56] considers how often it appears how rare
+[00:05:59] or how unique the term is across all
+[00:06:01] documents which are improvements that
+[00:06:03] address some of TF idf's limitations
+[00:06:05] such as its basic handling of term
+[00:06:07] frequency and document link let's
+[00:06:09] actually use a more conf example let's
+[00:06:11] say you're searching for how to build an
+[00:06:13] effective rack system using hyper search
+[00:06:16] and reranking techniques and a document
+[00:06:18] keeps mentioning rag over and over again
+[00:06:21] at first glance it makes sense that a
+[00:06:23] model would rank the document higher
+[00:06:25] because it mentions the term frequently
+[00:06:27] but wait a sec does just repeating the
+[00:06:29] ter frequently really make a document
+[00:06:31] more relevant because if that were the
+[00:06:33] case you could easily game the system by
+[00:06:35] stuffing the document with a keyword you
+[00:06:37] want to boost his ranking in fact bn25
+[00:06:40] sets a saturation point which is a kind
+[00:06:43] of sensitivity threshold so he knows
+[00:06:45] when repeat di mentions to a certain
+[00:06:47] point stop adding value for example
+[00:06:49] after a certain threshold mentioning rag
+[00:06:52] 50 times won't give a document in
+[00:06:54] advantage over another one that only
+[00:06:56] mentions it 10 times now we got term
+[00:06:58] frequency covered but what about the
+[00:07:00] importance of those terms how does pm25
+[00:07:02] decide which terms deserve more
+[00:07:04] attention and this is where IDF inverse
+[00:07:06] document frequency comes into play what
+[00:07:09] it does is to measure how common or rare
+[00:07:11] term is across all documents common
+[00:07:13] words like the or system could appear
+[00:07:16] everywhere and don't add much meaning so
+[00:07:18] bn25 downplays their impact on the other
+[00:07:20] hand it would give more weight to rare
+[00:07:23] but more specific terms such as hypers
+[00:07:25] search reranking techniques Etc which
+[00:07:28] have distinguish truly relevant results
+[00:07:30] from the noise but hold on relevance
+[00:07:32] isn't just about term frequency or
+[00:07:35] importance do cumulant also influence
+[00:07:37] how relevance is determined think about
+[00:07:39] it long documents may contain more
+[00:07:42] information but that doesn't mean it's
+[00:07:44] necessarily more informative right
+[00:07:46] sometimes shorter or more concise texts
+[00:07:48] actually deliver more valuable insights
+[00:07:50] and that's why bm25 normalized document
+[00:07:52] L finally after considering all these
+[00:07:55] factors from turn frequency importance
+[00:07:58] and document length 25 then produces a
+[00:08:00] relevant score for each document and
+[00:08:02] rank them

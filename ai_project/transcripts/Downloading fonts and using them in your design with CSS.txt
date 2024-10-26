@@ -1,0 +1,97 @@
+Title: Downloading fonts and using them in your design with CSS
+Channel: MainlyWebStuff
+Published: 2020-04-29T11:09:31Z
+Duration: PT4M16S
+Description: In this lesson we discuss how to use fonts that aren't installed on your machine. We demonstrate how to download fonts and then write code to use them in your designs. We also demonstrate how we can use the developer tools to help debug.
+
+Transcript:
+
+[00:00:00] okay so we've seen how to change the
+[00:00:03] text and apply different fonts in our
+[00:00:05] design but we've really focused on the
+[00:00:08] fonts which have already been installed
+[00:00:09] on the user's computer so arial times
+[00:00:11] new roman' and so on what if for example
+[00:00:14] in your design here for our headings we
+[00:00:17] wanted to use a font which we knew
+[00:00:19] wasn't installed on the end-users
+[00:00:21] computer
+[00:00:22] well CSS provides a feature where we can
+[00:00:25] deliver that font along with our web
+[00:00:27] page so if you went over to Google and
+[00:00:31] search for free fonts you'll no doubt
+[00:00:33] come across thousands of websites where
+[00:00:35] you can download free fonts let's just
+[00:00:38] have a little quick look at a few of
+[00:00:39] these I'll open them in new tabs so a
+[00:00:43] thousand and one free fonts lots of free
+[00:00:46] fonts there download button this is
+[00:00:51] quite a nice website but a website I
+[00:00:53] tend to use quite often is this one here
+[00:00:55] dafont.com again lots of different
+[00:00:59] categories so let's look for maybe a
+[00:01:01] comic font okay I quite like this one
+[00:01:04] badda-boom let's download this so it'll
+[00:01:08] usually come down as a zip file and
+[00:01:11] let's open that zip file up so there's
+[00:01:17] our font bada app TTFN okay so that font
+[00:01:22] needs to be in the same location as my
+[00:01:25] webpages so I'll just drag it into my
+[00:01:27] pages folder what I'll do is I will
+[00:01:31] rename that as well to make it a little
+[00:01:33] bit easier for us to work with so I'll
+[00:01:36] call that one bad dot TTFN okay back
+[00:01:41] over to my text editor here's our basic
+[00:01:45] web page and now what we can do is we
+[00:01:48] can write CSS to load that file in at
+[00:01:51] runtime now we're going to use something
+[00:01:54] called font face now this is where we
+[00:01:59] tell the browser what font we're going
+[00:02:01] to use so we're going to use the font
+[00:02:03] family again and we're going to give it
+[00:02:06] a custom name I'm gonna call it my font
+[00:02:09] let's line down I'm gonna tell the
+[00:02:11] browser where that font is
+[00:02:13] located so we're going to use the source
+[00:02:15] property and we're going to tell it the
+[00:02:19] location of that file
+[00:02:21] oops sorry URL the location of that file
+[00:02:24] if you remember we called it bada dot t
+[00:02:27] TF and then we're going to apply it
+[00:02:31] inside our browser so we're going to say
+[00:02:33] change the hitch one heading so h1 and
+[00:02:37] we will say a font family we're going to
+[00:02:42] the custom name which we called my font
+[00:02:44] so my font and if we save that go back
+[00:02:51] to our browser and press refresh ah okay
+[00:02:54] what let's have a look what's happened
+[00:02:55] here so we've set the source to Bardo t
+[00:02:58] TF let me just make sure is actually
+[00:03:01] called that ah okay I called it bad t TF
+[00:03:05] actually let's use this as an
+[00:03:07] opportunity to short Visual Studio core
+[00:03:10] developer tools right so there's the
+[00:03:12] browser we're gonna right click on that
+[00:03:15] and click inspect let's just have a look
+[00:03:20] to see what's happening now there's a
+[00:03:21] little there's something in red at the
+[00:03:23] bottom we just roll up
+[00:03:25] let's move this so we can see it all on
+[00:03:27] the same screen I need to make it a bit
+[00:03:32] smaller so you can see it there we go
+[00:03:34] so the browser is actually telling me
+[00:03:36] there's an error here indicated here
+[00:03:39] little one and a cross and it's saying
+[00:03:41] failed to load the resource it can't
+[00:03:43] find the file called bada TTFN now
+[00:03:46] that's to be expected because there
+[00:03:47] isn't a file called Bardot TTFN so
+[00:03:49] that's going modify that and rename it
+[00:03:53] too bad I will save that I got back to
+[00:03:57] my browser and I'll refresh and there
+[00:04:00] you go there's there's the custom font
+[00:04:02] applied so we just covered custom fonts
+[00:04:05] using font fierce but it will also give
+[00:04:07] us a nice opportunity to look at the
+[00:04:09] developer tools to see how that can help
+[00:04:11] us out doing a little bit of debugging

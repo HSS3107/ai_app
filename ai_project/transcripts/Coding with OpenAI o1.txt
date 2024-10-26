@@ -1,0 +1,74 @@
+Title: Coding with OpenAI o1
+Channel: OpenAI
+Published: 2024-09-12T17:14:05Z
+Duration: PT2M46S
+Description: Say hello to OpenAI o1—a new series of AI models designed to spend more time thinking before they respond. This new series of AI models can reason through complex tasks and solve harder problems than previous models in science, coding, and math. More here: www.openai.com/o1
+
+Transcript:
+
+[00:00:00] [Music]
+[00:00:00] all right so the example I'm going to
+[00:00:02] show is a writing a code for
+[00:00:04] visualization so I sometimes teach a
+[00:00:06] class on Transformers which is a
+[00:00:08] technology behind models like chipt and
+[00:00:11] when you give a sentence to Chach PT it
+[00:00:15] has to understand the relationship
+[00:00:17] between the words and so on so it's a
+[00:00:20] sequence of words and you just have to
+[00:00:21] model that and Transformers utilize
+[00:00:24] what's called a self attention to model
+[00:00:26] that so I always thought okay if I can
+[00:00:29] visualize a self attention mechanism and
+[00:00:33] with some interactive components to it
+[00:00:34] it will be really great I just don't
+[00:00:36] have the skills to do that so let's ask
+[00:00:37] our new model o1 preview to help me out
+[00:00:40] on that so I just typed in uh this
+[00:00:42] command uh and see how the model does so
+[00:00:46] unlike the previous models like GPT 40
+[00:00:49] it will think before outputting an
+[00:00:52] answer so it starts started thinking as
+[00:00:55] this thinking let me uh show you what
+[00:00:57] are some of these uh requirements I'm
+[00:00:59] giving a bunch of requirements to think
+[00:01:01] through so first one is like use an
+[00:01:03] example sentence the quick brown fox and
+[00:01:06] second one is like when hovering over a
+[00:01:08] token visualize the edges whose
+[00:01:10] thicknesses are proportional to the
+[00:01:12] attention score and that means just if
+[00:01:14] the two words are more relevant then
+[00:01:16] have a thicker edges and so on so the
+[00:01:19] one common failure modes of the existing
+[00:01:21] modles is that when you give a lot of
+[00:01:24] the instructions to follow it can miss
+[00:01:26] one of them just like humans can miss
+[00:01:28] one of them if you give too many of them
+[00:01:29] at once once so because this reasoning
+[00:01:32] model can think very slowly and
+[00:01:34] carefully it can go through each
+[00:01:36] requirement uh in depth and that reduces
+[00:01:39] the chance of missing um the instruction
+[00:01:42] so this output code let me copy paste
+[00:01:46] this into a terminal so I'm going to use
+[00:01:49] the D editor of 2024 so Vim HTML so I'm
+[00:01:56] just going to paste this thing into that
+[00:02:00] and just save it out uh and on the
+[00:02:03] browser I'll just try to open this up
+[00:02:06] and you can see that uh when I Hoover
+[00:02:09] over this thing it shows the arrows um
+[00:02:13] and then quick and brown and so on and
+[00:02:16] when I Hoover out of it it goes away so
+[00:02:18] that's a correctly rendered um version
+[00:02:20] of it now when I click on it it shows
+[00:02:23] the tension scores as just just as I
+[00:02:25] asked for and maybe there's a little bit
+[00:02:28] of rendering like it's overlapping but
+[00:02:30] other than that is actually much better
+[00:02:31] than what I could have done yeah so this
+[00:02:33] model did uh really nicely I think this
+[00:02:35] can be a really useful tool for me to
+[00:02:38] come up with a bunch of different
+[00:02:39] visualization tools for uh my new
+[00:02:41] teaching sessions

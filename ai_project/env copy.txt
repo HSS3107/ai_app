@@ -1,0 +1,20 @@
+# open ai api key for herschet
+OPENAI_API_KEY= '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'
+
+# OPEN AI API KEY FOR HSS ACCOUNT
+OPENAI_API_KEY01 = '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'
+
+
+
+PINECONE_API_KEY_1 = '146ac1c8-8357-46e4-ac84-0ee30b63ec86'
+PINECONE_API_ENV = 'us-east-1'
+PINECONE_INDEX_NAME = 'hss1'
+
+IKANOON_API_TOKEN = '2c7b80a3a338ac6370617282b507f8166f67b26a'
+
+GOOGLE_APPLICATION_CREDENTIALS = '/Users/Harshit/AI Project/hss-podcast-project-7777-a91533ab2dc9.json'
+
+YOUTUBE_API_KEY = 'AIzaSyC__tVvRkEHBtGIjfxhD_FbG3fAcjiaXlc'
+
+System_Architecture_diagram_mermaidchart = 'https://www.mermaidchart.com/raw/3c42ebcb-db70-4712-84a8-253b61577b41?theme=dark&version=v0.1&format=svg'
+

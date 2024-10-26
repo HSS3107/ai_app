@@ -50,3 +50,27 @@ class User(AbstractUser, PermissionsMixin):
 
 # Add any other models your app needs here
 # Models are like blueprints for your database tables
+
+# models.py
+from django.db import models
+import uuid
+
+# models.py
+from django.db import models
+
+from django.db import models
+
+class ChatSession(models.Model):
+    question = models.TextField()
+    answer = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    session_identifier = models.CharField(max_length=255, blank=True, null=True)
+    video_title = models.CharField(max_length=500, blank=True, null=True)  # Added
+    video_id = models.CharField(max_length=50, blank=True, null=True)      # Added
+    content_map = models.TextField(blank=True, null=True)                  # Added
+
+    class Meta:
+        db_table = 'app_chatsessions'
+
+    def __str__(self):
+        return f"Chat {self.id} - {self.created_at}"

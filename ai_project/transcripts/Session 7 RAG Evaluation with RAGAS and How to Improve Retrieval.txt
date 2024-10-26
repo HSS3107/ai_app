@@ -1,0 +1,845 @@
+Title: Session 7: RAG Evaluation with RAGAS and How to Improve Retrieval
+Channel: AI Makerspace
+Published: 2023-12-04T19:46:36Z
+Duration: PT37M21S
+Description: What you'll learn this session:
+- How and why to evaluate RAG systems using best-practice open-source tooling
+- RAG Assessment with RAGAS, including Context Precision, Context Recall, Answer Relevancy, and Faithfulness
+- How to improve RAG system outputs using advanced retrieval
+
+Speakers: 
+Dr. Greg Loughnane, Founder & CEO AI Makerspace.
+https://www.linkedin.com/in/greglough...
+
+Chris Alexiuk, CTO AI Makerspace.
+https://www.linkedin.com/in/csalexiuk/
+
+Apply for one of our AI Engineering Courses today! 
+https://www.aimakerspace.io/cohorts
+
+Transcript:
+
+[00:00:00] welcome back to our next session on rag
+[00:00:04] evaluation everybody asks how do I
+[00:00:07] evaluate rag systems here's your answer
+[00:00:09] so today we're going to align our aim to
+[00:00:14] evaluate rag systems using best practice
+[00:00:17] open source tooling and improve rag
+[00:00:21] systems
+[00:00:23] quantitatively using some Advanced
+[00:00:25] retrieval processes quick overview of
+[00:00:28] what we're going through we're going to
+[00:00:30] review rag build a meta rag assess some
+[00:00:34] rag take R to the next level in rag
+[00:00:37] we're going to do rag
+[00:00:41] yes couple of links for you guys you can
+[00:00:45] check these out right now bit. le amrag
+[00:00:48] tinyurl.com eval rag these are the
+[00:00:52] things that uh we've already shown some
+[00:00:54] of today we're going to keep showing the
+[00:00:56] rest right now so just recall open
+[00:01:00] source rag what we're talking about
+[00:01:03] query embedding model Vector DB prompt
+[00:01:06] template go ahead and put that context
+[00:01:08] in there everything gets shoved into the
+[00:01:10] chat model boom you got your answer okay
+[00:01:15] cool now we have this if we focus on the
+[00:01:21] models we're using for open source we
+[00:01:24] talked about leveraging BG base and
+[00:01:27] we've seen how we can leverage new
+[00:01:28] researches LOM 7B chat model from
+[00:01:32] hugging face by doing a little bit of
+[00:01:33] setup work at the
+[00:01:35] beginning so we basically have the
+[00:01:41] setup BG
+[00:01:43] base llama 2 from new research chat
+[00:01:47] model 7B on hugging face so we're going
+[00:01:49] to set a quick set up a quick flow where
+[00:01:53] we're going to do rag on rag AKA meta
+[00:01:56] rag we're going to search for the top
+[00:01:57] five papers on rag we're going to
+[00:01:59] convert those papers to
+[00:02:01] embeddings put them in a vector store
+[00:02:03] ask specific questions related to the
+[00:02:05] content and return answers we've already
+[00:02:08] seen this before looks something like
+[00:02:10] this but we want to actually be able to
+[00:02:12] ask now what is Rag and we want the rag
+[00:02:15] system to answer it so with that let's
+[00:02:17] set up our
+[00:02:18] metag over to you
+[00:02:23] Chris all right we are going to meta rag
+[00:02:26] so this is where we're going to rag on
+[00:02:28] rag as Greg said
+[00:02:30] uh straightforward enough it's exactly
+[00:02:33] what we've seen before but using some uh
+[00:02:36] you know different abstractions so first
+[00:02:38] we're going to grab our
+[00:02:41] dependencies next we are going to
+[00:02:44] provide our open AI uh API
+[00:02:48] key and then we are going to load our
+[00:02:51] archive loader from our document loaders
+[00:02:54] we've seen this before it lets us query
+[00:02:57] archive for papers that match this qu uh
+[00:03:01] this query by relevance we're going to
+[00:03:03] load five of them and there we can see
+[00:03:06] we have these five
+[00:03:08] papers then we're going to create a
+[00:03:10] naive index where we chunk those papers
+[00:03:13] by with the recursive character Tech
+[00:03:15] splitter with chunk size
+[00:03:17] 500 we're going to split them there and
+[00:03:19] then we're going to store them in a
+[00:03:20] chroma Vector DB using open AI
+[00:03:24] embeddings so you can see that we have
+[00:03:27] 1,000 chunks uh from our five papers
+[00:03:30] that are stored in our
+[00:03:32] index then we're going to create a QA
+[00:03:35] from retrieval chain which is going to
+[00:03:37] be this retrieval QA from chain type
+[00:03:40] we're going to give our primary QA llm
+[00:03:43] which is just going to be gbt 3.5 turbo
+[00:03:46] 16k we're going to use our chroma DB
+[00:03:49] Vector store as a retriever we're going
+[00:03:51] to pass in these search quars which is
+[00:03:53] going to let us select our K to be three
+[00:03:56] which means that every query query will
+[00:03:58] retrieve the top three of our 1,61
+[00:04:03] documents and we're going to have them
+[00:04:05] return Source
+[00:04:06] documents then we can ask the question
+[00:04:08] what is rag we can send that in as our
+[00:04:11] query and we'll get a result rag stands
+[00:04:15] for retrieval augmented generation it is
+[00:04:17] a framework that combines retrieval
+[00:04:18] based models with generation but I know
+[00:04:20] goes on and on to explain ra rag that's
+[00:04:23] all we have to do um you know this is
+[00:04:25] the this is the whole thing uh you can
+[00:04:28] access the notebook with the bit. Le
+[00:04:30] that Greg mentioned or you can check it
+[00:04:32] out here uh but yes that's all we need
+[00:04:36] to do in order to do rag on rag we'll
+[00:04:39] kick it back to
+[00:04:40] Greg nice rag on rag what's next well
+[00:04:45] how did we do let's talk about how we
+[00:04:48] can evaluate this rag system
+[00:04:53] now when we think about evaluation we
+[00:04:55] should be thinking about evaluation
+[00:04:57] feedback loops we should be thinking
+[00:04:59] thinking about how we're actually going
+[00:05:01] to improve our system as we continue to
+[00:05:07] do more W and as we sit there now that
+[00:05:10] we have it instrumented what should we
+[00:05:12] be measuring what should we be trying
+[00:05:14] how should we be tinkering and tuning
+[00:05:16] this thing as we
+[00:05:17] go well the answer isn't clear for any
+[00:05:20] given application space the method for
+[00:05:26] baselining how good your system system
+[00:05:30] is at least relative to how good it
+[00:05:35] might be after you start changing stuff
+[00:05:38] that is more
+[00:05:40] clear when we do rag
+[00:05:43] evaluation with the ragus or rag
+[00:05:46] assessment
+[00:05:47] framework we want to think about it by
+[00:05:51] breaking it up into four different
+[00:05:56] pieces the first is the question that's
+[00:05:59] the query what are we asking this thing
+[00:06:02] the second is the answer what's a given
+[00:06:05] back the third is the retrieved
+[00:06:09] context that's the context that we
+[00:06:12] pulled out of the vector DB and we
+[00:06:14] passed in to the llm through the
+[00:06:17] prompt finally the ground truth here is
+[00:06:21] very
+[00:06:22] important the ground
+[00:06:25] truth is just as the name would imply
+[00:06:29] by the ground truth
+[00:06:34] answer now it's important to note here
+[00:06:37] that when we talk about ground truth
+[00:06:40] answers those are generally going to
+[00:06:43] truly be something that probably should
+[00:06:45] come from a
+[00:06:47] human what should the right answer be
+[00:06:51] that is good correct or enough for this
+[00:06:56] particular query given all of this
+[00:06:59] context what would a human respond with
+[00:07:04] given question and access to all this
+[00:07:07] data that might be the real ground truth
+[00:07:11] but for us and because nobody wants to
+[00:07:14] create these painstakingly terrible
+[00:07:16] ground truth data sets they want a
+[00:07:19] system that's automated to do this for
+[00:07:21] them so we picked the best model out
+[00:07:23] there we pick gbt
+[00:07:25] 4 let's assume gbt 4 knows the truth so
+[00:07:29] we can get a handle on the rag
+[00:07:31] evaluation pipeline ideally
+[00:07:35] though humans know the truth better of
+[00:07:39] course we have retrieval and generation
+[00:07:41] in a rag Pipeline and we can break it up
+[00:07:44] into thinking about retrieval and
+[00:07:48] generation
+[00:07:50] retrieval breaks down into two different
+[00:07:53] metrics the first metric is called
+[00:07:55] context
+[00:07:57] Precision answers the question question
+[00:07:59] how relevant is the context to the
+[00:08:03] question right context
+[00:08:07] recall at answers the question is the
+[00:08:11] retriever able to retrieve all relevant
+[00:08:16] context and you might notice we're
+[00:08:18] dealing with precision and recall
+[00:08:21] classic ml practitioners should probably
+[00:08:24] feel pretty comfortable with this now on
+[00:08:27] the generation side there's a couple of
+[00:08:30] other metrics we'll take a closer look
+[00:08:32] at each of these four metrics in the
+[00:08:35] subsequent
+[00:08:36] slides during generation we're going to
+[00:08:39] compute two things the first is answer
+[00:08:44] relevancy answers the question how
+[00:08:47] relevant is the answer to the question
+[00:08:50] right better be pretty relevant because
+[00:08:53] otherwise is definitely
+[00:08:55] wrong and the faithfulness answer this
+[00:08:58] is the fake news metric right this is is
+[00:09:02] the answer fact
+[00:09:05] checkable is this thing hallucinating is
+[00:09:09] this thing
+[00:09:10] confabulating is this thing something I
+[00:09:13] can
+[00:09:14] trust no fake news is it faithful
+[00:09:18] right sticking with faithfulness here's
+[00:09:21] an example to make it more Concrete in
+[00:09:23] your mind and this is how faithfulness
+[00:09:25] score is calculated number of claims
+[00:09:28] that can be inferred from given context
+[00:09:31] divided by total number of claims in the
+[00:09:33] generated answer so here's an example
+[00:09:36] question where and where and where was
+[00:09:41] Einstein
+[00:09:43] born I believe that was a typo in
+[00:09:47] documentation from the ragus guys where
+[00:09:50] and when was Einstein born context
+[00:09:53] Albert Einstein born 14 March 1879 was a
+[00:09:56] German born theoretical physicist widely
+[00:09:58] held to be one of the greatest great
+[00:09:59] thank you great context High
+[00:10:01] faithfulness answer Einstein was born in
+[00:10:03] Germany got it 14 March 1879 got it low
+[00:10:08] faithfulness it lies to us right easy
+[00:10:14] enough of course this is an open source
+[00:10:17] tool and you know um more help with docs
+[00:10:22] is something that we'd love all of our
+[00:10:24] community members to support for all of
+[00:10:27] these great tools that come out and that
+[00:10:29] uh certainly the small teams that create
+[00:10:31] them need help
+[00:10:32] with so the answer relevancy metric here
+[00:10:37] we're going to measure how relevant the
+[00:10:38] the generated answer is to the input to
+[00:10:41] the prompt and it's important to
+[00:10:44] understand that it doesn't consider
+[00:10:47] factuality per
+[00:10:49] se but instead it
+[00:10:52] penalizes cases where the answer lacks
+[00:10:56] completeness or contains redundant
+[00:10:59] details so where is France and what is
+[00:11:02] its capital low relevance France is in
+[00:11:05] Western
+[00:11:06] Europe right it's like talking to one of
+[00:11:08] those people that's like answers half of
+[00:11:11] your question kind of like we did to
+[00:11:13] Manny earlier LOL those are some epic
+[00:11:16] questions though High relevance answer
+[00:11:18] answers both pieces France is in Western
+[00:11:20] Europe and Paris is its
+[00:11:23] capital right easy
+[00:11:27] enough
+[00:11:30] moving on at a high level here context
+[00:11:34] Precision is measuring the relevancy of
+[00:11:36] the retrieved context to The Prompt now
+[00:11:38] check this out we've got Precision at K
+[00:11:42] this is true positive over true positive
+[00:11:43] plus false positive classic Precision
+[00:11:46] where context
+[00:11:48] Precision is now divided by total number
+[00:11:52] of relevant items in the top K results
+[00:11:56] so it's a metric that evaluates whether
+[00:11:58] all all of the ground truth relevant
+[00:12:01] items are presented in the
+[00:12:04] contexts
+[00:12:06] and they're
+[00:12:08] ranked accordingly high if they're more
+[00:12:13] and more relevant so ideally all the
+[00:12:16] relevant chunks are in the top ranks
+[00:12:19] right the more relevant the higher it
+[00:12:21] should be
+[00:12:22] ranked makes sense it's exactly the way
+[00:12:25] you would write a paper you would start
+[00:12:28] it off with the most relevant things at
+[00:12:30] the front
+[00:12:33] end okay what about context recall
+[00:12:37] context recall is measuring recall of
+[00:12:39] the retrieved context here it's the
+[00:12:43] ground truth
+[00:12:45] sentences that can be attributed to the
+[00:12:48] context divided by the total number of
+[00:12:51] sentences in the ground truth right so
+[00:12:54] the idea is if it's super true
+[00:13:00] we definitely want
+[00:13:02] it
+[00:13:03] in the ground truth and we want to be
+[00:13:06] able to retrieve
+[00:13:08] it
+[00:13:10] during retrieval of reference
+[00:13:16] material question where is France and
+[00:13:18] what is its capital ground truth France
+[00:13:21] is in Western Europe and its capital is
+[00:13:23] Paris a high context recall might look
+[00:13:26] like France and Western Europe and
+[00:13:28] compasses medieval cities Alpine
+[00:13:30] Villages and Mediterranean beaches Paris
+[00:13:32] its capital is famed for its fashion
+[00:13:33] houses classical art museums including
+[00:13:35] the Lou and monuments like the Eiffel
+[00:13:37] Tower low
+[00:13:40] context what are we doing again here
+[00:13:42] France and Western Europe encompasses
+[00:13:44] medieval cities blah BL BL Alpine
+[00:13:46] Villages good good good the country is
+[00:13:48] also renowned B BL BL
+[00:13:50] alasow again it's blowing
+[00:13:54] off the capital right it's not
+[00:13:59] giving me a necessarily relevant
+[00:14:02] sentence
+[00:14:04] here it's providing context but it's not
+[00:14:08] necessarily super relevant
+[00:14:11] context and so we want to
+[00:14:15] see only again the most relevant
+[00:14:19] context so this is measuring the extent
+[00:14:22] to which the retrieved context
+[00:14:25] aligns with the annotated answer aka the
+[00:14:29] ground
+[00:14:36] truth and context Precision is going to
+[00:14:39] measure the relevancy it used to be
+[00:14:42] called context relevancy but they change
+[00:14:45] the name to context precision and this
+[00:14:51] context we already covered context
+[00:14:53] Precision this is a duplicate
+[00:14:56] slide so from context
+[00:14:59] precision and
+[00:15:01] context
+[00:15:04] [Applause]
+[00:15:06] recall yeah we're going to go ahead and
+[00:15:08] mute that one context Precision context
+[00:15:11] recall our
+[00:15:13] retriever Y
+[00:15:19] Man
+[00:15:21] and faithfulness and answer relevancy
+[00:15:25] are generator metrics so the reval
+[00:15:29] system overall you might consider as
+[00:15:32] being measurable by context precision
+[00:15:35] and context recall the generator metrics
+[00:15:40] you might use to sort of get an idea of
+[00:15:43] how your Generations are improving how
+[00:15:46] much they're
+[00:15:47] hallucinating but realistically what's
+[00:15:49] the whole big idea of rag it's get
+[00:15:52] references find relevant ones shove them
+[00:15:54] into the prompt context and improve
+[00:15:57] generation so so it's probably more
+[00:16:00] valuable to try to improve improve your
+[00:16:04] retriever to thus improve
+[00:16:08] Generations so if you're going to aim at
+[00:16:10] something we would recommend aiming at
+[00:16:11] the retriever which is what we'll show
+[00:16:13] you how to do
+[00:16:14] today some examples here of context this
+[00:16:18] is in
+[00:16:19] their docs as well context relevancy is
+[00:16:23] now context Precision you can see these
+[00:16:25] numbers um how they look associated with
+[00:16:30] any given type of question answer
+[00:16:33] contexts and ground truth so you can get
+[00:16:36] some idea of the way that this kind of
+[00:16:40] Might
+[00:16:41] improve the
+[00:16:44] answer with better
+[00:16:47] contexts you might be able to
+[00:16:54] get yeah I guess we're gonna have to
+[00:16:56] remove person
+[00:17:00] um all right
+[00:17:03] so in the rag
+[00:17:07] evaluation pipeline you're essentially
+[00:17:10] talking about four different metrics
+[00:17:13] context Precision context recall answer
+[00:17:17] relevancy faithfulness for this
+[00:17:20] particular demonstration we've got today
+[00:17:23] we're using gbt 3.5 turbo to generate an
+[00:17:27] answer and we're using GPT for to
+[00:17:31] generate the ground
+[00:17:34] truth and this whole setup we're going
+[00:17:37] to show you the numbers before we close
+[00:17:41] up for the day but we're going to show
+[00:17:43] you how to get this set up and how to
+[00:17:45] get some initial Baseline numbers which
+[00:17:47] is going to be the most important first
+[00:17:49] step to take uh right now as we do rag
+[00:17:53] on rag with ragus Chris over to you man
+[00:17:58] that's right right we
+[00:17:59] are we are doing like rag nesting dolls
+[00:18:02] here so we're going to do ragus on rag
+[00:18:07] with rag it's going to be crazy first
+[00:18:10] step though uh we need
+[00:18:13] to you know create a a data set of some
+[00:18:17] kind so what we're going to do is we're
+[00:18:19] going to use our uh response schema
+[00:18:23] output parser as well as our structured
+[00:18:25] output parser from Lang chain basically
+[00:18:28] this is just going to get us a question
+[00:18:31] in an object with the key question the
+[00:18:34] description is going to be a question
+[00:18:35] about the context and then we're going
+[00:18:37] to save that into our list of question
+[00:18:40] schemas you'll notice that we have this
+[00:18:43] structured output parser and then we
+[00:18:45] have a uh get format
+[00:18:48] instructions now what this is going to
+[00:18:50] do is it's going to pass gbt 4 a prompt
+[00:18:53] that's going to encourage it to Output
+[00:18:56] our response in the above requested
+[00:19:00] schema so this is a useful pattern like
+[00:19:03] outside of even uh you know this
+[00:19:05] particular case if you want your
+[00:19:08] responses to conform to a specific
+[00:19:10] schema now uh we're going to pass in
+[00:19:15] this prompt along with some context as
+[00:19:18] our QA template we're going to say
+[00:19:20] you're a university Professor creating a
+[00:19:22] test for advanced students you know
+[00:19:24] create some
+[00:19:26] questions the idea here is that in order
+[00:19:29] to evaluate we need to provide these
+[00:19:32] Triplets of questions answers and
+[00:19:35] contexts and so we're gonna have the llm
+[00:19:37] generate our questions from our contexts
+[00:19:40] and then provide answers to the
+[00:19:42] questions from those contexts so we'll
+[00:19:45] start the process by doing this uh right
+[00:19:47] here making this chat template adding
+[00:19:50] those format instructions and then
+[00:19:52] sending that to the llm notice that we
+[00:19:56] have the question what is the main focus
+[00:19:59] of the paper a survey on retrieval
+[00:20:00] augmented text generation and the
+[00:20:03] context is a blurb from the paper that
+[00:20:05] explains and contains the abstract of
+[00:20:08] that title so the idea is we have a
+[00:20:11] piece of context and now we have a
+[00:20:13] question that should be answerable given
+[00:20:16] that
+[00:20:17] context we're going to do this for 10
+[00:20:20] prompts because uh to do this for it's
+[00:20:22] going to cost many tokens to do this so
+[00:20:25] please be aware of costs uh do it on a
+[00:20:28] small subset is going to be an okay
+[00:20:30] place to get started for uh evaluation
+[00:20:34] uh if you want to take this further
+[00:20:36] obviously you'll have to talk to your
+[00:20:37] organization what I can tell you is that
+[00:20:39] it will cost a bit but it will cost much
+[00:20:42] less than getting humans to do a similar
+[00:20:44] task so uh that's always
+[00:20:47] great next we repeat this exact same
+[00:20:49] process but for answers you'll notice
+[00:20:52] you we have now you are a university
+[00:20:54] Professor creating a test for advanced
+[00:20:55] students for each question in context
+[00:20:57] create an answer we're going to pass in
+[00:21:00] our users questions our uh our context
+[00:21:03] that we're used to create those
+[00:21:05] questions and then we're going to get
+[00:21:07] the llm to produce an answer built from
+[00:21:10] the question and context
+[00:21:12] pair again we're going to uh look at an
+[00:21:15] example the main focus of the paper a
+[00:21:18] survey and retrieval augumented text
+[00:21:19] orations contct a survey but retrieval
+[00:21:21] Aug it goes on and on but the idea is
+[00:21:24] that this answer is an answer to the
+[00:21:26] question we created earlier with the
+[00:21:28] provided context and that's all we're
+[00:21:31] doing we again create 10 answers to our
+[00:21:35] questions and then we wrap this all into
+[00:21:37] a data
+[00:21:39] set now that we have the data set we are
+[00:21:42] able to start thinking about using ragus
+[00:21:46] so the way that we're going to do this
+[00:21:48] is by having this create ragus data set
+[00:21:51] option because remember our answers that
+[00:21:54] we have are considered the ground truth
+[00:21:56] answers but we need to evaluate our lm's
+[00:22:00] answers to these questions right so we
+[00:22:03] have our ground truth we need to have
+[00:22:04] our llm produce the actual answers so
+[00:22:07] we're going to use the uh create ragus
+[00:22:11] data set to do this you'll see the rag
+[00:22:14] pipeline is going to take the query at
+[00:22:17] question and then we're going to add the
+[00:22:19] answer in our data set uh from our
+[00:22:23] actual llm so this is the response
+[00:22:25] generated from the model that we're
+[00:22:27] evaluating
+[00:22:29] basic idea here we're going to have our
+[00:22:31] model get the same context and the same
+[00:22:34] question and see how it does we're going
+[00:22:36] to compare the two results at the end to
+[00:22:38] get our ragus
+[00:22:40] metrics so here's our evaluate ragus
+[00:22:42] data set you'll see here that we have uh
+[00:22:45] a few metrics we care about that Greg
+[00:22:47] has discussed with us context Precision
+[00:22:49] faithfulness answer relevancy and
+[00:22:51] context recall also one thing to notice
+[00:22:54] we're passing in the context that we
+[00:22:56] obtained so we're not just evaluating
+[00:23:01] the model's ability to generate correct
+[00:23:03] or factual responses we're also
+[00:23:06] evaluating the performance of our actual
+[00:23:08] retrieval pipeline is it retrieving the
+[00:23:10] correct contexts are the contexts
+[00:23:13] relevant to the answer and the query and
+[00:23:16] so
+[00:23:18] on so let's uh lo you know we just
+[00:23:20] create that data set it's got 10 rows
+[00:23:23] and then we save it for later and then
+[00:23:25] we evaluate how it did it goes through a
+[00:23:27] whole process it does take a while uh
+[00:23:29] it's got to answer 10 questions and then
+[00:23:31] evaluate four metrics for each of them
+[00:23:34] and you'll see that we get this basic QA
+[00:23:36] result which has a full ragus score of
+[00:23:39] 0.22 a context relevancy score of
+[00:23:43] 0.07 a faithfulness score of 0.6 second
+[00:23:46] an answer relevancy of 0.99 that's high
+[00:23:49] that's great and then a context recall
+[00:23:51] of 0.866
+[00:23:53] 7
+[00:23:55] so we have a few different things that
+[00:23:57] we can shift around here but we want to
+[00:24:00] focus on improving you know kind of a
+[00:24:02] metric at a time and the metric that we
+[00:24:05] want to improve is we want to corre
+[00:24:07] collect better context for our model so
+[00:24:10] we're going to use some uh different
+[00:24:12] retrievers and see how that impacts our
+[00:24:14] ragus
+[00:24:15] score so this retriever is just going to
+[00:24:18] be our uh kind of like our QA chain
+[00:24:22] Factory right we're going to pass in our
+[00:24:25] chat open AI model we're going to hold
+[00:24:27] the llm to be the same and then the only
+[00:24:30] thing we're going to change is this
+[00:24:32] retriever between the different
+[00:24:34] pipelines right so we can plug in new
+[00:24:37] retrievers but everything else should
+[00:24:38] remain constant since we're trying to
+[00:24:40] test our retriever
+[00:24:43] specifically the first kind of like
+[00:24:46] fancy retriever we're going to use is
+[00:24:47] the parent document retriever now the
+[00:24:50] way this works is imagine that you have
+[00:24:54] a page and on that page there are five
+[00:24:57] pair paragraphs the way the parent
+[00:25:00] document retriever is going to work is
+[00:25:01] it will search through each paragraph
+[00:25:04] present in your Corpus but it's going to
+[00:25:06] return the full page so why might this
+[00:25:09] be useful well let's say for instance
+[00:25:12] this is an example that someone from our
+[00:25:15] uh llmo Cort uh worked on right which is
+[00:25:19] this idea of like an equation right if I
+[00:25:22] search for Bern's equation and I just
+[00:25:25] rely on the text I'm not going to get
+[00:25:28] br's equation I'm going to get a
+[00:25:30] paragraph that describes that br's
+[00:25:32] equation is either coming up or we just
+[00:25:35] saw it so the way that we improve that
+[00:25:39] is we expand the window around what we
+[00:25:42] find in order to in order to better
+[00:25:45] capture relevant information so when we
+[00:25:48] search for br's equation along with the
+[00:25:50] paragraph that explains that we either
+[00:25:52] just saw it or are about to see it we
+[00:25:54] also capture the equation and we're able
+[00:25:56] to ensure that we capture more
+[00:25:58] information and obviously this extends
+[00:26:00] to many other examples but that's just a
+[00:26:03] you know one that's that's uh top of
+[00:26:05] mind so you'll notice that our parent uh
+[00:26:09] documents are in chunk size of 2000s and
+[00:26:11] our uh child documents are in chunk
+[00:26:14] sizes of 400 these are hyperparameters
+[00:26:17] that you can play with um so you know
+[00:26:19] you might find it to be better to even
+[00:26:20] search even smaller chunks uh and then
+[00:26:23] blow up uh a little bit less or blow up
+[00:26:26] even more it's all about uh what's
+[00:26:28] easiest for you and I'll I'll link this
+[00:26:30] again uh for people who are just
+[00:26:34] joining the idea is we can use laying
+[00:26:36] chain though to simplify the actual
+[00:26:39] creation of this so we create our parent
+[00:26:40] splitter we create our child splitter we
+[00:26:42] create our Vector store with the
+[00:26:44] collection name split parents and our
+[00:26:47] open AI embedding function and then we
+[00:26:49] create an inmemory store now one thing
+[00:26:52] you might have noticed if we're only
+[00:26:54] searching for the child documents using
+[00:26:57] d retrieval then we shouldn't actually
+[00:26:59] need to uh embed the parent documents
+[00:27:03] right we we never search directly for
+[00:27:05] the parent documents so indeed all we
+[00:27:07] need to do is store them in memory and
+[00:27:10] that's why we use the inmemory store for
+[00:27:11] our parent documents as you can see here
+[00:27:14] we have our doc store which is our
+[00:27:16] inmemory store our Vector store which is
+[00:27:18] our chroma DB and our child and parent
+[00:27:21] splitter our child documents will wind
+[00:27:23] up in the vector store and our parent
+[00:27:25] documents will wind up in the doc store
+[00:27:28] they will be Associated behind the
+[00:27:30] scenes so each child document is
+[00:27:32] associated with a uh parent document all
+[00:27:36] we have to do now is feed in our docks
+[00:27:39] and it's going to take care of the rest
+[00:27:41] and now we can create a new chain again
+[00:27:43] we're going to use the create QA chain
+[00:27:46] uh helper function that we built above
+[00:27:49] and we're going to pass in this specific
+[00:27:51] Retriever and that's all we have to do
+[00:27:54] now we can ask a question what is Rag
+[00:27:56] and we get rag stands for augmented
+[00:27:58] generation it is and it goes on and on
+[00:28:00] it gives the answer that's
+[00:28:01] good so now let's use this new chain
+[00:28:05] with the parent document Retriever and
+[00:28:08] let's evaluate it using ragus and we'll
+[00:28:11] find that our context relevancy score is
+[00:28:14] perhaps uh you know uh leav something to
+[00:28:17] be desired our faithfulness is quite
+[00:28:19] High our answer relevancy is relatively
+[00:28:22] untouched and our context recall has
+[00:28:24] improved
+[00:28:26] some the next uh retrieval method we're
+[00:28:30] going to try right because we want to
+[00:28:31] see which is the best of these methods
+[00:28:34] uh is The Ensemble retriever now we've
+[00:28:37] talked a lot today about dense Vector
+[00:28:40] search which is this idea of comparing
+[00:28:43] dense embedding vectors of passages of
+[00:28:46] text and determining their semantic
+[00:28:48] relatedness using some distance measure
+[00:28:50] like cosine similarity well instead uh
+[00:28:53] of that we're going to combine that
+[00:28:56] dense Vector search with with a sparse
+[00:28:59] uh search so we're going to use the
+[00:29:01] bm25 search method which is much closer
+[00:29:04] to a bag of words style uh search so
+[00:29:07] it's more caring about what words are in
+[00:29:09] the uh in the query versus what words
+[00:29:11] are in our documents the idea here is
+[00:29:14] that we collect a number of documents
+[00:29:16] from both of the search methods and then
+[00:29:19] we rerank them using the uh reciprocal
+[00:29:22] rank Fusion algorithm uh which is you
+[00:29:25] can read about in in the paper it's
+[00:29:27] pretty cool the idea is it's going to
+[00:29:29] fuse these two disparate uh relevancy
+[00:29:34] searches into one ordered uh uh entity
+[00:29:38] so that we have some you know top K
+[00:29:41] results if we retrieved say in this case
+[00:29:44] four but we're only actually going to
+[00:29:45] keep three it would order the results by
+[00:29:48] relevancy such that we dro the least
+[00:29:50] relevant between the two um it's just a
+[00:29:52] cool algorithm to combine two different
+[00:29:55] uh collection methods
+[00:29:58] you'll notice that there's this weights
+[00:30:00] hyperparameter so we can actually prefer
+[00:30:03] one or the other so if we know that we
+[00:30:07] need some level of keyword es search or
+[00:30:10] sparse search but we don't want to weit
+[00:30:12] it too highly we can shift this to 0.25
+[00:30:15] and
+[00:30:15] 0.75 as long as these numbers sum to one
+[00:30:18] you're H you're chilling the idea here
+[00:30:20] is that we're going to do these two
+[00:30:22] search methods and then combine their
+[00:30:25] resulting uh documents in into one
+[00:30:27] ordered list and then choose from the
+[00:30:29] top of that and again we ask the same
+[00:30:33] question and we get another great answer
+[00:30:35] feels good we're going to set up the
+[00:30:39] same ragus data set that we did before
+[00:30:41] but this time using the Ensemble
+[00:30:43] retriever we're going to uh essentially
+[00:30:46] mark this as it goes through and then
+[00:30:49] we're going to go and look at our total
+[00:30:52] results in order and we can kind of see
+[00:30:55] that generally our basic QA result while
+[00:30:58] it was quite decent on uh some of the
+[00:31:01] metrics you know our the faithfulness
+[00:31:03] kind of fell behind uh the answer
+[00:31:06] relevancy kind of fell behind and with
+[00:31:09] our more advanced methods we were able
+[00:31:12] to uh boost our faithfulness and our
+[00:31:15] answer relevancy we didn't take too much
+[00:31:17] of a hit on context recall but we did
+[00:31:20] take a hit on context
+[00:31:22] relevancy and so what this means is
+[00:31:24] while we are retrieving more and more uh
+[00:31:27] more documentation that makes our answer
+[00:31:30] uh makes it so that we're answering
+[00:31:31] closer to the source documentation we
+[00:31:34] are in fact retrieving uh more
+[00:31:37] information than we necessarily need to
+[00:31:39] answer the question and so that's a
+[00:31:41] Improvement we could seek to make in the
+[00:31:43] next iteration right perhaps we could
+[00:31:46] tweak the hyperparameters relating to
+[00:31:47] how many documents we're retrieving with
+[00:31:49] each pipeline but overall we're happy to
+[00:31:52] see that our system in some capacity
+[00:31:55] improved and gave us better results than
+[00:31:58] just the basic retrieval method which is
+[00:32:01] fantastic and this is the idea of ragus
+[00:32:05] it helps us to understand how changes
+[00:32:08] we're making to our retrieval uh and
+[00:32:10] generation pipelines actually impact our
+[00:32:14] uh our end results uh now again this is
+[00:32:17] all this is all by AI right so AI is
+[00:32:20] answering the questions and asking the
+[00:32:21] questions obviously you could substitute
+[00:32:24] humans and any part of this uh if you
+[00:32:26] have domain experts you could have them
+[00:32:28] generate uh these questions and answers
+[00:32:31] based on the contexts uh but this is a
+[00:32:33] way we can do it without having to spend
+[00:32:36] those resources on very expensive humans
+[00:32:38] so can we use llama index for the same
+[00:32:41] capabilities is not yes yeah yeah yeah
+[00:32:43] definitely llama index has analoges to
+[00:32:46] all of these that you can leverage if
+[00:32:48] you want to stay in llama index's
+[00:32:50] ecosystem
+[00:32:53] yeah all right
+[00:32:56] awesome we just saw rag on rag with
+[00:32:59] ragus and we're gonna go ahead
+[00:33:03] and Rec recap exactly what Chris was
+[00:33:07] talking about
+[00:33:08] here
+[00:33:10] and get this dialed in
+[00:33:13] here
+[00:33:14] the way to take rag to the next level is
+[00:33:18] to get it set up right generally if
+[00:33:22] you're doing this in production like
+[00:33:24] cash is King you don't want to be
+[00:33:25] redoing things like recreating all of
+[00:33:27] your embeddings in your vector database
+[00:33:29] all the time or rerunning and
+[00:33:32] inferencing prompts that you've already
+[00:33:34] gotten in the past but outside of that
+[00:33:36] it's very easy as we saw to go ahead and
+[00:33:39] pick up an ensemble retriever that helps
+[00:33:41] us do a quick reranking to do really
+[00:33:44] Next Level builds go ahead and set it up
+[00:33:46] instrument it with evaluation start
+[00:33:48] looking at things like chunk sizes chunk
+[00:33:50] overlap get into that black art of
+[00:33:52] chunking and really look at doing some
+[00:33:54] interesting hierarchical metadata data
+[00:33:57] hybrid retrieval stuff you know maybe
+[00:34:00] even add some quantitative data as we've
+[00:34:02] seen earlier Chris showed the parent
+[00:34:04] document Retriever with the big idea
+[00:34:07] right small docks are good but big docks
+[00:34:09] are good too right so why not just use
+[00:34:13] both we saw that children split parents
+[00:34:16] in the child document receiver retriever
+[00:34:19] as sometimes they do in this world and
+[00:34:22] the Ensemble retriever was essentially
+[00:34:25] this way to you know take a bunch of
+[00:34:29] references and to then down select to
+[00:34:32] the only top references and so we're
+[00:34:36] kind of using this interesting idea of a
+[00:34:38] sparse retrieval plus a dense retrieval
+[00:34:42] when we're doing this kind of Ensemble
+[00:34:45] and a lot of the vector databases today
+[00:34:47] have this built in but here we're going
+[00:34:50] ahead and we're just leveraging this
+[00:34:52] tool directly in langing chain rather
+[00:34:55] than using like a pine cone that is
+[00:34:57] going to do this out of the box for
+[00:34:59] instance so that's meta rag with ragas
+[00:35:02] and advanced retrieval what did we see
+[00:35:04] at the end of the day we saw that when
+[00:35:07] we measured context
+[00:35:09] recall from the base model to the parent
+[00:35:13] document retriever to The Ensemble model
+[00:35:16] and remember context recall is ground
+[00:35:19] truth sentences that can be attributed
+[00:35:22] to the context divided by the total
+[00:35:25] number of sentences in the ground truth
+[00:35:28] so it's about not just getting the right
+[00:35:30] stuff but getting the right amount of
+[00:35:32] the right stuff we saw an improvement
+[00:35:36] with each of these additional retrieval
+[00:35:40] capabilities not really surprising if
+[00:35:42] you think about the way these are
+[00:35:45] operating so with that ragas is uh
+[00:35:48] pretty dope it's leading the way
+[00:35:50] retriever metrics include context
+[00:35:52] Precision context recall generation
+[00:35:55] metrics include answer relevancy see
+[00:35:57] faithfulness it's not really cost
+[00:35:59] effective in general unless you compare
+[00:36:02] it to like humans doing it so beware of
+[00:36:05] setting these things up and just like
+[00:36:06] smashing your open AI API key way too
+[00:36:09] much and the eval is definitely evolving
+[00:36:13] like you're going to see in the next
+[00:36:15] session there's actually built-in tools
+[00:36:17] now in llama index that you can do eval
+[00:36:18] out of the box so you know to the
+[00:36:20] question of do it in Lang chain or llama
+[00:36:22] index you know it's like well you can
+[00:36:24] instrument either one with ragus but
+[00:36:26] they're all coming out with their own
+[00:36:28] metrics to be able to measure these
+[00:36:31] things in just one line of code within
+[00:36:34] that infrastructure tool so lots of
+[00:36:37] interesting stuff happening in the eal
+[00:36:39] space very very cool to be able to build
+[00:36:42] at least with this tool even since we
+[00:36:44] started teaching this the ragas team at
+[00:36:46] exploding gradients has made a ton of
+[00:36:48] updates to the tool and to the
+[00:36:50] documentation watch these guys it's a
+[00:36:52] great open source project to potentially
+[00:36:54] contribute to and um and that's it for
+[00:36:57] rag eval state-of-the-art chat anversary
+[00:37:01] year one 2023 next up we've got
+[00:37:04] fine-tuning of embeddings where we're
+[00:37:06] actually going to do some measuring
+[00:37:08] using some evaluation tools of the real
+[00:37:11] Improvement we get from that fine tuning
+[00:37:14] of the embeddings so check that out
+[00:37:16] coming up next in session eight that's a
+[00:37:19] wrap

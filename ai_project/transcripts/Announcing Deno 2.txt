@@ -1,0 +1,1280 @@
+Title: Announcing Deno 2
+Channel: Deno
+Published: 2024-10-09T17:08:01Z
+Duration: PT59M21S
+Description: Read more about Deno 2: https://deno.com/2
+
+00:00 Cold open
+02:37 Keynote
+03:59 Demo: a program in a single file
+08:31 All in one toolchain
+09:05 Deno compile demo
+10:39 Announcing Deno 2
+11:58 Next.js demo
+14:18 Node and npm compatibility
+17:22 Package management
+18:17 deno install demo
+19:00 JSR
+20:14 Deno standard library
+21:18 JSR demo
+27:20 Enterprise features
+27:51 Private registries
+28:14 Workspaces and monorepos
+28:44 Long term support
+29:42 Deno is fast
+30:36 Deno jupyter demo
+34:42 Outro
+35:03 Q&A
+
+Transcript:
+
+[00:00:07] hi I'm Ryan doll you might know me as
+[00:00:09] the creator of node.js as a programmer I
+[00:00:12] like things that are
+[00:00:17] simple really
+[00:00:19] simple programming should be simple
+[00:00:22] that's why I created
+[00:00:24] note but these days note is not simple
+[00:00:32] just ask Rachel she's been here for days
+[00:00:34] setting up typescript is an easy 47 step
+[00:00:37] process first you take a TS confus this
+[00:00:39] year and add an es in front becomes a
+[00:00:41] JavaScript Target don't forget Al Gore
+[00:00:44] and here's Steve commemorating the 20th
+[00:00:46] test framework he's recently learned
+[00:00:49] please be
+[00:00:51] gentle okay I'm
+[00:00:55] good getting node apis to work in the
+[00:00:57] browser can be
+[00:01:00] ah
+[00:01:02] [Music]
+[00:01:04] frustrating security is also a
+[00:01:07] nightmare npm packages have access to
+[00:01:10] everything go go go grab everything grab
+[00:01:13] everything over
+[00:01:17] here got
+[00:01:21] [Music]
+[00:01:24] it but you can be a faster more
+[00:01:26] productive developer with Dino the
+[00:01:29] simplest way to Pro
+[00:01:32] program Dino comes with typescript
+[00:01:34] all-in-one tooling and web standard apis
+[00:01:37] so you can write once and run anywhere
+[00:01:40] anywhere
+[00:01:44] anywhere Dino is secure by default so
+[00:01:47] every dependency doesn't have full
+[00:01:48] access to your
+[00:01:57] computer and you don't have to give up
+[00:01:59] the packages you love from
+[00:02:01] npm
+[00:02:04] yeah and many
+[00:02:07] [Music]
+[00:02:09] more so join hundreds of thousands of
+[00:02:12] developers using Dino because
+[00:02:14] programming should be simple
+[00:02:33] [Music]
+[00:02:38] hi my name is Ryan D creator of node.js
+[00:02:40] and Dino today we're releasing our
+[00:02:43] biggest update yet Dino 2 let's go check
+[00:02:46] it
+[00:02:51] out JavaScript is the world's default
+[00:02:55] programming language it's deeply rooted
+[00:02:57] in human infrastructure because it's
+[00:02:59] part part of the web like hdp or css and
+[00:03:02] it's not going away anytime soon it's
+[00:03:04] going to be here 5 10 years from now if
+[00:03:07] not 20 years from now and because of
+[00:03:10] that we are building on JavaScript we
+[00:03:12] want to make it great Dino is a runtime
+[00:03:16] for JavaScript development it natively
+[00:03:19] supports typescript as well and and it's
+[00:03:22] it's tries to narrow the gap between
+[00:03:25] browser JavaScript and serers side
+[00:03:27] JavaScript it uses web standards es
+[00:03:29] module tools fetch API all sorts of
+[00:03:32] stuff it is an all-in-one tool chain for
+[00:03:36] JavaScript development that's really
+[00:03:37] batteries included it has all of the
+[00:03:40] utilities you need uh it's secure by
+[00:03:42] default and and backwards compatible
+[00:03:44] with node and we'll see that in action
+[00:03:47] Dino is the simplest way to get started
+[00:03:50] programming typescript you can really
+[00:03:53] just open a single file you don't need
+[00:03:55] to create a package Json or have a node
+[00:03:57] modules folder a single file is all you
+[00:04:00] need to get started let's see that in
+[00:04:02] action I'm going to create a LS program
+[00:04:06] listing listing the files in in a
+[00:04:08] directory and uh let's let's see how how
+[00:04:10] that looks in in Doo let me just create
+[00:04:14] a main TS file and uh let's open up vs
+[00:04:20] code so uh to to list the files in
+[00:04:23] directory there's an API called reader
+[00:04:26] doo. reader this is one of the built-in
+[00:04:29] uh dino uh apis and it takes a path as
+[00:04:33] an argument you can see kind of the
+[00:04:35] built-in documentation working here uh
+[00:04:38] and the the built-in L the built-in
+[00:04:40] language server uh uh kind of giving me
+[00:04:43] a red squiggly because I don't have any
+[00:04:45] arguments so I'll give just the current
+[00:04:47] directory dot as as the argument to
+[00:04:49] start with and uh this thing uh is this
+[00:04:53] this command uh this this
+[00:04:55] function returns an async iterable that
+[00:04:58] lists the the elements in in the the
+[00:05:01] files in in the current directory let's
+[00:05:04] try to Loop over these using an async
+[00:05:08] await entry con entry of doo. reader and
+[00:05:14] for now let's just console log that
+[00:05:16] entry
+[00:05:19] out so if we run Doo main TS uh you'll
+[00:05:25] you'll see the secure by default
+[00:05:27] permission prompt in in action here so
+[00:05:29] we're trying to access the file system
+[00:05:31] Doo doesn't allow you to do that unless
+[00:05:33] you explicitly give it permission you
+[00:05:35] need to give it the allow read flag or
+[00:05:37] say yes at this prompt if you do uh it
+[00:05:40] will it will work um but often you don't
+[00:05:44] want to click through a bunch of
+[00:05:45] permission prompts you probably want to
+[00:05:46] give the allow read flag that lets you
+[00:05:50] do this or the shorthand version of that
+[00:05:52] is Dash capital r uh to to give the
+[00:05:56] allow read permission let's expand this
+[00:05:58] a little bit instead instead of using
+[00:06:00] dot as as the the hardcoded directory
+[00:06:03] that we're going to list let's actually
+[00:06:05] take an argument from the command line
+[00:06:08] so we'll use Doo ARS zero here and we
+[00:06:12] can of course do dot or we could do I
+[00:06:15] don't know a different directory that
+[00:06:17] has a bunch of files in it like this
+[00:06:20] one let's abstract this a little bit
+[00:06:24] further uh turn this into a function so
+[00:06:26] tree we'll call it tree and let's say
+[00:06:29] it's takes an argument called dur that's
+[00:06:31] a string and let's say this this tree
+[00:06:35] function just returns a bunch of strings
+[00:06:36] in an array of of each of the file names
+[00:06:40] so we'll move that Loop up
+[00:06:42] here and you can see that we're getting
+[00:06:45] some red squigglies here from the
+[00:06:47] language server this is saying that we
+[00:06:50] that we're doing a 408 Loop outside of
+[00:06:52] an async function so let's let's just
+[00:06:54] add an async here by the way you can see
+[00:06:57] these same errors if you do Dino check
+[00:07:01] so just to back up a bit we'll do Dino
+[00:07:05] check main TS where you can see these
+[00:07:07] these same errors um but you know it's
+[00:07:09] more often more convenient to see this
+[00:07:11] in in the in the
+[00:07:13] LSP it is uh complaining because I'm not
+[00:07:16] returning a promise of course it's an
+[00:07:18] async function so let's add uh promise
+[00:07:22] there um and it's still complaining
+[00:07:24] because I'm not actually returning
+[00:07:25] anything du so uh con out equals empty
+[00:07:30] array and we'll just push out
+[00:07:34] uh and entry is actually an object let's
+[00:07:37] let's actually output the the name of
+[00:07:40] the just the name of the file there and
+[00:07:42] and we'll
+[00:07:42] [Music]
+[00:07:46] return return out at the end and then of
+[00:07:49] course we need to call this thing so
+[00:07:51] let's say a weit
+[00:07:53] tree and we'll do doo
+[00:07:56] args zero here
+[00:08:00] and let's just console log out those
+[00:08:03] files and I'm realizing that I'm
+[00:08:05] actually not using the argument here I I
+[00:08:08] should move change this to
+[00:08:13] a
+[00:08:16] d and um yeah red squiggly because I'm
+[00:08:21] missing a parenthesis okay so how does
+[00:08:24] that look yeah all right so now now now
+[00:08:26] we've kind of abstracted this out into a
+[00:08:28] function as I said Dino is an all-in-one
+[00:08:32] runtime and it combines a lot of
+[00:08:37] disperate tooling that you need from in
+[00:08:40] the node ecosystem into a single binary
+[00:08:42] Doo is literally a single file so for
+[00:08:45] example you might use prettier in node
+[00:08:48] to format your code in Dino it's just
+[00:08:50] Dino format or for type checking you
+[00:08:53] might use TSC uh in Dino it's just Dino
+[00:08:56] check uh or maybe you use es lint in in
+[00:09:01] node you can do the same thing with Dino
+[00:09:03] lint and many
+[00:09:07] more let's take a look at one of these
+[00:09:10] subcommands in more detail Dino compile
+[00:09:13] so this actually takes your JavaScript
+[00:09:17] and bundles it together with with the
+[00:09:19] runtime and creates a a binary output
+[00:09:22] just called the dino compile
+[00:09:24] subcommand and as you can see it has
+[00:09:27] created this demo file here which is
+[00:09:32] which is a arm 64 Macintosh executable
+[00:09:36] file and we can just execute we can just
+[00:09:39] call that like we would any other
+[00:09:42] program of course we need to give a
+[00:09:44] proper file name here and and it works
+[00:09:47] as normal so you can distribute this
+[00:09:49] without Dino and it will continue to
+[00:09:51] work indefinitely it doesn't depend on
+[00:09:53] on any other
+[00:09:54] files one cool feature of Dino compile
+[00:09:58] is the it can actually cross compile so
+[00:10:01] if you do-- target it will give you a
+[00:10:03] list of possible platform targets that
+[00:10:06] that you can give to it let's try to
+[00:10:09] cross compile this program for Windows
+[00:10:12] so we'll we'll do an x x64
+[00:10:16] windows binary if I can spell Target
+[00:10:23] correctly and as you can see we now have
+[00:10:27] a demo. exe file that is appropriate for
+[00:10:32] running on Windows I don't have a
+[00:10:34] Windows computer here but iice it to say
+[00:10:36] this demo. exe is appropriate for
+[00:10:38] running on Windows but you could do all
+[00:10:40] of that with Dino 1 let's talk about
+[00:10:42] Dino 2 dino2 is a revamp in multiple
+[00:10:46] areas ecosystem compatibility package
+[00:10:49] management and Enterprise
+[00:10:55] features let's start with ecosystem
+[00:10:58] compatibility
+[00:11:00] one of the things I've heard the most
+[00:11:02] from users of Dino is that they love how
+[00:11:06] simple Dino is it they don't have to
+[00:11:08] have any configuration they can just get
+[00:11:10] started with typescript but uh
+[00:11:13] inevitably they come across some
+[00:11:16] existing node project that they need to
+[00:11:19] interact with whether it's an npm
+[00:11:21] library or or some uh existing uh
+[00:11:23] project doo2 is is fully backwards
+[00:11:26] compatible with node when using ES
+[00:11:30] and doo2 understands your package Json
+[00:11:33] node modules and npm
+[00:11:35] workspaces npm packages are supported
+[00:11:39] even complex ones like
+[00:11:42] grpc or ones that use native extensions
+[00:11:46] the so-called
+[00:11:47] napi um this allows you now in Dino 2 to
+[00:11:52] incrementally adopt Dino without doing
+[00:11:55] an overnight uh stop the world full
+[00:11:58] migration to see a complex node
+[00:12:01] application running in Dino let me show
+[00:12:03] you create next app so create next app
+[00:12:07] of course uh creates kind of a
+[00:12:09] boilerplate uh nextjs application and
+[00:12:12] normally you would do npx create next
+[00:12:14] app uh in Dino here I'm I'm actually
+[00:12:16] going to
+[00:12:18] do- mpm create next app and uh yeah
+[00:12:24] we're going to run kind of the creation
+[00:12:26] script and let's choose all the default
+[00:12:29] options
+[00:12:30] here and wait a second while npm
+[00:12:33] installs
+[00:12:41] it takes a while because npm is slow
+[00:12:45] we'll see how to alleviate that in a
+[00:12:57] second possibly the internet
+[00:13:01] slow possibly I don't have internet okay
+[00:13:04] now I do have
+[00:13:06] internet here it is actually forking out
+[00:13:09] to node and using
+[00:13:13] npm but uh when when we're done we we
+[00:13:16] finally have this this my app folder uh
+[00:13:18] with a node modules folder in it of
+[00:13:20] course and a package Json a typical
+[00:13:22] create next app uh in Dino now dino
+[00:13:26] tasks Dino understands all of these
+[00:13:28] things so you can run doot task and
+[00:13:31] you'll see a list of available commands
+[00:13:33] here like doo Dev and build and start
+[00:13:35] and lint let's run the dev server Now
+[00:13:37] with uh dino so dinot task Dev will
+[00:13:41] actually start the nextjs dev server
+[00:13:43] here at Port 3000 and uh yeah you can
+[00:13:47] see it running just to kind of clarify
+[00:13:50] that this is working correctly let's
+[00:13:53] just edit this uh page TSX file and and
+[00:13:57] uh we'll just say get started by editing
+[00:13:59] and write Dino instead here and uh yeah
+[00:14:02] hot module reloading works all of this
+[00:14:05] is being executed by by the dino
+[00:14:09] runtime it's not just next remix Astro
+[00:14:13] and many other Frameworks are supported
+[00:14:15] by
+[00:14:17] doo in addition to full backwards
+[00:14:20] compatibility with node applications all
+[00:14:23] Doo programs can now import node
+[00:14:25] libraries in the form of npm packages
+[00:14:29] without requiring a package Json or node
+[00:14:31] modules folder and secure by default
+[00:14:33] execution is
+[00:14:35] maintained let's take a look at this in
+[00:14:37] action with our LS example here and
+[00:14:40] let's just try to make some color output
+[00:14:42] using uh the npm chalk library to do
+[00:14:45] that in Dino you can just do import
+[00:14:47] chalk from npm colon
+[00:14:54] chalk note uh Auto formatting is
+[00:14:57] happening in the background and uh we
+[00:15:00] can just use chalk as normal so chalk
+[00:15:02] say BG blue for for a blue background
+[00:15:07] and uh files is actually an array so
+[00:15:09] let's let's just kind of join that with
+[00:15:11] new line character so uh
+[00:15:14] dino main TS running this again will hit
+[00:15:18] this permission prompt so what's
+[00:15:20] happening is is that chalk is trying to
+[00:15:23] access VAR various environment variables
+[00:15:26] Force color here let's allow that by
+[00:15:28] saying yes TF build let's allow that
+[00:15:31] term
+[00:15:33] CI team City version color term if we
+[00:15:36] say yes to all of those we we do finally
+[00:15:39] get uh the proper output here with with
+[00:15:41] blue background color we can avoid those
+[00:15:44] permission prompts by adding an allow n
+[00:15:48] flag and then we don't get those or or
+[00:15:50] just just A- capital E for for short
+[00:15:54] Dino D
+[00:15:57] rer but actually there's a better way to
+[00:16:00] do this in in Dino let me show you how
+[00:16:03] you can get color output just as as an
+[00:16:05] example of of kind of how Dino uses web
+[00:16:08] standard apis how you can get color
+[00:16:10] output in in a way that also works in
+[00:16:13] web browsers so console
+[00:16:16] log percent
+[00:16:18] C actually allows you to supply some
+[00:16:21] some CSS so we'll we'll do uh files join
+[00:16:25] back slashin
+[00:16:32] and we can just say background color
+[00:16:35] let's change it to Red
+[00:16:38] for and uh this this should give us our
+[00:16:41] our red background uh LS for whatever
+[00:16:45] reason you you might want that this
+[00:16:46] doesn't doesn't actually read any
+[00:16:48] environment variabl so we can we can
+[00:16:50] remove the the allow n flag from from
+[00:16:53] the
+[00:16:55] execution just to recap in doo2 you can
+[00:16:58] run existing node applications Doo now
+[00:17:02] understands your package Json and node
+[00:17:04] modules folders out of the box and if
+[00:17:07] you're not using package Json Dino
+[00:17:10] allows you to use the full breadth of
+[00:17:12] npm libraries in your Dino code without
+[00:17:14] any configuration and allowing them to
+[00:17:17] be secure by default and that's
+[00:17:19] ecosystem
+[00:17:25] compatibility now let's talk about
+[00:17:27] package management with din support of
+[00:17:29] package Json and node modules we've
+[00:17:32] added three new subcommands to help you
+[00:17:34] manage these they're really similar to
+[00:17:37] npm you should should basically
+[00:17:39] immediately know what they do doo
+[00:17:41] install Dino add and doo
+[00:17:44] remove Dino install inspects your
+[00:17:47] package Json and installs dependencies
+[00:17:50] but really really fast when you have a
+[00:17:52] package Json Dino will install your
+[00:17:55] dependencies in the node modules folder
+[00:17:58] creating one in in your project tree if
+[00:18:00] you don't have a package Json it will
+[00:18:02] look at your Doo Json file find any
+[00:18:04] dependencies in an import map and cach
+[00:18:07] those globally Doo add and Dino remove
+[00:18:10] are really simple sub commands that add
+[00:18:13] and remove dependencies from from a a
+[00:18:15] package Json or Doo Json file let's take
+[00:18:18] a deeper look at Dino install we're back
+[00:18:20] in our create next app where we have a
+[00:18:24] node modules folder that create next app
+[00:18:27] created actually NP M install created
+[00:18:30] this create next app ran npm
+[00:18:33] install this is a folder that has
+[00:18:36] roughly 319 megabytes of dependencies
+[00:18:39] let's see what Dino install does by just
+[00:18:42] removing this directory and then running
+[00:18:44] Doo install it happens really fast now
+[00:18:48] we have a new node modules folder with
+[00:18:51] the same size as
+[00:18:54] before and of course you can run nextjs
+[00:18:58] by running Doo task Dev that's what Dino
+[00:19:00] install does but if this was all there
+[00:19:03] was to package Management in Dino this
+[00:19:05] would be pretty disappointing which is
+[00:19:07] why it's not let's talk about jsr the
+[00:19:10] successor to npm jsr is a new package
+[00:19:14] registry where you can publish
+[00:19:17] JavaScript code and share it with people
+[00:19:19] and it's not just JavaScript typescript
+[00:19:21] is also supported jsr is meant for the
+[00:19:25] future it is a registry that that is not
+[00:19:29] just for node but for all JavaScript
+[00:19:32] runtimes and we need a registry that can
+[00:19:36] support all of those different
+[00:19:39] runtimes jsr only supports ecmascript
+[00:19:43] modules not not common JS uh so kind of
+[00:19:46] forces you into the future in a certain
+[00:19:49] way and is really designed to work with
+[00:19:53] npm and not against it so meaning that
+[00:19:57] that packages in in jsr can actually
+[00:20:00] have npm dependencies so in a sense it's
+[00:20:02] a superet of of npm jsr of course
+[00:20:07] provides really great developer
+[00:20:08] experience for consumers and Publishers
+[00:20:11] of packages and and we'll see that in a
+[00:20:13] second Dino standard library has been
+[00:20:15] developed over the past four years it's
+[00:20:18] a great set of utility functions in all
+[00:20:22] sorts of areas and we have now
+[00:20:25] stabilized the Dos standard library to
+[00:20:29] 1.0 and published it to
+[00:20:32] jsr also this set of of libraries is not
+[00:20:36] just for Dino now you can actually
+[00:20:38] import a lot of the standard Library
+[00:20:41] modules in node and other runtimes so
+[00:20:44] instead of needing to know all sorts of
+[00:20:46] different npm packages you can actually
+[00:20:49] just use this standard library and my
+[00:20:51] hope is that this can serve as a base
+[00:20:54] and yeah help help Level Up Ja
+[00:20:56] JavaScript so for example in instead of
+[00:20:59] using just you might use testing or
+[00:21:01] instead of using chai you could use
+[00:21:04] expect or for command line flag parsing
+[00:21:07] maybe instead of using minimist you can
+[00:21:09] just use CLI or instead of low Dash use
+[00:21:12] collections uh and many other packages
+[00:21:16] are
+[00:21:17] available let's make use of one of these
+[00:21:19] standard libraries the file system
+[00:21:22] library and we'll we'll try to use that
+[00:21:24] to improve our LS
+[00:21:26] demo so let's just go to the jsr website
+[00:21:30] and search for STD
+[00:21:32] fs and this is has various file system
+[00:21:36] functionalities helpers for for file
+[00:21:38] system and uh let's search for walk here
+[00:21:41] which gives you the functionality to
+[00:21:43] kind of recursively walk through a
+[00:21:44] directory tree it's really similar to
+[00:21:47] the dino reader except it's recursive so
+[00:21:50] it also takes a string argument and
+[00:21:51] returns an async iterable let's make use
+[00:21:53] of this by just copying this import here
+[00:21:57] and pasting it into to our
+[00:22:00] demo we can make use of it basically
+[00:22:03] immediately by replacing the dino reader
+[00:22:06] with with walk and uh that's all that we
+[00:22:09] need to do
+[00:22:12] here we can just run this code now and
+[00:22:15] you might notice that there's quite a
+[00:22:17] few more files now let's actually change
+[00:22:21] so it's entry. name is is just the the
+[00:22:25] the file name but if we do entry. path
+[00:22:28] we'll actually get absolute Paths of all
+[00:22:31] of these things and you can see that
+[00:22:32] it's kind of recursively jumping into
+[00:22:35] like the the jsr directory in this case
+[00:22:38] let's let's actually make those absolute
+[00:22:41] paths into relative paths by using one
+[00:22:43] of the node built-in libraries node path
+[00:22:46] just to give you a sense of what it's
+[00:22:48] like to pull in node built-in libraries
+[00:22:51] so you can import uh relative from node
+[00:22:55] colon path a library that I assume many
+[00:22:59] people are familiar with um and all we
+[00:23:02] need to do here is is uh replace this
+[00:23:05] this entry path here with
+[00:23:07] relative uh dur comma entry path to uh
+[00:23:12] actually make these uh relative
+[00:23:18] paths so that's all there is to to
+[00:23:21] pulling in jsr dependencies again we
+[00:23:24] don't need to create any extra files
+[00:23:26] there's no node modules folder there 's
+[00:23:28] no installation at all it kind of
+[00:23:31] happens
+[00:23:32] automatically let's try to let's say we
+[00:23:35] want to publish this and share this this
+[00:23:37] tree function with people let's see what
+[00:23:39] it's like to actually publish to jsr so
+[00:23:43] all I need to do here is go into my jsr
+[00:23:47] window my browser and click publish and
+[00:23:51] I'll I'll publish this under the rise
+[00:23:53] scope and the package name let's call it
+[00:23:56] demo and uh when you you click publish
+[00:23:59] here it's going to give you a little
+[00:24:01] Json snippet that you can drop into jsr
+[00:24:03] Json or Doo Json and let's just create I
+[00:24:09] I'll do a dino Json so I'll create a doo
+[00:24:12] Json file and I'm just going to update
+[00:24:15] the version here to to version three
+[00:24:17] because I've tried this before and uh
+[00:24:20] yeah the the exports actually I I don't
+[00:24:22] have a mod TS but a main TS file so let
+[00:24:25] let me modify that and then in my main
+[00:24:28] TS file I need to export this function
+[00:24:32] and uh I don't actually want this this
+[00:24:34] uh these two lines here at the bottom to
+[00:24:36] execute on every every time you import
+[00:24:39] it so I'm actually going to wrap those
+[00:24:41] in in a if import meta
+[00:24:52] Main and uh yeah we should be ready to
+[00:24:55] publish so all we need to do is is run
+[00:24:57] Doo publish
+[00:25:02] and I'm getting two errors here uh the
+[00:25:04] first one is is on line one with this
+[00:25:06] jsr import I don't have a version
+[00:25:08] specifier so it's fine to import
+[00:25:11] packages from jsr and not have a version
+[00:25:13] constraint but if you're going to use
+[00:25:16] those packages and and publish a library
+[00:25:18] to to jsr you actually need to be a
+[00:25:21] little bit more specific about what
+[00:25:22] version you're depending on so so that
+[00:25:24] we can resolve those packages uh
+[00:25:27] concretely and and we'll depend on on
+[00:25:29] version one sver version one of of that
+[00:25:31] the other thing it's complaining about
+[00:25:33] here is I'm missing license field in my
+[00:25:35] doo Json file so let me add license and
+[00:25:38] we'll just call it MIT and let's run
+[00:25:41] Dino publish again I need to authorize
+[00:25:44] this publishing again I'm logged into
+[00:25:46] the website and we have some security
+[00:25:49] constraints on on jsr wait a second and
+[00:25:52] yeah this is this is now published so uh
+[00:25:54] you can see the doc generation happening
+[00:25:57] here and and you can see the the tree
+[00:25:59] function has been published to
+[00:26:02] jsr there's no there's no actual JS doc
+[00:26:05] or or documentation for this yet and
+[00:26:08] yeah maybe I'll I'll just show you what
+[00:26:10] it's like to add some docs here so let
+[00:26:13] me add some js docs so we'll we'll just
+[00:26:15] say uh recursively list out files in a
+[00:26:21] directory and all we need to do then is
+[00:26:24] Bump the
+[00:26:25] version and run publish again
+[00:26:30] approve
+[00:26:30] it wait a
+[00:26:36] second and there we go now now we can
+[00:26:39] see the doc string represented in the
+[00:26:41] autogenerated
+[00:26:44] documentation to recap package
+[00:26:46] management improvements we've added
+[00:26:48] three new subcommands Doo install Doo
+[00:26:51] add and doo remove to help you manage
+[00:26:53] package Json or or Doo Json files the
+[00:26:56] dependencies in them we we've introduced
+[00:26:59] jsr a modern registry for publishing
+[00:27:02] JavaScript and typescript code that
+[00:27:04] supports all run times and we've
+[00:27:07] stabilized the dino standard library to
+[00:27:09] sver 1.0 and published it to jsr and
+[00:27:12] made it available to all of these
+[00:27:15] different runtimes out there that's
+[00:27:17] package
+[00:27:23] management we've been talking to a lot
+[00:27:26] of users at larger companies about their
+[00:27:29] usage of Dino and the feedback that
+[00:27:32] we've received is that it's great but uh
+[00:27:35] there are a couple of missing points
+[00:27:38] private Registries monor repo support
+[00:27:41] and stability guarantees or or long-term
+[00:27:45] support so let's talk about each of
+[00:27:47] those first of all private Registries
+[00:27:50] are Now supported in doo2 uh essentially
+[00:27:53] in the same way that they're supported
+[00:27:55] in node you can add a mpm RC file use
+[00:27:59] the same syntax that you do in node and
+[00:28:02] you can access your company's internal
+[00:28:04] private registry server that easy as
+[00:28:07] that you can pull in uh those those
+[00:28:09] private mpm
+[00:28:12] packages Dino workspaces is similar to
+[00:28:16] npm workspaces in fact interoperates
+[00:28:18] with with uh npm workspaces but
+[00:28:21] essentially is is monor repo support it
+[00:28:23] allows you to have multiple packages in
+[00:28:26] a single mono repo
+[00:28:28] and Dino workspaces lets you mix and
+[00:28:31] match uh package Json modules and Dino
+[00:28:35] Json modules uh seamlessly and and has
+[00:28:38] the the great developer experience that
+[00:28:41] uh one knows and loves from Dino we've
+[00:28:44] seen that larger more mature development
+[00:28:47] teams can't upgrade at the same Cadence
+[00:28:50] that we are releasing Dino minor
+[00:28:52] releases we release every six
+[00:28:54] weeks so to help support those teams we
+[00:28:59] are introducing long-term support Branch
+[00:29:03] uh LTS releases this is going to start
+[00:29:06] with Dino 2.1 which will be released uh
+[00:29:10] in October and we will be backporting
+[00:29:13] critical bug fixes to this Branch for 6
+[00:29:16] months this LTS release of course will
+[00:29:18] be MIT licensed freely available like
+[00:29:21] the rest of Dino but is largely aimed at
+[00:29:24] at companies that need to kind of vet
+[00:29:27] individual binaries or have processes
+[00:29:30] for for introducing new versions We have
+[00:29:33] additional Enterprise support commercial
+[00:29:35] support available you can learn more
+[00:29:37] about that at dino.com Enterprise I want
+[00:29:40] to touch on Dino's performance Dino's
+[00:29:42] performance is great for instance Doo's
+[00:29:46] HP server has almost twice the
+[00:29:49] throughput as
+[00:29:51] nodes JavaScript runtimes are
+[00:29:54] multifaceted and have lots of different
+[00:29:56] functionality and so so it's hard to sum
+[00:29:59] it up in a single number or a single
+[00:30:01] graph but here are a number of
+[00:30:04] benchmarks that give you some broad idea
+[00:30:07] of how Dino performs overall Dino
+[00:30:11] performs
+[00:30:13] fantastic and there's much more we're
+[00:30:16] just scratching the surface here we
+[00:30:18] haven't talked about web GPU we haven't
+[00:30:20] talked about dos documentation
+[00:30:22] generation we haven't talked about our
+[00:30:25] uh ffi or fresh or D deploy I do want to
+[00:30:29] leave you with one more demo here on our
+[00:30:32] Jupiter notebook support so I'm going to
+[00:30:35] just open up Jupiter
+[00:30:39] notebooks and I'm going to create a
+[00:30:44] new
+[00:30:47] notebook all you need to do is switch
+[00:30:49] the kernel from python the default of
+[00:30:52] course to Dino and you can now execute
+[00:30:55] some dino code uh what I'm going to do
+[00:30:59] is pull in observable plot and uh plot
+[00:31:02] some stuff uh with with JavaScript so
+[00:31:05] let's let's do that so import Star as
+[00:31:08] plot from uh npm colon observable HQ
+[00:31:13] plot is uh let's make sure that works uh
+[00:31:16] yes uh observable plot is uh just a
+[00:31:21] fantastic uh uh Graphics library for for
+[00:31:24] analyzing data I need a little bit of
+[00:31:26] data to analyze so let me pull in a data
+[00:31:30] set called Penguins so import
+[00:31:37] penguins penguins from uh and this is
+[00:31:41] just a little uh library that I have
+[00:31:43] called
+[00:31:45] Jupiter DH helper on jsr Penguins is an
+[00:31:49] async function that returns some data so
+[00:31:52] I'll just await penguins and let's see
+[00:31:55] if we can actually load some data here
+[00:31:58] yeah so here's here's a table this this
+[00:32:00] data set is a bunch of measurements of
+[00:32:01] penguins just just kind of a sample data
+[00:32:03] set we need one more uh object here
+[00:32:06] which is a document object in order to
+[00:32:09] interact with observable plot so let me
+[00:32:11] let me assign this penguin's uh uh data
+[00:32:14] set to P here and let me print it out
+[00:32:18] again just so I can see and yeah let's
+[00:32:21] do a scatter plot with kind of two two
+[00:32:23] rows of of this data here so observable
+[00:32:26] works like this you do plot
+[00:32:28] plot and you give it some marks which is
+[00:32:31] in Array and you give it this document
+[00:32:34] inside of marks if you want to do a
+[00:32:36] scatter plot do plot Dot and we'll just
+[00:32:39] do a P2 records to get uh our Penguins
+[00:32:43] data set in the right format and then we
+[00:32:45] just need to give it X and Y coordinates
+[00:32:47] here yeah let's just say const x equals
+[00:32:51] Coleman length I think this is some
+[00:32:53] measurement of a penguin's uh beak size
+[00:32:56] maybe and I don't know let's let's
+[00:32:58] measure it against flipper flipper
+[00:33:00] length const Y is flipper
+[00:33:03] length and yeah there we go we we have a
+[00:33:06] scatter plot it's black and white you
+[00:33:08] know maybe not so interesting maybe we
+[00:33:10] can add some color here and and kind of
+[00:33:12] color it based on
+[00:33:14] species and yeah suddenly you can kind
+[00:33:16] of see three different species of
+[00:33:18] penguins kind of broken out by their
+[00:33:21] flipper length and Beak lengths um so
+[00:33:25] yeah just to take everything full circle
+[00:33:27] here let's uh pull in that tree function
+[00:33:30] that we just published to jsr and plot a
+[00:33:33] directory tree with that so first of all
+[00:33:36] import
+[00:33:37] tree from jsr
+[00:33:41] rdo2
+[00:33:43] DDO and yeah let's just make sure this
+[00:33:46] works so await tree users Ry SRC Dino
+[00:33:51] runtime my favorite directory and yeah
+[00:33:54] we've got we've got an array of data
+[00:33:56] here let's ass this to a
+[00:34:00] variable uh files let's say and yeah
+[00:34:03] let's let's do some observable observing
+[00:34:07] so plot plot marks is in Array and we'll
+[00:34:11] just do plot tree and we'll give files
+[00:34:16] here and again
+[00:34:18] document and yeah suddenly you have a
+[00:34:22] visual representation of a file tree can
+[00:34:25] maybe even clean it up a little bit more
+[00:34:27] more by turning off the axis and giving
+[00:34:30] it a a
+[00:34:33] margin but uh yeah same thing observable
+[00:34:36] is super cool check it out and it
+[00:34:38] interacts very nicely with Dino and
+[00:34:40] Jupiter notebooks like I said before
+[00:34:43] there's so much more to dino we're just
+[00:34:45] scratching the surface Dino is ready for
+[00:34:47] production now I can't wait for you to
+[00:34:51] explore it and by the way we we've we
+[00:34:54] are also introducing a new logo so check
+[00:34:56] that out thank
+[00:35:03] everyone hello
+[00:35:05] everybody this is the dino team
+[00:35:09] streaming to you live from a hotel
+[00:35:11] conference room in
+[00:35:13] Dublin I'm Joe I'm the devel here at
+[00:35:16] Dino and I'll be our host for this live
+[00:35:19] stream uh I hope you're super excited
+[00:35:21] about Dino to I know we all are the
+[00:35:24] whole team we're actually here together
+[00:35:26] for an offsite that was happening uh
+[00:35:28] we're in Ireland it's about 5:30 p.m.
+[00:35:31] for us at the moment but we thought we'd
+[00:35:33] take the opportunity to open the floor
+[00:35:35] up to the entire team to your questions
+[00:35:38] we're looking forward to hearing what
+[00:35:40] you're excited about what you'd like to
+[00:35:42] know and you can get the chance to
+[00:35:44] actually ask questions of the engineers
+[00:35:46] who have built the runtime that you love
+[00:35:49] but before we get to the questions let's
+[00:35:51] actually introduce the team they'd
+[00:35:52] really love to meet you all as well and
+[00:35:54] hear a little bit about what everyone
+[00:35:56] has worked on so first up let's have LCA
+[00:35:59] hi folks uh I'm luuka I've been working
+[00:36:01] at Dino for actually ever since the 1.0
+[00:36:04] release um and I've been working on Doo
+[00:36:07] 2 for a while mostly on node crypto um
+[00:36:10] upgrades and jsr yeah um I want to
+[00:36:13] introduce Dy
+[00:36:17] next uh hello uh I'm Dy uh I worked on
+[00:36:22] framework compa like nextjs Astro for
+[00:36:25] Dino to and doo compile and yeah I'm
+[00:36:27] really excited about R 2 uh yeah
+[00:36:31] David hi everyone uh I'm David I work on
+[00:36:34] the C team uh I've worked mostly on
+[00:36:38] workspaces and mpm resolution uh most
+[00:36:41] recently and uh
+[00:36:45] Nathan hi uh I'm Nathan uh I've been
+[00:36:48] working on node compatibility like
+[00:36:50] angular and playright um also the dino
+[00:36:54] install sub command and uh the dino ser
+[00:36:57] parallel option uh
+[00:37:02] Gus hello I'm Gus or snack um been Doo
+[00:37:06] for a few months uh I work on CLI on
+[00:37:09] node compatibility like the node API um
+[00:37:12] and asent Cooks um I also work on
+[00:37:14] maintaining and upgrading our uh
+[00:37:16] JavaScript V8 bindings uh keep those
+[00:37:19] nice and fresh um next we got
+[00:37:24] Josh hey Josh uh fr developer at Dino uh
+[00:37:29] I have been working mainly on the
+[00:37:31] website and the new dino brand and uh
+[00:37:34] docs here and there lots of other fun
+[00:37:36] stuff uh especially in tandem with our
+[00:37:38] designer
+[00:37:42] John hey I'm John a product designer
+[00:37:45] here I work on docs and jsr and uh Doo
+[00:37:49] deploy and some other new stuff that we
+[00:37:51] haven't seen yet so um yeah I guess Leo
+[00:37:56] over here couple more
+[00:37:59] hey I'm Leo um I work on jsr web apis
+[00:38:03] and a bunch of dogs and dog Generation
+[00:38:05] stuff and here are BK Ry and
+[00:38:10] bdone
+[00:38:12] in I see a lot of folks on the live
+[00:38:14] stream asking about how they can get
+[00:38:16] stickers uh if you would like to get
+[00:38:19] some stickers uh if you contribute an
+[00:38:22] example to our doc site we will happily
+[00:38:25] send you out some stickers so get
+[00:38:27] contributing but team introduce
+[00:38:29] yourselves uh hi I'm BK I'm the team
+[00:38:33] lead for the dino
+[00:38:34] CLI um I've been working on Dino for
+[00:38:37] over five years and uh I wrote stuff
+[00:38:41] like Dino bench or Dino test do land but
+[00:38:45] I pretty much touched everything there
+[00:38:47] is at some point Ryan I'm Ryan you just
+[00:38:51] listen to me stutter through a prolonged
+[00:38:54] introduction to dino uh hopefully it
+[00:38:57] wasn't too painful uh somehow I've
+[00:38:59] become a marketing mascot for for this
+[00:39:02] company uh uh but uh yeah also also
+[00:39:05] co-founded it here with with Bert yeah
+[00:39:08] I'm Bert Ryan and I go uh back more than
+[00:39:12] a decade to the early days of node.js
+[00:39:14] actually where you know Ryan of course
+[00:39:16] invented that and I was involved in the
+[00:39:18] development of libuv and porting it to
+[00:39:20] Windows and actually made it possible I
+[00:39:24] yeah did did the all together with e by
+[00:39:27] the way who is in the back of the room
+[00:39:28] and did introduce himself should point
+[00:39:31] that out yes I I forgot to say we have
+[00:39:33] of course also got the deploy team with
+[00:39:35] us here today say hi deoy
+[00:39:39] team awesome so let's jump straight in
+[00:39:42] uh with the most important question
+[00:39:44] which has come from the chat which is
+[00:39:45] Ryan how did you manage to code all of
+[00:39:47] that without Co without co-
+[00:39:49] pilot uh I think I did have co-pilot on
+[00:39:53] in there uh but maybe I disabled it um
+[00:39:57] yeah really I practice life demos like
+[00:39:59] many many times uh and still still
+[00:40:01] stutter through them excellent so uh
+[00:40:04] first of all a question from me like
+[00:40:06] what are the changes that you're most
+[00:40:08] excited about that have come in from
+[00:40:10] dino2 uh like do you do you have a
+[00:40:12] personal favorite
+[00:40:14] you oh I love all of them
+[00:40:17] honestly that's cheating uh sure it is
+[00:40:21] uh well I believe I'm most excited about
+[00:40:24] giving folks ability to run their
+[00:40:26] existing projects uh that were probably
+[00:40:29] offered for nodejs with Dino uh with
+[00:40:32] little to no changes that's a huge
+[00:40:36] thing uh I really like jsr uh it's it's
+[00:40:40] fantastic um all the note compet stuff
+[00:40:43] is is good and necessary but uh it's
+[00:40:47] more fun when we can kind of push the
+[00:40:49] envelope of what's possible in
+[00:40:53] JavaScript yeah for me it would also be
+[00:40:55] exactly that uh the compatibility with
+[00:40:58] you know the ecosystem in in a broad
+[00:41:00] sense is really important for me uh I
+[00:41:03] also really like workspaces to be honest
+[00:41:05] uh I think it's a it's easy for to
+[00:41:08] forget that but I think it's very very
+[00:41:10] useful nice awesome uh some some cool
+[00:41:14] things for people to look out for
+[00:41:16] particularly for adino 2 so um there's a
+[00:41:20] been a couple of people asking in the
+[00:41:22] chat what's happening with bundling in
+[00:41:24] dino2 is that something that's going to
+[00:41:26] be supported what what's the
+[00:41:28] plan uh well the plan is still in the
+[00:41:31] works uh as you folks probably know we
+[00:41:34] deprecated and remove Dino bundle but
+[00:41:36] we're not giving up on it we're just
+[00:41:38] regrouping here and figuring out the
+[00:41:40] best Solutions so we can actually uh
+[00:41:42] cater to your needs and and satisfy what
+[00:41:45] you uh want to do when bundling with
+[00:41:47] Dino so stay tuned for some news
+[00:41:50] bundling is like a very hard problem in
+[00:41:54] general uh and we've had a simple
+[00:41:56] solution that uh just compiles all of
+[00:42:00] your code into into a single file and
+[00:42:01] that's nice for some use cases but in
+[00:42:04] general for websites bundling is is a
+[00:42:07] very very difficult problem and Dino is
+[00:42:11] more focused on executing JavaScript
+[00:42:14] than uh solving this other very
+[00:42:16] difficult problem that of bundling and
+[00:42:19] we are not satisfied with uh how Doo
+[00:42:23] bundle operated uh and didn't feel that
+[00:42:26] we could contribute something that was
+[00:42:29] state-of-the-art for website bundling
+[00:42:32] and so removed it so uh we'll we we
+[00:42:36] acknowledge that this is an important
+[00:42:37] part of the JavaScript tool chain but uh
+[00:42:41] yeah we are going to be looking at uh
+[00:42:44] how to improve that situation in the
+[00:42:46] future you know I I I think this this
+[00:42:49] might mean uh uh shelling out to to some
+[00:42:53] other bundler like like es build uh it
+[00:42:55] might mean uh kind of working with uh
+[00:43:00] yeah there's many projects out there
+[00:43:01] that are that are attempting this and
+[00:43:03] we'll we'll integrate that somehow into
+[00:43:05] the the overall Doo tool chain but
+[00:43:07] that's uh not here in
+[00:43:09] doo2 cool um and there's a few people
+[00:43:12] asking about um
+[00:43:14] compile uh
+[00:43:16] so are we going to be able to take the
+[00:43:20] node tools like things that require node
+[00:43:23] installed compile them and then remove
+[00:43:25] the node requirement for end users
+[00:43:28] oh that's a tough one uh all depends on
+[00:43:31] the particular tool it's hard to say and
+[00:43:34] mass that all of them will work um but
+[00:43:39] that's certainly possible for some of
+[00:43:40] them um I think es L might be a good
+[00:43:44] example that could be compiled down and
+[00:43:47] not require node anymore um but yeah
+[00:43:50] pretty much you need to evaluate on the
+[00:43:52] tool about by Tool basis because these
+[00:43:54] tools are really complex and they do
+[00:43:57] uh a lot of intricate
+[00:44:00] operations uh so can't really promise
+[00:44:02] that all of them will be able to be
+[00:44:04] compiled down with yeah and there was a
+[00:44:07] lot of people asking about uh electron
+[00:44:10] and like desktop apps are we going to be
+[00:44:12] able to build
+[00:44:14] those uh so Doo does have uh some some
+[00:44:18] pretty interesting support for uh
+[00:44:21] windowing and I'm blinking on the the
+[00:44:23] actual uh
+[00:44:25] uh sui no um uh for for binding a a
+[00:44:31] window um
+[00:44:34] there's window surface unsafe window
+[00:44:38] surface dy's got some demos out there of
+[00:44:41] of kind of drawing uh Native Native
+[00:44:43] applications um and I think the the very
+[00:44:46] interesting ones are taking web GPU uh
+[00:44:48] without a browser and kind of drawing a
+[00:44:50] window directly on there he's he's got
+[00:44:52] like a Flappy Birds demo that you know
+[00:44:54] is is GPU accelerated and drying on a
+[00:44:57] desktop and can use Doo compile and
+[00:45:00] compile down into a binary but actually
+[00:45:02] doesn't use you know is not bundling a
+[00:45:05] browser at all um electron likee
+[00:45:07] capability is uh you know likely you
+[00:45:11] want to have a a web browser uh bundle
+[00:45:14] along with that and I think would
+[00:45:15] require kind of more more infrastructure
+[00:45:18] um but uh you know I think this can be
+[00:45:20] built with doo
+[00:45:21] compile with some work awesome and and
+[00:45:25] uh this is maybe a difficult question
+[00:45:27] off the top of your head maybe you know
+[00:45:29] do you know how big the compiled one
+[00:45:30] time is it's uh I think 60 megabytes or
+[00:45:34] so on Macintosh I think it depends on on
+[00:45:37] the the platform which you know you you
+[00:45:39] might bulk at if you're a go user and
+[00:45:42] and seeing a hello world demo that is a
+[00:45:45] couple of kilobytes large but uh it it
+[00:45:48] is the full JavaScript runtime so the
+[00:45:50] way that Dino compile works is it kind
+[00:45:51] of takes your JavaScript and attaches it
+[00:45:54] to the end of a slimmed Down Dino binary
+[00:45:57] uh it's it's not compiling your
+[00:45:59] JavaScript into into assembly that
+[00:46:02] that's not possible JavaScript is is a
+[00:46:04] very Dynamic language but frankly does
+[00:46:06] it really matter like 60 megabytes uh I
+[00:46:09] think I think it's a kind of academic
+[00:46:11] argument it might matter in in certain
+[00:46:13] situations but in those certain
+[00:46:15] situations JavaScript is probably not
+[00:46:17] the right tool for the job in the first
+[00:46:20] place uh and somebody asked uh I don't
+[00:46:23] actually know can we install Dina with
+[00:46:25] Homebrew at the moment are we planning
+[00:46:27] to be able to install Dino with home bre
+[00:46:29] uh oh yeah certainly uh not right now uh
+[00:46:32] We've released Dino to like literally a
+[00:46:34] couple hours ago and Nathan back here is
+[00:46:36] uh working really hard to uh provide the
+[00:46:39] home bre build so expect it to be
+[00:46:42] available uh maybe in matter of hours or
+[00:46:44] maybe in a couple days but yeah it's
+[00:46:46] it's getting done awesome that's really
+[00:46:49] cool to hear um and there was a lot of
+[00:46:51] love for uh fresh happening in the chat
+[00:46:54] while the video was streaming so what's
+[00:46:56] happening with fresh and is there going
+[00:46:58] to be a fresh two fresh 2 is coming uh
+[00:47:01] we've been working on this Dino 2 for
+[00:47:04] for a while now but uh it's it's uh you
+[00:47:07] know we're we're dotting our eyes and
+[00:47:09] crossing our tees so uh yeah stay tuned
+[00:47:13] awesome and how about deploy uh does
+[00:47:15] deploy support D2 not yet but we are not
+[00:47:19] this hour but maybe in the next hour uh
+[00:47:22] very soon now yeah very cool very cool
+[00:47:27] okay and uh there's somebody asking uh
+[00:47:30] does Dino work with playright do we
+[00:47:32] support play uh yeah it does work with
+[00:47:35] playright uh certainly Linux ma um so
+[00:47:39] just try it out and you should be good
+[00:47:41] to
+[00:47:42] go excellent um and what else have we
+[00:47:46] got in here does Dino cash completely
+[00:47:48] replace the timeout warmup in containers
+[00:47:52] now oh that's a tough
+[00:47:54] one I don't think Dino cash produces the
+[00:47:57] V8 code cache uh no it does not um
+[00:48:02] however you can still use Doo run to uh
+[00:48:05] warm up the V8 caches and
+[00:48:08] have pretty much the as much data as
+[00:48:11] possible cached to improve your startup
+[00:48:14] time so um the answer would be no Dino
+[00:48:17] cach does not replace it by the way
+[00:48:19] switch your Dino cache usage to dino
+[00:48:21] install that's the preferred way of of
+[00:48:23] naming it Dino cache is still there um
+[00:48:26] but it's it's a to-do for Dino install
+[00:48:29] to produce the V8 code cache which is
+[00:48:32] what's necessary to really optimize the
+[00:48:34] cold start time uh and we we have a blog
+[00:48:37] post on uh AWS Lambda cold start
+[00:48:40] optimization and and show how to do that
+[00:48:42] in a Docker file um yeah you can Google
+[00:48:46] it um and if you are if obviously if you
+[00:48:50] have a adino
+[00:48:52] 1x uh project where can we go to learn
+[00:48:55] about how to SW over to Doo
+[00:48:58] 2 uh well first of all if you do upgrade
+[00:49:02] Dino from Dino 1X to doo2 you will be
+[00:49:04] presented with this nice Banner linking
+[00:49:06] to the blog post uh but also to the
+[00:49:09] migration guide which should work you
+[00:49:11] through uh most of the changes required
+[00:49:14] and uh well there should not be too many
+[00:49:18] changes required we were really diligent
+[00:49:21] and and how you migrate from Doo 1 to
+[00:49:23] doo2 so hopefully just do doo upgrade
+[00:49:26] and everything still works but if you
+[00:49:28] need help go to uh dodo.com and search
+[00:49:31] for the migration guide
+[00:49:33] page awesome um so the website talks a
+[00:49:37] lot about Dino being secure but like
+[00:49:41] what does that actually mean in
+[00:49:42] comparison to node for
+[00:49:45] example that means that when you do any
+[00:49:48] sort of IO operation when you access the
+[00:49:51] operating system if you touch the disk
+[00:49:53] if you open a network connection if you
+[00:49:56] do some operating system you know you
+[00:49:58] try to to list the the network
+[00:50:01] interfaces uh you doo by default will
+[00:50:04] not allow that to happen uh they're
+[00:50:07] they're in a similar way that if you go
+[00:50:09] to a website that tries to open your uh
+[00:50:12] uh camera uh you it's you just don't
+[00:50:15] don't have that permission by default
+[00:50:17] like you have to kind of opt into that
+[00:50:19] permission and so similarly in in Dino
+[00:50:21] you need to opt into being able to read
+[00:50:24] from the file system for example or open
+[00:50:26] a network
+[00:50:29] connection awesome um okay what other
+[00:50:32] questions have we gotten from chat um
+[00:50:35] are we going to get jsr private packages
+[00:50:37] and self-hosting
+[00:50:39] maybe not
+[00:50:42] yet well if you're brave enough you can
+[00:50:45] certainly host your own uh jsr instance
+[00:50:47] and use it with Dino uh yeah yeah J jsr
+[00:50:52] is open source unlike the npm registry
+[00:50:55] uh and you you can can go find that code
+[00:50:58] uh github.com
+[00:51:00] dinoland jsr I believe and yeah host it
+[00:51:04] yourself you know it's it's uh it's
+[00:51:07] going to be more than like running a
+[00:51:08] single command of course and we we
+[00:51:10] haven't made that particularly easy
+[00:51:15] uh I you know I I think if if you do
+[00:51:19] need private uh private packages I think
+[00:51:23] the right way to go about that right now
+[00:51:24] is to have a uh npm private registry uh
+[00:51:29] as you normally would and Dino supports
+[00:51:31] that and and you can kind of pull in
+[00:51:32] packages via npm colon um having private
+[00:51:36] jsr registry is um something we've
+[00:51:39] discussed but uh and certainly possible
+[00:51:42] if if you if you kind of uh twiddle the
+[00:51:44] knobs enough but uh probably probably
+[00:51:47] not a happy path for most
+[00:51:49] people enough um okay and uh but you
+[00:51:54] mentioned that workspaces
+[00:51:56] sort of most excited feature that you've
+[00:52:00] added like could um could you expand a
+[00:52:02] little bit on like what workspaces are
+[00:52:05] and what the plan for extending
+[00:52:08] workspace functionality is in the future
+[00:52:10] I don't think I'm the right person to
+[00:52:11] ask how to Extended but workspaces
+[00:52:14] really helps you if you have a mo if you
+[00:52:16] have a mono repo where you develop um an
+[00:52:19] multiple applications or multiple Doo
+[00:52:21] programs and you need to share something
+[00:52:23] between them um but I think btech what
+[00:52:26] what what are we planning to do there
+[00:52:27] next uh well right now you can use um
+[00:52:31] Dino workspaces like let's say Dino
+[00:52:33] first but you can also use npm
+[00:52:35] workspaces with Dino and you can even
+[00:52:38] mix uh the two of them in in a single
+[00:52:40] monor repo so uh let's say you have an
+[00:52:44] existing app that consists of multiple
+[00:52:46] supporting libraries uh you don't have
+[00:52:48] to buy write in for all of it like Ryan
+[00:52:51] mentioned in the presentation you can
+[00:52:54] start small uh at a new d directory that
+[00:52:57] is Doo first and essentially mix and
+[00:53:00] match feel if you if you like the flow
+[00:53:02] and then migrate gradually so that's
+[00:53:04] like one of the coolest features of
+[00:53:06] Works spaces we have right now um but
+[00:53:09] obviously people have um a lot of
+[00:53:12] experience with um Works spaces in ER
+[00:53:15] and pnpm npm and we definitely want to
+[00:53:19] uh keep improving dins uh implementation
+[00:53:21] to make it more ergonomic and Powerful
+[00:53:24] as um as people need it
+[00:53:27] nice um so a few folks have mentioned
+[00:53:31] having the ability to create plugins or
+[00:53:33] extensions is that something that's in
+[00:53:36] the works like a yarn Plugin or like an
+[00:53:38] install hook or custom CLI
+[00:53:42] command I'm not sure I know yarn plugins
+[00:53:46] to be honest um well you can certainly
+[00:53:48] create CLI tools with d know like that's
+[00:53:52] pretty much one of the best use cases um
+[00:53:55] as Ryan present presented Doo compile
+[00:53:57] you essenti she get the single
+[00:53:58] executable uh so that's that's perfect
+[00:54:01] solution as for yarn plugins I'm really
+[00:54:05] not sure what to to answer here I'm not
+[00:54:07] familiar with them yeah what do what do
+[00:54:09] yarn plugins
+[00:54:11] do does anyone know what your plugins do
+[00:54:15] we don't have Marvin here resolution oh
+[00:54:18] custom resolution yeah I mean if if the
+[00:54:21] question is like how do you kind of do
+[00:54:22] your own custom resolution scheme uh
+[00:54:25] we're fairly adamantly against that
+[00:54:27] right we we we want kind of a defined
+[00:54:29] resolution uh mechanism so you know we
+[00:54:32] have these npm colon we have you can
+[00:54:34] pull in uh HPS spec uh uh you you can
+[00:54:37] pull in source code from URLs uh there's
+[00:54:41] a couple of defined paths for pulling in
+[00:54:43] packages but uh we don't want the
+[00:54:45] language to just go off in every
+[00:54:47] different direction like we we kind of
+[00:54:49] want a a structured language that has a
+[00:54:52] defined resolution scheme uh to this is
+[00:54:55] you know essentially what what makes uh
+[00:54:57] a lot of node uh tooling so complicated
+[00:55:00] is is that people like augment the
+[00:55:02] language and pass it through transpilers
+[00:55:04] and do all sorts of uh funky stuff with
+[00:55:07] it that uh ultimately results in in a
+[00:55:10] pretty complicated system but that said
+[00:55:13] I don't actually know what yarn plugins
+[00:55:14] do so that's
+[00:55:17] all assumption okay uh then moving on uh
+[00:55:21] someone has asked whether um security
+[00:55:23] tools like sneak are going to be able to
+[00:55:25] analyze the Dino source so that
+[00:55:27] Enterprise security groups are going to
+[00:55:29] be more willing to adopt Dino
+[00:55:32] LTS we should use sucket dodev instead
+[00:55:35] of sneak first of all um but uh uh uh
+[00:55:40] eventually yes uh we we're we're very
+[00:55:43] open to working with sneak or and uh I
+[00:55:45] I'm sure socket will will add support
+[00:55:47] before
+[00:55:48] that at the end of the day like you know
+[00:55:50] it's very you know vanilla JavaScript
+[00:55:53] that you write at Doo so tooling that
+[00:55:56] they already have that what should work
+[00:55:57] for node probably it's very easy to
+[00:55:59] adapt to you
+[00:56:01] know awesome and
+[00:56:04] uh when is dino2 going to be a certified
+[00:56:08] image for Lambda
+[00:56:13] say unknown yeah unknown we're
+[00:56:17] trying does doo2 work nicely with
+[00:56:20] Puppeteer yes it does
+[00:56:24] excellent um and are we getting native
+[00:56:28] uh SQL light API SQ light it's
+[00:56:33] implemented uh the uh Dy just just
+[00:56:37] implemented it yesterday the node colon
+[00:56:39] uh SQL light built-in library that that
+[00:56:42] node has I think we probably wait until
+[00:56:44] node UNF Flags it before we release it
+[00:56:48] um but uh given that we Implement all of
+[00:56:50] the no built-in apis if they stabilize
+[00:56:52] it we will we will follow close all
+[00:56:56] right well we're reaching the top of the
+[00:56:58] hour so maybe we could uh consider
+[00:57:02] wrapping it up but uh i' just like to
+[00:57:04] ask each of you and indeed anyone in the
+[00:57:07] room it's lovely to have you all here um
+[00:57:10] you know this is like a significant
+[00:57:11] milestone for Dino so what future enhan
+[00:57:15] enhancements are you personally excited
+[00:57:18] about like what's coming what can people
+[00:57:20] out there get excited
+[00:57:23] about the list is endless
+[00:57:26] uh no my personal favorite something
+[00:57:29] that we've been pondering for a long
+[00:57:31] time is maybe plings for for linting so
+[00:57:36] that you can uh use use your favorite
+[00:57:39] presets or write your own uh presets to
+[00:57:42] to enforce certain uh conventions across
+[00:57:45] your team and
+[00:57:48] Company I'm looking for DM Imports uh
+[00:57:52] we've been doing Luca has been doing
+[00:57:53] work in in tc39 to to kind of make sure
+[00:57:56] that this is uh sound with the language
+[00:57:59] uh and I think this is all kind of
+[00:58:01] worked out so I think very soon now
+[00:58:03] we'll we'll be adding the ability to to
+[00:58:06] just uh import a a wasm
+[00:58:08] binary I think mine would be uh so this
+[00:58:11] is really something that comes out of
+[00:58:12] our experience with doo deploy um we're
+[00:58:16] we're looking in at building uh
+[00:58:19] Telemetry and observability deep into
+[00:58:22] Dino uh so that would be very easy for
+[00:58:25] you to get tra traces and logs and
+[00:58:27] especially like associate them with
+[00:58:29] requests that come in through an HTP
+[00:58:31] server um and that's really to make like
+[00:58:33] operating you know a dino website much
+[00:58:36] easier and also just during development
+[00:58:38] that seems very useful so I think that's
+[00:58:41] you know around the corner but not yet
+[00:58:42] in 2 I might add interactive graphs and
+[00:58:47] notebooks so imagine Brian's demo of uh
+[00:58:50] penguin beaks and flap flippers uh but
+[00:58:55] then you got some
+[00:58:56] sliders there so we can zoom in or maybe
+[00:58:59] filter out some some of the uh data set
+[00:59:01] there and I think that's also really
+[00:59:03] close I love that that would be very
+[00:59:06] cool amazing well thank you everybody so
+[00:59:09] much for joining us uh we hope that
+[00:59:12] you're super excited about doo2 and we
+[00:59:15] would love to hear your thoughts so try
+[00:59:17] it out let us know and uh we'll see you
+[00:59:19] on

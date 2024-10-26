@@ -1,0 +1,33 @@
+**Content Map for "Why Agent Frameworks Will Fail (and what to use instead)"**
+
+1. **[00:00:00-00:01:20] Introduction to Agent Frameworks**
+   - **Description:** Dave introduces himself and the topic of the video, explaining the rise of agent frameworks alongside large language models and outlining his belief that these frameworks are overly complex and not robust enough for practical applications.
+   - **Key Quote:** “You probably don't need an agent framework to solve your automation problem.”
+
+2. **[00:01:21-00:04:20] Overview of Agent Frameworks**
+   - **Description:** Discusses various popular agent frameworks like Autogen, Crew AI, and LangChain. Describes their core idea of chaining agents for decision-making in workflows and critiques their complexity against real-world needs for clearly defined processes.
+   - **Key Quote:** “Most of the processes in the real world... does not require that much room for creativity.”
+
+3. **[00:04:21-00:07:12] The Problem with Agent Frameworks**
+   - **Description:** Explains the issues with agent frameworks, including their reliance on complex abstractions and the difficulty in understanding what occurs behind the scenes. Advocates for simpler approaches to building applications.
+   - **Key Quote:** “I believe for most of the automation use cases for businesses right now, I wouldn't recommend using these tools.”
+
+4. **[00:07:13-00:09:32] Data Pipeline Approach**
+   - **Description:** Introduces the concept of treating generative AI applications as data pipelines rather than agentic workflows. Highlights the reliability of data pipelines and explains the significance of a sequential approach using directed acyclic graphs (DAG).
+   - **Key Quote:** “If your business process... can't draw it out like this... go back to the Whiteboard.”
+
+5. **[00:09:33-00:12:56] Example: Building a Generative AI Project Template**
+   - **Description:** Dave presents a project template for a generative AI system that processes incoming emails. He demonstrates the pipeline design, showcasing the steps involved in classifying emails and generating responses.
+   - **Key Quote:** “The cool thing about designing these pipelines... you can have one step or you could have 100 steps.”
+
+6. **[00:12:57-00:16:13] Implementing the Email Pipeline**
+   - **Description:** Delves deeper into the email pipeline process, detailing how the steps are structured and how the classification and response generation work. Discusses the importance of intermediate data storage for decision-making.
+   - **Key Quote:** “What this all allows you to do... is having one simple input over here.”
+
+7. **[00:16:14-00:18:29] Processing Different Channels**
+   - **Description:** Demonstrates how the system can handle different types of incoming requests, specifically contrasting email and Instagram inputs. Highlights the flexible structure of the pipeline.
+   - **Key Quote:** “The result is now a task result... we have a task ID from sale.”
+
+8. **[00:18:30-00:19:21] Conclusion and Call to Action**
+   - **Description:** Dave wraps up the video, inviting viewers to check out additional resources on freelancing and building systems with large language models. Encourages liking and subscribing for more content.
+   - **Key Quote:** “If you found this video helpful please leave a like and also consider subscribing.”

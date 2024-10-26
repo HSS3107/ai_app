@@ -1,0 +1,1024 @@
+Title: Django REST Framework - Build an API from Scratch
+Channel: Caleb Curry
+Published: 2022-02-21T15:00:24Z
+Duration: PT40M39S
+Description: 💰 Mentorship to six figure software engineer - https://calcur.tech/mentorship
+⚙️ Backend Engineering Mind Map - https://calcur.tech/mindmap
+💻 System Design Playlist - https://calcur.tech/system-design
+
+💯 FREE Courses (100+ hours) - https://calcur.tech/free-courses
+
+Timestamps:
+00:00 - Introduction
+02:05 - Create a virtual environment
+03:38 - Install packages
+04:01 - Create our Django project
+05:36 - Apply migrations
+06:31 - Intro to admin site
+07:31 - Create our model
+08:50 - Create our own migration
+12:37 - Start REST framework
+13:43 - Create our serializer
+14:53 - Create our view endpoints
+18:57 - CRUD
+22:28 - POST request
+27:17 - Drink details - GET
+32:50 - Drink details - PUT 
+34:22 - Drink details - DELETE
+36:25 - Getting JSON through browser
+37:59 - Consuming the API
+
+🏆 C++ Mastery Course - [https://cppmastery.com](https://cppmastery.com/)
+🐍 Backend Python Course - https://calcur.tech/backend-python
+🥇 Python Mastery Course  - https://calcur.tech/python-mastery
+
+~~~~~~~~~~~~~~~ CONNECT ~~~~~~~~~~~~~~~
+
+✉️ Newsletter - https://calcur.tech/newsletter
+📸 Instagram - https://www.instagram.com/CalebCurry
+🐦 Twitter - https://twitter.com/calebCurry
+🔗 LinkedIn - https://www.linkedin.com/in/calebcurry
+▶️ Subscribe - http://calcur.tech/subscribe
+👨🏻‍🎓 Courses - [https://www.codebreakthrough.com](https://www.codebreakthrough.com/)
+🅿 Patreon - http://calcur.tech/patreon-calebcurry
+
+Transcript:
+
+[00:00:00] hey everyone welcome it's Caleb in this
+[00:00:01] video we're going to be building an API
+[00:00:03] with d jeno and this video unlike a lot
+[00:00:05] of the other videos out there on YouTube
+[00:00:08] is not going to require any prior
+[00:00:10] knowledge or prior code so we're going
+[00:00:12] to start with a brand new project and
+[00:00:15] talk about everything you need to do to
+[00:00:17] get your API built so it might take a
+[00:00:19] little bit of extra time at the
+[00:00:20] beginning getting things set up but
+[00:00:22] we'll be all on the same page and
+[00:00:24] probably end up with a better product
+[00:00:26] now this video was inspired by another
+[00:00:27] video I did which was the concepts of
+[00:00:30] rest apis followed up with some python
+[00:00:32] code but we used a a different framework
+[00:00:35] known as flask so I thought it would
+[00:00:37] make sense to kind of go through that
+[00:00:38] same process but with d Jango now Jango
+[00:00:41] is a little bit more complicated so if
+[00:00:42] you need some extra resources on jeno
+[00:00:44] you can check out my previous video
+[00:00:46] which was my Jango crash course but
+[00:00:48] that's not a prerequisite for this video
+[00:00:50] so what we're going to do is we're just
+[00:00:51] going to jump in and create a brand new
+[00:00:53] project just so everybody's on the same
+[00:00:55] page an API allows multiple applications
+[00:00:58] to communicate with one another so if
+[00:01:00] you can describe all of the data for
+[00:01:03] your application in a consistent format
+[00:01:06] typically Json format you can easily
+[00:01:08] send and receive data between different
+[00:01:11] applications so a lot of big apps out
+[00:01:13] there will have apis that you can use
+[00:01:15] for example stack Overflow has an API
+[00:01:18] Instagram API I'm sure Google has like a
+[00:01:21] bajillion apis and you can work with
+[00:01:24] their applications through code so that
+[00:01:27] is what the API is for and typically the
+[00:01:30] API will allow you to do things like
+[00:01:32] view data create new data update data
+[00:01:35] delete data so we're going to look into
+[00:01:37] how to do these things in this video so
+[00:01:39] the first thing we're going to do is
+[00:01:39] we're going to make a directory and
+[00:01:41] we're going to call this drinks this
+[00:01:42] will be a little app to get information
+[00:01:44] about your favorite beverages so what
+[00:01:46] we'll do is we'll change directory into
+[00:01:49] the drinks directory and from here we're
+[00:01:51] going to create a new Django application
+[00:01:54] so for this you're going to need python
+[00:01:55] so Python 3 you can make sure you have
+[00:01:58] it installed if you don't don't you can
+[00:02:00] go on the internet and download it from
+[00:02:03] the python website so that's the first
+[00:02:05] step and before we go in and start
+[00:02:07] installing Jango and all these different
+[00:02:08] things I want to actually create a
+[00:02:10] virtual environment so the virtual
+[00:02:12] environment is where we're going to
+[00:02:13] install all the dependencies we need for
+[00:02:15] our project to run such as jeno and this
+[00:02:18] virtual environment will be activated
+[00:02:20] whenever we want to work on our project
+[00:02:22] so to create a virtual environment we
+[00:02:24] say Python 3 hyphen M and then use the
+[00:02:29] ven V command and then give it a name
+[00:02:32] such ASV EnV which is what I always name
+[00:02:35] my virtual environments and what that's
+[00:02:37] going to do is it's going to create a
+[00:02:40] venv directory so you'll have to say ls-
+[00:02:43] a to see it and you can see it right
+[00:02:45] there so what I want to do is I want to
+[00:02:47] open up this directory we're in inside
+[00:02:49] of Visual Studio code so you can go file
+[00:02:52] open or open folder select that
+[00:02:55] directory hit open and now when you open
+[00:02:58] a terminal it's automatically going
+[00:02:59] going to be in that path so from here we
+[00:03:02] have the virtual environment directory
+[00:03:03] you can see those files over here but we
+[00:03:05] actually need to activate it so the way
+[00:03:07] you do that is you say dot space and
+[00:03:10] then the name of the directory and
+[00:03:12] you're going to go to a path which is
+[00:03:14] for/ bin SL activate so you can see that
+[00:03:18] right in here we got bin activate that
+[00:03:21] is the command to activate the virtual
+[00:03:23] environment you're going to see this in
+[00:03:25] parenthesis over here on the left so
+[00:03:26] you'll want to go through that
+[00:03:28] activation process anytime you want to
+[00:03:29] work on your project and now when we
+[00:03:32] install dependencies they're going to be
+[00:03:33] just for this virtual environment so you
+[00:03:35] don't have clashing dependencies across
+[00:03:38] projects all right so what we need to do
+[00:03:40] now is we need to start installing stuff
+[00:03:42] so we can say pip install
+[00:03:47] jeno that's going to download jeno and
+[00:03:49] any
+[00:03:51] dependencies we're also going to say pip
+[00:03:53] install Jango rest
+[00:03:56] framework and that's the tool we're
+[00:03:58] going to use to create create the rest
+[00:04:01] API so now that we have Jango installed
+[00:04:03] we should be able to say Jango admin and
+[00:04:06] when you hit enter you'll see a bunch of
+[00:04:07] other commands you can execute after
+[00:04:09] that which is all useful stuff for your
+[00:04:12] application for example you can run the
+[00:04:16] server or you could start a project and
+[00:04:19] that's the one we're going to use so
+[00:04:21] we'll say Jango admin start project give
+[00:04:25] it a name like drinks and then say we
+[00:04:28] want this in the current Direct Dory hit
+[00:04:31] enter and when we do this we can open
+[00:04:33] our files and see we now have this
+[00:04:35] drinks directory inside of this outer
+[00:04:38] directory here so it's a little strange
+[00:04:40] to see the same name here twice but this
+[00:04:43] outer directory can be named whatever
+[00:04:45] you want I just created that for
+[00:04:46] organization sake so that way our
+[00:04:48] virtual environment and this manage.py
+[00:04:51] file are all in the same directory all
+[00:04:54] right so far so good we'll clear this
+[00:04:57] off so when we create a project there's
+[00:05:00] going to be a file created called
+[00:05:01] manage.py so what we can do is we can
+[00:05:04] use this file and say Python manage.py
+[00:05:08] and think of this as a wrapper around
+[00:05:11] the Django admin that does a little
+[00:05:13] extra setup for us and makes things
+[00:05:15] easier for us so what we can do is we
+[00:05:17] can say python manage.py run
+[00:05:20] server and this will start the server on
+[00:05:22] this URL so we can open that up and see
+[00:05:26] that here so this is the homepage for
+[00:05:28] your website now don't get too excited
+[00:05:30] cuz we have a lot more to do the first
+[00:05:32] thing is this error here it says 18
+[00:05:34] unapplied migrations so the migrations
+[00:05:37] represent the data structure for the
+[00:05:38] databases and those need to be created
+[00:05:41] so you can run python manage.py migrate
+[00:05:44] to apply them and that's going to create
+[00:05:46] those databases so I'm going to leave
+[00:05:47] this server running and open a new tab
+[00:05:49] here we'll start the virtual
+[00:05:52] environment activate and now we'll say
+[00:05:55] python manage.py migrate so that will
+[00:05:59] apply all the migrations you can see we
+[00:06:00] get a bunch of okays so we have the
+[00:06:03] essential database tables created we're
+[00:06:06] going to follow the same process for our
+[00:06:08] custom data type so whatever you want to
+[00:06:10] make your API about in this case it's
+[00:06:12] going to be an API to get information
+[00:06:14] about drinks we need to create a model
+[00:06:18] that represents what a drink looks like
+[00:06:20] so this model is just going to be a
+[00:06:22] python class and we give it various
+[00:06:24] attributes as you continue to build your
+[00:06:26] application you're going to get more and
+[00:06:28] more models and your dat database is
+[00:06:29] going to become more complex so D Jango
+[00:06:32] has an admin page that will allow you to
+[00:06:34] see the different tables and see the
+[00:06:36] data inside of the tables this is pretty
+[00:06:38] handy when you're building an API
+[00:06:40] because you can make sure everything's
+[00:06:41] working checking it against the database
+[00:06:43] tables so what we want to do now is go
+[00:06:45] to this admin site so in the browser you
+[00:06:48] can go to for SL admin here is the admin
+[00:06:52] page however there's not going to be a
+[00:06:54] username and password already set mine
+[00:06:57] just autofilled from Save username
+[00:07:00] passwords so I'm going to tell you how
+[00:07:01] to generate this let's go back to the
+[00:07:03] terminal python manage.py create super
+[00:07:08] user this is going to ask for a username
+[00:07:10] and
+[00:07:11] password we're just going to go with
+[00:07:12] admin and just give us some email
+[00:07:17] address and I'm just going to give it a
+[00:07:19] really lame password such as password
+[00:07:21] and it'll complain about the security
+[00:07:23] with this but you can override it just
+[00:07:25] putting yes all right so we have that
+[00:07:27] user now we can go in and log in and you
+[00:07:29] can see the tables so what we want to do
+[00:07:31] now is we want to get our own table on
+[00:07:34] here so to do that we need to create a
+[00:07:35] model so let's go back to our code check
+[00:07:38] out our files and inside of our drinks
+[00:07:40] app what we're going to do is we're
+[00:07:41] going to say new file
+[00:07:44] models.py now to tell D Jango that this
+[00:07:46] is a model not only do we put it in the
+[00:07:48] models.py file but we also need to
+[00:07:52] inherit from a model class so we need to
+[00:07:55] get this class in this file so we'll say
+[00:07:58] from django.db B import models now when
+[00:08:01] we create our class which we'll just
+[00:08:04] call it drink we inherit from
+[00:08:07] models. model so that is how jeno knows
+[00:08:10] this is a model class and now we can
+[00:08:12] just give it some attributes such as
+[00:08:14] name and then we say the data type the
+[00:08:16] way we do this is by saying models Dot
+[00:08:20] and there's various data types on here
+[00:08:22] such as charfield which is the one we
+[00:08:24] want and you can give it in max length
+[00:08:26] if you wish so I don't know what the
+[00:08:28] world long as drink name is but I highly
+[00:08:31] doubt there's much out there over 200
+[00:08:33] characters we can also say we have a
+[00:08:35] description and we'll do something
+[00:08:37] similar models. charfield max
+[00:08:41] length 500 all right so each drink
+[00:08:44] should have a name and a description so
+[00:08:45] we're not creating a specific drink here
+[00:08:47] rather we're just describing what every
+[00:08:49] drink should look like now to create a
+[00:08:52] database table from this information we
+[00:08:55] just need to create another migration so
+[00:08:58] to do that we can say python manage.py
+[00:09:01] make migrations and then the name of
+[00:09:05] your app which is drinks now before you
+[00:09:09] do this I'll show you actually what
+[00:09:10] happens when you hit enter you're going
+[00:09:12] to get an error no installed app with
+[00:09:14] label drinks so by default there is this
+[00:09:18] settings.py file and in here it will
+[00:09:21] list all of the different apps you are
+[00:09:24] using so our app for drinks actually
+[00:09:27] isn't on here so what we can do is we
+[00:09:30] can add this two here by saying drinks
+[00:09:33] and that should fix the problem so let's
+[00:09:35] try it again all right there we go
+[00:09:36] migration for drinks and it created
+[00:09:39] 00001 initial py and you can see that in
+[00:09:43] this migrations folder over here okay so
+[00:09:46] we created a migration the migration
+[00:09:48] describes the change to our data
+[00:09:50] structure but it doesn't actually apply
+[00:09:53] that to the database so to do that we
+[00:09:55] need to issue a command we issued
+[00:09:57] previously which was python manage.py
+[00:10:00] migrate so that will apply any unapplied
+[00:10:03] migrations so we'll hit enter and you
+[00:10:05] can see applying okay so there's one
+[00:10:08] more thing we have to do to get our
+[00:10:10] tables to show up in here and that is we
+[00:10:13] need to create a file inside of our
+[00:10:16] drinks directory which is going to be
+[00:10:19] admin.py and here is where we can
+[00:10:22] register the different tables we want to
+[00:10:23] show up in our admin panel now just to
+[00:10:26] be clear you don't have to use this
+[00:10:28] admin site so
+[00:10:29] if you just don't feel like it's going
+[00:10:31] to be that helpful you don't have to
+[00:10:33] register your models in this admin.py
+[00:10:35] file or even create that super user or
+[00:10:38] anything like that however for my sake I
+[00:10:40] think it's going to be a little bit more
+[00:10:42] helpful so in here we need to say from D
+[00:10:44] Jango do contrib import
+[00:10:48] admin and then import our model here so
+[00:10:52] models import drink so the dot here
+[00:10:56] refers to the same directory so models
+[00:10:59] right here all right so we got the
+[00:11:01] Imports the only other thing we have to
+[00:11:03] do is say admin. site. register and then
+[00:11:07] pass in the model drink that should be
+[00:11:10] it so give that a save and I think this
+[00:11:13] requires a refresh of the server so you
+[00:11:16] can see nothing showed up yet so let's
+[00:11:18] go back kill This Server here with
+[00:11:22] contrl C rerun it and that's going to
+[00:11:24] register that model so let's go back
+[00:11:26] refresh and there we go all right so we
+[00:11:28] have our drink table and you can test
+[00:11:30] functionality here so we can add in a
+[00:11:32] name grape soda and we'll just say very
+[00:11:36] grapey all right save okay so we have
+[00:11:38] that drink object in here and you can go
+[00:11:40] in and see the data so now when we're
+[00:11:43] testing our API adding items we can
+[00:11:45] easily see that in this database so
+[00:11:47] let's go ahead and add another drink so
+[00:11:49] that way we can get a list of all of our
+[00:11:51] drinks so this time we'll say orange
+[00:11:53] soda very
+[00:11:56] orangey awesome save now we have two
+[00:11:59] drink objects here and you can change
+[00:12:01] the representation of the object instead
+[00:12:03] of just seeing drink object one or drink
+[00:12:05] object two you can do that by going into
+[00:12:07] the model file and inside of this class
+[00:12:10] creating ancore uncore
+[00:12:13] store uncore method and inside here
+[00:12:16] you're going to take self which is how
+[00:12:18] you create a method on the drink objects
+[00:12:21] and all this has to do is return a
+[00:12:23] string so for example we could just
+[00:12:25] return name plus a space Plus
+[00:12:29] the
+[00:12:31] description so now when we go back to
+[00:12:33] the page do a refresh you can see a
+[00:12:35] little bit more detail about the drink
+[00:12:37] all right so we've done a lot of things
+[00:12:39] we created a model we created a few
+[00:12:41] instances and stored them in the
+[00:12:42] database but now what I want to do is I
+[00:12:44] want to talk about how we can get that
+[00:12:46] through the API so we already installed
+[00:12:49] D Jango rest framework but we need to
+[00:12:51] add that to our installed app list so
+[00:12:55] let's start by going to
+[00:12:57] settings.py and in here here we can just
+[00:13:00] say rest
+[00:13:03] framework all right and now what we're
+[00:13:06] going to need is we're going to need a
+[00:13:08] file so inside of this drinks directory
+[00:13:11] here we're going to create
+[00:13:13] [Music]
+[00:13:15] serializers.py and this is going to
+[00:13:18] describe the process of going from a
+[00:13:22] python object to Json so here is an
+[00:13:27] example of Json this is the structure we
+[00:13:29] want to get back obviously the
+[00:13:31] attributes are going to be a little bit
+[00:13:33] different so we would have you know the
+[00:13:35] drink name and then a drink description
+[00:13:38] but it's going to look something like
+[00:13:40] this so that is what the serializer
+[00:13:42] class is for so to do this we're going
+[00:13:45] to create a class and call this drink
+[00:13:48] serializer and this is going to inherit
+[00:13:51] from
+[00:13:53] serializers do model
+[00:13:56] serializer such a difficult word to say
+[00:13:58] say all right so where is this coming
+[00:14:00] from we're going to import this from
+[00:14:03] rest framework import serializers all
+[00:14:08] right so we have it imported now all we
+[00:14:11] have to do in here it's pretty simple
+[00:14:13] we're going to have an in class and call
+[00:14:15] it
+[00:14:16] meta and this is going to be the
+[00:14:18] metadata describing the model so the
+[00:14:22] model is going to be a drink which we're
+[00:14:25] going to need to import so from models
+[00:14:29] import drink and then the other thing
+[00:14:32] we're going to need are the fields so
+[00:14:35] you can go in here and you're going to
+[00:14:36] make a list of all the fields so ID this
+[00:14:39] is going to automatically be added to
+[00:14:41] that model and we're also going to have
+[00:14:43] the name and the description so we're
+[00:14:48] going to use the serializer when we're
+[00:14:50] trying to return our model through our
+[00:14:52] API so the next thing we need to do we
+[00:14:55] have our model we have our serializer we
+[00:14:57] actually need to create an endpoint so
+[00:14:59] to do that we're going to create another
+[00:15:01] file inside of drinks and this is going
+[00:15:04] to be called
+[00:15:06] views.py so this is where you create all
+[00:15:08] of your endpoints an endpoint being a
+[00:15:11] certain URL that you can access data
+[00:15:13] from so as an example we'll say Def and
+[00:15:16] we're going to get a drink list this is
+[00:15:19] going to take a request and in here what
+[00:15:22] we're going to do is we're going to get
+[00:15:25] all the
+[00:15:26] drinks serialize them
+[00:15:29] and then return Json so how do we get
+[00:15:32] all the drinks well the very first thing
+[00:15:34] as always we're going to have to import
+[00:15:35] it we're going to have multiple Imports
+[00:15:37] here so I'll just try to write them all
+[00:15:39] out right now the very first thing we're
+[00:15:41] going to want is from D Jango HTTP
+[00:15:45] import Json
+[00:15:48] response from our model so from Models
+[00:15:53] import
+[00:15:54] drink and then from serializers import
+[00:15:59] drink serializer all right so let's try
+[00:16:02] to go through these steps we're going to
+[00:16:04] get all the drinks so to do that we can
+[00:16:06] say drink so access the drink class and
+[00:16:10] then dot objects
+[00:16:14] doall so that's going to be all the
+[00:16:16] drinks and we can just assign that to a
+[00:16:18] variable drinks so the second step to
+[00:16:20] serialize them we're going to use our
+[00:16:22] drink serializer class so we're going to
+[00:16:24] create an instance of that so we'll say
+[00:16:26] drink seral alizer and this is going to
+[00:16:31] take the drinks
+[00:16:33] list as well as setting many equal to
+[00:16:37] true so that'll serialize all of them
+[00:16:40] because we have a list here and we're
+[00:16:41] going to get a reference to this object
+[00:16:43] so we'll just call a serializer and
+[00:16:45] assign it this initializer call here all
+[00:16:48] right so we have our serializer now all
+[00:16:50] we have to do is return Json and to do
+[00:16:52] that we're going to return a Json
+[00:16:54] response pass in our serializer do data
+[00:16:59] and I think that should be it so we
+[00:17:01] created our view now we need to say what
+[00:17:04] URL is going to hit this View and that's
+[00:17:06] all done inside of urls.py so open that
+[00:17:10] file scroll through here and you'll see
+[00:17:12] your url patterns down here so we can
+[00:17:14] create a new path and this will just be
+[00:17:17] drinks and it's going to hit our view
+[00:17:21] which we actually need to import so
+[00:17:23] we'll just import all of the views so
+[00:17:25] we'll say from drinks
+[00:17:28] import views so that'll grab that file
+[00:17:32] right there and then down here we'll
+[00:17:35] just say views Dot and then what we can
+[00:17:38] do is pass in whatever function we want
+[00:17:41] to hit such as drink list so to now see
+[00:17:45] what happens we need to visit this path
+[00:17:47] so on our website what we'll do is we'll
+[00:17:50] just go to instead of the admin page
+[00:17:53] we'll go to drinks hit enter in order to
+[00:17:57] allow non iary objects to be serialized
+[00:18:00] set the safe parameter to false so
+[00:18:02] that's just a quick change inside of our
+[00:18:05] view in the return Json response we'll
+[00:18:08] just put a comma and say safe is false
+[00:18:12] all right give that a save we'll go back
+[00:18:14] and do a quick refresh and there we go
+[00:18:16] we get a list of data so if instead of
+[00:18:18] having a list you want it to be an
+[00:18:20] object all you could have to do is throw
+[00:18:23] this serializer do dat in a dictionary
+[00:18:26] so we'll just say drinks and set that
+[00:18:29] equal to the
+[00:18:31] data that should do the trick let's do a
+[00:18:33] refresh and now we have an object with
+[00:18:36] an attribute drinks which contains the
+[00:18:38] list that's generally how I prefer to
+[00:18:40] return data but either one works
+[00:18:43] congratulations at this point you have a
+[00:18:45] working API it's pretty limited all you
+[00:18:47] can do is get a list of data but you can
+[00:18:49] start working on the other things you
+[00:18:51] can do such as adding a drink editing a
+[00:18:54] drink deleting a drink let's get into
+[00:18:56] some of those things now so this whole
+[00:18:58] process is called crud create read
+[00:19:01] update delete right now we have the read
+[00:19:04] ability so we still need to do the c r
+[00:19:07] and the D if we want that full crud
+[00:19:10] capability through our API so yeah now
+[00:19:12] that we're not returning anything other
+[00:19:14] than an object we do not need this safe
+[00:19:16] equals false so we can remove that save
+[00:19:19] do a quick refresh make sure it still
+[00:19:21] works and it's not broken so we're good
+[00:19:23] to go okay so before we go in and create
+[00:19:25] a bunch of other API endpoints for the
+[00:19:28] different methods so let me just explain
+[00:19:30] a little bit for those of you who are
+[00:19:32] fairly new this is a function that will
+[00:19:35] take a get request so when we literally
+[00:19:39] just put in this URL we're getting this
+[00:19:42] data so that's why it's called get like
+[00:19:44] don't overthink it so you can see this
+[00:19:46] if you go into inspect and then go into
+[00:19:49] the
+[00:19:51] network so this is going to record any
+[00:19:53] network traffic through this page and we
+[00:19:56] do a quick refresh and you can see see
+[00:19:58] we have this request here so let's take
+[00:20:00] a look at this you can see that the
+[00:20:03] request method is get we're getting data
+[00:20:06] and here's the URL and then here's the
+[00:20:08] response so that's what the request
+[00:20:11] looks like there's a bunch of other
+[00:20:13] stuff in here too but that's the main
+[00:20:14] stuff so there are other request methods
+[00:20:16] that we need to deal with including post
+[00:20:19] put and delete so when we have a
+[00:20:22] function such as this here we can
+[00:20:24] actually make it take multiple request
+[00:20:27] types so not just get requests but also
+[00:20:31] post requests to add a new drink so to
+[00:20:33] do that we're going to use a decorator
+[00:20:36] and a decorator is something you put
+[00:20:38] above your function to describe its
+[00:20:40] functionality in some way and this is
+[00:20:42] going to be API View and you're going to
+[00:20:45] put the methods that you can accept such
+[00:20:47] as get and we're also going to build the
+[00:20:49] functionality for post as well Now API
+[00:20:52] view where does that come from from rest
+[00:20:56] framework. decorators and don't feel
+[00:20:59] like you have to have all this memorized
+[00:21:01] I've been referring to documentation as
+[00:21:04] I build this just to make sure I get
+[00:21:06] these Imports correct so from rest
+[00:21:08] framework.
+[00:21:10] decorators we have a problem cannot be
+[00:21:12] resolved so first thing it's import API
+[00:21:15] View and for this import here well
+[00:21:19] there's a few things you might want to
+[00:21:21] check to make sure this is fixed first
+[00:21:23] thing make sure Django rest framework is
+[00:21:25] installed which we did so so far so good
+[00:21:28] make sure it's spelled right um and you
+[00:21:30] might also check the settings.py and
+[00:21:32] make sure you typed that out here
+[00:21:34] properly which we did so the only thing
+[00:21:36] left I can think of is actually to do
+[00:21:38] with The Interpreter so command shift p
+[00:21:41] or control shift p on Windows and type
+[00:21:44] in select
+[00:21:47] interpreter so from here what you can do
+[00:21:49] is you can select your virtual
+[00:21:51] environment so it'll look at those
+[00:21:54] dependencies as opposed to the
+[00:21:56] dependencies installed globally on your
+[00:21:58] machine so once I select that you can
+[00:22:01] see that those problems went away I
+[00:22:04] think things would have worked still but
+[00:22:07] this is just the lens for visual studio
+[00:22:09] code to see what dependencies you have
+[00:22:11] installed and because all those
+[00:22:14] dependencies are just installed in this
+[00:22:15] virtual environment directory we need to
+[00:22:17] basically say hey here is where I want
+[00:22:19] you looking not at my Global installed
+[00:22:22] dependencies so that's just a minor
+[00:22:24] detail don't really worry about it too
+[00:22:25] much but if you do run into that issue
+[00:22:27] that is the fix so we made it such that
+[00:22:29] we can accept get and post and we can
+[00:22:32] condition on that value inside of this
+[00:22:35] so if request. method is
+[00:22:40] get then here is what we want to
+[00:22:45] do and then what we can do is also check
+[00:22:48] for post so if request. method is post
+[00:22:53] what we can do is we can add a drink to
+[00:22:55] the database so this is basically going
+[00:22:57] to be a very similar process but in the
+[00:23:00] opposite order so we're basically going
+[00:23:02] to take the data they sent us
+[00:23:04] deserialize it and then create a drink
+[00:23:07] object out of it so the command is going
+[00:23:08] to be pretty similar to what we have
+[00:23:10] here just slightly different so we're
+[00:23:12] going to create a drink
+[00:23:14] serializer and instead of passing in
+[00:23:17] some value like the drinks we created up
+[00:23:19] here we're going to get that data from
+[00:23:22] the request so we will say data is equal
+[00:23:25] to request. dat and we're going to get a
+[00:23:28] reference to this object so we'll say
+[00:23:32] serializer similar to how we did up here
+[00:23:35] all right so next thing we need to do is
+[00:23:37] we can actually check to see if the data
+[00:23:39] they sent is valid and the way you can
+[00:23:40] do that is to call a method on this
+[00:23:42] object so if
+[00:23:45] serializer do is valid what are we going
+[00:23:48] to do we're going to save it and the way
+[00:23:50] you can do that is with serializer do
+[00:23:52] saave once that's done we will return a
+[00:23:55] response and in here we're going to say
+[00:23:57] serializer do dat and we're also going
+[00:24:00] to pass a status code so we can say
+[00:24:03] status and set it equal to status.
+[00:24:07] http
+[00:24:09] 2011 created so the status needs
+[00:24:12] imported and it looks like this response
+[00:24:14] might need imported too so you can just
+[00:24:16] do it this way where if you get this
+[00:24:18] little light bulb here and you can see
+[00:24:20] there's a few different options so you
+[00:24:21] have to be careful when you do this
+[00:24:23] automatic and we actually don't want any
+[00:24:25] of these suggested ones so what we're
+[00:24:27] going to do is we're going to go up to
+[00:24:29] the top and just do it manually we'll
+[00:24:31] just say from rest framework.
+[00:24:36] response import
+[00:24:39] response and from rest
+[00:24:41] framework import status all right so
+[00:24:44] those are going to be our two Imports
+[00:24:46] that we need so that we can return a
+[00:24:48] response object and have a status value
+[00:24:52] a lot of the stuff is given to us to
+[00:24:55] make it easier for us from jeno so we
+[00:24:57] don't have to worry a whole lot about
+[00:24:59] the response all we do is pass in
+[00:25:01] serializer ddata and then the status and
+[00:25:05] it looks like we might have an error
+[00:25:06] with our API view here where it's
+[00:25:09] supposed to only have one positional
+[00:25:11] argument and I think that's because we
+[00:25:13] just have to pass these in as a list so
+[00:25:15] now we're just passing in one argument
+[00:25:17] as a list so our server is good to go
+[00:25:20] and now let's test adding an element to
+[00:25:24] the database through the API so you
+[00:25:26] could use a tool such as postmen and
+[00:25:29] we're just going to get the data you can
+[00:25:31] see this is the response so now let's
+[00:25:33] try to add some data and it's going to
+[00:25:35] be pretty similar but instead this time
+[00:25:37] in the body we're going to send data so
+[00:25:40] you can select raw here and under text
+[00:25:42] change this to Json and you can paste in
+[00:25:45] an object like this here just I copied
+[00:25:48] it from down there we're just going to
+[00:25:49] change some of the information
+[00:25:53] here so first I don't think you need the
+[00:25:56] ID that should be done
+[00:25:59] automatically and for the
+[00:26:03] name we can just say like strawberry
+[00:26:06] soda I don't know I'm out of SoDo ideas
+[00:26:08] and for the description we'll just say
+[00:26:09] very good all right cool let's send this
+[00:26:11] in we have a little error here where it
+[00:26:13] didn't work we have a runtime error
+[00:26:15] checking back in the terminal it's
+[00:26:18] complaining about the slash in the URL
+[00:26:22] so let's check our urls.py and it has a
+[00:26:25] slash here but the URL we're using does
+[00:26:27] not have a slash so I'll just add that
+[00:26:29] in there and try again so we still have
+[00:26:31] that same data we'll hit send and you
+[00:26:33] can see it comes back with an ID so this
+[00:26:35] part comes from inside of the view where
+[00:26:39] we pass the data back in the response so
+[00:26:43] we give the data back but now that data
+[00:26:45] has the additional attribute of the ID
+[00:26:48] you should be able to see that this data
+[00:26:49] made it to the database in two ways the
+[00:26:52] first is to actually just get the drinks
+[00:26:54] again so when we get the drinks we get
+[00:26:56] three elements back alternatively you
+[00:26:59] can take a look at the admin page since
+[00:27:00] we set that up we'll go to admin and we
+[00:27:03] can see drinks and you can see there are
+[00:27:05] three drinks in this table now you'll
+[00:27:07] see from the admin panel you can open up
+[00:27:09] any of these drinks and get more
+[00:27:11] information about it currently there's
+[00:27:13] not a whole lot of information here but
+[00:27:14] you can imagine there being a long list
+[00:27:16] of attributes this ability to get more
+[00:27:19] details about an individual drink is a
+[00:27:21] pretty important part of the API so
+[00:27:23] imagine you go to drinks and instead of
+[00:27:27] getting
+[00:27:28] the entire list you just want to get the
+[00:27:30] first drink here so you pass in the ID
+[00:27:32] of one and you get that drink
+[00:27:34] information but currently it's not
+[00:27:35] working so let's talk about how we can
+[00:27:37] set this up the very first thing we want
+[00:27:39] to do is go into urls.py and create a
+[00:27:43] new URL path so we'll say path and the
+[00:27:46] path for this one is still going to be
+[00:27:49] drinks but we're going to have a
+[00:27:51] parameter here of type int and you can
+[00:27:56] just say like I ID or PK or something
+[00:27:59] like that for primary key and this is
+[00:28:01] going to hit views. drink detail all
+[00:28:05] right so this is the view we want to
+[00:28:06] create we just have to now go build out
+[00:28:09] that view so let me zoom out a little
+[00:28:11] bit now that we're working with a little
+[00:28:12] bit more code hopefully everybody can
+[00:28:14] see everything fine let's go ahead and
+[00:28:17] create a new function and this will be
+[00:28:19] called drink detail it's going to be
+[00:28:21] pretty similar where it has a request
+[00:28:23] parameter and we're also going to have
+[00:28:25] that same decorator API view however
+[00:28:28] this one's going to have a few other
+[00:28:30] options so we're going to have the
+[00:28:32] ability to get information about a drink
+[00:28:35] the ability to update or we're going to
+[00:28:37] use put for that and the ability to
+[00:28:41] delete a drink so this we're going to
+[00:28:44] just follow a similar pattern where we
+[00:28:45] just check the different options so if
+[00:28:49] request. method is get we're going to do
+[00:28:52] something for now we'll just say pass if
+[00:28:56] request. method
+[00:28:58] is
+[00:29:00] post pass and we actually probably want
+[00:29:02] this to be an LF so only one of these
+[00:29:04] will execute on any request and we'll
+[00:29:07] just have an LF for delete so if request
+[00:29:10] on method is delete we'll do something
+[00:29:13] else here now forget we're going to do
+[00:29:16] it a little bit different than the way
+[00:29:18] we did up here as we have a new better
+[00:29:21] way of doing it so sort of how we did
+[00:29:23] down here we we returned a response
+[00:29:26] whereas up here we did a Json response
+[00:29:28] so it's a little bit different and
+[00:29:30] response comes from the D Jango rest
+[00:29:33] framework and it is the preferred way of
+[00:29:35] doing things because we're actually
+[00:29:37] going to be able to set up some
+[00:29:39] functionality to return Json or HTML for
+[00:29:43] better data browsing so I'll show you
+[00:29:45] how to do that here in this get request
+[00:29:48] and then we could actually go and edit
+[00:29:50] this one up here as well so as we've
+[00:29:51] been doing we're going to create a drink
+[00:29:53] serializer and this serializer is going
+[00:29:56] to take the object to get so what we're
+[00:29:58] going to do is actually put that up here
+[00:30:00] so we'll say drink doobs doget and you
+[00:30:03] can pass in the primary key so PK is
+[00:30:07] equal to the ID which is going to be a
+[00:30:10] second parameter passed in right here so
+[00:30:12] taking a look back at the URLs real
+[00:30:14] quick you can see we pass in this extra
+[00:30:17] parameter the value of this is going to
+[00:30:20] be sent to views into this variable so
+[00:30:23] we can get a drink by its ID using the
+[00:30:27] ID variable here and assigning it to the
+[00:30:29] PK parameter so the primary key equal to
+[00:30:33] that ID we passed in and we can check to
+[00:30:35] see if this is valid so we can say try
+[00:30:37] and this can throw an exception so we'll
+[00:30:40] say accept and the exception is of type
+[00:30:43] drink dot does not exist so if something
+[00:30:47] goes wrong this exception will be hit
+[00:30:50] and we can just return
+[00:30:52] response status is equal to status. http
+[00:30:57] and you can see all the different
+[00:30:58] options here on the status the one we're
+[00:31:00] interested in is 404 not found so now
+[00:31:04] this is basically that checking just to
+[00:31:05] make sure it's a valid request and we
+[00:31:07] can use the the drink object throughout
+[00:31:11] so we'll just assign it to a variable
+[00:31:13] drink and now whenever we need to refer
+[00:31:15] to that drink object we don't have to go
+[00:31:17] through this process again so we could
+[00:31:19] just pass in drink here and we're going
+[00:31:21] to get a reference to the serializer and
+[00:31:24] now all we have to do is return response
+[00:31:27] and pass in serializer do dat so these
+[00:31:31] two lines are all it takes for the get
+[00:31:33] request and it's going to be very
+[00:31:35] similar to this one up here but let's
+[00:31:38] just uh focus on this right now let's
+[00:31:40] try it out we'll just be able to get the
+[00:31:42] data right now but we should be able to
+[00:31:44] go to the API and pass in some ID such
+[00:31:48] as one we hit enter and we get all the
+[00:31:50] information for that drink we pass in
+[00:31:53] two orange soda three strawberry soda
+[00:31:57] and then let's say four nothing if we do
+[00:31:59] the same thing in the browser we should
+[00:32:01] be able to get one back that works and
+[00:32:03] you can see this new HTML output here
+[00:32:06] it's kind of cool if we put in four it
+[00:32:09] says four or4 not found so here is
+[00:32:11] another example of where that response
+[00:32:13] comes in handy so this response is not
+[00:32:15] Json specific so it's allowing us to see
+[00:32:19] this HTML view where we can work with
+[00:32:21] our data through the web page it's very
+[00:32:24] similar to the admin panel so this kind
+[00:32:26] of serves as same purpose but now it's
+[00:32:28] on the front end and doesn't require a
+[00:32:30] login and you can't necessarily see
+[00:32:32] everything in the databases all right
+[00:32:34] let's go back to our code and let's go
+[00:32:36] ahead and fill out the post and delete
+[00:32:39] actually this should be put not post so
+[00:32:42] put is going to be used for updating I
+[00:32:43] think that was just a typo from earlier
+[00:32:45] but the process is going to be fairly
+[00:32:46] similar to this post up here so no big
+[00:32:49] deal so we can just say serializer is a
+[00:32:53] new drink serializer pass in the drink
+[00:32:58] and since we're going to be editing the
+[00:33:00] drink you can think of it as very
+[00:33:02] similar to creating a new drink we
+[00:33:04] actually need to pass in the data that's
+[00:33:06] being sent with the request so we'll say
+[00:33:09] data is equal to request. dat and then
+[00:33:12] we can just check to see if it's valid
+[00:33:15] so if serializer do is
+[00:33:18] valid what we're going to do is save the
+[00:33:20] data so serializer do saave and then
+[00:33:23] just
+[00:33:24] return response serializer do dat so
+[00:33:29] give that data back if it's not valid
+[00:33:33] we're just going to return response and
+[00:33:37] we can say serializer do errors and set
+[00:33:40] a status so status is equal to
+[00:33:44] status.
+[00:33:46] http 400 bad request so that is the
+[00:33:50] process for updating data we can test
+[00:33:52] that out so let's go over to postman
+[00:33:55] let's go ahead and get the data for 4
+[00:33:57] three and now what we want to do is make
+[00:33:59] a put request and let's go ahead and
+[00:34:02] change the data so we'll go into the
+[00:34:04] body paste this here but let's say soda
+[00:34:10] edited now when we hit send you can see
+[00:34:13] it gives us back the new data and when
+[00:34:15] we get the
+[00:34:17] data you can see it's persisted so we're
+[00:34:20] still getting that change delete is
+[00:34:22] super easy so let's go back go in here
+[00:34:26] and all we need to do is take that drink
+[00:34:29] object that we had a reference to
+[00:34:31] earlier right here and say drink. delete
+[00:34:34] so just a typical way of doing it in D
+[00:34:36] Jango if you have some Jango experience
+[00:34:39] but we're going to return a response and
+[00:34:42] pass in a status code so status is
+[00:34:46] status.
+[00:34:48] HTTP
+[00:34:50] 204 no content that should allow us to
+[00:34:54] delete stuff now so if we go in here and
+[00:34:56] say say delete pass in the ID of three
+[00:35:00] we don't have to have anything in the
+[00:35:01] body we can remove that from the request
+[00:35:03] hit send we don't get anything back
+[00:35:06] however now when we try to get the data
+[00:35:08] it's not there anymore and if we get all
+[00:35:10] the drinks you can see we only get one
+[00:35:13] and two all right cool so let's go ahead
+[00:35:15] and take this new response behavior and
+[00:35:18] put that in our old version up here so
+[00:35:21] it's going to be very similar to this
+[00:35:23] get here so let's copy these two lines
+[00:35:26] go up here and we actually pretty much
+[00:35:30] have that serializer already so we'll
+[00:35:32] just say return response serializer do
+[00:35:34] dat let's just try that out make sure it
+[00:35:36] still works hit send you can see it's
+[00:35:39] working but now we can go to the browser
+[00:35:42] view all the drinks and we get to see it
+[00:35:44] in this very cool HTML view so let's try
+[00:35:48] something in here let's go into let's
+[00:35:51] say drinks one and you can edit the data
+[00:35:54] right here so we could say let's uh go
+[00:35:57] with name set that equal to test and
+[00:36:01] then we'll do description set that equal
+[00:36:03] to Suite description and then close the
+[00:36:06] object we'll hit put it looks like it
+[00:36:09] updated it and we can go back to our
+[00:36:10] drink list and see all of them and
+[00:36:13] that's changed so we've went through
+[00:36:15] pretty much three different ways of
+[00:36:16] working with this data the first being
+[00:36:18] the admin panel but that doesn't really
+[00:36:19] use the API for the API you can use this
+[00:36:22] HTML page or you can use a tool like
+[00:36:25] Postman now you might want just get
+[00:36:27] normal Json data through the browser so
+[00:36:29] you could say something like Json but
+[00:36:32] you can see that doesn't work I'm going
+[00:36:34] to show you the fix for this right now
+[00:36:36] what we need to do is we need to build
+[00:36:38] that capability in our URLs so not only
+[00:36:41] do we want these URLs but we want these
+[00:36:42] URLs with different extensions so what
+[00:36:45] we can do is we could use a function
+[00:36:49] called format suffix patterns and pass
+[00:36:55] in our URL pattern patterns and then we
+[00:36:57] just reassign this returned value to URL
+[00:37:01] patterns so whatever this returns we
+[00:37:03] want to replace the URL patterns
+[00:37:05] variable now we just need to import this
+[00:37:08] and it's going to come from rest
+[00:37:12] framework. URL patterns import format
+[00:37:17] suffix patterns all right so that should
+[00:37:20] give us that the server's working let's
+[00:37:22] go back to the browser hit enter all
+[00:37:25] right got an expected keyword argument
+[00:37:27] format the quick fix for this is we just
+[00:37:30] need to add a parameter to our views so
+[00:37:33] let's go back to our view and for this
+[00:37:37] one not only do we take request but
+[00:37:39] we'll take format and default It To None
+[00:37:42] we're going to do the same thing for our
+[00:37:43] other view here so format is none now we
+[00:37:47] should be able to go check in the
+[00:37:49] browser do a refresh and there you go
+[00:37:51] you have it in Json just like we would
+[00:37:53] get from Postman or you can just remove
+[00:37:56] Json if you want it in this HTML view
+[00:37:59] now I do want to do some front end on
+[00:38:01] consuming the apis we create however I
+[00:38:04] don't want to quite do a full stack
+[00:38:06] application in this video so what we're
+[00:38:07] going to do is we're just going to do a
+[00:38:10] very simple request through python to
+[00:38:12] show how you might consume an API and
+[00:38:15] then I'll leave it open for future
+[00:38:17] research or a future video if you want
+[00:38:19] to subscribe and stay tuned for upcoming
+[00:38:21] episodes so in our project what I'm
+[00:38:23] going to do is I'm just going to clear
+[00:38:24] out all these files and we're just going
+[00:38:26] to create a new file and I'm just going
+[00:38:29] to put it in our main
+[00:38:32] directory consume. py so we're not going
+[00:38:35] to need to work with d Jango stuff
+[00:38:38] anymore but we need to keep our server
+[00:38:39] running if we want to consume this data
+[00:38:41] so let's just keep that running and in a
+[00:38:44] new tab what we can do is we can run
+[00:38:46] this python file so you can do that by
+[00:38:49] just saying python consume. py that'll
+[00:38:52] do it or you can hit this play button
+[00:38:54] right here and that'll show up either in
+[00:38:56] the terminal and the output depending on
+[00:38:58] your settings so let's go ahead and say
+[00:39:01] print testing run the application you
+[00:39:04] can see the output there so I'm going to
+[00:39:06] do it through the terminal just so we
+[00:39:08] have this virtual environment here and
+[00:39:09] I'm going to say pip install
+[00:39:13] requests and this is a module that
+[00:39:15] allows us to make really simple requests
+[00:39:17] to pages on the internet so what we
+[00:39:19] could do is we could say import requests
+[00:39:23] and then say response is requests Dot
+[00:39:26] get and pass in a URL we'll just say
+[00:39:31] 127.0.0.1
+[00:39:34] coolant
+[00:39:35] 8000 slash drinks which I believe is the
+[00:39:39] URL that's running our server right here
+[00:39:43] and then we'll just print the
+[00:39:45] response. Json so let's try it out and
+[00:39:49] if you get this error here no connection
+[00:39:51] adapters we just have to put
+[00:39:55] HTTP so needs to know the protocol we'll
+[00:39:58] run it now and you can see we get that
+[00:40:00] data in our python application so that's
+[00:40:03] the Bare Basics of consuming an API
+[00:40:05] literally three lines of code very very
+[00:40:07] simple so in this video we've done a ton
+[00:40:10] it's a lot to learn and throughout this
+[00:40:13] video I had to reference the
+[00:40:14] documentation a lot too especially for
+[00:40:16] all the different Imports so don't feel
+[00:40:18] like you have to be perfect from day one
+[00:40:19] maybe by day two or three but until then
+[00:40:22] you're okay to make a few mistakes if
+[00:40:24] you want more content like this I'm
+[00:40:26] working on a python backend course I'll
+[00:40:28] leave a link to early access to the
+[00:40:30] notes are free and you'll also get
+[00:40:32] notified through email when the course
+[00:40:34] is released we also have a ton of other
+[00:40:36] Python and web development videos on
+[00:40:38] this channel

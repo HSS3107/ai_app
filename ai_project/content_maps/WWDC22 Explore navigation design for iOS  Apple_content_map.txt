@@ -1,0 +1,43 @@
+**Content Map for WWDC22: Explore Navigation Design for iOS**
+
+1. **[00:00:00-00:01:20] Introduction to Navigation Design**
+   - **Title:** Introduction
+   - **Description:** Sarah McClanahan introduces herself and the topic of navigation design in iOS apps. She emphasizes the importance of intuitive navigation for enhancing user experience and outlines the session's focus on tab bars, hierarchical navigation, and modal presentations.
+   - **Key Quote:** "When apps have great navigation, it's often unnoticed because people are able to focus on the content and experience."
+
+2. **[00:01:21-00:08:10] Understanding Tab Bars**
+   - **Title:** Tab Bars Fundamentals
+   - **Description:** Discussion of tab bars as a global navigation control, illustrating how they should categorize app content into meaningful sections. Examples of effective and ineffective tab setups are presented, stressing the importance of balance and clear labeling.
+   - **Key Quote:** "Great apps have focused solutions. They aim to do a few things really well, opposed to trying to solve everything in one app."
+
+3. **[00:08:11-00:11:30] Avoiding Redundancy in Tab Bars**
+   - **Title:** Redundancy and Home Tabs
+   - **Description:** The pitfalls of duplicating functionality within a single tab, particularly the "Home" tab, are discussed. The session advises removing redundant features to maintain clarity in navigation.
+   - **Key Quote:** "If this is your app, consider removing the Home tab altogether."
+
+4. **[00:11:31-00:12:46] Importance of Persistent Tab Bar**
+   - **Title:** Keeping the Tab Bar Accessible
+   - **Description:** Emphasizes the significance of keeping the tab bar visible during navigation to allow users to switch contexts easily without losing their place.
+   - **Key Quote:** "Persistent access to the tab bar gives someone the ability to toggle between different levels of your information hierarchy while maintaining context."
+
+5. **[00:12:47-00:16:20] Hierarchical Navigation Overview**
+   - **Title:** Hierarchical Navigation
+   - **Description:** Introduces two common transitions: push and modal. The push transition is explained as a means to navigate deeper into an app's hierarchy, reinforcing relationships between content levels.
+   - **Key Quote:** "Pushing is great because it directly reflects your information hierarchy."
+
+6. **[00:16:21-00:19:41] Guidelines for Hierarchical Navigation**
+   - **Title:** Best Practices for Pushing
+   - **Description:** Guidelines for implementing push transitions, including maintaining a persistent tab bar and using appropriate navigation labels. The importance of context and user orientation during navigation is highlighted.
+   - **Key Quote:** "Always keep the tab bar persistently anchored to the bottom of the screen."
+
+7. **[00:19:42-00:24:40] Modal Presentations Explained**
+   - **Title:** Understanding Modal Presentations
+   - **Description:** Discusses the nature of modal presentations as focused, self-contained tasks. Guidelines for when and how to use modals, including types of tasks that suit modal usage, are provided.
+   - **Key Quote:** "A modal interrupts information hierarchy. It comes from the bottom of the screen to cover your tab bar."
+
+8. **[00:24:41-00:25:34] Conclusion and Key Takeaways**
+   - **Title:** Summary and Closing Thoughts
+   - **Description:** Recap of the session's main points on navigation design, emphasizing clear content organization and enhancing user interaction to improve overall app experience.
+   - **Key Quote:** "When designing navigation for your iOS apps, think about how content is organized, how people interact with your functionality, and how best to represent it in relation to your hierarchy." 
+
+This content map effectively encapsulates the entire video, providing a clear and concise overview of each section’s key points and memorable quotes.

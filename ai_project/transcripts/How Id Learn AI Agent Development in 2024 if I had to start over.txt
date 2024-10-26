@@ -1,0 +1,615 @@
+Title: How I’d Learn AI Agent Development in 2024 (if I had to start over)
+Channel: VRSEN
+Published: 2024-04-25T19:21:35Z
+Duration: PT21M5S
+Description: Become an AI Agent Developer in 2024!  🚀  Master the AI tech stack &  monetize your creations!✨ 
+
+🗺️ MY AI ROADMAP:
+https://roadmap.vrsen.ai/
+
+🤖 Hire AI Agents for Business:
+https://agents.vrsen.ai/
+
+🐙 Agency Swarm:
+https://github.com/VRSEN/agency-swarm
+
+🔋 OAI-Widget (My SaaS)👇
+https://www.oai-widget.com/
+
+🚀 Custom AI Projects:
+https://www.vrsen.ai/
+
+🤝 Consulting/coaching:
+https://calendly.com/vrsen/ai-project-consultation
+
+🐦 Twitter:
+https://twitter.com/__vrsen__
+
+💬 Discord:
+https://discord.gg/hAhCNBGN45
+
+0:00 - Intro
+01:01 - Who am I?
+01:50 - What AI Are Agents?
+04:06 - The Role of an AI Agent Developer
+05:53 - Code vs. No Code
+07:47 - Step 1: Find a project
+09:33 - Step 2: Setup Environment
+11:24 - Step 3: Learn The Basics
+12:47 - Step 4: Modern AI Tech Stack
+15:23 - Step 5: Multi Agent Frameworks
+16:29 - Step 6: Backend API Development
+17:41 - Step 7: Monetize Your Agents
+19:35 - Bonus: Build a community
+
+About: Explore the booming field of AI agent development in 2024 with "How I’d Learn AI Agent Development in 2024 (if I had to start over)." This insightful video guides beginners through the essential skills and steps to become a proficient AI agent developer. Led by Arsen, creator of a leading AI agent framework, the video provides a clear roadmap to entering one of the tech industry's most sought-after roles. Learn about the tools, skills, and strategies needed to create, deploy, and monetize AI agents effectively, even as a complete beginner. Whether you're interested in backend development, AI integrations, or building your own AI-driven projects, this video is your gateway to mastering AI agent development in today's fast-evolving tech landscape.
+
+Transcript:
+
+[00:00:00] AI agents are taken the World by storm
+[00:00:02] in 2024 but AI agents cannot build
+[00:00:06] themselves at least not yet even Tech
+[00:00:08] giants like Google are recognizing the
+[00:00:11] potential here with their own agentic
+[00:00:13] platforms and it's not just Google a
+[00:00:15] wave of stas products are now ditching
+[00:00:17] traditional chatbots in favor of more
+[00:00:19] advanced agent based systems and
+[00:00:22] although some of these platforms haven't
+[00:00:24] changed a thing beyond the copy on their
+[00:00:26] lending Pages it's evident that the role
+[00:00:29] of an AI agent developer will be one of
+[00:00:32] the most sought after jobs of 2024
+[00:00:35] However unfortunately because it's still
+[00:00:37] so early no one really understands what
+[00:00:40] exactly to look for leave alone how to
+[00:00:42] become one so in this video I will
+[00:00:45] finally demystify who an AI agent
+[00:00:47] developer is what skills you'll need to
+[00:00:50] become one and most importantly provide
+[00:00:52] you with a complete road map that you
+[00:00:54] can follow by yourself right now let's
+[00:00:56] Dive In
+[00:01:01] all right before we jump in I'm sure you
+[00:01:03] might be asking who am I and why do you
+[00:01:06] have to listen to me and what I have to
+[00:01:08] say about AI agents so allow me to
+[00:01:11] introduce myself my name is arson and
+[00:01:13] I'm currently running one of the most
+[00:01:15] popular AI agent Frameworks on GitHub
+[00:01:17] that allows you to create agencies with
+[00:01:19] AI called agencies form but that's not
+[00:01:21] all I'm also running my own AI agency
+[00:01:23] where we recently launched the first of
+[00:01:26] its kind agents as a service
+[00:01:27] subscription so unlike other influen
+[00:01:30] answers I'm not making my living selling
+[00:01:32] you ads I actually make all of my income
+[00:01:35] delivering real world AI Solutions in
+[00:01:37] fact just in the past month I've hired
+[00:01:39] two AI agent developers myself so
+[00:01:42] hopefully this now gives you an idea
+[00:01:44] that I've got a pretty good
+[00:01:45] understanding of what to look for okay
+[00:01:47] with that out of the way allow me to
+[00:01:49] break down what AI agents are I've
+[00:01:52] previously talked about this on my
+[00:01:54] channel so if you want to dive into more
+[00:01:55] details please make sure to watch this
+[00:01:57] video after here I'm just going to give
+[00:01:59] you a brief overview because
+[00:02:01] understanding how to think about AI
+[00:02:03] agents will significantly impact your
+[00:02:06] approach to building them from what I've
+[00:02:08] heard so far typically most of AI
+[00:02:11] influencers either Define them as
+[00:02:13] automations or as your own employees in
+[00:02:16] my opinion both of these definitions are
+[00:02:19] extremely misleading on the one hand AI
+[00:02:21] agents have a lot more autonomy than
+[00:02:24] automations AI automations run on your
+[00:02:26] back end no matter what even if the
+[00:02:29] whole world Burns RS down EI automation
+[00:02:31] is just going to keep running like
+[00:02:32] nothing happened on the other hand eii
+[00:02:35] agents have less autonomy than your own
+[00:02:37] employees because your employees can
+[00:02:39] defy you you can provide them with as
+[00:02:41] many instructions as you want but they
+[00:02:43] can still consider things on their own
+[00:02:45] and do them in their own way so the
+[00:02:47] closest definition to AI agents that
+[00:02:50] I've ever heard was made by Andre
+[00:02:51] karpathy who said that AI agents are
+[00:02:54] essentially operating systems yeahi
+[00:02:56] agents fall in between employees and out
+[00:02:59] automations they have Ram which is
+[00:03:01] memory they have access to tools and
+[00:03:03] they can use other llms and reflect upon
+[00:03:06] their own actions why am I telling you
+[00:03:08] this well because often times I've
+[00:03:10] noticed that some of you guys are trying
+[00:03:13] to make your agents perform literally
+[00:03:16] everything by themselves this in my
+[00:03:18] opinion is wrong you shouldn't just tell
+[00:03:21] your agent what you want and then hope
+[00:03:23] it's going to do it all for you your
+[00:03:25] agent should only route the requests
+[00:03:27] from the user to the tools all of the
+[00:03:29] heavy lifting must be performed by the
+[00:03:31] tools not by your agents think of it as
+[00:03:34] your own OS like Windows or Mac where we
+[00:03:38] have different apps for specific
+[00:03:40] purposes we don't even consider how
+[00:03:42] these apps function we simply control
+[00:03:44] them and the same should apply to your
+[00:03:46] agents you can't just tell them what you
+[00:03:48] want and then sit back and wait until
+[00:03:50] you become a millionaire unfortunately
+[00:03:52] this does not work out yet and at this
+[00:03:54] point the most significant challenge
+[00:03:56] that prevents Mass adoption of EI agents
+[00:03:58] is their real ability currently to make
+[00:04:01] agents reliable you need to carefully
+[00:04:03] fine-tune them on a specific business
+[00:04:05] process and this is exactly where AI
+[00:04:08] agent developers come in as an AI agent
+[00:04:10] developer Your Role is to ensure that
+[00:04:13] your agents have access to all the
+[00:04:15] necessary resources tools and knowledge
+[00:04:18] to perform their designated tasks
+[00:04:20] essentially what it entails is first
+[00:04:22] conducting thorough research about the
+[00:04:24] business and determining which of those
+[00:04:25] resources the agent will need then you
+[00:04:28] need to create the tools as as I said
+[00:04:30] tools are the most important while
+[00:04:32] building your agency you have to
+[00:04:34] constantly iterate in it gather feedback
+[00:04:36] from the stakeholders and adjust it in
+[00:04:38] the loop until it performs consistently
+[00:04:40] from time to time and finally you must
+[00:04:42] actually deploy your agents which is a
+[00:04:44] step that a lot of people Skip and then
+[00:04:46] integrate them into your client's
+[00:04:48] business you have to make sure that
+[00:04:49] these agents work seamlessly alongside
+[00:04:52] their own employees now what skills
+[00:04:54] required to become an AI agent developer
+[00:04:57] well as for the soft skills definitely
+[00:04:59] communication and eagerness to learn
+[00:05:02] communication because you'll often find
+[00:05:04] yourself Gathering requirements from the
+[00:05:06] stakeholders and setting clear
+[00:05:08] expectations which is not an easy task
+[00:05:11] and eagerness to learn because we're
+[00:05:13] still in a very early stages with
+[00:05:15] advancements in AI emerging all the time
+[00:05:18] so you have to be able to adapt very
+[00:05:20] quickly and as for the hard skills
+[00:05:22] primarily it will be light backend
+[00:05:24] development combined with AI so now can
+[00:05:27] anyone become an AI agent developer in
+[00:05:30] 2024 in my opinion yes anyone can do
+[00:05:33] this because imagine if you were trying
+[00:05:35] to excel in a subject like math and
+[00:05:37] you'd be up against people who' spend
+[00:05:40] their entire lives mastering it however
+[00:05:42] when it comes to AI agent development
+[00:05:44] you'll only be competing with people who
+[00:05:46] have at least a few months of experience
+[00:05:49] so in my opinion the timing is just
+[00:05:51] right even if you're a beginner now I'm
+[00:05:54] sure that you guys might be wondering if
+[00:05:57] coding will be necessary or if some no
+[00:06:00] code platforms will suffice in the
+[00:06:02] future well the short answer is yes
+[00:06:04] coding will be necessary here's why
+[00:06:07] first of all the most powerful tools
+[00:06:09] that your agent will use will always
+[00:06:11] require some coding experience sure you
+[00:06:14] can connect your agents to off the
+[00:06:15] shelf's apis but typically in real world
+[00:06:18] scenarios we always create those proxy
+[00:06:21] end points even if we connect to Off the
+[00:06:23] Shelf API this gives us a lot more
+[00:06:24] control over the behavior of the tool
+[00:06:27] for example we can process the input
+[00:06:28] data and output data as we see fit
+[00:06:31] moreover a lot of those tools do require
+[00:06:34] multiple apis together or some custom
+[00:06:36] logic inside secondly open source will
+[00:06:39] always lead the way not in a sense of
+[00:06:41] developing the most powerful models but
+[00:06:44] in a sense of actually using them in
+[00:06:46] Creative projects SAS platforms often
+[00:06:48] require thorough testing and a lot more
+[00:06:50] time to release new features open source
+[00:06:52] reers like my agency's War framework can
+[00:06:55] adapt to new advancements in AI much
+[00:06:57] faster and lastly man of my clients are
+[00:07:00] extremely concerned about data privacy
+[00:07:03] for them SAS platforms are not even an
+[00:07:05] option they want to deploy agents on
+[00:07:07] their own existing infrastructures so
+[00:07:10] while SAS platforms will definitely
+[00:07:12] evolve over time and they might satisfy
+[00:07:14] some of our client needs in the future I
+[00:07:16] believe that learning to code will still
+[00:07:18] be a non-negotiable moreover with the
+[00:07:21] Advent of AI coding tools coding is
+[00:07:23] literally becoming Ain to using another
+[00:07:25] SAS platform because you can already
+[00:07:28] code using only n natural language so
+[00:07:30] the learning curve is nowadays much
+[00:07:32] smoother and there is no longer a need
+[00:07:34] to learn any complex data structures or
+[00:07:37] algorithms you just have to know them on
+[00:07:38] a high level so you know what questions
+[00:07:41] to ask the rest AI can already do for
+[00:07:44] you my road map factors in all of those
+[00:07:46] AI coding tools so let's now take the
+[00:07:49] first step which is to find a good
+[00:07:51] project yes guys I can't emphasize this
+[00:07:54] enough you can start without a project
+[00:07:57] if you don't use it you lose it
+[00:07:59] everything that you learn without a
+[00:08:01] project you will simply not retain on
+[00:08:03] the other hand having a real world
+[00:08:05] project from the start will give you
+[00:08:07] your own lens through which you can
+[00:08:08] interpret all of the following
+[00:08:10] information and the best way to find a
+[00:08:12] good project is to think about your own
+[00:08:15] interests and how they could intersect
+[00:08:17] with AI your Niche is essentially where
+[00:08:20] AI combines with your talents all of the
+[00:08:23] obvious applications for L language
+[00:08:25] models have already been capitalized
+[00:08:27] upon if you were to create another EA
+[00:08:29] agent for research for example you'd be
+[00:08:31] up against tens of Open Source and
+[00:08:33] Commercial projects providing this exact
+[00:08:36] service however the real opportunity
+[00:08:38] lies in merging AI with your own unique
+[00:08:41] interests this is how you can find those
+[00:08:43] untapped use cases that make Captivate
+[00:08:46] other people just like you for example I
+[00:08:48] used to be into EDM so I could create an
+[00:08:51] AI agent that would send me the latest
+[00:08:52] hits create media files with a custom
+[00:08:54] coded tool generate certain sounds with
+[00:08:56] 11 laps API or even entire song when a
+[00:08:59] company like yudo releases their own
+[00:09:03] API so start by scoping an initial
+[00:09:06] agentic project include how many agents
+[00:09:09] you want to create what each agent will
+[00:09:11] do and what tools they will use
+[00:09:13] additionally it's helpful to determine
+[00:09:15] the overall goals and the desired
+[00:09:19] outcomes of the system if you want to
+[00:09:21] download my notion template for scoping
+[00:09:23] an agentic project that we use in our
+[00:09:26] agency almost every day please feel free
+[00:09:28] to use the link below it's going to ask
+[00:09:29] you for your email I'll explain why at
+[00:09:32] the end of this video once your project
+[00:09:34] is fully scoped you're ready to move to
+[00:09:36] the next step which is the environment
+[00:09:37] setup your development environment is
+[00:09:40] where you'll be spending most of your
+[00:09:42] time so it's important to nail it down
+[00:09:44] from the very start first you'll need an
+[00:09:46] IDE this is the software you'll use to
+[00:09:49] write and test your code there are many
+[00:09:51] idees to choose from but some of the
+[00:09:53] most popular ones are visual studio code
+[00:09:56] jet brains and X code I personally
+[00:09:58] prefer jet brains but it's not free
+[00:10:00] although you can get it for free if
+[00:10:02] you're currently a student next you'll
+[00:10:04] need to install python python is the
+[00:10:07] most commonly used language for AI
+[00:10:09] development literally the entire AI
+[00:10:11] industry runs on python it's also a
+[00:10:14] great language for beginners because
+[00:10:15] it's extremely easy to read just follow
+[00:10:17] all the installation steps on their main
+[00:10:19] website and if you run into any issues
+[00:10:22] just send them to chpt please don't send
+[00:10:24] them into comments after that you'll
+[00:10:26] need to figure out package management
+[00:10:28] this is how you'll install and manage
+[00:10:29] the various libraries and tools you'll
+[00:10:31] use in your project messing up package
+[00:10:33] management is the single most common
+[00:10:35] regret for all python developers
+[00:10:38] remember that you should never install
+[00:10:40] packages globally for a specific project
+[00:10:42] and always create separate virtual
+[00:10:44] environments I recommend using a tool
+[00:10:46] like K however python also has a
+[00:10:48] built-in package manager called vnf
+[00:10:51] finally you'll need to find your AI
+[00:10:53] development tools as I said these are
+[00:10:55] crucial in 2024 honestly I personally
+[00:10:58] barely even C code myself I just check
+[00:11:00] code provided by AI some of the most
+[00:11:03] popular ones are GitHub copilot cursor
+[00:11:06] chpt Amazon code Whisperer and even your
+[00:11:08] own agent like David I recommend cursor
+[00:11:11] at the start which is an AI first IDE
+[00:11:13] Fork from vs code it's one of those rare
+[00:11:16] tools that strike the right balance
+[00:11:18] between coding and using AI they are
+[00:11:20] also backed by open AI once your
+[00:11:23] environment is ready to go it's time to
+[00:11:25] start coding so the next step is to
+[00:11:28] learn the basics at this stage I do not
+[00:11:31] recommend diving into too much detail
+[00:11:33] you just need to learn programming at a
+[00:11:35] relatively high level there are many
+[00:11:36] resources available online to Learn
+[00:11:38] Python quickly you can find tutorials on
+[00:11:41] YouTube or you can even read books like
+[00:11:42] learning python which is what I did in
+[00:11:45] my early days however what you can do
+[00:11:47] now is also create your own agent or a
+[00:11:49] custom GPT upload this entire book all
+[00:11:52] of those YouTube videos and use it to
+[00:11:54] assist you with your learning process
+[00:11:56] another great way is to clone a
+[00:11:58] repository on GitHub that you really
+[00:12:00] admire and go through it with AI ask
+[00:12:03] questions about specific lines of code
+[00:12:05] that you don't understand then try to
+[00:12:07] modify this repo or add some new
+[00:12:09] features feel free to try this out with
+[00:12:11] my own framework and submit a PR if you
+[00:12:14] create something cool next you'll need
+[00:12:15] to learn git git is a version control
+[00:12:18] system that lets you track code changes
+[00:12:20] and collaborate with others this is
+[00:12:21] important because sometimes as an agent
+[00:12:24] developer you might have to collaborate
+[00:12:26] with your client development team again
+[00:12:28] there are many resources available to
+[00:12:30] learn git you can find tutorials on
+[00:12:32] YouTube or you can use tools like GitHub
+[00:12:34] copilot CLI a new addition to GitHub
+[00:12:37] copilot that explains or even creates
+[00:12:39] any terminal commands for you fireship
+[00:12:41] also has a great course on git that I
+[00:12:44] personally recommend once you've got the
+[00:12:45] handle on the basics the next step is to
+[00:12:49] learn the modern AI development text tag
+[00:12:52] the first skill you absolutely need to
+[00:12:54] master is an AI agent developer after
+[00:12:56] you learn the basics is the use of llm
+[00:12:59] apis currently the leading players in
+[00:13:01] the field are open AI anthropic and
+[00:13:04] Google Gemini in my opinion open AI is
+[00:13:06] at least a few months ahead of everyone
+[00:13:09] although they were extremely slow with
+[00:13:11] releases recently so I definitely
+[00:13:13] recommend starting with open AI also in
+[00:13:15] my opinion although the gap between open
+[00:13:18] stores and commercial models will shrink
+[00:13:20] over time commercial will always be
+[00:13:22] ahead feel free to disagree with me in
+[00:13:24] the comments so explore open a API and
+[00:13:27] try to create an agent from scratch
+[00:13:28] don't use any Frameworks or libraries
+[00:13:31] equip it with tools using only custom
+[00:13:33] code and try to fine-tune it on a simple
+[00:13:36] task this will give you a much better
+[00:13:38] understanding of how e agents work
+[00:13:40] internally however don't stop on just
+[00:13:43] commercial model apis sometimes there is
+[00:13:45] a need to deploy or fine-tune an open
+[00:13:48] source model because of data privacy I
+[00:13:50] am also currently working on adding a
+[00:13:52] new way to use my framework with open
+[00:13:54] source models and if this proves
+[00:13:56] successful I will let you know so it's
+[00:13:58] important to know how to reuse existing
+[00:14:01] AI models in 2024 but I would not
+[00:14:03] recommend learning to train your own AI
+[00:14:06] from scratch as I said in one of my
+[00:14:08] previous videos AI is just becoming way
+[00:14:11] too complex secretive and expensive
+[00:14:13] there is absolutely no way you can train
+[00:14:16] any breakthrough model by yourself
+[00:14:18] instead try fine-tuning or deploying
+[00:14:20] existing models on a platform like
+[00:14:22] huging phas they offer convenient
+[00:14:24] deployment options and a convenient way
+[00:14:26] to fine-tune those models so I've
+[00:14:29] actually released videos on how to do
+[00:14:31] both on my channel as well and finally
+[00:14:33] you'll need to learn function calling
+[00:14:35] function calling is a feature that
+[00:14:36] allows llms to call external functions
+[00:14:39] this is how your agents interact with
+[00:14:42] the outer world and this is why it's the
+[00:14:44] most important part of the entire system
+[00:14:46] in our agency we don't measure results
+[00:14:49] of our systems by analyzing the outputs
+[00:14:52] of the messages instead we measure our
+[00:14:54] results by analyzing the actions that
+[00:14:57] those agents take I recommend exploring
+[00:15:00] the instructor Library which is a
+[00:15:02] project developed by Jason Leo that
+[00:15:04] conveniently combines penic with
+[00:15:06] function calls essentially it allows you
+[00:15:09] to validate all the inputs provided by
+[00:15:11] your agents before executing any logic
+[00:15:14] inside those function calls so my
+[00:15:16] framework depends on instructor for all
+[00:15:18] custom tools and Json also has a
+[00:15:21] detailed documentation with many great
+[00:15:23] examples after that the next step is to
+[00:15:25] learn multi-agent Frameworks the most
+[00:15:28] popular ones are currently autogen crew
+[00:15:30] eii and my own framework agency form
+[00:15:32] I've previously discussed all of them on
+[00:15:34] my channel and I also released many
+[00:15:36] tutorials on how to use my own framework
+[00:15:38] so I won't go into too much details here
+[00:15:41] if you prefer another framework there
+[00:15:43] are also plenty of tutorials on YouTube
+[00:15:46] essentially all these Frameworks do is
+[00:15:48] just handle some of the underlying
+[00:15:50] details for running your agent-based
+[00:15:51] systems such as multi-agent
+[00:15:53] communication function execution and
+[00:15:55] State Management there is an intricate
+[00:15:57] balance however between between having
+[00:15:59] control over your systems and being able
+[00:16:01] to get started fast my framework is
+[00:16:04] definitely heavily skewed towards
+[00:16:05] control and customization rather than
+[00:16:07] the ease of use it provides you with
+[00:16:10] full access over your agents without any
+[00:16:12] hardcoded prompts or any hardcoded
+[00:16:15] agents even like in other Frameworks so
+[00:16:18] other Frameworks might definitely be
+[00:16:19] easier to get started with because you
+[00:16:21] don't have to create all of those Proms
+[00:16:23] and agents yourself but they might be
+[00:16:26] too restrictive if you're building
+[00:16:27] anything more complex than a trip
+[00:16:29] planner now there is one crucial step
+[00:16:31] that a lot of people skip which is
+[00:16:33] actually deploying your agents in
+[00:16:35] production this is why next you do have
+[00:16:37] to learn some light backend API
+[00:16:39] development you can start by deploying a
+[00:16:41] simple model via API there are many ways
+[00:16:44] to do this for example you can use
+[00:16:46] Firebase functions AWS Lambda or even
+[00:16:49] create your own server with flask or
+[00:16:50] fast API I recommend using serverless
+[00:16:53] because the number of requests your
+[00:16:55] agent receives can vary significantly
+[00:16:57] from time to time therefore you need a
+[00:16:59] scalable solution to learn quickly the
+[00:17:01] best way is to chat with chat GPT it
+[00:17:04] knows surprisingly well all of those
+[00:17:05] infrastructure providers like Google
+[00:17:07] Cloud AWS and Azure Google Cloud also
+[00:17:10] has recently introduced their own
+[00:17:12] assistant powered by Gemini which can be
+[00:17:14] used directly from their console you can
+[00:17:16] simply ask how to create a serverless
+[00:17:17] function and it will provide you with an
+[00:17:19] exact step-by-step process to follow and
+[00:17:21] if you encounter any issues of course
+[00:17:23] you can send them back and it will help
+[00:17:25] you to resolve it once you've deployed
+[00:17:26] your agent as an API try integrating it
+[00:17:29] into a channel like slack or Discord or
+[00:17:31] you could even go farther and try
+[00:17:33] creating your own chat user interface
+[00:17:34] using a platform like verel VZ front-end
+[00:17:37] development could be helpful sometimes
+[00:17:39] however it's not a requirement once
+[00:17:41] you've shared your project with the
+[00:17:43] world the final step is to monetize it
+[00:17:46] making money is hands down the best way
+[00:17:47] to learn because you also get paid for
+[00:17:50] it and to do this effectively you must
+[00:17:52] productize your service you must reuse
+[00:17:54] as much of the previous code as possible
+[00:17:56] you should create templates for each
+[00:17:58] step of the process like deploying
+[00:18:00] agents creating tools or even creating
+[00:18:02] agent templates sometimes that could be
+[00:18:04] helpful although I do not recommend
+[00:18:05] using it all the time after that you
+[00:18:07] need to find your first client there are
+[00:18:09] three means you can find your first
+[00:18:11] client number one is freelance platforms
+[00:18:13] this is the easiest and the fastest way
+[00:18:15] to find a client without making
+[00:18:17] significant time and money Investments I
+[00:18:19] think AI agent development fits quite
+[00:18:21] well with freelancing because the
+[00:18:23] projects are relatively shortterm
+[00:18:25] besides There is almost no competition
+[00:18:27] for a agent deps on these platforms yet
+[00:18:29] this is how I personally got started I
+[00:18:31] used to work as an eii freelancer on upw
+[00:18:33] work which gave me a ton of experience
+[00:18:35] because I was working with many
+[00:18:37] different companies on various projects
+[00:18:40] across all modalities like audio Vision
+[00:18:43] NLP and so on my tip for you here is to
+[00:18:45] create your own project offers and let
+[00:18:47] your clients find you instead of sending
+[00:18:49] proposals number two cold Outreach cold
+[00:18:52] Outreach involves sending code emails
+[00:18:54] and DMS to companies offering your
+[00:18:56] service this method requires a lot more
+[00:18:59] effort but it can also lead to higher
+[00:19:01] paying clients I don't have much
+[00:19:02] experience doing cold Outreach but my
+[00:19:05] tip for you is to always schedule a call
+[00:19:07] instead of trying to sell your solution
+[00:19:09] via emails and finally you can find a
+[00:19:12] full-time job you'd be surprised how
+[00:19:14] many companies are actually looking for
+[00:19:16] a agent developers right now and the
+[00:19:18] best way to find such a company is to
+[00:19:20] look for startups that recently received
+[00:19:22] funding our team is also currently on
+[00:19:24] the lookout for agent developers so if
+[00:19:26] you have already completed all of the
+[00:19:28] previous steps you can reach out to us
+[00:19:30] on our Discord remember the goal is not
+[00:19:32] just to make money but to learn and grow
+[00:19:34] as you go and to wrap this up I just
+[00:19:36] wanted to share a bonus tip with you
+[00:19:38] which is to build your own community
+[00:19:40] building a community requires a
+[00:19:42] substantial time investment however if
+[00:19:44] you have a community and if you
+[00:19:46] understand the needs and challenges that
+[00:19:47] your community is currently facing you
+[00:19:49] can tailor your services specifically
+[00:19:51] for them this will not only help you
+[00:19:53] stand out but will also provide you with
+[00:19:55] extremely valuable feedback so as I said
+[00:19:57] I personally started as as a freelancer
+[00:19:59] on upwork yet about a year ago I decided
+[00:20:01] to start this YouTube channel I thought
+[00:20:03] that maybe by this time I would get my
+[00:20:06] first client from YouTube however
+[00:20:07] believe it or not my first client found
+[00:20:10] me on my second video when I had only
+[00:20:12] about 100 subscribers or so so I
+[00:20:15] definitely recommend considering
+[00:20:16] platforms like Twitter Youtube Youtube
+[00:20:18] shorts medium or even your own open
+[00:20:20] source project with a dedicated Discord
+[00:20:22] server it will take some time to grow
+[00:20:24] your audience but if you stick the
+[00:20:26] investment will totally be worth it so
+[00:20:28] yeah that's it for this video guys if
+[00:20:30] you want to grab this whole road map and
+[00:20:32] my AI agent scoping template for notion
+[00:20:35] make sure to use the link below it's
+[00:20:36] going to ask you for your email because
+[00:20:38] I'm currently working on a complete
+[00:20:40] course that will include a lot more
+[00:20:42] information that I couldn't fit into a
+[00:20:43] single video here we are actually one of
+[00:20:45] the very few companies in the world that
+[00:20:47] productized AI agent development at
+[00:20:50] scale so we have a lot more to share
+[00:20:52] however before we do that I want to make
+[00:20:54] sure that this course is as good as it
+[00:20:56] can be so it will probably take me a
+[00:20:58] couple months or so to make it thank you
+[00:21:00] guys for watching and don't forget to
+[00:21:02] subscribe

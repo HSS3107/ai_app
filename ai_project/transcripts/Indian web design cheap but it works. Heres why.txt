@@ -1,0 +1,271 @@
+Title: Indian web design: cheap, but it works. Here's why
+Channel: Phoebe Yu
+Published: 2024-09-12T21:03:26Z
+Duration: PT9M58S
+Description: Indian web design is cheap - low cost, yet high reward. With 1.44 billion people in India, website designs gotta work for people of different backgrounds, cultures, and abilities, yet stay financially affordable. When certain "cheap" designs prove to be effective and usable, does it matter if they still "look good"?
+
+In this video, I cover the history, psychology, and culture of Indian web design. I discuss the rise of mobile experiences, why some websites never change, the impact of user demographics on design, India's price-sensitive economy, and how we can make products that work globally. If it get's the job done, maybe it's ok to lower costs…
+
+Guest speakers
+Shivam Gupta: https://www.linkedin.com/in/shivamgupta7194/
+Parag Gupta: https://www.linkedin.com/in/guptaparag/
+
+Sources (videos)
+https://www.youtube.com/watch?v=d6CKhYCvrzU&t=574s
+https://www.youtube.com/watch?v=82U8uXMYGYA
+https://www.youtube.com/watch?v=Keme8oxHHPQ&t=744s
+https://www.youtube.com/watch?v=YHVNWtBuDVk&t=57s
+https://www.youtube.com/watch?v=uY5SX8c8kWI&t=120s
+
+Source (articles + sites)
+https://www.tandfonline.com/doi/full/10.1080/08911762.2017.1296985
+https://www.similarweb.com/platforms/india/
+https://www.onlinesbi.sbi/
+https://sbius.statebank/about-sbi#:~:text=The%20rich%20heritage%20and%20legacy,%2FADWMs%2C82%2C900%20BC%20outlets.
+https://www.irctc.co.in/nget/
+https://www.icicibank.com/
+
+Music
+https://www.youtube.com/watch?v=irhVVoVeEXY
+ 
+You're busy, I gotchu
+0:00 - Many questions
+0:50 - The challenge
+1:23 - Why mobile over desktop websites?
+3:21 - Some websites never change, but still work?
+5:10 - If it works, why fix it? Public sector tech
+6:22 - A price-sensitive economy
+7:30 - How geography impacts design - access & culture
+8:48 - How to make products that work globally?
+
+Transcript:
+
+[00:00:00] Indian web design it's cheap but it
+[00:00:03] works here's why take a guess what do
+[00:00:06] you think this website is used
+[00:00:10] for this is the homepage for the State
+[00:00:12] Bank of India with over 500 million
+[00:00:14] customers it is the largest bank in
+[00:00:17] India and this is the website they use
+[00:00:21] why India as a market I think works on
+[00:00:23] Rich content that we want information it
+[00:00:26] it's really cheap like it's I I don't
+[00:00:28] know how they manag to do in this video
+[00:00:31] I refer to cheap as Financial
+[00:00:33] affordability looking at the tech and
+[00:00:35] web design history of India we'll answer
+[00:00:38] these
+[00:00:39] questions I mean does a website still
+[00:00:42] need to look good if it
+[00:00:48] works okay it's time with 1.44 billion
+[00:00:52] people India is now the most populated
+[00:00:55] country on Earth which means a poorly
+[00:00:57] designed software in India can costs up
+[00:01:00] to Millions even billions of dollars so
+[00:01:03] the design has to work but here's the
+[00:01:06] thing in India there are 36 entities
+[00:01:09] split into 86 districts each with their
+[00:01:12] own unique culture and demographics
+[00:01:15] that's a lot of districts how can
+[00:01:17] someone create an effective website that
+[00:01:19] works for everyone yet keep the costs
+[00:01:22] low to understand how we got here we got
+[00:01:24] to go back a few years it's 2005 and
+[00:01:27] you're a teenager in bangaluru you
+[00:01:30] receive your first phone the Nokia 1100
+[00:01:33] you're a teenager so you play with it
+[00:01:36] Chuck it at a rock you get scared and
+[00:01:38] when you go pick it up you noticed a
+[00:01:40] weird thing the rock broke but the phone
+[00:01:43] was in one piece no 1100 it is
+[00:01:45] indestructible essentially you could
+[00:01:47] throw it anywhere and the other thing
+[00:01:48] would be destroyed that's Shivam Gupta a
+[00:01:50] Google ux designer who grew up in India
+[00:01:53] now based in New York City he explains
+[00:01:55] that between the popular tech devices
+[00:01:57] laptops PCS tablets phones in India the
+[00:02:01] mobile phone Rose to the top indeed
+[00:02:04] according to sources 78% of market share
+[00:02:07] exists on mobile phones in India
+[00:02:09] compared to 57% in USA just like China
+[00:02:13] affordable smartphones flooded the
+[00:02:15] Indian market prices came down and all
+[00:02:17] of these like different brands not your
+[00:02:19] big Brands like Google Apple Samsung but
+[00:02:21] like other brands that came into the
+[00:02:23] market they were offering cheaper
+[00:02:25] smartphones and this means one thing
+[00:02:28] Tech became accessible all of a sudden
+[00:02:31] people from a wide range of
+[00:02:32] socioeconomic backgrounds could access
+[00:02:35] the internet which means by the 2010s
+[00:02:38] companies adapted to the shift by
+[00:02:41] designing websites for mobile phones for
+[00:02:44] example a large chunk of the Indi
+[00:02:45] population skipped the desktop phase
+[00:02:48] that's purak Gupta a Google ux designer
+[00:02:51] based in bangaluru India like their
+[00:02:54] first internet device was a mobile phone
+[00:02:56] because of which you would find a lot
+[00:02:58] more design focused on a mobile view
+[00:03:00] rather than a desktop view and these
+[00:03:02] mobile view websites aren't just going
+[00:03:04] to appear out of thin air we need
+[00:03:06] designers to make them which means a
+[00:03:09] booming Tech economy what do you do I am
+[00:03:12] a ux designer what do you do for living
+[00:03:14] I'm a ux designer you guys do I'm a
+[00:03:16] designer uux designer what did you study
+[00:03:18] and how do you get a job let's check my
+[00:03:21] bank account have you tried our new
+[00:03:23] simplified and intuitive business
+[00:03:25] banking platform hm I have not let's see
+[00:03:35] so uh I've been going to the same bank
+[00:03:37] for the past 20 years and the website
+[00:03:40] looks like this bro it's 2024 what is
+[00:03:44] that why do some websites never change
+[00:03:47] India as a market I think works on Rich
+[00:03:50] content that we want information we
+[00:03:53] don't want to go around and dig for it
+[00:03:54] we don't want to go and search for it we
+[00:03:56] want it upfront a lot of times and
+[00:03:58] that's where I think websites play a
+[00:04:00] great role because they can just lay out
+[00:04:01] everything up in front but turns out
+[00:04:04] this maximal design often works well for
+[00:04:07] South and East Asian users look at Yahoo
+[00:04:10] Japan there is a lot going on here but
+[00:04:12] based on scientific research this makes
+[00:04:15] sense both India and Japan have high
+[00:04:18] context cultures which communicate in
+[00:04:20] ways that are implicit nuanced
+[00:04:22] contrasting low context cultures where
+[00:04:24] you would be direct to the point and
+[00:04:27] explicit this study looked at how people
+[00:04:29] of High versus low context culture
+[00:04:31] perceived and enjoyed ads of different
+[00:04:34] complexity and when both participants
+[00:04:36] saw the same complicated looking ad the
+[00:04:39] person of higher context culture enjoyed
+[00:04:41] it more and was like it's not that
+[00:04:43] complicated compared to the lower
+[00:04:45] context culture who enjoyed the ad less
+[00:04:48] and perceived it as more complex so in a
+[00:04:51] high context culture like India it's
+[00:04:54] actually okay if some websites look like
+[00:04:56] this so when you learn things like
+[00:04:58] Progressive disclosure think do I need
+[00:05:01] to progressively disclose do I need to
+[00:05:03] present things one at a time slowly when
+[00:05:07] sometimes it's better to give it all at
+[00:05:09] once and although this website might
+[00:05:11] seem outdated or some might even say
+[00:05:14] ugly if it works why fix it not just in
+[00:05:17] Indian web design but we often see this
+[00:05:20] in the public sector Banks hospitals
+[00:05:23] public facilities these entities have
+[00:05:25] limited resources and they need to serve
+[00:05:28] a ton of people so not much money can be
+[00:05:31] spent on how a website looks but that
+[00:05:34] doesn't mean this doesn't serve the
+[00:05:36] fundamental purpose of getting people to
+[00:05:38] where they need users have adapted to
+[00:05:41] this design and actually the last thing
+[00:05:43] you want to do is change it in this case
+[00:05:47] familiarity might be more important than
+[00:05:50] a new modern design and honestly
+[00:05:54] sometimes it's the same for Western
+[00:05:55] designs for instance Reddit it's lowkey
+[00:05:59] kind of ugly it's not the cleanest
+[00:06:01] design there's a lot going on we've got
+[00:06:03] three columns with lots of information
+[00:06:05] but it gives us the
+[00:06:11] juice so we don't care users will adapt
+[00:06:14] I'm curious what do you think about this
+[00:06:17] the fact that some of these websites are
+[00:06:19] just not updated but they still work
+[00:06:22] also there's so much diversity in
+[00:06:25] languages literacy level age text skills
+[00:06:28] and socioecon iomic status in India that
+[00:06:32] if they change a design that's used by a
+[00:06:34] lot of people it takes people time to
+[00:06:37] adapt speaking of socioeconomic India
+[00:06:41] has been able to keep the cost of
+[00:06:43] Technology really low in India data is
+[00:06:46] super cheap for about like the cost of
+[00:06:48] coffee uh you could get close to
+[00:06:50] unlimited data in a month like it it's
+[00:06:52] really cheap like it's I I don't know
+[00:06:54] how they managed to do that with the
+[00:06:56] Indian market being a price sensitive
+[00:06:58] economy makes sense why some companies
+[00:07:01] would rather have a less modern but
+[00:07:03] still usable design in exchange for a
+[00:07:06] lower cost now you clicked onto this
+[00:07:08] video probably wondering how web design
+[00:07:10] in India might be different from the
+[00:07:12] rest of the world but here's the truth
+[00:07:15] there is no one Indian design India is
+[00:07:19] incredibly diverse and different between
+[00:07:21] regions so we cannot generalize a design
+[00:07:24] that works for the entire country I mean
+[00:07:27] this is the case for all countries let's
+[00:07:29] come come back to this map India has 86
+[00:07:32] districts this is how geography impacts
+[00:07:36] design for example color depends on
+[00:07:39] culture in many parts of India white
+[00:07:42] symbolizes peace and Purity and people
+[00:07:45] would wear it at funerals or festivals
+[00:07:47] like holy but in other parts of India
+[00:07:50] people would wear bright colors to
+[00:07:52] funerals bright pinks bright Blues
+[00:07:55] bright oranges so before you slap on a
+[00:07:57] color gradient on your product
+[00:08:00] understand what does that color mean for
+[00:08:02] your Target users another important
+[00:08:05] factor is the users access to technology
+[00:08:08] India uses a tier system to classify
+[00:08:10] their cities essentially they have
+[00:08:11] cities going from Tier 1 to tier six and
+[00:08:13] they're generally classified by
+[00:08:15] population that's the official
+[00:08:17] classification so a city a tier 1 City
+[00:08:19] will have 100,000 inhabitants or more
+[00:08:21] tier 2 City will have 50 to 100,000
+[00:08:24] inhabitants and so on tier four I guess
+[00:08:26] would be like a very small town and so
+[00:08:28] you have people coming from these places
+[00:08:30] they don't come from means right they
+[00:08:32] don't have a good family name they don't
+[00:08:35] have connections they didn't go to a
+[00:08:36] good school some users may not even have
+[00:08:39] access to phones or tablets so keep that
+[00:08:41] in mind experience design is more than
+[00:08:44] the screen think from a macro
+[00:08:46] perspective how do we make products that
+[00:08:50] work globally it's not an easy job think
+[00:08:53] of it like this in design you have a
+[00:08:55] main quest and side quests the main
+[00:08:58] quest is to design design and build the
+[00:09:00] actual website and the side quests are
+[00:09:03] understanding the users understanding
+[00:09:05] their culture when building products
+[00:09:07] there is no one- siiz fitall approach to
+[00:09:10] design and that's why it's fun instead
+[00:09:13] of following a cookie cutter design
+[00:09:15] process why are we using the justult
+[00:09:18] principle who are we really designing
+[00:09:20] for and why are we building this product
+[00:09:22] in the first place let me know your
+[00:09:24] thoughts what do you think about all of
+[00:09:26] this feel free to correct me share
+[00:09:28] resources treat this as an ongoing
+[00:09:30] collaborative research project as Roman
+[00:09:33] King Marcus aurelus says everything we
+[00:09:36] hear is an opinion not a fact everything
+[00:09:39] we see is a perspective not the truth
+[00:09:42] when you're building something whose
+[00:09:44] perspective are you taking and is that
+[00:09:47] the only perspective
+[00:09:50] [Music]

@@ -14,5 +14,7 @@ AI PROJECT
 │   ├── models.py (Database models)
 │   ├── tests.py (Unit tests)
 │   └── views.py (View functions/classes)
+|.  |__ templates (include html pages)
+|.  |__ static (include css and js) 
 │
 └── manage.py (Django command-line utility)
