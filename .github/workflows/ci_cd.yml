@@ -64,18 +64,14 @@ jobs:
             docker rm transcript-analyzer || true
             docker run -d --restart unless-stopped --name transcript-analyzer -p 8001:8000 \
               -e OPENAI_API_KEY='${{ secrets.OPENAI_API_KEY }}' \
-              -e OPENAI_API_KEY01='${{ secrets.OPENAI_API_KEY01 }}' \
               -e PINECONE_API_KEY_1='${{ secrets.PINECONE_API_KEY_1 }}' \
               -e PINECONE_API_ENV='${{ secrets.PINECONE_API_ENV }}' \
               -e PINECONE_INDEX_NAME='${{ secrets.PINECONE_INDEX_NAME }}' \
               -e IKANOON_API_TOKEN='${{ secrets.IKANOON_API_TOKEN }}' \
               -e GOOGLE_APPLICATION_CREDENTIALS='${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}' \
               -e YOUTUBE_API_KEY='${{ secrets.YOUTUBE_API_KEY }}' \
-              -e DATABASE_NAME='${{ secrets.DATABASE_NAME }}' \
-              -e DATABASE_USER='${{ secrets.DATABASE_USER }}' \
-              -e DATABASE_PASSWORD='${{ secrets.DATABASE_PASSWORD }}' \
-              -e DATABASE_HOST='${{ secrets.DATABASE_HOST }}' \
-              -e DATABASE_PORT='${{ secrets.DATABASE_PORT }}' \
+              -e DATABASE_URL='${{ secrets.DATABASE_URL }}' \
               ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
+            docker rmi $(docker images --filter "dangling=true" -q)
           EOF
           
