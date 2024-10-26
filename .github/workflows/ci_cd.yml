@@ -62,7 +62,7 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/transcript-analyzer:latest
             docker stop transcript-analyzer || true
             docker rm transcript-analyzer || true
-            docker run -d --restart unless-stopped --name transcript-analyzer -p 8001:8000 \
+            docker run -d --restart unless-stopped --name transcript-analyzer -p 127.0.0.1:8001:8000 \
               -e OPENAI_API_KEY='${{ secrets.OPENAI_API_KEY }}' \
               -e PINECONE_API_KEY_1='${{ secrets.PINECONE_API_KEY_1 }}' \
               -e PINECONE_API_ENV='${{ secrets.PINECONE_API_ENV }}' \
