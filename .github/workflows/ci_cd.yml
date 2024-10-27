@@ -67,7 +67,6 @@ jobs:
               -e PINECONE_API_KEY_1='${{ secrets.PINECONE_API_KEY_1 }}' \
               -e PINECONE_API_ENV='${{ secrets.PINECONE_API_ENV }}' \
               -e PINECONE_INDEX_NAME='${{ secrets.PINECONE_INDEX_NAME }}' \
-              -e IKANOON_API_TOKEN='${{ secrets.IKANOON_API_TOKEN }}' \
               -e GOOGLE_APPLICATION_CREDENTIALS='${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}' \
               -e YOUTUBE_API_KEY='${{ secrets.YOUTUBE_API_KEY }}' \
               -e DATABASE_URL='${{ secrets.DATABASE_URL }}' \
