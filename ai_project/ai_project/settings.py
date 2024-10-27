@@ -184,3 +184,26 @@ PINECONE_API_KEY = os.getenv('PINECONE_API_KEY_1')
 PINECONE_API_ENV = os.getenv('PINECONE_API_ENV')
 PINECONE_INDEX_NAME = os.getenv('PINECONE_INDEX_NAME')
 YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',  # Set to DEBUG to capture everything
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        '': {  # Root logger
+            'handlers': ['console'],
+            'level': 'DEBUG',  # Set to DEBUG to capture everything
+        },
+        'django': {
+            'handlers': ['console'],
+            'propagate': True,
+            'level': 'DEBUG',  # Set to DEBUG to capture everything
+        },
+    },
+}
