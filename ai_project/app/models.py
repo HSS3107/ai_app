@@ -74,3 +74,16 @@ class ChatSession(models.Model):
 
     def __str__(self):
         return f"Chat {self.id} - {self.created_at}"
+    
+# WaitList model defines the fields and at the same time, help store those field in the database table - app_waitlist
+class WaitList(models.Model):
+    name = models.TextField()
+    email = models.EmailField(max_length=254, unique=False)
+    phone_no = models.CharField(max_length=15, unique=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = 'app_waitlist'
+
+    def __str__(self):
+        return f"Chat {self.id} - {self.created_at}"

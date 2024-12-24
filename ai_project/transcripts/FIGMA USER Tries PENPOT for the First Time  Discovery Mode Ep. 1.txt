@@ -1,0 +1,407 @@
+Title: FIGMA USER Tries PENPOT for the First Time | Discovery Mode Ep. 1
+Channel: Trustybits
+Published: 2024-12-18T05:58:55Z
+Duration: PT12M33S
+Description: As a longtime Figma user, I decided to try Penpot for the very first time!
+
+Penpot is the open-source design tool making waves among UI/UX designers, product developers, and graphic design enthusiasts. In this video, I explore Penpot’s login, interface, and try to build out a simple wireframe while sharing my first impressions and comparing it to tools you might be familiar with.
+
+Is Penpot a real contender for Figma users? Watch to find out!
+
+If you’re a designer looking for alternatives to Figma or exploring new design tools, this video is for you. Whether you’re a UX designer, UI designer, product designer, design student, or even if you're not a designer at all, join me in Discovery Mode as I test Penpot for the first time.
+
+🔎 Keywords: Figma, Penpot, UX design, UI design, open-source design tools, Adobe XD alternatives, design tools comparison, product design software.
+
+✨ Subscribe for more Discovery Mode episodes where we test and explore new design and software tools!
+
+#Figma #Penpot #UXDesign #DesignTools #UIUX #GraphicDesign #ProductDesign"
+
+Transcript:
+
+[00:00:00] we've got pen poot here I've never
+[00:00:01] touched it before but we're going to see
+[00:00:02] if I can figure things out we'll come
+[00:00:03] here to sign up for free so it wants us
+[00:00:05] to create an account I'll go ahead and
+[00:00:06] do that okay now it wants a little bit
+[00:00:07] of onboarding here so I'm going to put
+[00:00:09] in my full name agree to terms of
+[00:00:10] service going to be using pen pot uh you
+[00:00:13] know for just exploring that's why we're
+[00:00:16] here I use figma the most it's a team
+[00:00:18] okay so it's talking about inviting
+[00:00:19] additional people here because they have
+[00:00:20] multiplayer right uh you could start
+[00:00:22] creating a team you could start without
+[00:00:23] a team we'll see what it's like if I do
+[00:00:25] trusty bits here great so I'm into my
+[00:00:27] home landing page here now looks not too
+[00:00:29] unfamiliar that I've got different files
+[00:00:31] or projects they're calling them
+[00:00:32] projects here and drafts libraries fonts
+[00:00:34] okay so and I can pin certain projects
+[00:00:36] here along the left the user drop down
+[00:00:37] change between a personal and a team
+[00:00:39] workspace it looks like or create new
+[00:00:40] teams as well little bit of Team
+[00:00:42] Management options here leave delete
+[00:00:44] settings Etc manage the users things for
+[00:00:46] my personal account I'm guessing yep
+[00:00:47] we've got that here in the bottom some
+[00:00:49] general help so I want to go ahead and
+[00:00:50] make an empty file first so we've got a
+[00:00:52] toolbar across the top it would see and
+[00:00:55] some interface on the right and the left
+[00:00:56] got some rulers here again nothing too
+[00:00:58] foreign right it feels relatively
+[00:01:00] familiar looks like I have Pages uh and
+[00:01:02] then I'm guessing these are going to be
+[00:01:03] layers yeah well it says here layers
+[00:01:05] different layers shown on page one where
+[00:01:06] I'm at I can flip to assets here as well
+[00:01:08] so all in all it feels pretty
+[00:01:10] comfortable pretty familiar so let's say
+[00:01:13] I'm going to go grab a a web app that
+[00:01:15] maybe I can uh try and imitate let's
+[00:01:17] just go grab the Google homepage
+[00:01:19] dropping in here so we've got this web
+[00:01:22] page this landing page was able to P an
+[00:01:24] image easy enough shows up in my layers
+[00:01:25] over here on the left so let's just see
+[00:01:27] now you can see the dimensions um let's
+[00:01:29] go ahead and see if we can look we got a
+[00:01:31] board here shift keeps our Dimensions as
+[00:01:32] I scale it uh I didn't see any preset
+[00:01:35] options for the board so looks like I
+[00:01:38] will just manually scale this guy let's
+[00:01:40] just go width 40 and oh that's super
+[00:01:44] strange now what happened nope it's an
+[00:01:46] extra board oh it's a board inside a
+[00:01:48] board my bad sorry guys okay width 1440
+[00:01:51] height just do 1080 for now uh let's
+[00:01:54] just make a rectangle here sweet we've
+[00:01:56] got a 100 by 100 rectangle let's say we
+[00:01:58] want this to be you know 560 wide this
+[00:02:02] can be looks like we got some snapping
+[00:02:04] guides here this can be like our logo I
+[00:02:05] suppose looks like this rectangle lives
+[00:02:08] indeed inside this board the board has
+[00:02:10] some layout settings here looks like
+[00:02:12] there's a flex layout maybe we'll give
+[00:02:13] that a try just for funsies any changes
+[00:02:17] let's see thinking it looks like a lot
+[00:02:19] of padding this guy's not centered but
+[00:02:22] it won't let me relocate it so it seems
+[00:02:23] to be following some logic or rule based
+[00:02:24] layout settings great that's technically
+[00:02:26] what I was looking for uh I probably
+[00:02:28] should like not get too complex and use
+[00:02:30] such a a layout setup right now I should
+[00:02:32] probably stick with the real simples
+[00:02:33] we'll grab another rectangle here oh
+[00:02:35] look it just popped it there yeah so
+[00:02:37] it's absolute yeah okay so absolute
+[00:02:38] means now I'm going to be able to put it
+[00:02:39] wherever I want so let's say that this
+[00:02:42] guy
+[00:02:43] is 100 tall is probably fine but we'll
+[00:02:45] make it 20 100 wide 24 tall we'll bring
+[00:02:48] him up to there alt hold click drag
+[00:02:51] gives me a nice extra one we'll bring a
+[00:02:53] couple more over here and then this one
+[00:02:55] we're going to actually make uh 32x 32
+[00:03:01] and then the last one is I don't know 48
+[00:03:03] by 48 okay A little scrunched there but
+[00:03:06] we'll make it work let's put these guys
+[00:03:08] if I right click maybe it gives us the
+[00:03:11] option to I could group them oh I could
+[00:03:13] take I could turn this selection into a
+[00:03:14] board so you might be familiar with the
+[00:03:16] word frame from other software ASI seems
+[00:03:18] to be the board is the word that they
+[00:03:19] use here inside of pen poot I want to
+[00:03:21] grab these guys we also want to make
+[00:03:23] this selection a board they're a little
+[00:03:24] out of order that's fine these two we're
+[00:03:27] going to bring them together and they're
+[00:03:29] also going to be a board and then if we
+[00:03:32] take the parent board looks like uh fit
+[00:03:35] content fix height okay well what I'm
+[00:03:39] imagining is I need some items going
+[00:03:40] vertically and some items going
+[00:03:43] horizontally and I'm not sure it's
+[00:03:45] probably within like maybe that setting
+[00:03:47] yeah there we go so we want to take then
+[00:03:49] this guy and he's going to probably go
+[00:03:52] we don't want to fix with we want oh
+[00:03:55] okay looks like it's already at like
+[00:03:56] 100% And I can see that the contents are
+[00:03:58] spilling over the edge
+[00:04:00] so maybe if we go back yeah okay here's
+[00:04:01] the padding I was dealing with earlier
+[00:04:02] and I could not find the setting for it
+[00:04:04] so I want 20 and 20 for now probably
+[00:04:07] want 40 and 40 maybe we can adjust later
+[00:04:10] if we need to uh and then while we're
+[00:04:12] here I'm also going to add it's like I
+[00:04:13] can't click and drag inside this box to
+[00:04:15] make an
+[00:04:16] adjustment um so that's that's okay uh
+[00:04:18] we'll put in 120 for now get some
+[00:04:20] distance there let's come back to this
+[00:04:21] guy he's got two separate boards inside
+[00:04:23] of him he's got these two guys on the
+[00:04:25] left the rest over on the right we want
+[00:04:27] to see if we can make them kind of
+[00:04:29] spread out can go far left to far right
+[00:04:31] it looks like the width of the board is
+[00:04:33] good so what we need to do is add
+[00:04:35] another probably a flex layout here oh
+[00:04:38] okay now they're aligned Center and
+[00:04:40] based on just like the icons here I'm
+[00:04:42] going to guess it's this guy justifying
+[00:04:44] the content looky there let's maybe grab
+[00:04:47] this board and he also needed a layout
+[00:04:48] particularly because yeah okay got the
+[00:04:50] GU centered there now and I also think
+[00:04:53] uh I want the the height of the box to
+[00:04:56] compress to the contents uh but I'm not
+[00:04:58] sure it didn't do it on automatically
+[00:05:00] for me which that's also fine maybe
+[00:05:01] that's something I'm used to or
+[00:05:02] expecting but is there any kind of like
+[00:05:04] setting with the height oh they got size
+[00:05:06] presets here okay that's something I was
+[00:05:07] looking to see earlier when I created
+[00:05:08] the board what's this clip content cool
+[00:05:11] show in View mode okay all good stuff
+[00:05:13] they've got a wrap feature here that
+[00:05:15] one's familiar it's interesting they've
+[00:05:16] got this like uh not only do they have
+[00:05:17] like horizontal and vertical but they
+[00:05:18] have left to right right to left you
+[00:05:20] know both directions so that one could
+[00:05:22] be interesting uh I mean that's probably
+[00:05:25] what I want actually I think I want to
+[00:05:27] Justified to the start and then I wanted
+[00:05:28] say like specified Gap between the two
+[00:05:30] objects there I feel like we need uh
+[00:05:32] okay fix content horizontal is that oh
+[00:05:35] look I think that might have been what I
+[00:05:35] was looking for so now if I click the
+[00:05:37] fixed content height yeah it's it's
+[00:05:38] basically shrinking to the uh the
+[00:05:39] objects that are inside it's great so
+[00:05:41] okay now we're going to come back over
+[00:05:42] to this layout give it a flex sorry this
+[00:05:44] board give it a flex layout here we want
+[00:05:46] to Center them vertically we want them
+[00:05:49] okay looks like they're starting from
+[00:05:50] the left side we might as well just
+[00:05:51] start them from the right not a huge
+[00:05:53] difference Give Them All Uniform Gap
+[00:05:55] there and then we also want to make the
+[00:05:57] width of this containing board uh fit
+[00:06:00] content as they call it here so we'll do
+[00:06:02] that for the height and the width great
+[00:06:03] so we've got a couple of sections there
+[00:06:05] now now if we move on from basically the
+[00:06:07] header section here which as I'm looking
+[00:06:08] at our sample image I can see a uniform
+[00:06:11] uh Gap with these two spots here it
+[00:06:14] looks not quite uniform that could have
+[00:06:15] been my screenshot was a little off on
+[00:06:16] the edges but I do want this to be
+[00:06:18] uniform which is not what I'm seeing
+[00:06:19] here so what we could
+[00:06:22] do make a little bit of guesses here we
+[00:06:25] could just try 32 28 Maybe probably good
+[00:06:30] enough for there looks pretty close to
+[00:06:31] what we've got uh over on our reference
+[00:06:33] image let's go back to the overall
+[00:06:36] layout and of the parent Ward if we
+[00:06:38] center items good looking good okay so
+[00:06:41] we got this guy let's make a copy
+[00:06:42] perfect uh this one however we want to
+[00:06:44] be let's try rounding his Corners I
+[00:06:47] think this is you you can choose the
+[00:06:48] corners separately or we could choose
+[00:06:50] all of them at once uh wow 16 did not
+[00:06:52] make as big a dent as I was expecting
+[00:06:54] all right and the height of this is
+[00:06:55] maybe just 64 no how about uh 40 we'll
+[00:06:59] go with 48 for now no we're going to do
+[00:07:01] 56 one aible on you which means
+[00:07:03] technically we've got an extra amount of
+[00:07:05] rounding and it is handling that just
+[00:07:06] fine going want to grab I'm going to
+[00:07:08] grab one of these icons look like I was
+[00:07:09] able to do sort of a deep select there
+[00:07:11] the alt when I hold alt to make a copy
+[00:07:13] of my friends like if I have a bigger
+[00:07:15] shape like this I hold alt it's showing
+[00:07:16] me the dimensions of the shape I think
+[00:07:17] that's super helpful actually that's a
+[00:07:18] really cool feature but on a smaller
+[00:07:20] shape uh it does mean that like like
+[00:07:22] where' the shape go once I hold the ALT
+[00:07:23] key you know so that's a that's a fun
+[00:07:25] one here uh we're going to turn this
+[00:07:27] rectangle into a you know actually what
+[00:07:29] we want is let's grab okay I'm going to
+[00:07:32] do command C command V I'm going to grab
+[00:07:34] three of them this time we're going to
+[00:07:36] what's the shortcut turning it into a
+[00:07:38] board is control alt G I should have
+[00:07:39] known that one and this we want to give
+[00:07:42] a layout here a flex layout we're going
+[00:07:44] to go left to right it's being a little
+[00:07:45] silly but yeah let's fit our content
+[00:07:47] there give them a a gap of start with 20
+[00:07:51] let's uh is this my padding yeah this is
+[00:07:53] padding let's give this 20 and this 20
+[00:07:55] and then we're going to we want to add a
+[00:07:58] fill to this board okay looks like it
+[00:08:00] did that for us we'll make this a little
+[00:08:02] bit
+[00:08:03] lighter and then uh let's see if I
+[00:08:05] select this board press the enter key
+[00:08:07] good it selected all of the children
+[00:08:08] here we'll make this just a little bit
+[00:08:09] darker have a little better contrast
+[00:08:10] there we're really just winging it here
+[00:08:12] there's no specified uh numbers not
+[00:08:14] currently using any kind of library or
+[00:08:15] design system give this some rounding
+[00:08:18] perfect uh and then I'm also going to
+[00:08:20] take these two guys and we are going to
+[00:08:22] control alt G them command alt G of
+[00:08:24] course if you are command option G if
+[00:08:26] you are on a Mac so now they're set up
+[00:08:28] together the three of them are set up
+[00:08:29] together which means I should be able to
+[00:08:32] increase this to say 120 look at that
+[00:08:34] perfect uh what we don't actually want
+[00:08:36] though is so let's just make the whole
+[00:08:38] thing wider so we're going to just do a
+[00:08:39] fixed width uh no oh yeah okay it was
+[00:08:43] stretching the uh the radius there
+[00:08:45] around the corners and I was like H it's
+[00:08:46] not what I want but it fixed it when I
+[00:08:47] let go of the keyboard so when I let go
+[00:08:48] of the mouse rather so then we also at
+[00:08:51] this point now I think we want to do the
+[00:08:53] it's this one right justify content
+[00:08:54] space between boom okay that's looking
+[00:08:57] pretty good pretty similar to our
+[00:08:58] reference image over here uh I'm noting
+[00:09:01] that it's not telling me okay here's the
+[00:09:03] height 72 I was going to say looked like
+[00:09:04] we weren't fully rounding our Corners
+[00:09:06] we'll just bump this up to 40 it should
+[00:09:07] be extra that's fine also going to come
+[00:09:10] grab all of these guys and give them
+[00:09:12] maybe like a four pixel uh rounding
+[00:09:15] probably do the same for everybody up
+[00:09:16] here dig it okay sweet even even you
+[00:09:18] mister you're going to get actually 16
+[00:09:21] nice okay this one here let's copy paste
+[00:09:25] put it into a grouping give it a flex
+[00:09:27] layout go left to right
+[00:09:30] uh and they're both a little big so if
+[00:09:31] we can select them let's say we only
+[00:09:33] want you to be 200 pixels wide great uh
+[00:09:36] we also probably only want uh the four
+[00:09:39] maybe eight I'm all over the place here
+[00:09:41] this is super inconsistent we're going
+[00:09:42] to hug or as they call it fit content we
+[00:09:46] need a little bit of a gap here okay
+[00:09:48] looking good looking good uh there's a
+[00:09:50] footer here I mean let's not be lazy
+[00:09:51] let's go make the footer okay um
+[00:09:54] actually going to copy the header bring
+[00:09:57] that down and then at that point I also
+[00:09:58] am going to want to I wonder if there's
+[00:10:01] a different way can I make this like
+[00:10:02] attached specifically to the bottom I'm
+[00:10:05] also noticing I think I'm going to want
+[00:10:06] to add a padding to the header
+[00:10:08] specifically padding to the have here
+[00:10:10] 2840 let's give this
+[00:10:13] 2840 and then uh we're also going to
+[00:10:15] have to redo the little nope that wasn't
+[00:10:17] what we wanted we wanted it filled that
+[00:10:18] was my bad we want the height yes the
+[00:10:20] height is going to fit content go back
+[00:10:21] to the parent board let's zero out those
+[00:10:24] margins this one probably also needs the
+[00:10:26] 2840 since I copied it before that H the
+[00:10:29] height perfect it's not going to have
+[00:10:31] this friend technically not going to
+[00:10:33] have either of those uh but it is going
+[00:10:35] to have another one of those and another
+[00:10:38] one of these as well as can I there we
+[00:10:41] go one of those there we go I make this
+[00:10:43] guy you know kick and Giggles we Mak
+[00:10:46] 56 uh they're all a little bit bigger
+[00:10:48] than they probably should have been I'm
+[00:10:49] seeing that now wire frames for the text
+[00:10:51] boxes wireframe elements that's okay
+[00:10:53] yeah I think we're going to come back up
+[00:10:54] I found it earlier don't don't tell me
+[00:10:56] the answer I know I can find it uh so it
+[00:10:58] was under layout I'm pretty sure right
+[00:10:59] I'm not seeing it now where did it go it
+[00:11:03] Corners it's this it's absolute there we
+[00:11:04] go okay so it's an absolute guy now so
+[00:11:06] we can bring him down to the
+[00:11:08] bottom and we're going to give him we're
+[00:11:10] going to make sure that this board has a
+[00:11:12] fill it's a pretty light fill not all
+[00:11:14] the way white it's a little uh a little
+[00:11:16] sticky there didn't quite grab the way I
+[00:11:18] wanted but that's okay sweet H that
+[00:11:20] inadvertently happens to be almost the
+[00:11:21] same as my background can we change that
+[00:11:23] please yeah perfect this little off dark
+[00:11:25] blue there all right so we're only
+[00:11:26] missing uh one thing and it's pretty
+[00:11:28] close to this guy's size so we're going
+[00:11:29] to pop him in there I'm going to grab
+[00:11:31] each of these now I'm going to let's see
+[00:11:33] is there a way to like automatically
+[00:11:35] throw them into a layout so your
+[00:11:36] keyboard shortcut for that add Flex
+[00:11:38] layout and I probably should have known
+[00:11:39] that keystroke as well would have been
+[00:11:41] smart if I would have tried it first you
+[00:11:42] know so we don't want 120 here let's
+[00:11:44] just try 32 out looking not too bad uh
+[00:11:48] and it's starting to make me think that
+[00:11:49] if I no because there is I see that this
+[00:11:50] is like not centered vertically so in
+[00:11:52] some ways like that's almost right where
+[00:11:54] I want it you know I don't have like
+[00:11:55] maybe this button here that's next to
+[00:11:56] the logo not too worri about that one
+[00:11:58] for now uh all in all uh I mean I've got
+[00:12:00] a really basic wireframe now here that
+[00:12:02] is replicating this web page I feel like
+[00:12:03] this is pretty similar to what I would
+[00:12:04] have created in another Tool uh 100% I
+[00:12:07] did not explore all of the features I
+[00:12:08] didn't really dig super deep but this
+[00:12:10] was again my very first time ever using
+[00:12:11] pen poot so I just wanted to get in here
+[00:12:13] kind of see if I got you know an
+[00:12:14] understanding could get a grip for all
+[00:12:15] of the controls and not really feel too
+[00:12:17] lost so I feel like I was able to
+[00:12:18] accomplish that I got this basic
+[00:12:19] wireframe going now and yeah it's it's
+[00:12:21] cool I think I'm going to spend a little
+[00:12:22] more time trying to D with pin poot
+[00:12:24] moving forward thanks for watching be
+[00:12:26] sure to follow And subscribe trusty bits
+[00:12:28] if you want to see anything more about
+[00:12:29] penot or other design tools and software

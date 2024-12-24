@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-from .views import RegisterView, LoginView, TranscriptAnalysisView, QueryView, ChatSessionView
+from .views import RegisterView, LoginView, TranscriptAnalysisView, QueryView, ChatSessionView, WaitListView
 
 urlpatterns = [
     path('register/', views.RegisterView.as_view(), name='register'),
@@ -13,4 +13,5 @@ urlpatterns = [
     path('analyze-transcript/', views.TranscriptAnalysisView.as_view(), name='analyze-transcript'),
     path('query/', views.QueryView.as_view(), name='query'),
     path('chat-sessions/', ChatSessionView.as_view(), name='chat_sessions'),  # New endpoint
+    path('wait-list/', WaitListView.as_view(), name='wait_list'),  # New endpoint
 ]

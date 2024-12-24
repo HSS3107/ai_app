@@ -4,7 +4,6 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.decorators import api_view
 from django.contrib.auth import authenticate
-from .serializers import UserSerializer
 from . import podcast_utils
 import logging
 import traceback
@@ -15,7 +14,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.decorators import api_view
 from .models import ChatSession  # Import the ChatSession model
-from .serializers import UserSerializer, ChatSessionSerializer  # Ensure you have a serializer for ChatSession
+from .serializers import UserSerializer, ChatSessionSerializer, WaitListSerializer  # Ensure you have a serializer for ChatSession
 from django.contrib.auth.models import User
 # ... (other imports)
 
@@ -167,3 +166,25 @@ class ChatSessionView(APIView):
         
         logger.error(f"Serializer errors: {serializer.errors}")
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+class WaitListView(APIView):
+    def post(self, request):
+        logger.info(f"Received wait list request data: {request.data}")
+        
+        serializer = WaitListSerializer(data=request.data)
+        
+        if serializer.is_valid():
+            try:
+                wait_lister = serializer.save()
+                return Response({
+                    'message': 'Wait lister added successfully!',
+                    'id': wait_lister.id
+                }, status=status.HTTP_201_CREATED)
+            except Exception as e:
+                logger.error(f"Error creating waitlister: {str(e)}")
+                return Response({
+                    'error': 'Failed to create waitlister',
+                    'detail': str(e)
+                }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)  # Added this return statement
