@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+import dj_database_url
+import logging.config
 
 
 load_dotenv()  # This loads the variables from .env
@@ -22,6 +24,7 @@ load_dotenv()  # This loads the variables from .env
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -32,7 +35,7 @@ SECRET_KEY = 'django-insecure-oxchz10h0zzb@v!9*c*1)*v0%(#_7==67xp^6a%0#sf2mor2)#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','127.0.0.1','www.backend.diveinyt.com','backend.diveinyt.com']
 
 
 # Application definition
@@ -91,14 +94,9 @@ WSGI_APPLICATION = 'ai_project.wsgi.application'
 # }
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'Harshit',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default= os.environ.get('DATABASE_URL')
+    )
 }
 
 
@@ -187,3 +185,46 @@ PINECONE_API_KEY = os.getenv('PINECONE_API_KEY_1')
 PINECONE_API_ENV = os.getenv('PINECONE_API_ENV')
 PINECONE_INDEX_NAME = os.getenv('PINECONE_INDEX_NAME')
 YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{asctime} {levelname} {module} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'django.log',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'myapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    },
+}
+
+logging.config.dictConfig(LOGGING)
