@@ -1,1 +1,10 @@
 2024-12-25 09:00:03,594 INFO autoreload Watching for file changes with StatReloader
+2024-12-25 09:06:19,213 INFO autoreload Watching for file changes with StatReloader
+2024-12-25 09:07:21,877 INFO basehttp "OPTIONS /api/analyze-transcript/ HTTP/1.1" 200 0
+2024-12-25 09:08:01,104 INFO basehttp "POST /api/analyze-transcript/ HTTP/1.1" 200 20351
+2024-12-25 09:08:01,114 INFO basehttp "OPTIONS /api/chat-sessions/ HTTP/1.1" 200 0
+2024-12-25 09:08:01,137 INFO basehttp "POST /api/chat-sessions/ HTTP/1.1" 201 57
+2024-12-25 09:11:45,469 INFO basehttp "POST /api/analyze-transcript/ HTTP/1.1" 200 20281
+2024-12-25 09:11:45,495 INFO basehttp "POST /api/chat-sessions/ HTTP/1.1" 201 57
+2024-12-25 09:29:16,897 INFO autoreload /Users/Harshit/ai_app/ai_project/ai_project/urls.py changed, reloading.
+2024-12-25 09:29:17,494 INFO autoreload Watching for file changes with StatReloader
