@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_053118
+Document ID: f9d056f1-35fb-4033-9bd5-34a7754db52a
+
+Document Information:
+title: f9d056f1 35fb 4033 9bd5 34a7754db52a
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-26T05:31:12.825063
+metadata: {}

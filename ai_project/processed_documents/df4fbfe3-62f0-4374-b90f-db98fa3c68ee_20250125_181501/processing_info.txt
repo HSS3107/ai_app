@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_181501
+Document ID: df4fbfe3-62f0-4374-b90f-db98fa3c68ee
+
+Document Information:
+title: df4fbfe3 62f0 4374 b90f db98fa3c68ee
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T18:14:52.206531
+metadata: {}

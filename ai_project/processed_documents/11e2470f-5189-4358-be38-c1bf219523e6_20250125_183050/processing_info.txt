@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_183050
+Document ID: 11e2470f-5189-4358-be38-c1bf219523e6
+
+Document Information:
+title: 11e2470f 5189 4358 be38 c1bf219523e6
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:30:44.219561
+metadata: {}

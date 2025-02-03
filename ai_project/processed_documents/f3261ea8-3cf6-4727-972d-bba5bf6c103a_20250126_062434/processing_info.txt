@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_062434
+Document ID: f3261ea8-3cf6-4727-972d-bba5bf6c103a
+
+Document Information:
+title: f3261ea8 3cf6 4727 972d bba5bf6c103a
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-26T06:24:26.124793
+metadata: {}

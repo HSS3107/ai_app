@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_063505
+Document ID: 79032145-b89b-466c-b3fd-825a7dca96ba
+
+Document Information:
+title: INSPIRED
+file_type: pdf
+file_size: 1977435
+modification_date: 2025-01-26T06:34:12.069795
+metadata: {}

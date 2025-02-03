@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_202530
+Document ID: ebfacb54-60dc-4588-a98a-b6a8a14db387
+
+Document Information:
+title: ebfacb54 60dc 4588 a98a b6a8a14db387
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T20:25:23.807614
+metadata: {}

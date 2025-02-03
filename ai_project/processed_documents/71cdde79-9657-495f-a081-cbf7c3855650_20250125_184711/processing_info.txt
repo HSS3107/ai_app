@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_184711
+Document ID: 71cdde79-9657-495f-a081-cbf7c3855650
+
+Document Information:
+title: 71cdde79 9657 495f a081 cbf7c3855650
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:47:05.080015
+metadata: {}

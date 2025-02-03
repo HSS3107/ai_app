@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_112418
+Document ID: c0d4e016-750b-4d6f-9621-6e73fd1b5efe
+
+Document Information:
+title: c0d4e016 750b 4d6f 9621 6e73fd1b5efe
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T11:24:10.167231
+metadata: {}

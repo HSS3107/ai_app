@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_210928
+Document ID: 529256a8-c358-468e-8d63-a5f3ae0a83b6
+
+Document Information:
+title: 529256a8 c358 468e 8d63 a5f3ae0a83b6
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T21:09:22.504338
+metadata: {}

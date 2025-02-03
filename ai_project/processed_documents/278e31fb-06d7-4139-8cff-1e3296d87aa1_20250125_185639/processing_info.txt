@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_185639
+Document ID: 278e31fb-06d7-4139-8cff-1e3296d87aa1
+
+Document Information:
+title: 278e31fb 06d7 4139 8cff 1e3296d87aa1
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:56:33.414117
+metadata: {}

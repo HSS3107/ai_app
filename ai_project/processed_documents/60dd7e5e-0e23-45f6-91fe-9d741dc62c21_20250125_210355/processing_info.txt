@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_210355
+Document ID: 60dd7e5e-0e23-45f6-91fe-9d741dc62c21
+
+Document Information:
+title: 60dd7e5e 0e23 45f6 91fe 9d741dc62c21
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T21:03:46.920162
+metadata: {}

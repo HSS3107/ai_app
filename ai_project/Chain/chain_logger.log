@@ -1,0 +1,142 @@
+2025-01-14 13:09:11,463 - app.doc_utils - ERROR - Error processing query: 'RunnableSequence' object has no attribute 'retriever'
+2025-01-14 13:09:11,468 - app.doc_utils - ERROR - Traceback (most recent call last):
+  File "/Users/Harshit/AI PROJECT/ai_project/Backend/app/doc_utils.py", line 1275, in process_query
+    "retriever_type": type(retrieval_chain.retriever).__name__,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5734, in __getattr__
+    attr = getattr(self.bound, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'RunnableSequence' object has no attribute 'retriever'
+
+2025-01-14 13:10:42,448 - app.doc_utils - ERROR - Error logging chain execution: Object of type Document is not JSON serializable
+2025-01-14 13:10:42,448 - app.doc_utils - ERROR - Error processing query: Object of type Document is not JSON serializable
+2025-01-14 13:10:42,449 - app.doc_utils - ERROR - Traceback (most recent call last):
+  File "/Users/Harshit/AI PROJECT/ai_project/Backend/app/doc_utils.py", line 1284, in process_query
+    log_file = chain_logger.log_chain_execution(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Harshit/AI PROJECT/ai_project/Backend/app/doc_utils.py", line 450, in log_chain_execution
+    json.dump(execution_log, f, indent=2, ensure_ascii=False)
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Users/Harshit/.pyenv/versions/3.11.4/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Document is not JSON serializable
+
+2025-01-14 13:16:58,928 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_45b20e38-efe3-49dc-a1aa-0e6c10ea5f85_2a8ca6e5-b9cd-4089-ab2a-a29027c546b2_20250114_131658.json
+2025-01-14 13:18:53,853 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_45b20e38-efe3-49dc-a1aa-0e6c10ea5f85_2a8ca6e5-b9cd-4089-ab2a-a29027c546b2_20250114_131853.json
+2025-01-14 13:21:19,335 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_45b20e38-efe3-49dc-a1aa-0e6c10ea5f85_2a8ca6e5-b9cd-4089-ab2a-a29027c546b2_20250114_132119.json
+2025-01-14 16:57:49,838 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_45b20e38-efe3-49dc-a1aa-0e6c10ea5f85_2a8ca6e5-b9cd-4089-ab2a-a29027c546b2_20250114_165749.json
+2025-01-15 14:26:03,548 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_0bccd3a2-2307-4bd0-aa2c-1a0867434578_fd8c577d-4a1a-4703-9a9c-c7c3209c2193_20250115_142603.json
+2025-01-15 14:26:57,870 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_0bccd3a2-2307-4bd0-aa2c-1a0867434578_fd8c577d-4a1a-4703-9a9c-c7c3209c2193_20250115_142657.json
+2025-01-15 14:29:07,425 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_0bccd3a2-2307-4bd0-aa2c-1a0867434578_fd8c577d-4a1a-4703-9a9c-c7c3209c2193_20250115_142907.json
+2025-01-15 14:29:47,713 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_0bccd3a2-2307-4bd0-aa2c-1a0867434578_fd8c577d-4a1a-4703-9a9c-c7c3209c2193_20250115_142947.json
+2025-01-15 15:11:25,286 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_0bccd3a2-2307-4bd0-aa2c-1a0867434578_fd8c577d-4a1a-4703-9a9c-c7c3209c2193_20250115_151125.json
+2025-01-15 15:14:12,924 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c7ccc834-ea1e-4d43-874e-8977bff69ec5_46ba5b5f-72e7-4c2c-8b48-faeb7c1e5d68_20250115_151412.json
+2025-01-15 15:19:39,777 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c7ccc834-ea1e-4d43-874e-8977bff69ec5_46ba5b5f-72e7-4c2c-8b48-faeb7c1e5d68_20250115_151939.json
+2025-01-15 15:20:26,274 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c7ccc834-ea1e-4d43-874e-8977bff69ec5_46ba5b5f-72e7-4c2c-8b48-faeb7c1e5d68_20250115_152026.json
+2025-01-15 15:35:36,447 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a88381f6-c227-49bf-a324-e1ae8a36b24a_0a515044-b5d1-48ce-aa3e-8f882adaad4a_20250115_153536.json
+2025-01-15 15:46:34,824 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a88381f6-c227-49bf-a324-e1ae8a36b24a_0a515044-b5d1-48ce-aa3e-8f882adaad4a_20250115_154634.json
+2025-01-15 15:50:02,675 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a88381f6-c227-49bf-a324-e1ae8a36b24a_0a515044-b5d1-48ce-aa3e-8f882adaad4a_20250115_155002.json
+2025-01-15 16:10:29,834 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a88381f6-c227-49bf-a324-e1ae8a36b24a_0a515044-b5d1-48ce-aa3e-8f882adaad4a_20250115_161029.json
+2025-01-15 16:13:07,804 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a88381f6-c227-49bf-a324-e1ae8a36b24a_0a515044-b5d1-48ce-aa3e-8f882adaad4a_20250115_161307.json
+2025-01-15 16:56:14,191 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a2d87350-6d36-4bbc-878c-abef5d709440_de147862-5ceb-4fd3-8a7a-0c25df987f88_20250115_165614.json
+2025-01-15 17:03:33,385 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a2d87350-6d36-4bbc-878c-abef5d709440_de147862-5ceb-4fd3-8a7a-0c25df987f88_20250115_170333.json
+2025-01-15 17:11:36,518 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a2d87350-6d36-4bbc-878c-abef5d709440_de147862-5ceb-4fd3-8a7a-0c25df987f88_20250115_171136.json
+2025-01-15 17:18:08,197 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c0887578-6f7b-4390-b980-b847d9edee0e_321a1263-e1f7-48ed-aa52-3156cdf7570d_20250115_171808.json
+2025-01-15 17:19:32,732 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c0887578-6f7b-4390-b980-b847d9edee0e_321a1263-e1f7-48ed-aa52-3156cdf7570d_20250115_171932.json
+2025-01-15 17:36:10,690 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_698d32d3-8bda-423c-83d6-c48cc9b099bd_efcbcf8d-c2fa-42f1-aada-39cc07250547_20250115_173610.json
+2025-01-15 17:50:39,144 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_ecedf977-e22a-4b27-ba51-ca8c97ec038a_695bb2ab-af73-4390-bac8-b89bdd52c405_20250115_175039.json
+2025-01-15 18:27:00,905 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b59eb20f-b4f1-45d2-bd01-ee68244442d2_4aec325c-61ab-4ade-8867-bcd387901655_20250115_182700.json
+2025-01-15 18:30:27,861 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b59eb20f-b4f1-45d2-bd01-ee68244442d2_4aec325c-61ab-4ade-8867-bcd387901655_20250115_183027.json
+2025-01-15 18:37:17,462 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_fe34c04f-7ad7-415b-9cff-d89d91493222_d0b5af9c-32b8-4b3c-a694-a4fe18b9e8b2_20250115_183717.json
+2025-01-15 19:10:25,271 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_490a6f90-6b66-4dc4-9eca-1f09665d809d_bd823b08-4546-4d9f-a536-12129fb7eee4_20250115_191025.json
+2025-01-15 19:24:27,935 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_63828b04-b506-41e9-bcb3-5364da075914_bd823b08-4546-4d9f-a536-12129fb7eee4_20250115_192427.json
+2025-01-15 19:25:18,263 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_63828b04-b506-41e9-bcb3-5364da075914_bd823b08-4546-4d9f-a536-12129fb7eee4_20250115_192518.json
+2025-01-15 19:37:59,044 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_481d08dd-a6ec-45ff-979b-23f335239eed_e6ce4dca-3725-4362-a8f4-33fd51a19e90_20250115_193759.json
+2025-01-15 20:57:29,514 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_a1fd9b27-fac7-47f2-83c1-92f027502277_194cd0e8-a0d4-4d68-b101-499311265f54_20250115_205729.json
+2025-01-15 21:54:05,957 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c8c962c5-aa46-49ee-9287-bae27d1e6000_3c379311-7836-43c4-aa55-f432c35cc032_20250115_215405.json
+2025-01-15 21:55:05,342 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c8c962c5-aa46-49ee-9287-bae27d1e6000_3c379311-7836-43c4-aa55-f432c35cc032_20250115_215505.json
+2025-01-15 21:57:18,573 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c8c962c5-aa46-49ee-9287-bae27d1e6000_3c379311-7836-43c4-aa55-f432c35cc032_20250115_215718.json
+2025-01-15 21:59:36,715 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c8c962c5-aa46-49ee-9287-bae27d1e6000_3c379311-7836-43c4-aa55-f432c35cc032_20250115_215936.json
+2025-01-15 22:04:04,181 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b8726b34-99fa-4db1-a06d-58f8727c8979_3c379311-7836-43c4-aa55-f432c35cc032_20250115_220404.json
+2025-01-15 22:08:34,806 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b17ed2d5-9f9e-4d30-bc1c-4c81e399af9f_47d27409-c07c-499c-bc53-d52f0b80eac0_20250115_220834.json
+2025-01-18 05:18:29,465 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_f0d64d1d-7855-4bd5-a488-9870c3108de3_607f6ad3-c802-4d6d-b6e4-c14f4afec012_20250118_051829.json
+2025-01-18 05:21:19,674 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_9669aef8-3b8c-4546-be32-5260175dc3eb_fe96a83d-775a-477f-a117-544b67960433_20250118_052119.json
+2025-01-18 05:22:07,381 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_9669aef8-3b8c-4546-be32-5260175dc3eb_fe96a83d-775a-477f-a117-544b67960433_20250118_052207.json
+2025-01-18 05:22:39,106 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_9669aef8-3b8c-4546-be32-5260175dc3eb_fe96a83d-775a-477f-a117-544b67960433_20250118_052239.json
+2025-01-18 08:53:38,220 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_592061df-a783-44e3-bd6f-4387e1e1714e_17caba2b-6934-44b7-9fe7-0bbe50eb6df4_20250118_085338.json
+2025-01-18 08:54:50,464 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_592061df-a783-44e3-bd6f-4387e1e1714e_17caba2b-6934-44b7-9fe7-0bbe50eb6df4_20250118_085450.json
+2025-01-18 09:07:15,336 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_8c128006-d196-4b4f-966f-e47d18fbfe66_024388c8-9554-4d82-895a-8b6dc9830918_20250118_090715.json
+2025-01-18 09:07:57,263 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_8c128006-d196-4b4f-966f-e47d18fbfe66_024388c8-9554-4d82-895a-8b6dc9830918_20250118_090757.json
+2025-01-18 09:09:06,338 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_8c128006-d196-4b4f-966f-e47d18fbfe66_024388c8-9554-4d82-895a-8b6dc9830918_20250118_090906.json
+2025-01-18 09:10:13,309 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_8c128006-d196-4b4f-966f-e47d18fbfe66_024388c8-9554-4d82-895a-8b6dc9830918_20250118_091013.json
+2025-01-18 09:13:29,078 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_091329.json
+2025-01-18 09:14:10,777 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_091410.json
+2025-01-18 09:15:23,174 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_091523.json
+2025-01-18 09:16:53,291 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_091653.json
+2025-01-18 09:18:01,379 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_091801.json
+2025-01-18 09:21:06,168 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_092106.json
+2025-01-18 09:21:45,134 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_092145.json
+2025-01-18 09:22:43,904 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_d00fd908-d585-4964-a1d5-933ef5fecffd_03c76426-58f4-47f4-836e-cecacd80bcfa_20250118_092243.json
+2025-01-18 09:40:31,142 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094031.json
+2025-01-18 09:41:25,207 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094125.json
+2025-01-18 09:42:33,816 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094233.json
+2025-01-18 09:43:34,642 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094334.json
+2025-01-18 09:44:06,385 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094406.json
+2025-01-18 09:47:45,424 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094745.json
+2025-01-18 09:48:21,778 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094821.json
+2025-01-18 09:49:31,970 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_094931.json
+2025-01-18 09:50:59,287 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_095059.json
+2025-01-18 09:51:30,983 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_5d05f825-3b16-4fe8-aeca-23b49051a3e0_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_095130.json
+2025-01-18 09:57:02,489 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_81cf6575-8f1e-4719-9d75-49cf3b44f236_79ba098b-2621-4bf6-af6d-dda9f9b33e3e_20250118_095702.json
+2025-01-25 19:03:50,557 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_278e31fb-06d7-4139-8cff-1e3296d87aa1_c8c3a121-5a0d-41f5-be1d-945420d9aa82_20250125_190350.json
+2025-01-25 20:11:53,052 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_3d75f531-b5ab-43ac-a5a5-4dcd742ad61d_7b0399cc-3c7f-49db-b590-146f7fcfca43_20250125_201153.json
+2025-01-25 20:28:45,640 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_ebfacb54-60dc-4588-a98a-b6a8a14db387_7e2805d6-75c4-4e2a-bffc-ddf987410984_20250125_202845.json
+2025-01-25 20:55:04,197 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_db4aa2cf-e4df-4a12-b645-b908cd9d62c1_4b78421c-54ba-4d85-9848-662a50e2f748_20250125_205504.json
+2025-01-25 20:56:56,815 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_db4aa2cf-e4df-4a12-b645-b908cd9d62c1_4b78421c-54ba-4d85-9848-662a50e2f748_20250125_205656.json
+2025-01-25 20:59:28,252 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_db4aa2cf-e4df-4a12-b645-b908cd9d62c1_4b78421c-54ba-4d85-9848-662a50e2f748_20250125_205928.json
+2025-01-25 21:01:44,962 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_db4aa2cf-e4df-4a12-b645-b908cd9d62c1_4b78421c-54ba-4d85-9848-662a50e2f748_20250125_210144.json
+2025-01-25 21:07:16,231 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_60dd7e5e-0e23-45f6-91fe-9d741dc62c21_f8d21cb1-3691-449b-8f3d-f2f628c877ad_20250125_210716.json
+2025-01-25 21:10:58,550 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_529256a8-c358-468e-8d63-a5f3ae0a83b6_9c203d59-b597-4c5b-9a48-53ca4c484ff6_20250125_211058.json
+2025-01-25 21:11:53,709 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_529256a8-c358-468e-8d63-a5f3ae0a83b6_9c203d59-b597-4c5b-9a48-53ca4c484ff6_20250125_211153.json
+2025-01-26 05:25:07,908 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_8632b689-2206-48c1-9ada-d9018f190d45_e0eea173-5845-4c8a-80c8-c441c73ba842_20250126_052507.json
+2025-01-26 06:26:00,235 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_f3261ea8-3cf6-4727-972d-bba5bf6c103a_4862771b-0bb7-45ce-b1d8-faf9aa16097b_20250126_062600.json
+2025-01-26 06:26:25,206 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_f3261ea8-3cf6-4727-972d-bba5bf6c103a_4862771b-0bb7-45ce-b1d8-faf9aa16097b_20250126_062625.json
+2025-01-26 06:44:35,173 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_31179bb9-94a2-4b7d-b170-bd92eb4292f7_1e8ccf2b-c238-4cda-97dc-34bcd2e4ccf1_20250126_064435.json
+2025-01-29 17:35:10,469 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_61f1b4bf-ce90-4b31-a4f1-d9d784ab6875_e67db1c1-d2cf-42ea-adfb-98f32c92e385_20250129_173510.json
+2025-01-30 18:43:36,545 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_935f9618-cd8b-42db-9ef5-3f6d622c5bcb_751ee603-aef1-4fc1-a033-8f4ac86a3d06_20250130_184336.json
+2025-02-01 11:25:35,837 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_43d3be62-1788-46a2-a28e-0f58a1e094d1_ee0888c4-6bfe-4c6a-9a33-6228cab91fda_20250201_112535.json
+2025-02-01 11:34:50,115 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_43d3be62-1788-46a2-a28e-0f58a1e094d1_ee0888c4-6bfe-4c6a-9a33-6228cab91fda_20250201_113450.json
+2025-02-01 11:45:44,689 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_43d3be62-1788-46a2-a28e-0f58a1e094d1_ee0888c4-6bfe-4c6a-9a33-6228cab91fda_20250201_114544.json
+2025-02-01 18:46:40,448 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_f744a871-92a4-4090-84c6-8a7a676ef9ad_efae9d35-7023-49b5-ab2c-f662d0894730_20250201_184640.json
+2025-02-01 18:49:10,686 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_f744a871-92a4-4090-84c6-8a7a676ef9ad_efae9d35-7023-49b5-ab2c-f662d0894730_20250201_184910.json
+2025-02-01 19:13:46,686 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c334eb55-b441-4f8f-ba3e-597caf5f5b29_6a2b8e90-78d1-4e51-9115-9f5969674fd9_20250201_191346.json
+2025-02-02 08:35:56,930 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c3be9160-4f8f-4d8e-875c-cba5e9e7f310_7eb1627f-5b6a-45ef-8352-86ae5a4f68d5_20250202_083556.json
+2025-02-02 08:37:04,018 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_c3be9160-4f8f-4d8e-875c-cba5e9e7f310_7eb1627f-5b6a-45ef-8352-86ae5a4f68d5_20250202_083704.json
+2025-02-02 08:44:39,684 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_044857d8-1ff4-45b3-9c02-2c5caef4683f_2d92a5ec-5db7-4204-a419-425ef93a2637_20250202_084439.json
+2025-02-02 09:05:40,865 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_de7afc40-3509-42ac-bb46-80f1719b2707_033e40a5-72e1-4478-abf6-b698f26e2e12_20250202_090540.json
+2025-02-02 09:19:07,885 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_875cf9be-c770-4f84-a99c-902f9adbcf64_06411c02-0012-494a-b4c4-fb57c7cd7385_20250202_091907.json
+2025-02-02 09:24:25,638 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_875cf9be-c770-4f84-a99c-902f9adbcf64_06411c02-0012-494a-b4c4-fb57c7cd7385_20250202_092425.json
+2025-02-02 09:25:49,119 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_875cf9be-c770-4f84-a99c-902f9adbcf64_06411c02-0012-494a-b4c4-fb57c7cd7385_20250202_092549.json
+2025-02-02 09:28:57,101 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b70e58e6-1aa8-4805-9d60-44f5aff29134_1e113c3d-5da6-4fcf-8c52-0e6a174589c4_20250202_092857.json
+2025-02-02 09:30:54,360 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_b70e58e6-1aa8-4805-9d60-44f5aff29134_1e113c3d-5da6-4fcf-8c52-0e6a174589c4_20250202_093054.json
+2025-02-02 09:40:54,423 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_6600a73c-9c11-45b9-8bd2-ba141e6628b1_73add777-0b1a-4175-996f-2da47b32cc19_20250202_094054.json
+2025-02-02 09:48:20,928 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_434bc98c-f74a-4914-ac06-6dda2f7165e7_417ca646-d24e-4c9e-8360-f2a3fc9d0fbc_20250202_094820.json
+2025-02-02 10:14:04,687 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_18cb0920-c373-4f6f-a3d8-f722c65d1ec0_ed07da47-5370-4cfb-80c4-c054631b6329_20250202_101404.json
+2025-02-02 10:15:02,239 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_18cb0920-c373-4f6f-a3d8-f722c65d1ec0_ed07da47-5370-4cfb-80c4-c054631b6329_20250202_101502.json
+2025-02-02 10:16:38,602 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_18cb0920-c373-4f6f-a3d8-f722c65d1ec0_ed07da47-5370-4cfb-80c4-c054631b6329_20250202_101638.json
+2025-02-02 12:07:17,505 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_55c552f9-a8ba-4271-8c2d-e56a532168d2_1dadaf3a-145e-4200-9690-e691c7dd0ed9_20250202_120717.json
+2025-02-02 12:19:59,171 - app.chainlogger - INFO - Chain execution log saved to: Chain/chain_execution_e7e7e1e5-5ce6-436c-b367-a62eae83de7d_4a611ea4-8767-4501-90b7-c1ba061953eb_20250202_121959.json

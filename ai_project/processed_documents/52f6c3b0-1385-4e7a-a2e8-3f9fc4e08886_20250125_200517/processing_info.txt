@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_200517
+Document ID: 52f6c3b0-1385-4e7a-a2e8-3f9fc4e08886
+
+Document Information:
+title: 52f6c3b0 1385 4e7a a2e8 3f9fc4e08886
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T20:05:12.084198
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250118_095609
+Document ID: 81cf6575-8f1e-4719-9d75-49cf3b44f236
+
+Document Information:
+title: 81cf6575 8f1e 4719 9d75 49cf3b44f236
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-18T09:56:00.394445
+metadata: {}

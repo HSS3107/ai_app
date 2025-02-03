@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_113036
+Document ID: 1e689dff-1a61-45c4-8349-59afbf9580d8
+
+Document Information:
+title: 1e689dff 1a61 45c4 8349 59afbf9580d8
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T11:30:27.730935
+metadata: {}

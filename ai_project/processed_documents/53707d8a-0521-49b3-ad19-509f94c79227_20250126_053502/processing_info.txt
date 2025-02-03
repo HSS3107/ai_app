@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_053502
+Document ID: 53707d8a-0521-49b3-ad19-509f94c79227
+
+Document Information:
+title: 53707d8a 0521 49b3 ad19 509f94c79227
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-26T05:34:54.363730
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_112621
+Document ID: f6b70341-596d-48b8-843a-adbe836558e6
+
+Document Information:
+title: f6b70341 596d 48b8 843a adbe836558e6
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T11:26:12.755397
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_204953
+Document ID: b7f56bc0-563b-4df3-a37b-6b13342b3667
+
+Document Information:
+title: b7f56bc0 563b 4df3 a37b 6b13342b3667
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T20:49:47.789424
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_113645
+Document ID: ff25d8ec-1079-491d-b4b8-0be457391e1d
+
+Document Information:
+title: ff25d8ec 1079 491d b4b8 0be457391e1d
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T11:36:36.471213
+metadata: {}

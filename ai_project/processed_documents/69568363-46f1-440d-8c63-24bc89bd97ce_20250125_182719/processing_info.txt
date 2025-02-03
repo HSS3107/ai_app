@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_182719
+Document ID: 69568363-46f1-440d-8c63-24bc89bd97ce
+
+Document Information:
+title: 69568363 46f1 440d 8c63 24bc89bd97ce
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T18:27:10.556273
+metadata: {}

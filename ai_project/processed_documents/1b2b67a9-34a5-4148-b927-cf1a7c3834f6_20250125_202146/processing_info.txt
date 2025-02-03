@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_202146
+Document ID: 1b2b67a9-34a5-4148-b927-cf1a7c3834f6
+
+Document Information:
+title: 1b2b67a9 34a5 4148 b927 cf1a7c3834f6
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T20:21:40.045196
+metadata: {}

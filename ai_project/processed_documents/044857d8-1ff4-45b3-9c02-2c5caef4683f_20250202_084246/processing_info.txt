@@ -1,0 +1,9 @@
+Processing timestamp: 20250202_084246
+Document ID: 044857d8-1ff4-45b3-9c02-2c5caef4683f
+
+Document Information:
+title: Think and Grow Rich by Napoleon Hill
+file_type: pdf
+file_size: 1603550
+modification_date: 2025-02-02T08:42:16.761155
+metadata: {'author': 'Brod', 'creation_date': "D:20110606185308+01'00'", 'modification_date': 'Unknown', 'subject': 'Free Digital Download PDF eBook Edition', 'producer': 'OpenOffice.org 3.2'}

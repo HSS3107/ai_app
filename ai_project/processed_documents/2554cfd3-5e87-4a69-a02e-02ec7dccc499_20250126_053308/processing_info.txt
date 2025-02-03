@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_053308
+Document ID: 2554cfd3-5e87-4a69-a02e-02ec7dccc499
+
+Document Information:
+title: 2554cfd3 5e87 4a69 a02e 02ec7dccc499
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-26T05:32:59.249857
+metadata: {}

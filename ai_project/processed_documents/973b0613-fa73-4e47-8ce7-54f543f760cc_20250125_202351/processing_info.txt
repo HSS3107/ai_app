@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_202351
+Document ID: 973b0613-fa73-4e47-8ce7-54f543f760cc
+
+Document Information:
+title: 973b0613 fa73 4e47 8ce7 54f543f760cc
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T20:23:45.447573
+metadata: {}

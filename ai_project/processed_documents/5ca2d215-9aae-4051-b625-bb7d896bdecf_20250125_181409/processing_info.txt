@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_181409
+Document ID: 5ca2d215-9aae-4051-b625-bb7d896bdecf
+
+Document Information:
+title: 5ca2d215 9aae 4051 b625 bb7d896bdecf
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:14:03.087190
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_184154
+Document ID: 9f39b17c-98cc-4cd2-a6fd-c579dc8ba038
+
+Document Information:
+title: 9f39b17c 98cc 4cd2 a6fd c579dc8ba038
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:41:48.974152
+metadata: {}

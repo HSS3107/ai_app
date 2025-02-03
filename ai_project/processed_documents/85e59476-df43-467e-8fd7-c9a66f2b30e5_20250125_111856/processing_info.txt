@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_111856
+Document ID: 85e59476-df43-467e-8fd7-c9a66f2b30e5
+
+Document Information:
+title: 85e59476 df43 467e 8fd7 c9a66f2b30e5
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T11:18:48.322102
+metadata: {}

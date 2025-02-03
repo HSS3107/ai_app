@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_093123
+Document ID: cc1fb8ac-48fb-46cb-9bea-0887fdff7d69
+
+Document Information:
+title: cc1fb8ac 48fb 46cb 9bea 0887fdff7d69
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-25T09:31:14.592322
+metadata: {}

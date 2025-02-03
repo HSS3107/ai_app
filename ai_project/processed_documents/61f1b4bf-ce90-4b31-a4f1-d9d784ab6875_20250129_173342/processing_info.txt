@@ -1,0 +1,9 @@
+Processing timestamp: 20250129_173342
+Document ID: 61f1b4bf-ce90-4b31-a4f1-d9d784ab6875
+
+Document Information:
+title: 61f1b4bf ce90 4b31 a4f1 d9d784ab6875
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-29T17:33:33.620325
+metadata: {}

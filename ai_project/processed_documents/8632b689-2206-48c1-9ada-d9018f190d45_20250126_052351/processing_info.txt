@@ -1,0 +1,9 @@
+Processing timestamp: 20250126_052351
+Document ID: 8632b689-2206-48c1-9ada-d9018f190d45
+
+Document Information:
+title: 8632b689 2206 48c1 9ada d9018f190d45
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-26T05:23:41.920601
+metadata: {}

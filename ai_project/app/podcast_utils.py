@@ -20,16 +20,28 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.schema import Document
 from collections import Counter
 import tiktoken
+from sentence_transformers import SentenceTransformer, util
+import torch
 from langchain.vectorstores import FAISS
+from rank_bm25 import BM25Okapi
+import numpy as np
+from datetime import datetime
+from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.messages import AIMessage, HumanMessage
+import json
 import logging
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
+import bs4
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from .models import ChatSession
@@ -39,8 +51,11 @@ from django.apps import apps
 
 
 
+
+
+
 # Set up logging
-# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 def load_environment_variables():
@@ -318,6 +333,13 @@ def setup_llm_chain(retriever):
     logger.info("INITIALIZING LLM CHAIN")
     logger.info(f"{'='*100}")
     
+    # Configure retriever
+    retriever.search_kwargs.update({
+        "k": 5,  # Increase number of retrieved chunks
+        "fetch_k": 10,  # Fetch more candidates for reranking
+        "score_threshold": 0.5,  # Minimum similarity score
+    })
+    
     # Log retriever configuration
     logger.info("\n[RETRIEVER CONFIGURATION]")
     logger.info(f"Retriever type: {type(retriever).__name__}")
@@ -401,45 +423,45 @@ def setup_llm_chain(retriever):
     logger.info(f"\n{'='*100}")
     return retrieval_chain
 
-def process_query(retrieval_chain, query, video_id, video_title, content_map, chat_history):
-    try:
-        # Get the conversation history for this video
-        messages = chat_manager.get_history(video_id)
+# def process_query(retrieval_chain, query, video_id, video_title, content_map, chat_history):
+#     try:
+#         # Get the conversation history for this video
+#         messages = chat_manager.get_history(video_id)
         
-        # Prepare the input with all necessary context
-        chain_input = {
-            "input": query,
-            "chat_history": messages,
-            "video_title": video_title,
-            "content_map": content_map
-        }
+#         # Prepare the input with all necessary context
+#         chain_input = {
+#             "input": query,
+#             "chat_history": messages,
+#             "video_title": video_title,
+#             "content_map": content_map
+#         }
         
-        # Log the input for debugging
-        logger.debug(f"Chain input for video {video_id}: {chain_input}")
+#         # Log the input for debugging
+#         logger.debug(f"Chain input for video {video_id}: {chain_input}")
         
-        # Execute the chain
-        response = retrieval_chain.invoke(chain_input)
+#         # Execute the chain
+#         response = retrieval_chain.invoke(chain_input)
         
-        # Extract the answer
-        answer = response.get('answer', "I couldn't generate a response.")
+#         # Extract the answer
+#         answer = response.get('answer', "I couldn't generate a response.")
         
-        # Update the chat history
-        chat_manager.add_message(video_id, HumanMessage(content=query))
-        chat_manager.add_message(video_id, AIMessage(content=answer))
+#         # Update the chat history
+#         chat_manager.add_message(video_id, HumanMessage(content=query))
+#         chat_manager.add_message(video_id, AIMessage(content=answer))
         
-        # Update the chat_history list for backward compatibility
-        chat_history.append({"role": "user", "content": query})
-        chat_history.append({"role": "assistant", "content": answer})
+#         # Update the chat_history list for backward compatibility
+#         chat_history.append({"role": "user", "content": query})
+#         chat_history.append({"role": "assistant", "content": answer})
         
-        # Log the result for debugging
-        logger.debug(f"Generated answer for video {video_id}: {answer}")
+#         # Log the result for debugging
+#         logger.debug(f"Generated answer for video {video_id}: {answer}")
         
-        return answer, chat_history
+#         return answer, chat_history
 
-    except Exception as e:
-        logger.error(f"Error processing query for video_id {video_id}: {str(e)}")
-        logger.error(traceback.format_exc())
-        return f"An error occurred while processing your query: {str(e)}", chat_history
+#     except Exception as e:
+#         logger.error(f"Error processing query for video_id {video_id}: {str(e)}")
+#         logger.error(traceback.format_exc())
+#         return f"An error occurred while processing your query: {str(e)}", chat_history
 
 def create_conversation_graph(retrieval_chain, video_title, content_map):
     # Define the node that processes the conversation
@@ -668,7 +690,7 @@ def process_video(video_id):
                 f.write(original_transcript)
 
             # Generate and save content map
-            content_map = generate_content_map(video_id, video_info)
+            content_map = 'null'
             os.makedirs(os.path.dirname(content_map_path), exist_ok=True)
             with open(content_map_path, 'w', encoding='utf-8') as f:
                 f.write(content_map)
@@ -695,7 +717,10 @@ def process_video(video_id):
         store_summary(video_id, content_map)
 
         # Set up the retrieval chain
-        retriever = vector_store.as_retriever()
+        retriever = vector_store.as_retriever(
+            search_type="similarity",  # or "mmr" for maximum marginal relevance
+            search_kwargs={"k": 4}     # specify number of top results to return
+            )
         retrieval_chain = setup_llm_chain(retriever)
 
         # Initialize conversation app for this video
@@ -734,21 +759,28 @@ def process_video(video_id):
         logger.error(f"Unexpected error processing video ID {video_id}: {str(e)}")
         logger.error(traceback.format_exc())
         return None, None, None, None, None, None
+    
 
 
-def perform_keyword_research(transcript):
-    words = transcript.lower().split()
-    word_count = Counter(words)
-    keywords = word_count.most_common(20)
-    return keywords
 
-def convert_to_document(item):
-    if isinstance(item, str):
-        return Document(page_content=item)
-    elif hasattr(item, 'page_content'):
-        return item
-    else:
-        return Document(page_content=str(item))
+
+
+# def perform_keyword_research(transcript):
+#     words = transcript.lower().split()
+#     word_count = Counter(words)
+#     keywords = word_count.most_common(20)
+#     return keywords
+
+# def convert_to_document(item):
+#     if isinstance(item, str):
+#         return Document(page_content=item)
+#     elif hasattr(item, 'page_content'):
+#         return item
+#     else:
+#         return Document(page_content=str(item))
+    
+
+
 
 
 

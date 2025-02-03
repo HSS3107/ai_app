@@ -1,0 +1,260 @@
+Title: Xbox Lost the Console War. Now It’s Redefining Gaming. | WSJ The Economics Of
+Channel: The Wall Street Journal
+Published: 2024-09-17T14:01:00Z
+Duration: PT6M36S
+Description: Xbox lost the console war to Nintendo and Sony’s PlayStation, but that doesn’t mean it’s out of the fight. A few years ago, Microsoft launched Game Pass, a subscription service that lets users play Xbox games on devices other than its namesake console. Now, other major tech companies like Nvidia and Amazon are jumping into the subscription gaming world. 
+
+WSJ explains whether Microsoft’s pivot will pay off and what it could mean for the future of the console. 
+
+Location: Retro Giant, Romford, U.K.
+
+Chapters:
+0:00 Microsoft’s subscription service
+0:35 Why Xbox lost the console war
+1:46 Xbox Game Pass
+4:09 Obstacles facing Xbox
+5:46 The future of the console
+
+The Economics Of
+How do the world's most successful companies generate revenue? In this explainer series, we'll dive into the surprising stories behind how businesses work--exploring everything from Costco's "treasure-hunt" model to the economics behind Amazon's AWS.
+
+#Xbox #Gaming #WSJ
+
+Transcript:
+
+[00:00:00] - [Narrator] This is the Xbox Series X,
+[00:00:04] Microsoft's most powerful
+flagship console.
+[00:00:06] For a long time, you needed an Xbox
+[00:00:09] to play games like
+"Halo" or "Gears of War".
+[00:00:11] Then Microsoft decided you don't.
+[00:00:14] So it launched a monthly
+subscription service
+[00:00:16] that lets users play the
+latest games on a bunch
+[00:00:19] of other devices, but it's
+increasingly competitive
+[00:00:23] and will take a lot of
+investment to make it work.
+[00:00:25] So, will this shift pay off?
+[00:00:28] And what does it mean for
+the future of the console?
+[00:00:31] This is The Economics of Xbox.
+[00:00:35] Today, with more than 30 game studios,
+[00:00:37] Xbox is an industry mainstay,
+[00:00:39] - But it had to really earn
+that position in the market.
+[00:00:41] - [Narrator] The console
+war began in the 1970s
+[00:00:44] when video game companies
+started competing
+[00:00:46] to create a more powerful
+console and win more customers.
+[00:00:50] By the '90s, the biggest players
+[00:00:51] were Sony, Nintendo, and Sega.
+[00:00:54] And in 1997, consumer spending on consoles
+[00:00:56] surpassed arcades for the first time.
+[00:00:59] A few years later,
+Microsoft entered the scene
+[00:01:02] with its first generation Xbox.
+[00:01:04] To entice customers into their ecosystems,
+[00:01:06] most of these companies
+tried to keep the prices
+[00:01:08] on their consoles as low as possible,
+[00:01:11] selling them at a loss.
+[00:01:13] Xbox loses up to $200 per console,
+[00:01:16] but the brands made up the
+difference by selling games
+[00:01:18] and other accessories.
+[00:01:20] - The more consoles you sell,
+the more software you're going
+[00:01:24] to sell with it.
+[00:01:25] - [Narrator] The PlayStation
+[00:01:26] outsold the Xbox every single time.
+[00:01:29] Microsoft only came close to beating Sony
+[00:01:32] with the Xbox 360.
+[00:01:33] Analysts say this was
+because the PlayStation 3,
+[00:01:36] which ran customers up to
+$600, was priced too high,
+[00:01:40] but the Xbox lost ground
+with the next generation,
+[00:01:43] and ultimately, it lost the console war.
+[00:01:47] In 2017, Xbox launched Game Pass,
+[00:01:49] positioning itself as a services brand.
+[00:01:52] - It's more interested in
+making content available
+[00:01:54] to people, whatever device
+they choose to play on.
+[00:01:57] - [Narrator] Game Pass
+is a tiered service.
+[00:01:59] The least expensive plans
+offer gaming on either console
+[00:02:02] or PC, and the most expensive
+plan has multi-device gaming
+[00:02:06] and other features like
+streaming games from the cloud
+[00:02:08] and access to certain games
+the day they're released.
+[00:02:11] In essence, Microsoft is betting
+[00:02:13] that it can get more customers
+[00:02:14] if they don't have to buy a console.
+[00:02:16] This model also gives the company
+[00:02:18] a recurring revenue stream,
+so it doesn't have to rely
+[00:02:21] as much on blockbuster successes.
+[00:02:23] - So Game Pass solves the
+problem on the consumer side
+[00:02:25] by making lots of content
+available for cheap,
+[00:02:28] and on the business or
+the supply side in terms
+[00:02:30] of offsetting the financial volatility
+[00:02:33] associated with entertainment.
+[00:02:34] - [Narrator] Microsoft's
+head of gaming, Phil Spencer,
+[00:02:36] has said Game Pass is profitable.
+[00:02:38] - And I think it will
+stay in that 10 to 15%
+[00:02:41] of our overall revenue.
+[00:02:42] - [Narrator] But Microsoft
+isn't the only one
+[00:02:44] stepping into the subscription world.
+[00:02:46] In 2022, Sony merged its
+subscription services,
+[00:02:49] PlayStation Plus and PlayStation Now,
+[00:02:52] and relaunched it to
+compete with Game Pass.
+[00:02:54] There are two key things
+that give Microsoft an edge.
+[00:02:57] First, it's a much larger company
+[00:02:59] with lots and lots of money.
+[00:03:01] And for the past decade, Microsoft
+has been using that money
+[00:03:04] to acquire game studios,
+beefing up its library.
+[00:03:07] In 2014, it bought Mojang,
+the maker of "Minecraft"
+[00:03:10] for $2.5 billion.
+[00:03:12] In 2021, it bought ZeniMax Media,
+[00:03:15] owner of "Fallout" and
+"Doom" for $8.1 billion,
+[00:03:19] and in 2023, it finalized the purchase
+[00:03:21] of Activision Blizzard,
+the maker of "Call of Duty"
+[00:03:24] and "Candy Crush" for $75.4 billion.
+[00:03:28] - To put it in perspective,
+that is a little bit less
+[00:03:31] than what Sony makes annually.
+[00:03:32] - [Narrator] Second, as
+a giant tech company,
+[00:03:34] Microsoft owns lots and
+lots of data centers,
+[00:03:38] over 300 worldwide.
+[00:03:39] Some of which help support
+Game Pass and cloud gaming.
+[00:03:42] - The incumbents like Nintendo and Sony,
+[00:03:45] they live and die on great content,
+[00:03:47] and this magnificent retail distribution
+[00:03:50] infrastructure that they've built.
+[00:03:51] So it's in Microsoft's interest
+[00:03:53] to push into its data centers
+[00:03:56] and its infrastructure in the cloud,
+[00:03:58] because it can't beat Sony
+and Nintendo at retail.
+[00:04:01] - [Narrator] This puts it in an arena
+[00:04:03] that mainly other massive tech companies
+[00:04:04] like Amazon, Nvidia, and
+Google can really compete in,
+[00:04:08] but there are lots of obstacles.
+[00:04:10] To start, adoption has been slow.
+[00:04:12] In 2020, it targeted 71%
+subscriber growth and reached 86%,
+[00:04:16] but the following year, it fell short.
+[00:04:19] And in 2022, it missed
+its target by a long shot.
+[00:04:22] - Some people are just not comfortable
+[00:04:24] with the idea of not
+actually owning a game.
+[00:04:26] They may wanna play a game,
+put it down for six months
+[00:04:29] and pick it up later, or
+a year later, or more,
+[00:04:31] and it may not be in
+the subscription service
+[00:04:34] anymore after that time.
+[00:04:36] - [Narrator] So as of 2024,
+[00:04:37] Game Pass has amassed
+34 million subscribers.
+[00:04:40] Some of the biggest challenges
+are specific to cloud gaming.
+[00:04:43] A feature included in
+Game Pass's top tier.
+[00:04:46] Traditionally, game data was
+stored locally on cartridges,
+[00:04:49] disks, or downloaded
+straight to the console.
+[00:04:52] With online multiplayer games,
+[00:04:54] data like each player's
+actions were streamed.
+[00:04:57] But with cloud gaming, the
+entire game is streamed
+[00:04:59] to your device, which can be laggy.
+[00:05:01] - If it's a competitive game,
+[00:05:02] a millisecond can mean the difference
+[00:05:04] between winning and losing.
+[00:05:05] - [Narrator] Cloud gaming is
+also expensive to operate.
+[00:05:08] - The economics have changed,
+[00:05:10] but they haven't immediately changed to,
+[00:05:13] you know, only run a profit.
+[00:05:15] Both of those offerings, whether those
+[00:05:16] are product-based and conventional,
+[00:05:18] or whether they are
+streaming and more digital,
+[00:05:21] both of those run at a loss in principle,
+[00:05:24] but to recuperate and that to
+earn money in those contexts
+[00:05:27] is a very different proposition.
+[00:05:29] - [Narrator] One report
+found that just 6% of gamers
+[00:05:31] around the world were subscribed
+[00:05:32] to a cloud gaming service in 2023.
+[00:05:35] Still, experts believe it
+will grow substantially.
+[00:05:38] - Cloud gaming is one
+of those few components
+[00:05:40] where they could possibly thrive and lead,
+[00:05:43] even if that's a much more
+modestly sized industry.
+[00:05:46] - [Narrator] Microsoft isn't getting rid
+[00:05:47] of the Xbox anytime soon.
+[00:05:49] Later this year, it will
+release new versions
+[00:05:51] of its current generation,
+the series X and S,
+[00:05:54] but it's clear that Xbox views
+its content as the future
+[00:05:57] of the company, not its hardware.
+[00:06:00] - It is incredibly difficult
+for these large companies,
+[00:06:02] in spite of their resources,
+to be agile and innovative.
+[00:06:06] And so, you know, they're
+always watching someone else
+[00:06:08] just run the show.
+[00:06:10] And so in many ways, you
+could make the argument
+[00:06:12] that the current effort and
+investment towards Game Pass,
+[00:06:15] and X Cloud, and all of the
+things that they're building
+[00:06:18] and acquiring goes towards
+perhaps finally being
+[00:06:21] in the driver's seat for the first time,
+[00:06:23] - [Narrator] Giving it the chance
+[00:06:24] to win whatever the
+new gaming war will be.
+[00:06:27] (screen buzzes)
+(relaxing music)

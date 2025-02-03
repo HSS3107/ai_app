@@ -1,0 +1,373 @@
+Title: LlamaParse: Convert PDF (with tables) to Markdown
+Channel: Alejandro AO - Software & Ai
+Published: 2024-06-05T05:07:00Z
+Duration: PT15M55S
+Description: In this video tutorial, you'll learn how to parse a PDF file and convert it into a markdown file using an API from Lama Index. This method allows you to parse more complex parts of the PDF, such as tables, which can be a headache when using simple methods like OCR.
+
+Useful links:
+👉 Notebook: https://colab.research.google.com/drive/18KB9yXxDUeQGrEZEP1eCrXQ0dNB-Oazm?usp=sharing
+☎️ Get something like this for your company: https://link.alejandro-ao.com/consulting-call
+💬 Join the Discord Help Server: https://link.alejandro-ao.com/HrFKZn 
+❤️ Buy me a coffee... or a beer (thanks): https://link.alejandro-ao.com/l83gNq 
+✉️ Get the Newsletter: https://link.alejandro-ao.com/AIIguB
+
+Timestamps:
+0:00 - Introduction
+2:02 - What is LlamaParse?
+3:43 - Setup
+6:41 - Parse the PDF
+11:40 - Add a prompt to the parser
+15:10 Conclusion
+
+Learn how to parse a PDF file and convert it to markdown using LlamaParse API in this step-by-step tutorial. This method uses generative AI during the ingestion process to help you understand your document better, especially when dealing with tabular data. LlamaParse supports various file types, including PDF, PowerPoint, and Word documents, and offers a generous free plan of 1,000 pages per day. 
+
+By the end of this video, you'll know how to install Lama Pars, download and parse your PDF file, and export the markdown file. You'll also learn how to add a prompt to LlamaParse to summarize or perform other actions on your document.
+
+Transcript:
+
+[00:00:00] good morning everyone how's it going
+[00:00:02] today welcome back to the channel in
+[00:00:04] today's video I am going to show you how
+[00:00:06] to parse a PDF file and how to convert
+[00:00:10] it into a markdown file and this is very
+[00:00:13] interesting not because we're not going
+[00:00:15] to be using a regular method just like
+[00:00:18] OCR or just regular PDF uh loaders from
+[00:00:22] other libraries but right here we're
+[00:00:24] going to be using an API from Lama index
+[00:00:27] and it is going to allow us to parse the
+[00:00:29] PDF and to also parse a little bit more
+[00:00:32] complex parts of the PDF like tables and
+[00:00:35] if you have been building rag
+[00:00:37] applications for a while you know that
+[00:00:39] parsing tables can be a headache if
+[00:00:41] you're using simple methods like OCR to
+[00:00:44] parse your PDF documents right now the
+[00:00:46] reason for this is that when you're
+[00:00:48] using OCR for parsing this kind of
+[00:00:51] documents you're going to get a simple
+[00:00:54] line for each line of your table and in
+[00:00:56] a table of course each element of the
+[00:00:59] table uh contains information not only
+[00:01:01] related to its line but also to its
+[00:01:03] column and Performing simple OCR is not
+[00:01:06] going to allow you to get that
+[00:01:08] information and if you send just the
+[00:01:10] line information to your language model
+[00:01:13] the language model is most likely not
+[00:01:14] going to be able to interpret that
+[00:01:16] information so the idea right here is
+[00:01:19] that we're going to be using lamap pars
+[00:01:21] API to send this document to their API
+[00:01:24] and in return we will get a markdown
+[00:01:26] file that looks something like this and
+[00:01:29] as you can see it it has the tables in
+[00:01:32] markdown format so this is the kind of
+[00:01:36] uh format that you can send to your
+[00:01:38] language model and it is going to be
+[00:01:40] able to interpret this and it is going
+[00:01:42] to then allow you to have a chat with
+[00:01:45] your PDF application with table tables
+[00:01:48] or with tabular data okay so let's
+[00:01:51] actually get to to do this with Lama
+[00:01:54] pars
+[00:01:57] [Music]
+[00:02:03] all right so quick um just quick
+[00:02:05] explanation of what Lama pars is it is
+[00:02:07] an API by L index you can send your
+[00:02:10] files to this API and it will return to
+[00:02:13] you the structure data from this file
+[00:02:16] and something pretty interesting about
+[00:02:17] this um ingestion method is that they
+[00:02:20] use generative AI during the ingestion
+[00:02:22] process in regular rag uh Frameworks or
+[00:02:26] rag workflows the generative AI actually
+[00:02:29] comes at the end of the process which
+[00:02:31] means that when you're only actually
+[00:02:33] just sending the data to your language
+[00:02:35] model and getting the result back what
+[00:02:38] they do is they actually use gen AI
+[00:02:40] during the ingestion process to allow
+[00:02:42] you to understand your document a little
+[00:02:45] bit better uh during the parsing process
+[00:02:49] and they support several types of files
+[00:02:51] they support PDF PowerPoint uh Word
+[00:02:54] documents Etc probably going to be
+[00:02:56] making more videos about this if you're
+[00:02:58] interested uh but yeah I mean Ian the
+[00:03:00] idea right here is that it is an API and
+[00:03:02] you can basically just parse documents
+[00:03:04] without having to create your own um
+[00:03:07] data transformation uh pipeline so you
+[00:03:11] just send the your document to their API
+[00:03:14] and you get the structure data in return
+[00:03:18] um and of course they have a paid plan
+[00:03:21] um but they also offer a super generous
+[00:03:24] free plan of a thousand Pages a day
+[00:03:26] which is super cool so I really
+[00:03:28] encourage you to use this in uh your
+[00:03:31] projects if you're parsing less than a
+[00:03:33] thousand projects a day it's completely
+[00:03:35] free and yeah so let's actually get
+[00:03:38] right into into building into parsing
+[00:03:41] this document so let's do that all right
+[00:03:44] so we're at our Google collab file just
+[00:03:48] making sure that you see everything
+[00:03:49] that's going on right here um and what
+[00:03:52] we're going to be doing is we're going
+[00:03:54] to first install lamap pars and then
+[00:03:56] we're going to download this file that
+[00:03:58] we have right here so so the first thing
+[00:04:00] to do is install LMA pars and in order
+[00:04:02] to do this all you have to do is to pip
+[00:04:05] install LMA pars and there you go and of
+[00:04:09] course if you're creating your own
+[00:04:10] application in your virtual environment
+[00:04:13] don't don't forget to create your
+[00:04:15] virtual environment before doing this
+[00:04:18] and once that is done
+[00:04:20] oops and once that is done we're going
+[00:04:23] to be able to just download the file
+[00:04:26] that I showed you just a second ago and
+[00:04:29] in all the to do this I'm just going to
+[00:04:30] use W
+[00:04:32] get and there you go so in I mean just
+[00:04:35] to be sure that you understand what's
+[00:04:36] going on here W get just downloads the
+[00:04:39] file that I have right here and I say
+[00:04:41] that I want to download it into the
+[00:04:44] Apple low d10k PDF file file and as you
+[00:04:49] can see I have it right here already so
+[00:04:52] there you go now the next thing to do in
+[00:04:54] order to set up this um this uh project
+[00:04:58] is we're going to want to oops we're
+[00:05:01] going to want to create a we're going to
+[00:05:05] want to initialize Nest ASN K and this
+[00:05:09] you're only have to you you're only
+[00:05:12] going to have to do this if you're in a
+[00:05:14] Jupiter notebook or a callup notebook
+[00:05:17] because LMA pars which is the API that
+[00:05:20] we're going to be using remember that it
+[00:05:21] is an async um we're going to be using
+[00:05:25] async method methods and async methods
+[00:05:28] are not to work in a cab notebook so
+[00:05:31] this is only for this to work in a cab
+[00:05:33] this is not necessarily related
+[00:05:36] to to the to the API itself now let's
+[00:05:41] just initialize our API key that we just
+[00:05:45] created and we're going to name it Lama
+[00:05:47] Cloud API key it is important to name it
+[00:05:50] that way because that is the name that
+[00:05:52] um lama lama par method is going to look
+[00:05:54] for in your environment variables and
+[00:05:57] here you have my API key which you can
+[00:06:00] of course copy but it's going to be
+[00:06:01] useless because I will have already
+[00:06:04] disabled it by the time this video is up
+[00:06:06] so there you go now that this is done I
+[00:06:09] mean to be clear this is the place where
+[00:06:11] you're going to put the API key that you
+[00:06:14] can get from here so you go to cloud.
+[00:06:18] Lam index. you create an account you go
+[00:06:21] to API keys let me just zoom in a little
+[00:06:24] bit go to API
+[00:06:26] keys and you Cate and generate new key
+[00:06:29] and this is where you're going to create
+[00:06:31] your API key and then you're going to
+[00:06:33] paste it right here all right so once
+[00:06:36] that is done we can actually start
+[00:06:38] parsing our document so let's do that
+[00:06:40] right now great so in order to parse our
+[00:06:44] file the only thing that we're going to
+[00:06:45] want to do is we're going to import oh
+[00:06:48] wait from LMA
+[00:06:51] pars we're going to import Lama pars
+[00:06:54] itself like
+[00:06:56] this there you go and then we can just
+[00:06:59] just actually initialize our we can just
+[00:07:03] I mean literally just call it and it's
+[00:07:05] going to return to us what we want so
+[00:07:07] I'm going to call it
+[00:07:10] document and this one we're just going
+[00:07:13] to call Lama
+[00:07:15] pars like
+[00:07:18] this and the first um argument right
+[00:07:22] here is going to be the the target uh
+[00:07:25] format that you want your your structure
+[00:07:28] document to be and in our case we want
+[00:07:30] it to be let me just call it it is
+[00:07:33] result
+[00:07:35] type and this one is going to be
+[00:07:37] markdown like that then we do dot load
+[00:07:42] data and right here we're just going to
+[00:07:44] send our actual PDF file so I'm actually
+[00:07:48] going to come right here click on copy
+[00:07:52] path for this file right here and I'm
+[00:07:56] just going to paste it
+[00:07:59] right here like that so I'm going to
+[00:08:02] execute this and it's probably going to
+[00:08:03] take a little bit of time because it's
+[00:08:05] oh well that was pretty fast and let's
+[00:08:08] see what document looks
+[00:08:11] like as you can see it is quite long let
+[00:08:14] me just put this right here there you go
+[00:08:19] so as you can see it is quite long let's
+[00:08:21] see what we have to show right here so
+[00:08:24] at the beginning it is a list apparently
+[00:08:27] it contains a document with an ID
+[00:08:30] embedding non metadata I mean you can
+[00:08:31] all of course add metadata as well
+[00:08:34] within this method and right here we
+[00:08:37] have the text um uh property and this is
+[00:08:41] the text that is contained in the entire
+[00:08:44] PDF and as you can see we have tabular
+[00:08:47] data right here so that's looking pretty
+[00:08:49] good let me show you real quick how it
+[00:08:51] looks like so I am going to come right
+[00:08:55] here and I'm going to do
+[00:08:58] print going to do
+[00:09:02] document and as you have saw as you saw
+[00:09:06] this is um an array or a list and the
+[00:09:09] first element is the only document that
+[00:09:11] we have right here so I'm going to do
+[00:09:13] zero and as I show you as I showed you
+[00:09:17] the contents are actually within text so
+[00:09:19] I'm going to show you text I'm going to
+[00:09:21] show you the first thousand characters
+[00:09:23] so let's see how that looks like and
+[00:09:25] there you go here you have your actual
+[00:09:27] PD uh markdown file for your for your
+[00:09:31] PDF with tabular data in markdown that
+[00:09:34] was pretty easy okay so great job uh
+[00:09:37] good job so far um now I'm going to show
+[00:09:40] you something super cool which is that
+[00:09:42] you can actually add a prompt to to Lama
+[00:09:45] pars to tell Lama pars what the document
+[00:09:48] is about because remember that Lama pars
+[00:09:50] uses generative AI during the parsing
+[00:09:53] process um yeah so you can actually add
+[00:09:55] a prompt to to Lama parts to actually
+[00:09:58] tell it what to document is about and
+[00:10:00] what you want um the parser to do with
+[00:10:02] it because you can even ask it to
+[00:10:04] summarize it if you want uh so I'm going
+[00:10:07] to show you that in a moment let me just
+[00:10:08] actually export the markdown file for
+[00:10:11] you so that you see what's actually
+[00:10:12] going on um here we actually named it
+[00:10:16] document so I'm just I mean just to be
+[00:10:19] clear what is going on right here I am
+[00:10:21] creating a new file called Apple 10K MD
+[00:10:25] and I am writing into it the contents of
+[00:10:28] document zero
+[00:10:29] uh. text which are basically just this I
+[00:10:32] mean the contents that were exported
+[00:10:35] from the from the PDF so I'm just going
+[00:10:38] to run this right
+[00:10:40] here and as you can see I have it right
+[00:10:44] here let me just download
+[00:10:46] it um
+[00:10:49] download and let's just open that file
+[00:10:52] to see how how it looks
+[00:10:54] like um so just going to open a new
+[00:10:58] window
+[00:11:00] here and the downloaded file is
+[00:11:04] actually this one right
+[00:11:06] here so there we go let me just zoom in
+[00:11:10] a little
+[00:11:11] bit so there we go as you can see this
+[00:11:14] is the actual file that was
+[00:11:21] here this is pretty much the same file
+[00:11:24] and all the tabular data is in markdown
+[00:11:27] so this is going to be super useful for
+[00:11:28] you if you want to create your rag
+[00:11:30] application that uh that is going to
+[00:11:32] perform chat with your PDF and your PDF
+[00:11:35] has a lot of um PD of tabular data so
+[00:11:39] there you go that's good now let's
+[00:11:42] actually focus on creating a parser um
+[00:11:46] that is going to take a prompt and
+[00:11:48] that's actually very simple let's just
+[00:11:50] go back to
+[00:11:53] our let's just go back here and right
+[00:11:57] here what we're going to do is we're
+[00:11:59] going to add another um element to this
+[00:12:03] thing right here so we're going to say
+[00:12:07] documents with
+[00:12:13] instruction and we're going to also call
+[00:12:15] LMA Parts like
+[00:12:18] this and here just like before we're
+[00:12:21] going to do let me just copy it it's
+[00:12:22] going to be easier like
+[00:12:25] that we're going to say
+[00:12:30] let's do it like
+[00:12:31] this L Parts the result app is going to
+[00:12:34] be marked down we're going to load the
+[00:12:36] data from here
+[00:12:38] but apart from this we're going to pass
+[00:12:42] in another parameter that is going to be
+[00:12:45] parsing let me just save parsing
+[00:12:49] instruction and this is basically just a
+[00:12:52] string and you can pass in any kind of
+[00:12:56] um instruction you want you can ask it
+[00:12:58] to summarize the document you can ask it
+[00:13:00] to make a list of your tables you can
+[00:13:03] ask it whatever you want uh in this case
+[00:13:05] I'm just going to say this is the Apple
+[00:13:10] annual
+[00:13:13] report it's going to run this probably
+[00:13:16] going to take a little bit more time in
+[00:13:17] my experience when you use a prompt it
+[00:13:19] actually takes a little bit longer but
+[00:13:23] yeah I mean let me just pause the video
+[00:13:25] and show you when it is done
+[00:13:31] and there we
+[00:13:32] go our documents with the instructions
+[00:13:35] having parts let's actually just take a
+[00:13:37] look at them and see what they look like
+[00:13:39] so I'm going to do I'm going to do
+[00:13:41] pretty much the same thing as I did up
+[00:13:42] here just going to export it but I'm
+[00:13:44] going to export the documents with
+[00:13:47] instruction this time and I'm going to
+[00:13:49] save it into Apple 10K
+[00:13:54] instruction and let's see so now we
+[00:13:57] should come right here we should be able
+[00:13:58] to come here and download this right
+[00:14:01] here let's go to
+[00:14:04] code and here is our file so let's see
+[00:14:07] how it looks like um as you can see it
+[00:14:10] updated the title to actually represent
+[00:14:12] what the what I told it what I told the
+[00:14:15] language model that this was about so
+[00:14:18] you can see that this is the it's titled
+[00:14:20] annual
+[00:14:21] report and yeah I mean it didn't change
+[00:14:24] um many other things other than that but
+[00:14:26] this can be very useful if you
+[00:14:27] especially if you have a little bit more
+[00:14:29] complex data and you want for example a
+[00:14:32] summary of it instead of getting uh
+[00:14:35] instead of doing all of the ingestion by
+[00:14:37] yourself and trying to summarize your
+[00:14:39] own document by yourself you can just
+[00:14:42] use LMA pars and just ask it to
+[00:14:44] summarize a given part or the tables Etc
+[00:14:48] and this is going to probably give you
+[00:14:49] better result than better results than
+[00:14:52] if you were doing this by yourself so
+[00:14:55] there you go let me just show you how it
+[00:14:58] looks like in action ual uh markdown so
+[00:15:02] there we go so you can you can see that
+[00:15:05] you have the tabular data right
+[00:15:09] here yeah so everything seems to be
+[00:15:12] working correctly pretty good so there
+[00:15:14] you go that was house to bar that was
+[00:15:15] house to pars a PDF document using LMA
+[00:15:18] pars I hope that you found it useful and
+[00:15:20] yeah let me know if you're interested in
+[00:15:22] more videos about Lama index and Lama
+[00:15:24] Parts in general and yeah I'll see you
+[00:15:28] next time
+[00:15:29] [Music]
+[00:15:51] [Music]

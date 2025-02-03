@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_182043
+Document ID: 150cb94d-07ca-440e-b509-97d6ba2e34d4
+
+Document Information:
+title: 150cb94d 07ca 440e b509 97d6ba2e34d4
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T18:20:37.276034
+metadata: {}

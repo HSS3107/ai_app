@@ -1,0 +1,9 @@
+Processing timestamp: 20250125_104906
+Document ID: c789315b-5a92-43d3-a073-334c4da26c7a
+
+Document Information:
+title: c789315b 5a92 43d3 a073 334c4da26c7a
+file_type: pdf
+file_size: 357961
+modification_date: 2025-01-25T10:49:00.206082
+metadata: {}

@@ -1,0 +1,9 @@
+Processing timestamp: 20250130_184156
+Document ID: 935f9618-cd8b-42db-9ef5-3f6d622c5bcb
+
+Document Information:
+title: 935F9618 Cd8B 42Db 9Ef5 3F6D622C5Bcb
+file_type: pdf
+file_size: 2324567
+modification_date: 2025-01-30T18:41:47.622450
+metadata: {'author': 'Tan Kiat Wee', 'creation_date': "D:20050818122246+08'00'", 'modification_date': "D:20060208135311+08'00'", 'subject': 'Unknown', 'producer': 'Acrobat Distiller 5.0.5 (Windows)'}
