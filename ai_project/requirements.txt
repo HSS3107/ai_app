@@ -288,7 +288,6 @@ youtube-transcript-api==0.6.2
 yt-dlp==2023.9.24
 nltk>=3.8.1
 spacy>=3.7.2
-en-core-web-sm>=3.7.0
 langchain-openai>=0.0.5
 langchain>=0.1.0
 langchain-core>=0.1.0
