@@ -65,7 +65,6 @@ google-auth==2.34.0
 google-auth-httplib2==0.2.0
 google-cloud-speech==2.11.0
 googleapis-common-protos==1.65.0
-googletrans==4.0.0rc1
 gptcache==0.1.44
 grpcio==1.66.1
 grpcio-status==1.66.1
