@@ -283,7 +283,6 @@ srsly
 stack-data
 striprtf
 svgwrite
-sympy
 tabulate
 tenacity
 tensorboardX
