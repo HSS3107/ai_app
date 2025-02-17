@@ -33,8 +33,9 @@ SECRET_KEY = 'django-insecure-oxchz10h0zzb@v!9*c*1)*v0%(#_7==67xp^6a%0#sf2mor2)#
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'diveinyt.com',
-    'backend.diveinyt.com'
+    "backend.diveinyt.com",
+    "diveinyt.com"
+    
 ]
 
 
@@ -72,7 +73,7 @@ ROOT_URLCONF = 'ai_project.urls'
 
 # Allow frontend origin
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Adjust this based on where your frontend is running
+    "https://diveinyt.com",  # Adjust this based on where your frontend is running
 ]
 
 # Alternatively, allow all origins (for development purposes):
