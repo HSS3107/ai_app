@@ -34,9 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'diveinyt.com',
-    'backend.diveinyt.com',
-    'www.diveinyt.com',
-    'www.backend.diveinyt.com'
+    'backend.diveinyt.com'
 ]
 
 
