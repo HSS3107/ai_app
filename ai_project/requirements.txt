@@ -32,5 +32,4 @@ rest_framework_simplejwt
 sentence_transformers
 spacy
 tiktoken
-torch
 youtube_transcript_api
