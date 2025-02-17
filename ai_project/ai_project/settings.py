@@ -33,7 +33,10 @@ SECRET_KEY = 'django-insecure-oxchz10h0zzb@v!9*c*1)*v0%(#_7==67xp^6a%0#sf2mor2)#
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    'diveinyt.com',
+    'backend.diveinyt.com',
+    'www.diveinyt.com',
+    'www.backend.diveinyt.com'
 ]
 
 
