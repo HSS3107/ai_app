@@ -9,10 +9,10 @@ from googleapiclient.errors import HttpError
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 # from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models import ChatOpenAI
 import traceback
 from pinecone import Pinecone
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain, xyz
+from langchain.chains.history_aware_retriever import create_history_aware_retriever
+from langchain.chains.retrieval import create_retrieval_chain
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
 from langchain_core.prompts import MessagesPlaceholder
 from langchain_pinecone import PineconeVectorStore
@@ -24,7 +24,6 @@ import logging
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
-from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings
@@ -35,7 +34,6 @@ from django.apps import apps
 
 
 
-abc = xyz
 
 
 

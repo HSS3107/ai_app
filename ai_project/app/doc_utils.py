@@ -32,10 +32,6 @@ from typing import List
 from langchain_core.documents import Document
 from .chainlogger import ChainLogger
 
-from llama_parse import LlamaParse
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
-from llama_index.core.schema import Document
-
 from pydantic import Field
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.documents import Document
