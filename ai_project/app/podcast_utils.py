@@ -11,37 +11,22 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 import traceback
-from pinecone import Pinecone, ServerlessSpec
-from langchain.chains import LLMChain, create_history_aware_retriever, create_retrieval_chain
+from pinecone import Pinecone
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain, xyz
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
 from langchain_core.prompts import MessagesPlaceholder
 from langchain_pinecone import PineconeVectorStore
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.schema import Document
-from collections import Counter
 import tiktoken
-from sentence_transformers import SentenceTransformer, util
-import torch
 from langchain.vectorstores import FAISS
-from rank_bm25 import BM25Okapi
-import numpy as np
-from datetime import datetime
-from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.messages import AIMessage, HumanMessage
-import json
 import logging
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
-import bs4
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_community.document_loaders import WebBaseLoader
-from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
-from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from .models import ChatSession
@@ -50,7 +35,7 @@ from django.apps import apps
 
 
 
-
+abc = xyz
 
 
 
