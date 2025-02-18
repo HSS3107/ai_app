@@ -72,7 +72,8 @@ ROOT_URLCONF = 'ai_project.urls'
 
 # Allow frontend origin
 CORS_ALLOWED_ORIGINS = [
-    "https://diveinyt.com",  # Adjust this based on where your frontend is running
+    "https://diveinyt.com", # Adjust this based on where your frontend is running
+    "http://localhost:3000"
 ]
 
 # Alternatively, allow all origins (for development purposes):
