@@ -31,8 +31,6 @@ djangorestframework-simplejwt
 dnspython
 docx2txt
 emoji
-en-core-web-sm
-en-core-web-trf
 eval_type_backport
 faiss-cpu
 filelock
