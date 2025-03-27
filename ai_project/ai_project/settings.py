@@ -107,6 +107,10 @@ CORS_ALLOW_HEADERS = [
 ]
 
 
+# Ensure preflight requests are allowed
+CORS_PREFLIGHT_MAX_AGE = 86400  # Cache preflight response for 24 hours
+
+
 WSGI_APPLICATION = 'ai_project.wsgi.application'
 
 
