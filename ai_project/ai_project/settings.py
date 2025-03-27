@@ -76,9 +76,32 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
 
-# Alternatively, allow all origins (for development purposes):
-CORS_ALLOW_ALL_ORIGINS = True
 
+
+# # Alternatively, allow all origins (for development purposes):
+# CORS_ALLOW_ALL_ORIGINS = True
+
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
 
 
 WSGI_APPLICATION = 'ai_project.wsgi.application'
