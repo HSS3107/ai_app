@@ -71,19 +71,12 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'ai_project.urls'
 
 
-
 # Allow frontend origin
 CORS_ALLOWED_ORIGINS = [
-    "https://diveinyt.com", # Adjust this based on where your frontend is running
-    "http://localhost:3000",
-    "https://backend.diveinyt.com"
+    "https://diveinyt.com",
+    "https://backend.diveinyt.com",
+    "http://localhost:3000"
 ]
-
-
-
-# # Alternatively, allow all origins (for development purposes):
-# CORS_ALLOW_ALL_ORIGINS = True
-
 
 CORS_ALLOW_METHODS = [
     'DELETE',
@@ -105,10 +98,6 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-
-
-# Ensure preflight requests are allowed
-CORS_PREFLIGHT_MAX_AGE = 86400  # Cache preflight response for 24 hours
 
 
 WSGI_APPLICATION = 'ai_project.wsgi.application'
